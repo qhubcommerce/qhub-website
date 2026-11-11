@@ -145,7 +145,7 @@
     $("#q-minus").addEventListener("click", function () { qty.value = (parseInt(qty.value, 10) || 1) - 1; calc(); });
     $("#q-plus").addEventListener("click", function () { qty.value = (parseInt(qty.value, 10) || 1) + 1; calc(); });
     qty.addEventListener("input", calc);
-    submitForm(form, msg, "Đã nhận đơn. QHUB sẽ gọi xác nhận đơn và phí giao hàng trong giờ làm việc.", function () { form.reset(); calc(); });
+    submitForm(form, msg, "Đã nhận đơn. QHUB sẽ gọi xác nhận trong giờ làm việc. Đơn được miễn phí giao hàng và thanh toán khi nhận hàng.", function () { form.reset(); calc(); });
   }
 
   /* Lead form */
@@ -155,8 +155,8 @@
   function submitForm(form, msgEl, okText, done) {
     form.addEventListener("submit", function (e) {
       e.preventDefault();
-      var bad = $$("[required]", form).filter(function (i) { return !i.value.trim(); });
-      if (bad.length) { msgEl.textContent = "Vui lòng điền đủ các ô bắt buộc."; msgEl.className = msgEl.className.replace(/ ?(ok|err)/g, "") + " err"; bad[0].focus(); return; }
+      var bad = $$("[required]", form).filter(function (i) { return i.type === "checkbox" ? !i.checked : !i.value.trim(); });
+      if (bad.length) { msgEl.textContent = bad[0].type === "checkbox" ? "Vui lòng tích ô đồng ý với Chính sách bảo mật." : "Vui lòng điền đủ các ô bắt buộc."; msgEl.className = msgEl.className.replace(/ ?(ok|err)/g, "") + " err"; bad[0].focus(); return; }
       var phone = $('[type="tel"]', form);
       if (phone && !/^[0-9 +().-]{9,15}$/.test(phone.value.trim())) { msgEl.textContent = "Số điện thoại chưa đúng. Vui lòng kiểm tra lại."; msgEl.className = msgEl.className.replace(/ ?(ok|err)/g, "") + " err"; phone.focus(); return; }
       var data = {};

@@ -15,7 +15,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css?v=20261111b">
+<link rel="stylesheet" href="styles.css?v=20261111c">
 </head>
 <body class="h-body">
 <a class="skip" href="#main">Bỏ qua tới nội dung</a>
@@ -69,9 +69,9 @@
 <section class="h-strip" aria-label="Thông tin mua hàng">
   <div class="wrap">
     <div><b>Mua 2 tặng 1</b>Cứ 2 hộp được tặng thêm 1 hộp, được chọn khác vị.</div>
-    <div><b>Thanh toán khi nhận hàng</b>QHUB gọi xác nhận đơn trước khi giao.</div>
-    <div><b>Túi lọc tiện pha</b>Hộp 30 gói × 3 g, hãm 5 phút là dùng được.</div>
-    <div><b>Sản xuất đạt chuẩn</b>Cơ sở có chứng nhận an toàn thực phẩm.</div>
+    <div><b>Miễn phí giao hàng</b>Giao toàn quốc, không phát sinh phí vận chuyển.</div>
+    <div><b>Thanh toán khi nhận hàng</b>Được kiểm hàng trước khi thanh toán.</div>
+    <div><b>Đổi trả trong 7 ngày</b>Khi lỗi sản xuất, hộp móp méo hoặc giao sai sản phẩm.</div>
   </div>
 </section>
 
@@ -111,7 +111,7 @@
 
 <section class="h-sec" style="padding-top:48px;padding-bottom:56px">
   <div class="wrap">
-    <p class="fine">QHUB HERBAL là thương hiệu thuộc CÔNG TY TNHH QHUB COMMERCE (MSDN 5400570349). Sản phẩm là thực phẩm dạng trà túi lọc, được sản xuất tại cơ sở đạt chứng nhận đủ điều kiện an toàn thực phẩm và tự công bố theo quy định. Sản phẩm không phải là thuốc và không có tác dụng thay thế thuốc chữa bệnh. Phí giao hàng (nếu có) được thông báo khi QHUB gọi xác nhận đơn. Xem <a href="chinh-sach.html#mua-hang">chính sách mua hàng</a> và <a href="chinh-sach.html#doi-tra">đổi trả</a>.</p>
+    <p class="fine">QHUB HERBAL là thương hiệu thuộc CÔNG TY TNHH QHUB COMMERCE (MSDN 5400570349). Sản phẩm là thực phẩm dạng trà túi lọc, được sản xuất tại cơ sở đạt chứng nhận đủ điều kiện an toàn thực phẩm và tự công bố theo quy định. Sản phẩm không phải là thuốc và không có tác dụng thay thế thuốc chữa bệnh. Giá đã bao gồm thuế (nếu có), miễn phí giao hàng toàn quốc, thanh toán khi nhận hàng, đổi trả trong 7 ngày. Xem <a href="chinh-sach.html#mua-hang">chính sách mua hàng</a>, <a href="chinh-sach.html#giao-hang">giao hàng</a> và <a href="chinh-sach.html#doi-tra">đổi trả</a>.</p>
   </div>
 </section>
 </main>
@@ -120,7 +120,7 @@
   <div class="sheet">
     <button class="x" type="button" data-close aria-label="Đóng">×</button>
     <h2 id="order-title">Đặt mua QHUB HERBAL</h2>
-    <p class="sub">105.000đ/hộp · Mua 2 tặng 1 · Thanh toán khi nhận hàng</p>
+    <p class="sub">105.000đ/hộp · Mua 2 tặng 1 · Miễn phí giao hàng · Thanh toán khi nhận hàng</p>
     <form id="order-form" novalidate>
       <input type="hidden" name="_subject" value="[QHUB HERBAL] Đơn hàng mới từ website">
       <input type="hidden" name="_template" value="table">
@@ -136,6 +136,7 @@
         <div><span id="s-qty">2 hộp × 105.000đ</span><span></span></div>
         <div class="gift"><span>Quà tặng</span><span id="s-gift">+1 hộp</span></div>
         <div><span>Tổng số hộp nhận</span><span id="s-get">3 hộp</span></div>
+        <div><span>Phí giao hàng</span><span>Miễn phí</span></div>
         <div class="total"><span>Tạm tính</span><span id="s-total">210.000đ</span></div>
         <span class="hint">Muốn chọn vị khác cho hộp tặng, ghi vào ô ghi chú.</span>
       </div>
@@ -147,6 +148,7 @@
       <input id="o-addr" name="Địa chỉ" required autocomplete="street-address" placeholder="Số nhà, đường, xã/phường, tỉnh/thành">
       <label for="o-note">Ghi chú</label>
       <textarea id="o-note" name="Ghi chú" rows="2" placeholder="Ví dụ: hộp tặng chọn vị Nam Vương"></textarea>
+      <label class="consent"><input type="checkbox" name="Đồng ý xử lý dữ liệu" value="Đồng ý" required> <span>Tôi đồng ý để QHUB COMMERCE dùng thông tin trên để xác nhận, giao đơn và chăm sóc sau bán theo <a href="chinh-sach.html#bao-mat" target="_blank">Chính sách bảo mật</a>.</span></label>
       <button class="btn btn-forest" type="submit">Đặt hàng</button>
       <p class="msg" id="order-msg" role="status"></p>
       <p class="alt">Hoặc gọi/nhắn Zalo <a href="https://zalo.me/0856510113" target="_blank" rel="noopener">0856 510 113</a></p>
@@ -158,7 +160,8 @@
   <div class="wrap">
     <div>
       <h4>CÔNG TY TNHH QHUB COMMERCE</h4>
-      <p>Mã số doanh nghiệp: 5400570349</p>
+      <p class="legal-info">Giấy CN ĐKDN số 5400570349 do Phòng Đăng ký kinh doanh – Sở Tài chính tỉnh Phú Thọ cấp lần đầu ngày 13/04/2026</p>
+      <p>Người đại diện theo pháp luật: Nguyễn Văn Quang</p>
       <p>Trụ sở: Khu Vai, Xã An Nghĩa, Tỉnh Phú Thọ, Việt Nam</p>
       <p>Hotline/Zalo: <a href="tel:0856510113">0856 510 113</a></p>
       <p>Email: <a href="mailto:qhubcommerce@gmail.com">qhubcommerce@gmail.com</a></p>
@@ -169,7 +172,7 @@
     </div>
     <div>
       <h4>Chính sách</h4>
-      <ul><li><a href="chinh-sach.html#mua-hang">Chính sách mua hàng</a></li><li><a href="chinh-sach.html#doi-tra">Đổi trả &amp; giao hàng</a></li><li><a href="chinh-sach.html#bao-mat">Chính sách bảo mật</a></li></ul>
+      <ul><li><a href="chinh-sach.html#mua-hang">Chính sách mua hàng</a></li><li><a href="chinh-sach.html#giao-hang">Giao hàng &amp; kiểm hàng</a></li><li><a href="chinh-sach.html#doi-tra">Đổi trả, hoàn tiền</a></li><li><a href="chinh-sach.html#khieu-nai">Giải quyết khiếu nại</a></li><li><a href="chinh-sach.html#bao-mat">Chính sách bảo mật</a></li></ul>
     </div>
     <div class="legal"><span>© 2026 QHUB Commerce. QHUB HERBAL là thương hiệu của QHUB Commerce.</span><span>qhub.com.vn</span></div>
   </div>
@@ -180,7 +183,7 @@
   <a class="call" href="tel:0856510113" aria-label="Gọi hotline"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 005 5L15 13l5 2v4a2 2 0 01-2 2A16 16 0 013 6a2 2 0 012-2"/></svg></a>
 </div>
 
-<script src="products.js?v=20261111b"></script>
-<script src="main.js?v=20261111b"></script>
+<script src="products.js?v=20261111c"></script>
+<script src="main.js?v=20261111c"></script>
 </body>
 </html>

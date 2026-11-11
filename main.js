@@ -86,6 +86,10 @@
         '<div class="pbody"><h3></h3><p class="ing"></p><p class="desc"></p>' +
         '<div class="price"><span class="now">' + vnd(H.price) + '</span><span class="old">' + vnd(H.priceOld) + '</span><span class="off">-' + pct + '%</span></div>' +
         '<div class="row"><button class="btn btn-forest" type="button" data-buy="' + p.id + '">Mua ngay</button></div></div>';
+      var fb = document.createElement("div"); fb.className = "pfall"; fb.setAttribute("aria-hidden", "true");
+      fb.innerHTML = '<img src="herbal-symbol-white.png" alt=""><b></b><i>QHUB HERBAL</i>';
+      $("b", fb).textContent = p.name;
+      $(".pimg", art).appendChild(fb);
       $(".pimg", art).appendChild(img(p.img, "Hộp " + p.name));
       $("h3", art).textContent = p.name;
       $(".ing", art).textContent = p.ing;

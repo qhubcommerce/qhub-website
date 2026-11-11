@@ -1,11 +1,11 @@
 /* QHUB HERBAL — dữ liệu sản phẩm dùng chung cho trang chủ, trang thương hiệu và trang chi tiết */
 window.QHUB_HERBAL = {
-  priceOld: 160000,
+  priceOld: 140000,
   price: 105000,
-  giftEvery: 3,
+  giftEvery: 2,
   pack: "30 gói × 3 g (tịnh 90 g)",
   brew: "1 túi lọc + 200 ml nước 95–100 °C, hãm 5 phút",
-  galleryLabels: ["Hộp trà", "Combo", "Thành phần trong mỗi túi trà", "Lý do nên chọn", "Cách pha", "Cam kết của QHUB HERBAL"],
+  galleryLabels: ["Hộp trà", "Combo mua 2 tặng 1", "Thành phần trong mỗi túi trà", "Lý do nên chọn", "Cách pha", "Cam kết của QHUB HERBAL"],
   products: [
     {
       id: "dhc", slug: "tra-ca-gai-diep-ha-chau.html",

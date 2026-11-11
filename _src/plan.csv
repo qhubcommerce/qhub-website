@@ -1,0 +1,501 @@
+id,night,topic,slug,title,keyword,intent
+1,1,lich-sale,ngay-sale-doi-la-gi-lich-sale-doi-2027-tren-tiktok-shop-va-shopee,Ngày sale đôi là gì? Lịch sale đôi 2027 trên TikTok Shop và Shopee,lịch sale đôi,kien-thuc
+2,1,tiktok,cach-xay-kenh-tiktok-ban-hang-tu-con-so-0-nam-2026,Cách xây kênh TikTok bán hàng từ con số 0 năm 2026,xây kênh tiktok bán hàng,huong-dan
+3,1,content-tiktok,content-tiktok-ban-hang-12-dang-video-ra-don-deu,Content TikTok bán hàng: 12 dạng video ra đơn đều,content tiktok bán hàng,kien-thuc
+4,1,tiktok-shop,tiktok-shop-la-gi-va-hoat-dong-the-nao-huong-dan-cho-nguoi-moi-2026,TikTok Shop là gì và hoạt động thế nào: hướng dẫn cho người mới 2026,tiktok shop là gì,huong-dan
+5,1,van-hanh-tiktok-shop,van-hanh-tiktok-shop-la-gi-ban-do-cong-viec-hang-ngay-tuan-thang,"Vận hành TikTok Shop là gì: bản đồ công việc hằng ngày, tuần, tháng",vận hành tiktok shop,kien-thuc
+6,1,quang-cao-tiktok,gmv-max-la-gi-huong-dan-chay-quang-cao-tiktok-shop-2026,GMV Max là gì: hướng dẫn chạy quảng cáo TikTok Shop 2026,gmv max là gì,huong-dan
+7,1,phi-san-tiktok-shop,phi-san-tiktok-shop-2026-tong-hop-moi-loai-phi-va-cach-tinh,Phí sàn TikTok Shop 2026: tổng hợp mọi loại phí và cách tính,phí sàn tiktok shop,tim-hieu-chi-phi
+8,1,van-hanh-shopee,van-hanh-shop-shopee-cho-doanh-nghiep-ban-do-cong-viec-2026,Vận hành shop Shopee cho doanh nghiệp: bản đồ công việc 2026,vận hành shopee,kien-thuc
+9,1,quang-cao-shopee,quang-cao-shopee-2026-cac-loai-shopee-ads-va-cach-chon,Quảng cáo Shopee 2026: các loại Shopee Ads và cách chọn,quảng cáo shopee,huong-dan
+10,1,phi-san-shopee,phi-san-shopee-2026-tong-hop-moi-loai-phi-va-cach-tinh,Phí sàn Shopee 2026: tổng hợp mọi loại phí và cách tính,phí sàn shopee,tim-hieu-chi-phi
+11,1,ban-hang-facebook,ban-hang-tren-facebook-nam-2026-con-hieu-qua-khong-va-lam,Bán hàng trên Facebook năm 2026: còn hiệu quả không và làm thế nào,bán hàng trên facebook,huong-dan
+12,1,youtube,xay-kenh-youtube-cho-doanh-nghiep-nam-2026-bat-dau-tu-dau,Xây kênh YouTube cho doanh nghiệp năm 2026: bắt đầu từ đâu,xây kênh youtube doanh nghiệp,kien-thuc
+13,1,instagram,phat-trien-instagram-cho-thuong-hieu-nam-2026,Phát triển Instagram cho thương hiệu năm 2026,phát triển instagram,kien-thuc
+14,1,threads,threads-la-gi-va-doanh-nghiep-co-nen-dung-nam-2026,Threads là gì và doanh nghiệp có nên dùng năm 2026,threads là gì,kien-thuc
+15,1,website-seo,website-ban-hang-chuan-seo-nam-2026-huong-dan-tu-a-den-z,Website bán hàng chuẩn SEO năm 2026: hướng dẫn từ A đến Z,website chuẩn seo,huong-dan
+16,1,lich-sale,ngay-sale-doi-nen-lam-gi-ke-hoach-14-ngay-cho-nha-ban-tiktok-shop,Ngày sale đôi nên làm gì: kế hoạch 14 ngày cho nhà bán TikTok Shop và Shopee,ngày sale đôi nên làm gì,kien-thuc
+17,1,van-hanh-tiktok-shop,quy-trinh-van-hanh-gian-hang-tiktok-shop-cho-doanh-nghiep,Quy trình vận hành gian hàng TikTok Shop cho doanh nghiệp,quy trình vận hành tiktok shop,huong-dan
+18,1,van-hanh-shopee,cach-mo-shop-shopee-cho-doanh-nghiep-tung-buoc,Cách mở shop Shopee cho doanh nghiệp từng bước,mở shop shopee,huong-dan
+19,1,content-tiktok,hook-3-giay-dau-30-cau-mo-dau-giu-chan-nguoi-xem,Hook 3 giây đầu: 30 câu mở đầu giữ chân người xem,hook video tiktok,kien-thuc
+20,1,quang-cao-tiktok,product-gmv-max-thiet-lap-roi-muc-tieu-va-toi-uu,"Product GMV Max: thiết lập, ROI mục tiêu và tối ưu",product gmv max,kien-thuc
+21,2,website-seo,doanh-nghiep-ban-tren-san-co-can-website-rieng-khong,Doanh nghiệp bán trên sàn có cần website riêng không,có cần website riêng,kien-thuc
+22,2,tiktok,thuat-toan-tiktok-hoat-dong-the-nao-hieu-de-khong-dang-bua,Thuật toán TikTok hoạt động thế nào: hiểu để không đăng bừa,thuật toán tiktok,huong-dan
+23,2,tiktok-shop,cach-mo-gian-hang-tiktok-shop-cho-doanh-nghiep-tung-buoc,Cách mở gian hàng TikTok Shop cho doanh nghiệp từng bước,mở gian hàng tiktok shop,huong-dan
+24,2,quang-cao-shopee,quang-cao-tim-kiem-san-pham-shopee-tu-khoa-gia-thau-doi-sanh,"Quảng cáo tìm kiếm sản phẩm Shopee: từ khóa, giá thầu, đối sánh",quảng cáo tìm kiếm shopee,tim-hieu-chi-phi
+25,2,ban-hang-facebook,xay-fanpage-ban-hang-thiet-lap-noi-dung-lich-dang,"Xây fanpage bán hàng: thiết lập, nội dung, lịch đăng",xây fanpage bán hàng,kien-thuc
+26,2,youtube,youtube-shorts-lam-video-ngan-keo-khach-cho-thuong-hieu,YouTube Shorts: làm video ngắn kéo khách cho thương hiệu,youtube shorts bán hàng,kien-thuc
+27,2,instagram,instagram-reels-lam-video-ngan-tang-tiep-can,Instagram Reels: làm video ngắn tăng tiếp cận,instagram reels,kien-thuc
+28,2,lich-sale,ngay-sale-don-giua-thang-ngay-luong-nen-lam-gi-de-khong-lo,"Ngày sale đơn (giữa tháng, ngày lương) nên làm gì để không lỗ",ngày sale đơn nên làm gì,kien-thuc
+29,2,phi-san-tiktok-shop,phi-giao-dich-tiktok-shop-6-tinh-the-nao-tren-tung-don,Phí giao dịch TikTok Shop 6%: tính thế nào trên từng đơn,phí giao dịch tiktok shop,tim-hieu-chi-phi
+30,2,phi-san-shopee,phi-co-dinh-shopee-theo-nganh-hang-cach-tinh-tren-tung-san-pham,Phí cố định Shopee theo ngành hàng: cách tính trên từng sản phẩm,phí cố định shopee,tim-hieu-chi-phi
+31,2,threads,cach-viet-bai-threads-duoc-nhieu-tuong-tac,Cách viết bài Threads được nhiều tương tác,viết bài threads,huong-dan
+32,2,van-hanh-tiktok-shop,thue-agency-van-hanh-tiktok-shop-chi-phi-cach-chon-hop-dong,"Thuê agency vận hành TikTok Shop: chi phí, cách chọn, hợp đồng",agency vận hành tiktok shop,thuong-mai
+33,2,van-hanh-shopee,shopee-mall-dieu-kien-phi-ho-so-dang-ky,"Shopee Mall: điều kiện, phí, hồ sơ đăng ký",shopee mall,tim-hieu-chi-phi
+34,2,content-tiktok,viet-kich-ban-video-tiktok-ban-hang-theo-cong-thuc-4-phan,Viết kịch bản video TikTok bán hàng theo công thức 4 phần,kịch bản video tiktok,huong-dan
+35,2,quang-cao-tiktok,live-gmv-max-day-nguoi-xem-vao-phien-livestream-co-lai,LIVE GMV Max: đẩy người xem vào phiên livestream có lãi,live gmv max,kien-thuc
+36,2,website-seo,geo-la-gi-toi-uu-de-chatgpt-gemini-nhac-toi-thuong-hieu,"GEO là gì: tối ưu để ChatGPT, Gemini nhắc tới thương hiệu",geo là gì,kien-thuc
+37,2,tiktok,dinh-vi-kenh-tiktok-cho-doanh-nghiep-chon-chu-de-chan-dung-khach,"Định vị kênh TikTok cho doanh nghiệp: chọn chủ đề, chân dung khách, giọng điệu",định vị kênh tiktok,kien-thuc
+38,2,tiktok-shop,tiktok-shop-mall-dieu-kien-loi-ich-ho-so-can-chuan-bi,"TikTok Shop Mall: điều kiện, lợi ích, hồ sơ cần chuẩn bị",tiktok shop mall,kien-thuc
+39,2,quang-cao-shopee,quang-cao-kham-pha-shopee-vi-tri-hien-thi-va-khi-nao-dung,Quảng cáo khám phá Shopee: vị trí hiển thị và khi nào dùng,quảng cáo khám phá shopee,kien-thuc
+40,2,ban-hang-facebook,ban-hang-qua-nhom-facebook-xay-cong-dong-khach-quen,Bán hàng qua nhóm Facebook: xây cộng đồng khách quen,bán hàng nhóm facebook,kien-thuc
+41,3,lich-sale,ngay-khong-sale-nen-lam-gi-viec-am-tham-quyet-dinh-doanh-so-thang,Ngày không sale nên làm gì: việc âm thầm quyết định doanh số tháng,ngày thường bán hàng online nên làm gì,kien-thuc
+42,3,youtube,video-dai-tren-youtube-dang-noi-dung-giup-ban-hang-ben,Video dài trên YouTube: dạng nội dung giúp bán hàng bền,video dài youtube,kien-thuc
+43,3,instagram,toi-uu-ho-so-instagram-doanh-nghiep,Tối ưu hồ sơ Instagram doanh nghiệp,tối ưu hồ sơ instagram,kien-thuc
+44,3,van-hanh-tiktok-shop,tu-van-hanh-hay-thue-ngoai-tiktok-shop-so-sanh-chi-phi-that,Tự vận hành hay thuê ngoài TikTok Shop: so sánh chi phí thật,thuê ngoài vận hành tiktok shop,thuong-mai
+45,3,van-hanh-shopee,shop-yeu-thich-va-shop-yeu-thich-tieu-chi-va-cach-dat,Shop Yêu thích và Shop Yêu thích+: tiêu chí và cách đạt,shop yêu thích shopee,huong-dan
+46,3,lich-sale,lich-mega-sale-2027-day-du-cho-nha-ban-hang-online-viet-nam,Lịch mega sale 2027 đầy đủ cho nhà bán hàng online Việt Nam,lịch mega sale 2027,kien-thuc
+47,3,content-tiktok,video-review-san-pham-tren-tiktok-lam-sao-de-that-va-thuyet-phuc,Video review sản phẩm trên TikTok: làm sao để thật và thuyết phục,video review tiktok,huong-dan
+48,3,quang-cao-tiktok,dat-roi-muc-tieu-gmv-max-bao-nhieu-la-dung,Đặt ROI mục tiêu GMV Max bao nhiêu là đúng,roi mục tiêu gmv max,tim-hieu-chi-phi
+49,3,phi-san-tiktok-shop,phi-hoa-hong-nen-tang-tiktok-shop-theo-nganh-hang,Phí hoa hồng nền tảng TikTok Shop theo ngành hàng,phí hoa hồng tiktok shop,tim-hieu-chi-phi
+50,3,phi-san-shopee,phi-xu-ly-giao-dich-shopee-6-phi-thanh-toan-ap-dung,Phí xử lý giao dịch Shopee 6% (phí thanh toán): áp dụng thế nào,phí xử lý giao dịch shopee,tim-hieu-chi-phi
+51,3,threads,thuat-toan-threads-hoat-dong,Thuật toán Threads hoạt động thế nào,thuật toán threads,huong-dan
+52,3,website-seo,lam-sao-de-chatgpt-va-gemini-gioi-thieu-doanh-nghiep-cua-ban,Làm sao để ChatGPT và Gemini giới thiệu doanh nghiệp của bạn,chatgpt giới thiệu doanh nghiệp,huong-dan
+53,3,tiktok,tai-khoan-tiktok-doanh-nghiep-hay-ca-nhan-nen-chon-loai,Tài khoản TikTok doanh nghiệp hay cá nhân: nên chọn loại nào,tài khoản tiktok doanh nghiệp,kien-thuc
+54,3,tiktok-shop,shop-ca-nhan-ho-kinh-doanh-hay-doanh-nghiep-tren-tiktok-shop,"Shop cá nhân, hộ kinh doanh hay doanh nghiệp trên TikTok Shop",loại hình shop tiktok,kien-thuc
+55,3,quang-cao-shopee,shop-ads-dich-vu-hien-thi-shop-thay-doi-va-cach-chay,Shop+ Ads (Dịch vụ Hiển thị Shop+): thay đổi và cách chạy,shop+ ads shopee,thuong-mai
+56,3,ban-hang-facebook,livestream-ban-hang-tren-facebook-khac-tiktok-o-dau,Livestream bán hàng trên Facebook: khác TikTok ở đâu,livestream facebook,kien-thuc
+57,3,lich-sale,chuan-bi-12-12-checklist-van-hanh-tiktok-shop-va-shopee-truoc-7-ngay,Chuẩn bị 12.12: checklist vận hành TikTok Shop và Shopee trước 7 ngày,chuẩn bị sale 12.12,huong-dan
+58,3,youtube,seo-youtube-tieu-de-mo-ta-the-chuong,"SEO YouTube: tiêu đề, mô tả, thẻ, chương",seo youtube,kien-thuc
+59,3,van-hanh-tiktok-shop,xay-doi-van-hanh-tiktok-shop-noi-bo-vi-tri-luong-kpi,"Xây đội vận hành TikTok Shop nội bộ: vị trí, lương, KPI",đội vận hành tiktok shop,kien-thuc
+60,3,van-hanh-shopee,seo-shopee-dat-ten-san-pham-len-top-tim-kiem,SEO Shopee: đặt tên sản phẩm lên top tìm kiếm,seo shopee,kien-thuc
+61,4,instagram,instagram-stories-va-highlights-de-ban-hang,Instagram Stories và Highlights để bán hàng,instagram stories bán hàng,kien-thuc
+62,4,content-tiktok,video-unbox-trai-nghiem-so-sanh-khi-nao-dung-dang,"Video unbox, trải nghiệm, so sánh: khi nào dùng dạng nào",video unbox tiktok,kien-thuc
+63,4,quang-cao-tiktok,target-roi-va-max-delivery-trong-gmv-max-chon-che-do,Target ROI và Max delivery trong GMV Max: chọn chế độ nào,chế độ gmv max,kien-thuc
+64,4,website-seo,nghien-cuu-tu-khoa-cho-website-doanh-nghiep,Nghiên cứu từ khóa cho website doanh nghiệp,nghiên cứu từ khóa,kien-thuc
+65,4,tiktok,nuoi-kenh-tiktok-moi-30-ngay-dau-nen-lam,Nuôi kênh TikTok mới: 30 ngày đầu nên làm gì,nuôi kênh tiktok mới,kien-thuc
+66,4,tiktok-shop,giay-to-can-co-khi-ban-hang-tren-tiktok-shop-theo-nganh,Giấy tờ cần có khi bán hàng trên TikTok Shop theo ngành,giấy tờ bán tiktok shop,kien-thuc
+67,4,quang-cao-shopee,gmv-max-tren-shopee-shop-gmv-max-va-gmv-max-cho-san-pham,GMV Max trên Shopee: Shop GMV Max và GMV Max cho sản phẩm,gmv max shopee,kien-thuc
+68,4,ban-hang-facebook,quang-cao-facebook-meta-ads-cho-nguoi-moi,Quảng cáo Facebook (Meta Ads) cho người mới,quảng cáo facebook,kien-thuc
+69,4,lich-sale,sale-11-11-rut-ra-bai-hoc-gi-cho-dot-12-12,Sale 11.11 rút ra bài học gì cho đợt 12.12,bài học sale 11.11,kien-thuc
+70,4,phi-san-tiktok-shop,phi-xu-ly-don-hang-tiktok-shop-ap-dung-tu-khi-nao-bao-nhieu,"Phí xử lý đơn hàng TikTok Shop: áp dụng từ khi nào, bao nhiêu",phí xử lý đơn hàng tiktok shop,tim-hieu-chi-phi
+71,4,phi-san-shopee,phi-ha-tang-shopee,Phí hạ tầng Shopee là gì,phí hạ tầng shopee,tim-hieu-chi-phi
+72,4,threads,xay-thuong-hieu-ca-nhan-tren-threads-cho-chu-doanh-nghiep,Xây thương hiệu cá nhân trên Threads cho chủ doanh nghiệp,thương hiệu cá nhân threads,kien-thuc
+73,4,van-hanh-tiktok-shop,livestream-ban-hang-tiktok-shop-tu-phien-dau-tien-den-phien-ra-don-deu,Livestream bán hàng TikTok Shop: từ phiên đầu tiên đến phiên ra đơn đều,livestream tiktok shop,kien-thuc
+74,4,van-hanh-shopee,toi-uu-anh-video-va-mo-ta-san-pham-tren-shopee,"Tối ưu ảnh, video và mô tả sản phẩm trên Shopee",tối ưu sản phẩm shopee,kien-thuc
+75,4,youtube,anh-thu-nho-youtube-thiet-ke-de-duoc-bam,Ảnh thu nhỏ YouTube: thiết kế để được bấm,thumbnail youtube,kien-thuc
+76,4,content-tiktok,quay-video-tiktok-bang-dien-thoai-thiet-bi-toi-thieu-va-cach-dat-may,Quay video TikTok bằng điện thoại: thiết bị tối thiểu và cách đặt máy,quay video tiktok bằng điện thoại,huong-dan
+77,4,quang-cao-tiktok,ngan-sach-gmv-max-bat-dau-bao-nhieu-tang,"Ngân sách GMV Max: bắt đầu bao nhiêu, tăng khi nào",ngân sách gmv max,tim-hieu-chi-phi
+78,4,website-seo,cau-truc-website-chuan-seo-danh-muc-trang-tru-cot-cum-bai,"Cấu trúc website chuẩn SEO: danh mục, trang trụ cột, cụm bài",cấu trúc website seo,kien-thuc
+79,4,lich-sale,sale-tet-2027-lich-nhom-hang-ban-chay-va-ke-hoach-theo-tuan,"Sale Tết 2027: lịch, nhóm hàng bán chạy và kế hoạch theo tuần",sale tết 2027,kien-thuc
+80,4,instagram,thuat-toan-instagram-de-xuat-noi-dung,Thuật toán Instagram đề xuất nội dung thế nào,thuật toán instagram,huong-dan
+81,5,tiktok,dang-tiktok-may-gio-la-tot-doc-du-lieu-kenh-cua-chinh-minh,Đăng TikTok mấy giờ là tốt: đọc dữ liệu kênh của chính mình,giờ đăng tiktok,kien-thuc
+82,5,tiktok-shop,nganh-hang-han-che-tren-tiktok-shop-va-cach-xin-duyet,Ngành hàng hạn chế trên TikTok Shop và cách xin duyệt,ngành hàng hạn chế tiktok shop,huong-dan
+83,5,quang-cao-shopee,dat-roas-muc-tieu-cho-gmv-max-shopee,Đặt ROAS mục tiêu cho GMV Max Shopee,roas mục tiêu shopee,kien-thuc
+84,5,ban-hang-facebook,quang-cao-tin-nhan-facebook-chay-va-chot-don-qua-inbox,Quảng cáo tin nhắn Facebook: chạy và chốt đơn qua inbox,quảng cáo tin nhắn facebook,kien-thuc
+85,5,van-hanh-tiktok-shop,setup-phong-livestream-thiet-bi-anh-sang-bo-cuc,"Setup phòng livestream: thiết bị, ánh sáng, bố cục",setup phòng livestream,kien-thuc
+86,5,van-hanh-shopee,thuoc-tinh-va-nganh-hang-tren-shopee-chon-dung-de-duoc-hien-thi,Thuộc tính và ngành hàng trên Shopee: chọn đúng để được hiển thị,ngành hàng shopee,kien-thuc
+87,5,lich-sale,ngay-sale-doi-tren-tiktok-shop-livestream-gmv-max-va-affiliate-chay,"Ngày sale đôi trên TikTok Shop: livestream, GMV Max và affiliate chạy thế nào",sale đôi tiktok shop,huong-dan
+88,5,content-tiktok,anh-sang-va-am-thanh-cho-video-tiktok-tai-nha,Ánh sáng và âm thanh cho video TikTok tại nhà,ánh sáng quay tiktok,kien-thuc
+89,5,quang-cao-tiktok,gmv-max-khong-tieu-tien-hoac-tieu-qua-nhanh-nguyen-nhan,GMV Max không tiêu tiền hoặc tiêu quá nhanh: nguyên nhân,gmv max không tiêu tiền,kien-thuc
+90,5,phi-san-tiktok-shop,phi-dich-vu-freeship-xtra-va-voucher-xtra-tren-tiktok-shop,Phí dịch vụ Freeship Xtra và Voucher Xtra trên TikTok Shop,phí freeship xtra tiktok,thuong-mai
+91,5,phi-san-shopee,goi-voucher-xtra-shopee-phi-loi-ich-co-nen-tham-gia,"Gói Voucher Xtra Shopee: phí, lợi ích, có nên tham gia",voucher xtra shopee,tim-hieu-chi-phi
+92,5,youtube,thuat-toan-youtube-de-xuat-video,Thuật toán YouTube đề xuất video thế nào,thuật toán youtube,huong-dan
+93,5,threads,ban-hang-mem-tren-threads-ma-khong-bi-ghet,Bán hàng mềm trên Threads mà không bị ghét,bán hàng trên threads,kien-thuc
+94,5,website-seo,viet-bai-chuan-seo-ma-nguoi-doc-van-thich,Viết bài chuẩn SEO mà người đọc vẫn thích,viết bài chuẩn seo,kien-thuc
+95,5,tiktok,moi-ngay-nen-dang-bao-nhieu-video-tiktok,Mỗi ngày nên đăng bao nhiêu video TikTok,đăng bao nhiêu video tiktok,tim-hieu-chi-phi
+96,5,tiktok-shop,dang-san-pham-tiktok-shop-chuan-ten-anh-mo-ta-thuoc-tinh,"Đăng sản phẩm TikTok Shop chuẩn: tên, ảnh, mô tả, thuộc tính",đăng sản phẩm tiktok shop,kien-thuc
+97,5,quang-cao-shopee,gia-thau-toi-thieu-va-chi-phi-quang-cao-shopee-thuc-te,Giá thầu tối thiểu và chi phí quảng cáo Shopee thực tế,giá quảng cáo shopee,tim-hieu-chi-phi
+98,5,ban-hang-facebook,kich-ban-chot-don-inbox-facebook,Kịch bản chốt đơn inbox Facebook,kịch bản chốt đơn inbox,huong-dan
+99,5,instagram,hashtag-va-tu-khoa-tren-instagram-2026,Hashtag và từ khóa trên Instagram 2026,hashtag instagram,kien-thuc
+100,5,lich-sale,ngay-sale-doi-tren-shopee-dang-ky-chuong-trinh-voucher-va-quang-cao,"Ngày sale đôi trên Shopee: đăng ký chương trình, voucher và quảng cáo",sale đôi shopee,kien-thuc
+101,6,van-hanh-tiktok-shop,host-livestream-tuyen-dao-tao-tra-luong-theo-doanh-so,"Host livestream: tuyển, đào tạo, trả lương theo doanh số",host livestream,kien-thuc
+102,6,van-hanh-shopee,dang-ky-chuong-trinh-khuyen-mai-cua-shopee,Đăng ký chương trình khuyến mãi của Shopee,chương trình khuyến mãi shopee,kien-thuc
+103,6,content-tiktok,dung-video-tiktok-bang-capcut-quy-trinh-20-phut-mot-video,Dựng video TikTok bằng CapCut: quy trình 20 phút một video,dựng video capcut,huong-dan
+104,6,quang-cao-tiktok,video-sang-tao-cho-gmv-max-so-luong-dinh-dang-lam-moi,"Video sáng tạo cho GMV Max: số lượng, định dạng, làm mới",video gmv max,kien-thuc
+105,6,website-seo,tieu-de-va-mo-ta-trang-title-meta-description-chuan,"Tiêu đề và mô tả trang (title, meta description) chuẩn",title meta description,kien-thuc
+106,6,lich-sale,cach-tinh-ngan-sach-quang-cao-cho-ngay-sale-doi-de-khong-dot-tien,Cách tính ngân sách quảng cáo cho ngày sale đôi để không đốt tiền,ngân sách quảng cáo ngày sale,huong-dan
+107,6,youtube,lich-dang-youtube-cho-doi-nho,Lịch đăng YouTube cho đội nhỏ,lịch đăng youtube,kien-thuc
+108,6,tiktok,kenh-tiktok-bi-bop-tuong-tac-nguyen-nhan-va-cach-xu-ly,Kênh TikTok bị bóp tương tác: nguyên nhân và cách xử lý,kênh tiktok bị bóp,huong-dan
+109,6,tiktok-shop,dat-ten-san-pham-tiktok-shop-de-len-tim-kiem,Đặt tên sản phẩm TikTok Shop để lên tìm kiếm,tên sản phẩm tiktok shop,kien-thuc
+110,6,quang-cao-shopee,nghien-cuu-tu-khoa-cho-shopee-ads,Nghiên cứu từ khóa cho Shopee Ads,từ khóa quảng cáo shopee,kien-thuc
+111,6,ban-hang-facebook,chi-phi-quang-cao-facebook-2026-theo-nganh,Chi phí quảng cáo Facebook 2026 theo ngành,chi phí quảng cáo facebook,tim-hieu-chi-phi
+112,6,phi-san-tiktok-shop,phi-van-chuyen-nguoi-ban-tra-tren-tiktok-shop,Phí vận chuyển người bán trả trên TikTok Shop,phí vận chuyển tiktok shop,tim-hieu-chi-phi
+113,6,phi-san-shopee,goi-freeship-xtra-va-piship-tren-shopee,Gói Freeship Xtra và PiShip trên Shopee,freeship xtra shopee,kien-thuc
+114,6,threads,lich-dang-threads-va-nhip-tuong-tac,Lịch đăng Threads và nhịp tương tác,lịch đăng threads,kien-thuc
+115,6,van-hanh-tiktok-shop,kich-ban-livestream-ban-hang-2-tieng-chi-tiet-theo-phut,Kịch bản livestream bán hàng 2 tiếng chi tiết theo phút,kịch bản livestream,huong-dan
+116,6,van-hanh-shopee,voucher-shop-ma-giam-gia-combo-tren-shopee-dung-dung-luc,"Voucher shop, mã giảm giá, combo trên Shopee: dùng đúng lúc",voucher shopee,tim-hieu-chi-phi
+117,6,instagram,lich-dang-instagram-cho-doi-nho,Lịch đăng Instagram cho đội nhỏ,lịch đăng instagram,kien-thuc
+118,6,lich-sale,kich-ban-livestream-12-tieng-cho-ngay-mega-sale,Kịch bản livestream 12 tiếng cho ngày mega sale,kịch bản livestream ngày sale,huong-dan
+119,6,content-tiktok,nhip-video-tiktok-cat-canh-bao-nhieu-giay-la-vua,Nhịp video TikTok: cắt cảnh bao nhiêu giây là vừa,nhịp video tiktok,tim-hieu-chi-phi
+120,6,quang-cao-tiktok,doc-bao-cao-gmv-max-chi-so-nao-quan-trong,Đọc báo cáo GMV Max: chỉ số nào quan trọng,báo cáo gmv max,kien-thuc
+121,7,website-seo,du-lieu-co-cau-truc-schema-cho-website-ban-hang,Dữ liệu có cấu trúc (schema) cho website bán hàng,schema website,kien-thuc
+122,7,youtube,youtube-studio-doc-so-lieu-kenh,YouTube Studio: đọc số liệu kênh,youtube studio,kien-thuc
+123,7,tiktok,vi-pham-nguyen-tac-cong-dong-tiktok-nhung-loi-hay-gap-khi-ban-hang,Vi phạm nguyên tắc cộng đồng TikTok: những lỗi hay gặp khi bán hàng,vi phạm tiktok,kien-thuc
+124,7,tiktok-shop,anh-va-video-san-pham-tren-tiktok-shop-kich-thuoc-quy-chuan,"Ảnh và video sản phẩm trên TikTok Shop: kích thước, quy chuẩn",ảnh sản phẩm tiktok shop,kien-thuc
+125,7,quang-cao-shopee,tu-khoa-phu-dinh-va-loai-bo-tu-khoa-dot-tien,Từ khóa phủ định và loại bỏ từ khóa đốt tiền,từ khóa phủ định shopee,kien-thuc
+126,7,ban-hang-facebook,tai-khoan-quang-cao-facebook-bi-han-che-cach-xu-ly,Tài khoản quảng cáo Facebook bị hạn chế: cách xử lý,tài khoản quảng cáo bị hạn chế,huong-dan
+127,7,van-hanh-tiktok-shop,chi-so-livestream-can-xem-gpm-ty-le-click-ty-le-chuyen-doi,"Chỉ số livestream cần xem: GPM, tỷ lệ click, tỷ lệ chuyển đổi",chỉ số livestream tiktok,kien-thuc
+128,7,van-hanh-shopee,flash-sale-cua-shop-va-flash-sale-shopee-khac-nhau,Flash Sale của shop và Flash Sale Shopee: khác nhau thế nào,flash sale shopee,huong-dan
+129,7,lich-sale,chuan-bi-kho-va-dong-goi-truoc-ngay-sale-tranh-tre-don-phat-giao-cham,"Chuẩn bị kho và đóng gói trước ngày sale: tránh trễ đơn, phạt giao chậm",chuẩn bị kho ngày sale,kien-thuc
+130,7,content-tiktok,cta-trong-video-tiktok-keu-goi-mua-ma-khong-bi-phan-cam,CTA trong video TikTok: kêu gọi mua mà không bị phản cảm,cta video tiktok,kien-thuc
+131,7,quang-cao-tiktok,tai-khoan-quang-cao-chinh-cua-cua-hang-va-quyen-gmv-max,Tài khoản quảng cáo chính của cửa hàng và quyền GMV Max,tài khoản quảng cáo gmv max,kien-thuc
+132,7,phi-san-tiktok-shop,phi-affiliate-hoa-hong-tra-koc-tinh-vao-chi-phi,Phí affiliate: hoa hồng trả KOC tính vào chi phí thế nào,phí affiliate tiktok shop,tim-hieu-chi-phi
+133,7,phi-san-shopee,chinh-sach-dong-tai-tro-ma-uu-dai-shopee-nguoi-ban-tra-bao-nhieu,Chính sách đồng tài trợ mã ưu đãi Shopee: người bán trả bao nhiêu,đồng tài trợ voucher shopee,tim-hieu-chi-phi
+134,7,instagram,thiet-ke-luoi-anh-instagram-nhat-quan-thuong-hieu,Thiết kế lưới ảnh Instagram nhất quán thương hiệu,lưới ảnh instagram,kien-thuc
+135,7,threads,chu-de-topic-tag-tren-threads,Chủ đề (topic tag) trên Threads,topic threads,kien-thuc
+136,7,website-seo,toc-do-website-va-core-web-vitals,Tốc độ website và Core Web Vitals,core web vitals,kien-thuc
+137,7,lich-sale,dinh-gia-ngay-sale-giam-bao-nhieu-la-vua-tinh-lai-sau-phi-san,"Định giá ngày sale: giảm bao nhiêu là vừa, tính lãi sau phí sàn",định giá ngày sale,tim-hieu-chi-phi
+138,7,van-hanh-tiktok-shop,livestream-xuyen-dem-co-dang-lam-khong,Livestream xuyên đêm: có đáng làm không,livestream xuyên đêm,kien-thuc
+139,7,van-hanh-shopee,shopee-live-livestream-ban-hang-tren-shopee-co-con-hieu-qua,Shopee Live: livestream bán hàng trên Shopee có còn hiệu quả,shopee live,kien-thuc
+140,7,tiktok,doc-tiktok-analytics-chi-so-nao-noi-that-ve-kenh,Đọc TikTok Analytics: chỉ số nào nói thật về kênh,tiktok analytics,kien-thuc
+141,8,tiktok-shop,diem-hieu-qua-cua-hang-sps-tiktok-shop-cach-tinh-va-cach-giu,Điểm hiệu quả cửa hàng (SPS) TikTok Shop: cách tính và cách giữ,điểm hiệu quả tiktok shop,huong-dan
+142,8,quang-cao-shopee,doc-bao-cao-shopee-ads-ctr-cr-acos-roas,"Đọc báo cáo Shopee Ads: CTR, CR, ACOS, ROAS",báo cáo shopee ads,kien-thuc
+143,8,ban-hang-facebook,business-manager-meta-business-suite-thiet-lap-dung-ngay-tu-dau,Business Manager (Meta Business Suite): thiết lập đúng ngay từ đầu,meta business suite,kien-thuc
+144,8,youtube,ty-le-giu-chan-nguoi-xem-tren-youtube,Tỷ lệ giữ chân người xem trên YouTube,giữ chân người xem youtube,kien-thuc
+145,8,content-tiktok,phu-de-chu-tren-man-hinh-va-anh-bia-video-tiktok,"Phụ đề, chữ trên màn hình và ảnh bìa video TikTok",phụ đề video tiktok,kien-thuc
+146,8,quang-cao-tiktok,tiktok-ads-manager-cho-nguoi-moi-tao-tai-khoan-nap-tien-hoa-don,"TikTok Ads Manager cho người mới: tạo tài khoản, nạp tiền, hóa đơn",tiktok ads manager,kien-thuc
+147,8,website-seo,website-tren-dien-thoai-chuan-mobile-first,Website trên điện thoại: chuẩn mobile-first,website mobile,kien-thuc
+148,8,lich-sale,voucher-ngay-sale-voucher-shop-voucher-livestream-voucher-nguoi-theo,"Voucher ngày sale: voucher shop, voucher livestream, voucher người theo dõi",voucher ngày sale,kien-thuc
+149,8,instagram,carousel-instagram-dang-bai-luu-nhieu-chia-se-nhieu,"Carousel Instagram: dạng bài lưu nhiều, chia sẻ nhiều",carousel instagram,kien-thuc
+150,8,van-hanh-tiktok-shop,affiliate-tiktok-shop-xay-mang-luoi-koc-ban-hang-cho-minh,Affiliate TikTok Shop: xây mạng lưới KOC bán hàng cho mình,xây mạng lưới koc,kien-thuc
+151,8,van-hanh-shopee,shopee-video-lam-video-ngan-ban-hang-tren-shopee,Shopee Video: làm video ngắn bán hàng trên Shopee,shopee video,kien-thuc
+152,8,phi-san-tiktok-shop,ban-hang-tren-tiktok-shop-mat-bao-nhieu-phan-tram-doanh-thu,Bán hàng trên TikTok Shop mất bao nhiêu phần trăm doanh thu,bán tiktok shop mất bao nhiêu phí,tim-hieu-chi-phi
+153,8,phi-san-shopee,phi-shopee-mall-khac-gi-shop-thuong,Phí Shopee Mall khác gì shop thường,phí shopee mall,tim-hieu-chi-phi
+154,8,threads,threads-va-instagram-lien-ket-dong-bo-nguoi-theo-doi,"Threads và Instagram: liên kết, đồng bộ người theo dõi",threads instagram,kien-thuc
+155,8,tiktok,ty-le-xem-het-video-va-giu-chan-3-giay-vi-sao-quan-trong,Tỷ lệ xem hết video và giữ chân 3 giây: vì sao quan trọng,tỷ lệ giữ chân tiktok,kien-thuc
+156,8,tiktok-shop,vi-pham-va-diem-phat-tren-tiktok-shop-danh-sach-loi-thuong-gap,Vi phạm và điểm phạt trên TikTok Shop: danh sách lỗi thường gặp,vi phạm tiktok shop,kien-thuc
+157,8,quang-cao-shopee,quang-cao-shopee-cho-san-pham-moi,Quảng cáo Shopee cho sản phẩm mới,quảng cáo shopee sản phẩm mới,kien-thuc
+158,8,ban-hang-facebook,pixel-meta-va-conversions-api-cho-website-ban-hang,Pixel Meta và Conversions API cho website bán hàng,pixel facebook,kien-thuc
+159,8,lich-sale,sau-ngay-sale-can-lam-gi-xu-ly-don-danh-gia-khach-hoan-va-cham-khach,"Sau ngày sale cần làm gì: xử lý đơn, đánh giá, khách hoàn và chăm khách mới",sau ngày sale nên làm gì,tim-hieu-chi-phi
+160,8,youtube,kenh-youtube-review-san-pham-cach-lam-that-co-tam,"Kênh YouTube review sản phẩm: cách làm thật, có tâm",kênh youtube review,huong-dan
+161,9,content-tiktok,y-tuong-content-tiktok-cho-nganh-thuc-pham,Ý tưởng content TikTok cho ngành thực phẩm,ý tưởng content thực phẩm,kien-thuc
+162,9,quang-cao-tiktok,quang-cao-tiktok-ngoai-tiktok-shop-keo-ve-website-zalo-form,"Quảng cáo TikTok ngoài TikTok Shop: kéo về website, Zalo, form",quảng cáo tiktok về website,kien-thuc
+163,9,website-seo,google-search-console-cai-dat-va-doc-bao-cao,Google Search Console: cài đặt và đọc báo cáo,google search console,kien-thuc
+164,9,van-hanh-tiktok-shop,tim-koc-phu-hop-tren-tiktok-shop-va-cach-tiep-can,Tìm KOC phù hợp trên TikTok Shop và cách tiếp cận,tìm koc tiktok shop,huong-dan
+165,9,van-hanh-shopee,tiep-thi-lien-ket-shopee-affiliate-mo-chuong-trinh-cho-shop,Tiếp thị liên kết Shopee (Affiliate): mở chương trình cho shop,affiliate shopee,kien-thuc
+166,9,lich-sale,ngay-luong-25-hang-thang-co-hoi-bi-bo-quen-cua-nha-ban-hang-online,Ngày lương 25 hằng tháng: cơ hội bị bỏ quên của nhà bán hàng online,sale ngày lương,kien-thuc
+167,9,instagram,ban-hang-qua-instagram-direct,Bán hàng qua Instagram Direct,bán hàng instagram direct,kien-thuc
+168,9,tiktok,xay-kenh-tiktok-cho-thuong-hieu-thuc-pham-do-uong,"Xây kênh TikTok cho thương hiệu thực phẩm, đồ uống",kênh tiktok thực phẩm,kien-thuc
+169,9,tiktok-shop,tiep-thi-lien-ket-tiktok-shop-affiliate-hoat-dong,Tiếp thị liên kết TikTok Shop (affiliate) hoạt động thế nào,affiliate tiktok shop,huong-dan
+170,9,quang-cao-shopee,ngan-sach-quang-cao-shopee-theo-giai-doan-shop,Ngân sách quảng cáo Shopee theo giai đoạn shop,ngân sách quảng cáo shopee,kien-thuc
+171,9,ban-hang-facebook,advantage-shopping-quang-cao-tu-dong-cua-meta,Advantage+ Shopping: quảng cáo tự động của Meta,advantage+ shopping,kien-thuc
+172,9,content-tiktok,y-tuong-content-tiktok-cho-nganh-my-pham,Ý tưởng content TikTok cho ngành mỹ phẩm,ý tưởng content mỹ phẩm,kien-thuc
+173,9,quang-cao-tiktok,quang-cao-tiktok-cho-muc-tieu-nhan-dien-thuong-hieu,Quảng cáo TikTok cho mục tiêu nhận diện thương hiệu,quảng cáo tiktok nhận diện,kien-thuc
+174,9,phi-san-tiktok-shop,cach-tinh-gia-ban-tren-tiktok-shop-de-co-lai-sau-phi,Cách tính giá bán trên TikTok Shop để có lãi sau phí,cách tính giá bán tiktok shop,tim-hieu-chi-phi
+175,9,phi-san-shopee,ban-hang-tren-shopee-mat-bao-nhieu-phan-tram-doanh-thu,Bán hàng trên Shopee mất bao nhiêu phần trăm doanh thu,bán shopee mất bao nhiêu phí,tim-hieu-chi-phi
+176,9,youtube,chuyen-video-tiktok-sang-youtube-shorts-nen-va-khong-nen,Chuyển video TikTok sang YouTube Shorts: nên và không nên,đăng lại tiktok lên youtube,kien-thuc
+177,9,threads,tra-loi-binh-luan-va-tham-gia-thao-luan-tren-threads,Trả lời bình luận và tham gia thảo luận trên Threads,tương tác threads,kien-thuc
+178,9,website-seo,google-analytics-4-cho-website-ban-hang,Google Analytics 4 cho website bán hàng,google analytics 4,kien-thuc
+179,9,lich-sale,sale-giua-thang-15-nen-chay-chuong-trinh-nao-cho-tung-nganh-hang,Sale giữa tháng 15: nên chạy chương trình nào cho từng ngành hàng,sale giữa tháng,kien-thuc
+180,9,van-hanh-tiktok-shop,muc-hoa-hong-affiliate-bao-nhieu-la-hop-ly-theo-nganh,Mức hoa hồng affiliate bao nhiêu là hợp lý theo ngành,hoa hồng affiliate tiktok,tim-hieu-chi-phi
+181,10,van-hanh-shopee,chi-so-hieu-qua-shop-va-diem-sao-qua-ta-shopee,Chỉ số hiệu quả shop và điểm sao quả tạ Shopee,điểm sao quả tạ shopee,kien-thuc
+182,10,tiktok,xay-kenh-tiktok-cho-thuong-hieu-my-pham,Xây kênh TikTok cho thương hiệu mỹ phẩm,kênh tiktok mỹ phẩm,kien-thuc
+183,10,tiktok-shop,gan-gio-hang-vao-video-va-livestream-tiktok,Gắn giỏ hàng vào video và livestream TikTok,gắn giỏ hàng tiktok,kien-thuc
+184,10,quang-cao-shopee,quang-cao-shopee-trong-ngay-sale-doi,Quảng cáo Shopee trong ngày sale đôi,quảng cáo shopee ngày sale,kien-thuc
+185,10,ban-hang-facebook,noi-dung-fanpage-ban-hang-10-dang-bai-ra-don,Nội dung fanpage bán hàng: 10 dạng bài ra đơn,nội dung fanpage bán hàng,kien-thuc
+186,10,instagram,instagram-shopping-tai-viet-nam-dung-duoc,Instagram Shopping tại Việt Nam: dùng được gì,instagram shopping,kien-thuc
+187,10,lich-sale,black-friday-o-viet-nam-co-dang-chay-tren-san-khong,Black Friday ở Việt Nam: có đáng chạy trên sàn không,black friday tiktok shop shopee,kien-thuc
+188,10,content-tiktok,y-tuong-content-tiktok-cho-nganh-gia-dung,Ý tưởng content TikTok cho ngành gia dụng,ý tưởng content gia dụng,kien-thuc
+189,10,quang-cao-tiktok,spark-ads-dung-video-cua-koc-va-kenh-de-quang-cao,Spark Ads: dùng video của KOC và kênh để quảng cáo,spark ads tiktok,kien-thuc
+190,10,website-seo,sitemap-robots-txt-va-llms-txt-khai-bao-cho-google-va-ai,"Sitemap, robots.txt và llms.txt: khai báo cho Google và AI",robots txt llms txt,kien-thuc
+191,10,youtube,youtube-shopping-va-gan-link-san-pham,YouTube Shopping và gắn link sản phẩm,youtube shopping,kien-thuc
+192,10,van-hanh-tiktok-shop,gui-mau-cho-koc-quy-trinh-ty-le-chuyen-doi-va-kiem-soat-chi-phi,"Gửi mẫu cho KOC: quy trình, tỷ lệ chuyển đổi và kiểm soát chi phí",gửi mẫu koc,tim-hieu-chi-phi
+193,10,van-hanh-shopee,ty-le-phan-hoi-chat-va-thoi-gian-chuan-bi-hang-tren-shopee,Tỷ lệ phản hồi chat và thời gian chuẩn bị hàng trên Shopee,tỷ lệ phản hồi shopee,kien-thuc
+194,10,phi-san-tiktok-shop,bang-tinh-loi-nhuan-mot-don-tiktok-shop-co-vi-du,Bảng tính lợi nhuận một đơn TikTok Shop (có ví dụ),tính lợi nhuận tiktok shop,kien-thuc
+195,10,phi-san-shopee,cach-tinh-gia-ban-tren-shopee-de-co-lai-sau-phi,Cách tính giá bán trên Shopee để có lãi sau phí,cách tính giá bán shopee,tim-hieu-chi-phi
+196,10,threads,threads-cho-nganh-my-pham-thoi-trang,"Threads cho ngành mỹ phẩm, thời trang",threads mỹ phẩm thời trang,kien-thuc
+197,10,lich-sale,sale-8-3-va-20-10-ke-hoach-cho-nganh-my-pham-qua-tang-thoi-trang,"Sale 8.3 và 20.10: kế hoạch cho ngành mỹ phẩm, quà tặng, thời trang",sale 8/3 20/10,kien-thuc
+198,10,tiktok,xay-kenh-tiktok-cho-thuong-hieu-thoi-trang,Xây kênh TikTok cho thương hiệu thời trang,kênh tiktok thời trang,kien-thuc
+199,10,tiktok-shop,tiktok-shop-va-luat-thuong-mai-dien-tu-moi-2026-nguoi-ban-can-biet,TikTok Shop và luật thương mại điện tử mới 2026: người bán cần biết,luật thương mại điện tử 2026 tiktok shop,kien-thuc
+200,10,quang-cao-shopee,quang-cao-shopee-live-day-nguoi-xem-vao-phien-live,Quảng cáo Shopee Live: đẩy người xem vào phiên live,quảng cáo shopee live,kien-thuc
+201,11,ban-hang-facebook,video-reels-facebook-de-ban-hang,Video Reels Facebook để bán hàng,reels facebook bán hàng,kien-thuc
+202,11,content-tiktok,y-tuong-content-tiktok-cho-nganh-thoi-trang,Ý tưởng content TikTok cho ngành thời trang,ý tưởng content thời trang,kien-thuc
+203,11,quang-cao-tiktok,tiktok-pixel-va-events-api-do-chuyen-doi-tren-website,TikTok Pixel và Events API: đo chuyển đổi trên website,tiktok pixel,kien-thuc
+204,11,website-seo,lien-ket-noi-bo-cach-noi-bai-de-len-top,Liên kết nội bộ: cách nối bài để lên top,liên kết nội bộ,huong-dan
+205,11,instagram,hop-tac-kol-koc-tren-instagram,"Hợp tác KOL, KOC trên Instagram",kol instagram,kien-thuc
+206,11,van-hanh-tiktok-shop,chien-dich-affiliate-muc-tieu-va-mo-chon-loai,Chiến dịch affiliate mục tiêu và mở: chọn loại nào,chiến dịch affiliate tiktok shop,kien-thuc
+207,11,van-hanh-shopee,danh-gia-san-pham-shopee-tang-danh-gia-that-xu-ly-danh-gia-xau,"Đánh giá sản phẩm Shopee: tăng đánh giá thật, xử lý đánh giá xấu",đánh giá shopee,tim-hieu-chi-phi
+208,11,lich-sale,sale-9-9-va-10-10-chay-the-nao-khi-ca-thi-truong-cung-giam-gia,Sale 9.9 và 10.10: chạy thế nào khi cả thị trường cùng giảm giá,sale 9.9 10.10,tim-hieu-chi-phi
+209,11,youtube,livestream-youtube-cho-doanh-nghiep,Livestream YouTube cho doanh nghiệp,livestream youtube,kien-thuc
+210,11,tiktok,kenh-tiktok-cua-chu-doanh-nghiep-xay-thuong-hieu-ca-nhan-ban-hang,Kênh TikTok của chủ doanh nghiệp: xây thương hiệu cá nhân bán hàng,thương hiệu cá nhân tiktok,kien-thuc
+211,11,tiktok-shop,dinh-danh-nguoi-ban-tren-tiktok-shop-theo-quy-dinh-moi,Định danh người bán trên TikTok Shop theo quy định mới,định danh người bán tiktok shop,kien-thuc
+212,11,quang-cao-shopee,chuyen-tu-cpc-sang-tu-duy-hien-thi-shopee-ads-dang-thay-doi,Chuyển từ CPC sang tư duy hiển thị: Shopee Ads đang thay đổi,cpm shopee,kien-thuc
+213,11,ban-hang-facebook,cham-soc-khach-cu-tren-facebook-va-messenger,Chăm sóc khách cũ trên Facebook và Messenger,chăm sóc khách facebook,kien-thuc
+214,11,content-tiktok,content-storytelling-tren-tiktok-ke-chuyen-thuong-hieu-chuyen-nha-may,"Content storytelling trên TikTok: kể chuyện thương hiệu, chuyện nhà máy, chuyện người làm",storytelling tiktok,kien-thuc
+215,11,quang-cao-tiktok,quang-cao-tiktok-bi-tu-choi-nguyen-nhan-va-cach-sua,Quảng cáo TikTok bị từ chối: nguyên nhân và cách sửa,quảng cáo tiktok bị từ chối,huong-dan
+216,11,phi-san-tiktok-shop,phi-tiktok-shop-mall-khac-gi-shop-thuong,Phí TikTok Shop Mall khác gì shop thường,phí tiktok shop mall,tim-hieu-chi-phi
+217,11,phi-san-shopee,bang-tinh-loi-nhuan-mot-don-shopee-co-vi-du,Bảng tính lợi nhuận một đơn Shopee (có ví dụ),tính lợi nhuận shopee,kien-thuc
+218,11,threads,threads-cho-nganh-thuc-pham-do-uong,"Threads cho ngành thực phẩm, đồ uống",threads thực phẩm,kien-thuc
+219,11,website-seo,backlink-sach-cho-doanh-nghiep-nho,Backlink sạch cho doanh nghiệp nhỏ,backlink,kien-thuc
+220,11,lich-sale,mua-tuu-truong-mua-cuoi-mua-le-lich-ban-hang-theo-mua-vu,"Mùa tựu trường, mùa cưới, mùa lễ: lịch bán hàng theo mùa vụ",lịch bán hàng theo mùa,kien-thuc
+221,12,van-hanh-tiktok-shop,quan-ly-gia-va-khuyen-mai-tren-tiktok-shop-khong-pha-bien-loi-nhuan,Quản lý giá và khuyến mãi trên TikTok Shop không phá biên lợi nhuận,quản lý giá tiktok shop,tim-hieu-chi-phi
+222,12,van-hanh-shopee,tra-hang-hoan-tien-shopee-quy-trinh-va-cach-bao-ve-nguoi-ban,Trả hàng hoàn tiền Shopee: quy trình và cách bảo vệ người bán,trả hàng hoàn tiền shopee,huong-dan
+223,12,instagram,quang-cao-instagram-qua-meta-ads,Quảng cáo Instagram qua Meta Ads,quảng cáo instagram,kien-thuc
+224,12,youtube,quang-cao-youtube-google-ads-cho-nguoi-moi,Quảng cáo YouTube (Google Ads) cho người mới,quảng cáo youtube,kien-thuc
+225,12,lich-sale,chien-dich-flash-sale-khung-gio-so-luong-cach-chon-san-pham,"Chiến dịch flash sale: khung giờ, số lượng, cách chọn sản phẩm",flash sale tiktok shop shopee,huong-dan
+226,12,tiktok,mo-hinh-nhieu-kenh-tiktok-ve-tinh-khi-nao-nen-lam,Mô hình nhiều kênh TikTok vệ tinh: khi nào nên làm,kênh tiktok vệ tinh,kien-thuc
+227,12,tiktok-shop,thue-khi-ban-hang-tren-tiktok-shop-nam-2026,Thuế khi bán hàng trên TikTok Shop năm 2026,thuế bán hàng tiktok shop,kien-thuc
+228,12,quang-cao-shopee,toi-uu-anh-bia-va-gia-de-quang-cao-shopee-co-ctr-cao,Tối ưu ảnh bìa và giá để quảng cáo Shopee có CTR cao,ctr shopee ads,tim-hieu-chi-phi
+229,12,ban-hang-facebook,remarketing-facebook-bam-duoi-khach-da-xem-da-nhan,"Remarketing Facebook: bám đuổi khách đã xem, đã nhắn",remarketing facebook,kien-thuc
+230,12,content-tiktok,video-giao-duc-ngan-edu-content-giup-ban-hang,Video giáo dục ngắn (edu content) giúp bán hàng thế nào,edu content tiktok,tim-hieu-chi-phi
+231,12,quang-cao-tiktok,chinh-sach-quang-cao-tiktok-cho-nganh-thuc-pham-my-pham,"Chính sách quảng cáo TikTok cho ngành thực phẩm, mỹ phẩm",chính sách quảng cáo tiktok,kien-thuc
+232,12,website-seo,e-e-a-t-google-danh-gia-do-tin-cay-noi-dung,E-E-A-T: Google đánh giá độ tin cậy nội dung thế nào,e-e-a-t,tim-hieu-chi-phi
+233,12,van-hanh-tiktok-shop,danh-muc-san-pham-san-pham-keo-traffic-san-pham-loi-nhuan-combo,"Danh mục sản phẩm: sản phẩm kéo traffic, sản phẩm lợi nhuận, combo",cơ cấu sản phẩm tiktok shop,kien-thuc
+234,12,van-hanh-shopee,van-chuyen-shopee-don-vi-hoa-toc-nhanh-tiet-kiem,"Vận chuyển Shopee: đơn vị, Hỏa tốc, Nhanh, Tiết kiệm",vận chuyển shopee,thuong-mai
+235,12,phi-san-tiktok-shop,lich-su-thay-doi-phi-tiktok-shop-2025-2026,Lịch sử thay đổi phí TikTok Shop 2025–2026,thay đổi phí tiktok shop,tim-hieu-chi-phi
+236,12,phi-san-shopee,phi-rut-tien-va-phi-dich-vu-khac-tren-shopee,Phí rút tiền và phí dịch vụ khác trên Shopee,phí rút tiền shopee,thuong-mai
+237,12,threads,threads-cho-dich-vu-b2b-va-agency,Threads cho dịch vụ B2B và agency,threads b2b,thuong-mai
+238,12,lich-sale,brand-day-va-super-brand-day-tren-san-dieu-kien-va-cach-dam-phan,Brand Day và Super Brand Day trên sàn: điều kiện và cách đàm phán,brand day shopee tiktok,huong-dan
+239,12,instagram,doc-instagram-insights,Đọc Instagram Insights,instagram insights,kien-thuc
+240,12,youtube,kenh-youtube-bi-gay-ban-quyen-phong-tranh-va-xu-ly,Kênh YouTube bị gậy bản quyền: phòng tránh và xử lý,gậy bản quyền youtube,kien-thuc
+241,13,tiktok,bat-kiem-tien-va-quy-sang-tao-tiktok-dieu-kien-moi-nhat,Bật kiếm tiền và quỹ sáng tạo TikTok: điều kiện mới nhất,kiếm tiền tiktok,kien-thuc
+242,13,tiktok-shop,van-chuyen-tren-tiktok-shop-don-vi-cach-tinh-phi-giao-hang-nhanh,"Vận chuyển trên TikTok Shop: đơn vị, cách tính phí, giao hàng nhanh",vận chuyển tiktok shop,thuong-mai
+243,13,quang-cao-shopee,acos-la-gi-va-muc-bao-nhieu-la-tot-tren-shopee,ACOS là gì và mức bao nhiêu là tốt trên Shopee,acos shopee,tim-hieu-chi-phi
+244,13,ban-hang-facebook,do-hieu-qua-ban-hang-facebook-chi-phi-moi-don-moi-khach,"Đo hiệu quả bán hàng Facebook: chi phí mỗi đơn, mỗi khách",đo hiệu quả facebook,tim-hieu-chi-phi
+245,13,content-tiktok,bat-trend-tiktok-dung-cach-cho-thuong-hieu,Bắt trend TikTok đúng cách cho thương hiệu,bắt trend tiktok,huong-dan
+246,13,quang-cao-tiktok,chi-phi-quang-cao-tiktok-2026-cpm-cpc-thuc-te-theo-nganh,"Chi phí quảng cáo TikTok 2026: CPM, CPC thực tế theo ngành",chi phí quảng cáo tiktok,tim-hieu-chi-phi
+247,13,website-seo,trang-san-pham-chuan-seo-tren-website,Trang sản phẩm chuẩn SEO trên website,trang sản phẩm chuẩn seo,kien-thuc
+248,13,van-hanh-tiktok-shop,toi-uu-trang-san-pham-tiktok-shop-de-tang-ty-le-chuyen-doi,Tối ưu trang sản phẩm TikTok Shop để tăng tỷ lệ chuyển đổi,tỷ lệ chuyển đổi tiktok shop,kien-thuc
+249,13,van-hanh-shopee,kho-shopee-fbs-khi-nao-nen-gui-hang-vao-kho,Kho Shopee (FBS): khi nào nên gửi hàng vào kho,kho shopee fbs,kien-thuc
+250,13,lich-sale,khung-gio-vang-trong-ngay-sale-len-lich-noi-dung-va-livestream-theo,Khung giờ vàng trong ngày sale: lên lịch nội dung và livestream theo giờ,khung giờ vàng ngày sale,kien-thuc
+251,13,lich-sale,ngay-sale-cho-shop-moi-co-nen-tham-gia-khi-chua-co-don,Ngày sale cho shop mới: có nên tham gia khi chưa có đơn,shop mới có nên chạy sale,kien-thuc
+252,13,tiktok,bio-anh-dai-dien-link-toi-uu-ho-so-tiktok-de-ra-don,"Bio, ảnh đại diện, link: tối ưu hồ sơ TikTok để ra đơn",tối ưu hồ sơ tiktok,kien-thuc
+253,13,content-tiktok,lich-noi-dung-tiktok-30-ngay-cho-shop-moi,Lịch nội dung TikTok 30 ngày cho shop mới,lịch nội dung tiktok,kien-thuc
+254,13,tiktok-shop,tra-hang-hoan-tien-tren-tiktok-shop-quy-trinh-va-cach-han-che,Trả hàng hoàn tiền trên TikTok Shop: quy trình và cách hạn chế,trả hàng tiktok shop,huong-dan
+255,13,van-hanh-tiktok-shop,xu-ly-don-hang-hang-ngay-dong-goi-ban-giao-giao-dung-han,"Xử lý đơn hàng hằng ngày: đóng gói, bàn giao, giao đúng hạn",xử lý đơn tiktok shop,kien-thuc
+256,13,quang-cao-tiktok,roas-va-roi-hieu-dung-de-khong-lo-khi-chay-quang-cao,ROAS và ROI: hiểu đúng để không lỗ khi chạy quảng cáo,roas là gì,kien-thuc
+257,13,phi-san-tiktok-shop,phi-san-tang-nha-ban-nen-lam-gi-de-giu-bien-loi-nhuan,Phí sàn tăng: nhà bán nên làm gì để giữ biên lợi nhuận,phí sàn tăng nên làm gì,tim-hieu-chi-phi
+258,13,van-hanh-shopee,thanh-toan-va-rut-tien-tren-shopee,Thanh toán và rút tiền trên Shopee,rút tiền shopee,kien-thuc
+259,13,quang-cao-shopee,nap-tien-quang-cao-shopee-va-hoa-don,Nạp tiền quảng cáo Shopee và hóa đơn,nạp tiền quảng cáo shopee,kien-thuc
+260,13,phi-san-shopee,thue-gtgt-trong-phi-shopee-va-hoa-don-cho-doanh-nghiep,Thuế GTGT trong phí Shopee và hóa đơn cho doanh nghiệp,hóa đơn phí shopee,tim-hieu-chi-phi
+261,14,ban-hang-facebook,chinh-sach-quang-cao-meta-cho-thuc-pham-my-pham,"Chính sách quảng cáo Meta cho thực phẩm, mỹ phẩm",chính sách quảng cáo facebook,kien-thuc
+262,14,youtube,bat-kiem-tien-youtube-dieu-kien-moi-nhat,Bật kiếm tiền YouTube: điều kiện mới nhất,kiếm tiền youtube,kien-thuc
+263,14,instagram,instagram-cho-nganh-my-pham-lam-dep,"Instagram cho ngành mỹ phẩm, làm đẹp",instagram mỹ phẩm,kien-thuc
+264,14,threads,doc-so-lieu-threads,Đọc số liệu Threads,số liệu threads,kien-thuc
+265,14,website-seo,google-business-profile-cho-doanh-nghiep,Google Business Profile cho doanh nghiệp,google business profile,kien-thuc
+266,14,lich-sale,dat-muc-tieu-doanh-so-cho-ngay-sale-tu-du-lieu-thang-truoc,Đặt mục tiêu doanh số cho ngày sale từ dữ liệu tháng trước,mục tiêu doanh số ngày sale,kien-thuc
+267,14,van-hanh-tiktok-shop,cham-soc-khach-hang-tiktok-shop-tin-nhan-thoi-gian-phan-hoi-mau-cau,"Chăm sóc khách hàng TikTok Shop: tin nhắn, thời gian phản hồi, mẫu câu",chăm sóc khách tiktok shop,kien-thuc
+268,14,van-hanh-shopee,thue-khi-ban-hang-tren-shopee-nam-2026,Thuế khi bán hàng trên Shopee năm 2026,thuế bán hàng shopee,kien-thuc
+269,14,content-tiktok,nhan-ban-video-thang-bien-1-y-tuong-thanh-10-video,Nhân bản video thắng: biến 1 ý tưởng thành 10 video,nhân bản video tiktok,kien-thuc
+270,14,quang-cao-tiktok,tinh-roi-hoa-von-theo-bien-loi-nhuan-va-phi-san,Tính ROI hòa vốn theo biên lợi nhuận và phí sàn,roi hòa vốn,tim-hieu-chi-phi
+271,14,website-seo,seo-hinh-anh-ten-file-alt-dung-luong,"SEO hình ảnh: tên file, alt, dung lượng",seo hình ảnh,kien-thuc
+272,14,tiktok,hashtag-tiktok-con-tac-dung-khong-va-dung,Hashtag TikTok còn tác dụng không và dùng thế nào,hashtag tiktok,huong-dan
+273,14,tiktok-shop,thanh-toan-va-rut-tien-tiktok-shop-chu-ky-phi-luu-y,"Thanh toán và rút tiền TikTok Shop: chu kỳ, phí, lưu ý",rút tiền tiktok shop,tim-hieu-chi-phi
+274,14,quang-cao-shopee,quang-cao-shopee-bi-giam-hien-thi-nguyen-nhan,Quảng cáo Shopee bị giảm hiển thị: nguyên nhân,quảng cáo shopee không hiển thị,kien-thuc
+275,14,ban-hang-facebook,fanpage-bi-khoa-bi-han-che-phong-tranh-va-khoi-phuc,"Fanpage bị khóa, bị hạn chế: phòng tránh và khôi phục",fanpage bị khóa,kien-thuc
+276,14,youtube,thiet-bi-quay-video-youtube-cho-doanh-nghiep,Thiết bị quay video YouTube cho doanh nghiệp,thiết bị quay youtube,kien-thuc
+277,14,instagram,instagram-cho-nganh-thoi-trang,Instagram cho ngành thời trang,instagram thời trang,kien-thuc
+278,14,lich-sale,phan-vai-doi-ngu-trong-ngay-sale-ai-lam-gi-tu-0h-den-24h,Phân vai đội ngũ trong ngày sale: ai làm gì từ 0h đến 24h,đội ngũ vận hành ngày sale,kien-thuc
+279,14,phi-san-tiktok-shop,thue-va-phi-khau-tru-khi-ban-tren-tiktok-shop,Thuế và phí khấu trừ khi bán trên TikTok Shop,thuế khấu trừ tiktok shop,tim-hieu-chi-phi
+280,14,phi-san-shopee,lich-su-thay-doi-phi-shopee-2025-2026,Lịch sử thay đổi phí Shopee 2025–2026,thay đổi phí shopee,tim-hieu-chi-phi
+281,15,threads,y-tuong-noi-dung-threads-30-ngay,Ý tưởng nội dung Threads 30 ngày,ý tưởng content threads,kien-thuc
+282,15,van-hanh-tiktok-shop,giam-ty-le-hoan-hang-tren-tiktok-shop,Giảm tỷ lệ hoàn hàng trên TikTok Shop,giảm hoàn hàng tiktok shop,kien-thuc
+283,15,van-hanh-shopee,shopee-va-luat-thuong-mai-dien-tu-moi-nguoi-ban-can-chuan-bi,Shopee và luật thương mại điện tử mới: người bán cần chuẩn bị gì,luật thương mại điện tử shopee,kien-thuc
+284,15,content-tiktok,doc-du-lieu-tung-video-de-biet-vi-sao-no-ra-don,Đọc dữ liệu từng video để biết vì sao nó ra đơn,phân tích video tiktok,kien-thuc
+285,15,quang-cao-tiktok,chay-quang-cao-cho-san-pham-moi-chua-co-don,Chạy quảng cáo cho sản phẩm mới chưa có đơn,quảng cáo sản phẩm mới tiktok,kien-thuc
+286,15,website-seo,website-ban-hang-shopify-haravan-wordpress-hay-tu-code,"Website bán hàng: Shopify, Haravan, WordPress hay tự code",nền tảng làm website,kien-thuc
+287,15,tiktok,seo-tiktok-de-video-xuat-hien-khi-khach-tim-kiem,SEO TikTok: để video xuất hiện khi khách tìm kiếm,seo tiktok,kien-thuc
+288,15,tiktok-shop,danh-gia-san-pham-tren-tiktok-shop-xin-danh-gia-the-nao-cho-dung,Đánh giá sản phẩm trên TikTok Shop: xin đánh giá thế nào cho đúng,đánh giá tiktok shop,tim-hieu-chi-phi
+289,15,quang-cao-shopee,quang-cao-ngoai-san-keo-ve-shopee-facebook-tiktok-google,"Quảng cáo ngoài sàn kéo về Shopee: Facebook, TikTok, Google",quảng cáo ngoài sàn shopee,kien-thuc
+290,15,ban-hang-facebook,facebook-va-zalo-phoi-hop-de-giu-khach,Facebook và Zalo: phối hợp để giữ khách,facebook zalo bán hàng,kien-thuc
+291,15,lich-sale,chuan-bi-noi-dung-video-truoc-ngay-sale-bao-nhieu-video-la-du,Chuẩn bị nội dung video trước ngày sale: bao nhiêu video là đủ,video chuẩn bị ngày sale,tim-hieu-chi-phi
+292,15,youtube,kich-ban-video-youtube-8-12-phut-giu-chan-nguoi-xem,Kịch bản video YouTube 8–12 phút giữ chân người xem,kịch bản video youtube,huong-dan
+293,15,instagram,instagram-cho-nganh-thuc-pham-quan-do-uong,"Instagram cho ngành thực phẩm, quán, đồ uống",instagram thực phẩm,kien-thuc
+294,15,van-hanh-tiktok-shop,quan-ly-ton-kho-da-kenh-khi-ban-ca-tiktok-shop-va-shopee,Quản lý tồn kho đa kênh khi bán cả TikTok Shop và Shopee,quản lý tồn kho đa kênh,kien-thuc
+295,15,van-hanh-shopee,quan-ly-danh-muc-san-pham-shopee-theo-vai-tro,Quản lý danh mục sản phẩm Shopee theo vai trò,danh mục sản phẩm shopee,kien-thuc
+296,15,lich-sale,booking-koc-cho-ngay-sale-tim-deal-gui-mau-do-ket-qua,"Booking KOC cho ngày sale: tìm, deal, gửi mẫu, đo kết quả",booking koc ngày sale,kien-thuc
+297,15,content-tiktok,content-cho-video-quang-cao-gmv-max-khac-gi-video-tu-nhien,Content cho video quảng cáo GMV Max: khác gì video tự nhiên,video quảng cáo gmv max,kien-thuc
+298,15,quang-cao-tiktok,scale-quang-cao-tiktok-tang-ngan-sach-ma-khong-vo-roi,Scale quảng cáo TikTok: tăng ngân sách mà không vỡ ROI,scale quảng cáo tiktok,kien-thuc
+299,15,phi-san-tiktok-shop,doi-soat-doanh-thu-tiktok-shop-kiem-tra-phi-tung-don,Đối soát doanh thu TikTok Shop: kiểm tra phí từng đơn,đối soát tiktok shop,tim-hieu-chi-phi
+300,15,phi-san-shopee,uu-dai-phi-co-dinh-cho-nguoi-ban-moi-tren-shopee,Ưu đãi phí cố định cho người bán mới trên Shopee,ưu đãi phí người bán mới shopee,tim-hieu-chi-phi
+301,16,threads,ke-chuyen-nghe-tren-threads-chan-that-thang-hoanh-trang,Kể chuyện nghề trên Threads: chân thật thắng hoành tráng,kể chuyện threads,kien-thuc
+302,16,website-seo,thong-bao-website-tmdt-voi-co-quan-nha-nuoc-theo-luat-moi,Thông báo website TMĐT với cơ quan nhà nước theo luật mới,thông báo website thương mại điện tử,kien-thuc
+303,16,tiktok,tiktok-search-khach-tim-gi-tren-tiktok-va-cach-don-dau,TikTok Search: khách tìm gì trên TikTok và cách đón đầu,tìm kiếm trên tiktok,huong-dan
+304,16,tiktok-shop,tai-khoan-chinh-thuc-va-tai-khoan-lien-ket-cua-tiktok-shop,Tài khoản chính thức và tài khoản liên kết của TikTok Shop,tài khoản liên kết tiktok shop,kien-thuc
+305,16,quang-cao-shopee,shopee-ads-cho-nganh-thuc-pham,Shopee Ads cho ngành thực phẩm,quảng cáo shopee thực phẩm,kien-thuc
+306,16,ban-hang-facebook,keo-khach-tu-facebook-ve-website-va-san,Kéo khách từ Facebook về website và sàn,kéo khách facebook về shop,kien-thuc
+307,16,lich-sale,combo-va-qua-tang-ngay-sale-tang-gia-tri-don-ma-khong-giam-gia-sau,Combo và quà tặng ngày sale: tăng giá trị đơn mà không giảm giá sâu,combo quà tặng ngày sale,tim-hieu-chi-phi
+308,16,youtube,kenh-youtube-cua-chu-doanh-nghiep-chia-se-nghe-xay-niem-tin,"Kênh YouTube của chủ doanh nghiệp: chia sẻ nghề, xây niềm tin",kênh youtube chủ doanh nghiệp,kien-thuc
+309,16,van-hanh-tiktok-shop,bao-cao-van-hanh-tuan-mau-va-cach-doc,Báo cáo vận hành tuần: mẫu và cách đọc,báo cáo vận hành tuần,huong-dan
+310,16,van-hanh-shopee,tang-ty-le-chuyen-doi-tren-shopee,Tăng tỷ lệ chuyển đổi trên Shopee,tỷ lệ chuyển đổi shopee,kien-thuc
+311,16,instagram,tang-follow-instagram-that-khong-mua-ao,"Tăng follow Instagram thật, không mua ảo",tăng follow instagram,kien-thuc
+312,16,content-tiktok,video-nguoi-that-hay-video-san-pham-chon-cach,Video người thật hay video sản phẩm: chọn cách nào,video người thật tiktok,huong-dan
+313,16,quang-cao-tiktok,quang-cao-trong-ngay-mega-sale-tren-tiktok-shop,Quảng cáo trong ngày mega sale trên TikTok Shop,quảng cáo ngày sale tiktok,kien-thuc
+314,16,website-seo,chinh-sach-can-co-tren-website-ban-hang,Chính sách cần có trên website bán hàng,chính sách website bán hàng,kien-thuc
+315,16,tiktok,livestream-tren-kenh-moi-bao-nhieu-follow-thi-nen-live,Livestream trên kênh mới: bao nhiêu follow thì nên live,livestream tiktok kênh mới,tim-hieu-chi-phi
+316,16,tiktok-shop,seller-center-tiktok-shop-tour-cac-muc-quan-trong,Seller Center TikTok Shop: tour các mục quan trọng,seller center tiktok shop,kien-thuc
+317,16,quang-cao-shopee,shopee-ads-cho-nganh-my-pham,Shopee Ads cho ngành mỹ phẩm,quảng cáo shopee mỹ phẩm,kien-thuc
+318,16,ban-hang-facebook,ban-hang-facebook-cho-nganh-thuc-pham,Bán hàng Facebook cho ngành thực phẩm,bán hàng facebook thực phẩm,kien-thuc
+319,16,lich-sale,cach-giu-thu-hang-san-pham-sau-khi-ket-thuc-dot-sale,Cách giữ thứ hạng sản phẩm sau khi kết thúc đợt sale,giữ thứ hạng sau sale,huong-dan
+320,16,phi-san-tiktok-shop,hoa-don-phi-san-tiktok-shop-cho-doanh-nghiep,Hóa đơn phí sàn TikTok Shop cho doanh nghiệp,hóa đơn phí tiktok shop,tim-hieu-chi-phi
+321,17,phi-san-shopee,phi-hoan-hang-don-that-bai-tren-shopee,"Phí hoàn hàng, đơn thất bại trên Shopee",phí hoàn hàng shopee,tim-hieu-chi-phi
+322,17,threads,quang-cao-tren-threads,Quảng cáo trên Threads,quảng cáo threads,kien-thuc
+323,17,van-hanh-tiktok-shop,p-l-gian-hang-tiktok-shop-tinh-lai-lo-that-sau-moi-chi-phi,P&L gian hàng TikTok Shop: tính lãi lỗ thật sau mọi chi phí,lãi lỗ tiktok shop,tim-hieu-chi-phi
+324,17,van-hanh-shopee,phan-tich-ban-hang-trong-kenh-nguoi-ban-shopee,Phân tích bán hàng trong Kênh Người Bán Shopee,phân tích bán hàng shopee,kien-thuc
+325,17,youtube,youtube-cho-nganh-thuc-pham-do-uong,"YouTube cho ngành thực phẩm, đồ uống",youtube ngành thực phẩm,kien-thuc
+326,17,content-tiktok,lam-content-khi-khong-muon-lo-mat,Làm content khi không muốn lộ mặt,content tiktok không lộ mặt,kien-thuc
+327,17,quang-cao-tiktok,quang-cao-livestream-khung-gio-ngan-sach-phoi-hop-voi-host,"Quảng cáo livestream: khung giờ, ngân sách, phối hợp với host",quảng cáo livestream tiktok,kien-thuc
+328,17,website-seo,keo-khach-tu-san-ve-website-co-vi-pham-khong-lam-sao-cho-kheo,"Kéo khách từ sàn về website: có vi phạm không, làm sao cho khéo",kéo khách từ sàn về website,huong-dan
+329,17,lich-sale,ngay-sale-tren-facebook-va-website-keo-khach-ve-kenh-rieng,Ngày sale trên Facebook và website: kéo khách về kênh riêng,sale facebook website,kien-thuc
+330,17,instagram,instagram-va-threads-dung-chung-suc-manh,Instagram và Threads: dùng chung sức mạnh,instagram threads,kien-thuc
+331,17,tiktok,xay-cong-dong-tren-tiktok-binh-luan-tra-loi-bang-video-ghep-video,"Xây cộng đồng trên TikTok: bình luận, trả lời bằng video, ghép video",cộng đồng tiktok,kien-thuc
+332,17,tiktok-shop,trung-tam-tang-truong-tiktok-shop-nhiem-vu-va-quyen-loi,Trung tâm tăng trưởng TikTok Shop: nhiệm vụ và quyền lợi,trung tâm tăng trưởng tiktok shop,kien-thuc
+333,17,quang-cao-shopee,thue-chay-quang-cao-shopee-phi-va-cach-danh-gia,Thuê chạy quảng cáo Shopee: phí và cách đánh giá,dịch vụ quảng cáo shopee,thuong-mai
+334,17,ban-hang-facebook,ban-hang-facebook-cho-nganh-my-pham,Bán hàng Facebook cho ngành mỹ phẩm,bán hàng facebook mỹ phẩm,kien-thuc
+335,17,van-hanh-tiktok-shop,tang-truong-tu-0-len-500-trieu-thang-tren-tiktok-shop-cac-giai-doan,Tăng trưởng từ 0 lên 500 triệu/tháng trên TikTok Shop: các giai đoạn,tăng doanh số tiktok shop,kien-thuc
+336,17,van-hanh-shopee,doi-thu-tren-shopee-theo-doi-gia-chuong-trinh-danh-gia,"Đối thủ trên Shopee: theo dõi giá, chương trình, đánh giá",phân tích đối thủ shopee,tim-hieu-chi-phi
+337,17,lich-sale,doc-bao-cao-sau-ngay-sale-10-chi-so-can-xem,Đọc báo cáo sau ngày sale: 10 chỉ số cần xem,báo cáo sau ngày sale,kien-thuc
+338,17,content-tiktok,viet-caption-tiktok-ngan-co-tu-khoa-co-cau-hoi,"Viết caption TikTok: ngắn, có từ khóa, có câu hỏi",caption tiktok,kien-thuc
+339,17,quang-cao-tiktok,thue-chay-quang-cao-tiktok-phi-quan-ly-cach-danh-gia-don-vi,"Thuê chạy quảng cáo TikTok: phí quản lý, cách đánh giá đơn vị",dịch vụ chạy quảng cáo tiktok,thuong-mai
+340,17,phi-san-tiktok-shop,phi-hoan-hang-va-don-that-bai-tren-tiktok-shop,Phí hoàn hàng và đơn thất bại trên TikTok Shop,phí hoàn hàng tiktok shop,tim-hieu-chi-phi
+341,18,phi-san-shopee,phi-affiliate-shopee-hoa-hong-tra-nguoi-tiep-thi,Phí affiliate Shopee: hoa hồng trả người tiếp thị,phí affiliate shopee,tim-hieu-chi-phi
+342,18,youtube,youtube-cho-nganh-my-pham,YouTube cho ngành mỹ phẩm,youtube ngành mỹ phẩm,kien-thuc
+343,18,threads,keo-khach-tu-threads-ve-website-zalo,"Kéo khách từ Threads về website, Zalo",kéo khách threads,kien-thuc
+344,18,website-seo,landing-page-ban-hang-chuyen-doi-cao,Landing page bán hàng chuyển đổi cao,landing page bán hàng,kien-thuc
+345,18,tiktok,chay-promote-cho-video-tiktok-khi-nao-nen-dung,Chạy Promote cho video TikTok: khi nào nên dùng,promote tiktok,kien-thuc
+346,18,tiktok-shop,chuong-trinh-khuyen-mai-cua-tiktok-shop-danh-cho-nguoi-ban,Chương trình khuyến mãi của TikTok Shop dành cho người bán,khuyến mãi tiktok shop,kien-thuc
+347,18,quang-cao-shopee,quang-cao-tu-dong-hay-thu-cong-tren-shopee,Quảng cáo tự động hay thủ công trên Shopee,quảng cáo tự động shopee,kien-thuc
+348,18,ban-hang-facebook,thue-chay-quang-cao-facebook-phi-va-cach-chon-don-vi,Thuê chạy quảng cáo Facebook: phí và cách chọn đơn vị,dịch vụ quảng cáo facebook,thuong-mai
+349,18,instagram,instagram-va-facebook-dang-cheo-co-nen-khong,Instagram và Facebook: đăng chéo có nên không,đăng chéo instagram facebook,kien-thuc
+350,18,lich-sale,loi-thuong-gap-khien-ngay-sale-lo-nang-va-cach-tranh,Lỗi thường gặp khiến ngày sale lỗ nặng và cách tránh,lỗi khi chạy sale,huong-dan
+351,18,van-hanh-tiktok-shop,gian-hang-tiktok-shop-dung-doanh-so-chan-doan-tung-tang,Gian hàng TikTok Shop đứng doanh số: chẩn đoán từng tầng,tiktok shop không ra đơn,kien-thuc
+352,18,van-hanh-shopee,shop-shopee-khong-co-don-chan-doan-va-cach-xu-ly,Shop Shopee không có đơn: chẩn đoán và cách xử lý,shopee không có đơn,huong-dan
+353,18,content-tiktok,tu-ngu-nhay-cam-va-cam-ket-qua-da-trong-video-ban-hang,Từ ngữ nhạy cảm và cam kết quá đà trong video bán hàng,từ cấm tiktok,kien-thuc
+354,18,quang-cao-tiktok,kiem-soat-ngan-sach-khi-giao-quang-cao-cho-agency,Kiểm soát ngân sách khi giao quảng cáo cho agency,kiểm soát ngân sách quảng cáo,thuong-mai
+355,18,website-seo,blog-doanh-nghiep-viet-gi-de-co-khach,Blog doanh nghiệp: viết gì để có khách,blog doanh nghiệp,kien-thuc
+356,18,lich-sale,ke-hoach-sale-nam-cho-doanh-nghiep-12-thang-4-mua-cao-diem,"Kế hoạch sale năm cho doanh nghiệp: 12 tháng, 4 mùa cao điểm",kế hoạch sale cả năm,kien-thuc
+357,18,youtube,playlist-va-cau-truc-kenh-youtube,Playlist và cấu trúc kênh YouTube,playlist youtube,kien-thuc
+358,18,tiktok,doi-ngu-lam-tiktok-cho-doanh-nghiep-nho-can-may-nguoi,Đội ngũ làm TikTok cho doanh nghiệp nhỏ: cần mấy người,đội ngũ làm tiktok,kien-thuc
+359,18,tiktok-shop,freeship-xtra-voucher-xtra-tren-tiktok-shop-co-nen-tham-gia,"Freeship Xtra, voucher Xtra trên TikTok Shop: có nên tham gia",freeship xtra tiktok shop,kien-thuc
+360,18,quang-cao-shopee,scale-shopee-ads-khi-da-co-roas-tot,Scale Shopee Ads khi đã có ROAS tốt,scale quảng cáo shopee,kien-thuc
+361,19,ban-hang-facebook,doi-ban-hang-facebook-sale-inbox-cham-soc-len-don,"Đội bán hàng Facebook: sale inbox, chăm sóc, lên đơn",đội sale facebook,kien-thuc
+362,19,phi-san-tiktok-shop,so-sanh-phi-tiktok-shop-va-shopee-nam-2026,So sánh phí TikTok Shop và Shopee năm 2026,so sánh phí tiktok shop shopee,tim-hieu-chi-phi
+363,19,phi-san-shopee,doi-soat-doanh-thu-shopee-kiem-tra-phi-tung-don,Đối soát doanh thu Shopee: kiểm tra phí từng đơn,đối soát shopee,tim-hieu-chi-phi
+364,19,threads,tai-khoan-threads-bi-han-che,Tài khoản Threads bị hạn chế,threads bị hạn chế,kien-thuc
+365,19,van-hanh-tiktok-shop,nhuong-quyen-van-hanh-ban-hang-qua-dai-ly-tren-tiktok-shop,"Nhượng quyền vận hành, bán hàng qua đại lý trên TikTok Shop",bán hàng đại lý tiktok shop,kien-thuc
+366,19,van-hanh-shopee,van-hanh-shopee-cho-nganh-thuc-pham,Vận hành Shopee cho ngành thực phẩm,vận hành shopee thực phẩm,kien-thuc
+367,19,instagram,tai-khoan-instagram-bi-han-che-bi-khoa,"Tài khoản Instagram bị hạn chế, bị khóa",instagram bị khóa,kien-thuc
+368,19,lich-sale,sale-valentine-14-2-va-14-3-nhom-hang-combo-noi-dung,"Sale Valentine 14.2 và 14.3: nhóm hàng, combo, nội dung",sale valentine,kien-thuc
+369,19,content-tiktok,content-cho-san-pham-thuc-pham-chuc-nang-tra-thao-moc-dung-luat-quang,"Content cho sản phẩm thực phẩm chức năng, trà thảo mộc: đúng luật quảng cáo",quảng cáo thực phẩm đúng luật,kien-thuc
+370,19,quang-cao-tiktok,thu-nghiem-a-b-noi-dung-quang-cao-tiktok,Thử nghiệm A/B nội dung quảng cáo TikTok,ab test quảng cáo tiktok,kien-thuc
+371,19,website-seo,noi-dung-ai-va-seo-google-noi,Nội dung AI và SEO: Google nói gì,nội dung ai seo,kien-thuc
+372,19,youtube,binh-luan-va-cong-dong-tren-youtube,Bình luận và cộng đồng trên YouTube,cộng đồng youtube,kien-thuc
+373,19,tiktok,thue-ngoai-xay-kenh-tiktok-chi-phi-quy-trinh-cach-chon-don-vi,"Thuê ngoài xây kênh TikTok: chi phí, quy trình, cách chọn đơn vị",dịch vụ xây kênh tiktok,thuong-mai
+374,19,tiktok-shop,tiktok-shop-hay-shopee-doanh-nghiep-nen-bat-dau-o-dau,TikTok Shop hay Shopee: doanh nghiệp nên bắt đầu ở đâu,nên bán tiktok shop hay shopee,kien-thuc
+375,19,quang-cao-shopee,ket-hop-quang-cao-va-seo-tren-shopee,Kết hợp quảng cáo và SEO trên Shopee,quảng cáo và seo shopee,kien-thuc
+376,19,ban-hang-facebook,phan-mem-quan-ly-inbox-va-don-hang-facebook,Phần mềm quản lý inbox và đơn hàng Facebook,phần mềm quản lý inbox,kien-thuc
+377,19,van-hanh-tiktok-shop,phoi-hop-livestream-video-va-quang-cao-trong-mot-ke-hoach,"Phối hợp livestream, video và quảng cáo trong một kế hoạch",phối hợp livestream quảng cáo,kien-thuc
+378,19,van-hanh-shopee,van-hanh-shopee-cho-nganh-my-pham,Vận hành Shopee cho ngành mỹ phẩm,vận hành shopee mỹ phẩm,kien-thuc
+379,19,lich-sale,sale-6-6-va-7-7-giua-nam-chuan-bi-gi-de-vuot-mua-thap-diem,Sale 6.6 và 7.7 giữa năm: chuẩn bị gì để vượt mùa thấp điểm,sale 6.6 7.7,kien-thuc
+380,19,content-tiktok,quy-trinh-san-xuat-content-cho-doi-3-nguoi,Quy trình sản xuất content cho đội 3 người,quy trình sản xuất content,huong-dan
+381,20,quang-cao-tiktok,toi-uu-quang-cao-theo-gio-va-theo-ngay-trong-tuan,Tối ưu quảng cáo theo giờ và theo ngày trong tuần,tối ưu quảng cáo theo giờ,kien-thuc
+382,20,phi-san-tiktok-shop,phi-tham-gia-chuong-trinh-khuyen-mai-cua-tiktok-shop,Phí tham gia chương trình khuyến mãi của TikTok Shop,phí chương trình tiktok shop,tim-hieu-chi-phi
+383,20,phi-san-shopee,phi-san-shopee-tang-cach-giu-bien-loi-nhuan,Phí sàn Shopee tăng: cách giữ biên lợi nhuận,phí shopee tăng nên làm gì,tim-hieu-chi-phi
+384,20,instagram,noi-dung-nguoi-dung-tao-ugc-tren-instagram,Nội dung người dùng tạo (UGC) trên Instagram,ugc instagram,kien-thuc
+385,20,threads,viet-thread-nhieu-phan-cau-truc-giu-nguoi-doc,Viết thread nhiều phần: cấu trúc giữ người đọc,viết thread nhiều phần,kien-thuc
+386,20,website-seo,do-luong-seo-bang-doanh-thu,Đo lường SEO bằng doanh thu,đo lường seo,kien-thuc
+387,20,lich-sale,sale-4-4-va-5-5-tan-dung-mua-he-cho-nhom-hang-giai-nhiet,Sale 4.4 và 5.5: tận dụng mùa hè cho nhóm hàng giải nhiệt,sale 4.4 5.5,kien-thuc
+388,20,van-hanh-tiktok-shop,phan-quyen-tai-khoan-tiktok-shop-cho-nhan-vien-va-agency,Phân quyền tài khoản TikTok Shop cho nhân viên và agency,phân quyền tiktok shop,thuong-mai
+389,20,van-hanh-shopee,thue-ngoai-van-hanh-shopee-chi-phi-quy-trinh-cach-chon-don-vi,"Thuê ngoài vận hành Shopee: chi phí, quy trình, cách chọn đơn vị",dịch vụ vận hành shopee,thuong-mai
+390,20,tiktok,kpi-cho-kenh-tiktok-doanh-nghiep-theo-tung-giai-doan,KPI cho kênh TikTok doanh nghiệp theo từng giai đoạn,kpi kênh tiktok,kien-thuc
+391,20,tiktok-shop,ban-hang-tren-tiktok-shop-can-von-bao-nhieu,Bán hàng trên TikTok Shop cần vốn bao nhiêu,vốn bán tiktok shop,tim-hieu-chi-phi
+392,20,quang-cao-shopee,quang-cao-doi-thu-tu-khoa-thuong-hieu-tren-shopee,"Quảng cáo đối thủ, từ khóa thương hiệu trên Shopee",từ khóa thương hiệu shopee,kien-thuc
+393,20,ban-hang-facebook,quang-cao-facebook-trong-ngay-sale,Quảng cáo Facebook trong ngày sale,quảng cáo facebook ngày sale,kien-thuc
+394,20,youtube,keo-khach-tu-youtube-ve-website-va-san,Kéo khách từ YouTube về website và sàn,kéo khách youtube,kien-thuc
+395,20,content-tiktok,brief-cho-koc-lam-video-mau-va-cach-viet,Brief cho KOC làm video: mẫu và cách viết,brief koc,huong-dan
+396,20,quang-cao-tiktok,quang-cao-tiktok-cho-nganh-thuc-pham-do-uong,"Quảng cáo TikTok cho ngành thực phẩm, đồ uống",quảng cáo tiktok thực phẩm,kien-thuc
+397,20,website-seo,seo-cho-thuong-hieu-moi-chua-ai-biet,SEO cho thương hiệu mới chưa ai biết,seo thương hiệu mới,kien-thuc
+398,20,lich-sale,ngay-hoi-livestream-tren-tiktok-shop-tham-gia-ra-sao,Ngày hội livestream trên TikTok Shop: tham gia ra sao,ngày hội livestream tiktok,kien-thuc
+399,20,instagram,live-tren-instagram-cho-thuong-hieu,Live trên Instagram cho thương hiệu,live instagram,kien-thuc
+400,20,van-hanh-tiktok-shop,hop-dong-thue-van-hanh-tiktok-shop-dieu-khoan-can-co,Hợp đồng thuê vận hành TikTok Shop: điều khoản cần có,hợp đồng vận hành tiktok shop,thuong-mai
+401,21,van-hanh-shopee,doi-van-hanh-shopee-noi-bo-vi-tri-kpi-luong-thuong,"Đội vận hành Shopee nội bộ: vị trí, KPI, lương thưởng",đội vận hành shopee,kien-thuc
+402,21,phi-san-tiktok-shop,tong-chi-phi-van-hanh-mot-gian-hang-tiktok-shop-moi-thang,Tổng chi phí vận hành một gian hàng TikTok Shop mỗi tháng,chi phí vận hành tiktok shop,tim-hieu-chi-phi
+403,21,phi-san-shopee,tong-chi-phi-van-hanh-gian-hang-shopee-moi-thang,Tổng chi phí vận hành gian hàng Shopee mỗi tháng,chi phí vận hành shopee,tim-hieu-chi-phi
+404,21,threads,threads-co-giup-seo-va-duoc-ai-trich-dan-khong,Threads có giúp SEO và được AI trích dẫn không,threads seo,kien-thuc
+405,21,tiktok,sao-chep-noi-dung-tren-tiktok-bi-phat-the-nao-lam-sao-lay-cam-hung,"Sao chép nội dung trên TikTok: bị phạt thế nào, làm sao lấy cảm hứng đúng",đạo nhái nội dung tiktok,huong-dan
+406,21,tiktok-shop,nen-ban-gi-tren-tiktok-shop-nam-2026,Nên bán gì trên TikTok Shop năm 2026,nên bán gì trên tiktok shop,kien-thuc
+407,21,quang-cao-shopee,lich-chay-quang-cao-theo-gio-tren-shopee,Lịch chạy quảng cáo theo giờ trên Shopee,lịch quảng cáo shopee,kien-thuc
+408,21,ban-hang-facebook,test-noi-dung-quang-cao-facebook-voi-ngan-sach-nho,Test nội dung quảng cáo Facebook với ngân sách nhỏ,test quảng cáo facebook,kien-thuc
+409,21,lich-sale,sale-cuoi-nam-cho-nganh-thuc-pham-va-do-uong,Sale cuối năm cho ngành thực phẩm và đồ uống,sale cuối năm thực phẩm,kien-thuc
+410,21,youtube,thue-ngoai-san-xuat-va-van-hanh-kenh-youtube,Thuê ngoài sản xuất và vận hành kênh YouTube,dịch vụ xây kênh youtube,thuong-mai
+411,21,content-tiktok,san-xuat-video-hang-loat-30-video-mot-tuan-khong-duoi,Sản xuất video hàng loạt: 30 video một tuần không đuối,sản xuất video hàng loạt,kien-thuc
+412,21,quang-cao-tiktok,quang-cao-tiktok-cho-nganh-my-pham,Quảng cáo TikTok cho ngành mỹ phẩm,quảng cáo tiktok mỹ phẩm,kien-thuc
+413,21,website-seo,website-bi-tut-hang-google-nguyen-nhan-va-cach-xu-ly,Website bị tụt hạng Google: nguyên nhân và cách xử lý,website tụt hạng,huong-dan
+414,21,van-hanh-tiktok-shop,mo-hinh-chia-doanh-thu-voi-agency-van-hanh-uu-nhuoc-diem,Mô hình chia doanh thu với agency vận hành: ưu nhược điểm,chia doanh thu agency,thuong-mai
+415,21,van-hanh-shopee,bao-cao-tuan-cho-gian-hang-shopee,Báo cáo tuần cho gian hàng Shopee,báo cáo shopee,kien-thuc
+416,21,lich-sale,sale-cuoi-nam-cho-nganh-my-pham-va-cham-soc-ca-nhan,Sale cuối năm cho ngành mỹ phẩm và chăm sóc cá nhân,sale cuối năm mỹ phẩm,kien-thuc
+417,21,instagram,link-trong-bio-va-trang-dich-cho-instagram,Link trong bio và trang đích cho Instagram,link bio instagram,kien-thuc
+418,21,tiktok,ban-quyen-nhac-tren-tiktok-khi-lam-video-ban-hang,Bản quyền nhạc trên TikTok khi làm video bán hàng,bản quyền nhạc tiktok,kien-thuc
+419,21,tiktok-shop,ban-hang-tu-san-xuat-tren-tiktok-shop-loi-the-va-bay,Bán hàng tự sản xuất trên TikTok Shop: lợi thế và bẫy,bán hàng tự sản xuất tiktok,kien-thuc
+420,21,quang-cao-shopee,ngan-sach-ngay-va-ngan-sach-tong-cai-dat,Ngân sách ngày và ngân sách tổng: cài đặt thế nào,ngân sách ngày shopee ads,huong-dan
+421,22,ban-hang-facebook,quang-cao-facebook-khong-ra-don-chan-doan,Quảng cáo Facebook không ra đơn: chẩn đoán,quảng cáo facebook không ra đơn,kien-thuc
+422,22,content-tiktok,do-hieu-qua-content-luot-xem-ty-le-giu-chan-gmv-moi-video,"Đo hiệu quả content: lượt xem, tỷ lệ giữ chân, GMV mỗi video",đo hiệu quả content tiktok,kien-thuc
+423,22,quang-cao-tiktok,video-shopping-ads-cu-va-gmv-max-thay-doi-gi-cho-nha-ban,Video Shopping Ads cũ và GMV Max: thay đổi gì cho nhà bán,video shopping ads gmv max,kien-thuc
+424,22,phi-san-tiktok-shop,phi-san-voi-nganh-thuc-pham-do-uong-tren-tiktok-shop,"Phí sàn với ngành thực phẩm, đồ uống trên TikTok Shop",phí tiktok shop thực phẩm,tim-hieu-chi-phi
+425,22,phi-san-shopee,phi-shopee-voi-nganh-thuc-pham-do-uong,"Phí Shopee với ngành thực phẩm, đồ uống",phí shopee thực phẩm,tim-hieu-chi-phi
+426,22,youtube,youtube-va-google-video-len-ket-qua-tim-kiem-google,YouTube và Google: video lên kết quả tìm kiếm Google thế nào,video lên google,huong-dan
+427,22,threads,thue-ngoai-viet-threads-co-nen-khong,Thuê ngoài viết Threads: có nên không,dịch vụ viết threads,thuong-mai
+428,22,website-seo,xuat-hien-trong-ai-overviews-cua-google,Xuất hiện trong AI Overviews của Google,ai overviews,kien-thuc
+429,22,lich-sale,chuong-trinh-hoi-vien-va-khach-quen-trong-ngay-sale,Chương trình hội viên và khách quen trong ngày sale,khách quen ngày sale,kien-thuc
+430,22,van-hanh-tiktok-shop,van-hanh-tiktok-shop-cho-nganh-thuc-pham-do-uong,"Vận hành TikTok Shop cho ngành thực phẩm, đồ uống",vận hành tiktok shop thực phẩm,kien-thuc
+431,22,van-hanh-shopee,lai-lo-that-cua-gian-hang-shopee-sau-moi-chi-phi,Lãi lỗ thật của gian hàng Shopee sau mọi chi phí,lãi lỗ shopee,tim-hieu-chi-phi
+432,22,tiktok,kenh-tiktok-bi-khoa-cac-buoc-khang-nghi,Kênh TikTok bị khóa: các bước kháng nghị,kênh tiktok bị khóa,kien-thuc
+433,22,tiktok-shop,xay-thuong-hieu-rieng-tren-tiktok-shop-thay-vi-ban-hang,Xây thương hiệu riêng trên TikTok Shop thay vì bán hàng chợ,xây thương hiệu tiktok shop,kien-thuc
+434,22,quang-cao-shopee,nhung-sai-lam-chay-shopee-ads-khien-lo,Những sai lầm chạy Shopee Ads khiến lỗ,sai lầm quảng cáo shopee,kien-thuc
+435,22,ban-hang-facebook,xay-thuong-hieu-tren-facebook-thay-vi-chi-chay-quang-cao,Xây thương hiệu trên Facebook thay vì chỉ chạy quảng cáo,xây thương hiệu facebook,kien-thuc
+436,22,instagram,do-hieu-qua-instagram-bang-doanh-thu,Đo hiệu quả Instagram bằng doanh thu,đo hiệu quả instagram,kien-thuc
+437,22,lich-sale,quan-ly-dong-tien-truoc-va-sau-mua-sale,Quản lý dòng tiền trước và sau mùa sale,dòng tiền mùa sale,kien-thuc
+438,22,content-tiktok,thue-ngoai-san-xuat-video-tiktok-bao-gia-va-cach-lam-viec,Thuê ngoài sản xuất video TikTok: báo giá và cách làm việc,thuê sản xuất video tiktok,thuong-mai
+439,22,quang-cao-tiktok,quang-cao-va-tang-truong-tu-nhien-can-bang-ra-sao,Quảng cáo và tăng trưởng tự nhiên: cân bằng ra sao,quảng cáo và tự nhiên,kien-thuc
+440,22,website-seo,bing-webmaster-tools-va-vi-sao-quan-trong-voi-chatgpt,Bing Webmaster Tools và vì sao quan trọng với ChatGPT,bing webmaster tools,kien-thuc
+441,23,youtube,kpi-kenh-youtube-theo-giai-doan,KPI kênh YouTube theo giai đoạn,kpi youtube,kien-thuc
+442,23,van-hanh-tiktok-shop,van-hanh-tiktok-shop-cho-nganh-my-pham,Vận hành TikTok Shop cho ngành mỹ phẩm,vận hành tiktok shop mỹ phẩm,kien-thuc
+443,23,van-hanh-shopee,ban-da-san-shopee-tiktok-shop-lazada-quan-ly-tap-trung,"Bán đa sàn Shopee, TikTok Shop, Lazada: quản lý tập trung",bán đa sàn,kien-thuc
+444,23,phi-san-tiktok-shop,phi-san-voi-nganh-my-pham-tren-tiktok-shop,Phí sàn với ngành mỹ phẩm trên TikTok Shop,phí tiktok shop mỹ phẩm,tim-hieu-chi-phi
+445,23,phi-san-shopee,phi-shopee-voi-nganh-my-pham,Phí Shopee với ngành mỹ phẩm,phí shopee mỹ phẩm,tim-hieu-chi-phi
+446,23,threads,sai-lam-khi-doanh-nghiep-vao-threads,Sai lầm khi doanh nghiệp vào Threads,sai lầm threads,kien-thuc
+447,23,lich-sale,ton-kho-sau-sale-xa-hang-the-nao-khong-pha-gia,Tồn kho sau sale: xả hàng thế nào không phá giá,xả hàng tồn sau sale,tim-hieu-chi-phi
+448,23,tiktok,tu-kenh-tiktok-sang-khach-hang-trung-thanh-keo-ve-zalo-website,"Từ kênh TikTok sang khách hàng trung thành: kéo về Zalo, website",chuyển đổi khách từ tiktok,kien-thuc
+449,23,tiktok-shop,khoa-gian-hang-tiktok-shop-nguyen-nhan-va-cach-khoi-phuc,Khóa gian hàng TikTok Shop: nguyên nhân và cách khôi phục,gian hàng tiktok shop bị khóa,huong-dan
+450,23,quang-cao-shopee,tinh-roas-hoa-von-tren-shopee-sau-phi-san,Tính ROAS hòa vốn trên Shopee sau phí sàn,roas hòa vốn shopee,tim-hieu-chi-phi
+451,23,ban-hang-facebook,danh-gia-review-tren-fanpage-xay-long-tin-cho-khach-moi,"Đánh giá, review trên fanpage: xây lòng tin cho khách mới",đánh giá fanpage,tim-hieu-chi-phi
+452,23,content-tiktok,ai-ho-tro-lam-content-tiktok-dung-cho-nao-tranh,"AI hỗ trợ làm content TikTok: dùng chỗ nào, tránh chỗ nào",ai làm content tiktok,kien-thuc
+453,23,quang-cao-tiktok,nhung-sai-lam-chay-gmv-max-khien-lo,Những sai lầm chạy GMV Max khiến lỗ,sai lầm gmv max,kien-thuc
+454,23,website-seo,thue-lam-website-va-seo-bao-gia-va-cach-chon,Thuê làm website và SEO: báo giá và cách chọn,dịch vụ seo website,thuong-mai
+455,23,instagram,thue-ngoai-quan-ly-instagram,Thuê ngoài quản lý Instagram,dịch vụ quản lý instagram,thuong-mai
+456,23,van-hanh-tiktok-shop,van-hanh-tiktok-shop-cho-nganh-gia-dung-dien-may-nho,"Vận hành TikTok Shop cho ngành gia dụng, điện máy nhỏ",vận hành tiktok shop gia dụng,kien-thuc
+457,23,van-hanh-shopee,shop-bi-khoa-hoac-han-che-tren-shopee-nguyen-nhan-cach-khoi-phuc,"Shop bị khóa hoặc hạn chế trên Shopee: nguyên nhân, cách khôi phục",shopee bị khóa,huong-dan
+458,23,lich-sale,ngay-sale-va-chinh-sach-gia-san-tranh-bi-canh-bao-gia-ao,Ngày sale và chính sách giá sàn: tránh bị cảnh báo giá ảo,giá ảo ngày sale,thuong-mai
+459,23,youtube,sai-lam-khi-doanh-nghiep-lam-youtube,Sai lầm khi doanh nghiệp làm YouTube,sai lầm làm youtube,kien-thuc
+460,23,tiktok,xu-huong-tiktok-cuoi-2026-doanh-nghiep-nen-biet,Xu hướng TikTok cuối 2026 doanh nghiệp nên biết,xu hướng tiktok,kien-thuc
+461,24,tiktok-shop,bao-ve-thuong-hieu-tren-tiktok-shop-xu-ly-hang-gia-hang-nhai,"Bảo vệ thương hiệu trên TikTok Shop: xử lý hàng giả, hàng nhái",bảo vệ thương hiệu tiktok shop,kien-thuc
+462,24,quang-cao-shopee,quang-cao-shopee-cho-shopee-mall-va-thuong-hieu-lon,Quảng cáo Shopee cho Shopee Mall và thương hiệu lớn,quảng cáo shopee mall,kien-thuc
+463,24,ban-hang-facebook,facebook-marketplace-co-nen-ban-hang-o-day,Facebook Marketplace: có nên bán hàng ở đây,facebook marketplace,kien-thuc
+464,24,content-tiktok,content-livestream-cat-clip-tan-dung-phien-live-thanh-video-ngan,Content livestream cắt clip: tận dụng phiên live thành video ngắn,cắt clip livestream,kien-thuc
+465,24,quang-cao-tiktok,tu-dong-hoa-va-quy-tac-quang-cao-tren-tiktok,Tự động hóa và quy tắc quảng cáo trên TikTok,tự động hóa quảng cáo tiktok,kien-thuc
+466,24,phi-san-tiktok-shop,cau-hoi-thuong-gap-ve-phi-tiktok-shop,Câu hỏi thường gặp về phí TikTok Shop,hỏi đáp phí tiktok shop,tim-hieu-chi-phi
+467,24,phi-san-shopee,cau-hoi-thuong-gap-ve-phi-shopee,Câu hỏi thường gặp về phí Shopee,hỏi đáp phí shopee,tim-hieu-chi-phi
+468,24,threads,do-hieu-qua-threads-bang-khach-that,Đo hiệu quả Threads bằng khách thật,hiệu quả threads,kien-thuc
+469,24,website-seo,bao-mat-website-ban-hang-https-sao-luu-chong-spam,"Bảo mật website bán hàng: HTTPS, sao lưu, chống spam",bảo mật website,kien-thuc
+470,24,lich-sale,dem-nguoc-ngay-sale-noi-dung-teaser-7-ngay,Đếm ngược ngày sale: nội dung teaser 7 ngày,teaser trước ngày sale,kien-thuc
+471,24,van-hanh-tiktok-shop,cong-cu-ho-tro-van-hanh-tiktok-shop-nen-dung,Công cụ hỗ trợ vận hành TikTok Shop nên dùng,công cụ vận hành tiktok shop,kien-thuc
+472,24,van-hanh-shopee,bao-ve-thuong-hieu-tren-shopee-shopee-brand-protection,Bảo vệ thương hiệu trên Shopee: Shopee Brand Protection,bảo vệ thương hiệu shopee,kien-thuc
+473,24,instagram,sai-lam-khi-xay-instagram-cho-doanh-nghiep,Sai lầm khi xây Instagram cho doanh nghiệp,sai lầm instagram,kien-thuc
+474,24,youtube,dung-ai-ho-tro-lam-video-youtube,Dùng AI hỗ trợ làm video YouTube,ai làm youtube,kien-thuc
+475,24,lich-sale,cham-soc-khach-hang-trong-ngay-sale-kich-ban-tra-loi-nhanh,Chăm sóc khách hàng trong ngày sale: kịch bản trả lời nhanh,chăm sóc khách ngày sale,huong-dan
+476,24,tiktok,do-hieu-qua-kenh-tiktok-bang-doanh-thu-thay-vi-luot-xem,Đo hiệu quả kênh TikTok bằng doanh thu thay vì lượt xem,đo hiệu quả tiktok,kien-thuc
+477,24,tiktok-shop,bao-cao-ban-hang-trong-tiktok-shop-doc-the-nao-cho-dung,Báo cáo bán hàng trong TikTok Shop: đọc thế nào cho đúng,báo cáo tiktok shop,huong-dan
+478,24,quang-cao-shopee,mau-bao-cao-quang-cao-shopee-hang-tuan,Mẫu báo cáo quảng cáo Shopee hằng tuần,mẫu báo cáo shopee ads,kien-thuc
+479,24,ban-hang-facebook,toi-uu-chi-phi-moi-tin-nhan-khi-chay-quang-cao,Tối ưu chi phí mỗi tin nhắn khi chạy quảng cáo,chi phí mỗi tin nhắn facebook,tim-hieu-chi-phi
+480,24,content-tiktok,bo-nhan-dien-trong-video-mau-font-logo-nhat-quan,"Bộ nhận diện trong video: màu, font, logo nhất quán",nhận diện thương hiệu video,kien-thuc
+481,25,quang-cao-tiktok,bao-cao-quang-cao-tuan-gui-chu-doanh-nghiep-mau-don-gian,Báo cáo quảng cáo tuần gửi chủ doanh nghiệp: mẫu đơn giản,báo cáo quảng cáo,kien-thuc
+482,25,website-seo,checklist-seo-website-truoc-khi-ra-mat,Checklist SEO website trước khi ra mắt,checklist seo,huong-dan
+483,25,van-hanh-tiktok-shop,rui-ro-van-hanh-tiktok-shop-va-ke-hoach-du-phong,Rủi ro vận hành TikTok Shop và kế hoạch dự phòng,rủi ro tiktok shop,kien-thuc
+484,25,van-hanh-shopee,tu-0-den-1-000-don-thang-tren-shopee-lo-trinh-cu,Từ 0 đến 1.000 đơn/tháng trên Shopee: lộ trình cụ thể,tăng đơn shopee,huong-dan
+485,25,phi-san-tiktok-shop,cach-theo-doi-thong-bao-thay-doi-phi-cua-tiktok-shop,Cách theo dõi thông báo thay đổi phí của TikTok Shop,thông báo phí tiktok shop,tim-hieu-chi-phi
+486,25,phi-san-shopee,cach-theo-doi-thong-bao-thay-doi-phi-cua-shopee,Cách theo dõi thông báo thay đổi phí của Shopee,thông báo phí shopee,tim-hieu-chi-phi
+487,25,threads,lo-trinh-60-ngay-xay-threads-cho-thuong-hieu,Lộ trình 60 ngày xây Threads cho thương hiệu,lộ trình threads,huong-dan
+488,25,lich-sale,ngay-sale-cho-thuong-hieu-nho-chon-chien-truong-dung-suc,Ngày sale cho thương hiệu nhỏ: chọn chiến trường đúng sức,thương hiệu nhỏ chạy sale,kien-thuc
+489,25,instagram,lo-trinh-90-ngay-phat-trien-instagram,Lộ trình 90 ngày phát triển Instagram,lộ trình instagram,huong-dan
+490,25,youtube,lo-trinh-6-thang-xay-kenh-youtube-doanh-nghiep,Lộ trình 6 tháng xây kênh YouTube doanh nghiệp,lộ trình xây kênh youtube,huong-dan
+491,25,tiktok,nhung-kenh-tiktok-ban-hang-viet-nam-dang-hoc-cach-ho-lam,Những kênh TikTok bán hàng Việt Nam đáng học: cách họ làm,kênh tiktok bán hàng hay,huong-dan
+492,25,tiktok-shop,nhung-cau-hoi-nguoi-moi-hay-hoi-ve-tiktok-shop,Những câu hỏi người mới hay hỏi về TikTok Shop,hỏi đáp tiktok shop,kien-thuc
+493,25,quang-cao-shopee,lo-trinh-hoc-shopee-ads-cho-nhan-vien-moi,Lộ trình học Shopee Ads cho nhân viên mới,học quảng cáo shopee,huong-dan
+494,25,ban-hang-facebook,lo-trinh-ban-hang-facebook-90-ngay-cho-thuong-hieu-moi,Lộ trình bán hàng Facebook 90 ngày cho thương hiệu mới,lộ trình bán hàng facebook,huong-dan
+495,25,content-tiktok,10-loi-content-khien-video-co-view-ma-khong-co-don,10 lỗi content khiến video có view mà không có đơn,video có view không có đơn,kien-thuc
+496,25,quang-cao-tiktok,lo-trinh-hoc-chay-quang-cao-tiktok-shop-cho-nhan-vien-moi,Lộ trình học chạy quảng cáo TikTok Shop cho nhân viên mới,học chạy quảng cáo tiktok,huong-dan
+497,25,website-seo,lo-trinh-6-thang-seo-cho-website-doanh-nghiep,Lộ trình 6 tháng SEO cho website doanh nghiệp,lộ trình seo,huong-dan
+498,25,van-hanh-tiktok-shop,mot-ngay-lam-viec-cua-doi-van-hanh-tiktok-shop-tai-qhub,Một ngày làm việc của đội vận hành TikTok Shop tại QHUB,một ngày vận hành tiktok shop,kien-thuc
+499,25,van-hanh-shopee,cau-hoi-thuong-gap-khi-van-hanh-shopee,Câu hỏi thường gặp khi vận hành Shopee,hỏi đáp shopee,kien-thuc
+500,25,lich-sale,mot-nam-van-hanh-sale-bai-hoc-tu-doi-qhub,Một năm vận hành sale: bài học từ đội QHUB,kinh nghiệm chạy sale,kien-thuc

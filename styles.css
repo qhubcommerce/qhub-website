@@ -456,7 +456,8 @@ section{scroll-margin-top:70px}
 .herbal-home p{color:#40534A;margin:0 0 14px}
 .link-forest{color:var(--forest);font-weight:700;text-underline-offset:3px}
 .offer-light{background:var(--forest);box-shadow:none;margin:0}
-@media (max-width:1020px){.partner-cards{grid-template-columns:1fr}}
+@media (max-width:1020px){.partner-cards{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:620px){.partner-cards{grid-template-columns:1fr}}
 @media (max-width:620px){.herbal-home{padding:68px 0}}
 
 .pcard .pmark img{max-height:96px}
@@ -649,3 +650,4 @@ section{scroll-margin-top:70px}
 
 .kt-person-img{width:160px;height:160px;border-radius:50%;object-fit:cover;display:block;margin:0 0 18px;box-shadow:0 0 0 4px #fff,0 0 0 5px var(--paper-line)}
 .founder .avatar{background:#fff}
+.pcard[data-logo="bubchen"] .pmark img{max-height:68px}

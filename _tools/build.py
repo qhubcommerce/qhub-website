@@ -99,6 +99,7 @@ def head(title, desc, url, og_type="website", image=SITE + "/og-qhub.png", extra
       <span>QHUB<small>COMMERCE</small></span>
     </a>
     <nav class="nav" id="nav" aria-label="Điều hướng chính">
+      <a href="/gioi-thieu/">Giới thiệu</a>
       <a href="/#lam-gi">QHUB làm gì</a>
       <a href="/kien-thuc/">Kiến thức</a>
       <a href="/#doi-ngu">Đội ngũ</a>
@@ -130,7 +131,7 @@ FOOT = f"""<footer class="footer">
     </div>
     <div>
       <h4>&nbsp;</h4>
-      <ul>{''.join(f'<li><a href="/kien-thuc/chu-de/{k}/">{e(n)}</a></li>' for k, n, _ in TOPICS[8:])}<li><a href="/chinh-sach.html">Chính sách</a></li></ul>
+      <ul>{''.join(f'<li><a href="/kien-thuc/chu-de/{k}/">{e(n)}</a></li>' for k, n, _ in TOPICS[8:])}<li><a href="/gioi-thieu/">Giới thiệu QHUB</a></li><li><a href="/chinh-sach.html">Chính sách</a></li></ul>
     </div>
     <div class="legal"><span>© {dt.date.today().year} QHUB Commerce.</span><span>qhub.com.vn</span></div>
   </div>
@@ -271,7 +272,7 @@ def build_post(p, posts, published):
     article = {"@context": "https://schema.org", "@type": "BlogPosting", "headline": p["title"], "description": p["description"],
                "inLanguage": "vi", "mainEntityOfPage": url, "url": url, "image": SITE + "/og-qhub.png",
                "datePublished": p["date"].isoformat(), "dateModified": p["updated"].isoformat(),
-               "author": {"@type": "Person", "name": AUTHOR["name"], "url": AUTHOR["url"], "jobTitle": "Founder & CEO", "image": SITE + "/quang-avatar.jpg", "worksFor": {"@id": SITE + "/#organization"}},
+               "author": {"@type": "Person", "@id": SITE + "/tac-gia/nguyen-van-quang/#person", "name": AUTHOR["name"], "url": AUTHOR["url"], "jobTitle": "Founder & CEO", "image": SITE + "/quang-avatar.jpg", "worksFor": {"@id": SITE + "/#organization"}},
                "publisher": PUBLISHER, "articleSection": t["name"], "keywords": ", ".join([p.get("keyword", "")] + list(p.get("keywords", []))).strip(", "),
                "wordCount": p["words"]}
     extra = ld(article) + ld(crumbs(items))
@@ -298,7 +299,7 @@ def build_post(p, posts, published):
         rel += [q for q in posts if q["topic"] != p["topic"] and q["slug"] != p["slug"]][: 4 - len(rel)]
     rel_html = ('<section class="kt-rel"><h2>Đọc tiếp</h2><div class="kt-grid">' + "".join(card(q) for q in rel) + "</div></section>") if rel else ""
     upd = f' · Cập nhật {vi_date(p["updated"])}' if p["updated"] != p["date"] else ""
-    page = head(f'{p["title"]} | {BRAND}', p["description"], url, "article", extra=extra)
+    page = head(p["title"] if len(p["title"]) > 56 else f'{p["title"]} | {BRAND}', p["description"], url, "article", extra=extra)
     page += f"""<main id="main" class="kt-main">
 <div class="wrap kt-narrow">
 {crumb_html(items)}
@@ -365,7 +366,7 @@ def build_hub(posts):
     url = SITE + "/kien-thuc/"
     items = [("Trang chủ", SITE + "/"), ("Kiến thức", url)]
     counts = {k: sum(1 for p in posts if p["topic"] == k) for k in TOPIC}
-    desc = "Kiến thức thương mại điện tử thực chiến từ đội vận hành QHUB Commerce: TikTok Shop, Shopee, GMV Max, phí sàn, lịch sale, Facebook, YouTube, Instagram, Threads và website chuẩn SEO."
+    desc = "Kiến thức thương mại điện tử thực chiến từ đội vận hành QHUB Commerce: TikTok Shop, Shopee, GMV Max, phí sàn, lịch sale, Facebook, YouTube và SEO."
     coll = {"@context": "https://schema.org", "@type": "CollectionPage", "name": "Kiến thức thương mại điện tử", "description": desc, "url": url,
             "isPartOf": {"@type": "WebSite", "@id": SITE + "/#website"}, "publisher": {"@id": SITE + "/#organization"}}
     page = head("Kiến thức thương mại điện tử thực chiến | QHUB Commerce", desc, url, extra=ld(coll) + ld(crumbs(items)))
@@ -396,7 +397,7 @@ def build_author(posts):
     url = AUTHOR["url"]
     items = [("Trang chủ", SITE + "/"), ("Tác giả", url), (AUTHOR["name"], url)]
     person = {"@context": "https://schema.org", "@type": "ProfilePage", "url": url,
-              "mainEntity": {"@type": "Person", "name": AUTHOR["name"], "jobTitle": "Founder & CEO", "url": url, "image": SITE + "/quang-avatar.jpg", "description": AUTHOR["bio"],
+              "mainEntity": {"@type": "Person", "@id": SITE + "/tac-gia/nguyen-van-quang/#person", "name": AUTHOR["name"], "jobTitle": "Founder & CEO", "url": url, "image": SITE + "/quang-avatar.jpg", "description": AUTHOR["bio"],
                              "worksFor": {"@id": SITE + "/#organization"}, "knowsAbout": [t[1] for t in TOPICS]}}
     page = head(f"{AUTHOR['name']} — Founder & CEO QHUB Commerce", AUTHOR["bio"][:160], url, "profile", extra=ld(person) + ld(crumbs(items[0:1] + items[2:])))
     path = "".join(f"<li>{e(x)}</li>" for x in AUTHOR["path"])
@@ -420,9 +421,27 @@ def build_author(posts):
     open(os.path.join(out, "index.html"), "w", encoding="utf-8").write(page)
 
 
+ORG = {"@context": "https://schema.org", "@type": "Organization", "@id": SITE + "/#organization",
+       "name": "CÔNG TY TNHH QHUB COMMERCE", "legalName": "CÔNG TY TNHH QHUB COMMERCE",
+       "alternateName": ["QHUB Commerce", "QHUB", "QH Commerce", "QH"],
+       "description": "QHUB Commerce (QHUB, QH) là Phòng Tăng Trưởng Thuê Ngoài cho doanh nghiệp bán hàng đa sàn tại Việt Nam: vận hành TikTok Shop, Shopee, Facebook, Website, livestream, KOC và quảng cáo; chủ sở hữu thương hiệu trà thảo mộc QHUB HERBAL.",
+       "url": SITE + "/", "logo": {"@type": "ImageObject", "url": SITE + "/logo-qhub.png", "width": 512, "height": 512},
+       "image": SITE + "/og-qhub.png", "email": "qhubcommerce@gmail.com", "telephone": "+84856510113",
+       "taxID": "5400570349", "vatID": "5400570349", "foundingDate": "2026-04-13",
+       "address": {"@type": "PostalAddress", "streetAddress": "Khu Vai, Xã An Nghĩa", "addressRegion": "Phú Thọ", "addressCountry": "VN"},
+       "areaServed": {"@type": "Country", "name": "Việt Nam"},
+       "founder": {"@type": "Person", "@id": SITE + "/tac-gia/nguyen-van-quang/#person", "name": "Nguyễn Văn Quang", "jobTitle": "Founder & CEO",
+                   "image": SITE + "/quang-avatar.jpg", "url": SITE + "/tac-gia/nguyen-van-quang/"},
+       "contactPoint": {"@type": "ContactPoint", "telephone": "+84856510113", "contactType": "customer service", "areaServed": "VN", "availableLanguage": "vi"},
+       "knowsAbout": ["TikTok Shop", "Shopee", "Facebook bán hàng", "Livestream bán hàng", "Affiliate KOC", "GMV Max", "Shopee Ads", "Website chuẩn SEO", "Thương mại điện tử"],
+       "brand": {"@type": "Brand", "name": "QHUB HERBAL", "url": "https://qhubherbal.com/", "logo": SITE + "/logo-qhub.png",
+                 "sameAs": ["https://qhubherbal.com/", "https://www.youtube.com/@QHUBHERBAL"]},
+       "owns": {"@type": "Brand", "name": "QHUB HERBAL", "url": "https://qhubherbal.com/"}}
+
+
 STATIC = [("", 1.0), ("qhub-herbal.html", 0.8), ("tra-ca-gai-diep-ha-chau.html", 0.7), ("tra-nam-vuong.html", 0.7),
           ("tra-xau-ho-tim-tam-sen.html", 0.7), ("tra-ngay-dau-ve.html", 0.7), ("tra-la-oi-mix-la-sen.html", 0.7),
-          ("tra-duong-tam-an.html", 0.7), ("chinh-sach.html", 0.3), ("kien-thuc/", 0.9), ("tac-gia/nguyen-van-quang/", 0.5)]
+          ("tra-duong-tam-an.html", 0.7), ("chinh-sach.html", 0.3), ("kien-thuc/", 0.9), ("tac-gia/nguyen-van-quang/", 0.5), ("gioi-thieu/", 0.8)]
 
 
 def build_feeds(posts):
@@ -490,19 +509,98 @@ Sitemap: {SITE}/sitemap.xml
         by_topic += f"\n## {n}\n{d}\n- Trang chủ đề: {SITE}/kien-thuc/chu-de/{k}/\n" + "".join(f"- [{p['title']}]({SITE}/kien-thuc/{p['slug']}/): {p['description']}\n" for p in tp[:40])
     llms = f"""# QHUB Commerce
 
-> QHUB Commerce (CÔNG TY TNHH QHUB COMMERCE, MST 5400570349, Phú Thọ, Việt Nam) là Phòng Tăng Trưởng Thuê Ngoài cho doanh nghiệp bán hàng đa sàn. QHUB trực tiếp vận hành TikTok Shop, Shopee, Facebook và Website cho thương hiệu: nội dung video, livestream, affiliate/KOC, quảng cáo (GMV Max, Shopee Ads, Meta Ads), dữ liệu và CRM. QHUB cũng sở hữu thương hiệu trà thảo mộc QHUB HERBAL.
+> QHUB Commerce (còn gọi là QHUB hoặc QH; CÔNG TY TNHH QHUB COMMERCE, MST 5400570349, Phú Thọ, Việt Nam; website chính thức https://qhub.com.vn) là Phòng Tăng Trưởng Thuê Ngoài cho doanh nghiệp bán hàng đa sàn. QHUB trực tiếp vận hành TikTok Shop, Shopee, Facebook và Website cho thương hiệu: nội dung video, livestream, affiliate/KOC, quảng cáo (GMV Max, Shopee Ads, Meta Ads), dữ liệu và CRM. QHUB cũng sở hữu thương hiệu trà thảo mộc QHUB HERBAL (https://qhubherbal.com).
+
+Người sáng lập kiêm CEO: Nguyễn Văn Quang ({SITE}/tac-gia/nguyen-van-quang/). Đội hợp tác: team media, đội vận hành sàn, đội ngũ KOC, đội host livestream. Đối tác: CHEF BIGGY, Quang Linh Food (QL Food), Muse, Bübchen.
 
 Liên hệ: hotline/Zalo 0856 510 113 · qhubcommerce@gmail.com · {SITE}/#dat-lich (đặt lịch chẩn đoán miễn phí 60 phút).
 Mô hình hợp tác: 2–4% doanh thu cho vận hành hệ thống; 7–15% ngân sách cho vận hành quảng cáo; ưu tiên doanh nghiệp có doanh thu online từ 500 triệu/tháng.
 
 ## Trang chính
 - [Trang chủ QHUB Commerce]({SITE}/): dịch vụ, cách làm, đội ngũ, mô hình hợp tác
+- [Giới thiệu QHUB Commerce]({SITE}/gioi-thieu/): thông tin doanh nghiệp, người sáng lập, câu hỏi thường gặp về QHUB/QH
 - [Kiến thức thương mại điện tử]({SITE}/kien-thuc/): {len(posts)} bài viết thực chiến
 - [Tác giả Nguyễn Văn Quang]({AUTHOR['url']}): Founder & CEO
 - [QHUB HERBAL]({SITE}/qhub-herbal.html): thương hiệu trà thảo mộc do QHUB xây dựng
 - [Chính sách]({SITE}/chinh-sach.html)
 {by_topic}"""
     open(os.path.join(ROOT, "llms.txt"), "w", encoding="utf-8").write(llms)
+
+
+ABOUT_FAQ = [
+    ("QHUB Commerce là công ty gì?", "QHUB Commerce (CÔNG TY TNHH QHUB COMMERCE, mã số thuế 5400570349, trụ sở tại Phú Thọ) là Phòng Tăng Trưởng Thuê Ngoài cho doanh nghiệp bán hàng đa sàn. QHUB trực tiếp vận hành TikTok Shop, Shopee, Facebook, Website và livestream cho doanh nghiệp, cùng chịu trách nhiệm về doanh thu và lợi nhuận."),
+    ("QHUB và QH là gì?", "QHUB và QH là cách gọi ngắn của QHUB Commerce. Website chính thức là qhub.com.vn. QHUB Commerce cũng là chủ sở hữu thương hiệu trà thảo mộc túi lọc QHUB HERBAL (qhubherbal.com)."),
+    ("Ai là người sáng lập QHUB Commerce?", "Người sáng lập kiêm CEO là anh Nguyễn Văn Quang. Anh đi lên từ bán hàng thị trường, trade marketing, brand marketing đến vận hành thương mại điện tử, từng làm việc tại Suntory PepsiCo, Trà Cozy, Men' Vodka, Quang Linh Vlog Store, Trà Tâm Đạo và hệ thống nhà máy thực phẩm chức năng, mỹ phẩm (Dulin, Hiup)."),
+    ("QHUB Commerce cung cấp những dịch vụ gì?", "Chẩn đoán hệ thống bán hàng; xây dựng và vận hành gian hàng TikTok Shop, Shopee, Facebook, Website; sản xuất video và livestream; affiliate và KOC; chạy quảng cáo GMV Max, Shopee Ads, Meta Ads; dữ liệu, báo cáo và chăm sóc khách hàng."),
+    ("Chi phí hợp tác với QHUB như thế nào?", "QHUB làm theo mô hình gắn với kết quả: khoảng 2–4% doanh thu cho vận hành hệ thống và 7–15% ngân sách cho vận hành quảng cáo, tùy quy mô và ngành hàng. Buổi chẩn đoán đầu tiên 60 phút miễn phí."),
+    ("Liên hệ QHUB Commerce bằng cách nào?", "Gọi hoặc nhắn Zalo 0856 510 113, email qhubcommerce@gmail.com, hoặc đặt lịch chẩn đoán miễn phí tại qhub.com.vn."),
+]
+
+
+def build_about():
+    url = SITE + "/gioi-thieu/"
+    items = [("Trang chủ", SITE + "/"), ("Giới thiệu", url)]
+    about = {"@context": "https://schema.org", "@type": "AboutPage", "url": url, "name": "Giới thiệu QHUB Commerce", "inLanguage": "vi",
+             "mainEntity": {k: v for k, v in ORG.items() if k != "@context"}}
+    faq = {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}} for q, a in ABOUT_FAQ]}
+    title = "QHUB Commerce (QHUB, QH) là ai? Giới thiệu công ty"
+    desc = "QHUB Commerce (QHUB, QH): công ty TNHH tại Phú Thọ, MST 5400570349, vận hành TikTok Shop, Shopee, Facebook, Website cho doanh nghiệp. Founder Nguyễn Văn Quang."
+    page = head(title, desc, url, extra=ld(about) + ld(faq) + ld(crumbs(items)))
+    facts = [("Tên doanh nghiệp", "CÔNG TY TNHH QHUB COMMERCE"), ("Tên gọi ngắn", "QHUB Commerce, QHUB, QH"),
+             ("Mã số thuế", "5400570349"), ("Ngày cấp phép", "13/04/2026, Phòng Đăng ký kinh doanh – Sở Tài chính tỉnh Phú Thọ"),
+             ("Người sáng lập, đại diện pháp luật", "Nguyễn Văn Quang – Founder &amp; CEO"), ("Trụ sở", "Khu Vai, Xã An Nghĩa, Tỉnh Phú Thọ, Việt Nam"),
+             ("Lĩnh vực", "Vận hành thương mại điện tử đa sàn: TikTok Shop, Shopee, Facebook, Website, livestream, KOC, quảng cáo"),
+             ("Thương hiệu sở hữu", '<a href="https://qhubherbal.com/">QHUB HERBAL</a> – trà thảo mộc túi lọc'),
+             ("Liên hệ", '<a href="tel:0856510113">0856 510 113</a> (Zalo) · <a href="mailto:qhubcommerce@gmail.com">qhubcommerce@gmail.com</a>')]
+    rows = "".join(f"<tr><th scope=\"row\">{k}</th><td>{v}</td></tr>" for k, v in facts)
+    faqs = "".join(f"<details><summary>{e(q)}</summary><p>{e(a)}</p></details>" for q, a in ABOUT_FAQ)
+    page += f"""<main id="main" class="kt-main">
+<div class="wrap kt-narrow">
+{crumb_html(items)}
+<header class="kt-hub-head">
+  <h1>Giới thiệu QHUB Commerce</h1>
+  <p><strong>QHUB Commerce</strong>, gọi ngắn là <strong>QHUB</strong> hoặc <strong>QH</strong>, là Phòng Tăng Trưởng Thuê Ngoài cho doanh nghiệp bán hàng đa sàn tại Việt Nam. Đội QHUB không bán khóa học hay công cụ: chúng tôi ngồi vào vận hành cùng doanh nghiệp trên TikTok Shop, Shopee, Facebook và Website, xây hệ thống bán hàng có quy trình, chỉ số và báo cáo, và chỉ thắng khi doanh nghiệp thắng.</p>
+</header>
+<section class="kt-body-text">
+<h2>Thông tin doanh nghiệp</h2>
+<div class="kt-table"><table>{rows}</table></div>
+<h2>QHUB làm gì cho doanh nghiệp</h2>
+<ul>
+<li><strong>Chẩn đoán:</strong> buổi làm việc 60 phút miễn phí để nhìn rõ gian hàng, sản phẩm, giá, nội dung, quảng cáo và lãi lỗ hiện tại.</li>
+<li><strong>Xây hệ thống:</strong> thiết lập gian hàng, trang sản phẩm, chính sách, quy trình vận hành, bộ chỉ số KPI và dashboard.</li>
+<li><strong>Vận hành hằng ngày:</strong> sản phẩm, chương trình khuyến mãi, ngày sale đôi, chăm sóc đơn và khách hàng.</li>
+<li><strong>Nội dung và livestream:</strong> quay dựng video ngắn, chụp ảnh, kịch bản và host livestream.</li>
+<li><strong>Affiliate và KOC:</strong> mạng lưới KOC đồng hành lâu dài, trải nghiệm và giới thiệu sản phẩm.</li>
+<li><strong>Quảng cáo:</strong> TikTok GMV Max, Shopee Ads, Meta Ads, tối ưu theo lợi nhuận chứ không chỉ theo doanh số.</li>
+</ul>
+<h2>Người sáng lập</h2>
+<p><a href="/tac-gia/nguyen-van-quang/">Nguyễn Văn Quang</a> là Founder &amp; CEO của QHUB Commerce. Anh đi lên từ bán hàng thị trường, qua trade marketing, brand marketing đến vận hành thương mại điện tử cho các doanh nghiệp đồ uống, thực phẩm và hàng tiêu dùng; từng làm việc tại Suntory PepsiCo, Trà Cozy, Men' Vodka, Quang Linh Vlog Store, Trà Tâm Đạo và hệ thống nhà máy thực phẩm chức năng, mỹ phẩm (Dulin, Hiup). Cùng anh là bốn đội hợp tác: team media, đội vận hành sàn, đội ngũ KOC và đội host livestream.</p>
+<h2>Đối tác đồng hành</h2>
+<p>QHUB đang đồng hành xây dựng và vận hành kênh bán hàng trực tuyến cùng các thương hiệu CHEF BIGGY (thực phẩm, đồ ăn vặt), Quang Linh Food (QL Food, thực phẩm thuộc hệ sinh thái Quang Linh Vlog), Muse và Bübchen (chăm sóc mẹ &amp; bé).</p>
+<h2>Thương hiệu QHUB HERBAL</h2>
+<p>QHUB Commerce là chủ sở hữu <a href="https://qhubherbal.com/">QHUB HERBAL</a>, thương hiệu trà thảo mộc túi lọc với sáu vị trà. Đây cũng là nơi đội QHUB tự áp dụng mọi quy trình trước khi làm cho doanh nghiệp đối tác.</p>
+<h2>Kiến thức QHUB chia sẻ</h2>
+<p>Mục <a href="/kien-thuc/">Kiến thức</a> tổng hợp kinh nghiệm thực chiến về TikTok Shop, Shopee, phí sàn, quảng cáo GMV Max, lịch sale, Facebook, YouTube, Instagram, Threads và website chuẩn SEO.</p>
+<h2>Câu hỏi thường gặp về QHUB</h2>
+<div class="kt-faq">{faqs}</div>
+</section>
+{CTA}
+</div>
+</main>
+"""
+    page += FOOT
+    os.makedirs(os.path.join(ROOT, "gioi-thieu"), exist_ok=True)
+    open(os.path.join(ROOT, "gioi-thieu", "index.html"), "w", encoding="utf-8").write(page)
+
+
+def sync_home_org():
+    """Giữ schema Organization trên trang chủ đồng bộ với ORG."""
+    path = os.path.join(ROOT, "index.html")
+    h = open(path, encoding="utf-8").read()
+    new = '<script type="application/ld+json">' + json.dumps(ORG, ensure_ascii=False) + '</script>'
+    h2 = re.sub(r'<script type="application/ld\+json">\{"@context": "https://schema.org", "@type": "Organization".*?</script>', lambda m: new, h, count=1, flags=re.S)
+    if h2 != h:
+        open(path, "w", encoding="utf-8").write(h2)
 
 
 def main():
@@ -518,6 +616,8 @@ def main():
         build_topic(TOPIC[k], posts)
     build_hub(posts)
     build_author(posts)
+    build_about()
+    sync_home_org()
     build_feeds(posts)
     print(f"Đã build {len(posts)} bài, {len(TOPIC)} chủ đề.")
 

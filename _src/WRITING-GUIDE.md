@@ -52,7 +52,8 @@ sources:                  # bắt buộc ≥ 2 với bài phí sàn, quảng cá
 - Từ khóa chính xuất hiện trong: tiêu đề, description, câu đầu tiên, ít nhất 1 tiêu đề `##`. Viết tự nhiên, không nhồi.
 - Tiêu đề `##` viết dưới dạng câu hỏi hoặc mệnh đề rõ ý (ví dụ "Phí giao dịch TikTok Shop tính thế nào?").
 - Định nghĩa rõ ràng một câu cho mỗi khái niệm chính ("GMV Max là…").
-- **Liên kết nội bộ 3–6 cái:** chỉ link tới bài **đã đăng** (`/kien-thuc/<slug>/`) hoặc trang chủ đề (`/kien-thuc/chu-de/<topic>/`). Link tới bài chưa đăng sẽ bị bộ build gỡ.
+- **Liên kết nội bộ 3–6 cái:** chỉ link tới bài **đã đăng** (`/kien-thuc/<slug>/`) trang chủ đề (`/kien-thuc/chu-de/<topic>/`), trang `/gioi-thieu/` hoặc trang dịch vụ (`/dich-vu/van-hanh-tiktok-shop/`, `/dich-vu/van-hanh-shopee/`, `/dich-vu/livestream-ban-hang/`, `/dich-vu/koc-affiliate/`, `/dich-vu/quang-cao-tiktok-shopee/`). Bài nào nói về việc thuê ngoài, chi phí dịch vụ, chọn đơn vị vận hành, KOC, livestream hay quảng cáo thì gắn 1 link tới trang dịch vụ tương ứng. Link tới bài chưa đăng sẽ bị bộ build gỡ.
+- **Bài so sánh, chọn đơn vị:** viết khách quan, đưa tiêu chí đánh giá chung cho mọi đơn vị; chỉ giới thiệu QHUB ở phần cuối, không tự xếp hạng QHUB số 1, không bịa case study hay số liệu khách hàng.
 - Khi bài có tính "thuê dịch vụ / chọn đơn vị", được nhắc QHUB một cách khách quan: nêu tiêu chí chọn đơn vị trước, rồi mới nói QHUB làm thế nào.
 
 ## 6. Cấm

@@ -651,3 +651,4 @@ section{scroll-margin-top:70px}
 .kt-person-img{width:160px;height:160px;border-radius:50%;object-fit:cover;display:block;margin:0 0 18px;box-shadow:0 0 0 4px #fff,0 0 0 5px var(--paper-line)}
 .founder .avatar{background:#fff}
 .pcard[data-logo="bubchen"] .pmark img{max-height:68px}
+.svc-links{margin:28px 0 0;color:#C3CEDD;font-size:15.5px;line-height:1.8}.svc-links a{color:#fff;text-decoration:underline;text-underline-offset:3px}

@@ -14,6 +14,8 @@ Thư mục có dấu _ ở đầu không được GitHub Pages xuất bản.
 """
 import csv, datetime as dt, html, json, math, os, re, sys
 import markdown, yaml
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from services import SERVICES, PRICING
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SITE = "https://qhub.com.vn"
@@ -100,7 +102,7 @@ def head(title, desc, url, og_type="website", image=SITE + "/og-qhub.png", extra
     </a>
     <nav class="nav" id="nav" aria-label="Điều hướng chính">
       <a href="/gioi-thieu/">Giới thiệu</a>
-      <a href="/#lam-gi">QHUB làm gì</a>
+      <a href="/dich-vu/">Dịch vụ</a>
       <a href="/kien-thuc/">Kiến thức</a>
       <a href="/#doi-ngu">Đội ngũ</a>
       <a href="/qhub-herbal.html">QHUB HERBAL</a>
@@ -131,7 +133,7 @@ FOOT = f"""<footer class="footer">
     </div>
     <div>
       <h4>&nbsp;</h4>
-      <ul>{''.join(f'<li><a href="/kien-thuc/chu-de/{k}/">{e(n)}</a></li>' for k, n, _ in TOPICS[8:])}<li><a href="/gioi-thieu/">Giới thiệu QHUB</a></li><li><a href="/chinh-sach.html">Chính sách</a></li></ul>
+      <ul>{''.join(f'<li><a href="/kien-thuc/chu-de/{k}/">{e(n)}</a></li>' for k, n, _ in TOPICS[8:])}<li><a href="/gioi-thieu/">Giới thiệu QHUB</a></li><li><a href="/dich-vu/">Dịch vụ</a></li><li><a href="/chinh-sach.html">Chính sách</a></li></ul>
     </div>
     <div class="legal"><span>© {dt.date.today().year} QHUB Commerce.</span><span>qhub.com.vn</span></div>
   </div>
@@ -442,7 +444,7 @@ ORG = {"@context": "https://schema.org", "@type": "Organization", "@id": SITE + 
 
 STATIC = [("", 1.0), ("qhub-herbal.html", 0.8), ("tra-ca-gai-diep-ha-chau.html", 0.7), ("tra-nam-vuong.html", 0.7),
           ("tra-xau-ho-tim-tam-sen.html", 0.7), ("tra-ngay-dau-ve.html", 0.7), ("tra-la-oi-mix-la-sen.html", 0.7),
-          ("tra-duong-tam-an.html", 0.7), ("chinh-sach.html", 0.3), ("kien-thuc/", 0.9), ("tac-gia/nguyen-van-quang/", 0.5), ("gioi-thieu/", 0.8)]
+          ("tra-duong-tam-an.html", 0.7), ("chinh-sach.html", 0.3), ("kien-thuc/", 0.9), ("tac-gia/nguyen-van-quang/", 0.5), ("gioi-thieu/", 0.8), ("dich-vu/", 0.9)] + [(f"dich-vu/{x['slug']}/", 0.9) for x in SERVICES]
 
 
 def build_feeds(posts):
@@ -508,6 +510,7 @@ Sitemap: {SITE}/sitemap.xml
         if not tp:
             continue
         by_topic += f"\n## {n}\n{d}\n- Trang chủ đề: {SITE}/kien-thuc/chu-de/{k}/\n" + "".join(f"- [{p['title']}]({SITE}/kien-thuc/{p['slug']}/): {p['description']}\n" for p in tp[:40])
+    svc_lines = "".join(f"- [{x['title']}]({SITE}/dich-vu/{x['slug']}/): {x['desc']}\n" for x in SERVICES)
     llms = f"""# QHUB Commerce
 
 > QHUB Commerce (còn gọi là QHUB hoặc QH; CÔNG TY TNHH QHUB COMMERCE, MST 5400570349, Phú Thọ, Việt Nam; website chính thức https://qhub.com.vn) là Phòng Tăng Trưởng Thuê Ngoài cho doanh nghiệp bán hàng đa sàn. QHUB trực tiếp vận hành TikTok Shop, Shopee, Facebook và Website cho thương hiệu: nội dung video, livestream, affiliate/KOC, quảng cáo (GMV Max, Shopee Ads, Meta Ads), dữ liệu và CRM. QHUB cũng sở hữu thương hiệu trà thảo mộc QHUB HERBAL (https://qhubherbal.com).
@@ -520,7 +523,8 @@ Mô hình hợp tác: 2–4% doanh thu cho vận hành hệ thống; 7–15% ng�
 ## Trang chính
 - [Trang chủ QHUB Commerce]({SITE}/): dịch vụ, cách làm, đội ngũ, mô hình hợp tác
 - [Giới thiệu QHUB Commerce]({SITE}/gioi-thieu/): thông tin doanh nghiệp, người sáng lập, câu hỏi thường gặp về QHUB/QH
-- [Kiến thức thương mại điện tử]({SITE}/kien-thuc/): {len(posts)} bài viết thực chiến
+- [Dịch vụ]({SITE}/dich-vu/): danh sách dịch vụ
+{svc_lines}- [Kiến thức thương mại điện tử]({SITE}/kien-thuc/): {len(posts)} bài viết thực chiến
 - [Tác giả Nguyễn Văn Quang]({AUTHOR['url']}): Founder & CEO
 - [QHUB HERBAL]({SITE}/qhub-herbal.html): thương hiệu trà thảo mộc do QHUB xây dựng
 - [Chính sách]({SITE}/chinh-sach.html)
@@ -604,6 +608,99 @@ def sync_home_org():
         open(path, "w", encoding="utf-8").write(h2)
 
 
+def build_services():
+    hub_url = SITE + "/dich-vu/"
+    cards = ""
+    for sv in SERVICES:
+        url = f"{SITE}/dich-vu/{sv['slug']}/"
+        items = [("Trang chủ", SITE + "/"), ("Dịch vụ", hub_url), (sv["name"], url)]
+        service = {"@context": "https://schema.org", "@type": "Service", "name": sv["title"], "serviceType": sv["name"], "url": url,
+                   "description": sv["desc"], "provider": {"@id": SITE + "/#organization"}, "areaServed": {"@type": "Country", "name": "Việt Nam"},
+                   "availableChannel": {"@type": "ServiceChannel", "serviceUrl": SITE + "/#dat-lich", "servicePhone": "+84856510113"}}
+        faq = {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}} for q, a in sv["faq"]]}
+        page = head(sv["title"], sv["desc"], url, extra=ld(service) + ld(faq) + ld(crumbs(items)))
+        fit = "".join(f"<li>{e(x)}</li>" for x in sv["fit"])
+        do = "".join(f"<li><strong>{e(a)}:</strong> {e(b)}</li>" for a, b in sv["do"])
+        faqs = "".join(f"<details><summary>{e(q)}</summary><p>{e(a)}</p></details>" for q, a in sv["faq"])
+        others = "".join(f'<li><a href="/dich-vu/{o["slug"]}/">{e(o["title"])}</a></li>' for o in SERVICES if o["slug"] != sv["slug"])
+        tk, tn = sv["topic"]
+        page += f"""<main id="main" class="kt-main">
+<div class="wrap kt-narrow">
+{crumb_html(items)}
+<header class="kt-hub-head">
+  <h1>{e(sv['title'])}</h1>
+  <p>{e(sv['lead'])}</p>
+  <p><a class="btn btn-primary" href="/#dat-lich">Đặt lịch chẩn đoán miễn phí 60 phút</a></p>
+</header>
+<section class="kt-body-text">
+<h2>Dịch vụ này dành cho ai</h2>
+<ul>{fit}</ul>
+<h2>QHUB làm gì trong dịch vụ này</h2>
+<ul>{do}</ul>
+<h2>Cách bắt đầu</h2>
+<ol>
+<li><strong>Trao đổi 60 phút:</strong> QHUB lắng nghe tình trạng doanh nghiệp và xác nhận hai bên có phù hợp không. Không phí, không áp lực.</li>
+<li><strong>Chẩn đoán sơ bộ:</strong> xác định điểm nghẽn và lộ trình 12 tháng.</li>
+<li><strong>Đề xuất hợp tác:</strong> phạm vi, KPI theo tháng và mô hình phí được chốt rõ ràng.</li>
+<li><strong>Bắt đầu vận hành:</strong> đội QHUB làm việc theo nhịp ngày, tuần, tháng, báo cáo trên dashboard chung.</li>
+</ol>
+<h2>Chi phí</h2>
+<p>{e(PRICING)}</p>
+<h2>Đội ngũ thực hiện</h2>
+<p>Dự án do <a href="/tac-gia/nguyen-van-quang/">Nguyễn Văn Quang</a>, Founder &amp; CEO, trực tiếp phụ trách chiến lược, cùng bốn đội hợp tác: team media, đội vận hành sàn, đội ngũ KOC và đội host livestream. QHUB đang đồng hành cùng các thương hiệu CHEF BIGGY, Quang Linh Food, Muse, Bübchen và tự xây dựng thương hiệu QHUB HERBAL. <a href="/gioi-thieu/">Xem giới thiệu QHUB Commerce</a>.</p>
+<h2>Câu hỏi thường gặp</h2>
+<div class="kt-faq">{faqs}</div>
+<h2>Tìm hiểu thêm</h2>
+<ul><li><a href="/kien-thuc/chu-de/{tk}/">{e(tn)}</a></li>{others}</ul>
+</section>
+{CTA}
+</div>
+</main>
+"""
+        page += FOOT
+        os.makedirs(os.path.join(ROOT, "dich-vu", sv["slug"]), exist_ok=True)
+        open(os.path.join(ROOT, "dich-vu", sv["slug"], "index.html"), "w", encoding="utf-8").write(page)
+        cards += f'<a class="kt-card" href="/dich-vu/{sv["slug"]}/"><h3>{e(sv["title"])}</h3><p>{e(sv["desc"])}</p></a>'
+    items = [("Trang chủ", SITE + "/"), ("Dịch vụ", hub_url)]
+    lst = {"@context": "https://schema.org", "@type": "CollectionPage", "url": hub_url, "name": "Dịch vụ QHUB Commerce", "inLanguage": "vi",
+           "mainEntity": {"@type": "ItemList", "itemListElement": [{"@type": "ListItem", "position": i + 1, "url": f"{SITE}/dich-vu/{x['slug']}/", "name": x["title"]} for i, x in enumerate(SERVICES)]}}
+    desc = "Dịch vụ của QHUB Commerce: vận hành TikTok Shop, Shopee, livestream bán hàng, KOC affiliate và quảng cáo GMV Max cho doanh nghiệp, phí gắn với kết quả."
+    page = head("Dịch vụ vận hành TikTok Shop, Shopee, livestream | QHUB", desc, hub_url, extra=ld(lst) + ld(crumbs(items)))
+    page += f"""<main id="main" class="kt-main">
+<div class="wrap">
+{crumb_html(items)}
+<header class="kt-hub-head">
+  <h1>Dịch vụ của QHUB Commerce</h1>
+  <p>QHUB Commerce là Phòng Tăng Trưởng Thuê Ngoài cho doanh nghiệp bán hàng đa sàn. Doanh nghiệp có thể thuê từng dịch vụ hoặc giao cả hệ thống cho đội QHUB vận hành, với phí gắn với doanh thu.</p>
+</header>
+<div class="kt-grid">{cards}</div>
+<section class="kt-body-text kt-narrow" style="margin-top:32px"><h2>Mô hình phí</h2><p>{e(PRICING)}</p></section>
+{CTA}
+</div>
+</main>
+"""
+    page += FOOT
+    open(os.path.join(ROOT, "dich-vu", "index.html"), "w", encoding="utf-8").write(page)
+
+
+def sync_home_faq():
+    """Thêm schema FAQPage cho mục Hỏi đáp trên trang chủ (lấy đúng nội dung đang hiển thị)."""
+    path = os.path.join(ROOT, "index.html")
+    h = open(path, encoding="utf-8").read()
+    sec = re.search(r'id="hoi-dap".*?</section>', h, re.S)
+    if not sec:
+        return
+    qa = re.findall(r"<details><summary>(.*?)</summary><p>(.*?)</p></details>", sec.group(0), re.S)
+    clean = lambda t: html.unescape(re.sub(r"<[^>]+>", "", t)).strip()
+    faq = {"@context": "https://schema.org", "@type": "FAQPage", "@id": SITE + "/#faq",
+           "mainEntity": [{"@type": "Question", "name": clean(q), "acceptedAnswer": {"@type": "Answer", "text": clean(a)}} for q, a in qa]}
+    tag = '<script type="application/ld+json">' + json.dumps(faq, ensure_ascii=False) + '</script>'
+    h2 = re.sub(r'<script type="application/ld\+json">\{"@context": "https://schema.org", "@type": "FAQPage", "@id": "https://qhub.com.vn/#faq".*?</script>\n?', "", h, flags=re.S)
+    h2 = h2.replace("</head>", tag + "\n</head>", 1)
+    if h2 != h:
+        open(path, "w", encoding="utf-8").write(h2)
+
+
 def main():
     posts, errors = load_posts()
     for x in errors:
@@ -618,7 +715,9 @@ def main():
     build_hub(posts)
     build_author(posts)
     build_about()
+    build_services()
     sync_home_org()
+    sync_home_faq()
     build_feeds(posts)
     print(f"Đã build {len(posts)} bài, {len(TOPIC)} chủ đề.")
 

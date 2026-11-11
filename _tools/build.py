@@ -433,6 +433,7 @@ ORG = {"@context": "https://schema.org", "@type": "Organization", "@id": SITE + 
        "founder": {"@type": "Person", "@id": SITE + "/tac-gia/nguyen-van-quang/#person", "name": "Nguyễn Văn Quang", "jobTitle": "Founder & CEO",
                    "image": SITE + "/quang-avatar.jpg", "url": SITE + "/tac-gia/nguyen-van-quang/"},
        "contactPoint": {"@type": "ContactPoint", "telephone": "+84856510113", "contactType": "customer service", "areaServed": "VN", "availableLanguage": "vi"},
+       "sameAs": ["https://www.facebook.com/qhubcommercer/"],
        "knowsAbout": ["TikTok Shop", "Shopee", "Facebook bán hàng", "Livestream bán hàng", "Affiliate KOC", "GMV Max", "Shopee Ads", "Website chuẩn SEO", "Thương mại điện tử"],
        "brand": {"@type": "Brand", "name": "QHUB HERBAL", "url": "https://qhubherbal.com/", "logo": SITE + "/logo-qhub.png",
                  "sameAs": ["https://qhubherbal.com/", "https://www.youtube.com/@QHUBHERBAL"]},

@@ -1,0 +1,72 @@
+# Sau mỗi lần đăng bài: chờ trang lên sóng trên qhub.com.vn, kiểm tra HTTP 200, rồi báo Bing qua IndexNow.
+# Chạy tự động khi có bài mới trong _src/posts/, hoặc chạy tay (Run workflow) với danh sách URL.
+name: Kiểm tra trang và báo IndexNow
+
+on:
+  push:
+    branches: [main]
+    paths: ["_src/posts/**"]
+  workflow_dispatch:
+    inputs:
+      urls:
+        description: "Danh sách URL cách nhau bởi dấu cách (để trống = các bài thêm ở commit mới nhất)"
+        required: false
+        default: ""
+
+permissions:
+  contents: read
+
+jobs:
+  indexnow:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      SITE: https://qhub.com.vn
+      KEY: e3231b954f563300ca7581339c3bd4a1
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Lấy danh sách URL
+        id: urls
+        env:
+          INPUT_URLS: ${{ github.event.inputs.urls }}
+        run: |
+          if [ -n "$INPUT_URLS" ]; then
+            URLS="$INPUT_URLS"
+          else
+            URLS=$(git diff --diff-filter=A --name-only HEAD^ HEAD -- '_src/posts/*.md' \
+              | sed -E 's#_src/posts/(.*)\.md#'"$SITE"'/kien-thuc/\1/#' | tr '\n' ' ')
+          fi
+          URLS="$URLS $SITE/kien-thuc/"
+          echo "list=$(echo $URLS | xargs -n1 | sort -u | tr '\n' ' ')" >> "$GITHUB_OUTPUT"
+          echo "URL sẽ kiểm tra và gửi:"; echo $URLS | xargs -n1 | sort -u
+
+      - name: Chờ trang lên sóng (HTTP 200)
+        run: |
+          for u in ${{ steps.urls.outputs.list }}; do
+            ok=0
+            for i in $(seq 1 40); do
+              code=$(curl -s -o /dev/null -w '%{http_code}' -L "$u" || true)
+              if [ "$code" = "200" ]; then ok=1; break; fi
+              sleep 15
+            done
+            if [ $ok = 1 ]; then echo "OK  200  $u"; else echo "LỖI $code  $u"; echo "$u" >> failed.txt; fi
+          done
+          if [ -f failed.txt ]; then echo "::warning::Có trang chưa trả về 200"; fi
+
+      - name: Kiểm tra key IndexNow trên site
+        run: |
+          body=$(curl -s -L "$SITE/$KEY.txt")
+          if [ "$body" = "$KEY" ]; then echo "Key hợp lệ"; else echo "::error::Không đọc được file key"; exit 1; fi
+
+      - name: Gửi IndexNow cho Bing
+        run: |
+          list=$(for u in ${{ steps.urls.outputs.list }}; do [ -f failed.txt ] && grep -qx "$u" failed.txt && continue; printf '"%s",' "$u"; done | sed 's/,$//')
+          payload="{\"host\":\"qhub.com.vn\",\"key\":\"$KEY\",\"keyLocation\":\"$SITE/$KEY.txt\",\"urlList\":[$list]}"
+          echo "$payload"
+          code=$(curl -s -o resp.txt -w '%{http_code}' -X POST "https://www.bing.com/indexnow" \
+            -H "Content-Type: application/json; charset=utf-8" -d "$payload")
+          echo "Bing IndexNow trả về HTTP $code"; cat resp.txt || true
+          case "$code" in 200|202) echo "Đã gửi thành công";; *) echo "::warning::IndexNow trả về $code";; esac

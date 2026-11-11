@@ -45,7 +45,7 @@ AUTHOR = {
     "url": SITE + "/tac-gia/nguyen-van-quang/",
     "role": "Founder & CEO, QHUB Commerce",
     "bio": "Đi lên từ bán hàng thị trường, qua trade marketing, brand marketing đến vận hành thương mại điện tử cho các doanh nghiệp đồ uống, thực phẩm và hàng tiêu dùng. Trực tiếp vận hành gian hàng trên Shopee, TikTok Shop, Facebook, Lazada, Tiki và Website.",
-    "path": ["Suntory PepsiCo", "Trà Cozy", "Men' Vodka", "Quang Linh Vlog Store", "Trà Tâm Đạo", "QHUB Commerce"],
+    "path": ["Suntory PepsiCo", "Trà Cozy", "Men' Vodka", "Quang Linh Vlog Store", "Trà Tâm Đạo", "Hệ thống nhà máy thực phẩm chức năng & mỹ phẩm", "QHUB Commerce"],
 }
 
 
@@ -253,7 +253,7 @@ CTA = """<aside class="kt-cta">
 
 def author_box():
     return f"""<aside class="kt-author">
-  <div class="kt-av" aria-hidden="true">Q</div>
+  <img class="kt-av" src="/quang-avatar-240.jpg" alt="Nguyễn Văn Quang" width="56" height="56" loading="lazy">
   <div>
     <p class="kt-by">Người viết</p>
     <h2><a href="/tac-gia/nguyen-van-quang/">{e(AUTHOR['name'])}</a></h2>
@@ -271,7 +271,7 @@ def build_post(p, posts, published):
     article = {"@context": "https://schema.org", "@type": "BlogPosting", "headline": p["title"], "description": p["description"],
                "inLanguage": "vi", "mainEntityOfPage": url, "url": url, "image": SITE + "/og-qhub.png",
                "datePublished": p["date"].isoformat(), "dateModified": p["updated"].isoformat(),
-               "author": {"@type": "Person", "name": AUTHOR["name"], "url": AUTHOR["url"], "jobTitle": "Founder & CEO", "worksFor": {"@id": SITE + "/#organization"}},
+               "author": {"@type": "Person", "name": AUTHOR["name"], "url": AUTHOR["url"], "jobTitle": "Founder & CEO", "image": SITE + "/quang-avatar.jpg", "worksFor": {"@id": SITE + "/#organization"}},
                "publisher": PUBLISHER, "articleSection": t["name"], "keywords": ", ".join([p.get("keyword", "")] + list(p.get("keywords", []))).strip(", "),
                "wordCount": p["words"]}
     extra = ld(article) + ld(crumbs(items))
@@ -396,14 +396,15 @@ def build_author(posts):
     url = AUTHOR["url"]
     items = [("Trang chủ", SITE + "/"), ("Tác giả", url), (AUTHOR["name"], url)]
     person = {"@context": "https://schema.org", "@type": "ProfilePage", "url": url,
-              "mainEntity": {"@type": "Person", "name": AUTHOR["name"], "jobTitle": "Founder & CEO", "url": url, "description": AUTHOR["bio"],
+              "mainEntity": {"@type": "Person", "name": AUTHOR["name"], "jobTitle": "Founder & CEO", "url": url, "image": SITE + "/quang-avatar.jpg", "description": AUTHOR["bio"],
                              "worksFor": {"@id": SITE + "/#organization"}, "knowsAbout": [t[1] for t in TOPICS]}}
     page = head(f"{AUTHOR['name']} — Founder & CEO QHUB Commerce", AUTHOR["bio"][:160], url, "profile", extra=ld(person) + ld(crumbs(items[0:1] + items[2:])))
     path = "".join(f"<li>{e(x)}</li>" for x in AUTHOR["path"])
     page += f"""<main id="main" class="kt-main">
 <div class="wrap kt-narrow">
 {crumb_html(items[0:1] + items[2:])}
-<header class="kt-hub-head">
+<header class="kt-hub-head kt-person">
+  <img class="kt-person-img" src="/quang-avatar.jpg" alt="Nguyễn Văn Quang, Founder &amp; CEO QHUB Commerce" width="160" height="160">
   <h1>{e(AUTHOR['name'])}</h1>
   <p class="kt-role">{e(AUTHOR['role'])}</p>
   <p>{e(AUTHOR['bio'])} Phụ trách chiến lược tăng trưởng, kiến trúc hệ thống bán hàng và lãi lỗ của từng dự án tại QHUB Commerce.</p>

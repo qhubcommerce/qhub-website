@@ -45,7 +45,7 @@ AUTHOR = {
     "url": SITE + "/tac-gia/nguyen-van-quang/",
     "role": "Founder & CEO, QHUB Commerce",
     "bio": "Đi lên từ bán hàng thị trường, qua trade marketing, brand marketing đến vận hành thương mại điện tử cho các doanh nghiệp đồ uống, thực phẩm và hàng tiêu dùng. Trực tiếp vận hành gian hàng trên Shopee, TikTok Shop, Facebook, Lazada, Tiki và Website.",
-    "path": ["Suntory PepsiCo", "Trà Cozy", "Men' Vodka", "Quang Linh Vlog Store", "Trà Tâm Đạo", "Hệ thống nhà máy thực phẩm chức năng & mỹ phẩm", "QHUB Commerce"],
+    "path": ["Suntory PepsiCo", "Trà Cozy", "Men' Vodka", "Quang Linh Vlog Store", "Trà Tâm Đạo", "Hệ thống nhà máy thực phẩm chức năng & mỹ phẩm (Dulin, Hiup)", "QHUB Commerce"],
 }
 
 

@@ -70,7 +70,7 @@
       art.className = "product"; art.id = p.id;
       art.style.setProperty("--pc", p.color); art.style.setProperty("--pt", p.tint);
       art.innerHTML =
-        '<a class="pimg" href="' + p.slug + '"><span class="badge">Mua 2 tặng 1</span></a>' +
+        '<a class="pimg" href="' + p.slug + '"><span class="badge">Mua 3 tặng 1</span></a>' +
         '<div class="pbody"><p class="tag"></p><h3><a href="' + p.slug + '"></a></h3><p class="ing"></p><p class="desc"></p>' +
         '<div class="price"><span class="now">' + vnd(H.price) + '</span><span class="old">' + vnd(H.priceOld) + '</span><span class="off">-' + pct + '%</span></div>' +
         '<div class="row"><button class="btn btn-forest" type="button" data-buy="' + p.id + '">Mua ngay</button><a class="btn btn-line" href="' + p.slug + '">Xem chi tiết</a></div></div>';
@@ -127,7 +127,7 @@
     var open = function (id, q) {
       lastFocus = document.activeElement;
       $$("option", sel).forEach(function (o) { if (o.dataset.id === id) sel.value = o.value; });
-      qty.value = q || 2; calc(); msg.textContent = ""; msg.className = "msg";
+      qty.value = q || H.giftEvery; calc(); msg.textContent = ""; msg.className = "msg";
       modal.classList.add("open"); document.body.style.overflow = "hidden";
       setTimeout(function () { sel.focus(); }, 30);
     };

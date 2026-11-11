@@ -61,41 +61,49 @@
     return el;
   }
 
-  /* Home: mini herbal grid */
-  var mini = $("#herbal-mini");
-  if (mini) {
-    H.products.forEach(function (p) {
-      var a = document.createElement("a");
-      a.href = "qhub-herbal.html#" + p.id;
-      var ph = document.createElement("div"); ph.className = "ph";
-      ph.appendChild(img(p.img, p.name));
-      var s = document.createElement("span"); s.textContent = p.name;
-      a.appendChild(ph); a.appendChild(s); mini.appendChild(a);
-    });
-  }
-
-  /* Herbal page: product cards */
+  /* Product cards (trang chủ + trang thương hiệu) */
   var grid = $("#product-grid");
   if (grid) {
     var pct = Math.round((1 - H.price / H.priceOld) * 100);
     H.products.forEach(function (p) {
       var art = document.createElement("article");
       art.className = "product"; art.id = p.id;
+      art.style.setProperty("--pc", p.color); art.style.setProperty("--pt", p.tint);
       art.innerHTML =
-        '<div class="pimg"><span class="badge">Mua 2 tặng 1</span></div>' +
-        '<div class="pbody"><h3></h3><p class="ing"></p><p class="desc"></p>' +
+        '<a class="pimg" href="' + p.slug + '"><span class="badge">Mua 2 tặng 1</span></a>' +
+        '<div class="pbody"><p class="tag"></p><h3><a href="' + p.slug + '"></a></h3><p class="ing"></p><p class="desc"></p>' +
         '<div class="price"><span class="now">' + vnd(H.price) + '</span><span class="old">' + vnd(H.priceOld) + '</span><span class="off">-' + pct + '%</span></div>' +
-        '<div class="row"><button class="btn btn-forest" type="button" data-buy="' + p.id + '">Mua ngay</button></div></div>';
-      var fb = document.createElement("div"); fb.className = "pfall"; fb.setAttribute("aria-hidden", "true");
-      fb.innerHTML = '<img src="herbal-symbol-white.png" alt=""><b></b><i>QHUB HERBAL</i>';
-      $("b", fb).textContent = p.name;
-      $(".pimg", art).appendChild(fb);
-      $(".pimg", art).appendChild(img(p.img, "Hộp " + p.name));
-      $("h3", art).textContent = p.name;
-      $(".ing", art).textContent = p.ing;
+        '<div class="row"><button class="btn btn-forest" type="button" data-buy="' + p.id + '">Mua ngay</button><a class="btn btn-line" href="' + p.slug + '">Xem chi tiết</a></div></div>';
+      $(".pimg", art).appendChild(img("p-" + p.id + ".jpg", "Hộp " + p.name + " QHUB HERBAL"));
+      $(".tag", art).textContent = p.tagline;
+      $("h3 a", art).textContent = p.name;
+      $(".ing", art).textContent = p.ing.length + " vị: " + p.ing.join(", ").replace(/ \d+%/g, "");
       $(".desc", art).textContent = p.desc;
       grid.appendChild(art);
     });
+  }
+
+  /* Trang chi tiết: gallery + số lượng */
+  var gal = $(".pd-gallery");
+  if (gal) {
+    var main = $(".pd-main img", gal), thumbs = $$(".pd-thumbs button", gal);
+    thumbs.forEach(function (b) {
+      b.addEventListener("click", function () {
+        thumbs.forEach(function (x) { x.setAttribute("aria-pressed", x === b ? "true" : "false"); });
+        main.src = b.getAttribute("data-src"); main.alt = b.getAttribute("data-alt");
+      });
+    });
+  }
+  var pq = $("#pd-qty");
+  if (pq) {
+    var clampQ = function () { pq.value = Math.max(1, Math.min(99, parseInt(pq.value, 10) || 1)); updPd(); };
+    var updPd = function () {
+      var q = parseInt(pq.value, 10) || 1, g = Math.floor(q / H.giftEvery);
+      $("#pd-calc").textContent = "Nhận " + (q + g) + " hộp" + (g ? " (tặng " + g + ")" : "") + " · Tạm tính " + vnd(q * H.price);
+    };
+    $("#pd-minus").addEventListener("click", function () { pq.value = (parseInt(pq.value, 10) || 1) - 1; clampQ(); });
+    $("#pd-plus").addEventListener("click", function () { pq.value = (parseInt(pq.value, 10) || 1) + 1; clampQ(); });
+    pq.addEventListener("change", clampQ); pq.addEventListener("input", updPd); updPd();
   }
 
   /* Order modal */
@@ -116,10 +124,10 @@
       $("#s-total").textContent = vnd(q * H.price);
       $("#f-gift").value = gift + " hộp"; $("#f-total").value = vnd(q * H.price); $("#f-get").value = (q + gift) + " hộp";
     };
-    var open = function (id) {
+    var open = function (id, q) {
       lastFocus = document.activeElement;
       $$("option", sel).forEach(function (o) { if (o.dataset.id === id) sel.value = o.value; });
-      qty.value = 2; calc(); msg.textContent = ""; msg.className = "msg";
+      qty.value = q || 2; calc(); msg.textContent = ""; msg.className = "msg";
       modal.classList.add("open"); document.body.style.overflow = "hidden";
       setTimeout(function () { sel.focus(); }, 30);
     };
@@ -129,7 +137,7 @@
     };
     document.addEventListener("click", function (e) {
       var b = e.target.closest("[data-buy]");
-      if (b) { e.preventDefault(); open(b.getAttribute("data-buy")); }
+      if (b) { e.preventDefault(); var qi = b.getAttribute("data-qty") ? $(b.getAttribute("data-qty")) : null; open(b.getAttribute("data-buy"), qi ? parseInt(qi.value, 10) : 2); }
     });
     $$("[data-close]", modal).forEach(function (b) { b.addEventListener("click", close); });
     modal.addEventListener("click", function (e) { if (e.target === modal) close(); });

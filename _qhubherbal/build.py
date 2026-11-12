@@ -145,6 +145,7 @@ COMMON = dict(site=site, products=products, bys=bys, cats=cats, year=NOW.year, v
 
 if os.path.exists(OUT): shutil.rmtree(OUT)
 shutil.copytree(SRC, OUT)
+os.makedirs(os.path.join(OUT,'assets/css'), exist_ok=True)
 open(os.path.join(OUT,'assets/css/site.css'),'w',encoding='utf-8').write(open(os.path.join(ROOT,'css/fonts.css'),encoding='utf-8').read()+open(os.path.join(ROOT,'css/main.css'),encoding='utf-8').read())
 pages = []
 

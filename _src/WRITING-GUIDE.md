@@ -69,4 +69,5 @@ sources:                  # bắt buộc ≥ 2 với bài phí sàn, quảng cá
 3. Đặt `date` và `updated` bằng ngày hôm nay (giờ Việt Nam).
 4. `pip install --break-system-packages markdown pyyaml` (nếu thiếu), rồi chạy `python3 _tools/build.py --strict`. Sửa đến khi không còn cảnh báo.
 5. `git add -A && git commit -m "Kiến thức: đêm N – 10 bài" && git push`.
-6. Báo cáo ngắn: số bài đã viết, tiến độ x/500, bài nào phải bỏ qua và lý do.
+6. Sau khi push, workflow `.github/workflows/indexnow.yml` tự chờ bài lên sóng, kiểm tra HTTP 200 và báo Bing qua IndexNow. Đọc kết quả trong log GitHub Actions, không cần WebFetch.
+7. Báo cáo ngắn: số bài đã viết, tiến độ x/510, kết quả kiểm tra trang và IndexNow, bài nào phải bỏ qua và lý do.

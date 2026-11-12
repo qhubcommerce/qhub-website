@@ -11,9 +11,9 @@ SITE = {
     "company": "CÔNG TY TNHH QHUB COMMERCE",
     "mst": "5400570349",
     # Thông tin đăng ký doanh nghiệp – bắt buộc công khai (Điều 4 NĐ 248/2026). Điền khi có số liệu trên GCN ĐKDN.
-    "dkdn_date": "",        # ngày cấp lần đầu, ví dụ "15/03/2024"
-    "dkdn_place": "",       # ví dụ "Phòng Đăng ký kinh doanh – Sở Tài chính tỉnh Phú Thọ"
-    "legal_rep": "",        # họ tên người đại diện theo pháp luật
+    "dkdn_date": "13/04/2026",        # ngày cấp lần đầu, ví dụ "15/03/2024"
+    "dkdn_place": "Phòng Đăng ký kinh doanh – Sở Tài chính tỉnh Phú Thọ",       # ví dụ "Phòng Đăng ký kinh doanh – Sở Tài chính tỉnh Phú Thọ"
+    "legal_rep": "Nguyễn Văn Quang",        # họ tên người đại diện theo pháp luật
     "legal_rep_title": "Giám đốc",
     "payment": "COD",       # thanh toán khi nhận hàng
     # Người tham vấn chuyên môn THẬT (dược sĩ/lương y/bác sĩ) – chỉ điền khi người đó đồng ý đứng tên. Để trống = không hiển thị.

@@ -337,6 +337,22 @@ render('page.html', '/chinh-sach-thanh-toan/', content=PAY, title='Chính sách 
 render('page.html', '/giai-quyet-khieu-nai/', content=CMP, title='Cơ chế giải quyết khiếu nại | QHUB HERBAL', description='Kênh tiếp nhận phản ánh, khiếu nại của QHUB HERBAL và thời hạn xử lý: xác nhận 24 giờ, phản hồi 3 ngày làm việc.')
 render('page.html', '/chinh-sach-van-chuyen/', content=SHIP, title='Chính sách vận chuyển – Miễn phí giao hàng toàn quốc | QHUB HERBAL', description='QHUB HERBAL miễn phí giao hàng toàn quốc mọi đơn, thời gian giao dự kiến 2–5 ngày. Kiểm tra hàng khi nhận.')
 render('page.html', '/chinh-sach-doi-tra/', content=RET, title=f"Chính sách đổi trả {site['return_days']} ngày | QHUB HERBAL", description=f"Đổi trả trong {site['return_days']} ngày kể từ khi nhận hàng. Hàng lỗi QHUB HERBAL chịu phí; đổi ý khi hộp còn nguyên tem. Hoàn tiền 3–7 ngày làm việc.")
+# ---- Chính sách giá ----
+_price_rows = ''.join(
+    f"<tr><td><a href=\"/san-pham/{p['slug']}/\">{p['name']}</a></td><td>Hộp trà túi lọc</td>"
+    f"<td>{vnd_s(site['price_list'])}đ</td><td>{vnd_s(site['price_sale'])}đ</td></tr>"
+    for p in products)
+PRICE = f"""<p class="eyebrow">Chính sách</p><h1>Chính sách giá</h1>
+<p>Cập nhật: {_upd}. Áp dụng cho sản phẩm trà thảo mộc túi lọc QHUB HERBAL bán trên website qhubherbal.com.</p>
+<h2>1. Giá niêm yết và giá bán</h2>
+<table><thead><tr><th>Sản phẩm</th><th>Quy cách</th><th>Giá niêm yết</th><th>Giá bán</th></tr></thead><tbody>{_price_rows}</tbody></table>
+<p>Giá được công bố công khai trên từng trang sản phẩm, trong khung đặt hàng và được nhắc lại khi xác nhận đơn.</p>
+<h2>2. Giá đã bao gồm những gì</h2><ul><li>Giá bán <b>đã bao gồm thuế giá trị gia tăng (nếu có)</b>.</li><li><b>Đã bao gồm phí giao hàng</b> – miễn phí giao hàng toàn quốc cho mọi đơn.</li><li>Không thu thêm phí đóng gói, phí thu hộ hay bất kỳ khoản phụ phí nào khác.</li></ul>
+<h2>3. Chương trình khuyến mại</h2><p>{site['promo_long']} Hộp tặng không tính tiền. Khung đặt hàng tự động hiển thị số hộp mua, số hộp được tặng và tạm tính để bạn kiểm tra trước khi gửi đơn. Chương trình khuyến mại được thực hiện theo quy định pháp luật về khuyến mại.</p>
+<h2>4. Xác nhận giá cuối cùng</h2><p>Tổng tiền cuối cùng của đơn hàng được QHUB HERBAL thông báo lại khi gọi điện hoặc nhắn Zalo xác nhận đơn; bạn chỉ thanh toán đúng số tiền đã xác nhận, khi nhận hàng (COD). Nếu giá hiển thị trên website có sai sót, chúng tôi thông báo trước khi giao và bạn có quyền hủy đơn mà không mất phí.</p>
+<h2>5. Thay đổi giá</h2><p>Khi điều chỉnh giá, chúng tôi cập nhật trên website. Đơn hàng đã được xác nhận trước thời điểm điều chỉnh giữ nguyên giá đã xác nhận.</p>
+<h2>6. Liên hệ</h2><p>{_owner}. {_contact}.</p>"""
+render('page.html', '/chinh-sach-gia/', content=PRICE, title='Chính sách giá – Giá đã gồm VAT và phí giao hàng | QHUB HERBAL', description='Giá bán trà thảo mộc QHUB HERBAL đã gồm thuế GTGT (nếu có) và phí giao hàng toàn quốc, không phụ phí. Ưu đãi mua 2 tặng 1 khi đặt tại website.')
 render('page.html', '/dieu-khoan/', content=TERMS, title='Điều khoản mua hàng | QHUB HERBAL', description='Điều khoản mua hàng, giá, khuyến mại, giao hàng, đổi trả và sử dụng website qhubherbal.com.')
 # ---- Trang Giới thiệu / thông tin thương hiệu (cho người đọc và công cụ AI) ----
 rows = ''.join(f"<tr><td><a href=\"/san-pham/{p['slug']}/\">{p['name']}</a></td><td>{p['when_see']}</td><td>{', '.join(i[1] for i in p['ings'])}</td><td>{p['time']}</td></tr>" for p in products)

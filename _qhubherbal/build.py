@@ -149,7 +149,7 @@ os.makedirs(os.path.join(OUT,'assets/css'), exist_ok=True)
 open(os.path.join(OUT,'assets/css/site.css'),'w',encoding='utf-8').write(open(os.path.join(ROOT,'css/fonts.css'),encoding='utf-8').read()+open(os.path.join(ROOT,'css/main.css'),encoding='utf-8').read())
 pages = []
 
-MOVE = ('products/', 'ing/', 'og/', 'hero', 'lineup', 'leaf-blur', 'herb-', 'zalo-qr')
+MOVE = ('products/', 'ing/', 'og/', 'hero', 'lineup', 'leaf-blur', 'leaf-fresh', 'herb-', 'zalo-qr')
 def relocate(html):
     for m in MOVE:
         html = html.replace('/assets/img/' + m, site['media_img'] + '/img/' + m)

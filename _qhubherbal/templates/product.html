@@ -3,8 +3,8 @@
 {% block head %}<script type="application/ld+json">{{ product_ld|safe }}</script><script type="application/ld+json">{{ bc_ld|safe }}</script>{% endblock %}
 {% block main %}
 <section class="pd" style="--c: {{ p.color }}; --t: {{ p.tint }}">
-  <img class="leafblur" src="/assets/img/leaf-blur-c.webp" alt="" aria-hidden="true" style="left:-160px;top:-40px;width:420px">
-  <img class="leafblur" src="/assets/img/leaf-blur-a.webp" alt="" aria-hidden="true" style="right:-140px;top:30%;width:360px;opacity:.6">
+  <img class="leafblur" src="/assets/img/leaf-fresh-2.webp" alt="" aria-hidden="true" style="left:-160px;top:-40px;width:420px">
+  <img class="leafblur" src="/assets/img/leaf-fresh-1.webp" alt="" aria-hidden="true" style="right:-140px;top:30%;width:360px;opacity:.6">
   <span class="dew" style="width:20px;height:20px;right:6%;top:120px"></span>
   <nav class="wrap crumbs" aria-label="Breadcrumb"><a href="/">Trang chủ</a> <span>/</span> <a href="/san-pham/">Sản phẩm</a> <span>/</span> <span aria-current="page">{{ p.name }}</span></nav>
   <div class="wrap pd__grid" style="margin-top:18px">
@@ -27,7 +27,7 @@
       <ul class="pd__keys">{% for k in p['keys'] %}<li>{{ k }}</li>{% endfor %}</ul>
       <div class="pd__buy" id="buybox">
         {{ price(site, True) }}
-        <p class="pd__spec"><b>100% thảo mộc tự nhiên</b> · Không thêm đường · Không caffeine</p>
+        <ul class="usp usp--sm"><li><b>100% thảo mộc tự nhiên</b></li><li><b>Không thêm đường</b></li><li><b>Không caffeine</b></li><li><b>Túi lọc, pha 5 phút</b></li></ul>
         <div class="promo-box"><span class="promo-tag">Mua 2 tặng 1</span> <span class="promo-box__cd">Ưu đãi <b>chỉ có khi đặt tại website</b></span><span class="promo-box__t">Mua 2 hộp <b>{{ vnd(site.price_sale*2) }}</b> → nhận <b>3 hộp</b> (hộp tặng bạn tự chọn), <b>tiết kiệm {{ vnd(site.price_sale) }}</b>. Cộng dồn: mua 4 tặng 2, mua 6 tặng 3…</span></div>
         <div class="pd__cta">
           <a class="btn btn--lg btn--buy btn--wiggle" href="#dat-hang" data-order="{{ p.slug }}" data-qty="2">Mua 2 tặng 1</a>
@@ -81,7 +81,7 @@
 {% endif %}
 
 <section class="sec sec--dew">
-  <img class="leafblur" src="/assets/img/leaf-blur-b.webp" alt="" aria-hidden="true" style="left:-180px;top:10%;width:420px;opacity:.5" loading="lazy">
+  <img class="leafblur" src="/assets/img/leaf-fresh-3.webp" alt="" aria-hidden="true" style="left:-180px;top:10%;width:420px;opacity:.5" loading="lazy">
   <div class="wrap">
     <div class="sec__head center">
       <p class="eyebrow">Bên trong một túi trà</p>

@@ -6,7 +6,7 @@
 <title>{{ title }}</title>
 <meta name="description" content="{{ description }}">
 <link rel="canonical" href="{{ site.domain }}{{ path }}">
-<meta name="theme-color" content="#b6d268">
+<meta name="theme-color" content="#f4f8f2">
 <meta property="og:type" content="{{ og_type|default('website') }}">
 <meta property="og:site_name" content="QHUB HERBAL">
 <meta property="og:locale" content="vi_VN">
@@ -26,7 +26,6 @@
 {% if path == '/' %}<link rel="preload" as="image" href="/assets/img/hero-organic-800.webp" imagesrcset="/assets/img/hero-organic-480.webp 480w, /assets/img/hero-organic-800.webp 800w, /assets/img/hero-organic-1200.webp 1200w, /assets/img/hero-organic.webp 1500w" imagesizes="(max-width: 900px) 92vw, 640px" fetchpriority="high">{% endif %}
 <link rel="preload" href="/assets/fonts/be-vietnam-pro-vietnamese-400-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/fonts/be-vietnam-pro-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="/assets/fonts/noto-serif-latin-600-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="/assets/css/site.css?v={{ version }}">
 {% block head %}{% endblock %}
 <script type="application/ld+json">{{ org_ld|safe }}</script>
@@ -34,7 +33,7 @@
 </head>
 <body class="{{ body_class|default('') }}">
 <a class="skip" href="#main">Bỏ qua điều hướng</a>
-<a class="promo-bar" href="#dat-hang" data-scroll-order><b>🎁 MUA 2 TẶNG 1</b><span class="promo-bar__d"> · Mua 2 hộp bất kỳ, tặng 1 hộp tự chọn</span> · <b>Chỉ có khi đặt tại website</b> · Đặt ngay →</a>
+<a class="promo-bar" href="#dat-hang" data-scroll-order><b class="promo-bar__k"><svg class="gico" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="8" width="18" height="4" rx="1"/><path d="M12 8v13M19 12v7a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2v-7M7.5 8a2.5 2.5 0 0 1 0-5C11 3 12 8 12 8s1-5 4.5-5a2.5 2.5 0 0 1 0 5"/></svg> MUA 2 TẶNG 1</b><span class="promo-bar__d"> · Mua 2 hộp bất kỳ, tặng 1 hộp tự chọn</span> · <b>Chỉ có khi đặt tại website</b><span class="promo-bar__go"> · Đặt ngay →</span></a>
 <header class="hdr" id="top">
   <div class="wrap hdr__in">
     <a class="hdr__logo" href="/" aria-label="QHUB HERBAL – Trang chủ">
@@ -114,7 +113,6 @@
 </footer>
 
 <div class="fab" aria-label="Liên hệ nhanh">
-  <a class="fab__btn fab__order" href="#dat-hang" data-scroll-order aria-label="Đặt hàng">ĐẶT<br>HÀNG</a>
   <a class="fab__btn fab__zalo" href="{{ site.zalo_url }}" target="_blank" rel="noopener" aria-label="Nhắn Zalo QHUB HERBAL">
     <svg viewBox="0 0 48 48" width="30" height="30" aria-hidden="true"><path fill="#fff" d="M24 6C13 6 4 13.6 4 23c0 5.3 2.9 10 7.4 13.1-.3 2.2-1.4 4.6-3.4 6.4 3.4.2 6.9-.9 9.4-2.7 2.1.6 4.3.9 6.6.9 11 0 20-7.6 20-17S35 6 24 6z"/><text x="24" y="28.5" text-anchor="middle" font-family="Arial,sans-serif" font-weight="700" font-size="11" fill="#0068ff">Zalo</text></svg>
   </a>
@@ -123,7 +121,7 @@
   </a>
 </div>
 <a class="fpromo is-hide" href="#dat-hang" data-scroll-order aria-label="Mua 2 tặng 1 – đặt hàng ngay">
-  <span class="fpromo__gift" aria-hidden="true">🎁</span>
+  <span class="fpromo__gift" aria-hidden="true"><svg class="gico" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="8" width="18" height="4" rx="1"/><path d="M12 8v13M19 12v7a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2v-7M7.5 8a2.5 2.5 0 0 1 0-5C11 3 12 8 12 8s1-5 4.5-5a2.5 2.5 0 0 1 0 5"/></svg></span>
   <span class="fpromo__t"><b>MUA 2 TẶNG 1</b><small>Chỉ có tại website</small></span>
   <span class="fpromo__go">Đặt ngay</span>
 </a>

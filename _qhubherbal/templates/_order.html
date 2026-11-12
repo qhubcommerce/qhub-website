@@ -55,7 +55,7 @@
       </fieldset>
 
       <fieldset class="ogift" id="ogift" hidden>
-        <legend class="ogift__h">🎁 Quà tặng: <span id="ogiftn">1</span> hộp miễn phí</legend>
+        <legend class="ogift__h"><svg class="gico" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="8" width="18" height="4" rx="1"/><path d="M12 8v13M19 12v7a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2v-7M7.5 8a2.5 2.5 0 0 1 0-5C11 3 12 8 12 8s1-5 4.5-5a2.5 2.5 0 0 1 0 5"/></svg> Quà tặng: <span id="ogiftn">1</span> hộp miễn phí</legend>
         <p class="ogift__p">Mua 2 tặng 1 – bạn chọn loại trà muốn được tặng nhé.</p>
         <div class="ogift__list" id="ogiftl"></div>
         <template id="ogiftt"><select aria-label="Chọn hộp quà tặng">{% for p in products %}<option value="{{ p.name }}">{{ p.short }}</option>{% endfor %}</select></template>
@@ -83,6 +83,7 @@
       <label class="oform__agree"><input type="checkbox" name="dongy" value="1"> <span>Tôi đồng ý để QHUB HERBAL xử lý họ tên, số điện thoại, địa chỉ của tôi nhằm xác nhận và giao đơn hàng theo <a href="/chinh-sach-bao-mat/" target="_blank">Chính sách bảo mật</a> và <a href="/dieu-khoan/" target="_blank">Điều khoản mua hàng</a>.</span></label>
       <p class="oform__err" data-err="dongy" hidden>Vui lòng đánh dấu đồng ý để gửi đơn.</p>
       <button class="btn btn--block btn--lg" type="submit" id="osubmit">Gửi đơn đặt hàng</button>
+      <ul class="assure"><li>Miễn phí giao hàng toàn quốc</li><li>Đổi trả {{ site.return_days }} ngày</li><li>Nhận hàng mới trả tiền</li></ul>
       <p class="oform__note">Thanh toán khi nhận hàng (COD) · Miễn phí giao hàng toàn quốc · QHUB HERBAL sẽ gọi xác nhận đơn trước khi giao.</p>
       <p class="oform__fail" id="ofail" hidden>Chưa gửi được đơn do lỗi kết nối. Bạn vui lòng thử lại, hoặc gọi/nhắn Zalo <a href="{{ site.zalo_url }}" target="_blank" rel="noopener">{{ site.hotline }}</a> để QHUB nhận đơn ngay.</p>
     </form>
@@ -125,7 +126,7 @@
 
 {% macro promo_strip(msg) %}
 <div class="pstrip"><div class="wrap pstrip__in">
-  <span class="pstrip__gift" aria-hidden="true">🎁</span>
+  <span class="pstrip__gift" aria-hidden="true"><svg class="gico" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="8" width="18" height="4" rx="1"/><path d="M12 8v13M19 12v7a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2v-7M7.5 8a2.5 2.5 0 0 1 0-5C11 3 12 8 12 8s1-5 4.5-5a2.5 2.5 0 0 1 0 5"/></svg></span>
   <div class="pstrip__t"><b>{{ msg }}</b><span>Mua 2 tặng 1 – <b>chỉ có khi đặt tại website</b></span></div>
   <a class="btn btn--buy btn--wiggle" href="#dat-hang" data-scroll-order>Đặt hàng ngay</a>
 </div></div>

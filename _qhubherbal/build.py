@@ -155,7 +155,7 @@ def relocate(html):
         html = html.replace('/assets/img/' + m, site['media_img'] + '/img/' + m)
     html = html.replace(site['domain'] + site['media_img'], site['media_img'])
     html = re.sub(r'(qhubherbal-img\.pages\.dev/img/og/[\w-]+\.jpg)(?!\?)', r'\1?v=2', html)
-    return re.sub(r'(qhubherbal-img\.pages\.dev/img/products/[\w-]+\.webp)(?!\?)', r'\1?v=3', html)
+    return re.sub(r'(qhubherbal-img\.pages\.dev/img/products/(?:thumb/)?[\w-]+\.webp)(?!\?)', r'\1?v=4', html)
 def render(tpl, path, **kw):
     ctx = dict(COMMON); ctx.update(kw); ctx['path'] = path
     _t = ctx.get('title') or ''

@@ -28,7 +28,7 @@
       <div class="pd__buy" id="buybox">
         {{ price(site, True) }}
         <p class="pd__spec"><b>100% thảo mộc tự nhiên</b> · Không thêm đường · Không caffeine</p>
-        <div class="promo-box"><span class="promo-tag">Mua 2 tặng 1</span> <span class="promo-box__cd">Ưu đãi <b>chỉ có khi đặt tại website</b></span><span class="promo-box__t">Mua 2 hộp <b>{{ vnd(site.price_sale*2) }}</b> → nhận <b>3 hộp</b> (hộp tặng bạn tự chọn). Cộng dồn: mua 4 tặng 2, mua 6 tặng 3…</span></div>
+        <div class="promo-box"><span class="promo-tag">Mua 2 tặng 1</span> <span class="promo-box__cd">Ưu đãi <b>chỉ có khi đặt tại website</b></span><span class="promo-box__t">Mua 2 hộp <b>{{ vnd(site.price_sale*2) }}</b> → nhận <b>3 hộp</b> (hộp tặng bạn tự chọn), <b>tiết kiệm {{ vnd(site.price_sale) }}</b>. Cộng dồn: mua 4 tặng 2, mua 6 tặng 3…</span></div>
         <div class="pd__cta">
           <a class="btn btn--lg btn--buy btn--wiggle" href="#dat-hang" data-order="{{ p.slug }}" data-qty="2">Mua 2 tặng 1</a>
           <a class="btn btn--lg btn--ghost" href="#dat-hang" data-order="{{ p.slug }}">Mua 1 hộp</a>
@@ -36,6 +36,7 @@
         <div class="pd__cta" style="margin-top:10px">
           <a class="btn btn--zalo btn--block" href="{{ site.zalo_url }}" target="_blank" rel="noopener">Tư vấn Hotline/Zalo <span style="white-space:nowrap">{{ site.hotline }}</span></a>
         </div>
+        <ul class="assure"><li>Miễn phí giao hàng toàn quốc</li><li>Đổi trả {{ site.return_days }} ngày</li><li>Nhận hàng mới trả tiền</li></ul>
       </div>
       <dl class="pd__facts">
         <div><dt>Thời điểm gợi ý</dt><dd>{{ p.time }}</dd></div>
@@ -47,7 +48,6 @@
 </section>
 
 <section class="sec sec--mint" style="--c: {{ p.color }}">
-  <img class="leafblur" src="/assets/img/herb-mimosa.webp" alt="" aria-hidden="true" style="right:-40px;bottom:-20px;width:200px" loading="lazy">
   <div class="wrap pd2">
     <div>
       <p class="eyebrow">Dành cho bạn, nếu…</p>

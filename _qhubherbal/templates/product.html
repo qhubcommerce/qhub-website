@@ -3,7 +3,7 @@
 {% block head %}<script>gtag('event','view_item',{currency:'VND',value:{{ site.price_sale }},items:[{item_id:'{{ p.slug }}',item_name:{{ p.name|tojson }},price:{{ site.price_sale }}}]});</script><script type="application/ld+json">{{ product_ld|safe }}</script><script type="application/ld+json">{{ bc_ld|safe }}</script>{% endblock %}
 {% block main %}
 <section class="pd" style="--c: {{ p.color }}; --t: {{ p.tint }}">
-  <img class="leafblur" src="/assets/img/leaf-p-{{ p.slug }}-1.webp" alt="" aria-hidden="true" style="left:-255px;top:-170px;width:360px">
+  <img class="leafblur leaf--tl" src="/assets/img/leaf-p-{{ p.slug }}-1.webp" alt="" aria-hidden="true" style="left:-255px;top:-170px;width:360px">
   <img class="leafblur" src="/assets/img/leaf-p-{{ p.slug }}-2.webp" alt="" aria-hidden="true" style="right:-140px;top:30%;width:340px">
   <span class="dew" style="width:20px;height:20px;right:6%;top:120px"></span>
   <nav class="wrap crumbs" aria-label="Breadcrumb"><a href="/">Trang chủ</a> <span>/</span> <a href="/san-pham/">Sản phẩm</a> <span>/</span> <span aria-current="page">{{ p.name }}</span></nav>

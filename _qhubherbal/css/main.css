@@ -1137,3 +1137,8 @@ main,.ftr{position:relative;z-index:0}
 .art .leafblur{opacity:.8!important}
 .art>.wrap{position:relative;z-index:2}
 @media (max-width:700px){.art .leafblur{width:200px!important;opacity:.5!important}}
+@media (max-width:1320px){.leaf--tl{left:-270px!important;top:-230px!important}}
+@media (max-width:700px){.leaf--tl{display:none}}
+.pd__grid{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
+.pd__grid>*{min-width:0}
+@media (max-width:900px){.pd__grid{grid-template-columns:minmax(0,1fr)}}

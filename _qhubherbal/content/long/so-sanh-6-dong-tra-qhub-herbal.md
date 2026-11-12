@@ -125,7 +125,7 @@ Bạn không cần dùng cả sáu. Chọn **một đến hai dòng** đúng đi
 | Bố mẹ, người hay lo nghĩ | Dưỡng Tâm An + Xấu Hổ Tím – Tâm Sen | Ngày thư thái, tối nhẹ lòng |
 | Cả gia đình | Lá Ổi Mix Lá Sen + Cà Gai – Diệp Hạ Châu | Nhẹ bụng sau bữa ngon, thanh mát sau cuộc vui |
 
-Với chương trình **mua 2 tặng 1** theo đợt tuần, đặt một cặp quà là bạn được tặng thêm một hộp tự chọn – một hộp cho người thương, một hộp để lại cho mình.
+Với chương trình **mua 2 tặng 1** (chỉ có khi đặt tại website), đặt một cặp quà là bạn được tặng thêm một hộp tự chọn – một hộp cho người thương, một hộp để lại cho mình.
 
 [[buy:la-oi-mix-la-sen]]
 

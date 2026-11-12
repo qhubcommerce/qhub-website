@@ -3,7 +3,7 @@ seo_title: Trà QHUB HERBAL có tốt không?
 desc: Trà QHUB HERBAL có tốt không? Bài viết minh bạch: công ty, nhà máy ISO 22000:2018, số tự công bố, thành phần và tỷ lệ, giá, ưu điểm – hạn chế thật lòng, ai nên và không nên mua. Đọc để tự đánh giá, không phải để bị thuyết phục.
 - QHUB HERBAL là của công ty nào? :: QHUB HERBAL là thương hiệu của CÔNG TY TNHH QHUB COMMERCE (MST 5400570349, Khu Vai, xã An Nghĩa, tỉnh Phú Thọ) – đơn vị phân phối và chăm sóc khách hàng. Sản phẩm sản xuất tại nhà máy của Công ty CP Kinh doanh Thương mại và Sản xuất Anh Khôi, tỉnh Thanh Hóa.
 - Trà QHUB có phải thuốc không? :: Không. Đây là trà thảo mộc túi lọc – thực phẩm đã tự công bố theo quy định. Sản phẩm không phải là thuốc và không có tác dụng thay thế thuốc chữa bệnh.
-- Giá trà QHUB HERBAL bao nhiêu? :: Giá niêm yết 140.000đ/hộp, giá ưu đãi 105.000đ/hộp. Đang có chương trình mua 2 tặng 1 theo đợt tuần (hộp tặng tự chọn), tính ra khoảng 70.000đ/hộp.
+- Giá trà QHUB HERBAL bao nhiêu? :: Giá niêm yết 140.000đ/hộp, giá ưu đãi 105.000đ/hộp. Đang có chương trình mua 2 tặng 1 khi đặt tại website (hộp tặng tự chọn), tính ra khoảng 70.000đ/hộp.
 - Làm sao kiểm tra trà QHUB chính hãng? :: Đối chiếu số tự công bố và mã vạch trên hộp với bảng thông tin trên website; mua qua website qhubherbal.com hoặc Hotline/Zalo 0941 255 055.
 - Có bằng chứng lâm sàng cho trà QHUB không? :: Không. QHUB không có nghiên cứu lâm sàng riêng cho sản phẩm và không tuyên bố công dụng như thuốc. Thông tin về thảo mộc trên website dựa trên kinh nghiệm phương Đông và tài liệu tham khảo chung.
 +++
@@ -77,7 +77,7 @@ Nếu bạn thấy ở đâu đó quảng cáo trà QHUB có công dụng như t
 
 - **Giá niêm yết:** 140.000đ/hộp.
 - **Giá ưu đãi:** 105.000đ/hộp.
-- **Chương trình mua 2 tặng 1** theo đợt tuần: mua 2 hộp bất kỳ tặng 1 hộp tự chọn, cộng dồn (mua 4 tặng 2…), tính ra khoảng 70.000đ/hộp.
+- **Chương trình mua 2 tặng 1** (chỉ khi đặt tại website): mua 2 hộp bất kỳ tặng 1 hộp tự chọn, cộng dồn (mua 4 tặng 2…), tính ra khoảng 70.000đ/hộp.
 - **Đặt hàng:** form trên website hoặc Hotline/Zalo 0941 255 055. QHUB gọi xác nhận đơn và báo phí giao hàng (nếu có) trước khi gửi.
 
 ## Ưu điểm – nói cho công bằng

@@ -183,24 +183,6 @@
   } else initOrder();
 })();
 
-// ===== Đếm ngược đợt Mua 2 tặng 1 – kết thúc 23:59:59 Chủ nhật (giờ Việt Nam, UTC+7) =====
-(function () {
-  var els = document.querySelectorAll('[data-cd]');
-  function end() {
-    var now = Date.now(), vn = new Date(now + 7 * 3600e3), dow = vn.getUTCDay(), days = (7 - dow) % 7;
-    return Date.UTC(vn.getUTCFullYear(), vn.getUTCMonth(), vn.getUTCDate() + days, 23, 59, 59) - 7 * 3600e3;
-  }
-  var p2 = function (n) { return (n < 10 ? '0' : '') + n; };
-  function tick() {
-    var diff = Math.max(0, end() - Date.now()), t = Math.floor(diff / 1000);
-    var d = Math.floor(t / 86400), h = Math.floor(t % 86400 / 3600), m = Math.floor(t % 3600 / 60), s = t % 60;
-    var html = (d ? '<i>' + d + '</i> ngày ' : '') + '<i>' + p2(h) + '</i>:<i>' + p2(m) + '</i>:<i class="cd__s">' + p2(s) + '</i>';
-    els = document.querySelectorAll('[data-cd]');
-    for (var i = 0; i < els.length; i++) els[i].innerHTML = html;
-  }
-  tick(); setInterval(tick, 1000);
-})();
-
 // ===== Ẩn nút treo khi đang ở form đặt hàng =====
 (function () {
   var f = document.querySelector('.fpromo'); if (!f || !('IntersectionObserver' in window)) return;

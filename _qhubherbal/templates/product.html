@@ -28,7 +28,7 @@
       <div class="pd__buy" id="buybox">
         {{ price(site, True) }}
         <p class="pd__spec"><b>100% thảo mộc tự nhiên</b> · Không thêm đường · Không caffeine</p>
-        <div class="promo-box"><span class="promo-tag">Mua 2 tặng 1</span> <span class="promo-box__cd">Đợt tuần này kết thúc sau <b class="cd" data-cd>…</b></span><span class="promo-box__t">Mua 2 hộp <b>{{ vnd(site.price_sale*2) }}</b> → nhận <b>3 hộp</b> (hộp tặng bạn tự chọn). Cộng dồn: mua 4 tặng 2, mua 6 tặng 3…</span></div>
+        <div class="promo-box"><span class="promo-tag">Mua 2 tặng 1</span> <span class="promo-box__cd">Ưu đãi <b>chỉ có khi đặt tại website</b></span><span class="promo-box__t">Mua 2 hộp <b>{{ vnd(site.price_sale*2) }}</b> → nhận <b>3 hộp</b> (hộp tặng bạn tự chọn). Cộng dồn: mua 4 tặng 2, mua 6 tặng 3…</span></div>
         <div class="pd__cta">
           <a class="btn btn--lg btn--buy btn--wiggle" href="#dat-hang" data-order="{{ p.slug }}" data-qty="2">Mua 2 tặng 1</a>
           <a class="btn btn--lg btn--ghost" href="#dat-hang" data-order="{{ p.slug }}">Mua 1 hộp</a>
@@ -73,7 +73,7 @@
     <div class="gal">{% for g, alt in p.gallery %}<a href="{{ g }}" data-lb><img src="{{ g }}" alt="{{ alt }}" width="900" height="900" loading="lazy"></a>{% endfor %}{% if p.gallery|length % 4 %}
       <a class="gal__cta" href="#dat-hang" data-order="{{ p.slug }}" data-qty="2" style="--t: {{ p.tint }}">
         <img src="/assets/img/products/{{ p.slug }}-scene.webp" alt="" width="900" height="900" loading="lazy">
-        <span class="gal__cta-in"><span class="promo-tag">Mua 2 tặng 1</span><b>{{ p.pain_q }}</b><small>Kết thúc sau <span class="cd" data-cd>…</span></small><span class="btn btn--sm btn--buy">Đặt {{ p.short }} ngay</span></span>
+        <span class="gal__cta-in"><span class="promo-tag">Mua 2 tặng 1</span><b>{{ p.pain_q }}</b><small>Chỉ áp dụng khi đặt tại website</small><span class="btn btn--sm btn--buy">Đặt {{ p.short }} ngay</span></span>
       </a>{% endif %}</div>
     <p class="fineprint center">Ảnh mang tính minh họa. Thông tin chính xác in trên bao bì sản phẩm.</p>
   </div>

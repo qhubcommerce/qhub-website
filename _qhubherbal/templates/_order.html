@@ -17,7 +17,7 @@
       <p class="eyebrow eyebrow--light">Đặt hàng nhanh</p>
       <h2 id="order-title">Chọn một hộp trà, gửi một lời thương.</h2>
       <p>Bạn chỉ cần để lại 4 thông tin nhỏ. QHUB HERBAL sẽ gọi lại xác nhận đơn, hướng dẫn cách dùng phù hợp và giao hàng miễn phí toàn quốc trước khi gửi trà đến tận tay bạn.</p>
-      <div class="cdbox"><span class="promo-tag">Mua 2 tặng 1</span><span>Đợt tuần này kết thúc sau</span><b class="cd cd--big" data-cd>…</b></div>
+      <div class="cdbox"><span class="promo-tag">Mua 2 tặng 1</span><span>Ưu đãi <b>chỉ có khi đặt tại website qhubherbal.com</b> – không áp dụng trên sàn</span></div>
       <ul class="order__perks">
         <li><b>Mua 2 hộp bất kỳ, tặng 1 hộp tự chọn</b> – cộng dồn: mua 4 tặng 2, mua 6 tặng 3…</li>
         <li>Giá ưu đãi <b>{{ vnd(site.price_sale) }}</b>/hộp <s>{{ vnd(site.price_list) }}</s></li>
@@ -126,7 +126,7 @@
 {% macro promo_strip(msg) %}
 <div class="pstrip"><div class="wrap pstrip__in">
   <span class="pstrip__gift" aria-hidden="true">🎁</span>
-  <div class="pstrip__t"><b>{{ msg }}</b><span>Đợt Mua 2 tặng 1 tuần này kết thúc sau <b class="cd" data-cd>…</b></span></div>
+  <div class="pstrip__t"><b>{{ msg }}</b><span>Mua 2 tặng 1 – <b>chỉ có khi đặt tại website</b></span></div>
   <a class="btn btn--buy btn--wiggle" href="#dat-hang" data-scroll-order>Đặt hàng ngay</a>
 </div></div>
 {% endmacro %}

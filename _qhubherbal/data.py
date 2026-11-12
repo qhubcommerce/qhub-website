@@ -24,7 +24,7 @@ SITE = {
     "price_list": 140000,
     "price_sale": 105000,
     "promo": "Mua 2 tặng 1",
-    "promo_long": "Mua 2 hộp bất kỳ, tặng thêm 1 hộp bạn tự chọn – mua 4 tặng 2, mua 6 tặng 3… Ưu đãi chạy theo đợt tuần, kết thúc 23:59 Chủ nhật.",
+    "promo_long": "Mua 2 hộp bất kỳ, tặng thêm 1 hộp bạn tự chọn – mua 4 tặng 2, mua 6 tặng 3… Ưu đãi chỉ áp dụng khi đặt hàng trực tiếp tại website qhubherbal.com.",
     "video_youtube": "",
     "ship_free": True,            # Miễn phí giao hàng toàn quốc
     "ship_handling": (0, 1),      # ngày xử lý đơn
@@ -229,7 +229,7 @@ PRODUCTS = [
 ]
 
 FAQ = [
-  ("Chương trình mua 2 tặng 1 áp dụng thế nào?", "Cứ mua 2 hộp bất kỳ (có thể khác loại) là bạn được tặng thêm 1 hộp, tự chọn trong 6 loại. Cộng dồn: mua 4 tặng 2, mua 6 tặng 3… Bạn chọn hộp tặng ngay trong form đặt hàng; tính ra chỉ khoảng 70.000đ một hộp. Ưu đãi chạy theo đợt tuần, mỗi đợt kết thúc lúc 23:59 Chủ nhật – đồng hồ trên web đếm đúng đến thời điểm đó."),
+  ("Chương trình mua 2 tặng 1 áp dụng thế nào?", "Cứ mua 2 hộp bất kỳ (có thể khác loại) là bạn được tặng thêm 1 hộp, tự chọn trong 6 loại. Cộng dồn: mua 4 tặng 2, mua 6 tặng 3… Bạn chọn hộp tặng ngay trong form đặt hàng; tính ra chỉ khoảng 70.000đ một hộp. Ưu đãi này chỉ có khi đặt hàng trực tiếp tại website qhubherbal.com, không áp dụng trên các sàn thương mại điện tử."),
   ("Trà QHUB HERBAL có phải là thuốc không?", "Không. Đây là thực phẩm – trà thảo mộc túi lọc đã được tự công bố theo quy định. Trà là người bạn chăm sóc hằng ngày, không phải là thuốc và không thay thế thuốc chữa bệnh."),
   ("Bao lâu thì tôi cảm nhận được?", "Thảo mộc làm việc từ tốn. QHUB mong bạn dùng đều đặn như một thói quen nhỏ, cùng giấc ngủ đủ, bữa ăn điều độ, vận động nhẹ nhàng – và lắng nghe cảm nhận của chính mình."),
   ("Phụ nữ có thai, cho con bú dùng được không?", "Không dùng Trà Ngày Dâu Về và Trà Nam Vương. Với các loại khác, bạn hãy hỏi ý kiến bác sĩ trước khi dùng nhé."),

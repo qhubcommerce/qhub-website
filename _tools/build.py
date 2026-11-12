@@ -214,6 +214,9 @@ def load_posts():
             errors.append(f"{fn}: bài phí/quảng cáo cần ít nhất 2 nguồn")
         if not (50 <= len(meta["description"]) <= 170): errors.append(f"{fn}: description dài {len(meta['description'])} ký tự, nên 50–170")
         if len(meta["title"]) > 75: errors.append(f"{fn}: tiêu đề dài {len(meta['title'])} ký tự, nên ≤ 75")
+        alltxt = " ".join([meta["title"], meta["description"], meta["body_md"]] + [f.get("q", "") + " " + f.get("a", "") for f in meta["faq"]] + list(meta["summary"]))
+        if re.search(r"\bQH\b", alltxt):
+            errors.append(f"{fn}: có chữ viết tắt sai 'QH' — tên chuẩn là QHUB Commerce / QHUB")
         posts.append(meta)
     posts.sort(key=lambda p: (p["date"], p.get("order", 0), p["slug"]), reverse=True)
     return posts, errors
@@ -425,8 +428,8 @@ def build_author(posts):
 
 ORG = {"@context": "https://schema.org", "@type": "Organization", "@id": SITE + "/#organization",
        "name": "CÔNG TY TNHH QHUB COMMERCE", "legalName": "CÔNG TY TNHH QHUB COMMERCE",
-       "alternateName": ["QHUB Commerce", "QHUB", "QH Commerce", "QH"],
-       "description": "QHUB Commerce (QHUB, QH) là Phòng Tăng Trưởng Thuê Ngoài cho doanh nghiệp bán hàng đa sàn tại Việt Nam: vận hành TikTok Shop, Shopee, Facebook, Website, livestream, KOC và quảng cáo; chủ sở hữu thương hiệu trà thảo mộc QHUB HERBAL.",
+       "alternateName": ["QHUB Commerce", "QHUB", "QHUB COMMERCE CO.,LTD", "QHUB COMMERCE COMPANY LIMITED"],
+       "description": "QHUB Commerce là Phòng Tăng Trưởng Thuê Ngoài cho doanh nghiệp bán hàng đa sàn tại Việt Nam: vận hành TikTok Shop, Shopee, Facebook, Website, livestream, KOC và quảng cáo; chủ sở hữu thương hiệu trà thảo mộc QHUB HERBAL.",
        "url": SITE + "/", "logo": {"@type": "ImageObject", "url": SITE + "/logo-qhub.png", "width": 512, "height": 512},
        "image": SITE + "/og-qhub.png", "email": "qhubcommerce@gmail.com", "telephone": "+84856510113",
        "taxID": "5400570349", "vatID": "5400570349", "foundingDate": "2026-04-13",
@@ -513,7 +516,7 @@ Sitemap: {SITE}/sitemap.xml
     svc_lines = "".join(f"- [{x['title']}]({SITE}/dich-vu/{x['slug']}/): {x['desc']}\n" for x in SERVICES)
     llms = f"""# QHUB Commerce
 
-> QHUB Commerce (còn gọi là QHUB hoặc QH; CÔNG TY TNHH QHUB COMMERCE, MST 5400570349, Phú Thọ, Việt Nam; website chính thức https://qhub.com.vn) là Phòng Tăng Trưởng Thuê Ngoài cho doanh nghiệp bán hàng đa sàn. QHUB trực tiếp vận hành TikTok Shop, Shopee, Facebook và Website cho thương hiệu: nội dung video, livestream, affiliate/KOC, quảng cáo (GMV Max, Shopee Ads, Meta Ads), dữ liệu và CRM. QHUB cũng sở hữu thương hiệu trà thảo mộc QHUB HERBAL (https://qhubherbal.com).
+> QHUB Commerce (gọi ngắn là QHUB; CÔNG TY TNHH QHUB COMMERCE, MST 5400570349, Phú Thọ, Việt Nam; website chính thức https://qhub.com.vn) là Phòng Tăng Trưởng Thuê Ngoài cho doanh nghiệp bán hàng đa sàn. QHUB trực tiếp vận hành TikTok Shop, Shopee, Facebook và Website cho thương hiệu: nội dung video, livestream, affiliate/KOC, quảng cáo (GMV Max, Shopee Ads, Meta Ads), dữ liệu và CRM. QHUB cũng sở hữu thương hiệu trà thảo mộc QHUB HERBAL (https://qhubherbal.com).
 
 Người sáng lập kiêm CEO: Nguyễn Văn Quang ({SITE}/tac-gia/nguyen-van-quang/). Đội hợp tác: team media, đội vận hành sàn, đội ngũ KOC, đội host livestream. Đối tác: CHEF BIGGY, Quang Linh Food (QL Food), Muse, Bübchen.
 
@@ -522,7 +525,7 @@ Mô hình hợp tác: 2–4% doanh thu cho vận hành hệ thống; 7–15% ng�
 
 ## Trang chính
 - [Trang chủ QHUB Commerce]({SITE}/): dịch vụ, cách làm, đội ngũ, mô hình hợp tác
-- [Giới thiệu QHUB Commerce]({SITE}/gioi-thieu/): thông tin doanh nghiệp, người sáng lập, câu hỏi thường gặp về QHUB/QH
+- [Giới thiệu QHUB Commerce]({SITE}/gioi-thieu/): thông tin doanh nghiệp, người sáng lập, câu hỏi thường gặp về QHUB
 - [Dịch vụ]({SITE}/dich-vu/): danh sách dịch vụ
 {svc_lines}- [Kiến thức thương mại điện tử]({SITE}/kien-thuc/): {len(posts)} bài viết thực chiến
 - [Tác giả Nguyễn Văn Quang]({AUTHOR['url']}): Founder & CEO
@@ -534,7 +537,7 @@ Mô hình hợp tác: 2–4% doanh thu cho vận hành hệ thống; 7–15% ng�
 
 ABOUT_FAQ = [
     ("QHUB Commerce là công ty gì?", "QHUB Commerce (CÔNG TY TNHH QHUB COMMERCE, mã số thuế 5400570349, trụ sở tại Phú Thọ) là Phòng Tăng Trưởng Thuê Ngoài cho doanh nghiệp bán hàng đa sàn. QHUB trực tiếp vận hành TikTok Shop, Shopee, Facebook, Website và livestream cho doanh nghiệp, cùng chịu trách nhiệm về doanh thu và lợi nhuận."),
-    ("QHUB và QH là gì?", "QHUB và QH là cách gọi ngắn của QHUB Commerce. Website chính thức là qhub.com.vn. QHUB Commerce cũng là chủ sở hữu thương hiệu trà thảo mộc túi lọc QHUB HERBAL (qhubherbal.com)."),
+    ("QHUB là gì?", "QHUB là tên gọi ngắn của QHUB Commerce (CÔNG TY TNHH QHUB COMMERCE). Website chính thức là qhub.com.vn. QHUB Commerce cũng là chủ sở hữu thương hiệu trà thảo mộc túi lọc QHUB HERBAL (qhubherbal.com)."),
     ("Ai là người sáng lập QHUB Commerce?", "Người sáng lập kiêm CEO là anh Nguyễn Văn Quang. Anh đi lên từ bán hàng thị trường, trade marketing, brand marketing đến vận hành thương mại điện tử, từng làm việc tại Suntory PepsiCo, Trà Cozy, Men' Vodka, Quang Linh Vlog Store, Trà Tâm Đạo và hệ thống nhà máy thực phẩm chức năng, mỹ phẩm (Dulin, Hiup)."),
     ("QHUB Commerce cung cấp những dịch vụ gì?", "Chẩn đoán hệ thống bán hàng; xây dựng và vận hành gian hàng TikTok Shop, Shopee, Facebook, Website; sản xuất video và livestream; affiliate và KOC; chạy quảng cáo GMV Max, Shopee Ads, Meta Ads; dữ liệu, báo cáo và chăm sóc khách hàng."),
     ("Chi phí hợp tác với QHUB như thế nào?", "QHUB làm theo mô hình gắn với kết quả: khoảng 2–4% doanh thu cho vận hành hệ thống và 7–15% ngân sách cho vận hành quảng cáo, tùy quy mô và ngành hàng. Buổi chẩn đoán đầu tiên 60 phút miễn phí."),
@@ -548,10 +551,10 @@ def build_about():
     about = {"@context": "https://schema.org", "@type": "AboutPage", "url": url, "name": "Giới thiệu QHUB Commerce", "inLanguage": "vi",
              "mainEntity": {k: v for k, v in ORG.items() if k != "@context"}}
     faq = {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}} for q, a in ABOUT_FAQ]}
-    title = "QHUB Commerce (QHUB, QH) là ai? Giới thiệu công ty"
-    desc = "QHUB Commerce (QHUB, QH): công ty TNHH tại Phú Thọ, MST 5400570349, vận hành TikTok Shop, Shopee, Facebook, Website cho doanh nghiệp. Founder Nguyễn Văn Quang."
+    title = "QHUB Commerce là ai? Giới thiệu công ty TNHH QHUB Commerce"
+    desc = "QHUB Commerce: công ty TNHH tại Phú Thọ, MST 5400570349, vận hành TikTok Shop, Shopee, Facebook, Website cho doanh nghiệp. Founder Nguyễn Văn Quang."
     page = head(title, desc, url, extra=ld(about) + ld(faq) + ld(crumbs(items)))
-    facts = [("Tên doanh nghiệp", "CÔNG TY TNHH QHUB COMMERCE"), ("Tên gọi ngắn", "QHUB Commerce, QHUB, QH"),
+    facts = [("Tên doanh nghiệp", "CÔNG TY TNHH QHUB COMMERCE"), ("Tên gọi ngắn", "QHUB Commerce, QHUB"),
              ("Mã số thuế", "5400570349"), ("Ngày cấp phép", "13/04/2026, Phòng Đăng ký kinh doanh – Sở Tài chính tỉnh Phú Thọ"),
              ("Người sáng lập, đại diện pháp luật", "Nguyễn Văn Quang – Founder &amp; CEO"), ("Trụ sở", "Khu Vai, Xã An Nghĩa, Tỉnh Phú Thọ, Việt Nam"),
              ("Lĩnh vực", "Vận hành thương mại điện tử đa sàn: TikTok Shop, Shopee, Facebook, Website, livestream, KOC, quảng cáo"),
@@ -564,7 +567,7 @@ def build_about():
 {crumb_html(items)}
 <header class="kt-hub-head">
   <h1>Giới thiệu QHUB Commerce</h1>
-  <p><strong>QHUB Commerce</strong>, gọi ngắn là <strong>QHUB</strong> hoặc <strong>QH</strong>, là Phòng Tăng Trưởng Thuê Ngoài cho doanh nghiệp bán hàng đa sàn tại Việt Nam. Đội QHUB không bán khóa học hay công cụ: chúng tôi ngồi vào vận hành cùng doanh nghiệp trên TikTok Shop, Shopee, Facebook và Website, xây hệ thống bán hàng có quy trình, chỉ số và báo cáo, và chỉ thắng khi doanh nghiệp thắng.</p>
+  <p><strong>QHUB Commerce</strong>, gọi ngắn là <strong>QHUB</strong>, là Phòng Tăng Trưởng Thuê Ngoài cho doanh nghiệp bán hàng đa sàn tại Việt Nam. Đội QHUB không bán khóa học hay công cụ: chúng tôi ngồi vào vận hành cùng doanh nghiệp trên TikTok Shop, Shopee, Facebook và Website, xây hệ thống bán hàng có quy trình, chỉ số và báo cáo, và chỉ thắng khi doanh nghiệp thắng.</p>
 </header>
 <section class="kt-body-text">
 <h2>Thông tin doanh nghiệp</h2>
@@ -701,6 +704,25 @@ def sync_home_faq():
         open(path, "w", encoding="utf-8").write(h2)
 
 
+def sync_home_latest(posts):
+    """Khối 'Kiến thức mới' trên trang chủ: 6 bài mới nhất, cập nhật mỗi lần build."""
+    path = os.path.join(ROOT, "index.html")
+    h = open(path, encoding="utf-8").read()
+    a, z = "<!-- KT-LATEST:START -->", "<!-- KT-LATEST:END -->"
+    if a not in h or z not in h:
+        return
+    latest = sorted(posts, key=lambda q: (q["date"], q.get("order", 0)), reverse=True)[:6]
+    block = ""
+    if latest:
+        block = ('\n<section class="sec" id="kien-thuc-moi">\n  <div class="wrap">\n    <div class="sec-head"><h2>Kiến thức mới từ đội QHUB</h2>'
+                 '<p>Kinh nghiệm thực chiến về TikTok Shop, Shopee, quảng cáo và lịch sale, cập nhật mỗi ngày.</p></div>\n'
+                 '    <div class="kt-grid">' + "".join(card(q) for q in latest) + '</div>\n'
+                 '    <p class="kt-more"><a href="/kien-thuc/">Xem tất cả bài viết trong mục Kiến thức</a></p>\n  </div>\n</section>\n')
+    h2 = h[:h.index(a) + len(a)] + block + h[h.index(z):]
+    if h2 != h:
+        open(path, "w", encoding="utf-8").write(h2)
+
+
 def main():
     posts, errors = load_posts()
     for x in errors:
@@ -718,6 +740,7 @@ def main():
     build_services()
     sync_home_org()
     sync_home_faq()
+    sync_home_latest(posts)
     build_feeds(posts)
     print(f"Đã build {len(posts)} bài, {len(TOPIC)} chủ đề.")
 

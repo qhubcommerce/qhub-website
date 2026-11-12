@@ -698,3 +698,5 @@ section{scroll-margin-top:70px}
 .compare thead .us{background:var(--grad)}
 .sec-head h2{letter-spacing:-.025em}
 @media (prefers-reduced-motion:reduce){.hero::after,.flow .wire,.flow .hub-ring{animation:none}}
+#kien-thuc-moi{background:var(--paper)}
+.kt-more{margin:26px 0 0;font-weight:700}.kt-more a{color:var(--blue)}

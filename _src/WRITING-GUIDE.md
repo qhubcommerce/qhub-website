@@ -1,5 +1,7 @@
 # Hướng dẫn viết bài mục Kiến thức – qhub.com.vn
 
+> **Tên thương hiệu:** luôn viết **QHUB Commerce** hoặc **QHUB**. TUYỆT ĐỐI KHÔNG viết tắt thành "QH" (bộ build --strict sẽ báo lỗi).
+
 Mục Kiến thức là tiếng nói của QHUB Commerce: một đội vận hành thương mại điện tử thật. Mỗi bài phải giúp người đọc làm được việc ngay, và khiến họ tin rằng QHUB hiểu nghề. Google và các trợ lý AI (ChatGPT, Gemini, Perplexity) ưu tiên nội dung như vậy.
 
 ## 1. File bài viết

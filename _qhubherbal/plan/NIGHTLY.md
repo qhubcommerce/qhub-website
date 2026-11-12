@@ -6,8 +6,8 @@ Kế hoạch: `plan/plan-600.tsv` có 600 bài, 100 bài cho mỗi sản phẩm.
   - `moi`: chủ đề mới, phải thêm khung bài (stub) trước khi viết.
 - Cột `status`: `todo` → `done` (ghi kèm ngày viết).
 
-## 0. Việc đầu tiên mỗi lần chạy (01:30, chạy hoàn toàn trên cloud – KHÔNG cần máy anh Quang)
-1. Lịch chạy là **scheduled task định kỳ hằng ngày** (cron 01:30 Asia/Saigon) – không cần tự đặt lịch nối tiếp, KHÔNG dùng send_later. Không hỏi lại anh Quang bất cứ điều gì; tự quyết và ghi rõ trong báo cáo.
+## 0. Việc đầu tiên mỗi lần chạy (01:21, chạy hoàn toàn trên cloud – KHÔNG cần máy anh Quang)
+1. Lịch chạy là **scheduled task định kỳ hằng ngày** (cron 01:21 Asia/Saigon, trig_011Z5pMHbzki5NHo8G5VmHcs) – không cần tự đặt lịch nối tiếp, KHÔNG dùng send_later. Không hỏi lại anh Quang bất cứ điều gì; tự quyết và ghi rõ trong báo cáo.
 2. Lấy mã nguồn: gọi `add_repo` (owner `qhubcommerce`, repo `qhub-website`, access `push`), rồi `git clone --depth 1 https://github.com/qhubcommerce/qhub-website /home/claude/qhub-website` (timeout dài ~10 phút). Thư mục làm việc: `/home/claude/qhub-website/_qhubherbal`. Cài `pip install --break-system-packages jinja2 markdown pillow` nếu thiếu.
 3. Thư mục gốc repo là web **qhub.com.vn** (công ty) – KHÔNG sửa gì ngoài `_qhubherbal/` và `.github/workflows/qhubherbal-deploy.yml`.
 

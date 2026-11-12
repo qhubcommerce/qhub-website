@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% from "_order.html" import order_section, post_card %}
+{% block main %}
+<section class="sec sec--dew sec--top">
+  <img class="leafblur" src="/assets/img/leaf-blur-c.webp" alt="" aria-hidden="true" style="right:-140px;top:-40px;width:420px">
+  <span class="dew" style="width:20px;height:20px;left:8%;top:120px"></span>
+  <nav class="wrap crumbs" aria-label="Breadcrumb"><a href="/">Trang chủ</a> <span>/</span> {% if crumb %}<a href="/kien-thuc/">Kiến thức</a> <span>/</span> <span aria-current="page">{{ crumb }}</span>{% else %}<span aria-current="page">Kiến thức</span>{% endif %}</nav>
+  <div class="wrap" style="margin-top:22px">
+    <div class="sec__head">
+      <p class="eyebrow">Góc kiến thức QHUB HERBAL</p>
+      <h1>{{ h1 }}{% if page > 1 %} – trang {{ page }}{% endif %}</h1>
+      <p>{{ intro }}</p>
+      {% if prod %}<p><a class="btn btn--sm" href="/san-pham/{{ prod.slug }}/">Xem {{ prod.name }}</a> <a class="btn btn--sm btn--ghost" href="#dat-hang" data-order="{{ prod.slug }}">Đặt mua · 105.000đ</a></p>{% endif %}
+    </div>
+    <nav class="chips" aria-label="Chủ đề">
+      <a class="chip{% if cur == 'all' %} is-on{% endif %}" href="/kien-thuc/">Tất cả</a>
+      {% for cs, cn, n in post_cats %}<a class="chip{% if cur == cs %} is-on{% endif %}" href="/kien-thuc/chu-de/{{ cs }}/">{{ cn }} ({{ n }})</a>{% endfor %}
+    </nav>
+    <nav class="chips" aria-label="Theo sản phẩm" style="margin-top:-6px">
+      {% for pp in products %}<a class="chip{% if prod and prod.slug == pp.slug %} is-on{% endif %}" href="/kien-thuc/tra/{{ pp.slug }}/">{{ pp.short }}</a>{% endfor %}
+    </nav>
+    <div class="posts" id="postgrid">{% for a in posts %}{{ post_card(a, site) }}{% endfor %}</div>
+    {% if pager %}<nav class="pager" aria-label="Phân trang">{% for n, u in pager %}<a href="{{ u }}"{% if n == page %} aria-current="page" class="is-on"{% endif %}>{{ n }}</a>{% endfor %}</nav>{% endif %}
+  </div>
+</section>
+<section id="order-slot" class="order"><span id="dat-hang"></span><div class="wrap" style="text-align:center"><h2>Chọn một hộp trà, gửi một lời thương.</h2><p><a class="btn" href="/san-pham/">Xem &amp; đặt hàng · 105.000đ</a></p></div></section>
+{% endblock %}

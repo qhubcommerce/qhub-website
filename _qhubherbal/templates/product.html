@@ -1,0 +1,177 @@
+{% extends "base.html" %}
+{% from "_order.html" import order_section, card, price, vnd, post_card %}
+{% block head %}<script type="application/ld+json">{{ product_ld|safe }}</script><script type="application/ld+json">{{ bc_ld|safe }}</script>{% endblock %}
+{% block main %}
+<section class="pd" style="--c: {{ p.color }}; --t: {{ p.tint }}">
+  <img class="leafblur" src="/assets/img/leaf-blur-c.webp" alt="" aria-hidden="true" style="left:-160px;top:-40px;width:420px">
+  <img class="leafblur" src="/assets/img/leaf-blur-a.webp" alt="" aria-hidden="true" style="right:-140px;top:30%;width:360px;opacity:.6">
+  <span class="dew" style="width:20px;height:20px;right:6%;top:120px"></span>
+  <nav class="wrap crumbs" aria-label="Breadcrumb"><a href="/">Trang chủ</a> <span>/</span> <a href="/san-pham/">Sản phẩm</a> <span>/</span> <span aria-current="page">{{ p.name }}</span></nav>
+  <div class="wrap pd__grid" style="margin-top:18px">
+    <div class="pd__media">
+      <div class="pd__stage is-photo" id="pdStage">
+        <img id="pdMain" src="/assets/img/products/{{ p.slug }}-scene.webp" alt="Hộp {{ p.name }} cùng các vị thảo mộc: {{ p.ingredients_text }}" width="900" height="900" fetchpriority="high">
+      </div>
+      <div class="pd__thumbs" role="list">
+        <button class="is-on" data-src="/assets/img/products/{{ p.slug }}-scene.webp" data-photo="1" aria-label="Hộp trà cùng các vị thảo mộc"><img src="/assets/img/products/thumb/{{ p.slug }}-scene.webp" alt="" width="72" height="72"></button>
+        {% for g, alt in p.gallery %}<button data-src="{{ g }}" data-photo="1" aria-label="{{ alt }}"><img src="{{ g }}" alt="" width="72" height="72" loading="lazy"></button>{% endfor %}
+      </div>
+    </div>
+    <div class="pd__info">
+      <p class="eyebrow">{{ p.no }} · Trà thảo mộc túi lọc · {{ p.cat }}</p>
+      <h1>{{ p.name }}</h1>
+      <p class="pd__tag">{{ p.tagline }}</p>
+      <ul class="bens pd__benefits">{% for b in p.benefits %}<li>{{ b }}</li>{% endfor %}</ul>
+      <p class="pd__intro">{{ p.intro }}</p>
+      <p class="keyslab">Thành phần chính</p>
+      <ul class="pd__keys">{% for k in p['keys'] %}<li>{{ k }}</li>{% endfor %}</ul>
+      <div class="pd__buy" id="buybox">
+        {{ price(site, True) }}
+        <p class="pd__spec"><b>100% thảo mộc tự nhiên</b> · Không thêm đường · Không caffeine</p>
+        <div class="promo-box"><span class="promo-tag">Mua 2 tặng 1</span> <span class="promo-box__cd">Đợt tuần này kết thúc sau <b class="cd" data-cd>…</b></span><span class="promo-box__t">Mua 2 hộp <b>{{ vnd(site.price_sale*2) }}</b> → nhận <b>3 hộp</b> (hộp tặng bạn tự chọn). Cộng dồn: mua 4 tặng 2, mua 6 tặng 3…</span></div>
+        <div class="pd__cta">
+          <a class="btn btn--lg btn--buy btn--wiggle" href="#dat-hang" data-order="{{ p.slug }}" data-qty="2">Mua 2 tặng 1</a>
+          <a class="btn btn--lg btn--ghost" href="#dat-hang" data-order="{{ p.slug }}">Mua 1 hộp</a>
+        </div>
+        <div class="pd__cta" style="margin-top:10px">
+          <a class="btn btn--zalo btn--block" href="{{ site.zalo_url }}" target="_blank" rel="noopener">Tư vấn Hotline/Zalo <span style="white-space:nowrap">{{ site.hotline }}</span></a>
+        </div>
+      </div>
+      <dl class="pd__facts">
+        <div><dt>Thời điểm gợi ý</dt><dd>{{ p.time }}</dd></div>
+        <div><dt>Hương vị</dt><dd>{{ p.flavor }}</dd></div>
+        <div><dt>Dành cho</dt><dd>{{ p.for_who }}</dd></div>
+      </dl>
+    </div>
+  </div>
+</section>
+
+<section class="sec sec--mint" style="--c: {{ p.color }}">
+  <img class="leafblur" src="/assets/img/herb-mimosa.webp" alt="" aria-hidden="true" style="right:-40px;bottom:-20px;width:200px" loading="lazy">
+  <div class="wrap pd2">
+    <div>
+      <p class="eyebrow">Dành cho bạn, nếu…</p>
+      <h2 style="font-size:28px">{{ p.pain_q }}</h2>
+      <p style="color:var(--muted)">{{ p.pain_txt }}</p>
+      <ul class="iflist">{% for i in p.if_list %}<li>{{ i }}</li>{% endfor %}</ul>
+    </div>
+    <div>
+      <p class="eyebrow">{% if p.slug == 'duong-tam-an' %}Thân · Tâm · Tuệ{% else %}Theo quan niệm phương Đông{% endif %}</p>
+      <div class="dongy">{% for h, d in p.dongy %}<div><b>{{ h }}</b><span>{{ d }}</span></div>{% endfor %}</div>
+      <a class="btn btn--lg" href="#dat-hang" data-order="{{ p.slug }}" data-qty="2" style="margin-top:22px">Mua 2 tặng 1 · {{ vnd(site.price_sale*2) }}</a>
+    </div>
+  </div>
+</section>
+
+{% if p.gallery %}
+<section class="sec">
+  <div class="wrap">
+    <div class="sec__head center">
+      <p class="eyebrow">Nhìn kỹ hơn một chút</p>
+      <h2>Hộp trà {{ p.short }} qua từng khung hình</h2>
+    </div>
+    <div class="gal">{% for g, alt in p.gallery %}<a href="{{ g }}" data-lb><img src="{{ g }}" alt="{{ alt }}" width="900" height="900" loading="lazy"></a>{% endfor %}{% if p.gallery|length % 4 %}
+      <a class="gal__cta" href="#dat-hang" data-order="{{ p.slug }}" data-qty="2" style="--t: {{ p.tint }}">
+        <img src="/assets/img/products/{{ p.slug }}-scene.webp" alt="" width="900" height="900" loading="lazy">
+        <span class="gal__cta-in"><span class="promo-tag">Mua 2 tặng 1</span><b>{{ p.pain_q }}</b><small>Kết thúc sau <span class="cd" data-cd>…</span></small><span class="btn btn--sm btn--buy">Đặt {{ p.short }} ngay</span></span>
+      </a>{% endif %}</div>
+    <p class="fineprint center">Ảnh mang tính minh họa. Thông tin chính xác in trên bao bì sản phẩm.</p>
+  </div>
+</section>
+{% endif %}
+
+<section class="sec sec--dew">
+  <img class="leafblur" src="/assets/img/leaf-blur-b.webp" alt="" aria-hidden="true" style="left:-180px;top:10%;width:420px;opacity:.5" loading="lazy">
+  <div class="wrap">
+    <div class="sec__head center">
+      <p class="eyebrow">Bên trong một túi trà</p>
+      <h2>{{ p.ings|length }} vị thảo mộc, một công thức hài hòa</h2>
+      <p>{{ p.formula }}</p>
+    </div>
+    <div class="ings">
+      {% for key, name, pct, role, latin, prop, note in p.ings %}
+      <div class="ing">
+        <img src="{{ herb_img(key) }}" alt="{{ name }} – ảnh minh họa" width="120" height="120" loading="lazy">
+        <div>
+          <h3>{{ name }}{% if pct %} <span class="ing__pct">{{ pct }}</span>{% endif %} <span class="ing__role">{{ role }}</span></h3>
+          {% if latin %}<p class="ing__latin">{{ latin }}</p>{% endif %}
+          <p class="ing__prop">{{ prop }}</p>
+          <p class="ing__note">{{ note }}</p>
+          {% if herb_post.get(key) %}<a class="ing__more" href="/kien-thuc/{{ herb_post[key] }}/">Tìm hiểu về {{ name|lower }} →</a>{% endif %}
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+    <p class="fineprint">Ảnh nguyên liệu mang tính minh họa. Quân – Thần – Tá – Sứ là cách phối vị của người xưa phương Đông: Quân là vị chủ lực, Thần hỗ trợ, Tá cân bằng, Sứ điều hòa cho trà dễ uống.</p>
+    <div class="cta-row"><a class="btn btn--lg" href="#dat-hang" data-order="{{ p.slug }}">Đặt {{ p.name }}</a></div>
+  </div>
+</section>
+
+<section class="sec sec--forest">
+  <div class="wrap pd3">
+    <div>
+      <p class="eyebrow eyebrow--light">Thưởng trà trọn vị</p>
+      <h2 style="font-size:30px">Năm phút cho một tách trà ấm</h2>
+      <ol class="brew">
+        <li><b>1</b><span>Đặt 1 túi lọc vào tách</span></li>
+        <li><b>2</b><span>Rót 200 ml nước đun sôi (95–100 °C)</span></li>
+        <li><b>3</b><span>Đợi 5 phút cho trà ngấm và thưởng thức</span></li>
+      </ol>
+      <p class="pd3__tip">{{ p.usage_tip }}</p>
+    </div>
+    <div>
+      <p class="eyebrow eyebrow--light">Thói quen nhỏ đi cùng</p>
+      <ul class="habits">{% for h in p.habits %}<li>{{ h }}</li>{% endfor %}</ul>
+      {% set pp = bys[p.pair[0]] %}
+      <p class="eyebrow eyebrow--light" style="margin-top:28px">Kết hợp cùng</p>
+      <a class="pair" href="/san-pham/{{ pp.slug }}/"><img src="/assets/img/products/thumb/{{ pp.slug }}.webp" alt="" width="50" height="72" loading="lazy"><span><b>{{ pp.name }}</b> · {{ p.pair[1] }}</span></a>
+    </div>
+  </div>
+</section>
+
+<section class="sec">
+  <div class="wrap pd4">
+    <div class="note">
+      <h2>Lưu ý nhỏ</h2>
+      <p><b>Trên bao bì:</b> {{ warn }}</p>
+      <p>{{ p.note }}</p>
+    </div>
+    <div>
+      <h2>Thông tin sản phẩm</h2>
+      <table class="spec">
+        <tr><th>Thành phần</th><td>{{ p.ingredients_text }}</td></tr>
+        <tr><th>Quy cách</th><td>Hộp 30 túi lọc × 3 g (tịnh 90 g)</td></tr>
+        <tr><th>Cách dùng</th><td>1 túi + 200 ml nước 95–100 °C, đợi 5 phút</td></tr>
+        <tr><th>Bảo quản</th><td>Nơi khô ráo, thoáng mát, tránh ánh nắng trực tiếp</td></tr>
+        <tr><th>Hạn dùng</th><td>24 tháng kể từ ngày sản xuất (in ở đáy hộp)</td></tr>
+        <tr><th>Số tự công bố</th><td>{{ p.tcb }}</td></tr>
+        <tr><th>Mã vạch</th><td>{{ p.gtin }}</td></tr>
+        <tr><th>Phân phối</th><td>{{ site.company }}, {{ site.address }}</td></tr>
+        <tr><th>Sản xuất</th><td>{{ site.manufacturer }}, tỉnh Thanh Hóa – nhà máy đạt chứng nhận ISO 22000:2018</td></tr>
+      </table>
+      <p class="fineprint"><b>{{ site.disclaimer }}</b></p>
+    </div>
+  </div>
+</section>
+
+{% if posts_for %}
+<section class="sec sec--dew">
+  <div class="wrap">
+    <div class="sec__head center"><p class="eyebrow">Đọc thêm</p><h2>Bài viết về {{ p.short }}</h2></div>
+    <div class="posts">{% for a in posts_for %}{{ post_card(a, site) }}{% endfor %}</div>
+    {% if posts_n > 6 %}<p style="text-align:center;margin-top:28px"><a class="btn btn--ghost" href="/kien-thuc/tra/{{ p.slug }}/">Xem tất cả {{ posts_n }} bài viết</a></p>{% endif %}
+  </div>
+</section>
+{% endif %}
+
+<section class="sec sec--mint">
+  <div class="wrap">
+    <div class="sec__head center"><p class="eyebrow">Có thể bạn quan tâm</p><h2>Các công thức khác</h2></div>
+    <div class="grid grid--4">{% for o in others %}{{ card(o, site) }}{% endfor %}</div>
+  </div>
+</section>
+
+<div class="sticky-buy" id="stickyBuy" style="--c: {{ p.color }}"><div class="wrap"><img src="/assets/img/products/thumb/{{ p.slug }}.webp" alt="" width="34" height="48"><b>{{ p.name }}</b>{{ price(site) }}<a class="btn btn--sm" href="#dat-hang" data-order="{{ p.slug }}">Đặt mua ngay</a></div></div>
+
+{{ order_section(site, products, p.slug) }}
+{% endblock %}

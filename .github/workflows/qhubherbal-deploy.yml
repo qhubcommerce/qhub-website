@@ -1,0 +1,104 @@
+# Website QHUB HERBAL (qhubherbal.com) — mã nguồn ở thư mục _qhubherbal/.
+# Mỗi lần có commit đổi _qhubherbal/**: build -> đăng lên Cloudflare Pages -> báo bài mới cho Bing/Yandex qua IndexNow.
+# Không ảnh hưởng web qhub.com.vn (GitHub Pages bỏ qua thư mục bắt đầu bằng "_").
+name: QHUB HERBAL – build & deploy
+
+on:
+  push:
+    branches: [main]
+    paths: ["_qhubherbal/**", ".github/workflows/qhubherbal-deploy.yml"]
+  workflow_dispatch:
+    inputs:
+      urls:
+        description: "URL gửi IndexNow (cách nhau dấu cách). Để trống = các bài đổi ở commit mới nhất"
+        required: false
+        default: ""
+
+permissions:
+  contents: read
+
+concurrency:
+  group: qhubherbal-deploy
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    defaults:
+      run:
+        working-directory: _qhubherbal
+    env:
+      CLOUDFLARE_ACCOUNT_ID: 39ff8bdab570cb3dd789dc1d109e5e3c
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      SITE: https://qhubherbal.com
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Cài thư viện
+        run: pip install jinja2 markdown pillow
+
+      - name: Kiểm tra từ ngữ cấm & độ dài bài
+        run: python checklong.py | tail -20
+
+      - name: Build
+        run: python build.py
+
+      - name: Kiểm tra có token Cloudflare
+        run: |
+          if [ -z "$CLOUDFLARE_API_TOKEN" ]; then
+            echo "::error::Chưa có secret CLOUDFLARE_API_TOKEN trong repo (Settings > Secrets and variables > Actions)."; exit 1
+          fi
+
+      - name: Đăng ảnh (qhubherbal-img)
+        run: npx --yes wrangler@3 pages deploy imgsite --project-name=qhubherbal-img --branch=main --commit-dirty=true
+
+      - name: Đăng ảnh phụ (qhubherbal-media)
+        run: npx --yes wrangler@3 pages deploy media --project-name=qhubherbal-media --branch=main --commit-dirty=true
+
+      - name: Đăng bài viết phần 1 (qhubherbal-kt1)
+        run: npx --yes wrangler@3 pages deploy ktsite1 --project-name=qhubherbal-kt1 --branch=main --commit-dirty=true
+
+      - name: Đăng bài viết phần 2 (qhubherbal-kt2)
+        run: npx --yes wrangler@3 pages deploy ktsite2 --project-name=qhubherbal-kt2 --branch=main --commit-dirty=true
+
+      - name: Đăng web chính (qhubherbal)
+        run: npx --yes wrangler@3 pages deploy dist --project-name=qhubherbal --branch=main --commit-dirty=true
+
+      - name: Danh sách URL mới/đổi
+        id: urls
+        env:
+          INPUT_URLS: ${{ github.event.inputs.urls }}
+        run: |
+          if [ -n "$INPUT_URLS" ]; then URLS="$INPUT_URLS"; else
+            URLS=$(git diff --diff-filter=AM --name-only HEAD^ HEAD -- 'content/long/*.md' 2>/dev/null \
+              | sed -E 's#^_qhubherbal/##; s#content/long/(.*)\.md#'"$SITE"'/kien-thuc/\1/#' | tr '\n' ' ')
+          fi
+          echo "urls=$URLS" >> "$GITHUB_OUTPUT"
+          echo "URL: $URLS"
+
+      - name: Kiểm tra trang lên sóng (HTTP 200)
+        if: steps.urls.outputs.urls != ''
+        run: |
+          sleep 30
+          fail=0
+          for u in ${{ steps.urls.outputs.urls }}; do
+            code=$(curl -s -o /dev/null -w '%{http_code}' "$u"); echo "$code $u"
+            [ "$code" = "200" ] || fail=1
+          done
+          [ $fail = 0 ] || echo "::warning::Có trang chưa trả về 200"
+
+      - name: Báo IndexNow (Bing, Yandex…)
+        if: steps.urls.outputs.urls != ''
+        run: |
+          KEY=$(cat .indexnow-key)
+          LIST=$(for u in ${{ steps.urls.outputs.urls }}; do printf '"%s",' "$u"; done | sed 's/,$//')
+          BODY="{\"host\":\"qhubherbal.com\",\"key\":\"$KEY\",\"keyLocation\":\"$SITE/$KEY.txt\",\"urlList\":[$LIST]}"
+          curl -s -o /dev/null -w 'IndexNow HTTP %{http_code}\n' -X POST https://api.indexnow.org/indexnow \
+            -H 'Content-Type: application/json; charset=utf-8' -d "$BODY"

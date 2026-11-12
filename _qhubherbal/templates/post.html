@@ -1,0 +1,54 @@
+{% extends "base.html" %}
+{% from "_order.html" import order_section, price, vnd, post_card, promo_strip %}
+{% block head %}<script type="application/ld+json">{{ post_ld|safe }}</script>{% endblock %}
+{% block main %}
+<article class="art">
+  <div class="wrap">
+    <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Trang chủ</a> <span>/</span> <a href="/kien-thuc/">Kiến thức</a> <span>/</span> <a href="/kien-thuc/chu-de/{{ a.cat_slug }}/">{{ a.cat }}</a></nav>
+    <header class="art__hero" style="margin-top:20px">
+      <div>
+        <p class="eyebrow">{{ a.cat }}</p>
+        <h1 style="font-size:clamp(28px,3.6vw,44px)">{{ a.title }}</h1>
+        <p class="art__lead">{{ a.desc }}</p>
+        <div class="art__meta"><span>QHUB HERBAL</span><span>·</span><time datetime="{{ a.date }}">{{ a.date_vn }}</time><span>·</span><span>{{ a.minutes }} phút đọc</span>{% if site.reviewer and site.reviewer.name %}<span>·</span><span>Tham vấn chuyên môn: {% if site.reviewer.url %}<a href="{{ site.reviewer.url }}" rel="noopener">{{ site.reviewer.name }}</a>{% else %}{{ site.reviewer.name }}{% endif %}{% if site.reviewer.title %} – {{ site.reviewer.title }}{% endif %}</span>{% endif %}</div>
+      </div>
+      <img src="{{ a.cover_url }}" alt="{{ a.title }}" width="800" height="800">
+    </header>
+    <div class="art__layout">
+      <div class="prose">
+        {{ a.html|safe }}
+        {% if a.faq %}
+        <h2 id="hoi-dap-nhanh">Hỏi đáp nhanh</h2>
+        <div class="faq">{% for q, ans in a.faq %}<details{% if loop.first %} open{% endif %}><summary>{{ q }}</summary><p>{{ ans }}</p></details>{% endfor %}</div>
+        {% endif %}
+        <p class="art__note">Bài viết mang tính chia sẻ kiến thức tham khảo từ kinh nghiệm thảo mộc cổ truyền và tài liệu phổ thông, không thay thế tư vấn của bác sĩ. Trà thảo mộc QHUB HERBAL là thực phẩm – {{ site.disclaimer|lower }}</p>
+      </div>
+      <aside class="art__aside">
+        {% if a.toc %}<nav class="toc" aria-label="Mục lục"><b>Mục lục</b><ol>{% for id, t in a.toc %}<li><a href="#{{ id }}">{{ t }}</a></li>{% endfor %}</ol></nav>{% endif %}
+        {% for pp in a.products %}
+        <div class="buybox" style="--c: {{ pp.color }}">
+          <img src="/assets/img/products/thumb/{{ pp.slug }}.webp" alt="{{ pp.name }}" width="120" height="172" loading="lazy">
+          <h3>{{ pp.name }}</h3>
+          <p style="font-size:14px;color:var(--muted);margin:0">{{ pp.tagline }}</p>
+          {{ price(site) }}
+          <ul class="bens bens--sm" style="justify-content:center">{% for b in pp.benefits %}<li>{{ b }}</li>{% endfor %}</ul>
+          <span class="promo-tag">Mua 2 tặng 1</span>
+          <a class="btn btn--sm" href="#dat-hang" data-order="{{ pp.slug }}" data-qty="2">Mua 2 tặng 1</a>
+          <a class="btn btn--sm btn--ghost" href="/san-pham/{{ pp.slug }}/">Xem sản phẩm</a>
+        </div>
+        {% endfor %}
+      </aside>
+    </div>
+  </div>
+</article>
+<div style="margin:30px 0 60px">{{ promo_strip('Đọc xong rồi, mời bạn một tách trà – mua 2 hộp tặng thêm 1') }}</div>
+{% if related %}
+<section class="sec sec--dew" style="padding-top:60px">
+  <div class="wrap">
+    <div class="sec__head center"><p class="eyebrow">Đọc tiếp</p><h2>Bài viết liên quan</h2></div>
+    <div class="posts">{% for r in related %}{{ post_card(r, site) }}{% endfor %}</div>
+  </div>
+</section>
+{% endif %}
+<section id="order-slot" class="order" data-pre="{{ a.products[0].slug if a.products else '' }}"><span id="dat-hang"></span><div class="wrap" style="text-align:center"><p class="eyebrow eyebrow--light" style="justify-content:center">Đặt hàng nhanh</p><h2>Chọn một hộp trà, gửi một lời thương.</h2><p><a class="btn" href="{% if a.products %}/san-pham/{{ a.products[0].slug }}/{% else %}/san-pham/{% endif %}">Xem &amp; đặt hàng · Mua 2 tặng 1</a> <a class="btn btn--zalo" href="{{ site.zalo_url }}" target="_blank" rel="noopener">Hotline/Zalo {{ site.hotline }}</a></p></div></section>
+{% endblock %}

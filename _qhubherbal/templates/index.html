@@ -1,0 +1,264 @@
+{% extends "base.html" %}
+{% from "_order.html" import order_section, card, price, vnd, post_card, promo_strip %}
+{% block main %}
+<section class="hero">
+  <img class="leafblur" src="/assets/img/leaf-blur-c.webp" alt="" aria-hidden="true" style="left:-140px;top:-80px;width:460px">
+  <img class="leafblur" src="/assets/img/leaf-blur-d.webp" alt="" aria-hidden="true" style="right:-160px;bottom:40px;width:440px;opacity:.7">
+  <img class="leafblur" src="/assets/img/leaf-blur-a.webp" alt="" aria-hidden="true" style="right:30%;top:-120px;width:300px;opacity:.6">
+  <span class="dew" style="width:22px;height:22px;left:8%;top:62%"></span>
+  <span class="petal" style="left:52%;top:18%"></span><span class="petal" style="right:8%;top:58%;width:16px;height:16px;animation-delay:-3s"></span><span class="petal" style="left:44%;bottom:22%;width:14px;height:14px;animation-delay:-6s"></span>
+  <span class="dew" style="width:14px;height:14px;left:44%;top:14%;animation-delay:-2s"></span>
+  <span class="dew" style="width:30px;height:30px;right:6%;top:18%;animation-delay:-4s"></span>
+  <span class="dew" style="width:12px;height:12px;right:12%;top:70%;animation-delay:-1s"></span>
+  <div class="wrap hero__grid">
+    <div class="hero__copy">
+      <p class="eyebrow">100% thảo mộc tự nhiên · Công thức phương Đông</p>
+      <p class="hero__script">Thương mình một chút mỗi ngày</p>
+      <h1>Chăm sóc từ bên trong, <em>bằng tinh túy thảo mộc phương Đông.</em></h1>
+      <p class="hero__lead">Một tách trà ấm năm phút mỗi ngày – để cơ thể được nghỉ ngơi, để lòng được nhẹ đi, và để bạn thương mình nhiều hơn một chút. {{ products|length }} công thức phối theo nguyên tắc Quân – Thần – Tá – Sứ của thảo mộc phương Đông, cho {{ products|length }} nỗi niềm rất đời thường.</p>
+      <div class="hero__price">
+        <span class="hero__pricelabel">Giá ưu đãi mỗi hộp<br>100% thảo mộc tự nhiên</span>
+        {{ price(site, True) }}
+      </div>
+      <div class="hero__promo"><span class="promo-tag">Mua 2 tặng 1</span> <span>Mua 2 hộp bất kỳ, tặng 1 hộp tự chọn – chỉ <b>{{ vnd(site.promo_unit) }}/hộp</b></span>
+        <span class="hero__cd">Đợt tuần này kết thúc sau <b class="cd cd--big" data-cd>…</b></span></div>
+      <div class="hero__cta">
+        <a class="btn btn--lg btn--buy btn--wiggle" href="#dat-hang" data-scroll-order>Đặt hàng · Mua 2 tặng 1</a>
+        <a class="btn btn--lg btn--ghost" href="#chon-tra">Tìm trà hợp với tôi</a>
+      </div>
+      <div class="hero__note"><span>100% thảo mộc tự nhiên</span><span>Không thêm đường</span><span>Không caffeine</span></div>
+    </div>
+    <div class="hero__art">
+      <img class="hero__img" src="/assets/img/hero-organic-800.webp" srcset="/assets/img/hero-organic-480.webp 480w, /assets/img/hero-organic-800.webp 800w, /assets/img/hero-organic-1200.webp 1200w, /assets/img/hero-organic.webp 1500w" sizes="(max-width: 900px) 92vw, 640px" alt="Bộ 6 hộp trà thảo mộc túi lọc QHUB HERBAL bên cành cà gai leo, xấu hổ, hoa cúc, gừng và lá ổi" width="1500" height="1289" fetchpriority="high">
+    </div>
+  </div>
+  <ul class="wrap trustbar" aria-label="Điểm nổi bật">
+    <li><i>{{ icons[0]|safe }}</i><div><b>ISO 22000:2018</b><span>Nhà máy đạt chứng nhận</span></div></li>
+    <li><i>{{ icons[1]|safe }}</i><div><b>{{ products|length }} sản phẩm tự công bố</b><span>Số hồ sơ in trên hộp</span></div></li>
+    <li><i>{{ icons[3]|safe }}</i><div><b>Ngọt dịu tự nhiên</b><span>Từ cỏ ngọt, táo đỏ, cam thảo</span></div></li>
+    <li><i>{{ leaf|safe }}</i><div><b>100% thảo mộc tự nhiên</b><span>Cây cỏ Việt, ghi rõ tỷ lệ</span></div></li>
+  </ul>
+</section>
+
+<section class="sec sec--dew" id="chon-tra" aria-labelledby="ct-title">
+  <img class="leafblur" src="/assets/img/herb-mimosa.webp" alt="" aria-hidden="true" style="right:-40px;top:30px;width:200px;opacity:.9" loading="lazy">
+  <img class="deco" src="/assets/img/deco-oi.svg" alt="" aria-hidden="true" style="left:-60px;top:120px;width:260px" loading="lazy">
+  <span class="dew" style="width:18px;height:18px;right:14%;top:60px"></span>
+  <div class="wrap">
+    <div class="sec__head center">
+      <p class="eyebrow">Chọn trà theo điều bạn đang gặp</p>
+      <span class="sec__script">Lắng nghe cơ thể một chút nhé</span>
+      <h2 id="ct-title">Cơ thể đang lên tiếng – bạn thấy mình trong <em>câu nào?</em></h2>
+      <p>Nóng trong nổi mụn, đêm khó ngủ, những ngày ấy mỏi mệt, bữa cơm no căng… Mỗi nỗi niềm đời thường ấy, QHUB đã chuẩn bị sẵn một công thức thảo mộc dịu nhẹ.</p>
+    </div>
+    <div class="pain">
+      {% for p in products %}
+      <a class="pain__item" href="/san-pham/{{ p.slug }}/" style="--c: {{ p.color }}; --t: {{ p.tint }}">
+        <span class="pain__top"></span>
+        <span class="pain__in">
+          <span class="pain__tags">{{ p.pain_tag }}</span>
+          <span class="pain__see">{{ p.pain_q }}</span>
+          <p class="pain__txt">{{ p.pain_txt }}</p>
+          <ul class="bens bens--sm">{% for b in p.benefits %}<li>{{ b }}</li>{% endfor %}</ul>
+          <span class="pain__p"><img src="/assets/img/products/thumb/{{ p.slug }}.webp" alt="" width="44" height="64" loading="lazy"><span>{{ p.name }}<small>{{ p['keys']|join(' · ') }}</small></span> <i aria-hidden="true">→</i></span>
+        </span>
+      </a>
+      {% endfor %}
+    </div>
+    <div class="cta-row"><a class="btn btn--lg btn--leaf" href="#dat-hang" data-scroll-order>Tôi muốn đặt trà ngay</a><a class="btn btn--lg btn--zalo" href="{{ site.zalo_url }}" target="_blank" rel="noopener">Tư vấn Hotline/Zalo {{ site.hotline }}</a></div>
+  </div>
+</section>
+
+<section class="sec sec--mint" id="san-pham" aria-labelledby="sp-title">
+  <img class="leafblur" src="/assets/img/leaf-blur-b.webp" alt="" aria-hidden="true" style="left:-180px;top:40px;width:460px;opacity:.6" loading="lazy">
+  <span class="dew" style="width:24px;height:24px;left:6%;bottom:12%"></span>
+  <div class="wrap">
+    <div class="sec__head center">
+      <p class="eyebrow">Bộ sưu tập {{ year }}</p>
+      <h2 id="sp-title">{{ products|length }} công thức – <em>{{ products|length }} lời chăm sóc</em></h2>
+      <p>Mỗi hộp ghi rõ thành phần và tỷ lệ, vì bạn xứng đáng được biết mình đang dùng gì.</p>
+    </div>
+    {% if cats|length > 1 %}
+    <div class="chips chips--center" role="tablist" aria-label="Lọc theo nhu cầu">
+      <button class="chip is-on" data-filter="all" role="tab" aria-selected="true">Tất cả</button>
+      {% for c in cats %}<button class="chip" data-filter="{{ c }}" role="tab" aria-selected="false">{{ c }}</button>{% endfor %}
+    </div>
+    {% endif %}
+    <div class="grid" id="pgrid">
+      {% for p in products %}{{ card(p, site) }}{% endfor %}
+    </div>
+  </div>
+</section>
+
+{{ promo_strip('Chọn 2 hộp hợp với bạn – QHUB tặng thêm 1 hộp') }}
+
+<section class="sec" aria-labelledby="why-title">
+  <img class="leafblur" src="/assets/img/herb-cagai.webp" alt="" aria-hidden="true" style="right:-60px;bottom:-30px;width:300px" loading="lazy">
+  <div class="wrap split">
+    <div class="split__img"><img src="{{ site.media }}/gallery/ca-gai-diep-ha-chau-thanh-phan.webp" alt="6 vị thảo mộc trong mỗi túi Trà Cà Gai – Diệp Hạ Châu" width="900" height="900" loading="lazy"></div>
+    <div>
+      <p class="eyebrow">Vì sao là QHUB HERBAL</p>
+      <h2 id="why-title">Mộc mạc như nồi nước lá của bà, tiện lợi như nhịp sống hôm nay.</h2>
+      <p>Chúng tôi lớn lên cùng cây cỏ quê nhà – ấm trà vối của mẹ, nồi lá xông của bà. QHUB tìm hiểu từng vị theo sách thảo mộc cổ, phối theo nguyên tắc Quân – Thần – Tá – Sứ, rồi gói gọn trong túi lọc 3 g để bạn chỉ cần năm phút.</p>
+      <ul>
+        <li>Thảo mộc Việt quen thuộc, mỗi công thức một nhu cầu rõ ràng</li>
+        <li>Vị chủ đạo in rõ phần trăm ngay trên hộp</li>
+        <li>Không thêm đường, không lá chè, không cà phê</li>
+        <li>Sản xuất tại nhà máy đạt chứng nhận ISO 22000:2018</li>
+      </ul>
+      <a class="btn btn--lg" href="#dat-hang" data-scroll-order>Đặt hàng · {{ vnd(site.price_sale) }}/hộp</a>
+    </div>
+  </div>
+</section>
+
+{% if video_id %}
+<section class="sec sec--mint vsec" aria-labelledby="video-title">
+  <img class="deco" src="/assets/img/deco-sen.svg" alt="" aria-hidden="true" style="right:-40px;bottom:-30px;width:280px" loading="lazy">
+  <div class="wrap">
+    <div class="sec__head center">
+      <p class="eyebrow">Về nơi cây cỏ lớn lên</p>
+      <h2 id="video-title">Vùng nguyên liệu của QHUB HERBAL</h2>
+      <p>Từ đồi cà gai leo, ruộng sen đến những luống lá ổi – xem hành trình của từng vị thảo mộc trước khi vào tách trà của bạn.</p>
+    </div>
+    <div class="vbox" data-yt="{{ video_id }}"><img src="https://i.ytimg.com/vi/{{ video_id }}/hqdefault.jpg" alt="Video vùng nguyên liệu QHUB HERBAL" loading="lazy" width="1280" height="720"><button type="button" class="vbox__play" aria-label="Phát video"></button></div>
+  </div>
+</section>
+{% endif %}
+
+<section class="sec sec--forest" aria-labelledby="day-title">
+  <img class="leafblur" src="/assets/img/leaf-blur-c.webp" alt="" aria-hidden="true" style="right:-120px;top:-40px;width:420px;opacity:.18" loading="lazy">
+  <div class="wrap">
+    <div class="sec__head sec__head--light center">
+      <p class="eyebrow eyebrow--light">Nhịp sống thảo mộc</p>
+      <h2 id="day-title">Một ngày dịu dàng cùng QHUB HERBAL</h2>
+      <p>Bạn không cần dùng tất cả. Chọn một đến hai công thức đúng điều mình cần, rồi để chúng đồng hành cùng bạn ở khung giờ phù hợp.</p>
+    </div>
+    <ol class="day">
+      {% for t, h, slug, d in day %}{% set p = bys[slug] %}
+      <li class="day__item">
+        <span class="day__t">{{ t }}</span>
+        <img src="/assets/img/products/thumb/{{ slug }}.webp" alt="" width="60" height="86" loading="lazy">
+        <div><b>{{ h }}</b><a href="/san-pham/{{ slug }}/">{{ p.name }}</a><span>{{ d }}</span></div>
+      </li>
+      {% endfor %}
+    </ol>
+    <div class="cta-row"><a class="btn btn--lg btn--buy" href="#dat-hang" data-scroll-order>Chọn trà cho ngày của bạn · Mua 2 tặng 1</a></div>
+  </div>
+</section>
+
+<section class="sec sec--dew" id="cam-ket" aria-labelledby="ck-title">
+  <img class="leafblur" src="/assets/img/herb-cuc.webp" alt="" aria-hidden="true" style="left:-50px;bottom:-30px;width:240px" loading="lazy">
+  <img class="deco" src="/assets/img/deco-cuc.svg" alt="" aria-hidden="true" style="right:-50px;top:40px;width:240px" loading="lazy">
+  <span class="dew" style="width:20px;height:20px;right:8%;top:90px"></span>
+  <div class="wrap">
+    <div class="sec__head center">
+      <p class="eyebrow">Lời hứa của QHUB</p>
+      <span class="sec__script">Thật lòng, như với người thân</span>
+      <h2 id="ck-title">Bán trà cho khách như <em>pha trà cho người nhà.</em></h2>
+      <p>QHUB không hứa những điều to tát. Chỉ là sáu điều nhỏ, chúng tôi giữ bằng cả uy tín của mình – và điều nào bạn cũng tự kiểm chứng được.</p>
+    </div>
+    <div class="promise">
+      {% for t, d in trust %}
+      <div class="promise__item"><div class="promise__ic">{{ icons[loop.index0]|safe }}</div><h3>{{ t }}</h3><p>{{ d }}</p></div>
+      {% endfor %}
+    </div>
+    <p class="promise__sign">“Lợi mình, lợi người, lợi chúng sinh – và bán hàng bằng sự chân thành.”<b>Đội ngũ QHUB HERBAL</b></p>
+    <div class="tablewrap">
+      <table class="ptable">
+        <caption>Hồ sơ {{ products|length }} sản phẩm · Số lô, NSX, HSD in phun ở đáy hộp · HSD 24 tháng kể từ ngày sản xuất</caption>
+        <thead><tr><th>Sản phẩm</th><th>Số tự công bố</th><th>Mã vạch (GTIN)</th><th>Quy cách</th></tr></thead>
+        <tbody>{% for p in products %}<tr><td><a href="/san-pham/{{ p.slug }}/">{{ p.name }}</a></td><td>{{ p.tcb }}</td><td>{{ p.gtin }}</td><td>30 gói × 3 g · 90 g</td></tr>{% endfor %}</tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<section class="sec sec--mint" aria-labelledby="gift-title">
+  <img class="leafblur" src="/assets/img/herb-oi.webp" alt="" aria-hidden="true" style="right:-50px;top:20px;width:230px" loading="lazy">
+  <div class="wrap">
+    <div class="sec__head center">
+      <p class="eyebrow">Gợi ý quà tặng</p>
+      <h2 id="gift-title">Mua 2 hộp tặng người thương – nhận thêm 1 hộp cho mình</h2>
+      <p>Gợi ý phối hai hộp theo người nhận. Đặt cặp nào cũng được tặng thêm 1 hộp bạn tự chọn.</p>
+    </div>
+    <div class="gifts">
+      {% for name, d, slugs in gifts %}
+      <div class="gift">
+        <div class="gift__boxes">{% for s in slugs %}<img src="/assets/img/products/thumb/{{ s }}.webp" alt="{{ bys[s].name }}" width="90" height="130" loading="lazy">{% endfor %}</div>
+        <h3>Cặp đôi “{{ name }}”</h3>
+        <p>{{ d }}</p>
+        <p class="gift__names">{% for s in slugs %}<a href="/san-pham/{{ s }}/">{{ bys[s].short }}</a>{% if not loop.last %} + {% endif %}{% endfor %}</p>
+        <a class="btn btn--sm" href="#dat-hang" data-order="{{ slugs|join(',') }}">Đặt cặp quà · {{ vnd(site.price_sale*2) }} <small>+ tặng 1 hộp</small></a>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+{{ promo_strip('Tặng người thương 2 hộp – nhận thêm 1 hộp cho mình') }}
+
+<section class="sec story" aria-labelledby="story-title">
+  <img class="leafblur" src="/assets/img/leaf-blur-d.webp" alt="" aria-hidden="true" style="left:-160px;top:20%;width:400px;opacity:.6" loading="lazy">
+  <div class="wrap">
+    <div class="story__art"><img src="/assets/img/lineup.webp" alt="6 hộp trà QHUB HERBAL xếp thành hàng" width="1800" height="475" loading="lazy"></div>
+    <div class="wrap--narrow" style="margin-inline:auto">
+      <p class="eyebrow">Lời ngỏ</p>
+      <span class="sec__script">Thư nhỏ gửi bạn</span>
+      <h2 id="story-title">Gửi bạn – người đang <em>chăm sóc chính mình.</em></h2>
+      <p>Có thể bạn đang tìm một tách trà cho giấc ngủ êm hơn, cho những ngày bận rộn nhẹ nhõm hơn, hay một món quà nói thay lời quan tâm tới người mình thương. QHUB HERBAL làm ra những túi trà này cho chính những khoảnh khắc ấy.</p>
+      <p>Mỗi hộp trà ghi rõ thành phần và tỷ lệ, vì bạn xứng đáng được biết mình đang dùng gì.</p>
+      <blockquote>“Lợi mình, lợi người, lợi chúng sinh.”</blockquote>
+      <div class="values values--4">
+        <div><b>Lợi mình</b><span>Mỗi công thức đáp ứng một nhu cầu thật, dùng mỗi ngày như một thói quen nhẹ nhàng cho chính bạn.</span></div>
+        <div><b>Lợi người</b><span>Minh bạch thành phần, tỷ lệ, nơi sản xuất; giá phải chăng để ai cũng có thể chăm sóc người mình thương.</span></div>
+        <div><b>Lợi chúng sinh</b><span>Trân trọng cây cỏ, dùng thiên nhiên có chừng mực, biết ơn những gì đất trời trao cho ta.</span></div>
+        <div><b>Bán hàng bằng sự chân thành</b><span>Nói đúng về sản phẩm, không thổi phồng. Trà nào không hợp với bạn, QHUB nói thật – kể cả khi bạn không mua.</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% if latest %}
+<section class="sec sec--dew" aria-labelledby="kt-title">
+  <div class="wrap">
+    <div class="sec__head center">
+      <p class="eyebrow">Góc kiến thức thảo mộc</p>
+      <h2 id="kt-title">Hiểu cây cỏ, <em>thương cơ thể</em></h2>
+      <p>{{ posts_total }} bài viết về từng vị thảo mộc, những nỗi lo đời thường và cách dùng trà sao cho hợp với nhịp sống của bạn – tự động làm mới mỗi 5 giây.</p>
+    </div>
+    <div class="ks" data-auto="5000">
+      <button type="button" class="ks__nav ks__prev" aria-label="Bài trước">‹</button>
+      <div class="ks__track" tabindex="0">{% for a in slider %}{{ post_card(a, site) }}{% endfor %}</div>
+      <button type="button" class="ks__nav ks__next" aria-label="Bài sau">›</button>
+    </div>
+    <div class="cta-row"><a class="btn btn--lg btn--ghost" href="/kien-thuc/">Xem tất cả bài viết</a></div>
+  </div>
+</section>
+{% endif %}
+
+<section class="sec sec--mint" id="hoi-dap" aria-labelledby="faq-title">
+  <div class="wrap">
+    <div class="sec__head center">
+      <p class="eyebrow">Bạn hỏi, QHUB trả lời</p>
+      <span class="sec__script">Hỏi gì cũng được nha</span>
+      <h2 id="faq-title">Những điều bạn có thể <em>đang băn khoăn</em></h2>
+    </div>
+    <div class="faq2">
+      <aside class="faq2__aside">
+        <img src="/assets/img/products/la-oi-mix-la-sen-3d.webp" alt="" width="300" height="420" loading="lazy">
+        <h3>Chưa thấy câu hỏi của bạn?</h3>
+        <p>Gọi hoặc nhắn QHUB – hỏi kỹ rồi hãy mua, không sao cả.</p>
+        <a class="btn" href="tel:{{ site.hotline_raw }}">Gọi Hotline {{ site.hotline }}</a>
+        <a class="btn btn--zalo" href="{{ site.zalo_url }}" target="_blank" rel="noopener">Nhắn Zalo {{ site.hotline }}</a>
+      </aside>
+      <div class="faq">
+        {% for q, a in faq %}
+        <details{% if loop.first %} open{% endif %}><summary>{{ q }}</summary><p>{{ a }}</p></details>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+
+{{ order_section(site, products) }}
+{% endblock %}

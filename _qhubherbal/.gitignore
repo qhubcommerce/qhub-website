@@ -1,0 +1,6 @@
+dist/
+ktsite1/
+ktsite2/
+imgsite/
+__pycache__/
+*.zip

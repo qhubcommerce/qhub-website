@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="720" viewBox="0 0 720 720" fill="none" stroke="#8fb043" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" opacity=".22">
+<g transform="translate(70 90) rotate(-28)">
+<path d="M0 0C40-46 120-60 190-40C150 6 70 34 0 0Z"/><path d="M0 0C64-14 128-28 190-40"/>
+<path d="M40-8 58-34M80-16 104-44M120-24 142-46M160-32 172-44"/><path d="M40-8 58 10M80-16 98 14M120-24 136 6"/>
+</g>
+<g transform="translate(470 120) rotate(32)">
+<path d="M0 0C30-60 110-90 200-74C170-12 80 26 0 0Z"/><path d="M0 0C70-22 140-48 200-74"/>
+<path d="M46-14 60-50M92-30 116-66M140-46 160-72M46-14 70 12M92-30 116 0M140-46 160-22"/>
+<path d="M-30 30C-10 10 0 4 0 0"/>
+</g>
+<g transform="translate(250 420) rotate(-62)">
+<path d="M0 0C34-40 96-52 150-36C120 4 58 26 0 0Z"/><path d="M0 0C50-12 100-24 150-36"/>
+<path d="M36-8 50-30M72-16 90-38M108-26 122-40M36-8 52 10M72-16 88 8M108-26 122-6"/>
+</g>
+<g transform="translate(560 520) rotate(150)">
+<path d="M0 0C36-50 110-70 180-54C148-6 72 24 0 0Z"/><path d="M0 0C60-16 120-34 180-54"/>
+<path d="M44-12 60-42M88-24 108-54M132-38 150-58M44-12 64 12M88-24 108 2M132-38 150-16"/>
+</g>
+<g transform="translate(60 610) rotate(-10)">
+<path d="M0 0C20-24 56-30 88-20C70 4 34 14 0 0Z"/><path d="M0 0C30-6 60-12 88-20"/>
+</g>
+<circle cx="380" cy="260" r="3"/><circle cx="660" cy="330" r="2.4"/><circle cx="160" cy="300" r="2"/>
+</svg>

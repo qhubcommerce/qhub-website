@@ -1,0 +1,132 @@
+{% macro vnd(n) %}{{ "{:,.0f}".format(n).replace(",", ".") }}đ{% endmacro %}
+
+{% macro price(site, big=False) %}
+<div class="price{% if big %} price--big{% endif %}">
+  <span class="price__sale">{{ vnd(site.price_sale) }}</span>
+  <s class="price__list" aria-label="Giá niêm yết">{{ vnd(site.price_list) }}</s>
+  <span class="price__off">-{{ ((1 - site.price_sale / site.price_list) * 100)|round|int }}%</span>
+</div>
+{% endmacro %}
+
+{% macro order_section(site, products, preselect=None) %}
+<section class="order" id="dat-hang" aria-labelledby="order-title">
+  <img class="leafblur" src="/assets/img/leaf-blur-a.webp" alt="" aria-hidden="true" style="left:-120px;bottom:-80px;width:440px;opacity:.25" loading="lazy">
+  <img class="leafblur" src="/assets/img/leaf-blur-b.webp" alt="" aria-hidden="true" style="right:-140px;top:-60px;width:480px;opacity:.18" loading="lazy">
+  <div class="wrap order__grid">
+    <div class="order__intro">
+      <p class="eyebrow eyebrow--light">Đặt hàng nhanh</p>
+      <h2 id="order-title">Chọn một hộp trà, gửi một lời thương.</h2>
+      <p>Bạn chỉ cần để lại 4 thông tin nhỏ. QHUB HERBAL sẽ gọi lại xác nhận đơn, hướng dẫn cách dùng phù hợp và giao hàng miễn phí toàn quốc trước khi gửi trà đến tận tay bạn.</p>
+      <div class="cdbox"><span class="promo-tag">Mua 2 tặng 1</span><span>Đợt tuần này kết thúc sau</span><b class="cd cd--big" data-cd>…</b></div>
+      <ul class="order__perks">
+        <li><b>Mua 2 hộp bất kỳ, tặng 1 hộp tự chọn</b> – cộng dồn: mua 4 tặng 2, mua 6 tặng 3…</li>
+        <li>Giá ưu đãi <b>{{ vnd(site.price_sale) }}</b>/hộp <s>{{ vnd(site.price_list) }}</s></li>
+        <li>100% thảo mộc tự nhiên · không thêm đường · không caffeine</li>
+        <li>Tư vấn chọn trà, chọn quà qua Hotline/Zalo {{ site.hotline }}</li>
+      </ul>
+      <div class="order__zalo">
+        <img src="/assets/img/zalo-qr.png" alt="Mã QR Zalo QHUB HERBAL" width="116" height="116" loading="lazy">
+        <div>
+          <p>Muốn hỏi trước khi mua?<br><b>Gọi hoặc nhắn Hotline/Zalo</b></p>
+          <a class="btn btn--zalo btn--sm" href="{{ site.zalo_url }}" target="_blank" rel="noopener" data-track="click_zalo">Hotline/Zalo {{ site.hotline }}</a>
+        </div>
+      </div>
+    </div>
+
+    <form class="oform" id="oform" novalidate>
+      <fieldset class="oform__products">
+        <legend>1. Chọn sản phẩm <span>(bấm để chọn, có thể chọn nhiều)</span></legend>
+        <div class="pick">
+          {% for p in products %}
+          <label class="pick__item" style="--c: {{ p.color }}">
+            <input type="checkbox" name="sp" value="{{ p.name }}" data-slug="{{ p.slug }}" {% if preselect == p.slug %}checked{% endif %}>
+            <img src="/assets/img/products/thumb/{{ p.slug }}.webp" alt="" width="44" height="64" loading="lazy">
+            <span class="pick__name">{{ p.short }}</span>
+            <span class="qty" aria-label="Số lượng">
+              <button type="button" class="qty__b" data-d="-1" aria-label="Giảm">−</button>
+              <input type="number" class="qty__n" value="1" min="1" max="99" inputmode="numeric" aria-label="Số hộp {{ p.short }}">
+              <button type="button" class="qty__b" data-d="1" aria-label="Tăng">+</button>
+            </span>
+          </label>
+          {% endfor %}
+        </div>
+        <p class="oform__err" data-err="sp" hidden>Bạn chọn ít nhất 1 sản phẩm nhé.</p>
+        <p class="oform__hint" id="ohint">Mẹo: chọn đủ 2 hộp để được tặng thêm 1 hộp bạn thích.</p>
+      </fieldset>
+
+      <fieldset class="ogift" id="ogift" hidden>
+        <legend class="ogift__h">🎁 Quà tặng: <span id="ogiftn">1</span> hộp miễn phí</legend>
+        <p class="ogift__p">Mua 2 tặng 1 – bạn chọn loại trà muốn được tặng nhé.</p>
+        <div class="ogift__list" id="ogiftl"></div>
+        <template id="ogiftt"><select aria-label="Chọn hộp quà tặng">{% for p in products %}<option value="{{ p.name }}">{{ p.short }}</option>{% endfor %}</select></template>
+      </fieldset>
+
+      <fieldset class="oform__info">
+        <legend>2. Thông tin nhận hàng</legend>
+        <label class="field"><span>Họ và tên</span>
+          <input name="ten" autocomplete="name" required maxlength="80" placeholder="Nguyễn Văn A"></label>
+        <p class="oform__err" data-err="ten" hidden>Vui lòng nhập họ tên.</p>
+        <label class="field"><span>Số điện thoại</span>
+          <input name="sdt" type="tel" inputmode="tel" autocomplete="tel" required maxlength="15" placeholder="09xx xxx xxx"></label>
+        <p class="oform__err" data-err="sdt" hidden>Số điện thoại chưa đúng (10 số, bắt đầu bằng 0).</p>
+        <label class="field"><span>Địa chỉ nhận hàng</span>
+          <textarea name="diachi" autocomplete="street-address" required rows="2" maxlength="300" placeholder="Số nhà, đường, xã/phường, tỉnh/thành"></textarea></label>
+        <p class="oform__err" data-err="diachi" hidden>Vui lòng nhập địa chỉ nhận hàng.</p>
+        <label class="hp" aria-hidden="true">Website <input name="website" tabindex="-1" autocomplete="off"></label>
+      </fieldset>
+
+      <div class="oform__sum" aria-live="polite">
+        <span>Tạm tính</span>
+        <b id="osum">0đ</b>
+        <small id="ocount">Chưa chọn sản phẩm</small>
+      </div>
+      <label class="oform__agree"><input type="checkbox" name="dongy" value="1"> <span>Tôi đồng ý để QHUB HERBAL xử lý họ tên, số điện thoại, địa chỉ của tôi nhằm xác nhận và giao đơn hàng theo <a href="/chinh-sach-bao-mat/" target="_blank">Chính sách bảo mật</a> và <a href="/dieu-khoan/" target="_blank">Điều khoản mua hàng</a>.</span></label>
+      <p class="oform__err" data-err="dongy" hidden>Vui lòng đánh dấu đồng ý để gửi đơn.</p>
+      <button class="btn btn--block btn--lg" type="submit" id="osubmit">Gửi đơn đặt hàng</button>
+      <p class="oform__note">Thanh toán khi nhận hàng (COD) · Miễn phí giao hàng toàn quốc · QHUB HERBAL sẽ gọi xác nhận đơn trước khi giao.</p>
+      <p class="oform__fail" id="ofail" hidden>Chưa gửi được đơn do lỗi kết nối. Bạn vui lòng thử lại, hoặc gọi/nhắn Zalo <a href="{{ site.zalo_url }}" target="_blank" rel="noopener">{{ site.hotline }}</a> để QHUB nhận đơn ngay.</p>
+    </form>
+  </div>
+</section>
+{% endmacro %}
+
+{% macro card(p, site) %}
+<article class="card" style="--c: {{ p.color }}; --t: {{ p.tint }}" data-cat="{{ p.cat }}">
+  <a class="card__img card__img--scene" href="/san-pham/{{ p.slug }}/" aria-label="{{ p.name }}">
+    <span class="card__cat">{{ p.cat }}</span>
+    <span class="card__ribbon promo-tag">Mua 2 tặng 1</span>
+    <img src="/assets/img/products/{{ p.slug }}-scene.webp" alt="Hộp {{ p.name }} cùng các vị thảo mộc: {{ p.ingredients_text }}" width="900" height="900" loading="lazy">
+  </a>
+  <div class="card__body">
+    <h3 class="card__name"><a href="/san-pham/{{ p.slug }}/">{{ p.name }}</a></h3>
+    <p class="card__tag">{{ p.tagline }}</p>
+    <ul class="bens bens--sm">{% for b in p.benefits %}<li>{{ b }}</li>{% endfor %}</ul>
+    <p class="card__need">Dành cho bạn khi: {{ p.when_see|lower }}</p>
+    {{ price(site) }}
+    <div class="card__act">
+      <a class="btn btn--sm btn--buy" href="#dat-hang" data-order="{{ p.slug }}" data-qty="2">Mua 2 tặng 1</a>
+      <a class="btn btn--sm btn--ghost" href="/san-pham/{{ p.slug }}/">Xem chi tiết</a>
+    </div>
+  </div>
+</article>
+{% endmacro %}
+
+{% macro post_card(a, site) %}
+<a class="post" href="/kien-thuc/{{ a.slug }}/" data-cat="{{ a.cat_slug }}">
+  <span class="post__img"><img src="{{ a.cover_url }}" alt="{{ a.title }}" width="800" height="500" loading="lazy"></span>
+  <span class="post__body">
+    <span class="post__cat">{{ a.cat }}</span>
+    <span class="post__title">{{ a.title }}</span>
+    <span class="post__desc">{{ a.desc }}</span>
+    <span class="post__meta">{{ a.date_vn }} · {{ a.minutes }} phút đọc</span>
+  </span>
+</a>
+{% endmacro %}
+
+{% macro promo_strip(msg) %}
+<div class="pstrip"><div class="wrap pstrip__in">
+  <span class="pstrip__gift" aria-hidden="true">🎁</span>
+  <div class="pstrip__t"><b>{{ msg }}</b><span>Đợt Mua 2 tặng 1 tuần này kết thúc sau <b class="cd" data-cd>…</b></span></div>
+  <a class="btn btn--buy btn--wiggle" href="#dat-hang" data-scroll-order>Đặt hàng ngay</a>
+</div></div>
+{% endmacro %}

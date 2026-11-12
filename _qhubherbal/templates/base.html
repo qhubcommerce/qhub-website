@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ title }}</title>
+<meta name="description" content="{{ description }}">
+<link rel="canonical" href="{{ site.domain }}{{ path }}">
+<meta name="theme-color" content="#b6d268">
+<meta property="og:type" content="{{ og_type|default('website') }}">
+<meta property="og:site_name" content="QHUB HERBAL">
+<meta property="og:locale" content="vi_VN">
+<meta property="og:title" content="{{ title }}">
+<meta property="og:description" content="{{ description }}">
+<meta property="og:url" content="{{ site.domain }}{{ path }}">
+<meta property="og:image" content="{{ og_image|default(site.domain ~ '/assets/img/og.jpg') }}">
+<meta name="twitter:card" content="summary_large_image">
+{% if noindex %}<meta name="robots" content="noindex">{% else %}<meta name="robots" content="index,follow,max-image-preview:large">{% endif %}
+<link rel="icon" href="/favicon.ico" sizes="48x48">
+<link rel="icon" type="image/png" sizes="192x192" href="/icon-192.png">
+<link rel="icon" type="image/png" sizes="48x48" href="/favicon-48.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="preconnect" href="{{ site.media }}" crossorigin>
+<link rel="preconnect" href="{{ site.media_img }}">
+{% if path == '/' %}<link rel="preload" as="image" href="/assets/img/hero-organic-800.webp" imagesrcset="/assets/img/hero-organic-480.webp 480w, /assets/img/hero-organic-800.webp 800w, /assets/img/hero-organic-1200.webp 1200w, /assets/img/hero-organic.webp 1500w" imagesizes="(max-width: 900px) 92vw, 640px" fetchpriority="high">{% endif %}
+<link rel="preload" href="/assets/fonts/be-vietnam-pro-vietnamese-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/be-vietnam-pro-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/noto-serif-latin-600-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/site.css?v={{ version }}">
+{% block head %}{% endblock %}
+<script type="application/ld+json">{{ org_ld|safe }}</script>
+{% if path == '/' %}<script type="application/ld+json">{{ site_ld|safe }}</script>{% endif %}
+</head>
+<body class="{{ body_class|default('') }}">
+<a class="skip" href="#main">Bỏ qua điều hướng</a>
+<a class="promo-bar" href="#dat-hang" data-scroll-order><b>🎁 MUA 2 TẶNG 1</b><span class="promo-bar__d"> · Mua 2 hộp bất kỳ, tặng 1 hộp tự chọn</span> · Đợt tuần này kết thúc sau <span class="cd" data-cd>…</span></a>
+<header class="hdr" id="top">
+  <div class="wrap hdr__in">
+    <a class="hdr__logo" href="/" aria-label="QHUB HERBAL – Trang chủ">
+      <img src="/assets/img/symbol-forest.png" alt="" width="42" height="42">
+      <span class="hdr__name">QHUB HERBAL</span>
+    </a>
+    <nav class="nav" id="nav" aria-label="Điều hướng chính">
+      <a href="/san-pham/"{% if section == 'sp' %} aria-current="page"{% endif %}>Sản phẩm</a>
+      <a href="/#chon-tra">Chọn trà</a>
+      <a href="/kien-thuc/"{% if section == 'kt' %} aria-current="page"{% endif %}>Kiến thức</a>
+      <a href="/#cam-ket">Cam kết</a>
+      <a href="/#hoi-dap">Hỏi đáp</a>
+      <a href="{{ site.zalo_url }}" target="_blank" rel="noopener" class="nav__zalo"><small>Hotline/Zalo</small>{{ site.hotline }}</a>
+    </nav>
+    <a class="btn btn--sm hdr__cta" href="#dat-hang" data-scroll-order>Đặt hàng</a>
+    <button class="hdr__burger" aria-label="Mở menu" aria-expanded="false" aria-controls="nav"><span></span><span></span></button>
+  </div>
+</header>
+
+<main id="main">
+{% block main %}{% endblock %}
+</main>
+
+<footer class="ftr">
+  <img class="leafblur" src="/assets/img/leaf-blur-c.webp" alt="" aria-hidden="true" style="right:-120px;top:-60px;width:420px;opacity:.12" loading="lazy">
+  <div class="wrap ftr__grid">
+    <div class="ftr__brand">
+      <img src="/assets/img/logo-white.png" alt="QHUB HERBAL" width="150" height="150" loading="lazy">
+      <p>Tinh hoa trà thảo mộc phương Đông, 100% thiên nhiên. Mỗi công thức, một lời chăm sóc từ bên trong – cho chính mình và cho những người mình thương.</p>
+      {% set so = site.social or {} %}{% if so.youtube or so.facebook or so.tiktok %}<p class="ftr__social">
+        {% if so.youtube %}<a href="{{ so.youtube }}" target="_blank" rel="noopener me" aria-label="Kênh YouTube QHUB HERBAL"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M23 7.2a3 3 0 0 0-2.1-2.1C19 4.6 12 4.6 12 4.6s-7 0-8.9.5A3 3 0 0 0 1 7.2 31 31 0 0 0 .5 12 31 31 0 0 0 1 16.8a3 3 0 0 0 2.1 2.1c1.9.5 8.9.5 8.9.5s7 0 8.9-.5a3 3 0 0 0 2.1-2.1 31 31 0 0 0 .5-4.8 31 31 0 0 0-.5-4.8ZM9.7 15.1V8.9l5.8 3.1-5.8 3.1Z"/></svg>YouTube</a>{% endif %}
+        {% if so.facebook %}<a href="{{ so.facebook }}" target="_blank" rel="noopener me" aria-label="Fanpage QHUB HERBAL"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M13.5 22v-8h2.7l.4-3.2h-3.1V8.8c0-.9.3-1.5 1.6-1.5h1.7V4.4a22 22 0 0 0-2.5-.1c-2.5 0-4.1 1.5-4.1 4.2v2.3H7.4V14h2.8v8h3.3Z"/></svg>Facebook</a>{% endif %}
+        {% if so.tiktok %}<a href="{{ so.tiktok }}" target="_blank" rel="noopener me" aria-label="TikTok QHUB HERBAL"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M16.6 5.8A4.3 4.3 0 0 1 15.5 3h-3.2v12.4a2.6 2.6 0 1 1-1.8-2.5V9.7a5.8 5.8 0 1 0 5 5.7V9.1a7.4 7.4 0 0 0 4.3 1.4V7.3a4.3 4.3 0 0 1-3.2-1.5Z"/></svg>TikTok</a>{% endif %}
+      </p>{% endif %}
+    </div>
+    <div>
+      <h3>Sản phẩm</h3>
+      <ul>{% for p in products %}<li><a href="/san-pham/{{ p.slug }}/">{{ p.name }}</a></li>{% endfor %}</ul>
+    </div>
+    <div>
+      <h3>Kiến thức</h3>
+      <ul>
+        <li><a href="/kien-thuc/">Tất cả bài viết</a></li>
+        <li><a href="/kien-thuc/chu-de/thao-moc/">Từ điển thảo mộc</a></li>
+        <li><a href="/kien-thuc/chu-de/san-pham/">Hiểu về từng loại trà</a></li>
+        <li><a href="/kien-thuc/chu-de/cam-nang/">Cẩm nang sống khỏe</a></li>
+        <li><a href="/kien-thuc/chu-de/top/">Top trà thảo mộc</a></li>
+        <li><a href="/gioi-thieu/">Về QHUB HERBAL</a></li>
+        <li><a href="/chinh-sach-van-chuyen/">Vận chuyển miễn phí</a></li>
+        <li><a href="/chinh-sach-doi-tra/">Đổi trả {{ site.return_days }} ngày</a></li>
+        <li><a href="/chinh-sach-thanh-toan/">Thanh toán khi nhận hàng</a></li>
+        <li><a href="/giai-quyet-khieu-nai/">Giải quyết khiếu nại</a></li>
+        <li><a href="/dieu-khoan/">Điều khoản mua hàng</a></li>
+        <li><a href="/chinh-sach-bao-mat/">Chính sách bảo mật</a></li>
+      </ul>
+    </div>
+    <div>
+      <h3>Liên hệ đặt hàng</h3>
+      <ul>
+        <li><a href="tel:{{ site.hotline_raw }}">Hotline: <b>{{ site.hotline }}</b></a></li>
+        <li><a href="{{ site.zalo_url }}" target="_blank" rel="noopener">Hotline/Zalo: {{ site.hotline }}</a></li>
+        <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+        <li>{{ site.address }}</li>
+      </ul>
+    </div>
+    <div class="ftr__qr">
+      <img src="/assets/img/zalo-qr.png" alt="Mã QR Zalo QHUB HERBAL" width="132" height="132" loading="lazy">
+      <span>Quét Zalo QHUB HERBAL<br>Tư vấn chọn trà, chọn quà</span>
+    </div>
+  </div>
+  <div class="wrap ftr__legal">
+    <p><b>QHUB HERBAL</b> – tinh hoa trà thảo mộc phương Đông, 100% thiên nhiên. Thương hiệu của <b>{{ site.company }}</b> – đơn vị sở hữu website, phân phối và chăm sóc khách hàng. Mã số doanh nghiệp/MST: {{ site.mst }}{% if site.dkdn_date and site.dkdn_place %} do {{ site.dkdn_place }} cấp lần đầu ngày {{ site.dkdn_date }}{% endif %}. Trụ sở: {{ site.address }}.{% if site.legal_rep %} Người đại diện theo pháp luật: {{ site.legal_rep }} – {{ site.legal_rep_title }}.{% endif %} Điện thoại: {{ site.hotline }} · Email: {{ site.email }}.</p>
+    <p>Sản xuất: {{ site.manufacturer }}, {{ site.manufacturer_addr }} – {{ site.iso }}.</p>
+    <p><b>{{ site.disclaimer }}</b> Thông tin về thảo mộc phương Đông trên website mang tính giới thiệu, tham khảo. Đọc kỹ hướng dẫn sử dụng và lưu ý trên bao bì trước khi dùng.</p>
+    <p>© {{ year }} {{ site.company }} · <a href="/chinh-sach-van-chuyen/">Vận chuyển</a> · <a href="/chinh-sach-doi-tra/">Đổi trả</a> · <a href="/chinh-sach-thanh-toan/">Thanh toán</a> · <a href="/giai-quyet-khieu-nai/">Khiếu nại</a> · <a href="/dieu-khoan/">Điều khoản</a> · <a href="/chinh-sach-bao-mat/">Bảo mật</a></p>
+  </div>
+</footer>
+
+<div class="fab" aria-label="Liên hệ nhanh">
+  <a class="fab__btn fab__order" href="#dat-hang" data-scroll-order aria-label="Đặt hàng">ĐẶT<br>HÀNG</a>
+  <a class="fab__btn fab__zalo" href="{{ site.zalo_url }}" target="_blank" rel="noopener" aria-label="Nhắn Zalo QHUB HERBAL">
+    <svg viewBox="0 0 48 48" width="30" height="30" aria-hidden="true"><path fill="#fff" d="M24 6C13 6 4 13.6 4 23c0 5.3 2.9 10 7.4 13.1-.3 2.2-1.4 4.6-3.4 6.4 3.4.2 6.9-.9 9.4-2.7 2.1.6 4.3.9 6.6.9 11 0 20-7.6 20-17S35 6 24 6z"/><text x="24" y="28.5" text-anchor="middle" font-family="Arial,sans-serif" font-weight="700" font-size="11" fill="#0068ff">Zalo</text></svg>
+  </a>
+  <a class="fab__btn fab__call" href="tel:{{ site.hotline_raw }}" aria-label="Gọi {{ site.hotline }}">
+    <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><path fill="#fff" d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1A17 17 0 0 1 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1l-2.3 2.2z"/></svg>
+  </a>
+</div>
+<a class="fpromo is-hide" href="#dat-hang" data-scroll-order aria-label="Mua 2 tặng 1 – đặt hàng ngay">
+  <span class="fpromo__gift" aria-hidden="true">🎁</span>
+  <span class="fpromo__t"><b>MUA 2 TẶNG 1</b><small>Kết thúc sau <span class="cd" data-cd>…</span></small></span>
+  <span class="fpromo__go">Đặt ngay</span>
+</a>
+<div class="mbar">
+  <a href="tel:{{ site.hotline_raw }}" class="mbar__call">Gọi Hotline<small style="font-size:10.5px;font-weight:500">{{ site.hotline }}</small></a>
+  <a href="{{ site.zalo_url }}" target="_blank" rel="noopener" class="mbar__zalo">Zalo<small>{{ site.hotline }}</small></a>
+  <a href="#dat-hang" class="mbar__order" data-scroll-order>Đặt hàng<small style="font-size:10.5px;font-weight:600">Mua 2 tặng 1</small></a>
+</div>
+<div class="lb" id="lb" role="dialog" aria-modal="true" aria-label="Xem ảnh"><button type="button" aria-label="Đóng">×</button><img alt=""></div>
+
+<script>window.QH={promo:1,formAction:"{{ form.action }}",fields:{{ form.fields_json|safe }},price:{{ site.price_sale }},list:{{ site.price_list }},v:"{{ version }}"};</script>
+<script src="/assets/js/site.js?v={{ version }}" defer></script>
+</body>
+</html>

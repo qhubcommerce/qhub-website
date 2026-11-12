@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% from "_order.html" import order_section, card %}
+{% block main %}
+<nav class="wrap crumbs" aria-label="Breadcrumb"><a href="/">Trang chủ</a> <span>/</span> <span aria-current="page">Sản phẩm</span></nav>
+<section class="sec sec--top">
+  <div class="wrap">
+    <div class="sec__head">
+      <p class="eyebrow">Trà thảo mộc túi lọc QHUB HERBAL</p>
+      <h1>Tất cả sản phẩm</h1>
+      <p>{{ products|length }} công thức thảo mộc theo quan niệm phương Đông. 100% thảo mộc tự nhiên, không thêm đường, không caffeine.</p>
+    </div>
+    {% if cats|length > 1 %}
+    <div class="chips" role="tablist" aria-label="Lọc theo nhu cầu">
+      <button class="chip is-on" data-filter="all" role="tab" aria-selected="true">Tất cả ({{ products|length }})</button>
+      {% for c in cats %}<button class="chip" data-filter="{{ c }}" role="tab" aria-selected="false">{{ c }}</button>{% endfor %}
+    </div>
+    {% endif %}
+    <div class="grid" id="pgrid">{% for p in products %}{{ card(p, site) }}{% endfor %}</div>
+  </div>
+</section>
+{{ order_section(site, products) }}
+{% endblock %}

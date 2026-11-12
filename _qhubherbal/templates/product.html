@@ -3,8 +3,8 @@
 {% block head %}<script type="application/ld+json">{{ product_ld|safe }}</script><script type="application/ld+json">{{ bc_ld|safe }}</script>{% endblock %}
 {% block main %}
 <section class="pd" style="--c: {{ p.color }}; --t: {{ p.tint }}">
-  <img class="leafblur" src="/assets/img/leaf-fresh-2.webp" alt="" aria-hidden="true" style="left:-160px;top:-40px;width:420px">
-  <img class="leafblur" src="/assets/img/leaf-fresh-1.webp" alt="" aria-hidden="true" style="right:-140px;top:30%;width:360px;opacity:.6">
+  <img class="leafblur" src="/assets/img/leaf-p-{{ p.slug }}-1.webp" alt="" aria-hidden="true" style="left:-255px;top:-170px;width:360px">
+  <img class="leafblur" src="/assets/img/leaf-p-{{ p.slug }}-2.webp" alt="" aria-hidden="true" style="right:-140px;top:30%;width:340px">
   <span class="dew" style="width:20px;height:20px;right:6%;top:120px"></span>
   <nav class="wrap crumbs" aria-label="Breadcrumb"><a href="/">Trang chủ</a> <span>/</span> <a href="/san-pham/">Sản phẩm</a> <span>/</span> <span aria-current="page">{{ p.name }}</span></nav>
   <div class="wrap pd__grid" style="margin-top:18px">
@@ -81,7 +81,7 @@
 {% endif %}
 
 <section class="sec sec--dew">
-  <img class="leafblur" src="/assets/img/leaf-fresh-3.webp" alt="" aria-hidden="true" style="left:-180px;top:10%;width:420px;opacity:.5" loading="lazy">
+  <img class="leafblur" src="/assets/img/leaf-p-{{ p.slug }}-3.webp" alt="" aria-hidden="true" style="left:-170px;top:10%;width:360px" loading="lazy">
   <div class="wrap">
     <div class="sec__head center">
       <p class="eyebrow">Bên trong một túi trà</p>

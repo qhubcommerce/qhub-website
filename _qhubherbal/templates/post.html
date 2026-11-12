@@ -3,6 +3,7 @@
 {% block head %}<script type="application/ld+json">{{ post_ld|safe }}</script>{% endblock %}
 {% block main %}
 <article class="art">
+  {% if a.products %}<img class="leafblur" src="/assets/img/leaf-p-{{ a.products[0].slug }}-1.webp" alt="" aria-hidden="true" style="right:-140px;top:-30px;width:340px"><img class="leafblur" src="/assets/img/leaf-p-{{ a.products[0].slug }}-2.webp" alt="" aria-hidden="true" style="left:-215px;top:980px;width:300px;opacity:.55!important" loading="lazy">{% endif %}
   <div class="wrap">
     <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Trang chủ</a> <span>/</span> <a href="/kien-thuc/">Kiến thức</a> <span>/</span> <a href="/kien-thuc/chu-de/{{ a.cat_slug }}/">{{ a.cat }}</a></nav>
     <header class="art__hero" style="margin-top:20px">

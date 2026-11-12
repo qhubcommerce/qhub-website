@@ -1133,3 +1133,7 @@ main,.ftr{position:relative;z-index:0}
 @media (max-width:700px){.usp{gap:12px 12px}.usp b{font-size:14px}.usp span{font-size:12.5px}
   .leaf--hero{width:220px!important;opacity:.9!important}
   body::before{-webkit-mask-image:radial-gradient(700px 700px at 0 0,#000 0,transparent 75%);mask-image:radial-gradient(700px 700px at 0 0,#000 0,transparent 75%)}}
+.art{position:relative;overflow:hidden}
+.art .leafblur{opacity:.8!important}
+.art>.wrap{position:relative;z-index:2}
+@media (max-width:700px){.art .leafblur{width:200px!important;opacity:.5!important}}

@@ -10,8 +10,8 @@
 
 {% macro order_section(site, products, preselect=None) %}
 <section class="order" id="dat-hang" aria-labelledby="order-title">
-  <img class="leafblur" src="/assets/img/leaf-fresh-1.webp" alt="" aria-hidden="true" style="left:-120px;bottom:-80px;width:440px;opacity:.25" loading="lazy">
-  <img class="leafblur" src="/assets/img/leaf-fresh-3.webp" alt="" aria-hidden="true" style="right:-140px;top:-60px;width:480px;opacity:.18" loading="lazy">
+  {% set lf = preselect if preselect else 'xau-ho-tim-tam-sen' %}<img class="leafblur" src="/assets/img/leaf-p-{{ lf }}-1.webp" alt="" aria-hidden="true" style="left:-130px;bottom:-60px;width:380px" loading="lazy">
+  <img class="leafblur" src="/assets/img/leaf-p-{{ preselect if preselect else 'ngay-dau-ve' }}-{{ 3 if preselect else 2 }}.webp" alt="" aria-hidden="true" style="right:-140px;top:-40px;width:360px" loading="lazy">
   <div class="wrap order__grid">
     <div class="order__intro">
       <p class="eyebrow eyebrow--light">Đặt hàng nhanh</p>

@@ -95,7 +95,7 @@ def slugify_vn(t):
 def inbuy(slug):
     p = bys[slug]
     return (f'<div class="inbuy" style="--c:{p["color"]}"><img src="/assets/img/products/thumb/{slug}.webp" alt="{p["name"]}" width="110" height="158" loading="lazy">'
-            f'<div><b>{p["name"]}</b><p>{p["tagline"]} {p["when_see"]}. Hộp 30 túi lọc × 3 g – <strong style="color:#d23a2c">{vnd_s(site["price_sale"])}đ</strong> <s>{vnd_s(site["price_list"])}đ</s> · <span class="promo-tag">Mua 2 tặng 1</span></p>'
+            f'<div><b>{p["name"]}</b><p>{p["tagline"]} {p["when_see"]}. Hộp 30 túi lọc × 3 g – <strong style="color:var(--sale)">{vnd_s(site["price_sale"])}đ</strong> <s>{vnd_s(site["price_list"])}đ</s> · <span class="promo-tag">Mua 2 tặng 1</span></p>'
             f'<div class="btns"><a class="btn btn--sm" href="#dat-hang" data-order="{slug}" data-qty="2">Mua 2 tặng 1</a><a class="btn btn--sm btn--ghost" href="/san-pham/{slug}/">Xem chi tiết</a></div></div></div>')
 herb_post = {}
 for a in POSTS:
@@ -154,7 +154,8 @@ def relocate(html):
     for m in MOVE:
         html = html.replace('/assets/img/' + m, site['media_img'] + '/img/' + m)
     html = html.replace(site['domain'] + site['media_img'], site['media_img'])
-    html = re.sub(r'(qhubherbal-img\.pages\.dev/img/og/[\w-]+\.jpg)(?!\?)', r'\1?v=2', html)
+    html = re.sub(r'(qhubherbal-img\.pages\.dev/img/og/[\w-]+\.jpg)(?!\?)', r'\1?v=3', html)
+    html = re.sub(r'(qhubherbal-media\.pages\.dev/(?:gallery|herbs)/[\w-]+\.webp)(?:\?v=\d+)?', r'\1?v=3', html)
     return re.sub(r'(qhubherbal-img\.pages\.dev/img/products/(?:thumb/)?[\w-]+\.webp)(?!\?)', r'\1?v=4', html)
 def render(tpl, path, **kw):
     ctx = dict(COMMON); ctx.update(kw); ctx['path'] = path

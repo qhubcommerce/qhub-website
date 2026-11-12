@@ -11,18 +11,18 @@ night	product	kind	cat	slug	title	status
 1	la-oi-mix-la-sen	moi	cam-nang	chi-so-duong-huyet-gi-la-gi-va-vi	Chỉ số đường huyết (GI) là gì và vì sao quan trọng	done 2026-11-12
 1	duong-tam-an	viet-lai	thao-moc	lac-tien-la-gi	Lạc tiên là gì? Cây chùm bao quen thuộc trong bát canh, tách trà buổi tối	done 2026-11-12
 1	duong-tam-an	moi	cam-nang	hormone-cortisol-cang-thang-tac-dong-co-the-the	Hormone cortisol: căng thẳng tác động cơ thể thế nào	done 2026-11-12
-2	ca-gai-diep-ha-chau	viet-lai	thao-moc	xa-den-la-cay-gi	Xạ đen là cây gì? Vị thuốc quen của đồng bào Mường và cách dùng	todo
-2	ca-gai-diep-ha-chau	moi	cam-nang	men-gan-alt-ast-ggt-doc-chi-so-xet	Men gan ALT, AST, GGT: đọc chỉ số xét nghiệm đúng cách	todo
-2	nam-vuong	viet-lai	thao-moc	dua-dai-la-cay-gi	Dứa dại là cây gì? Loài cây ven biển trong bài nước uống dân gian	todo
-2	nam-vuong	moi	cam-nang	man-duc-nam-andropause-dau-hieu-xet-nghiem-va	Mãn dục nam (andropause): dấu hiệu, xét nghiệm và khi nào đi khám	todo
-2	xau-ho-tim-tam-sen	viet-lai	thao-moc	tam-sen-la-gi	Tâm sen là gì? Mầm xanh nhỏ giữa hạt sen và nét thanh tâm của người xưa	todo
-2	xau-ho-tim-tam-sen	moi	cam-nang	lieu-phap-nhan-thuc-hanh-vi-cho-mat-ngu	Liệu pháp nhận thức hành vi cho mất ngủ (CBT-I) là gì	todo
-2	ngay-dau-ve	viet-lai	thao-moc	ngai-cuu-la-gi	Ngải cứu là gì? Lá thơm ấm của căn bếp Việt và những ngày cần giữ ấm	todo
-2	ngay-dau-ve	moi	cam-nang	dau-bung-kinh-nguyen-phat-va-thu-phat-khac	Đau bụng kinh nguyên phát và thứ phát khác nhau thế nào	todo
-2	la-oi-mix-la-sen	viet-lai	thao-moc	la-sen-la-gi	Lá sen là gì? Hương đồng quê trong tách trà sau bữa ăn	todo
-2	la-oi-mix-la-sen	moi	cam-nang	an-tinh-bot-the-nao-de-duong-huyet-on	Ăn tinh bột thế nào để đường huyết ổn định	todo
-2	duong-tam-an	viet-lai	thao-moc	dinh-lang-la-gi	"Đinh lăng là gì? ""Nhân sâm của người nghèo"" trong vườn nhà Việt"	todo
-2	duong-tam-an	moi	cam-nang	cang-thang-cap-tinh-va-man-tinh-khac-nhau	Căng thẳng cấp tính và mạn tính khác nhau ra sao	todo
+2	ca-gai-diep-ha-chau	viet-lai	thao-moc	xa-den-la-cay-gi	Xạ đen là cây gì? Vị thuốc quen của đồng bào Mường và cách dùng	done 2026-11-13
+2	ca-gai-diep-ha-chau	moi	cam-nang	men-gan-alt-ast-ggt-doc-chi-so-xet	Men gan ALT, AST, GGT: đọc chỉ số xét nghiệm đúng cách	done 2026-11-13
+2	nam-vuong	viet-lai	thao-moc	dua-dai-la-cay-gi	Dứa dại là cây gì? Loài cây ven biển trong bài nước uống dân gian	done 2026-11-13
+2	nam-vuong	moi	cam-nang	man-duc-nam-andropause-dau-hieu-xet-nghiem-va	Mãn dục nam (andropause): dấu hiệu, xét nghiệm và khi nào đi khám	done 2026-11-13
+2	xau-ho-tim-tam-sen	viet-lai	thao-moc	tam-sen-la-gi	Tâm sen là gì? Mầm xanh nhỏ giữa hạt sen và nét thanh tâm của người xưa	done 2026-11-13
+2	xau-ho-tim-tam-sen	moi	cam-nang	lieu-phap-nhan-thuc-hanh-vi-cho-mat-ngu	Liệu pháp nhận thức hành vi cho mất ngủ (CBT-I) là gì	done 2026-11-13
+2	ngay-dau-ve	viet-lai	thao-moc	ngai-cuu-la-gi	Ngải cứu là gì? Lá thơm ấm của căn bếp Việt và những ngày cần giữ ấm	done 2026-11-13
+2	ngay-dau-ve	moi	cam-nang	dau-bung-kinh-nguyen-phat-va-thu-phat-khac	Đau bụng kinh nguyên phát và thứ phát khác nhau thế nào	done 2026-11-13
+2	la-oi-mix-la-sen	viet-lai	thao-moc	la-sen-la-gi	Lá sen là gì? Hương đồng quê trong tách trà sau bữa ăn	done 2026-11-13
+2	la-oi-mix-la-sen	moi	cam-nang	an-tinh-bot-the-nao-de-duong-huyet-on	Ăn tinh bột thế nào để đường huyết ổn định	done 2026-11-13
+2	duong-tam-an	viet-lai	thao-moc	dinh-lang-la-gi	"Đinh lăng là gì? ""Nhân sâm của người nghèo"" trong vườn nhà Việt"	done 2026-11-13
+2	duong-tam-an	moi	cam-nang	cang-thang-cap-tinh-va-man-tinh-khac-nhau	Căng thẳng cấp tính và mạn tính khác nhau ra sao	done 2026-11-13
 3	ca-gai-diep-ha-chau	viet-lai	thao-moc	an-xoa-la-cay-gi	An xoa là cây gì? Cây tổ kén cái và những điều bạn nên biết	todo
 3	ca-gai-diep-ha-chau	moi	cam-nang	gan-nhiem-mo-do-1-2-3-khac-nhau	Gan nhiễm mỡ độ 1, 2, 3 khác nhau thế nào	todo
 3	nam-vuong	viet-lai	thao-moc	mu-tun-la-cay-gi	Mú từn là cây gì? Dược liệu núi rừng của đồng bào miền Tây xứ Nghệ	todo

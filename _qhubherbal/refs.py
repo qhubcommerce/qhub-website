@@ -109,7 +109,78 @@ SRC['cortisol'] = [
     ('Cleveland Clinic – Cortisol: What It Is, Function, Symptoms & Levels', 'https://my.clevelandclinic.org/health/articles/22187-cortisol'),
 ]
 
+SRC['xaden'] = [
+    ('Viet TD, Xuan TD và cộng sự (2019) – Comprehensive Fractionation of Antioxidants and GC-MS and ESI-MS Fingerprints of Celastrus hindsii Leaves (Hoạt chất chống oxy hóa trong lá xạ đen), Medicines', 'https://www.mdpi.com/2305-6320/6/2/64/htm'),
+    ('Bùi Thị Thanh Duyên, Vũ Mạnh Hùng, Bùi Thanh Tùng (2020) – Cytotoxicity and Antioxidant Effects of Celastrus hindsii Benth. Leaf Extract (Độc tính tế bào và chống oxy hóa của lá xạ đen), VNU Journal of Science: Medical and Pharmaceutical Sciences', 'https://js.vnu.edu.vn/MPS/article/view/4203'),
+    ('Pham TNA, Kim HL, Oh S, Yang SH (2022) – Anti-Inflammatory Effects of the Chemical Compounds Obtained from Celastrus hindsii in RAW264.7 Cells (Tác dụng kháng viêm trên tế bào), Microbiology and Biotechnology Letters', 'https://www.koreascience.or.kr/article/JAKO202210551018647.page?&lang=en'),
+]
+SRC['mengan'] = [
+    ('Kwo PY, Cohen SM, Lim JK (2017) – ACG Clinical Guideline: Evaluation of Abnormal Liver Chemistries (Hướng dẫn đánh giá bất thường xét nghiệm gan), Am J Gastroenterol (PubMed)', 'https://pubmed.ncbi.nlm.nih.gov/27995906/'),
+    ('MedlinePlus – Gamma-glutamyl Transferase (GGT) Test (Xét nghiệm GGT)', 'https://medlineplus.gov/lab-tests/gamma-glutamyl-transferase-ggt-test'),
+    ('MedlinePlus – ALT Blood Test (Xét nghiệm ALT)', 'https://medlineplus.gov/lab-tests/alt-blood-test'),
+]
+SRC['duadai'] = [
+    ('Adkar PP, Bhaskar VH (2014) – Pandanus odoratissimus (Kewda): A Review on Ethnopharmacology, Phytochemistry, and Nutritional Aspects (Tổng quan về dứa dại), Advances in Pharmacological Sciences', 'https://dx.doi.org/10.1155/2014/120895'),
+    ('Setiani LA và cộng sự (2025) – Phytochemical Profile and Pharmacological Mechanisms of Pandanus tectorius Fruit: A Comprehensive Review (Tổng quan hóa thực vật và dược lý quả dứa dại), Jurnal Jamu Indonesia', 'https://jamu-journal.ipb.ac.id/index.php/JJI/article/view/374'),
+]
+SRC['manducnam'] = [
+    ('Bhasin S và cộng sự (2018) – Testosterone Therapy in Men With Hypogonadism: An Endocrine Society Clinical Practice Guideline (Hướng dẫn của Hiệp hội Nội tiết Hoa Kỳ), J Clin Endocrinol Metab (PubMed)', 'https://pubmed.ncbi.nlm.nih.gov/29562364/'),
+    ('Mayo Clinic – Male menopause: Myth or reality? (Mãn dục nam: lầm tưởng hay thực tế?)', 'https://www.mayoclinic.org/healthy-lifestyle/mens-health/in-depth/male-menopause/art-20048056'),
+    ('Uroweb – Hội Tiết niệu châu Âu (EAU) (2025) – Late onset hypogonadism (LOH), what does that mean for a man? (Suy sinh dục khởi phát muộn)', 'https://uroweb.org/news/late-onset-hypogonadism-loh-what-does-that-mean-for-a-man'),
+]
+SRC['tamsen'] = [
+    ('Cheng Y và cộng sự (2021) – Isoliensinine: A Natural Compound with "Drug-Like" Potential (alkaloid tâm sen), Frontiers in Pharmacology', 'https://www.frontiersin.org/articles/10.3389/fphar.2021.630385/full'),
+    ('Bharathi Priya L và cộng sự (2021) – An updated review on pharmacological properties of neferine (alkaloid từ mầm hạt sen), Journal of Food Biochemistry (AGRIS/FAO)', 'https://agris.fao.org/search/fr/records/65dec6697c7033e84bebcd8d'),
+]
+SRC['cbti'] = [
+    ('Riemann D và cộng sự (2023) – The European Insomnia Guideline: An update on the diagnosis and treatment of insomnia 2023 (Hướng dẫn mất ngủ châu Âu), Journal of Sleep Research', 'https://pure.uva.nl/ws/files/260029353/Journal_of_Sleep_Research_-_2023_-_Riemann_-_The_European_Insomnia_Guideline.pdf'),
+    ('Trauer JM và cộng sự (2015) – Cognitive Behavioral Therapy for Chronic Insomnia: A Systematic Review and Meta-analysis (phân tích gộp CBT-I), Annals of Internal Medicine (PubMed)', 'https://pubmed.ncbi.nlm.nih.gov/26054060/'),
+    ('Mayo Clinic – Insomnia treatment: Cognitive behavioral therapy instead of sleeping pills (CBT-I thay cho thuốc ngủ)', 'https://www.mayoclinic.org/diseases-conditions/insomnia/in-depth/insomnia-treatment/art-20046677'),
+]
+SRC['ngaicuu'] = [
+    ('EMA/HMPC (2012) – Public statement on the use of herbal medicinal products containing thujone (Tuyên bố của Cơ quan Dược phẩm châu Âu về sản phẩm thảo dược chứa thujone)', 'https://www.ema.europa.eu/en/documents/scientific-guideline/public-statement-use-herbal-medicinal-products-containing-thujone-revision-1_en.pdf'),
+    ('Significance of Artemisia vulgaris L. (Common Mugwort) in the History of Medicine and Its Possible Contemporary Applications, Molecules 2020 (Tổng quan về ngải cứu – PubMed)', 'https://pubmed.ncbi.nlm.nih.gov/32992959/'),
+    ('Coyle ME, Smith C, Peat B (2023) – Cephalic version by moxibustion for breech presentation, Cochrane Database of Systematic Reviews (Cứu ngải và ngôi thai)', 'https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD003928.pub4/information'),
+]
+SRC['daukinh2'] = [
+    ('McKenna KA, Fogleman CD (2021) – Dysmenorrhea, American Family Physician (Đau bụng kinh nguyên phát và thứ phát)', 'https://www.aafp.org/pubs/afp/issues/2021/0800/p164.html'),
+    ('NHS (Hệ thống Y tế Quốc gia Anh) – Period pain (Đau bụng kinh)', 'https://www.nhs.uk/conditions/period-pain/'),
+    ('WHO – Endometriosis (Lạc nội mạc tử cung) – Fact sheet', 'https://www.who.int/news-room/fact-sheets/detail/endometriosis'),
+]
+SRC['lasen'] = [
+    ('Tungmunnithum D, Pinthong D, Hano C (2018) – Flavonoids from Nelumbo nucifera Gaertn. (Flavonoid từ cây sen): uses, phytochemistry and pharmacological activities, Medicines (Basel)', 'https://pmc.ncbi.nlm.nih.gov/articles/PMC6313397/'),
+    ('Chen G, Zhu M, Guo M (2019) – Research advances in traditional and modern use of Nelumbo nucifera (Công dụng truyền thống và hiện đại của cây sen), Crit Rev Food Sci Nutr (PubMed)', 'https://pubmed.ncbi.nlm.nih.gov/30633540/'),
+    ('Zhao T và cộng sự (2023) – Nuciferine (alkaloid lá sen): structure-activity relationship, bioactivities and mechanisms on inflammation-related diseases, Pharmacological Research (DOAJ)', 'https://doaj.org/article/17ce9a5e76674f259a4f20d83cbbf305'),
+]
+SRC['tinhbot'] = [
+    ('American Diabetes Association – What is the Diabetes Plate? (Phương pháp đĩa ăn cho người tiểu đường)', 'https://diabetesfoodhub.org/blog/what-diabetes-plate'),
+    ('Imai S và cộng sự (2011) – Vegetables before carbohydrate (Ăn rau trước tinh bột) and glycemic control in Japanese type 2 diabetes, Asia Pac J Clin Nutr', 'https://apjcn.qdu.edu.cn/20_2_21.pdf'),
+    ('Sonia S, Witjaksono F, Ridwan R (2015) – Effect of cooling of cooked white rice on resistant starch content and glycemic response (Cơm nguội, tinh bột kháng và đường huyết), Asia Pac J Clin Nutr', 'https://apjcn.qdu.edu.cn/24_4_24.pdf'),
+]
+SRC['dinhlang'] = [
+    ('Śliwińska AA, Tomiczak K (2025) – Advancing the Potential of Polyscias fruticosa as a Source of Bioactive Compounds (Tổng quan về đinh lăng: saponin, dược lý, độc tính), Molecules', 'https://pmc.ncbi.nlm.nih.gov/articles/PMC12430459/'),
+    ('Alzheimer\'s Drug Discovery Foundation – Cognitive Vitality Report: Dinh lang (Đinh lăng: bằng chứng và độ an toàn)', 'https://www.alzdiscovery.org/uploads/cognitive_vitality_media/Dinh-lang-Cognitive-Vitality-For-Researchers.pdf'),
+    ('Rarison RHG và cộng sự (2023) – Antioxidant and Anti-Inflammatory Mechanisms of Lipophilic Fractions from Polyscias fruticosa Leaves (Hoạt chất lá đinh lăng), Foods', 'https://pmc.ncbi.nlm.nih.gov/articles/PMC10573055/'),
+]
+SRC['stress2'] = [
+    ('Cleveland Clinic – Stress: What It Is, Symptoms, Management & Prevention (Căng thẳng cấp tính và mạn tính)', 'https://my.clevelandclinic.org/health/diseases/11874-stress'),
+    ('NIMH (Viện Sức khỏe Tâm thần Quốc gia Hoa Kỳ) – I\'m So Stressed Out! Fact Sheet (Căng thẳng và lo âu)', 'https://www.nimh.nih.gov/health/publications/so-stressed-out-fact-sheet/index.shtml'),
+    ('Harvard Health Publishing – Understanding the stress response (Cơ chế phản ứng căng thẳng)', 'https://www.health.harvard.edu/staying-healthy/understanding-the-stress-response'),
+]
+
 RULES = [
+    ('xaden', ['xạ đen', 'celastrus', 'ehretia'], 15),
+    ('mengan', ['ggt', 'ast/alt', 'khoảng tham chiếu'], 15),
+    ('duadai', ['dứa dại', 'pandanus'], 10),
+    ('manducnam', ['mãn dục nam', 'suy sinh dục', 'andropause'], 8),
+    ('tamsen', ['liên tâm', 'neferine', 'liensinine'], 6),
+    ('cbti', ['cbt-i', 'hạn chế giấc ngủ', 'kiểm soát kích thích', 'cửa sổ ngủ'], 15),
+    ('ngaicuu', ['ngải cứu', 'artemisia', 'thujone'], 20),
+    ('daukinh2', ['thứ phát', 'nguyên phát'], 12),
+    ('lasen', ['lá sen', 'nuciferine', 'hà diệp'], 25),
+    ('tinhbot', ['tinh bột', 'đĩa ăn', 'tinh bột kháng', 'thứ tự ăn'], 20),
+    ('dinhlang', ['đinh lăng', 'polyscias'], 15),
+    ('stress2', ['căng thẳng cấp tính', 'căng thẳng mạn tính', 'allostatic', 'allostasis'], 10),
     ('diephachau', ['diệp hạ châu', 'phyllanthus'], 8),
     ('masld', ['masld'], 2),
     ('kimtien', ['kim tiền thảo', 'desmodium'], 4),

@@ -165,7 +165,7 @@
       btn.disabled = true; btn.textContent = "Đang gửi…";
       fetch(C.formEndpoint, { method: "POST", headers: { "Content-Type": "application/json", "Accept": "application/json" }, body: JSON.stringify(data) })
         .then(function (r) { return r.json().catch(function () { return {}; }).then(function (j) { if (!r.ok || j.success === "false" || j.success === false) throw new Error(j.message || "send failed"); }); })
-        .then(function () { msgEl.textContent = okText; msgEl.className = msgEl.className.replace(/ ?(ok|err)/g, "") + " ok"; done(); })
+        .then(function () { if (window.gtag) gtag('event', 'generate_lead', { form_id: form.id || 'form' }); msgEl.textContent = okText; msgEl.className = msgEl.className.replace(/ ?(ok|err)/g, "") + " ok"; done(); })
         .catch(function () { msgEl.innerHTML = 'Chưa gửi được. Vui lòng gọi <a href="tel:' + C.phone + '">' + C.phoneText + '</a> hoặc nhắn Zalo để được hỗ trợ ngay.'; msgEl.className = msgEl.className.replace(/ ?(ok|err)/g, "") + " err"; })
         .then(function () { btn.disabled = false; btn.textContent = label; });
     });

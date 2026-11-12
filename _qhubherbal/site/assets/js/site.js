@@ -166,7 +166,7 @@
       .then(function () {
         if (done) return; done = true; clearTimeout(timer);
         try { sessionStorage.setItem('qh_last', JSON.stringify({ ten: ten, sp: gl ? lines.concat(['Quà tặng: ' + gl]) : lines, tong: data.tong })); } catch (x) {}
-        if (window.gtag) gtag('event', 'contact_form_submit');
+        if (window.gtag) { var its = lines.map(function (l) { var m = l.match(/^(.*) x (\d+)$/); return { item_name: m ? m[1] : l, quantity: m ? +m[2] : 1, price: QH.price }; }); gtag('event', 'generate_lead', { currency: 'VND', value: n * QH.price }); gtag('event', 'purchase', { transaction_id: 'W' + Date.now(), currency: 'VND', value: n * QH.price, items: its }); }
         location.href = '/cam-on/';
       })
       .catch(function () { if (done) return; done = true; clearTimeout(timer); btn.disabled = false; btn.textContent = 'Gửi đơn đặt hàng'; fail.hidden = false; });

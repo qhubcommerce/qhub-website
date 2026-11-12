@@ -1,6 +1,12 @@
 <!doctype html>
 <html lang="vi">
 <head>
+<!-- GA4 QHUB Commerce -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-NYQMD1XPP6"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-NYQMD1XPP6');
+document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('a,button');if(!a)return;var h=a.getAttribute('href')||'';
+if(/zalo\.me/.test(h))gtag('event','click_zalo',{link_url:h});else if(/^tel:/.test(h))gtag('event','click_call',{link_url:h});
+else if(/^mailto:/.test(h))gtag('event','click_email',{link_url:h});else if(/qhubherbal\.com/.test(h))gtag('event','click_qhubherbal',{link_url:h});},true);</script>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Chính sách và điều kiện giao dịch — QHUB Commerce</title>
@@ -127,7 +133,7 @@
 <li><b>Mục đích:</b> xác nhận và giao đơn hàng, đổi trả, chăm sóc sau bán, liên hệ tư vấn theo yêu cầu của khách hàng. QHUB không dùng thông tin cho mục đích khác khi chưa có sự đồng ý của khách hàng.</li>
 <li><b>Thời gian lưu trữ:</b> tối đa 03 năm kể từ ngày phát sinh giao dịch, hoặc ngắn hơn khi khách hàng yêu cầu xóa và việc xóa không trái quy định pháp luật.</li>
 <li><b>Bên được tiếp cận thông tin:</b> nhân sự QHUB phụ trách đơn hàng; đơn vị vận chuyển (họ tên, số điện thoại, địa chỉ để giao hàng); nhà cung cấp dịch vụ kỹ thuật chuyển dữ liệu biểu mẫu và thư điện tử; cơ quan nhà nước có thẩm quyền khi có yêu cầu theo quy định pháp luật. QHUB không bán, không cho thuê thông tin khách hàng.</li>
-<li><b>Biện pháp bảo vệ:</b> dữ liệu chỉ được lưu tại hộp thư và hệ thống nội bộ của QHUB, giới hạn quyền truy cập theo nhiệm vụ. Website không sử dụng cookie theo dõi hay quảng cáo.</li>
+<li><b>Biện pháp bảo vệ:</b> dữ liệu chỉ được lưu tại hộp thư và hệ thống nội bộ của QHUB, giới hạn quyền truy cập theo nhiệm vụ. Website dùng Google Analytics (cookie của Google) để thống kê lượt truy cập ở dạng tổng hợp, không định danh khách; bạn có thể chặn bằng cài đặt cookie của trình duyệt hoặc tiện ích Google Analytics Opt-out.</li>
 <li><b>Quyền của khách hàng:</b> được biết, truy cập, chỉnh sửa, yêu cầu xóa, hạn chế xử lý hoặc rút lại sự đồng ý đối với thông tin của mình. Gửi yêu cầu qua email qhubcommerce@gmail.com hoặc Zalo 0856 510 113; QHUB phản hồi trong vòng 72 giờ.</li>
 <li><b>Khiếu nại về dữ liệu cá nhân:</b> thực hiện theo mục 7.</li>
 <li><b>Đơn vị chịu trách nhiệm xử lý dữ liệu:</b> CÔNG TY TNHH QHUB COMMERCE, mã số doanh nghiệp 5400570349, trụ sở Khu Vai, Xã An Nghĩa, Tỉnh Phú Thọ.</li>
@@ -155,6 +161,6 @@
   </div>
 </footer>
 <script src="products.js?v=20261112e"></script>
-<script src="main.js?v=20261112e"></script>
+<script src="main.js?v=20261112ga"></script>
 </body>
 </html>

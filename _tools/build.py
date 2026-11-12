@@ -723,6 +723,35 @@ def sync_home_latest(posts):
         open(path, "w", encoding="utf-8").write(h2)
 
 
+GA_ID = "G-NYQMD1XPP6"
+GA_TAG = """<!-- GA4 QHUB Commerce -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-NYQMD1XPP6"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-NYQMD1XPP6');
+document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('a,button');if(!a)return;var h=a.getAttribute('href')||'';
+if(/zalo\\.me/.test(h))gtag('event','click_zalo',{link_url:h});else if(/^tel:/.test(h))gtag('event','click_call',{link_url:h});
+else if(/^mailto:/.test(h))gtag('event','click_email',{link_url:h});else if(/qhubherbal\\.com/.test(h))gtag('event','click_qhubherbal',{link_url:h});},true);</script>
+"""
+
+
+def inject_ga():
+    """Gắn thẻ Google Analytics 4 (G-NYQMD1XPP6) vào mọi trang .html của qhub.com.vn (bỏ qua thư mục bắt đầu bằng _ và .)."""
+    n = 0
+    for dp, dns, fns in os.walk(ROOT):
+        dns[:] = [d for d in dns if not d.startswith(("_", "."))]
+        for fn in fns:
+            if not fn.endswith(".html"):
+                continue
+            path = os.path.join(dp, fn)
+            h = open(path, encoding="utf-8").read()
+            if GA_ID in h or "<head>" not in h:
+                continue
+            h2 = h.replace("<head>", "<head>\n" + GA_TAG.strip(), 1)
+            open(path, "w", encoding="utf-8").write(h2)
+            n += 1
+    if n:
+        print(f"Đã gắn GA4 vào {n} trang.")
+
+
 def main():
     posts, errors = load_posts()
     for x in errors:
@@ -742,6 +771,7 @@ def main():
     sync_home_faq()
     sync_home_latest(posts)
     build_feeds(posts)
+    inject_ga()
     print(f"Đã build {len(posts)} bài, {len(TOPIC)} chủ đề.")
 
 

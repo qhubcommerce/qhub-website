@@ -3,6 +3,14 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- GA4 QHUB HERBAL -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5C6NNRES2K"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-5C6NNRES2K');
+document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('a,button');if(!a)return;var h=a.getAttribute('href')||'',m;
+if(/zalo\.me/.test(h))gtag('event','click_zalo',{link_url:h});
+else if(/^tel:/.test(h))gtag('event','click_call',{link_url:h});
+else if(h.indexOf('#dat-hang')>-1||a.hasAttribute('data-scroll-order'))gtag('event','click_order',{page_path:location.pathname});
+else if((m=h.match(/\/san-pham\/([\w-]+)\/?$/)))gtag('event','select_item',{items:[{item_id:m[1],item_name:(a.getAttribute('aria-label')||a.textContent||m[1]).trim().slice(0,90)}]});},true);</script>
 <title>{{ title }}</title>
 <meta name="description" content="{{ description }}">
 <link rel="canonical" href="{{ site.domain }}{{ path }}">

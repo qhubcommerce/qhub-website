@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 {% from "_order.html" import order_section, card, price, vnd, post_card %}
-{% block head %}<script type="application/ld+json">{{ product_ld|safe }}</script><script type="application/ld+json">{{ bc_ld|safe }}</script>{% endblock %}
+{% block head %}<script>gtag('event','view_item',{currency:'VND',value:{{ site.price_sale }},items:[{item_id:'{{ p.slug }}',item_name:{{ p.name|tojson }},price:{{ site.price_sale }}}]});</script><script type="application/ld+json">{{ product_ld|safe }}</script><script type="application/ld+json">{{ bc_ld|safe }}</script>{% endblock %}
 {% block main %}
 <section class="pd" style="--c: {{ p.color }}; --t: {{ p.tint }}">
   <img class="leafblur" src="/assets/img/leaf-p-{{ p.slug }}-1.webp" alt="" aria-hidden="true" style="left:-255px;top:-170px;width:360px">

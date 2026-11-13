@@ -65,16 +65,18 @@
   var grid = $("#product-grid");
   if (grid) {
     var pct = Math.round((1 - H.price / H.priceOld) * 100);
-    H.products.forEach(function (p) {
+    var list = H.products.filter(function (p) { return p.isNew; }).concat(H.products.filter(function (p) { return !p.isNew; }));
+    list.forEach(function (p) {
       var art = document.createElement("article");
-      art.className = "product"; art.id = p.id;
+      art.className = "product" + (p.isNew ? " feat" : ""); art.id = p.id;
       art.style.setProperty("--pc", p.color); art.style.setProperty("--pt", p.tint);
       art.innerHTML =
         '<a class="pimg" href="' + p.slug + '"><span class="badge">Mua 2 tặng 1</span></a>' +
         '<div class="pbody"><p class="tag"></p><h3><a href="' + p.slug + '"></a></h3><p class="ing"></p><p class="desc"></p>' +
         '<div class="price"><span class="now">' + vnd(H.price) + '</span><span class="old">' + vnd(H.priceOld) + '</span><span class="off">-' + pct + '%</span></div>' +
         '<div class="row"><button class="btn btn-forest" type="button" data-buy="' + p.id + '">Mua ngay</button><a class="btn btn-line" href="' + p.slug + '">Xem chi tiết</a></div></div>';
-      $(".pimg", art).appendChild(img("p-" + p.id + ".jpg", "Hộp " + p.name + " QHUB HERBAL"));
+      $(".pimg", art).appendChild(img("p-" + p.id + (p.isNew ? "-sq" : "") + ".jpg", "Hộp " + p.name + " QHUB HERBAL"));
+      if (p.isNew) { var nb = document.createElement("span"); nb.className = "badge badge-new"; nb.textContent = "Mới ra mắt"; $(".pimg", art).appendChild(nb); }
       $(".tag", art).textContent = p.tagline;
       $("h3 a", art).textContent = p.name;
       $(".ing", art).textContent = p.ing.length + " vị: " + p.ing.join(", ").replace(/ \d+%/g, "");
@@ -163,7 +165,8 @@
       new FormData(form).forEach(function (v, k) { data[k] = data[k] ? data[k] + ", " + v : v; });
       var btn = $('[type="submit"]', form); var label = btn.textContent;
       btn.disabled = true; btn.textContent = "Đang gửi…";
-      fetch(C.formEndpoint, { method: "POST", headers: { "Content-Type": "application/json", "Accept": "application/json" }, body: JSON.stringify(data) })
+      data._page = location.pathname;
+      fetch(C.formEndpoint, { method: "POST", headers: { "Content-Type": "text/plain;charset=utf-8" }, body: JSON.stringify(data), redirect: "follow" })
         .then(function (r) { return r.json().catch(function () { return {}; }).then(function (j) { if (!r.ok || j.success === "false" || j.success === false) throw new Error(j.message || "send failed"); }); })
         .then(function () { if (window.gtag) gtag('event', 'generate_lead', { form_id: form.id || 'form' }); msgEl.textContent = okText; msgEl.className = msgEl.className.replace(/ ?(ok|err)/g, "") + " ok"; done(); })
         .catch(function () { msgEl.innerHTML = 'Chưa gửi được. Vui lòng gọi <a href="tel:' + C.phone + '">' + C.phoneText + '</a> hoặc nhắn Zalo để được hỗ trợ ngay.'; msgEl.className = msgEl.className.replace(/ ?(ok|err)/g, "") + " err"; })

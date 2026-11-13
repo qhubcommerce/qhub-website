@@ -74,7 +74,7 @@ window.QHUB_HERBAL = {
       note: "Không dùng cho người mẫn cảm với bất kỳ thành phần nào. Phụ nữ mang thai, cho con bú, trẻ em, người dị ứng họ Cúc hay đang dùng thuốc: hỏi ý kiến bác sĩ trước khi dùng."
     },
     {
-      id: "dn", slug: "tra-duong-nhan.html",
+      id: "dn", slug: "tra-duong-nhan.html", isNew: true,
       name: "Trà Dưỡng Nhan", short: "Dưỡng Nhan",
       tagline: "Hương hoa dịu ngọt, nâng niu nét xuân.",
       color: "#8A3B2E", tint: "#FBEDE6",
@@ -91,5 +91,5 @@ window.QHUB_CONTACT = {
   phone: "0856510113",
   phoneText: "0856 510 113",
   email: "qhubcommerce@gmail.com",
-  formEndpoint: "https://formsubmit.co/ajax/qhubcommerce@gmail.com"
+  formEndpoint: "https://script.google.com/macros/s/AKfycby-8rs4o1i0gtKxuiH2AmRT-1J3GKlfGO3SxeokDMuHcw5UtNoMnuSnkeFCYXb2XqbD/exec"
 };

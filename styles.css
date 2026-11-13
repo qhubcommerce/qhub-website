@@ -700,3 +700,21 @@ section{scroll-margin-top:70px}
 @media (prefers-reduced-motion:reduce){.hero::after,.flow .wire,.flow .hub-ring{animation:none}}
 #kien-thuc-moi{background:var(--paper)}
 .kt-more{margin:26px 0 0;font-weight:700}.kt-more a{color:var(--blue)}
+
+/* Sản phẩm mới: thẻ ngang chiếm trọn hàng, 6 vị còn lại xếp đều 2 hàng */
+.product.feat{grid-column:1/-1;flex-direction:row}
+.product.feat .pimg{flex:0 0 44%;aspect-ratio:auto;min-height:420px}
+.product.feat .pbody{border-top:0;border-left:4px solid var(--pc);padding:44px 52px;justify-content:center}
+.product.feat .tag{font-size:16px}
+.product.feat h3{font-size:32px;margin-bottom:12px}
+.product.feat .ing{font-size:14.5px;max-width:560px}
+.product.feat .desc{flex:0 0 auto;font-size:17px;line-height:1.6;max-width:560px;margin-bottom:22px}
+.product.feat .row{max-width:440px}
+.badge-new{left:auto;right:14px;background:var(--pc)}
+@media (max-width:620px){
+  .product.feat{flex-direction:column}
+  .product.feat .pimg{flex:none;aspect-ratio:1/1;min-height:0}
+  .product.feat .pbody{border-left:0;border-top:4px solid var(--pc);padding:20px 22px 22px}
+  .product.feat h3{font-size:24px}
+  .product.feat .desc{font-size:15px}
+}

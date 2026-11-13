@@ -1,6 +1,8 @@
 # Quy trình viết bài tự động mỗi đêm – qhubherbal.com
 
-Kế hoạch: `plan/plan-600.tsv` có 600 bài, 100 bài cho mỗi sản phẩm. Mỗi đêm viết **12 bài, mỗi sản phẩm 2 bài**, theo cột `night`. Chạy 50 đêm, bắt đầu đêm 12/11/2026.
+Kế hoạch: `plan/plan-600.tsv` (giữ tên file cũ) nay có **734 bài**: 600 bài gốc + 134 bài nguyên liệu thảo mộc lấy từ báo cáo nghiên cứu thị trường 2026 (danh mục 200 nguyên liệu, đã bỏ các vị độc/nhạy cảm như cà độc dược, dừa cạn, phan tả diệp, dâm dương hoắc, bạch hoa xà thiệt thảo, trinh nữ hoàng cung). Từ đêm 3 (14/11/2026) mỗi đêm viết **18 bài, mỗi sản phẩm 3 bài**, theo cột `night` (đến đêm 42; đêm cuối 8 bài). Đêm 1–2 viết 12 bài/đêm.
+
+**Nhịp đăng (quyết định 13/11/2026, anh Quang chọn):** 18 bài/ngày. Google không giới hạn số bài/ngày; rủi ro là "scaled content abuse" (sản xuất hàng loạt để kéo thứ hạng) và chất lượng YMYL. Chỉ cân nhắc tăng lên tối đa 24 bài/ngày sau 4–6 tuần nếu Search Console cho thấy phần lớn bài dài được index và không có Thao tác thủ công (manual action) – phải hỏi anh Quang trước khi tăng. Không bao giờ hạ chuẩn chất lượng để tăng số lượng.
 - Cột `kind`:
   - `viet-lai`: bài ngắn đã có trong `content/posts`, cần viết lại thành bài dài.
   - `moi`: chủ đề mới, phải thêm khung bài (stub) trước khi viết.
@@ -12,7 +14,11 @@ Kế hoạch: `plan/plan-600.tsv` có 600 bài, 100 bài cho mỗi sản phẩm.
 3. Thư mục gốc repo là web **qhub.com.vn** (công ty) – KHÔNG sửa gì ngoài `_qhubherbal/` và `.github/workflows/qhubherbal-deploy.yml`.
 
 ## 1. Chọn bài
-Lấy các dòng `status=todo` có `night` nhỏ nhất, 12 dòng. Nếu đêm trước còn sót bài, viết bù trước.
+Lấy các dòng `status=todo` có `night` nhỏ nhất, 18 dòng (mỗi sản phẩm 3 bài nếu còn). Nếu đêm trước còn sót bài, viết bù trước.
+
+**Cách làm nhanh mà vẫn đủ chuẩn:** chia 6 subagent chạy song song (công cụ Agent, chạy nền), mỗi agent một sản phẩm, viết 3 bài; mỗi agent tự nghiên cứu nguồn, viết, chạy checklong cho file của mình và ghi đề xuất refs (SRC + RULES) ra file tạm. Agent chính tự thêm stub cho bài `moi` vào `50-plan-moi.md` TRƯỚC khi giao việc, sau đó gộp refs, kiểm tra cấu trúc 18 bài (độ dài, FAQ, seo_title, link nội bộ tồn tại, [[buy]], 2 dòng cuối), build và đăng.
+
+**Bài nguyên liệu KHÔNG có trong công thức trà** (134 bài mới, cat `thao-moc`): đoạn sản phẩm KHÔNG được nói hoặc ngụ ý vị đó có trong trà. Chỉ giới thiệu trà QHUB phù hợp nhu cầu liên quan (ví dụ bài Actiso → "nếu bạn tìm một thức uống thảo mộc thanh mát, Trà Cà Gai – Diệp Hạ Châu gồm …"), ghi đúng công thức thật. Vị có độc tính/tương tác (bình vôi, hà thủ ô đỏ, hồng hoa, đào nhân, sâm tố nữ, xuyên tâm liên, thảo quyết minh, kombucha tự làm, nhân sâm, cam thảo…) phải có mục cảnh báo an toàn rõ ràng và khuyên hỏi bác sĩ/dược sĩ. Bài về trà có caffeine (trà xanh, matcha, ô long, hồng trà, phổ nhĩ, trà lài) nói rõ lượng caffeine theo nguồn đã kiểm chứng.
 
 ## 2. Viết bài – tiêu chuẩn BẮT BUỘC (không viết qua loa)
 - **Độ dài:** 2.200–3.500 chữ tiếng Việt. Bài phải thực sự sâu, không độn chữ.
@@ -59,7 +65,8 @@ Lấy các dòng `status=todo` có `night` nhỏ nhất, 12 dòng. Nếu đêm t
 
 ## 4. Deploy (tự động qua GitHub Actions – không dùng Chrome)
 1. Commit và đẩy lên GitHub:
-   `cd /home/claude/qhub-website && git add -A _qhubherbal && git commit -m "QHUB HERBAL: đêm N – 12 bài" && git pull --rebase origin main && git push origin main`
+   `cd /home/claude/qhub-website && git add -A _qhubherbal && git commit -m "QHUB HERBAL: đêm N – 18 bài (x/734)" && git pull --rebase origin main && git push origin main`
+   (nếu `git status` báo HEAD detached hoặc push bị rejected dù pull báo up to date: `git fetch origin main && git rebase FETCH_HEAD && git push origin HEAD:main`.)
    (push lỗi do repo đổi thì `git pull --rebase` rồi push lại; repo này còn có lịch viết bài của qhub.com.vn chạy song song.)
 2. Workflow `.github/workflows/qhubherbal-deploy.yml` tự chạy: build → `wrangler pages deploy` 5 project (qhubherbal-img, qhubherbal-media, qhubherbal-kt1, qhubherbal-kt2, qhubherbal) → kiểm tra HTTP 200 → báo **IndexNow** (Bing/Copilot/ChatGPT Search, Yandex) cho các bài mới/đổi. Token Cloudflare nằm ở secret `CLOUDFLARE_API_TOKEN` của repo.
 3. Chờ ~6 phút rồi WebFetch kiểm tra 1–2 bài mới trên `https://qhubherbal.com/kien-thuc/<slug>/`. Nếu chưa lên: WebFetch `https://github.com/qhubcommerce/qhub-website/actions` xem lượt chạy "QHUB HERBAL – build & deploy" có lỗi không, sửa và push lại.
@@ -71,5 +78,5 @@ Cuối mỗi lần chạy, gửi SendUserMessage ngắn gồm:
 - đêm thứ mấy;
 - 12 tiêu đề đã viết;
 - đã đẩy lên GitHub và web đã có bài chưa (kết quả WebFetch);
-- tổng tiến độ (x/600).
+- tổng tiến độ (x/734).
 

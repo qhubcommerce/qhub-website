@@ -149,7 +149,7 @@ def page(p):
   <div class="wrap pd-two">
     <div>
       <h2>Bên trong một túi trà</h2>
-      <p class="sub">{len(p['ing'])} nguyên liệu thảo mộc. Thành phần và tỷ lệ được ghi rõ trên hộp.</p>
+      <p class="sub">{len(p['ing'])} nguyên liệu thảo mộc. {"Thành phần và tỷ lệ được ghi rõ trên hộp." if any('%' in x for x in p['ing']) else "Thành phần được ghi rõ trên hộp."}</p>
       <ul class="pd-ing">{ings}</ul>
     </div>
     <figure class="pd-fig"><img src="g-{i}-2.jpg" alt="Thành phần {e(p['name'])}" loading="lazy" decoding="async" width="1080" height="1080"></figure>

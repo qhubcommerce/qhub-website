@@ -63,11 +63,11 @@ def meta_desc(p):
 
 def page(p):
     i=p['id']; url='https://qhub.com.vn/'+p['slug']
-    gal=[(f'p-{i}-sq.jpg',f"Hộp {p['name']}",True)]+[(f'g-{i}-{k}.jpg',f"{p['name']} — {H['galleryLabels'][k]}",False) for k in range(1,6)]
+    gal=[(f'g-{i}-{k}.jpg',f"{p['name']} — {H['galleryLabels'][k]}",k==1) for k in range(1,6)]
     thumbs=''.join(f'<button type="button" data-src="{s}" data-alt="{e(a)}"aria-pressed="{"true" if n==0 else "false"}" aria-label="Xem ảnh: {e(a)}"><img src="{s}" alt="" loading="lazy" decoding="async"></button>' for n,(s,a,b) in enumerate(gal))
     ings=''.join((lambda m:f'<li><span>{e(m.group(1))}</span>'+(f'<b>{m.group(2)}</b>' if m.group(2) else '')+'</li>')(re.match(r'(.+?)(?: (\d+%))?$',x)) for x in p['ing'])
     ing_plain=', '.join(p['ing'])
-    others=''.join(f'''<a class="mini" href="{o['slug']}" style="--pc:{o['color']};--pt:{o['tint']}"><span class="mi"><img src="p-{o['id']}.jpg" alt="" loading="lazy" decoding="async"></span><b>{e(o['name'])}</b><small>{e(o['tagline'])}</small></a>''' for o in P if o['id']!=i)
+    others=''.join(f'''<a class="mini" href="{o['slug']}" style="--pc:{o['color']};--pt:{o['tint']}"><span class="mi"><img src="g-{o['id']}-2.jpg" alt="" loading="lazy" decoding="async"></span><b>{e(o['name'])}</b><small>{e(o['tagline'])}</small></a>''' for o in P if o['id']!=i)
     ld={"@context":"https://schema.org","@type":"Product","name":p['name'],"sku":"QHH-"+i.upper(),
         "image":['https://qhub.com.vn/'+g[0] for g in gal],"description":p['desc'],
         "brand":{"@type":"Brand","name":"QHUB HERBAL","logo":"https://qhub.com.vn/herbal-symbol-forest.png"},"category":"Trà thảo mộc túi lọc",
@@ -96,7 +96,7 @@ def page(p):
 <meta property="og:description" content="{e(p['tagline'])} {vnd(H['price'])}/hộp (giá gốc {vnd(H['priceOld'])}), mua 2 tặng 1.">
 <meta property="og:url" content="{url}">
 <meta property="og:site_name" content="QHUB Commerce">
-<meta property="og:image" content="https://qhub.com.vn/p-{i}-sq.jpg">
+<meta property="og:image" content="https://qhub.com.vn/g-{i}-1.jpg">
 <meta name="theme-color" content="{p['color']}">
 <link rel="icon" href="/favicon.ico" sizes="48x48">
 <link rel="icon" href="/favicon-96x96.png" type="image/png" sizes="96x96">
@@ -121,7 +121,7 @@ def page(p):
 <section class="pd-top" id="mua">
   <div class="wrap">
     <div class="pd-gallery">
-      <div class="pd-main"><span class="badge">Mua 2 tặng 1</span><img src="p-{i}-sq.jpg" alt="Hộp {e(p['name'])}" width="1000" height="1000" fetchpriority="high"></div>
+      <div class="pd-main"><img src="g-{i}-1.jpg" alt="{e(p['name'])} — combo mua 2 tặng 1" width="1080" height="1080" fetchpriority="high"></div>
       <div class="pd-thumbs">{thumbs}</div>
     </div>
     <div class="pd-info">

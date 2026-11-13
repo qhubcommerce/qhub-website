@@ -309,7 +309,7 @@ section{scroll-margin-top:70px}
 .products{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
 .product{--pc:var(--forest);--pt:#EEF3EE;background:#fff;border-radius:var(--radius-l);overflow:hidden;display:flex;flex-direction:column;box-shadow:0 0 0 1px #E7DFCB;transition:box-shadow .2s}
 .product:hover{box-shadow:0 0 0 1px #E7DFCB,0 18px 40px -22px rgba(23,63,53,.35)}
-.product .pimg{position:relative;display:block;aspect-ratio:4/5;background:var(--pt);overflow:hidden}
+.product .pimg{position:relative;display:block;aspect-ratio:1/1;background:var(--pt);overflow:hidden}
 .product .pimg img{width:100%;height:100%;object-fit:cover;transition:transform .5s cubic-bezier(.2,.7,.2,1)}
 .product:hover .pimg img{transform:scale(1.03)}
 .badge{position:absolute;z-index:2;left:14px;top:14px;background:var(--gold);color:#fff;font-weight:800;font-size:13px;padding:6px 11px;border-radius:999px}
@@ -472,7 +472,7 @@ section{scroll-margin-top:70px}
 .pd-gallery{position:sticky;top:92px}
 .pd-main{position:relative;aspect-ratio:1/1;border-radius:var(--radius-l);overflow:hidden;background:var(--pt);box-shadow:0 0 0 1px rgba(0,0,0,.05)}
 .pd-main img{width:100%;height:100%;object-fit:cover}
-.pd-thumbs{display:grid;grid-template-columns:repeat(6,1fr);gap:10px;margin-top:12px}
+.pd-thumbs{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;margin-top:12px}
 .pd-thumbs button{padding:0;border:0;background:var(--pt);aspect-ratio:1/1;border-radius:12px;overflow:hidden;cursor:pointer;box-shadow:0 0 0 1px rgba(0,0,0,.06);opacity:.72;transition:opacity .15s,box-shadow .15s}
 .pd-thumbs button:hover{opacity:1}
 .pd-thumbs button[aria-pressed="true"]{opacity:1;box-shadow:0 0 0 2.5px var(--pc)}
@@ -536,7 +536,7 @@ section{scroll-margin-top:70px}
 .pd-more-head{display:flex;justify-content:space-between;align-items:baseline;gap:20px;flex-wrap:wrap;margin-bottom:24px}
 .pd-more{display:grid;grid-template-columns:repeat(6,1fr);gap:16px}
 .mini{display:flex;flex-direction:column;text-decoration:none;color:#13241B}
-.mini .mi{display:block;aspect-ratio:4/5;border-radius:16px;overflow:hidden;background:var(--pt);margin-bottom:10px;box-shadow:0 0 0 1px rgba(0,0,0,.05)}
+.mini .mi{display:block;aspect-ratio:1/1;border-radius:16px;overflow:hidden;background:var(--pt);margin-bottom:10px;box-shadow:0 0 0 1px rgba(0,0,0,.05)}
 .mini img{width:100%;height:100%;object-fit:cover;transition:transform .4s}
 .mini:hover img{transform:scale(1.04)}
 .mini b{font-size:15.5px;line-height:1.3}
@@ -703,7 +703,7 @@ section{scroll-margin-top:70px}
 
 /* Sản phẩm mới: thẻ ngang chiếm trọn hàng, 6 vị còn lại xếp đều 2 hàng */
 .product.feat{grid-column:1/-1;flex-direction:row}
-.product.feat .pimg{flex:0 0 44%;aspect-ratio:auto;min-height:420px}
+.product.feat .pimg{flex:0 0 44%;aspect-ratio:1/1;min-height:0}
 .product.feat .pbody{border-top:0;border-left:4px solid var(--pc);padding:44px 52px;justify-content:center}
 .product.feat .tag{font-size:16px}
 .product.feat h3{font-size:32px;margin-bottom:12px}

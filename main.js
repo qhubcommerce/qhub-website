@@ -71,11 +71,11 @@
       art.className = "product" + (p.isNew ? " feat" : ""); art.id = p.id;
       art.style.setProperty("--pc", p.color); art.style.setProperty("--pt", p.tint);
       art.innerHTML =
-        '<a class="pimg" href="' + p.slug + '"><span class="badge">Mua 2 tặng 1</span></a>' +
+        '<a class="pimg" href="' + p.slug + '"></a>' +
         '<div class="pbody"><p class="tag"></p><h3><a href="' + p.slug + '"></a></h3><p class="ing"></p><p class="desc"></p>' +
         '<div class="price"><span class="now">' + vnd(H.price) + '</span><span class="old">' + vnd(H.priceOld) + '</span><span class="off">-' + pct + '%</span></div>' +
         '<div class="row"><button class="btn btn-forest" type="button" data-buy="' + p.id + '">Mua ngay</button><a class="btn btn-line" href="' + p.slug + '">Xem chi tiết</a></div></div>';
-      $(".pimg", art).appendChild(img("p-" + p.id + (p.isNew ? "-sq" : "") + ".jpg", "Hộp " + p.name + " QHUB HERBAL"));
+      $(".pimg", art).appendChild(img("g-" + p.id + "-2.jpg", p.name + " QHUB HERBAL – thành phần"));
       if (p.isNew) { var nb = document.createElement("span"); nb.className = "badge badge-new"; nb.textContent = "Mới ra mắt"; $(".pimg", art).appendChild(nb); }
       $(".tag", art).textContent = p.tagline;
       $("h3 a", art).textContent = p.name;

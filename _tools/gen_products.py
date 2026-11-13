@@ -24,6 +24,8 @@ STORY={
        "Trà Lá Ổi Mix Lá Sen có vị thanh mát của lá sen, hương ngũ cốc của gạo lứt rang, cùng lá ổi và giảo cổ lam. Ngọt nhẹ từ cỏ ngọt, không cần thêm đường — một tách trà dễ uống để khép lại bữa ăn."],
 'dta':["Deadline, việc nhà, màn hình cả ngày. Tâm trí hiếm khi có lúc được nghỉ.",
        "Trà Dưỡng Tâm An là năm phút cho riêng mình: hương thơm hoa cúc, vị thanh của tâm sen, dịu nhẹ của lạc tiên, cùng đinh lăng. Bốn vị tinh gọn trong mỗi túi trà — một khoảng lặng để lắng lại, rồi bước tiếp nhẹ nhõm hơn."],
+'dn':["Nét tươi tắn không đến từ một lớp phấn, mà từ những ngày ngủ đủ, ăn lành và lòng nhẹ nhõm. Giữa lịch làm việc kín, màn hình từ sáng đến tối và những ly trà sữa thay bữa phụ, người phụ nữ hiếm khi có vài phút cho riêng mình.",
+      "Trà Dưỡng Nhan gói chín vị hoa và thảo mộc: hoa hồng, kỷ tử, táo đỏ, đông trùng hạ thảo, cùng hoa nhài, tía tô, lá sen, hoa cúc và cỏ ngọt. Hương hoa dịu ngọt, hậu ngọt thanh mà không thêm đường, không caffeine — năm phút mỗi ngày để nâng niu chính mình, và cũng là món quà tinh tế cho mẹ, vợ, bạn gái."],
 }
 vnd=lambda n:f"{n:,}".replace(',','.')+'đ'
 pct=round((1-H['price']/H['priceOld'])*100)
@@ -36,7 +38,7 @@ def header():
       <span>QHUB<small>COMMERCE</small></span>
     </a>
     <nav class="nav" id="nav" aria-label="Điều hướng">
-      <a href="qhub-herbal.html#san-pham">Sáu vị trà</a>
+      <a href="qhub-herbal.html#san-pham">Bảy vị trà</a>
       <a href="/kien-thuc/">Kiến thức</a>
       <a href="qhub-herbal.html">QHUB HERBAL</a>
       <a href="./#lam-gi">QHUB Commerce làm gì</a>
@@ -213,7 +215,7 @@ def page(p):
 
 <section class="pd-sec pd-more-wrap">
   <div class="wrap">
-    <div class="pd-more-head"><h2>Các vị khác của QHUB HERBAL</h2><a class="link-forest" href="qhub-herbal.html#san-pham">Xem cả sáu vị</a></div>
+    <div class="pd-more-head"><h2>Các vị khác của QHUB HERBAL</h2><a class="link-forest" href="qhub-herbal.html#san-pham">Xem cả bảy vị</a></div>
     <div class="pd-more">{others}</div>
   </div>
 </section>

@@ -72,6 +72,17 @@ window.QHUB_HERBAL = {
       fit: "Người làm việc nhiều với màn hình, lịch kín cả ngày",
       tcb: "36/ANH KHOI/2026",
       note: "Không dùng cho người mẫn cảm với bất kỳ thành phần nào. Phụ nữ mang thai, cho con bú, trẻ em, người dị ứng họ Cúc hay đang dùng thuốc: hỏi ý kiến bác sĩ trước khi dùng."
+    },
+    {
+      id: "dn", slug: "tra-duong-nhan.html",
+      name: "Trà Dưỡng Nhan", short: "Dưỡng Nhan",
+      tagline: "Hương hoa dịu ngọt, nâng niu nét xuân.",
+      color: "#8A3B2E", tint: "#FBEDE6",
+      ing: ["Lá sen", "Tía tô", "Hoa hồng", "Hoa nhài", "Hoa cúc", "Táo đỏ", "Kỷ tử", "Đông trùng hạ thảo", "Cỏ ngọt"],
+      desc: "Chín vị hoa và thảo mộc: hoa hồng, hoa nhài, táo đỏ, kỷ tử, đông trùng hạ thảo cùng lá sen, tía tô, hoa cúc. Hương hoa dịu ngọt từ cỏ ngọt, không thêm đường, không caffeine.",
+      fit: "Phụ nữ bận rộn hay thức khuya, muốn thay trà sữa, nước ngọt; hoặc làm quà cho mẹ, vợ, bạn gái",
+      tcb: "39/ANH KHOI/2026",
+      note: "Không dùng cho người mẫn cảm với bất kỳ thành phần nào. Phụ nữ có thai, cho con bú, trẻ em và người đang dùng thuốc nên hỏi ý kiến bác sĩ trước khi dùng. Người dị ứng phấn hoa, họ Cúc nên thử lượng nhỏ trước. Người dùng thuốc chống đông (warfarin) hỏi bác sĩ vì kỷ tử có thể tương tác."
     }
   ]
 };

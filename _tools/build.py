@@ -447,7 +447,7 @@ ORG = {"@context": "https://schema.org", "@type": "Organization", "@id": SITE + 
 
 STATIC = [("", 1.0), ("qhub-herbal.html", 0.8), ("tra-ca-gai-diep-ha-chau.html", 0.7), ("tra-nam-vuong.html", 0.7),
           ("tra-xau-ho-tim-tam-sen.html", 0.7), ("tra-ngay-dau-ve.html", 0.7), ("tra-la-oi-mix-la-sen.html", 0.7),
-          ("tra-duong-tam-an.html", 0.7), ("chinh-sach.html", 0.3), ("kien-thuc/", 0.9), ("tac-gia/nguyen-van-quang/", 0.5), ("gioi-thieu/", 0.8), ("dich-vu/", 0.9)] + [(f"dich-vu/{x['slug']}/", 0.9) for x in SERVICES]
+          ("tra-duong-tam-an.html", 0.7), ("tra-duong-nhan.html", 0.7), ("chinh-sach.html", 0.3), ("kien-thuc/", 0.9), ("tac-gia/nguyen-van-quang/", 0.5), ("gioi-thieu/", 0.8), ("dich-vu/", 0.9)] + [(f"dich-vu/{x['slug']}/", 0.9) for x in SERVICES]
 
 
 def build_feeds(posts):
@@ -586,7 +586,7 @@ def build_about():
 <h2>Đối tác đồng hành</h2>
 <p>QHUB đang đồng hành xây dựng và vận hành kênh bán hàng trực tuyến cùng các thương hiệu CHEF BIGGY (thực phẩm, đồ ăn vặt), Quang Linh Food (QL Food, thực phẩm thuộc hệ sinh thái Quang Linh Vlog), Muse và Bübchen (chăm sóc mẹ &amp; bé).</p>
 <h2>Thương hiệu QHUB HERBAL</h2>
-<p>QHUB Commerce là chủ sở hữu <a href="https://qhubherbal.com/">QHUB HERBAL</a>, thương hiệu trà thảo mộc túi lọc với sáu vị trà. Đây cũng là nơi đội QHUB tự áp dụng mọi quy trình trước khi làm cho doanh nghiệp đối tác.</p>
+<p>QHUB Commerce là chủ sở hữu <a href="https://qhubherbal.com/">QHUB HERBAL</a>, thương hiệu trà thảo mộc túi lọc với bảy vị trà. Đây cũng là nơi đội QHUB tự áp dụng mọi quy trình trước khi làm cho doanh nghiệp đối tác.</p>
 <h2>Kiến thức QHUB chia sẻ</h2>
 <p>Mục <a href="/kien-thuc/">Kiến thức</a> tổng hợp kinh nghiệm thực chiến về TikTok Shop, Shopee, phí sàn, quảng cáo GMV Max, lịch sale, Facebook, YouTube, Instagram, Threads và website chuẩn SEO.</p>
 <h2>Câu hỏi thường gặp về QHUB</h2>

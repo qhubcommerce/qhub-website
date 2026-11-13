@@ -235,3 +235,115 @@ products: duong-nhan
 Đường ảnh hưởng làn da qua quá trình glycation. Bài viết giải thích điều khoa học đã biết và cách bớt đường hợp lý.
 
 [[buy:duong-nhan]]
+
++++
+slug: tia-to-la-gi
+title: Tía tô là gì? Lá tím ấm bụng trong căn bếp Việt
+desc: Tía tô là gì? Đặc điểm lá tía tô, thành phần, cách dùng trong bữa ăn Việt, tính vị theo quan niệm phương Đông và những lưu ý an toàn khi dùng tía tô thường xuyên.
+cat: thao-moc
+date: 2026-11-14
+products: duong-nhan
++++
+Tía tô là loại rau thơm quen thuộc trong bữa ăn Việt. Bài viết giới thiệu đặc điểm, thành phần, cách dùng và lưu ý khi dùng tía tô.
+
+[[buy:duong-nhan]]
+
++++
+slug: hoa-nhai-la-gi
+title: Hoa nhài là gì? Trà lài thơm dịu và lưu ý caffeine
+desc: Hoa nhài là gì? Phân biệt hoa nhài và trà lài, cách ướp trà lài truyền thống, trà lài có bao nhiêu caffeine, cách pha thơm dịu và ai cần lưu ý khi uống.
+cat: thao-moc
+date: 2026-11-14
+products: duong-nhan
++++
+Hoa nhài làm nên hương thơm của trà lài. Bài viết giải thích hoa nhài, trà lài, lượng caffeine và cách thưởng thức hợp lý.
+
+[[buy:duong-nhan]]
+
++++
+slug: gan-nhiem-mo-do-1-2-3-khac-nhau
+title: Gan nhiễm mỡ độ 1, 2, 3 khác nhau thế nào?
+desc: Gan nhiễm mỡ độ 1, 2, 3 khác nhau thế nào? Cách siêu âm phân độ, ý nghĩa với xơ hóa gan, xét nghiệm nên làm thêm và việc cần thay đổi ở từng mức độ.
+cat: cam-nang
+date: 2026-11-14
+products: ca-gai-diep-ha-chau
++++
+Phân độ gan nhiễm mỡ trên siêu âm nói lên điều gì? Bài viết giải thích sự khác nhau giữa độ 1, 2, 3 và việc nên làm.
+
+[[buy:ca-gai-diep-ha-chau]]
+
++++
+slug: dau-moi-goi-lung-o-nam-gioi-tuoi-40
+title: Đau mỏi gối, lưng ở nam giới tuổi 40: nguyên nhân thường gặp
+seo_title: Đau mỏi gối, lưng ở nam giới tuổi 40: vì sao?
+desc: Đau mỏi gối, lưng ở nam giới tuổi 40 do đâu? Nguyên nhân thường gặp, dấu hiệu cần đi khám sớm, bài tập và thói quen giúp lưng, gối khỏe hơn mỗi ngày.
+cat: cam-nang
+date: 2026-11-14
+products: nam-vuong
++++
+Tuổi 40 là lúc nhiều anh em bắt đầu thấy mỏi lưng, đau gối. Bài viết tổng hợp nguyên nhân thường gặp và việc nên làm.
+
+[[buy:nam-vuong]]
+
++++
+slug: melatonin-nhung-dieu-can-biet-truoc-khi-dung
+title: Melatonin: những điều cần biết trước khi dùng
+desc: Melatonin là gì, hoạt động ra sao, ai có thể cân nhắc dùng, liều và thời điểm, tác dụng phụ, tương tác thuốc và vì sao nên hỏi bác sĩ trước khi dùng melatonin.
+cat: cam-nang
+date: 2026-11-14
+products: xau-ho-tim-tam-sen
++++
+Melatonin là hormone điều hòa nhịp ngày đêm. Bài viết giải thích những điều cần biết trước khi dùng melatonin.
+
+[[buy:xau-ho-tim-tam-sen]]
+
++++
+slug: lac-noi-mac-tu-cung-dau-hieu-de-bi
+title: Lạc nội mạc tử cung: dấu hiệu dễ bị bỏ qua
+desc: Lạc nội mạc tử cung là gì, dấu hiệu dễ bị bỏ qua như đau bụng kinh dữ dội, đau khi quan hệ, khó có thai; cách chẩn đoán và khi nào cần đi khám phụ khoa.
+cat: cam-nang
+date: 2026-11-14
+products: ngay-dau-ve
++++
+Lạc nội mạc tử cung thường bị chẩn đoán muộn vì dễ nhầm với đau bụng kinh thông thường. Bài viết giúp bạn nhận diện dấu hiệu.
+
+[[buy:ngay-dau-ve]]
+
++++
+slug: thu-tu-an-rau-dam-tinh-bot-co-tac
+title: Thứ tự ăn rau – đạm – tinh bột có tác dụng không?
+seo_title: Thứ tự ăn rau – đạm – tinh bột có tác dụng không?
+desc: Thứ tự ăn rau – đạm – tinh bột có tác dụng không? Nghiên cứu về đường huyết sau ăn, ai nên áp dụng, cách làm với bữa cơm Việt và những hiểu lầm thường gặp.
+cat: cam-nang
+date: 2026-11-14
+products: la-oi-mix-la-sen
++++
+Ăn rau trước, cơm sau có thật sự khác biệt? Bài viết tổng hợp nghiên cứu và cách áp dụng vào bữa cơm Việt.
+
+[[buy:la-oi-mix-la-sen]]
+
++++
+slug: hoi-chung-kiet-suc-burnout-theo-who-dau-hieu
+title: Hội chứng kiệt sức (burnout) theo WHO: dấu hiệu nhận biết
+seo_title: Burnout (kiệt sức) theo WHO: dấu hiệu nhận biết
+desc: Hội chứng kiệt sức (burnout) theo WHO là gì? Ba dấu hiệu nhận biết, khác gì trầm cảm và căng thẳng thông thường, cách phục hồi và khi nào cần gặp chuyên gia.
+cat: cam-nang
+date: 2026-11-14
+products: duong-tam-an
++++
+WHO mô tả burnout là hiện tượng nghề nghiệp do căng thẳng công việc kéo dài. Bài viết giúp bạn nhận biết dấu hiệu và cách phục hồi.
+
+[[buy:duong-tam-an]]
+
++++
+slug: tra-duong-nhan-va-tra-ngay-dau-ve
+title: Trà Dưỡng Nhan và Trà Ngày Dâu Về: chọn loại nào cho bạn
+seo_title: Trà Dưỡng Nhan hay Trà Ngày Dâu Về: chọn loại nào?
+desc: So sánh Trà Dưỡng Nhan và Trà Ngày Dâu Về của QHUB HERBAL: thành phần, hương vị, thời điểm uống, đối tượng cần lưu ý và cách chọn loại trà hợp với bạn.
+cat: san-pham
+date: 2026-11-14
+products: duong-nhan,ngay-dau-ve
++++
+Hai dòng trà dành cho phái nữ của QHUB HERBAL có thành phần và hương vị khác nhau. Bài viết giúp bạn chọn loại phù hợp.
+
+[[buy:duong-nhan]]

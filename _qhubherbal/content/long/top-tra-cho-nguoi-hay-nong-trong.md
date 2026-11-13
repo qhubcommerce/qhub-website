@@ -108,9 +108,9 @@ Nếu bạn hay lạnh bụng mà vẫn hay nhiệt miệng, hãy chọn **bài 
 
 ## Gợi ý từ QHUB HERBAL (sản phẩm của chúng tôi)
 
-Phần này giới thiệu sản phẩm của QHUB. **Trà Cà Gai – Diệp Hạ Châu** phối cà gai leo 40% (vị hơi ấm làm chủ), diệp hạ châu 15%, xạ đen, an xoa, giảo cổ lam và cỏ ngọt – thanh mà không quá lạnh, hợp với cả nam lẫn nữ hay nóng trong, nổi mụn. Uống ấm buổi sáng hoặc pha loãng một bình uống thay nước trong ngày.
+Phần này giới thiệu sản phẩm của QHUB. **Trà Cà Gai – Diệp Hạ Châu** phối cà gai leo 40% (vị hơi ấm làm chủ), diệp hạ châu 15%, xạ đen, an xoa, giảo cổ lam và cỏ ngọt – thanh mà không quá lạnh, hợp với cả nam lẫn nữ hay nóng trong, thích vị thanh. Uống ấm buổi sáng hoặc pha loãng một bình uống thay nước trong ngày.
 
-Nếu nóng trong đi kèm đầy bụng sau những bữa nhiều dầu mỡ, **Trà Lá Ổi Mix Lá Sen** là người bạn đồng hành sau bữa ăn.
+Nếu bạn hay có những bữa nhiều dầu mỡ, **Trà Lá Ổi Mix Lá Sen** là thức uống thanh mát, thơm mùi gạo rang để đồng hành sau bữa ăn.
 
 [[buy:ca-gai-diep-ha-chau]]
 

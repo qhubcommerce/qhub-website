@@ -1,6 +1,6 @@
 +++
 desc: So sánh chi tiết 7 dòng trà QHUB HERBAL: thành phần, tính vị, hương vị, thời điểm uống, dành cho ai, lưu ý. Kèm cách chọn theo nhu cầu, cách kết hợp trong ngày và gợi ý quà tặng theo người nhận.
-- Nên chọn dòng trà QHUB nào đầu tiên? :: Hãy bắt đầu từ điều bạn thấy rõ nhất ở mình: nóng trong nổi mụn → Cà Gai – Diệp Hạ Châu; khó ngủ → Xấu Hổ Tím – Tâm Sen; đầy bụng → Lá Ổi Mix Lá Sen; căng thẳng → Dưỡng Tâm An; những ngày ấy → Ngày Dâu Về; nhanh mệt, mỏi lưng (nam) → Nam Vương.
+- Nên chọn dòng trà QHUB nào đầu tiên? :: Hãy bắt đầu từ khoảnh khắc bạn muốn có một tách trà: thức uống thanh mát thay nước ngọt ban ngày → Cà Gai – Diệp Hạ Châu; nghi thức thư giãn trước giờ ngủ → Xấu Hổ Tím – Tâm Sen; sau những bữa nhiều dầu mỡ → Lá Ổi Mix Lá Sen; khoảng lặng giữa ngày bận rộn → Dưỡng Tâm An; những ngày ấy → Ngày Dâu Về; tách trà ấm buổi sáng cho phái mạnh → Nam Vương.
 - Có thể uống hai loại trong một ngày không? :: Được. Nên dùng ở hai thời điểm khác nhau, ví dụ Dưỡng Tâm An buổi chiều và Xấu Hổ Tím – Tâm Sen buổi tối, hoặc Nam Vương buổi sáng và Lá Ổi Mix Lá Sen sau bữa trưa.
 - Dòng nào uống được buổi tối? :: Xấu Hổ Tím – Tâm Sen, Dưỡng Tâm An, Lá Ổi Mix Lá Sen (sau bữa tối). Không nên uống Nam Vương sát giờ ngủ.
 - Dòng nào không dùng cho phụ nữ mang thai? :: Không dùng Trà Ngày Dâu Về và Trà Nam Vương. Với các dòng khác, bạn nên hỏi ý kiến bác sĩ trước.

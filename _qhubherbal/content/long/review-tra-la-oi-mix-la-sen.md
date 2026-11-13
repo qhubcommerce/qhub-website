@@ -1,5 +1,5 @@
 +++
-desc: Mâm cơm nhà là để thương nhau – đừng để đầy bụng làm mất vui. Bài viết đầy đủ về Trà Lá Ổi Mix Lá Sen QHUB HERBAL: vì sao ta đầy bụng sau bữa ngon, người xưa nói gì về Tỳ Vị, 5 vị thảo mộc thanh mát và cách dùng cho cả nhà.
+desc: Mâm cơm nhà là để thương nhau – và khép lại bằng một tách trà thanh mát. Bài viết đầy đủ về Trà Lá Ổi Mix Lá Sen QHUB HERBAL: vì sao ta đầy bụng sau bữa ngon, người xưa nói gì về Tỳ Vị, 5 vị thảo mộc thanh mát và cách dùng cho cả nhà.
 - Trà Lá Ổi Mix Lá Sen có giúp giảm cân không? :: Trà là thức uống thanh mát, không phải sản phẩm giảm cân. Thay nước ngọt, trà sữa bằng trà không đường là một thói quen tốt, nhưng cân nặng phụ thuộc vào cả chế độ ăn, vận động và giấc ngủ.
 - Uống lúc nào là tốt nhất? :: Sau bữa ăn khoảng 15–30 phút, nhất là sau bữa nhiều dầu mỡ. Mùa hè có thể pha một bình để mát, uống thay nước trong ngày.
 - Người hay táo bón có uống được không? :: Lá ổi có tính làm se (thu liễm). Người hay táo bón nên uống vừa phải, uống loãng, kết hợp ăn nhiều rau và uống đủ nước.
@@ -104,9 +104,9 @@ Thêm một mẹo nhỏ của các bà: **xoa bụng theo chiều kim đồng h�
 
 ## Lời kết: để những bữa cơm luôn là niềm vui
 
-Chủ nhật tuần sau, sau bữa trưa, chị dâu pha một ấm Trà Lá Ổi Mix Lá Sen, rót mời bà trước, rồi đến bố, đến các em. Thằng út vẫn ăn ba bát, nhưng lần này nó bị cả nhà kéo đi bộ một vòng quanh xóm. Chiều hôm ấy, không ai nằm dài ôm bụng. Bà ngồi nhấp trà, cười: "Thơm như mùi cơm cháy ngày xưa".
+Chủ nhật tuần sau, sau bữa trưa, chị dâu pha một ấm Trà Lá Ổi Mix Lá Sen, rót mời bà trước, rồi đến bố, đến các em. Thằng út vẫn ăn ba bát, nhưng lần này nó bị cả nhà kéo đi bộ một vòng quanh xóm. Chiều hôm ấy, nhờ vòng đi bộ, không ai nằm dài ôm bụng. Bà ngồi nhấp trà, cười: "Thơm như mùi cơm cháy ngày xưa".
 
-Mâm cơm nhà là để thương nhau. Ăn ngon, ăn vui, rồi cùng nhau uống một tách trà thanh mát – để bữa cơm kết thúc không phải bằng cảm giác nặng nề, mà bằng những câu chuyện còn kéo dài mãi.
+Mâm cơm nhà là để thương nhau. Ăn ngon, ăn vừa, đi bộ một vòng, rồi cùng nhau uống một tách trà thanh mát – để bữa cơm khép lại bằng những câu chuyện còn kéo dài mãi.
 
 *Trà Lá Ổi Mix Lá Sen là thực phẩm. Sản phẩm này không phải là thuốc và không có tác dụng thay thế thuốc chữa bệnh.*
 

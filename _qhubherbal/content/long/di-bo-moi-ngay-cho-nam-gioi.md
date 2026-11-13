@@ -113,7 +113,7 @@ Dân gian Trung Hoa có câu: "**Phạn hậu bách bộ tẩu, hoạt đáo c�
 
 ## Một tách trà sau buổi đi bộ sáng
 
-Sau buổi đi bộ buổi sáng, một tách trà ấm là cách khởi đầu ngày mới thư thái. **Trà Nam Vương** của QHUB HERBAL phối ba kích, nhục thung dung, nấm ngọc cẩu, mú từn – nhóm vị ôn bổ quen thuộc dành cho phái mạnh trong kiến thức thảo mộc phương Đông – cùng kim tiền thảo, dứa dại; cỏ ngọt điều vị, không đường. Sau bữa tối đi bộ về, **Trà Lá Ổi Mix Lá Sen** là thức uống nhẹ bụng. Trà là thực phẩm – lợi ích sức khỏe chính đến từ đôi chân của bạn.
+Sau buổi đi bộ buổi sáng, một tách trà ấm là cách khởi đầu ngày mới thư thái. **Trà Nam Vương** của QHUB HERBAL phối ba kích, nhục thung dung, nấm ngọc cẩu, mú từn – nhóm vị ôn bổ quen thuộc dành cho phái mạnh trong kiến thức thảo mộc phương Đông – cùng kim tiền thảo, dứa dại; cỏ ngọt điều vị, không đường. Sau bữa tối đi bộ về, **Trà Lá Ổi Mix Lá Sen** là thức uống thanh mát. Trà là thực phẩm – lợi ích sức khỏe chính đến từ đôi chân của bạn.
 
 [[buy:nam-vuong]]
 

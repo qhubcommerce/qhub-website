@@ -123,7 +123,7 @@ Sau một tuần, bạn sẽ thấy rõ ngày nào miệng đắng nhiều – t
 
 ## Thức uống thanh mát cho những ngày "nóng trong"
 
-Khi đã điều chỉnh giờ ngủ, bữa tối và bớt rượu bia, nhiều người thích có thêm một thức uống thanh mát thay nước ngọt trong ngày. **Trà Cà Gai – Diệp Hạ Châu** của QHUB HERBAL phối cà gai leo 40%, diệp hạ châu 15%, cùng xạ đen, an xoa, giảo cổ lam – những vị quen thuộc theo quan niệm phương Đông giúp thanh nhiệt; cà gai leo tính ấm nhẹ giữ cho công thức không quá mát; cỏ ngọt điều vị, không cần đường. Pha loãng một bình uống rải rác trong ngày, đặc biệt những hôm phải tiếp khách.
+Khi đã điều chỉnh giờ ngủ, bữa tối và bớt rượu bia, nhiều người thích có thêm một thức uống thanh mát thay nước ngọt trong ngày. **Trà Cà Gai – Diệp Hạ Châu** của QHUB HERBAL phối cà gai leo 40%, diệp hạ châu 15%, cùng xạ đen, an xoa, giảo cổ lam – những vị mà theo quan niệm phương Đông thường dùng để thanh nhiệt; cà gai leo tính ấm nhẹ giữ cho công thức không quá mát; cỏ ngọt điều vị, không cần đường. Pha loãng một bình uống rải rác trong ngày, đặc biệt những hôm phải tiếp khách.
 
 [[buy:ca-gai-diep-ha-chau]]
 

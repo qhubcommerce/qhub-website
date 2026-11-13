@@ -122,7 +122,7 @@ Người xưa có câu: "**Lưu thủy bất hủ, hộ khu bất đố**" – n
 
 ## Một tách trà sau 5 phút tập
 
-Sau 5 phút tập, một tách trà ấm giúp bạn khởi đầu ngày mới thư thái. **Trà Nam Vương** của QHUB HERBAL với **ba kích, nhục thung dung, nấm ngọc cẩu, mú từn** – nhóm vị ôn bổ quen thuộc của phương Đông cho người lưng gối mỏi – phối kim tiền thảo, dứa dại, cỏ ngọt; bổ mà không nóng. Trà là thực phẩm, đồng hành cùng vận động – không thay thế việc thăm khám khi đau lưng có dấu hiệu cảnh báo.
+Sau 5 phút tập, một tách trà ấm giúp bạn khởi đầu ngày mới thư thái. **Trà Nam Vương** của QHUB HERBAL với **ba kích, nhục thung dung, nấm ngọc cẩu, mú từn** – nhóm vị mà theo quan niệm phương Đông mang tính ôn bổ – phối kim tiền thảo, dứa dại, cỏ ngọt cho vị ấm mà dịu. Trà là thực phẩm, đồng hành cùng vận động – không thay thế việc thăm khám khi đau lưng có dấu hiệu cảnh báo.
 
 [[buy:nam-vuong]]
 

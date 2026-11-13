@@ -8,8 +8,8 @@ cover: gallery/duong-tam-an-thanh-phan.webp
 products: duong-tam-an
 date: 2026-11-10
 order: 35
-- Uống Trà Dưỡng Tâm An ban ngày có buồn ngủ không? :: Trà có vị thanh dịu, giúp thư thái. Mỗi người cảm nhận khác nhau; nếu thấy buồn ngủ, hãy tránh lái xe ngay sau khi uống.
-- Trà Dưỡng Tâm An dành cho ai? :: Phù hợp với người hay căng thẳng, bồn chồn, cứng vai gáy, đặc biệt phụ nữ 18–40 tuổi chịu áp lực công việc.
+- Uống Trà Dưỡng Tâm An ban ngày có buồn ngủ không? :: Trà có vị thanh dịu, không caffeine. Mỗi người cảm nhận khác nhau; nếu thấy buồn ngủ, hãy tránh lái xe ngay sau khi uống.
+- Trà Dưỡng Tâm An dành cho ai? :: Phù hợp với người muốn có một khoảng lặng nhẹ nhàng giữa ngày bận rộn, đặc biệt phụ nữ 18–40 tuổi chịu áp lực công việc.
 - Có dùng cùng cà phê được không? :: Nên tách xa cà phê vài giờ để cảm nhận trọn vị thư thái của trà.
 +++
 Họp liên miên, deadline dồn dập, tin nhắn không ngừng… Đến chiều, vai gáy cứng đơ, đầu óc căng như dây đàn, lòng bồn chồn không rõ lý do. Bạn cần một **khoảng lặng**.
@@ -180,7 +180,7 @@ Ngồi máy tính 8 tiếng, cúi điện thoại thêm vài tiếng – không 
 
 ## Một tách trà sau 6 động tác
 
-Kết thúc 5 phút kéo giãn bằng một tách **Trà Dưỡng Tâm An** ấm – hương cúc dịu, giúp tâm trí thư thái.
+Kết thúc 5 phút kéo giãn bằng một tách **Trà Dưỡng Tâm An** ấm – hương cúc dịu, khép lại khoảng nghỉ thật nhẹ nhàng.
 
 [[buy:duong-tam-an]]
 

@@ -113,7 +113,7 @@ Người Nhật có thói quen uống trà sau bữa ăn; ông bà ta cũng hay 
 | Trà lá sen | Thanh nhiệt, sau bữa nhiều dầu mỡ | Lạnh bụng dùng vừa phải |
 | Trà gạo lứt rang | Ấm, thơm, dễ uống cho cả nhà | Ít lưu ý |
 
-## Trà Lá Ổi Mix Lá Sen – cho bữa cơm nhẹ bụng
+## Trà Lá Ổi Mix Lá Sen – thức uống thanh mát sau bữa cơm
 
 **Trà Lá Ổi Mix Lá Sen** của QHUB HERBAL kết hợp đúng những vị quen thuộc ở trên: lá ổi 50% làm chủ, lá sen 20%, giảo cổ lam, gạo lứt rang thơm như cơm cháy và cỏ ngọt. Uống ấm sau bữa ăn 15–30 phút, hoặc pha một bình cho cả nhà uống thay nước trong những bữa tiệc, bữa lẩu. Không đường, không caffeine.
 
@@ -123,7 +123,7 @@ Lưu ý: lá ổi có tính làm se, người hay táo bón nên dùng vừa ph�
 
 ## Lời kết
 
-Hằng bắt đầu từ một thay đổi nhỏ: mang cơm từ nhà, ăn chậm ở phòng nghỉ, xong bữa đi bộ một vòng quanh tòa nhà, pha một tách trà ấm mới quay lại bàn làm việc. Hai tuần sau, những buổi chiều ậm ạch thưa dần.
+Hằng bắt đầu từ một thay đổi nhỏ: mang cơm từ nhà, ăn chậm ở phòng nghỉ, xong bữa đi bộ một vòng quanh tòa nhà, pha một tách trà ấm mới quay lại bàn làm việc. Sau hai tuần ăn chậm và đi bộ đều đặn, những buổi chiều ậm ạch thưa dần.
 
 Bụng dạ là nơi phản ánh rõ nhất nhịp sống của chúng ta: vội vàng, căng thẳng thì bụng cũng "căng" theo. Ăn chậm lại một chút, đi bộ thêm một chút, thương cái bụng của mình hơn một chút – mỗi bữa ăn sẽ trở lại đúng nghĩa là niềm vui.
 

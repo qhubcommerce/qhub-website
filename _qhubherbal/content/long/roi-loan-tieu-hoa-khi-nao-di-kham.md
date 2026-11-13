@@ -117,7 +117,7 @@ Theo quan niệm phương Đông, **Tỳ Vị** (hệ tiêu hóa) là "gốc c�
 
 ## Về trà thảo mộc
 
-Sau những bữa ăn nhiều dầu mỡ, một tách trà ấm không caffeine có thể giúp bạn cảm thấy nhẹ nhõm hơn. **Trà Lá Ổi Mix Lá Sen** của QHUB HERBAL phối lá ổi, lá sen, giảo cổ lam, gạo lứt rang theo kiến thức thảo mộc phương Đông, phù hợp uống sau bữa ăn với người tiêu hóa bình thường. **Lưu ý:** lá ổi có nhiều tanin, có tính săn se – **người đang táo bón nên tạm ngưng**. Sản phẩm **không dùng để xử lý các triệu chứng tiêu hóa bất thường** và **không thay thế việc khám** khi có dấu hiệu báo động. Không dùng cho phụ nữ mang thai, cho con bú, trẻ em.
+Sau những bữa ăn nhiều dầu mỡ, nhiều người thích một tách trà ấm không caffeine cho cảm giác thanh mát. **Trà Lá Ổi Mix Lá Sen** của QHUB HERBAL phối lá ổi, lá sen, giảo cổ lam, gạo lứt rang theo kiến thức thảo mộc phương Đông, phù hợp uống sau bữa ăn với người tiêu hóa bình thường. **Lưu ý:** lá ổi có nhiều tanin, có tính săn se – **người đang táo bón nên tạm ngưng**. Sản phẩm **không dùng để xử lý các triệu chứng tiêu hóa bất thường** và **không thay thế việc khám** khi có dấu hiệu báo động. Không dùng cho phụ nữ mang thai, cho con bú, trẻ em.
 
 [[buy:la-oi-mix-la-sen]]
 

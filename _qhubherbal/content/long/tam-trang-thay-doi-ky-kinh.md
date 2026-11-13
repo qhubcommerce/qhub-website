@@ -124,7 +124,7 @@ Bác sĩ có thể giúp bằng nhiều cách: liệu pháp nhận thức – h�
 
 ## Một tách trà, một khoảng lặng
 
-Đôi khi, điều bạn cần chỉ là mười phút ngồi yên với một tách trà ấm – không điện thoại, không công việc, chỉ có hơi ấm trong lòng bàn tay và vài hơi thở chậm. **Trà Dưỡng Tâm An** của QHUB HERBAL phối lạc tiên, tâm sen, đinh lăng, hoa cúc theo hướng dưỡng tâm, an thần trong kiến thức thảo mộc phương Đông – không caffeine, không đường. Những ngày hành kinh, khi bụng lạnh và âm ỉ đau, **Trà Ngày Dâu Về** ấm áp với gừng, ngải cứu, táo đỏ là lựa chọn dịu dàng.
+Đôi khi, điều bạn cần chỉ là mười phút ngồi yên với một tách trà ấm – không điện thoại, không công việc, chỉ có hơi ấm trong lòng bàn tay và vài hơi thở chậm. **Trà Dưỡng Tâm An** của QHUB HERBAL phối lạc tiên, tâm sen, đinh lăng, hoa cúc – những vị mà theo quan niệm phương Đông thường dùng để dưỡng tâm – không caffeine, không đường. Những ngày hành kinh, một tách **Trà Ngày Dâu Về** ấm áp với gừng, ngải cứu, táo đỏ là cách dịu dàng để chiều chuộng bản thân.
 
 **Lưu ý:** không dùng khi mang thai, nghi có thai, đang cho con bú. Người đang dùng thuốc an thần, thuốc chống trầm cảm, thuốc chống đông nên hỏi bác sĩ trước. Trà là thức uống chăm sóc, **không thay thế việc khám và điều trị** khi có triệu chứng nặng.
 

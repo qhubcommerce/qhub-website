@@ -1,10 +1,10 @@
 +++
 desc: 7 loại trà thảo mộc cho người khó ngủ: tâm sen, lạc tiên, xấu hổ, hoa cúc, lá vông, táo nhân, đinh lăng. Vì sao ta mất ngủ, cách chọn trà theo kiểu mất ngủ, nghi thức trước giờ ngủ và dấu hiệu cần gặp bác sĩ.
 - Trà thảo mộc có thay được thuốc ngủ không? :: Không. Trà thảo mộc là thức uống thư giãn, không gây ngủ như thuốc. Mất ngủ kéo dài trên 3 tháng, ảnh hưởng sinh hoạt ban ngày, bạn nên gặp bác sĩ.
-- Uống trà an thần lúc nào? :: Khoảng 30–60 phút trước giờ ngủ, trong một nghi thức thư giãn (tắt màn hình, đèn dịu). Uống quá sát giờ ngủ dễ phải dậy đi vệ sinh.
+- Uống trà thảo mộc buổi tối lúc nào? :: Khoảng 30–60 phút trước giờ ngủ, trong một nghi thức thư giãn (tắt màn hình, đèn dịu). Uống quá sát giờ ngủ dễ phải dậy đi vệ sinh.
 - Người già khó ngủ có uống được không? :: Người lớn tuổi thường dùng được các vị dịu nhẹ như hoa cúc, lạc tiên, tâm sen liều nhỏ. Người đang dùng nhiều loại thuốc (huyết áp, tim mạch, an thần) cần hỏi bác sĩ trước.
-- Uống trà an thần có gây nghiện không? :: Các vị thảo mộc thông dụng như tâm sen, lạc tiên, hoa cúc không được xem là gây nghiện. Điều bạn "quen" là nghi thức thư giãn – một thói quen có lợi cho giấc ngủ.
-- Mất ngủ do căng thẳng nên uống gì ban ngày? :: Ban ngày có thể dùng trà dịu nhẹ, không caffeine như hoa cúc, lạc tiên để bớt căng thẳng; buổi tối dùng bài trà an thần. Quan trọng hơn là giảm caffeine sau 14 giờ và vận động mỗi ngày.
+- Uống trà thảo mộc buổi tối có gây nghiện không? :: Các vị thảo mộc thông dụng như tâm sen, lạc tiên, hoa cúc không được xem là gây nghiện. Điều bạn "quen" là nghi thức thư giãn – một thói quen có lợi cho giấc ngủ.
+- Mất ngủ do căng thẳng nên uống gì ban ngày? :: Ban ngày có thể dùng trà dịu nhẹ, không caffeine như hoa cúc, lạc tiên để bớt căng thẳng; buổi tối dùng bài trà thảo mộc buổi tối. Quan trọng hơn là giảm caffeine sau 14 giờ và vận động mỗi ngày.
 +++
 Có một nhóm người mà đêm nào cũng giống nhau: tắt đèn lúc 11 giờ, nằm xuống, và bắt đầu nghĩ. Nghĩ về cuộc họp ngày mai, về tin nhắn chưa trả lời, về câu nói hớ hồi chiều, về tiền nhà tháng sau. Đồng hồ nhích qua 12 giờ, rồi 1 giờ. Càng cố ngủ, càng tỉnh. Sáng hôm sau đầu óc như phủ sương, da xỉn, dễ cáu với cả người mình thương.
 
@@ -80,7 +80,7 @@ Trà chỉ thật sự phát huy khi nằm trong một **nghi thức** đều đ
 
 1. **21:00** – Tắt đèn trần, bật đèn vàng dịu, tắt thông báo điện thoại.
 2. **21:15** – Tắm nước ấm hoặc ngâm chân 10 phút.
-3. **21:30** – Pha một tách trà an thần, uống chậm, không màn hình.
+3. **21:30** – Pha một tách trà thảo mộc không caffeine, uống chậm, không màn hình.
 4. **21:45** – Viết ra giấy ba việc cần làm ngày mai.
 5. **22:00** – Đọc sách giấy, giãn cơ nhẹ, thở 4–7–8.
 6. **22:30** – Lên giường. Phòng tối, mát, yên tĩnh.

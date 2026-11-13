@@ -47,10 +47,10 @@ products: nam-vuong,ca-gai-diep-ha-chau
 
 | Nhu cầu | Thảo mộc phù hợp | Gợi ý |
 |---|---|---|
-| Mỏi lưng gối, nhanh mệt | Ba kích, nhục thung dung, nấm ngọc cẩu | Trà Nam Vương |
+| Ngồi nhiều, thích vị ấm | Ba kích, nhục thung dung, nấm ngọc cẩu | Trà Nam Vương |
 | Hay tiếp khách, nóng trong | Cà gai leo, diệp hạ châu, giảo cổ lam | Trà Cà Gai – Diệp Hạ Châu |
-| Khó ngủ | Xấu hổ, tâm sen, lạc tiên | Trà Xấu Hổ Tím – Tâm Sen |
-| Đầy bụng sau ăn | Lá ổi, lá sen, gạo lứt rang | Trà Lá Ổi Mix Lá Sen |
+| Nghi thức buổi tối | Xấu hổ, tâm sen, lạc tiên | Trà Xấu Hổ Tím – Tâm Sen |
+| Sau bữa nhiều dầu mỡ | Lá ổi, lá sen, gạo lứt rang | Trà Lá Ổi Mix Lá Sen |
 
 ## Tiêu chí chọn sản phẩm
 
@@ -206,7 +206,7 @@ Một hộp trà được chọn đúng người, kèm lời nhắn chân thành
 ## Gợi ý lời nhắn
 
 **Cho bố:**
-> "Bố ơi, con biết bố chẳng bao giờ kêu mệt. Mỗi sáng một tách trà, bố giữ sức khỏe cho con cháu nhé."
+> "Bố ơi, con biết bố chẳng bao giờ kêu mệt. Mỗi sáng nhâm nhi tách trà ấm, bố nhớ nghỉ ngơi, giữ sức khỏe cho con cháu nhé."
 
 **Cho chồng:**
 > "Anh vất vả vì cả nhà rồi. Từ nay để em chăm anh một chút."

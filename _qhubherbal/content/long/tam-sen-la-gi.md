@@ -183,7 +183,7 @@ Tự bóc, phơi và định lượng tâm sen không phải ai cũng có thời
 
 ## Lời kết
 
-Cô Hạnh mang câu hỏi của mình đến bác sĩ trong lần tái khám. Bác sĩ dặn cô vẫn có thể thưởng thức trà thảo mộc buổi tối, nhưng nên chọn loại pha loãng, uống ấm sau bữa tối chứ không uống lúc đói, và theo dõi xem có chóng mặt hay không. Quan trọng hơn, bác sĩ gợi ý cô đặt giờ đi ngủ và thức dậy cố định, gác lại tập bài chấm trước 9 giờ tối, ra khỏi giường khi nằm mãi không ngủ được.
+Cô Hạnh mang câu hỏi của mình đến bác sĩ trong lần tái khám. Bác sĩ lưu ý rằng nếu muốn uống trà thảo mộc buổi tối thì nên pha loãng, uống sau bữa tối chứ không uống lúc đói, và theo dõi xem có chóng mặt hay không. Quan trọng hơn, bác sĩ gợi ý cô đặt giờ đi ngủ và thức dậy cố định, gác lại tập bài chấm trước 9 giờ tối, ra khỏi giường khi nằm mãi không ngủ được.
 
 Tối hôm ấy, cô pha một tách trà nhỏ, ngồi bên cửa sổ. Vị đắng nhẹ làm cô nhớ mẹ, nhớ cái mẹt tre phơi mầm sen dưới hiên. Cô hiểu ra: thứ giúp mẹ lặng lòng ngày ấy không chỉ là mấy sợi mầm xanh, mà còn là khoảnh khắc mẹ cho phép mình ngồi xuống, chậm lại. Dùng tâm sen với sự hiểu biết, đúng người, đúng lượng, mới là cách giữ trọn nét thanh tâm mà người xưa trân quý.
 

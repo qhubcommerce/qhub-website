@@ -130,7 +130,7 @@ Phong thủy dân gian về phòng ngủ có nhiều quan niệm, trong đó m�
 
 ## Một tách trà – mảnh ghép cuối cùng của căn phòng yên bình
 
-Một căn phòng tối, mát, yên tĩnh cùng một nghi thức thư giãn trước khi ngủ – là công thức của những đêm ngon giấc. **Trà Dưỡng Tâm An** của QHUB HERBAL phối lạc tiên, tâm sen, đinh lăng, hoa cúc theo hướng dưỡng tâm, an thần trong kiến thức thảo mộc phương Đông – không caffeine, không đường. Một tách trà ấm bên ánh đèn vàng dịu, 30 phút trước khi lên giường, là lời chào tạm biệt nhẹ nhàng cho một ngày dài.
+Một căn phòng tối, mát, yên tĩnh cùng một nghi thức thư giãn trước khi ngủ – là công thức của những đêm ngon giấc. **Trà Dưỡng Tâm An** của QHUB HERBAL phối lạc tiên, tâm sen, đinh lăng, hoa cúc – những vị mà theo quan niệm phương Đông thường dùng để dưỡng tâm – không caffeine, không đường. Một tách trà ấm bên ánh đèn vàng dịu, 30 phút trước khi lên giường, là lời chào tạm biệt nhẹ nhàng cho một ngày dài.
 
 [[buy:duong-tam-an]]
 

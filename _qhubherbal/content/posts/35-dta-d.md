@@ -5,7 +5,7 @@ desc: Trà Dưỡng Tâm An có khiến buồn ngủ khi làm việc không? C�
 cat: san-pham
 products: duong-tam-an
 +++
-Trà Dưỡng Tâm An được phối để **thư thái mà không gắt** – đa số người dùng thấy tâm trí lắng lại, không buồn ngủ khi dùng lượng thông thường.
+Trà Dưỡng Tâm An có vị **thanh mà không gắt**, không chứa caffeine – nhưng cảm nhận mỗi người mỗi khác, nên lần đầu hãy thử vào lúc không phải lái xe hay làm việc cần tập trung cao.
 
 ## Nếu thấy buồn ngủ
 
@@ -326,7 +326,7 @@ Chị Nga bán quần áo online. Khách nhắn tin đến 1–2 giờ sáng, ch
 
 - Cài tin nhắn tự động sau 22h: "Shop sẽ phản hồi lúc 8h sáng."
 - Thuê thêm một bạn hỗ trợ giờ cao điểm.
-- Buổi chiều một tách trà, buổi tối một tách trà an thần.
+- Buổi chiều một tách trà, buổi tối một tách trà ấm không caffeine.
 - Chủ nhật nghỉ hẳn.
 
 "Khách không bỏ đi như mình sợ," chị cười. "Mà mình còn bán tốt hơn vì đầu óc tỉnh táo."

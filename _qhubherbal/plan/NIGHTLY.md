@@ -39,7 +39,7 @@ Lấy các dòng `status=todo` có `night` nhỏ nhất, 18 dòng (đúng như c
   - Tiêu đề (`title` của stub) tối đa khoảng 60 ký tự, từ khóa chính đứng đầu; `desc` 140–160 ký tự.
   - Nếu tiêu đề bài dài hơn 50 ký tự, thêm dòng `seo_title: <bản ngắn ≤ 50 ký tự, từ khóa chính đứng đầu>` vào khối `+++` của `content/long/<slug>.md` (đây là thẻ title Google hiển thị; tiêu đề H1 vẫn giữ bản đầy đủ).
   - Liên kết nội bộ tự nhiên tới 2–3 bài liên quan đã có trong `content/long` (dạng `[chữ](/kien-thuc/<slug>/)`).
-- **Tuân thủ nội dung:**
+- **Tuân thủ nội dung – ĐỌC KỸ `plan/QUY-TAC-QUANG-CAO.md` (R1–R7) TRƯỚC KHI VIẾT; giao file này cho mọi subagent viết bài.** Tóm tắt: trà là thực phẩm thông thường – không gán công dụng sức khỏe cho sản phẩm (không "giúp ngủ ngon/mát gan/giảm đau/nhẹ bụng/đẹp da…", không gọi "trà an thần/trà mát gan"); chỉ nói hương vị, nghi thức, thành phần, công năng truyền thống CỦA TỪNG VỊ kèm "theo quan niệm phương Đông"; không từ tuyệt đối (tốt nhất, số 1, duy nhất…); không bác sĩ/dược sĩ/cơ sở y tế (kể cả nhân vật minh họa) khuyên dùng trà; nhân vật minh họa không được khỏe lên "nhờ trà" – cải thiện phải gắn với lối sống, đi khám. `python3 checklong.py` không được có dòng `ADS` ở bài mới.
   - Không dùng: chữa, trị, điều trị (khi nói về sản phẩm), thần dược, cam kết 100%, tráng dương, cường dương, ích tinh, "Đông y" (thay bằng "thảo mộc/quan niệm phương Đông").
   - Không đưa ra tuyên bố bệnh lý cho sản phẩm. Không bịa đánh giá hay lời chứng thực khách hàng.
   - Bài về bệnh (gan, tiểu đường, mất ngủ…) phải khuyên đi khám, làm theo bác sĩ.

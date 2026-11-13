@@ -144,7 +144,7 @@ Sách *Hoàng Đế Nội Kinh* nêu nguyên tắc dưỡng sinh: "**thực ẩm
 
 ## Tách trà cho nguyên tắc số 12
 
-Một tách trà ấm không caffeine là "điểm neo" dễ thương cho nghi thức thư giãn buổi tối. **Trà Xấu Hổ Tím – Tâm Sen** của QHUB HERBAL lấy xấu hổ tím 30% làm chủ, phối tâm sen, lạc tiên, đinh lăng, hoa cúc vàng theo hướng thanh tâm, an thần trong kiến thức thảo mộc phương Đông; cỏ ngọt điều vị, không đường. Uống một tách vừa phải sau bữa tối – ấm lòng mà không lo tiểu đêm.
+Một tách trà ấm không caffeine là "điểm neo" dễ thương cho nghi thức thư giãn buổi tối. **Trà Xấu Hổ Tím – Tâm Sen** của QHUB HERBAL lấy xấu hổ tím 30% làm chủ, phối tâm sen, lạc tiên, đinh lăng, hoa cúc vàng – những vị mà theo quan niệm phương Đông thường dùng để thanh tâm; cỏ ngọt điều vị, không đường. Uống một tách vừa phải sau bữa tối – ấm lòng mà không lo tiểu đêm.
 
 [[buy:xau-ho-tim-tam-sen]]
 

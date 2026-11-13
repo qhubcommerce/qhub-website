@@ -123,7 +123,7 @@ Cảm giác lạnh bụng thường không nguy hiểm, nhưng hãy đi khám n�
 
 ## Một tách trà ấm cho bụng ấm
 
-**Trà Ngày Dâu Về** của QHUB HERBAL phối **ích mẫu, ngải cứu, cỏ máu, gừng, táo đỏ, mâm xôi, thiên niên kiện, cam thảo** – những thảo mộc mang tính ôn ấm trong kiến thức chăm sóc phụ nữ phương Đông. Một tách trà ấm mỗi chiều giúp chị em ấm bụng, dễ chịu hơn, đặc biệt những ngày hành kinh và mùa lạnh. Không caffeine, không thêm đường.
+**Trà Ngày Dâu Về** của QHUB HERBAL phối **ích mẫu, ngải cứu, cỏ máu, gừng, táo đỏ, mâm xôi, thiên niên kiện, cam thảo** – những thảo mộc mang tính ôn ấm trong kiến thức chăm sóc phụ nữ phương Đông. Một tách trà ấm mỗi chiều là khoảnh khắc ấm áp, dễ chịu cho chị em, nhất là những ngày ấy và mùa lạnh. Không caffeine, không thêm đường.
 
 **Lưu ý:** không dùng cho phụ nữ mang thai, nghi có thai, đang cho con bú; người ra kinh nhiều, đang dùng thuốc chống đông nên hỏi bác sĩ trước.
 

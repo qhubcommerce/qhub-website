@@ -3,7 +3,7 @@ desc: Khó ngủ uống gì? 10 thức uống giúp dễ vào giấc tự nhiên
 - Uống gì trước khi ngủ để ngủ ngon? :: Các thức uống ấm, không caffeine như sữa ấm, trà hoa cúc, trà tâm sen – lạc tiên, nước táo đỏ được nhiều người dùng. Uống trước giờ ngủ 30–60 phút, lượng vừa phải để không phải dậy đi vệ sinh.
 - Uống trà xanh buổi tối có mất ngủ không? :: Có thể. Trà xanh, trà đen, trà sữa, cà phê đều chứa caffeine. Người nhạy cảm nên ngừng sau 14 giờ.
 - Uống rượu cho dễ ngủ có được không? :: Không nên. Rượu giúp buồn ngủ lúc đầu nhưng làm giấc ngủ nông, hay tỉnh về khuya và sáng dậy mệt hơn.
-- Uống trà an thần mỗi tối có hại không? :: Các vị thông dụng như hoa cúc, tâm sen, lạc tiên dùng như thức uống với lượng vừa phải thường an toàn với người khỏe mạnh. Người đang dùng thuốc ngủ, thuốc an thần, phụ nữ mang thai nên hỏi bác sĩ.
+- Uống trà thảo mộc buổi tối mỗi tối có hại không? :: Các vị thông dụng như hoa cúc, tâm sen, lạc tiên dùng như thức uống với lượng vừa phải thường an toàn với người khỏe mạnh. Người đang dùng thuốc ngủ, thuốc an thần, phụ nữ mang thai nên hỏi bác sĩ.
 - Khó ngủ bao lâu thì nên đi khám? :: Khi khó ngủ từ 3 đêm mỗi tuần, kéo dài hơn 3 tháng, hoặc ảnh hưởng rõ đến sinh hoạt ban ngày, hoặc kèm ngáy to, ngưng thở khi ngủ, buồn bã kéo dài.
 +++
 Mười một giờ đêm, Tú – nhân viên marketing 29 tuổi – tắt laptop, nằm xuống giường. Mười một rưỡi, cô vẫn mở mắt. Mười hai giờ, cô cầm điện thoại "lướt một chút cho buồn ngủ". Một giờ sáng, cô bật dậy xuống bếp, mở tủ lạnh, tự hỏi: "Uống gì bây giờ cho dễ ngủ nhỉ?"

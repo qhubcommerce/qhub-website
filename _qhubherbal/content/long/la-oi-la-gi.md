@@ -145,7 +145,7 @@ Trà lá ổi không thay được việc theo dõi sức khỏe. Hãy đi khám
 
 ## Lời kết
 
-Bà Ngân cười khi nghe con gái kể chuyện trà lá ổi Nhật Bản: "Hóa ra ông bà mình cũng chẳng vô cớ mà uống". Nhưng chị Thu cũng dặn mẹ: lá ổi tốt nhất khi đi cùng bát cơm vơi bớt một chút, đĩa rau đầy hơn một chút, và buổi đi bộ chiều. Chiếc lá vườn nhà không phải phép màu, nhưng nó là lời nhắc dịu dàng mỗi ngày về một cách ăn uống chừng mực hơn.
+Bà Ngân cười khi nghe con gái kể chuyện trà lá ổi Nhật Bản: "Hóa ra ông bà mình cũng chẳng vô cớ mà uống". Nhưng chị Thu cũng dặn mẹ: lá ổi chỉ thật sự có ý nghĩa khi đi cùng bát cơm vơi bớt một chút, đĩa rau đầy hơn một chút, và buổi đi bộ chiều. Chiếc lá vườn nhà không phải phép màu, nhưng nó là lời nhắc dịu dàng mỗi ngày về một cách ăn uống chừng mực hơn.
 
 *Thông tin mang tính tham khảo, không thay thế chẩn đoán và tư vấn của bác sĩ. Trà Lá Ổi Mix Lá Sen là thực phẩm, không phải là thuốc và không có tác dụng thay thế thuốc chữa bệnh.*
 

@@ -34,8 +34,8 @@ Người dị ứng họ Cúc, phụ nữ có thai.
 
 +++
 slug: tra-ngu-ngon-loai-nao-tot
-title: Trà ngủ ngon loại nào tốt? Cách chọn trà an thần thảo mộc
-desc: Trà ngủ ngon loại nào tốt, nên chọn thành phần gì, cảnh giác với sản phẩm nào? Tiêu chí chọn trà an thần thảo mộc an toàn, hiệu quả cho người khó ngủ.
+title: Trà thảo mộc uống buổi tối loại nào tốt? Tiêu chí chọn an toàn
+desc: Trà ngủ ngon loại nào tốt, nên chọn thành phần gì, cảnh giác với sản phẩm nào? Tiêu chí chọn trà thảo mộc buổi tối an toàn, minh bạch, hiệu quả cho người khó ngủ.
 cat: san-pham
 products: xau-ho-tim-tam-sen
 +++
@@ -68,7 +68,7 @@ Sản phẩm quảng cáo "ngủ ngay sau 15 phút" hay hứa hẹn quá mức c
 
 +++
 slug: tra-xau-ho-tim-tam-sen-uong-luc-nao
-title: Trà Xấu Hổ Tím – Tâm Sen uống lúc nào tốt nhất? Cách dùng đúng
+title: Trà Xấu Hổ Tím – Tâm Sen uống lúc nào là hợp lý? Cách dùng đúng
 desc: Hướng dẫn dùng Trà Xấu Hổ Tím – Tâm Sen: thời điểm uống trước ngủ, lượng dùng, cách pha, kết hợp với nghi thức buổi tối và những lưu ý quan trọng.
 cat: san-pham
 products: xau-ho-tim-tam-sen
@@ -127,7 +127,7 @@ products: xau-ho-tim-tam-sen
 +++
 slug: tra-thao-moc-co-thay-duoc-thuoc-ngu-khong
 title: Trà thảo mộc có thay được thuốc ngủ không? Hiểu đúng để dùng đúng
-desc: Có nên bỏ thuốc ngủ để chuyển sang trà thảo mộc? Khác biệt giữa trà an thần và thuốc ngủ, vì sao không tự ý ngưng thuốc và vai trò thật sự của trà thảo mộc.
+desc: Có nên bỏ thuốc ngủ để chuyển sang trà thảo mộc? Khác biệt giữa trà thảo mộc và thuốc ngủ, vì sao không tự ý ngưng thuốc và vai trò thật sự của trà thảo mộc.
 cat: san-pham
 products: xau-ho-tim-tam-sen
 +++
@@ -158,11 +158,11 @@ Nếu bạn đang dùng thuốc ngủ và muốn dùng thêm trà, hãy hỏi b�
 +++
 slug: uong-tra-xau-ho-co-buon-ngu-ban-ngay-khong
 title: Uống Trà Xấu Hổ Tím – Tâm Sen buổi tối, sáng hôm sau có bị mệt, buồn ngủ không?
-desc: Uống trà an thần buổi tối có khiến sáng hôm sau uể oải, buồn ngủ không? Giải đáp và mẹo dùng đúng để ngủ ngon mà sáng dậy vẫn tỉnh táo.
+desc: Uống trà thảo mộc buổi tối có khiến sáng hôm sau uể oải, buồn ngủ không? Giải đáp và mẹo dùng đúng để ngủ ngon mà sáng dậy vẫn tỉnh táo.
 cat: san-pham
 products: xau-ho-tim-tam-sen
 +++
-Một lo lắng phổ biến: "Uống trà an thần rồi sáng mai có bị lừ đừ như uống thuốc ngủ không?"
+Một lo lắng phổ biến: "Uống trà thảo mộc buổi tối rồi sáng mai có bị lừ đừ như uống thuốc ngủ không?"
 
 ## Trà thảo mộc tác động nhẹ nhàng
 

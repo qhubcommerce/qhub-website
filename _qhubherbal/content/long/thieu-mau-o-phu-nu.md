@@ -156,7 +156,7 @@ Theo quan niệm phương Đông, những biểu hiện như da xanh, môi nhợ
 
 ## Một tách trà ấm – nhớ uống đúng lúc
 
-Với chị em đang chăm sóc cơ thể những ngày hành kinh, **Trà Ngày Dâu Về** của QHUB HERBAL là thức uống ấm phối **ích mẫu, ngải cứu, cỏ máu, gừng, táo đỏ, mâm xôi, thiên niên kiện, cam thảo** theo kiến thức thảo mộc phương Đông, giúp ấm bụng, dễ chịu hơn. Sản phẩm **không bổ sung sắt và không thay thế việc điều trị thiếu máu**. Như mọi loại trà, hãy uống **cách bữa ăn giàu sắt và viên sắt khoảng 1–2 giờ** để không ảnh hưởng hấp thu sắt.
+Với chị em đang chăm sóc cơ thể những ngày hành kinh, **Trà Ngày Dâu Về** của QHUB HERBAL là thức uống ấm phối **ích mẫu, ngải cứu, cỏ máu, gừng, táo đỏ, mâm xôi, thiên niên kiện, cam thảo** theo kiến thức thảo mộc phương Đông, cho cảm giác ấm áp, dễ chịu khi uống. Sản phẩm **không bổ sung sắt và không thay thế việc điều trị thiếu máu**. Như mọi loại trà, hãy uống **cách bữa ăn giàu sắt và viên sắt khoảng 1–2 giờ** để không ảnh hưởng hấp thu sắt.
 
 **Lưu ý:** không dùng cho phụ nữ mang thai, nghi có thai, đang cho con bú; người ra kinh nhiều, đang dùng thuốc chống đông nên hỏi bác sĩ trước.
 

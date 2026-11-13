@@ -129,7 +129,7 @@ Người già, trẻ nhỏ, người có bệnh mạn tính, người làm việ
 
 ## Một bình trà thanh mát cho người lớn
 
-Với người lớn trong nhà, một bình trà thảo mộc không đường pha loãng để tủ lạnh (uống mát vừa, không thêm đá) là lựa chọn thay nước ngọt. **Trà Lá Ổi Mix Lá Sen** của QHUB HERBAL với lá ổi, lá sen, giảo cổ lam, gạo lứt rang, cỏ ngọt có vị dịu, thơm ngũ cốc, hợp uống sau bữa ăn. Người hay nổi mụn, nhiệt miệng vì tiệc tùng, thức khuya có thể chọn **Trà Cà Gai – Diệp Hạ Châu**. Trà dành cho người trưởng thành; trẻ em, phụ nữ mang thai, cho con bú nên hỏi bác sĩ trước.
+Với người lớn trong nhà, một bình trà thảo mộc không đường pha loãng để tủ lạnh (uống mát vừa, không thêm đá) là lựa chọn thay nước ngọt. **Trà Lá Ổi Mix Lá Sen** của QHUB HERBAL với lá ổi, lá sen, giảo cổ lam, gạo lứt rang, cỏ ngọt có vị dịu, thơm ngũ cốc, hợp uống sau bữa ăn. Người thích vị thanh, hơi đắng nhẹ có thể chọn **Trà Cà Gai – Diệp Hạ Châu**. Trà dành cho người trưởng thành; trẻ em, phụ nữ mang thai, cho con bú nên hỏi bác sĩ trước.
 
 [[buy:la-oi-mix-la-sen]]
 

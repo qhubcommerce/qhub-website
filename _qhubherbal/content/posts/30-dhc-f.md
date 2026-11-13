@@ -126,7 +126,7 @@ Rồi một buổi pitching quan trọng, Minh quên mất số liệu mình đ�
 - **Đặt "giờ giới nghiêm" lúc 23h30**: tắt laptop, kể cả khi việc chưa xong.
 - Chuyển việc khó lên **buổi sáng** – lúc đầu óc tỉnh nhất.
 - Bỏ nước tăng lực, thay bằng **trà thảo mộc không đường** để trên bàn.
-- Buổi tối, pha một tách trà an thần thay vì lướt điện thoại.
+- Buổi tối, pha một tách trà buổi tối không caffeine thay vì lướt điện thoại.
 - Chạy bộ 3 buổi mỗi tuần cùng đồng đội.
 
 ## Ba tháng sau

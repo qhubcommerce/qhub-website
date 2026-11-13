@@ -276,7 +276,7 @@ Táo đỏ chứa đường tự nhiên, vitamin C, kali, các polysaccharide v�
 
 ## Táo đỏ trong Trà Ngày Dâu Về
 
-Táo đỏ là vị **Tá**, cho tách trà vị ngọt dịu, tự nhiên – để những ngày "đèn đỏ" bớt chút nhọc nhằn.
+Táo đỏ là vị **Tá**, cho tách trà vị ngọt dịu, tự nhiên – để những ngày "đèn đỏ" thêm chút ngọt ngào.
 
 [[buy:ngay-dau-ve]]
 

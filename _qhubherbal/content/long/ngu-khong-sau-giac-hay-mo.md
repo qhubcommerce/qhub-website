@@ -113,7 +113,7 @@ Những vị thảo mộc quen thuộc trong dân gian Việt cho người ngủ
 - Bứt rứt chân khi nằm, phải cử động mới dễ chịu.
 - Buồn chán, lo âu kéo dài.
 
-## Một tách trà cho giấc ngủ yên
+## Một tách trà cho buổi tối thư thả
 
 Một tách trà ấm không caffeine trong nghi thức buổi tối giúp báo cho cơ thể và tâm trí rằng đã đến lúc chậm lại. **Trà Xấu Hổ Tím – Tâm Sen** của QHUB HERBAL lấy xấu hổ tím 30% làm chủ, phối tâm sen, lạc tiên (thanh tâm, an thần theo quan niệm phương Đông), đinh lăng, hoa cúc vàng; cỏ ngọt điều vị. Uống ấm một tách vừa phải sau bữa tối, kết hợp tắm ấm, tắt màn hình và vài phút thở chậm.
 

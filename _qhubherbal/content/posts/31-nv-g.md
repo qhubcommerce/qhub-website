@@ -184,7 +184,7 @@ Một giấc ngủ trưa ngắn có thể giúp bạn tỉnh táo cả buổi ch
 
 Rửa mặt, vận động nhẹ 2 phút, uống một cốc nước hoặc tách trà ấm để vào ca chiều.
 
-- Anh em hay mỏi lưng: **Trà Nam Vương** đầu giờ chiều.
+- Anh em thích vị ấm: **Trà Nam Vương** đầu giờ chiều.
 - Ai cần sự thư thái cho buổi chiều căng thẳng: **Trà Dưỡng Tâm An**.
 
 [[buy:nam-vuong]]

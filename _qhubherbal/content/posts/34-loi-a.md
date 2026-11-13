@@ -94,7 +94,7 @@ Bữa tối là bữa "đoàn tụ" của gia đình Việt – và thường l�
 ## Sau bữa tối
 
 - 30 phút sau: Trà Lá Ổi Mix Lá Sen.
-- Trước ngủ: nếu khó ngủ, Trà Xấu Hổ Tím – Tâm Sen.
+- Trước ngủ: Trà Xấu Hổ Tím – Tâm Sen cho nghi thức thư giãn.
 
 [[buy:la-oi-mix-la-sen]]
 

@@ -136,7 +136,7 @@ Quan niệm truyền thống khuyên phụ nữ **tránh lao lực, tránh nhi�
 
 ## Sau buổi tập: một tách trà ấm
 
-Sau buổi đi bộ hay yoga nhẹ, một tách trà ấm giúp bù nước và giữ cơ thể ấm áp. **Trà Ngày Dâu Về** của QHUB HERBAL phối **ích mẫu, ngải cứu, cỏ máu, gừng, táo đỏ, mâm xôi, thiên niên kiện, cam thảo** theo kiến thức thảo mộc phương Đông – thức uống ấm giúp chị em dễ chịu hơn những ngày hành kinh. Không caffeine, không thêm đường.
+Sau buổi đi bộ hay yoga nhẹ, một tách trà ấm giúp bù nước và giữ cơ thể ấm áp. **Trà Ngày Dâu Về** của QHUB HERBAL phối **ích mẫu, ngải cứu, cỏ máu, gừng, táo đỏ, mâm xôi, thiên niên kiện, cam thảo** theo kiến thức thảo mộc phương Đông – thức uống ấm áp để chị em chiều chuộng bản thân những ngày hành kinh. Không caffeine, không thêm đường.
 
 **Lưu ý:** không dùng cho phụ nữ mang thai, nghi có thai, đang cho con bú; người ra kinh nhiều, đang dùng thuốc chống đông nên hỏi bác sĩ trước.
 

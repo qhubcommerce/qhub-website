@@ -114,7 +114,7 @@ Người xưa dạy "**thiên nhân hợp nhất**" – con người sống hài
 
 ## Một thức uống cho ngày đầu tiên
 
-Ngày 1 thường là ngày khó nhất với người quen uống ngọt. Một bình trà thảo mộc không đường, thơm dịu, có thể giúp bạn vượt qua cơn thèm. **Trà Lá Ổi Mix Lá Sen** của QHUB HERBAL có hương gạo lứt rang thơm bùi, vị thanh của lá sen, ngọt hậu từ cỏ ngọt – không cần đường. Nếu bạn muốn một tách trà cho "giờ tắt màn hình" ở ngày 6, **Trà Dưỡng Tâm An** với lạc tiên, tâm sen, đinh lăng, hoa cúc là lựa chọn dịu nhẹ, không caffeine.
+Ngày 1 thường là ngày khó nhất với người quen uống ngọt. Một bình trà thảo mộc không đường, thơm dịu, có thể là người bạn đồng hành dễ chịu khi cơn thèm kéo đến. **Trà Lá Ổi Mix Lá Sen** của QHUB HERBAL có hương gạo lứt rang thơm bùi, vị thanh của lá sen, ngọt hậu từ cỏ ngọt – không cần đường. Nếu bạn muốn một tách trà cho "giờ tắt màn hình" ở ngày 6, **Trà Dưỡng Tâm An** với lạc tiên, tâm sen, đinh lăng, hoa cúc là lựa chọn dịu nhẹ, không caffeine.
 
 [[buy:la-oi-mix-la-sen]]
 

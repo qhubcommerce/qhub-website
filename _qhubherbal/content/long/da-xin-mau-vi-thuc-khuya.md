@@ -145,7 +145,7 @@ Cortisol tăng khi căng thẳng, thiếu ngủ, kích thích tuyến bã nhờn
 
 ## Một tách trà cho những đêm phải thức
 
-Nếu buộc phải thức khuya, hãy thay cốc trà sữa hay cà phê đêm bằng thức uống không caffeine, không đường. Với những người hay nổi mụn vì nóng trong, **Trà Cà Gai – Diệp Hạ Châu** của QHUB HERBAL phối các vị thanh nhiệt quen thuộc theo quan niệm phương Đông, uống ban ngày thay nước ngọt. Khi kết thúc ca làm việc và muốn dỗ giấc, **Trà Xấu Hổ Tím – Tâm Sen** với xấu hổ tím, tâm sen, lạc tiên, hoa cúc là nghi thức nhẹ nhàng trước khi ngủ.
+Nếu buộc phải thức khuya, hãy thay cốc trà sữa hay cà phê đêm bằng thức uống không caffeine, không đường. Ban ngày, nếu thích vị thảo mộc thanh mát, **Trà Cà Gai – Diệp Hạ Châu** của QHUB HERBAL phối các vị mà theo quan niệm phương Đông mang tính thanh nhiệt, uống thay nước ngọt. Khi kết thúc ca làm việc và muốn dỗ giấc, **Trà Xấu Hổ Tím – Tâm Sen** với xấu hổ tím, tâm sen, lạc tiên, hoa cúc là nghi thức nhẹ nhàng trước khi ngủ.
 
 [[buy:xau-ho-tim-tam-sen]]
 

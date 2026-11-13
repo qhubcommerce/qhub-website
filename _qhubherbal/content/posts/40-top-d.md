@@ -9,7 +9,7 @@ products: xau-ho-tim-tam-sen,ca-gai-diep-ha-chau
 2. **Cà phê/trà xanh đầu ca** – ngừng 4–6 tiếng trước giờ ngủ.
 3. **Trà thảo mộc không caffeine giữa ca** – thay nước ngọt.
 4. **Sữa ấm, cháo** khi đói.
-5. **Trà an thần sau ca**, trước giấc ngủ ngày.
+5. **Trà thảo mộc buổi tối sau ca**, trước giấc ngủ ngày.
 
 [[buy:ca-gai-diep-ha-chau]]
 
@@ -28,7 +28,7 @@ products: nam-vuong,ca-gai-diep-ha-chau
 4. Nước dừa, nước điện giải khi trời nóng.
 5. Sữa, bánh mì cho bữa phụ.
 
-**An toàn**: Không có đồ uống nào thay được giấc ngủ. Buồn ngủ – tấp vào nghỉ. Tránh trà an thần trước khi lái.
+**An toàn**: Không có đồ uống nào thay được giấc ngủ. Buồn ngủ – tấp vào nghỉ. Tránh trà thảo mộc buổi tối trước khi lái.
 
 [[buy:nam-vuong]]
 

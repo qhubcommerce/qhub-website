@@ -1,5 +1,5 @@
 +++
-desc: 10 loại trà thảo mộc phổ biến nhất ở Việt Nam – hoa cúc, gừng, lá sen, cà gai leo, tâm sen, lá ổi, atiso, giảo cổ lam, gạo lứt rang, lạc tiên: nguồn gốc, tính vị theo quan niệm phương Đông, hợp với ai, cách pha và lưu ý an toàn.
+desc: 10 loại trà thảo mộc phổ biến ở Việt Nam – hoa cúc, gừng, lá sen, cà gai leo, tâm sen, lá ổi, atiso, giảo cổ lam, gạo lứt rang, lạc tiên: nguồn gốc, tính vị theo quan niệm phương Đông, hợp với ai, cách pha và lưu ý an toàn.
 - Danh sách này xếp hạng theo hiệu quả phải không? :: Không. Danh sách xếp theo mức độ phổ biến và tính ứng dụng hằng ngày tại Việt Nam. Mỗi loại hợp với một nhu cầu và thể trạng khác nhau, không có loại "tốt nhất cho tất cả".
 - Một ngày nên uống mấy loại trà thảo mộc? :: Nên chọn 1–2 loại theo nhu cầu chính, uống ở thời điểm phù hợp. Không cần và không nên uống quá nhiều loại cùng lúc.
 - Trà thảo mộc có thay được nước lọc không? :: Trà thảo mộc pha loãng không đường có thể góp phần vào lượng nước mỗi ngày, nhưng bạn vẫn nên uống nước lọc. Một số vị có tính hàn hoặc ấm, uống thay hoàn toàn nước lọc lâu dài không phù hợp với mọi thể trạng.
@@ -129,9 +129,9 @@ Lạc tiên là dây leo có quả tròn được bọc bởi lớp lông như m
 
 QHUB là một thương hiệu trà thảo mộc, nên chúng tôi nói rõ: phần này giới thiệu sản phẩm của chính mình. Nhiều vị trong danh sách trên được QHUB phối thành công thức túi lọc tiện dùng, có ghi rõ tỷ lệ trên hộp:
 
-- **Trà Cà Gai – Diệp Hạ Châu:** cà gai leo 40%, diệp hạ châu 15%, giảo cổ lam… cho người hay nóng trong, muốn thanh lọc.
+- **Trà Cà Gai – Diệp Hạ Châu:** cà gai leo 40%, diệp hạ châu 15%, giảo cổ lam… cho người hay nóng trong, muốn một thức uống thanh mát.
 - **Trà Xấu Hổ Tím – Tâm Sen:** xấu hổ tím 30%, tâm sen 10%, lạc tiên, hoa cúc… cho nghi thức trước giờ ngủ.
-- **Trà Lá Ổi Mix Lá Sen:** lá ổi 50%, lá sen 20%, gạo lứt rang… cho bữa cơm nhẹ bụng.
+- **Trà Lá Ổi Mix Lá Sen:** lá ổi 50%, lá sen 20%, gạo lứt rang… thơm mùi gạo rang, hợp uống sau bữa cơm.
 
 [[buy:ca-gai-diep-ha-chau]]
 

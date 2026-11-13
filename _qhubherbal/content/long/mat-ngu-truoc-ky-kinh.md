@@ -134,9 +134,9 @@ Theo quan niệm phương Đông, những ngày trước kỳ kinh, huyết dồ
 
 ## Hai tách trà cho hai thời điểm
 
-Những ngày trước kỳ kinh, khi tâm trí khó lắng xuống, một tách trà ấm không caffeine buổi tối có thể trở thành nghi thức thư giãn. **Trà Xấu Hổ Tím – Tâm Sen** của QHUB HERBAL phối xấu hổ tím, tâm sen, lạc tiên, đinh lăng, hoa cúc vàng theo hướng dưỡng tâm, an thần trong kiến thức thảo mộc phương Đông. Uống trước khi ngủ khoảng 1 giờ để không phải dậy đi tiểu đêm.
+Những ngày trước kỳ kinh, khi tâm trí khó lắng xuống, một tách trà ấm không caffeine buổi tối có thể trở thành nghi thức thư giãn. **Trà Xấu Hổ Tím – Tâm Sen** của QHUB HERBAL phối xấu hổ tím, tâm sen, lạc tiên, đinh lăng, hoa cúc vàng – những vị mà theo quan niệm phương Đông thường dùng để dưỡng tâm. Uống trước khi ngủ khoảng 1 giờ để không phải dậy đi tiểu đêm.
 
-Những ngày hành kinh, khi bụng lạnh, âm ỉ đau, **Trà Ngày Dâu Về** với ích mẫu, ngải cứu, cỏ máu, gừng, táo đỏ… là thức uống ấm buổi chiều giúp chị em dễ chịu hơn.
+Những ngày hành kinh, khi muốn một thức uống ấm áp, **Trà Ngày Dâu Về** với ích mẫu, ngải cứu, cỏ máu, gừng, táo đỏ… là tách trà buổi chiều cho chị em một khoảng nghỉ nhẹ nhàng.
 
 **Lưu ý:** cả hai sản phẩm không dùng cho phụ nữ mang thai, nghi có thai, đang cho con bú. Người đang dùng thuốc an thần, thuốc chống trầm cảm, thuốc chống đông, hoặc đang ra kinh nhiều, nên hỏi bác sĩ trước.
 

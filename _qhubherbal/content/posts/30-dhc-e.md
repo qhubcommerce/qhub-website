@@ -144,7 +144,7 @@ products: ca-gai-diep-ha-chau
 
 ## Trà thảo mộc hoạt động như một thói quen
 
-Một tách trà thanh mát mỗi ngày, cộng với ngủ sớm, ít rượu bia, nhiều rau – sau **vài tuần**, nhiều người cảm nhận:
+Thay đổi thật sự đến từ lối sống: ngủ sớm, ít rượu bia, nhiều rau – tách trà thanh mát mỗi ngày là lời nhắc dễ chịu cho những thói quen ấy. Sau **vài tuần** sống như vậy, bạn có thể thấy:
 - Buổi sáng nhẹ nhõm hơn.
 - Bớt cảm giác nóng trong, miệng đắng.
 - Thích uống trà hơn nước ngọt.
@@ -170,7 +170,7 @@ Nếu vẫn thức khuya, nhậu nhiều, ăn uống thất thường, không lo
 
 +++
 slug: uong-tra-ca-gai-leo-buoi-toi-duoc-khong
-title: Uống trà cà gai leo buổi tối được không? Thời điểm uống tốt nhất
+title: Uống trà cà gai leo buổi tối được không? Thời điểm uống hợp lý
 desc: Có nên uống trà cà gai leo buổi tối, trước khi ngủ? Thời điểm uống trà cà gai leo phù hợp trong ngày, lúc đói hay no, và những lưu ý để không ảnh hưởng giấc ngủ.
 cat: san-pham
 products: ca-gai-diep-ha-chau,xau-ho-tim-tam-sen
@@ -193,14 +193,14 @@ Trà cà gai leo không có caffeine nên về lý thuyết có thể uống bu�
 
 ## Buổi tối nên uống gì?
 
-Nếu mục tiêu của bạn là thư giãn và ngủ ngon, hãy chọn trà dành riêng cho buổi tối như **Trà Xấu Hổ Tím – Tâm Sen**.
+Nếu bạn muốn một nghi thức thư giãn trước giờ ngủ, hãy chọn trà dành cho buổi tối như **Trà Xấu Hổ Tím – Tâm Sen**.
 
 [[buy:xau-ho-tim-tam-sen]]
 
 ## Lịch gợi ý cho người hay tiếp khách
 
 - 7:30: Trà Cà Gai – Diệp Hạ Châu sau ăn sáng.
-- 21:00: Trà Xấu Hổ Tím – Tâm Sen nếu khó ngủ.
+- 21:00: Trà Xấu Hổ Tím – Tâm Sen cho nghi thức thư giãn trước giờ ngủ.
 
 [[buy:ca-gai-diep-ha-chau]]
 

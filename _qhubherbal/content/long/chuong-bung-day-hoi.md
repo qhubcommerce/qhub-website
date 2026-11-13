@@ -138,6 +138,6 @@ Lưu ý: lá ổi có tính làm se, người hay táo bón nên dùng vừa ph�
 
 ## Lời kết
 
-Chướng bụng không phải chuyện "nhỏ nhặt không đáng nói" – nó ảnh hưởng đến sự tự tin, tâm trạng và hiệu suất làm việc mỗi ngày. Tin tốt là phần lớn trường hợp có thể cải thiện bằng những thay đổi rất đơn giản: ăn chậm lại, bỏ nước có ga, đi bộ sau bữa, và một tách trà ấm. Còn nếu đầy hơi đi kèm dấu hiệu bất thường – đừng ngại gặp bác sĩ.
+Chướng bụng không phải chuyện "nhỏ nhặt không đáng nói" – nó ảnh hưởng đến sự tự tin, tâm trạng và hiệu suất làm việc mỗi ngày. Tin tốt là phần lớn trường hợp có thể cải thiện bằng những thay đổi rất đơn giản: ăn chậm lại, đi bộ sau bữa, và thay nước có ga bằng nước lọc hay một tách trà ấm. Còn nếu đầy hơi đi kèm dấu hiệu bất thường – đừng ngại gặp bác sĩ.
 
 *Thông tin mang tính tham khảo, không thay thế tư vấn y khoa. Trà Lá Ổi Mix Lá Sen là thực phẩm, không phải là thuốc và không có tác dụng thay thế thuốc chữa bệnh.*

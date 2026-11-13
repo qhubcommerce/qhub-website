@@ -125,7 +125,7 @@ Theo quan niệm này, người già thường **Tâm Tỳ hư** (lo nghĩ, ăn 
 
 ## Một tách trà ấm buổi tối cho ông bà
 
-Một tách trà ấm sau bữa tối, uống cùng con cháu, có thể là nghi thức nhỏ giúp ông bà thư thái trước giờ ngủ. **Trà Dưỡng Tâm An** của QHUB HERBAL phối lạc tiên, tâm sen, đinh lăng, hoa cúc – bốn vị dịu nhẹ theo hướng dưỡng tâm, an thần trong kiến thức thảo mộc phương Đông, không caffeine, không đường. Nên uống lượng vừa phải (khoảng 150–200 ml) sau bữa tối, trước giờ ngủ 1–2 tiếng để hạn chế tiểu đêm. Người đang dùng nhiều loại thuốc nên hỏi bác sĩ trước khi dùng bất kỳ sản phẩm thảo mộc nào.
+Một tách trà ấm sau bữa tối, uống cùng con cháu, có thể là nghi thức nhỏ giúp ông bà thư thái trước giờ ngủ. **Trà Dưỡng Tâm An** của QHUB HERBAL phối lạc tiên, tâm sen, đinh lăng, hoa cúc – bốn vị dịu nhẹ mà theo quan niệm phương Đông thường dùng để dưỡng tâm, không caffeine, không đường. Nên uống lượng vừa phải (khoảng 150–200 ml) sau bữa tối, trước giờ ngủ 1–2 tiếng để hạn chế tiểu đêm. Người đang dùng nhiều loại thuốc nên hỏi bác sĩ trước khi dùng bất kỳ sản phẩm thảo mộc nào.
 
 [[buy:duong-tam-an]]
 

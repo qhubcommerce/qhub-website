@@ -117,7 +117,7 @@ Theo Hệ thống Y tế Quốc gia Anh (NHS), phần lớn đau thắt lưng **
 
 ## Thức uống ấm cho tuổi trung niên
 
-Theo quan niệm phương Đông, những vị thảo mộc tính ấm, bồi bổ phần gốc được dùng cho người lưng gối mỏi, sợ lạnh. **Trà Nam Vương** của QHUB HERBAL phối **ba kích, nhục thung dung, nấm ngọc cẩu, mú từn** theo hướng ôn bổ, cân bằng bằng **kim tiền thảo, dứa dại**, điều vị bằng cỏ ngọt – bổ mà không nóng. Một tách trà ấm buổi sáng, sau bài tập 10 phút, là cách bắt đầu ngày mới nhẹ nhàng. Trà là thực phẩm, đi cùng vận động và khám bác sĩ khi cần.
+Theo quan niệm phương Đông, những vị thảo mộc tính ấm, bồi bổ phần gốc được dùng cho người lưng gối mỏi, sợ lạnh. **Trà Nam Vương** của QHUB HERBAL phối **ba kích, nhục thung dung, nấm ngọc cẩu, mú từn** – những vị tính ấm theo quan niệm phương Đông – cùng **kim tiền thảo, dứa dại**, điều vị bằng cỏ ngọt cho vị trà ấm mà không gắt. Một tách trà ấm buổi sáng, sau bài tập 10 phút, là cách bắt đầu ngày mới nhẹ nhàng. Trà là thực phẩm, đi cùng vận động và khám bác sĩ khi cần.
 
 [[buy:nam-vuong]]
 

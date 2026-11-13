@@ -179,7 +179,7 @@ Trước và trong những ngày kinh, khi bụng lạnh, mỏi mệt, tay chân
 +++
 slug: ngay-dau-ve-ket-hop-duong-tam-an
 title: Kết hợp Trà Ngày Dâu Về và Trà Dưỡng Tâm An cho tháng nhẹ nhàng
-desc: Gợi ý dùng Trà Ngày Dâu Về trong kỳ kinh và Trà Dưỡng Tâm An những ngày còn lại để cả tháng thân khỏe, tâm an. Lịch dùng và lưu ý.
+desc: Gợi ý dùng Trà Ngày Dâu Về trong kỳ kinh và Trà Dưỡng Tâm An những ngày còn lại để cả tháng có những tách trà ấm, nhẹ nhàng. Lịch dùng và lưu ý.
 cat: san-pham
 products: ngay-dau-ve,duong-tam-an
 +++

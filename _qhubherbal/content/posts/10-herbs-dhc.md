@@ -57,7 +57,7 @@ Nếu bạn muốn dùng cà gai leo tiện lợi mà không phải sắc nấu,
 
 [[buy:ca-gai-diep-ha-chau]]
 
-Một tách trà buổi sáng, hoặc sau một bữa tiệc dài – như một lời cảm ơn nhỏ gửi tới lá gan đã làm việc không ngơi nghỉ vì bạn.
+Một tách trà buổi sáng, hoặc sau một bữa tiệc dài – như một khoảng lặng nhỏ dành cho chính mình sau những ngày bận rộn không ngơi nghỉ.
 
 +++
 slug: diep-ha-chau-la-gi
@@ -287,7 +287,7 @@ Trong công thức của QHUB HERBAL, giảo cổ lam là vị **Tá** trong c�
 
 ## Giảo cổ lam trong trà QHUB HERBAL
 
-Giảo cổ lam xuất hiện trong hai công thức của QHUB: cùng cà gai leo cho người hay tiếp khách, và cùng lá ổi, lá sen cho những ai hay đầy bụng sau bữa ăn.
+Giảo cổ lam xuất hiện trong hai công thức của QHUB: cùng cà gai leo cho người hay tiếp khách, và cùng lá ổi, lá sen cho tách trà thanh mát sau những bữa ăn nhiều dầu mỡ.
 
 [[buy:ca-gai-diep-ha-chau]]
 

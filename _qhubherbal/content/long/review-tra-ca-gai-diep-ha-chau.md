@@ -1,6 +1,6 @@
 +++
 seo_title: Review trà Cà Gai Diệp Hạ Châu QHUB HERBAL
-desc: Nóng trong, nổi mụn, miệng khô đắng? Bài viết đầy đủ về Trà Cà Gai – Diệp Hạ Châu QHUB HERBAL: vì sao cơ thể "tích nhiệt", 6 vị thảo mộc làm gì, cách uống đúng, ai nên và không nên dùng.
+desc: Nóng trong, nổi mụn, miệng khô đắng – nên hiểu thế nào? Bài viết đầy đủ về Trà Cà Gai – Diệp Hạ Châu QHUB HERBAL: "tích nhiệt" theo quan niệm phương Đông, 6 vị thảo mộc trong công thức, cách pha, ai nên và không nên dùng.
 - Trà Cà Gai – Diệp Hạ Châu có giúp hết mụn không? :: Trà là thực phẩm, không phải thuốc trị mụn. Theo quan niệm phương Đông, các vị trong trà có tính thanh nhiệt, hợp với người hay nóng trong. Mụn viêm nhiều, mụn bọc hay để lại sẹo thì bạn nên đi khám da liễu.
 - Con gái uống được không hay chỉ dành cho đàn ông nhậu nhiều? :: Cả nam và nữ đều dùng được. Người hay thức khuya, ăn cay nóng, uống ít nước, dễ nổi mụn do nóng trong đều là đối tượng phù hợp – không riêng người hay tiếp khách.
 - Một ngày nên uống mấy túi? :: 1–2 túi mỗi ngày, mỗi túi pha 200 ml nước sôi, đợi 5 phút. Uống đều đặn quan trọng hơn uống nhiều.
@@ -12,7 +12,7 @@ Sáng thứ Hai, Linh – 26 tuổi, nhân viên thiết kế – soi gương tr
 
 Cùng lúc đó, ở phòng bên cạnh, anh Tuấn – trưởng nhóm kinh doanh – cũng đang gãi gãi mấy nốt mụn lưng nổi lên sau chuỗi tiếp khách cuối quý. Hai người, hai giới tính, hai lối sống khác nhau, nhưng cùng một cảm giác mà người Việt hay gọi gọn là **"nóng trong"**.
 
-Bài viết này sẽ cùng bạn hiểu cho kỹ: nóng trong là gì, vì sao nó hay đi kèm mụn, cơ thể cần gì để thanh lọc trở lại – và Trà Cà Gai – Diệp Hạ Châu của QHUB HERBAL có thể đồng hành ở đâu trong hành trình ấy.
+Bài viết này sẽ cùng bạn hiểu cho kỹ: nóng trong là gì, vì sao nó hay đi kèm mụn, cơ thể cần gì để cân bằng trở lại – và Trà Cà Gai – Diệp Hạ Châu của QHUB HERBAL có chỗ đứng ở đâu trong những thói quen ấy.
 
 ## "Nóng trong" là gì – nhìn từ hai phía Đông và Tây
 
@@ -84,9 +84,9 @@ Nhiều khách hàng kể rằng họ thích uống **nguội**: pha một bình
 
 [[buy:ca-gai-diep-ha-chau]]
 
-## Bảy thói quen đi cùng tách trà – thứ quyết định 80% kết quả
+## Bảy thói quen đi cùng tách trà – phần quan trọng hơn cả
 
-Trà chỉ là một phần nhỏ. Nếu vẫn thức đến hai giờ sáng và ăn mì cay mỗi tối, không loại trà nào giúp bạn hết nóng trong được. Những thói quen dưới đây mới là phần quan trọng nhất:
+Trà chỉ là một thức uống dễ chịu trong ngày, không phải giải pháp cho cơ thể. Nếu vẫn thức đến hai giờ sáng và ăn mì cay mỗi tối, không thức uống nào thay được việc đổi nếp sinh hoạt. Những thói quen dưới đây mới là phần quan trọng nhất:
 
 1. **Uống đủ nước:** khoảng 30–35 ml cho mỗi kg cân nặng mỗi ngày (người 55 kg cần chừng 1,7–1,9 lít), nhiều hơn khi trời nóng hoặc vận động.
 2. **Ngủ trước 23 giờ:** theo quan niệm phương Đông, 23 giờ–3 giờ sáng là giờ của Đởm và Can; thức qua khung giờ này thường xuyên khiến âm huyết hao tổn, nhiệt dễ bốc lên.
@@ -134,7 +134,7 @@ Nếu bạn ở nhà nhiều và thích tự nấu, cà gai leo khô vẫn là l
 
 ## Lời kết: thương lấy cơ thể từ những điều nhỏ
 
-Linh không hết mụn sau một tuần. Nhưng sau một tháng ngủ sớm hơn, mang theo bình trà thay cho ly trà sữa buổi chiều, ăn thêm đĩa rau mỗi bữa, cô thấy da dịu lại, miệng không còn khô đắng mỗi sáng. Anh Tuấn thì bắt đầu từ chối chầu hai, sáng nào cũng pha một tách trà trước giờ họp.
+Linh không hết mụn sau một tuần. Nhưng sau một tháng ngủ sớm hơn, bỏ ly trà sữa buổi chiều (bình trà mang theo giúp cô dễ bỏ hơn), ăn thêm đĩa rau mỗi bữa, cô thấy da dịu lại, miệng không còn khô đắng mỗi sáng. Anh Tuấn thì bắt đầu từ chối chầu hai, sáng nào cũng pha một tách trà trước giờ họp.
 
 Cơ thể không cần những điều kỳ diệu. Nó chỉ cần được nghỉ ngơi đúng giờ, được uống đủ nước, được ăn tử tế – và thỉnh thoảng, một tách trà thanh mát để biết rằng bạn đang lắng nghe nó.
 

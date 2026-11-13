@@ -7,7 +7,7 @@ desc: Cây xấu hổ tím (trinh nữ, Mimosa pudica) là gì, vì sao lá cụ
 - Cây xấu hổ có độc không? :: Cây chứa mimosine, một chất có thể gây hại nếu dùng lượng lớn kéo dài. Dùng dạng trà pha loãng, liều vừa phải trong công thức phối hợp thường an toàn cho người khỏe; không nên tự sắc đặc uống lâu dài.
 - Ai không nên dùng cây xấu hổ? :: Phụ nữ mang thai, đang cố gắng có thai, cho con bú, trẻ nhỏ, người đang dùng thuốc an thần, thuốc ngủ, thuốc chống trầm cảm hoặc thuốc hạ đường huyết nên hỏi bác sĩ trước khi dùng.
 +++
-Hồi bé, Mai thích nhất trò chạm tay vào những chiếc lá kép li ti mọc ven bờ rào để xem chúng "ngượng ngùng" cụp lại. Bà nội bảo đó là cây **xấu hổ**, ngày xưa bà hay hái về phơi khô, những đêm khó ngủ thì hãm một ấm nhỏ. Hai mươi năm sau, Mai – giờ là nhân viên thiết kế 29 tuổi ở Hà Nội, thường xuyên trằn trọc vì deadline – bất ngờ thấy tên loài cây tuổi thơ in trên một hộp trà thảo mộc dành cho giấc ngủ.
+Hồi bé, Mai thích nhất trò chạm tay vào những chiếc lá kép li ti mọc ven bờ rào để xem chúng "ngượng ngùng" cụp lại. Bà nội bảo đó là cây **xấu hổ**, ngày xưa bà hay hái về phơi khô, những đêm khó ngủ thì hãm một ấm nhỏ. Hai mươi năm sau, Mai – giờ là nhân viên thiết kế 29 tuổi ở Hà Nội, thường xuyên trằn trọc vì deadline – bất ngờ thấy tên loài cây tuổi thơ in trên một hộp trà thảo mộc dành cho buổi tối.
 
 Cây xấu hổ tím là gì? Vì sao lá lại cụp khi chạm? Người xưa dùng nó thế nào, và khoa học hiện đại đã kiểm chứng được những gì? Cùng tìm hiểu loài cây "e thẹn" quen thuộc này.
 

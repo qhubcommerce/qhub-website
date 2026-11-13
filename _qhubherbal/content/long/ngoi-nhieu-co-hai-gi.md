@@ -114,7 +114,7 @@ Sách *Hoàng Đế Nội Kinh* viết về "**ngũ lao sở thương**" – nă
 
 ## Một tách trà để có cớ đứng dậy
 
-Đặt một bình nước nhỏ và một gói trà trên bàn – mỗi lần đi rót nước nóng hãm trà là một lần cơ thể được đứng dậy, đi vài bước. **Trà Lá Ổi Mix Lá Sen** của QHUB HERBAL với lá ổi, lá sen, giảo cổ lam, gạo lứt rang thơm và cỏ ngọt là thức uống dễ chịu sau bữa trưa ngồi một chỗ. Nếu bạn hay mỏi lưng, sợ lạnh vì ngồi phòng điều hòa cả ngày, **Trà Nam Vương** với các vị ôn bổ là lựa chọn ấm áp buổi sáng.
+Đặt một bình nước nhỏ và một gói trà trên bàn – mỗi lần đi rót nước nóng hãm trà là một lần cơ thể được đứng dậy, đi vài bước. **Trà Lá Ổi Mix Lá Sen** của QHUB HERBAL với lá ổi, lá sen, giảo cổ lam, gạo lứt rang thơm và cỏ ngọt là thức uống dễ chịu sau bữa trưa ngồi một chỗ. Nếu bạn thích một thức uống ấm khi ngồi phòng điều hòa cả ngày, **Trà Nam Vương** với các vị tính ấm là lựa chọn cho buổi sáng.
 
 [[buy:la-oi-mix-la-sen]]
 

@@ -138,7 +138,7 @@ Vì vậy, lời khuyên dưỡng sinh truyền thống thường xoay quanh: **
 
 ## Một tách trà ấm cho những ngày ấy
 
-Trong lúc chờ khám và điều chỉnh lối sống, những ngày hành kinh vẫn cần được chăm sóc dịu dàng. **Trà Ngày Dâu Về** của QHUB HERBAL là thức uống ấm phối ích mẫu, ngải cứu, cỏ máu, gừng, táo đỏ, mâm xôi, thiên niên kiện, cam thảo theo kiến thức thảo mộc phương Đông – giúp chị em ấm bụng, dễ chịu hơn trong kỳ kinh. Sản phẩm **không giúp điều kinh và không thay thế việc khám, điều trị**. Không dùng cho phụ nữ mang thai, đang cho con bú hoặc nghi có thai; người đang ra máu nhiều, đang dùng thuốc chống đông nên hỏi bác sĩ trước.
+Trong lúc chờ khám và điều chỉnh lối sống, những ngày hành kinh vẫn cần được chăm sóc dịu dàng. **Trà Ngày Dâu Về** của QHUB HERBAL là thức uống ấm phối ích mẫu, ngải cứu, cỏ máu, gừng, táo đỏ, mâm xôi, thiên niên kiện, cam thảo theo kiến thức thảo mộc phương Đông – một tách ấm áp, dễ chịu cho chị em trong kỳ kinh. Sản phẩm **không giúp điều kinh và không thay thế việc khám, điều trị**. Không dùng cho phụ nữ mang thai, đang cho con bú hoặc nghi có thai; người đang ra máu nhiều, đang dùng thuốc chống đông nên hỏi bác sĩ trước.
 
 [[buy:ngay-dau-ve]]
 

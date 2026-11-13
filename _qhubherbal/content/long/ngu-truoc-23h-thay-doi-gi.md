@@ -134,7 +134,7 @@ Không phải lúc nào cũng tránh được. Những đêm buộc phải thứ
 
 ## Tách trà cho nghi thức 22h15
 
-Một tách trà ấm không caffeine là điểm nhấn dễ chịu trong nghi thức trước khi ngủ – nó báo cho cơ thể biết "đã đến giờ nghỉ". **Trà Xấu Hổ Tím – Tâm Sen** của QHUB HERBAL lấy xấu hổ tím 30% làm chủ, phối tâm sen, lạc tiên, đinh lăng, hoa cúc vàng theo hướng thanh tâm, an thần quen thuộc của phương Đông; cỏ ngọt điều vị, không đường. Uống một tách vừa phải (khoảng 200 ml) để không phải dậy giữa đêm.
+Một tách trà ấm không caffeine là điểm nhấn dễ chịu trong nghi thức trước khi ngủ – nó báo cho cơ thể biết "đã đến giờ nghỉ". **Trà Xấu Hổ Tím – Tâm Sen** của QHUB HERBAL lấy xấu hổ tím 30% làm chủ, phối tâm sen, lạc tiên, đinh lăng, hoa cúc vàng – những vị mà theo quan niệm phương Đông thường dùng để thanh tâm; cỏ ngọt điều vị, không đường. Uống một tách vừa phải (khoảng 200 ml) để không phải dậy giữa đêm.
 
 [[buy:xau-ho-tim-tam-sen]]
 

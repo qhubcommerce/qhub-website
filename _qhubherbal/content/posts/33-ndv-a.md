@@ -37,7 +37,7 @@ Tử cung co bóp để đẩy lớp niêm mạc ra ngoài, do tác động củ
 
 ## Một tách trà ấm
 
-**Trà Ngày Dâu Về** – gừng, ngải cứu ấm bụng dưới theo quan niệm phương Đông; ích mẫu, cỏ máu, táo đỏ giúp khí huyết lưu thông.
+**Trà Ngày Dâu Về** – gừng, ngải cứu, ích mẫu, cỏ máu, táo đỏ: những vị mà theo quan niệm phương Đông thường dùng để làm ấm bụng dưới, giúp khí huyết lưu thông.
 
 [[buy:ngay-dau-ve]]
 

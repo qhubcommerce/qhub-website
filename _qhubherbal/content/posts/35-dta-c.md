@@ -36,7 +36,7 @@ Nếu thấy buồn ngủ, tránh lái xe ngay sau khi uống.
 
 +++
 slug: thao-moc-giup-thu-gian
-title: 8 loại thảo mộc giúp thư giãn, giảm căng thẳng phổ biến nhất
+title: 8 loại thảo mộc quen dùng cho phút thư giãn
 desc: Điểm danh thảo mộc giúp thư giãn được dùng phổ biến: hoa cúc, lạc tiên, tâm sen, oải hương, tía tô đất (lemon balm), đinh lăng, long nhãn, bạc hà.
 cat: thao-moc
 products: duong-tam-an
@@ -134,7 +134,7 @@ products: duong-tam-an,ca-gai-diep-ha-chau,la-oi-mix-la-sen
 |---|---|---|
 | 8h | Khởi động | Trà Cà Gai – Diệp Hạ Châu |
 | 13h | Sau bữa trưa | Trà Lá Ổi Mix Lá Sen |
-| 15h30 | Căng thẳng, mỏi vai gáy | Trà Dưỡng Tâm An |
+| 15h30 | Giải lao giữa chiều | Trà Dưỡng Tâm An |
 | 21h | Chuẩn bị ngủ | Trà Xấu Hổ Tím – Tâm Sen |
 
 Tổng 2–3 túi/ngày là đủ.
@@ -147,8 +147,8 @@ Tổng 2–3 túi/ngày là đủ.
 
 +++
 slug: tra-thu-gian-loai-nao-tot
-title: Trà thư giãn loại nào tốt? Cách chọn trà giảm căng thẳng
-desc: Tiêu chí chọn trà thư giãn, giảm căng thẳng: không caffeine, thành phần an thần dịu nhẹ, minh bạch, an toàn. Gợi ý Trà Dưỡng Tâm An.
+title: Trà thư giãn loại nào tốt? Cách chọn trà cho phút thư giãn
+desc: Tiêu chí chọn trà thảo mộc cho những phút thư giãn: không caffeine, thành phần dịu nhẹ, minh bạch, an toàn. Gợi ý Trà Dưỡng Tâm An.
 cat: san-pham
 products: duong-tam-an
 +++
@@ -185,7 +185,7 @@ products: duong-tam-an
 
 +++
 slug: tra-duong-tam-an-uong-luc-nao
-title: Trà Dưỡng Tâm An uống lúc nào tốt nhất?
+title: Trà Dưỡng Tâm An uống lúc nào là hợp lý?
 desc: Hướng dẫn dùng Trà Dưỡng Tâm An: khung giờ phù hợp, lượng dùng, cách pha và kết hợp với thói quen thở chậm, rời màn hình.
 cat: san-pham
 products: duong-tam-an

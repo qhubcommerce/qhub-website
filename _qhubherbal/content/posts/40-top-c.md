@@ -28,7 +28,7 @@ products: ca-gai-diep-ha-chau
 4. Dùng một loại quanh năm không nghỉ.
 5. Không đọc thành phần, khuyến cáo.
 6. Mua dược liệu trôi nổi, ẩm mốc.
-7. Uống trà an thần rồi lái xe khi buồn ngủ.
+7. Uống trà thảo mộc buổi tối rồi lái xe khi buồn ngủ.
 8. Phụ nữ có thai tự ý dùng.
 9. Uống cùng lúc với thuốc.
 10. Thêm quá nhiều đường.
@@ -72,7 +72,7 @@ products: ca-gai-diep-ha-chau,xau-ho-tim-tam-sen
 
 +++
 slug: top-qua-tang-suc-khoe-cho-bo-me
-title: Top 10 quà tặng sức khỏe cho bố mẹ ý nghĩa nhất
+title: Top 10 quà tặng sức khỏe ý nghĩa cho bố mẹ
 desc: Gợi ý quà tặng sức khỏe cho bố mẹ: gói khám tổng quát, máy đo huyết áp, gối, ghế massage, trà thảo mộc, giày đi bộ… chọn theo nhu cầu thật của bố mẹ.
 cat: top
 products: nam-vuong,duong-tam-an,xau-ho-tim-tam-sen
@@ -152,7 +152,7 @@ products: xau-ho-tim-tam-sen,duong-tam-an
 2. **Cà phê/trà xanh buổi sáng** (vừa phải, trước 14h).
 3. **Sữa, sữa chua.**
 4. **Trà hoa cúc, lạc tiên buổi chiều** – thư thái.
-5. **Trà an thần không caffeine buổi tối** – ngủ đủ để nhớ bài.
+5. **Trà thảo mộc buổi tối không caffeine buổi tối** – ngủ đủ để nhớ bài.
 
 Tránh nước tăng lực, cà phê sau 14h.
 
@@ -229,7 +229,7 @@ products: duong-tam-an
 +++
 slug: thoi-diem-uong-tra-trong-ngay
 title: Lịch uống trà trong ngày: loại nào sáng, loại nào tối?
-desc: Gợi ý lịch uống trà thảo mộc theo đồng hồ sinh học: buổi sáng thanh mát, sau ăn nhẹ bụng, chiều thư giãn, tối an thần – tổng lượng hợp lý mỗi ngày.
+desc: Gợi ý lịch uống trà thảo mộc theo đồng hồ sinh học: buổi sáng thanh mát, sau ăn nhẹ bụng, chiều thư giãn, tối thư thái – tổng lượng hợp lý mỗi ngày.
 cat: top
 products: ca-gai-diep-ha-chau,la-oi-mix-la-sen,duong-tam-an,xau-ho-tim-tam-sen
 +++

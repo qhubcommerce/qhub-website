@@ -49,7 +49,7 @@ Có năm, chị mất ngủ cả tháng, sụt 3 kg, hay cáu với con.
 - **Lên kế hoạch từ tháng 1**, chia nhỏ công việc.
 - **Dừng làm việc lúc 21h**, dù việc còn.
 - Trước khi ngủ, **viết ra 3 việc cần làm ngày mai** – để não yên tâm.
-- Buổi chiều, một tách trà thảo mộc giúp chị thư thái lại; buổi tối một tách trà an thần.
+- Buổi chiều, chị dành vài phút cho một tách trà thảo mộc; buổi tối một tách trà ấm không caffeine.
 - Cuối tuần đi bơi với con.
 
 ## Kết quả

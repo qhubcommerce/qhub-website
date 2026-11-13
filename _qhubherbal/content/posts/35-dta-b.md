@@ -178,7 +178,7 @@ Dị ứng họ Cúc, hay lạnh bụng, phụ nữ có thai.
 
 +++
 slug: tra-hoa-cuc-uong-luc-nao
-title: Trà hoa cúc uống lúc nào tốt nhất? Có nên uống mỗi ngày?
+title: Trà hoa cúc uống lúc nào là hợp lý? Có nên uống mỗi ngày?
 desc: Thời điểm uống trà hoa cúc phù hợp: buổi chiều thư giãn, buổi tối trước ngủ, khi nhìn màn hình nhiều. Lượng dùng mỗi ngày và lưu ý.
 cat: thao-moc
 products: duong-tam-an

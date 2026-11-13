@@ -39,7 +39,7 @@ Người xưa gọi là "khẩu khổ" – thường gắn với **nhiệt ở C
 
 ## Một thói quen nhẹ nhàng
 
-Sau bữa sáng, một tách **Trà Cà Gai – Diệp Hạ Châu** ấm – vị đắng nhẹ ban đầu rồi hậu ngọt dịu của cỏ ngọt – giúp bạn bắt đầu ngày mới thanh thoát.
+Sau bữa sáng, một tách **Trà Cà Gai – Diệp Hạ Châu** ấm – vị đắng nhẹ ban đầu rồi hậu ngọt dịu của cỏ ngọt – cho một khởi đầu ngày mới thanh thoát.
 
 [[buy:ca-gai-diep-ha-chau]]
 
@@ -118,7 +118,7 @@ Thiếu ngủ kéo dài làm rối loạn đồng hồ sinh học, ảnh hưởn
 
 - Đi ngủ sớm hơn 15 phút mỗi đêm cho đến khi về được trước 23h.
 - Tắt màn hình 60 phút trước khi ngủ.
-- Một tách trà an thần không caffeine buổi tối.
+- Một tách trà buổi tối không caffeine.
 
 ## Gợi ý
 
@@ -126,7 +126,7 @@ Buổi sáng sau những đêm thức muộn: **Trà Cà Gai – Diệp Hạ Ch�
 
 [[buy:ca-gai-diep-ha-chau]]
 
-Buổi tối, khi muốn lấy lại nhịp ngủ sớm: **Trà Xấu Hổ Tím – Tâm Sen**.
+Buổi tối, cho nghi thức thư giãn trước giờ ngủ sớm: **Trà Xấu Hổ Tím – Tâm Sen**.
 
 [[buy:xau-ho-tim-tam-sen]]
 
@@ -247,7 +247,7 @@ Kem dưỡng đắt tiền, mặt nạ đều đặn, nhưng da vẫn xỉn, qu�
 ## Hai tách trà cho một ngày
 
 - **Buổi sáng**: Trà Cà Gai – Diệp Hạ Châu – thanh mát, thay cho nước ngọt.
-- **Buổi tối**: Trà Xấu Hổ Tím – Tâm Sen – không caffeine, giúp bạn thư thái để ngủ sớm hơn.
+- **Buổi tối**: Trà Xấu Hổ Tím – Tâm Sen – không caffeine, một nghi thức thư thái trước giờ đi ngủ sớm.
 
 [[buy:ca-gai-diep-ha-chau]]
 

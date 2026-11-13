@@ -1,6 +1,6 @@
 +++
-desc: Ngủ không sâu, sáng dậy rã rời, mỏi lưng, phong độ chẳng như xưa? Bài viết đầy đủ về Trà Nam Vương QHUB HERBAL: giấc ngủ và sức bền của đàn ông, "Thận khí" theo quan niệm phương Đông, 7 vị thảo mộc núi rừng và cách dùng đúng.
-- Trà Nam Vương có phải thuốc tăng cường sinh lý không? :: Không. Trà Nam Vương là thực phẩm – trà thảo mộc túi lọc phối theo nguyên tắc ôn bổ Thận khí của người xưa phương Đông, dùng như thói quen chăm sóc hằng ngày. Sản phẩm không phải là thuốc và không thay thế thuốc chữa bệnh.
+desc: Sáng dậy rã rời, ngày nào cũng vội? Bài viết đầy đủ về Trà Nam Vương QHUB HERBAL: giấc ngủ và nếp sống của đàn ông, "Thận khí" theo quan niệm phương Đông, 7 vị thảo mộc núi rừng và cách dùng đúng.
+- Trà Nam Vương có phải thuốc tăng cường sinh lý không? :: Không. Trà Nam Vương là thực phẩm – trà thảo mộc túi lọc phối các vị mà người xưa phương Đông xếp vào nhóm ôn bổ, dùng như một thức uống ấm hằng ngày. Sản phẩm không phải là thuốc và không thay thế thuốc chữa bệnh.
 - Uống buổi tối có được không? :: Nên uống buổi sáng hoặc đầu giờ chiều. Nhóm vị ôn bổ có tính ấm, uống sát giờ ngủ có thể khiến một số người khó vào giấc. Buổi tối bạn có thể chọn trà không caffeine dịu nhẹ như Xấu Hổ Tím – Tâm Sen.
 - Bao lâu thì cảm nhận được? :: Thảo mộc làm việc từ tốn. Hãy dùng đều đặn vài tuần, kết hợp ngủ đủ, vận động và hạn chế rượu bia, thuốc lá – những thói quen này quyết định phần lớn sức bền của bạn.
 - Người huyết áp cao có uống được không? :: Người có bệnh tim mạch, huyết áp, thận hoặc bệnh mạn tính đang dùng thuốc nên hỏi ý kiến bác sĩ trước khi dùng.
@@ -51,7 +51,7 @@ Có những dấu hiệu không nên tự xoay xở bằng trà hay thói quen. 
 
 ## Bảy vị thảo mộc trong Trà Nam Vương
 
-Trà Nam Vương gồm bảy vị, chia thành hai nhóm rõ ràng: **nhóm ôn bổ** nuôi phần gốc và **nhóm thanh lợi** hòa lại tính ấm, để bổ mà không nóng.
+Trà Nam Vương gồm bảy vị, chia thành hai nhóm rõ ràng: **nhóm ôn bổ** (theo quan niệm phương Đông là các vị nuôi phần gốc) và **nhóm thanh lợi** tính mát hòa lại tính ấm, để bài trà ấm mà không nóng.
 
 | Vị thảo mộc | Vai trò | Tính vị (theo quan niệm phương Đông) | Điều bạn nên biết |
 |---|---|---|---|
@@ -76,7 +76,7 @@ Nước trà có màu nâu hổ phách, **vị ngọt ấm, hơi chát nhẹ** c
 - **Buổi sáng, sau ăn sáng:** khởi đầu ngày làm việc vững vàng.
 - **Đầu giờ chiều:** khi cơn mệt sau bữa trưa ập đến.
 
-**Nên tránh uống sát giờ ngủ.** Đây là lưu ý quan trọng mà QHUB luôn nhắc khách: tính ấm của nhóm vị bổ có thể khiến một số người tỉnh táo hơn vào buổi tối. Muốn ngủ sâu, buổi tối anh hãy chọn những thức uống dịu nhẹ, không caffeine như Trà Xấu Hổ Tím – Tâm Sen. Ban ngày bồi bổ, ban đêm nghỉ ngơi – đó là nhịp mà cơ thể cần.
+**Nên tránh uống sát giờ ngủ.** Đây là lưu ý quan trọng mà QHUB luôn nhắc khách: tính ấm của nhóm vị bổ có thể khiến một số người tỉnh táo hơn vào buổi tối. Buổi tối, nếu muốn một tách trà, anh hãy chọn thức uống dịu nhẹ, không caffeine như Trà Xấu Hổ Tím – Tâm Sen. Ban ngày vận động, ban đêm nghỉ ngơi – đó là nhịp mà cơ thể cần.
 
 [[buy:nam-vuong]]
 
@@ -115,7 +115,7 @@ Với đàn ông, sự quan tâm đôi khi không cần lời. Một tách trà 
 
 ## Lời kết
 
-Sau ba tháng, anh Hùng chưa trở lại làm cầu thủ đá hai trận liền. Nhưng anh ngủ trước 11 giờ, tối thứ Ba và thứ Năm đi bộ cùng vợ quanh hồ, bỏ hẳn thói quen hút thuốc sau bữa trưa, sáng nào cũng có tách trà vợ pha sẵn. Anh bảo: "Không biết nhờ trà hay nhờ ngủ, chỉ biết là sáng dậy không còn thấy mình như cái điện thoại hết pin."
+Sau ba tháng, anh Hùng chưa trở lại làm cầu thủ đá hai trận liền. Nhưng anh ngủ trước 11 giờ, tối thứ Ba và thứ Năm đi bộ cùng vợ quanh hồ, bỏ hẳn thói quen hút thuốc sau bữa trưa, sáng nào cũng có tách trà vợ pha sẵn. Anh bảo: "Ngủ đủ, đi bộ đều, bỏ điếu thuốc sau bữa trưa – giờ sáng dậy không còn thấy mình như cái điện thoại hết pin."
 
 Phong độ của người đàn ông không nằm ở một liều thuốc thần kỳ nào. Nó nằm ở những đêm ngủ trọn, những thói quen nhỏ lặp lại mỗi ngày, và một người bên cạnh luôn nhắc anh thương lấy chính mình.
 

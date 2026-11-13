@@ -122,7 +122,7 @@ Người xưa cũng xem băng lậu là chứng cần được thầy thuốc th
 
 ## Về các loại trà thảo mộc
 
-**Trà Ngày Dâu Về** của QHUB HERBAL có thành phần ích mẫu, ngải cứu, cỏ máu, gừng, táo đỏ, mâm xôi, thiên niên kiện, cam thảo – những thảo mộc mang tính ôn ấm, hoạt huyết theo kiến thức phương Đông, phù hợp với chị em hay lạnh bụng, đau bụng kinh do lạnh, lượng kinh bình thường hoặc ít. **Chúng tôi khuyên chị em đang ra kinh nhiều, kéo dài, có cục máu đông lớn hoặc đang dùng thuốc chống đông KHÔNG tự ý dùng sản phẩm này – hãy đi khám và hỏi ý kiến bác sĩ trước.** Không dùng cho phụ nữ mang thai, nghi có thai, đang cho con bú.
+**Trà Ngày Dâu Về** của QHUB HERBAL có thành phần ích mẫu, ngải cứu, cỏ máu, gừng, táo đỏ, mâm xôi, thiên niên kiện, cam thảo – những thảo mộc mang tính ôn ấm, hoạt huyết theo kiến thức phương Đông; đây là thức uống ấm dành cho chị em có lượng kinh bình thường hoặc ít. **Chúng tôi khuyên chị em đang ra kinh nhiều, kéo dài, có cục máu đông lớn hoặc đang dùng thuốc chống đông KHÔNG tự ý dùng sản phẩm này – hãy đi khám và hỏi ý kiến bác sĩ trước.** Không dùng cho phụ nữ mang thai, nghi có thai, đang cho con bú.
 
 Sau khi đã được bác sĩ thăm khám, điều chỉnh và lượng kinh trở về bình thường, nếu bác sĩ đồng ý, một tách trà ấm có thể trở lại là người bạn những ngày "đèn đỏ".
 

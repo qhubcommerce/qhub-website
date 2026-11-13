@@ -71,7 +71,7 @@ Rễ củ lõi tím đặc trưng của núi rừng Quảng Ninh, Tây Bắc. Th
 
 ### 8. Lá ổi, lá sen
 
-Sau bữa nhậu, bữa lẩu, một ấm trà lá ổi – lá sen thơm mùi gạo rang giúp bụng nhẹ hơn, lại thay được bia, nước ngọt trong cuộc vui. **Lưu ý:** lá ổi tính làm se, người táo bón dùng vừa phải.
+Sau bữa nhậu, bữa lẩu, một ấm trà lá ổi – lá sen thơm mùi gạo rang cho cảm giác thanh mát, lại thay được bia, nước ngọt trong cuộc vui. **Lưu ý:** lá ổi tính làm se, người táo bón dùng vừa phải.
 
 ### 9. Tâm sen, lạc tiên
 

@@ -107,7 +107,7 @@ Liệu pháp nhận thức – hành vi cho mất ngủ (CBT-I) được nhiều
 
 ## Một tách trà cho buổi tối thư thái
 
-Vì căng thẳng là nguyên nhân hàng đầu của kiểu thức giấc giữa đêm, một nghi thức thư giãn buổi tối đóng vai trò quan trọng. **Trà Xấu Hổ Tím – Tâm Sen** của QHUB HERBAL lấy xấu hổ tím 30% làm chủ, phối tâm sen 10% và lạc tiên theo hướng thanh tâm, định chí trong kiến thức thảo mộc phương Đông; đinh lăng bồi bổ, hoa cúc vàng thanh nhiệt, bình Can; cỏ ngọt điều vị. Uống một tách vừa phải (khoảng 200 ml) sau bữa tối – đủ ấm lòng mà không gây tiểu đêm.
+Vì căng thẳng là nguyên nhân hàng đầu của kiểu thức giấc giữa đêm, một nghi thức thư giãn buổi tối đóng vai trò quan trọng. **Trà Xấu Hổ Tím – Tâm Sen** của QHUB HERBAL lấy xấu hổ tím 30% làm chủ, phối tâm sen 10% và lạc tiên – những vị mà theo quan niệm phương Đông thường dùng để thanh tâm, định chí; đinh lăng được xem là vị bồi bổ, hoa cúc vàng thanh nhiệt, bình Can; cỏ ngọt điều vị. Uống một tách vừa phải (khoảng 200 ml) sau bữa tối – đủ ấm lòng mà không nạp quá nhiều nước sát giờ ngủ.
 
 [[buy:xau-ho-tim-tam-sen]]
 

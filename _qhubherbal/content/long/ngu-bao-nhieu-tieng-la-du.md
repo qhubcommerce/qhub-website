@@ -128,7 +128,7 @@ Sách *Hoàng Đế Nội Kinh* dạy sống thuận theo bốn mùa: mùa xuân
 
 ## Một nghi thức nhỏ để giấc ngủ đến đúng giờ
 
-Khi đã biết mình cần ngủ bao nhiêu và nên lên giường lúc mấy giờ, một nghi thức lặp lại mỗi tối sẽ giúp cơ thể "nhớ" giờ ngủ. Tắt màn hình, tắm nước ấm, đọc vài trang sách và một tách trà ấm không caffeine. **Trà Xấu Hổ Tím – Tâm Sen** của QHUB HERBAL lấy xấu hổ tím 30% làm chủ, phối tâm sen, lạc tiên, đinh lăng, hoa cúc vàng – những vị quen thuộc trong kiến thức thảo mộc phương Đông theo hướng thanh tâm, an thần; cỏ ngọt điều vị, không đường. Uống một tách vừa phải khoảng một giờ trước khi ngủ.
+Khi đã biết mình cần ngủ bao nhiêu và nên lên giường lúc mấy giờ, một nghi thức lặp lại mỗi tối sẽ giúp cơ thể "nhớ" giờ ngủ. Tắt màn hình, tắm nước ấm, đọc vài trang sách và một tách trà ấm không caffeine. **Trà Xấu Hổ Tím – Tâm Sen** của QHUB HERBAL lấy xấu hổ tím 30% làm chủ, phối tâm sen, lạc tiên, đinh lăng, hoa cúc vàng – những vị quen thuộc mà theo quan niệm phương Đông thường dùng để thanh tâm; cỏ ngọt điều vị, không đường. Uống một tách vừa phải khoảng một giờ trước khi ngủ.
 
 [[buy:xau-ho-tim-tam-sen]]
 

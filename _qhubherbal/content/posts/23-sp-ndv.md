@@ -213,7 +213,7 @@ Ngải cứu có **tính ấm**, được người xưa dùng để **ôn kinh, 
 
 ## Khi bộ ba gặp nhau
 
-Gừng và ngải cứu **làm ấm**, táo đỏ **dưỡng huyết và làm dịu vị** – tạo nên một thức uống vừa ấm, vừa dễ uống. Đó cũng là "xương sống" của **Trà Ngày Dâu Về**, được bổ sung thêm ích mẫu, cỏ máu, mâm xôi, thiên niên kiện và cam thảo.
+Theo quan niệm phương Đông, gừng và ngải cứu **làm ấm**, táo đỏ **dưỡng huyết và làm dịu vị** – tạo nên một thức uống vừa ấm, vừa dễ uống. Đó cũng là "xương sống" của **Trà Ngày Dâu Về**, được bổ sung thêm ích mẫu, cỏ máu, mâm xôi, thiên niên kiện và cam thảo.
 
 ## Cách dùng tiện lợi
 

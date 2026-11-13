@@ -103,7 +103,7 @@ Thay vì cà phê đặc, hãy thử một tách trà thảo mộc ấm. **Trà 
 
 ## 7. Sau bữa tiệc nhiều dầu mỡ: thử trà lá ổi – lá sen
 
-Nếu điều làm bạn khó chịu nhất là cảm giác **đầy bụng, nặng nề sau ăn**, Trà Lá Ổi Mix Lá Sen là người bạn đồng hành hợp lý.
+Nếu bạn hay có **những bữa ăn nhiều dầu mỡ**, Trà Lá Ổi Mix Lá Sen là thức uống thanh mát sau bữa ăn hợp lý.
 
 [[buy:la-oi-mix-la-sen]]
 
@@ -167,7 +167,7 @@ Mỗi túi gồm cà gai leo (40%), diệp hạ châu (15%), xạ đen, an xoa, 
 +++
 slug: uong-tra-ca-gai-leo-luc-nao
 title: Uống trà cà gai leo lúc nào tốt? Cách pha chuẩn để trà ngon, dễ uống
-seo_title: Uống trà cà gai leo lúc nào tốt nhất? Cách pha đúng, lưu ý
+seo_title: Uống trà cà gai leo lúc nào hợp lý? Cách pha đúng, lưu ý
 desc: Thời điểm uống trà cà gai leo, diệp hạ châu phù hợp trong ngày, cách pha đúng nhiệt độ – thời gian, mỗi ngày bao nhiêu túi và những sai lầm thường gặp.
 cat: san-pham
 cover: gallery/ca-gai-diep-ha-chau-cach-pha.webp
@@ -261,6 +261,6 @@ Trong kinh nghiệm thảo mộc cổ truyền, cơ thể khỏe mạnh khi **â
 
 [[buy:ca-gai-diep-ha-chau]]
 
-Nếu bạn hay nóng trong kèm cảm giác đầy bụng sau ăn, có thể luân phiên với Trà Lá Ổi Mix Lá Sen.
+Nếu bạn hay có những bữa ăn nhiều dầu mỡ, có thể luân phiên với Trà Lá Ổi Mix Lá Sen sau bữa ăn.
 
 [[buy:la-oi-mix-la-sen]]

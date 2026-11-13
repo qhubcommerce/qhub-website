@@ -67,7 +67,7 @@ night	product	kind	cat	slug	title	status
 4	ca-gai-diep-ha-chau	viet-lai	thao-moc	co-ngot-stevia-la-gi	Cỏ ngọt (stevia) là gì? Vì sao trà thảo mộc dùng cỏ ngọt thay đường	todo
 5	duong-nhan	moi	cau-chuyen	co-nhan-vien-ngan-hang-va-ly-tra-sua	Cô nhân viên ngân hàng và ly trà sữa lúc 4 giờ chiều	todo
 5	duong-nhan	moi	thao-moc	tra-hoa-nhai-va-tra-lai-khac-nhau-the	Trà hoa nhài và trà lài khác nhau thế nào? Chuyện caffeine	todo
-5	duong-nhan	moi	san-pham	tra-duong-nhan-uong-luc-nao-tot-nhat-trong	Trà Dưỡng Nhan uống lúc nào tốt nhất trong ngày	todo
+5	duong-nhan	moi	san-pham	tra-duong-nhan-uong-luc-nao-tot-nhat-trong	Trà Dưỡng Nhan uống lúc nào là hợp lý trong ngày	todo
 5	xau-ho-tim-tam-sen	viet-lai	thao-moc	cay-xau-ho-co-tac-dung-gi	Cây xấu hổ (trinh nữ) có tác dụng gì? Cách dùng và lưu ý	todo
 5	xau-ho-tim-tam-sen	moi	cam-nang	anh-sang-xanh-va-giac-ngu-bang-chung-khoa	Ánh sáng xanh và giấc ngủ: bằng chứng khoa học	todo
 5	xau-ho-tim-tam-sen	viet-lai	thao-moc	tam-sen-co-tac-dung-gi	Tâm sen có tác dụng gì? Uống tâm sen đúng cách để ngủ ngon	todo
@@ -112,7 +112,7 @@ night	product	kind	cat	slug	title	status
 7	duong-tam-an	moi	cam-nang	thien-cho-nguoi-ban-ron-bat-dau-tu-3	Thiền cho người bận rộn: bắt đầu từ 3 phút	todo
 7	ca-gai-diep-ha-chau	moi	cam-nang	vang-da-ngua-da-nuoc-tieu-sam-khi-nao	Vàng da, ngứa da, nước tiểu sẫm: khi nào nghĩ đến bệnh gan	todo
 7	ca-gai-diep-ha-chau	viet-lai	san-pham	uong-tra-ca-gai-leo-luc-nao	Uống trà cà gai leo lúc nào tốt? Cách pha chuẩn để trà ngon, dễ uống	todo
-7	ca-gai-diep-ha-chau	moi	cam-nang	viem-gan-b-c-nhung-dieu-can-biet-va	Viêm gan B, C: những điều cần biết và vì sao trà không thay được điều trị	todo
+7	ca-gai-diep-ha-chau	moi	cam-nang	viem-gan-b-c-nhung-dieu-can-biet-va	Viêm gan B, C: những điều cần biết và vì sao trà không thể thay thế điều trị	todo
 7	nam-vuong	viet-lai	san-pham	than-khi-theo-dong-y	"""Thận khí"" theo quan niệm phương Đông là gì? Hiểu đúng để chăm sóc cơ thể từ gốc"	todo
 7	nam-vuong	moi	cam-nang	uong-nuoc-buoi-toi-the-nao-de-bot-tieu	Uống nước buổi tối thế nào để bớt tiểu đêm	todo
 7	xau-ho-tim-tam-sen	moi	cam-nang	ngu-nuong-cuoi-tuan-co-bu-duoc-thieu-ngu	Ngủ nướng cuối tuần có bù được thiếu ngủ không	todo
@@ -130,7 +130,7 @@ night	product	kind	cat	slug	title	status
 8	ca-gai-diep-ha-chau	viet-lai	thao-moc	ca-gai-leo-co-tac-dung-gi	Cà gai leo có tác dụng gì? Góc nhìn phương Đông và nghiên cứu hiện đại	todo
 8	nam-vuong	viet-lai	san-pham	qua-tang-suc-khoe-cho-bo-cho-chong	Quà tặng sức khỏe cho bố, cho chồng: gợi ý thiết thực, ý nghĩa	todo
 8	nam-vuong	moi	cam-nang	ba-kich-tim-va-ba-kich-trang-khac-nhau	Ba kích tím và ba kích trắng khác nhau thế nào	todo
-8	nam-vuong	viet-lai	san-pham	uong-tra-nam-vuong-luc-nao	Uống Trà Nam Vương lúc nào tốt nhất? Cách dùng đúng cho phái mạnh	todo
+8	nam-vuong	viet-lai	san-pham	uong-tra-nam-vuong-luc-nao	Uống Trà Nam Vương lúc nào là hợp lý? Cách dùng đúng cho phái mạnh	todo
 8	xau-ho-tim-tam-sen	moi	cam-nang	ngu-trua-bao-lau-la-tot	Ngủ trưa bao lâu là tốt	todo
 8	xau-ho-tim-tam-sen	viet-lai	thao-moc	dinh-lang-co-tac-dung-gi	Đinh lăng có tác dụng gì? Cách dùng lá, rễ đinh lăng an toàn	todo
 8	ngay-dau-ve	moi	cam-nang	ra-mau-giua-chu-ky-nguyen-nhan-va-khi	Ra máu giữa chu kỳ: nguyên nhân và khi nào đi khám	todo
@@ -147,7 +147,7 @@ night	product	kind	cat	slug	title	status
 9	nam-vuong	viet-lai	thao-moc	ba-kich-co-tac-dung-gi	Ba kích có tác dụng gì? Cách dùng ba kích đúng theo quan niệm phương Đông	todo
 9	nam-vuong	moi	cam-nang	nhuc-thung-dung-cistanche-trong-cac-nghien-cuu-chau	Nhục thung dung (cistanche) trong các nghiên cứu châu Á	todo
 9	xau-ho-tim-tam-sen	moi	cam-nang	giac-ngu-rem-va-giac-ngu-sau-vai-tro	Giấc ngủ REM và giấc ngủ sâu: vai trò của từng giai đoạn	todo
-9	xau-ho-tim-tam-sen	viet-lai	thao-moc	8-thao-moc-giup-ngu-ngon	8 loại thảo mộc giúp ngủ ngon được dùng phổ biến nhất	todo
+9	xau-ho-tim-tam-sen	viet-lai	thao-moc	8-thao-moc-giup-ngu-ngon	8 loại thảo mộc quen dùng buổi tối theo kinh nghiệm dân gian	todo
 9	xau-ho-tim-tam-sen	moi	cam-nang	mat-ngu-va-tram-cam-con-ga-va-qua	Mất ngủ và trầm cảm: con gà và quả trứng	todo
 9	ngay-dau-ve	moi	cam-nang	dau-lung-khi-den-thang-vi-sao-va-cach	Đau lưng khi đến tháng: vì sao và cách giảm	todo
 9	ngay-dau-ve	viet-lai	san-pham	nguoi-thuong-nen-lam-gi-nhung-ngay-ay	Người yêu, vợ đến tháng: anh nên làm gì để cô ấy thấy được thương?	todo
@@ -167,7 +167,7 @@ night	product	kind	cat	slug	title	status
 10	ngay-dau-ve	moi	cam-nang	dau-dau-ky-kinh-migraine-kinh-nguyet	Đau đầu kỳ kinh (migraine kinh nguyệt)	todo
 10	ngay-dau-ve	viet-lai	san-pham	gung-tao-do-ngai-cuu-cho-phai-dep	Gừng – táo đỏ – ngải cứu: bộ ba ấm áp phụ nữ Á Đông tin dùng	todo
 10	ngay-dau-ve	moi	cam-nang	day-bung-phu-ne-truoc-ky-kinh-cach-giam	Đầy bụng, phù nề trước kỳ kinh: cách giảm	todo
-10	la-oi-mix-la-sen	moi	cam-nang	giam-can-an-toan-bao-nhieu-kg-moi-thang	Giảm cân an toàn: bao nhiêu kg mỗi tháng là hợp lý	todo
+10	la-oi-mix-la-sen	moi	cam-nang	giam-can-an-toan-bao-nhieu-kg-moi-thang	Xuống cân an toàn: bao nhiêu kg mỗi tháng là hợp lý	todo
 10	la-oi-mix-la-sen	viet-lai	cam-nang	uong-nuoc-trong-bua-an-co-tot-khong	Uống nước trong và sau bữa ăn có tốt không? Uống lúc nào là hợp lý?	todo
 10	duong-tam-an	moi	cam-nang	cang-thang-va-huyet-ap	Căng thẳng và huyết áp	todo
 10	duong-tam-an	viet-lai	cam-nang	phu-nu-30-va-ap-luc-vo-hinh	Phụ nữ tuổi 30 và những áp lực vô hình	todo
@@ -177,7 +177,7 @@ night	product	kind	cat	slug	title	status
 11	duong-nhan	moi	top	top-6-thuc-uong-buoi-chieu-khong-caffeine-cho	Top 6 thức uống buổi chiều không caffeine cho người làm văn phòng	todo
 11	duong-nhan	moi	cau-chuyen	co-giao-vung-cao-va-tach-tra-hoa-hong	Cô giáo vùng cao và tách trà hoa hồng đầu đông	todo
 11	xau-ho-tim-tam-sen	moi	cam-nang	hoi-chung-chan-khong-yen-nguyen-nhan-va-cach	Hội chứng chân không yên: nguyên nhân và cách giảm	todo
-11	xau-ho-tim-tam-sen	viet-lai	thao-moc	tra-an-than-co-gay-phu-thuoc-khong	Trà an thần thảo mộc có gây phụ thuộc như thuốc ngủ không?	todo
+11	xau-ho-tim-tam-sen	viet-lai	thao-moc	tra-an-than-co-gay-phu-thuoc-khong	Trà thảo mộc buổi tối có gây phụ thuộc như thuốc ngủ không?	todo
 11	xau-ho-tim-tam-sen	moi	cam-nang	ngu-ngay-ngung-tho-khi-ngu-dau-hieu-can	Ngủ ngáy, ngưng thở khi ngủ: dấu hiệu cần đi khám	todo
 11	ngay-dau-ve	viet-lai	cam-nang	dan-van-phong-ngoi-dieu-hoa-bung-lanh	Nữ văn phòng ngồi điều hòa cả ngày: giữ ấm thế nào cho những ngày ấy?	todo
 11	ngay-dau-ve	moi	cam-nang	them-do-ngot-truoc-ky-kinh-ly-do-khoa	Thèm đồ ngọt trước kỳ kinh: lý do khoa học	todo
@@ -223,7 +223,7 @@ night	product	kind	cat	slug	title	status
 13	ca-gai-diep-ha-chau	viet-lai	thao-moc	ca-gai-leo-va-diep-ha-chau-khac-nhau	Cà gai leo và diệp hạ châu khác nhau thế nào? Nên dùng riêng hay kết hợp?	todo
 13	nam-vuong	moi	cam-nang	dua-dai-cay-quen-vung-ven-bien-va-cach	Dứa dại: cây quen vùng ven biển và cách dùng truyền thống	todo
 13	nam-vuong	viet-lai	thao-moc	ruou-ba-kich-hay-tra-ba-kich	Rượu ba kích hay trà ba kích: lựa chọn nào hợp với bạn?	todo
-13	xau-ho-tim-tam-sen	viet-lai	san-pham	tra-ngu-ngon-loai-nao-tot	Trà ngủ ngon loại nào tốt? Cách chọn trà an thần thảo mộc	todo
+13	xau-ho-tim-tam-sen	viet-lai	san-pham	tra-ngu-ngon-loai-nao-tot	Trà thảo mộc uống buổi tối loại nào tốt? Tiêu chí chọn an toàn	todo
 13	xau-ho-tim-tam-sen	moi	cam-nang	thuc-day-met-moi-du-ngu-du-vi-sao	Thức dậy mệt mỏi dù ngủ đủ: vì sao	todo
 13	ngay-dau-ve	viet-lai	thao-moc	ngai-cuu-co-tac-dung-gi	Ngải cứu có tác dụng gì? Cách dùng ngải cứu đúng cho phụ nữ	todo
 13	ngay-dau-ve	moi	cam-nang	magie-canxi-vitamin-b6-va-trieu-chung-tien-kinh	Magie, canxi, vitamin B6 và triệu chứng tiền kinh nguyệt	todo
@@ -232,14 +232,14 @@ night	product	kind	cat	slug	title	status
 14	duong-nhan	moi	cau-chuyen	chi-truong-nhom-marketing-va-tuan-le-kin-lich	Chị trưởng nhóm marketing và tuần lễ kín lịch họp	todo
 14	duong-tam-an	moi	cam-nang	lam-viec-tu-xa-va-cam-giac-co-don	Làm việc từ xa và cảm giác cô đơn	todo
 14	duong-tam-an	viet-lai	cam-nang	ranh-gioi-cong-viec-cuoc-song	Đặt ranh giới giữa công việc và cuộc sống: 8 cách thực tế	todo
-14	duong-tam-an	moi	cam-nang	thien-nhien-chua-lanh-tam-rung-shinrin-yoku	Thiên nhiên chữa lành: tắm rừng (shinrin-yoku)	todo
+14	duong-tam-an	moi	cam-nang	thien-nhien-chua-lanh-tam-rung-shinrin-yoku	Tắm rừng (shinrin-yoku): thiên nhiên và tâm trí thư thái	todo
 14	ca-gai-diep-ha-chau	moi	cam-nang	duoc-lieu-dat-chuan-gacp-who-nghia-la-gi	Dược liệu đạt chuẩn GACP-WHO nghĩa là gì	todo
 14	ca-gai-diep-ha-chau	viet-lai	thao-moc	xa-den-co-tac-dung-gi	Xạ đen có tác dụng gì? Cách dùng xạ đen đúng và lưu ý	todo
 14	ca-gai-diep-ha-chau	moi	cam-nang	thuoc-nam-va-tuong-tac-thuoc-dieu-nguoi-dung	Thuốc nam và tương tác thuốc: điều người dùng thuốc tây cần biết	todo
 14	nam-vuong	moi	cam-nang	ruou-ngam-duoc-lieu-rui-ro-methanol-va-nhung	Rượu ngâm dược liệu: rủi ro methanol và những điều cần biết	todo
 14	nam-vuong	viet-lai	thao-moc	7-vi-thuoc-bo-than-trong-dong-y	7 vị thuốc ôn bổ Thận khí quen thuộc trong quan niệm phương Đông	todo
 14	nam-vuong	moi	cam-nang	ngu-du-giac-va-hormone-nam-moi-lien-he	Ngủ đủ giấc và hormone nam: mối liên hệ khoa học	todo
-14	xau-ho-tim-tam-sen	viet-lai	san-pham	tra-xau-ho-tim-tam-sen-uong-luc-nao	Trà Xấu Hổ Tím – Tâm Sen uống lúc nào tốt nhất? Cách dùng đúng	todo
+14	xau-ho-tim-tam-sen	viet-lai	san-pham	tra-xau-ho-tim-tam-sen-uong-luc-nao	Trà Xấu Hổ Tím – Tâm Sen uống lúc nào là hợp lý? Cách dùng đúng	todo
 14	xau-ho-tim-tam-sen	moi	cam-nang	tre-vi-thanh-nien-thuc-khuya-cha-me-nen	Trẻ vị thành niên thức khuya: cha mẹ nên làm gì	todo
 14	ngay-dau-ve	viet-lai	thao-moc	uong-nuoc-ngai-cuu-co-tot-khong	Uống nước ngải cứu mỗi ngày có tốt không? Uống bao nhiêu là đủ?	todo
 14	ngay-dau-ve	moi	cam-nang	thuoc-giam-dau-bung-kinh-dung-dung-cach-va	Thuốc giảm đau bụng kinh: dùng đúng cách và lưu ý	todo
@@ -263,7 +263,7 @@ night	product	kind	cat	slug	title	status
 15	la-oi-mix-la-sen	moi	cam-nang	mo-noi-tang-la-gi-va-vi-sao-nguy	Mỡ nội tạng là gì và vì sao nguy hiểm hơn mỡ dưới da	todo
 15	duong-tam-an	viet-lai	cam-nang	cang-thang-anh-huong-lan-da	Căng thẳng ảnh hưởng làn da thế nào? Chăm da từ tâm trí	todo
 15	duong-tam-an	moi	cam-nang	am-nhac-va-thu-gian-khoa-hoc-noi-gi	Âm nhạc và thư giãn: khoa học nói gì	todo
-16	duong-nhan	moi	cau-chuyen	co-duoc-si-tre-va-cau-hoi-tra-co	"Cô dược sĩ trẻ và câu hỏi ""trà có làm đẹp da không"""	todo
+16	duong-nhan	moi	cau-chuyen	co-duoc-si-tre-va-cau-hoi-tra-co	"Cô nhân viên văn phòng và câu hỏi ""trà có làm đẹp da không"""	todo
 16	duong-nhan	moi	thao-moc	tia-to-trong-bua-com-viet	Tía tô trong bữa cơm Việt: kinh nghiệm dân gian khi ăn cua cá	todo
 16	duong-nhan	moi	san-pham	dang-dung-thuoc-chong-dong-co-uong-tra-duong	Đang dùng thuốc chống đông có uống Trà Dưỡng Nhan được không	todo
 16	nam-vuong	moi	cam-nang	bung-bia-o-nam-gioi-nguyen-nhan-va-cach	Bụng bia ở nam giới: nguyên nhân và cách giảm an toàn	todo
@@ -322,9 +322,9 @@ night	product	kind	cat	slug	title	status
 19	duong-nhan	moi	cau-chuyen	chang-trai-chon-qua-20-10-cho-me-va	Chàng trai chọn quà 20/10 cho mẹ và người yêu	todo
 19	la-oi-mix-la-sen	viet-lai	thao-moc	gao-lut-rang-co-tac-dung-gi	Nước gạo lứt rang có tác dụng gì? Cách làm và lưu ý	todo
 19	la-oi-mix-la-sen	moi	cam-nang	trao-nguoc-da-day-thoi-quen-an-uong-can	Trào ngược dạ dày: thói quen ăn uống cần thay đổi	todo
-19	la-oi-mix-la-sen	viet-lai	thao-moc	giao-co-lam-uong-luc-nao	Trà giảo cổ lam uống lúc nào tốt nhất?	todo
+19	la-oi-mix-la-sen	viet-lai	thao-moc	giao-co-lam-uong-luc-nao	Trà giảo cổ lam uống lúc nào là hợp lý?	todo
 19	duong-tam-an	moi	cam-nang	thao-moc-an-than-trong-y-hoc-phuong-dong	Thảo mộc an thần trong y học phương Đông	todo
-19	duong-tam-an	viet-lai	thao-moc	tra-hoa-cuc-uong-luc-nao	Trà hoa cúc uống lúc nào tốt nhất? Có nên uống mỗi ngày?	todo
+19	duong-tam-an	viet-lai	thao-moc	tra-hoa-cuc-uong-luc-nao	Trà hoa cúc uống lúc nào là hợp lý? Có nên uống mỗi ngày?	todo
 19	duong-tam-an	moi	cam-nang	dinh-lang-va-tri-nho-bang-chung-hien-co	Đinh lăng và trí nhớ: bằng chứng hiện có	todo
 19	ca-gai-diep-ha-chau	moi	cam-nang	ca-phe-co-tot-cho-gan-khong	Cà phê có tốt cho gan không	todo
 19	ca-gai-diep-ha-chau	viet-lai	san-pham	tra-ca-gai-leo-uong-bao-lau	Trà cà gai leo uống bao lâu thì cảm nhận được? Nên dùng liên tục không?	todo
@@ -341,7 +341,7 @@ night	product	kind	cat	slug	title	status
 20	duong-tam-an	viet-lai	thao-moc	cach-pha-tra-lac-tien	Cách pha trà lạc tiên thơm ngon, dễ uống	todo
 20	duong-tam-an	moi	cam-nang	tam-an-theo-quan-niem-phuong-dong-duong-tam	Tâm an theo quan niệm phương Đông: dưỡng tâm, an thần	todo
 20	duong-tam-an	viet-lai	thao-moc	la-dinh-lang-pha-tra	Lá đinh lăng pha trà: cách làm và lưu ý	todo
-20	ca-gai-diep-ha-chau	viet-lai	san-pham	uong-tra-ca-gai-leo-buoi-toi-duoc-khong	Uống trà cà gai leo buổi tối được không? Thời điểm uống tốt nhất	todo
+20	ca-gai-diep-ha-chau	viet-lai	san-pham	uong-tra-ca-gai-leo-buoi-toi-duoc-khong	Uống trà cà gai leo buổi tối được không? Thời điểm uống hợp lý	todo
 20	ca-gai-diep-ha-chau	moi	cam-nang	giam-5-10-can-nang-thay-doi-gan-the	Giảm 5–10% cân nặng thay đổi gan thế nào	todo
 20	ca-gai-diep-ha-chau	viet-lai	san-pham	lich-uong-tra-ca-gai-leo-cho-nguoi-ban-ron	Lịch uống trà cà gai leo 7 ngày cho người bận rộn, hay đi công tác	todo
 20	nam-vuong	viet-lai	san-pham	tra-nam-vuong-co-nong-khong	Uống Trà Nam Vương có bị nóng không?	todo
@@ -375,7 +375,7 @@ night	product	kind	cat	slug	title	status
 22	duong-nhan	moi	cam-nang	bua-sang-du-chat-cho-phu-nu-van-phong	Bữa sáng đủ chất cho phụ nữ văn phòng bận rộn	todo
 22	duong-nhan	moi	cau-chuyen	me-chong-nang-dau-va-am-tra-chieu-cuoi	Mẹ chồng, nàng dâu và ấm trà chiều cuối tuần	todo
 22	nam-vuong	viet-lai	san-pham	tra-nam-vuong-vi-the-nao	Trà Nam Vương vị thế nào? Mẹo pha cho ngon	todo
-22	nam-vuong	moi	cam-nang	vi-sao-khong-nen-tu-mua-thuoc-tang-cuong	Vì sao không nên tự mua thuốc tăng cường sinh lý trôi nổi	todo
+22	nam-vuong	moi	cam-nang	vi-sao-khong-nen-tu-mua-thuoc-tang-cuong	"Vì sao không nên tự mua thuốc ""bổ"" cho nam giới trôi nổi"	todo
 22	nam-vuong	viet-lai	san-pham	thay-ruou-thuoc-bang-tra	Thay rượu thuốc bằng trà: chuyện của những người đàn ông muốn sống khỏe	todo
 22	xau-ho-tim-tam-sen	viet-lai	cau-chuyen	anh-dieu-duong-lam-ca-dem	Anh điều dưỡng ca đêm và giấc ngủ giữa ban ngày	todo
 22	xau-ho-tim-tam-sen	moi	cam-nang	viet-danh-sach-viec-ngay-mai-giup-ngu-nhanh	Viết danh sách việc ngày mai giúp ngủ nhanh hơn	todo
@@ -386,7 +386,7 @@ night	product	kind	cat	slug	title	status
 22	la-oi-mix-la-sen	moi	cam-nang	chat-xo-hoa-tan-va-khong-hoa-tan	Chất xơ hòa tan và không hòa tan	todo
 22	la-oi-mix-la-sen	viet-lai	san-pham	tra-la-oi-loai-nao-tot	Trà lá ổi loại nào tốt? Cách chọn trà lá ổi túi lọc	todo
 22	duong-tam-an	moi	san-pham	tra-duong-tam-an-uong-gio-nao-trong-ngay	Trà Dưỡng Tâm An uống giờ nào trong ngày	todo
-22	duong-tam-an	viet-lai	thao-moc	thao-moc-giup-thu-gian	8 loại thảo mộc giúp thư giãn, giảm căng thẳng phổ biến nhất	todo
+22	duong-tam-an	viet-lai	thao-moc	thao-moc-giup-thu-gian	8 loại thảo mộc quen dùng cho phút thư giãn	todo
 22	ca-gai-diep-ha-chau	viet-lai	san-pham	tra-thao-moc-cho-nguoi-cao-tuoi-hay-nong-trong	Ông bà hay nóng trong, táo bón: chọn trà thảo mộc nào cho người cao tuổi?	todo
 22	ca-gai-diep-ha-chau	moi	cam-nang	noi-me-day-khi-troi-nong-nguyen-nhan-va	Nổi mề đay khi trời nóng: nguyên nhân và cách xử lý	todo
 23	duong-nhan	moi	san-pham	tra-duong-nhan-cho-hoc-sinh-sinh-vien	Trà Dưỡng Nhan cho học sinh, sinh viên: có nên dùng	todo
@@ -415,7 +415,7 @@ night	product	kind	cat	slug	title	status
 24	ngay-dau-ve	moi	cam-nang	tao-do-va-long-nhan-mon-boi-bo-quen	Táo đỏ và long nhãn: món bồi bổ quen thuộc của phụ nữ	todo
 24	la-oi-mix-la-sen	viet-lai	san-pham	gia-tra-la-oi-mix-la-sen	Giá Trà Lá Ổi Mix Lá Sen bao nhiêu? Mua ở đâu?	todo
 24	la-oi-mix-la-sen	moi	san-pham	tra-la-oi-mix-la-sen-co-gay-tao	Trà Lá Ổi Mix Lá Sen có gây táo bón không	todo
-24	la-oi-mix-la-sen	viet-lai	san-pham	tra-la-oi-mix-la-sen-uong-luc-nao	Trà Lá Ổi Mix Lá Sen uống lúc nào tốt nhất?	todo
+24	la-oi-mix-la-sen	viet-lai	san-pham	tra-la-oi-mix-la-sen-uong-luc-nao	Trà Lá Ổi Mix Lá Sen uống lúc nào là hợp lý?	todo
 24	duong-tam-an	moi	san-pham	tra-duong-tam-an-cho-nguoi-cao-tuoi	Trà Dưỡng Tâm An cho người cao tuổi	todo
 24	duong-tam-an	viet-lai	thao-moc	cuc-vang-va-cuc-la-ma-khac-nhau	Hoa cúc vàng Việt Nam và cúc La Mã (chamomile) khác nhau thế nào?	todo
 24	duong-tam-an	moi	san-pham	tra-duong-tam-an-va-tra-xau-ho-tim	Trà Dưỡng Tâm An và Trà Xấu Hổ Tím – Tâm Sen: chọn loại nào	todo
@@ -429,7 +429,7 @@ night	product	kind	cat	slug	title	status
 25	duong-nhan	moi	cam-nang	phu-nu-tuoi-30	Phụ nữ tuổi 30: những thay đổi của làn da và cơ thể	todo
 25	duong-nhan	moi	cam-nang	lao-hoa-da-do-anh-nang-photoaging-la-gi	Lão hóa da do ánh nắng (photoaging) là gì	todo
 25	la-oi-mix-la-sen	moi	san-pham	tra-la-oi-mix-la-sen-cho-nguoi-huyet	Trà Lá Ổi Mix Lá Sen cho người huyết áp thấp	todo
-25	la-oi-mix-la-sen	viet-lai	san-pham	tra-la-oi-la-sen-co-giam-can-khong	Trà lá ổi lá sen có giảm cân không? Sự thật bạn nên biết	todo
+25	la-oi-mix-la-sen	viet-lai	san-pham	tra-la-oi-la-sen-co-giam-can-khong	Trà lá ổi lá sen có giúp xuống cân không? Sự thật bạn nên biết	todo
 25	la-oi-mix-la-sen	moi	san-pham	tra-la-oi-mix-la-sen-uong-lanh-duoc	Trà Lá Ổi Mix Lá Sen uống lạnh được không	todo
 25	duong-tam-an	viet-lai	thao-moc	an-than-trong-dong-y-la-gi	"""An thần"" trong quan niệm phương Đông là gì? Hiểu đúng để không nhầm với thuốc ngủ"	todo
 25	duong-tam-an	moi	san-pham	tra-duong-tam-an-cho-hoc-sinh-sinh-vien	Trà Dưỡng Tâm An cho học sinh, sinh viên	todo
@@ -487,13 +487,13 @@ night	product	kind	cat	slug	title	status
 28	nam-vuong	moi	cam-nang	benh-gut-o-nam-gioi-an-uong-va-ruou	Bệnh gút ở nam giới: ăn uống và rượu bia	todo
 28	xau-ho-tim-tam-sen	moi	cam-nang	hoa-cuc-vang-va-hoa-cuc-la-ma-khac	Hoa cúc vàng và hoa cúc La Mã: khác biệt khi pha trà	todo
 28	xau-ho-tim-tam-sen	viet-lai	top	top-tra-khong-caffeine	Top 10 loại trà không caffeine uống được cả buổi tối	todo
-28	xau-ho-tim-tam-sen	moi	san-pham	tra-an-than-co-dung-duoc-cho-tre-em	Trà an thần có dùng được cho trẻ em không	todo
+28	xau-ho-tim-tam-sen	moi	san-pham	tra-an-than-co-dung-duoc-cho-tre-em	Trẻ em có nên uống trà thảo mộc buổi tối không	todo
 28	ngay-dau-ve	viet-lai	san-pham	tra-ngay-dau-ve-cho-sinh-vien	Trà Ngày Dâu Về cho nữ sinh viên xa nhà: tiện, ấm, dễ mang theo	todo
 28	ngay-dau-ve	moi	san-pham	tra-ngay-dau-ve-uong-truoc-ky-kinh-may	Trà Ngày Dâu Về uống trước kỳ kinh mấy ngày	todo
 28	ngay-dau-ve	viet-lai	cau-chuyen	chuyen-cua-ha-va-chiec-tui-chuom	Chuyện của Hà và chiếc túi chườm hình gấu	todo
 28	la-oi-mix-la-sen	viet-lai	san-pham	tra-la-oi-mix-la-sen-vi-the-nao	Trà Lá Ổi Mix Lá Sen vị thế nào? Có chát không?	todo
 28	la-oi-mix-la-sen	moi	cau-chuyen	anh-shipper-va-bua-trua-voi-vang	Anh shipper và bữa trưa vội vàng	todo
-28	duong-tam-an	viet-lai	san-pham	tra-duong-tam-an-uong-luc-nao	Trà Dưỡng Tâm An uống lúc nào tốt nhất?	todo
+28	duong-tam-an	viet-lai	san-pham	tra-duong-tam-an-uong-luc-nao	Trà Dưỡng Tâm An uống lúc nào là hợp lý?	todo
 28	duong-tam-an	moi	cam-nang	qua-tang-nguoi-dang-ap-luc-cong-viec	Quà tặng người đang áp lực công việc	todo
 28	ca-gai-diep-ha-chau	moi	cam-nang	sau-tet-co-the-met-moi-phuc-hoi-trong	Sau Tết cơ thể mệt mỏi: phục hồi trong 7 ngày	todo
 28	ca-gai-diep-ha-chau	viet-lai	cau-chuyen	co-giao-thuc-khuya-cham-bai	Cô giáo Hạnh và mùa chấm bài cuối kỳ	todo
@@ -573,7 +573,7 @@ night	product	kind	cat	slug	title	status
 33	ca-gai-diep-ha-chau	moi	cam-nang	ca-gai-leo-moc-o-dau-vung-trong-duoc	Cà gai leo mọc ở đâu, vùng trồng dược liệu nổi tiếng Việt Nam	todo
 33	ca-gai-diep-ha-chau	viet-lai	top	cach-chon-tra-thao-moc-uy-tin	Cách chọn trà thảo mộc uy tín: 8 tiêu chí ai cũng tự kiểm tra được	todo
 33	nam-vuong	moi	san-pham	tra-nam-vuong-va-ruou-ba-kich-chon-gi	Trà Nam Vương và rượu ba kích: chọn gì cho người lớn tuổi	todo
-33	nam-vuong	viet-lai	top	top-qua-tang-suc-khoe-cho-bo-me	Top 10 quà tặng sức khỏe cho bố mẹ ý nghĩa nhất	todo
+33	nam-vuong	viet-lai	top	top-qua-tang-suc-khoe-cho-bo-me	Top 10 quà tặng sức khỏe ý nghĩa cho bố mẹ	todo
 33	nam-vuong	moi	cam-nang	qua-tet-cho-bo-vo-goi-y-theo-ngan	Quà Tết cho bố vợ: gợi ý theo ngân sách	todo
 33	xau-ho-tim-tam-sen	moi	cam-nang	ke-hoach-30-ngay-xay-thoi-quen-ngu-truoc	Kế hoạch 30 ngày xây thói quen ngủ trước 23 giờ	todo
 33	xau-ho-tim-tam-sen	moi	cam-nang	lich-ngu-cho-nguoi-lam-ca-ba-ca	Lịch ngủ cho người làm ca ba ca	todo
@@ -629,7 +629,7 @@ night	product	kind	cat	slug	title	status
 36	la-oi-mix-la-sen	viet-lai	cam-nang	an-sang-dung-cach-cho-bung-de-chiu	Ăn sáng đúng cách để bụng dạ dễ chịu cả ngày	todo
 36	la-oi-mix-la-sen	viet-lai	san-pham	tra-la-oi-la-sen-cho-nguoi-cao-tuoi	Người cao tuổi uống trà lá ổi lá sen có được không?	todo
 36	la-oi-mix-la-sen	viet-lai	top	top-tra-thao-moc-cho-nguoi-cao-tuoi	Top 6 loại trà thảo mộc dịu nhẹ cho người cao tuổi	todo
-36	duong-tam-an	moi	cam-nang	chuyen-di-mot-minh-de-chua-lanh	Chuyến đi một mình để chữa lành	todo
+36	duong-tam-an	moi	cam-nang	chuyen-di-mot-minh-de-chua-lanh	Chuyến đi một mình để tìm lại bình yên	todo
 36	duong-tam-an	viet-lai	cau-chuyen	co-y-ta-va-ca-truc-cang-thang	Cô y tá và những ca trực căng thẳng	todo
 36	duong-tam-an	viet-lai	cau-chuyen	me-va-con-gai-tuoi-day-thi-cang-thang	Mẹ và cô con gái tuổi thi chuyển cấp	todo
 36	ca-gai-diep-ha-chau	viet-lai	top	cau-hoi-thuong-gap-ve-tra-thao-moc	20 câu hỏi thường gặp về trà thảo mộc túi lọc	todo

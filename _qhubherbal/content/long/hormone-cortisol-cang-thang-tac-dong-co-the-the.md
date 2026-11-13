@@ -140,7 +140,7 @@ Trong guồng quay căng thẳng, việc tạo ra một **khoảng lặng có ch
 
 ## Lời kết
 
-Chị Phương không tìm được "thuốc giảm cortisol" thần kỳ nào, nhưng chị bắt đầu những thay đổi nhỏ: tắt thông báo email sau 20h, đi bộ 20 phút dưới nắng sáng trước giờ làm, bỏ ly cà phê thứ hai, mỗi tối pha một tách trà và thở chậm 5 phút. Hai tháng sau, chị ngủ một mạch đến sáng nhiều đêm hơn, bớt thèm ngọt và ít ốm vặt. Cortisol không phải kẻ thù – nó chỉ cần được nghỉ ngơi đúng lúc, như chính chúng ta.
+Chị Phương không tìm được "thuốc giảm cortisol" thần kỳ nào, nhưng chị bắt đầu những thay đổi nhỏ: tắt thông báo email sau 20h, đi bộ 20 phút dưới nắng sáng trước giờ làm, bỏ ly cà phê thứ hai, mỗi tối pha một tách trà và thở chậm 5 phút. Sau hai tháng kiên trì những thay đổi ấy, chị ngủ một mạch đến sáng nhiều đêm hơn, bớt thèm ngọt và ít ốm vặt. Cortisol không phải kẻ thù – nó chỉ cần được nghỉ ngơi đúng lúc, như chính chúng ta.
 
 *Thông tin mang tính tham khảo, không thay thế chẩn đoán và tư vấn của bác sĩ. Trà Dưỡng Tâm An là thực phẩm, không phải là thuốc và không có tác dụng thay thế thuốc chữa bệnh.*
 

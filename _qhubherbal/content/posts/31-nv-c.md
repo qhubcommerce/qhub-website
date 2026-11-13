@@ -331,6 +331,6 @@ Vị **Tá** chính là "chìa khóa" của sự cân bằng.
 - **Tá**: kim tiền thảo, dứa dại – **tính mát, thanh lợi, hòa lại tính ấm**.
 - **Sứ**: cỏ ngọt – điều vị.
 
-Nhờ vậy, Trà Nam Vương được phối hướng tới **"bổ mà không nóng"** – dễ dùng hằng ngày.
+Nhờ vậy, Trà Nam Vương được phối hướng tới tính vị **"ấm mà không nóng"** – dễ dùng hằng ngày.
 
 [[buy:nam-vuong]]

@@ -115,7 +115,7 @@ Theo quan niệm phương Đông, **Thận tàng tinh, chủ sinh dục**; sức
 
 ## Một thói quen ấm áp cho phái mạnh
 
-Bên cạnh khám định kỳ và lối sống lành mạnh, nhiều anh em thích có một thói quen dưỡng sinh nhỏ mỗi ngày. **Trà Nam Vương** của QHUB HERBAL phối **ba kích, nhục thung dung, nấm ngọc cẩu, mú từn** – nhóm vị ôn bổ quen thuộc của kiến thức thảo mộc phương Đông – cùng **kim tiền thảo, dứa dại** hòa lại tính ấm; cỏ ngọt điều vị, bổ mà không nóng. Trà là thực phẩm, có công bố rõ ràng, không phải thuốc và không thay thế việc thăm khám khi có vấn đề nam khoa.
+Bên cạnh khám định kỳ và lối sống lành mạnh, nhiều anh em thích có một thói quen dưỡng sinh nhỏ mỗi ngày. **Trà Nam Vương** của QHUB HERBAL phối **ba kích, nhục thung dung, nấm ngọc cẩu, mú từn** – nhóm vị ôn bổ quen thuộc của kiến thức thảo mộc phương Đông – cùng **kim tiền thảo, dứa dại** hòa lại tính ấm; cỏ ngọt điều vị, cho vị ấm mà dịu. Trà là thực phẩm, có công bố rõ ràng, không phải thuốc và không thay thế việc thăm khám khi có vấn đề nam khoa.
 
 [[buy:nam-vuong]]
 

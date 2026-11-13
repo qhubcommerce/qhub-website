@@ -85,7 +85,7 @@ Lạc tiên thường được nhắc cùng những vị thảo mộc buổi t�
 | **Đinh lăng** | Ngọt, hơi đắng, bình | Cân bằng vị, được dùng bồi bổ | Không dùng quá liều |
 | **Lá vông nem** | Đắng, bình | An thần dân gian | Có độc tính nếu dùng nhiều, cần theo chỉ dẫn |
 
-Khi phối hợp, các vị này bổ trợ cho nhau: vị đắng mát của tâm sen được hoa cúc và đinh lăng làm dịu, lạc tiên giữ vai trò an thần nhẹ, tạo ra một tách trà vừa dễ uống vừa hài hòa.
+Khi phối hợp, các vị này bổ trợ cho nhau: vị đắng mát của tâm sen được hoa cúc và đinh lăng làm dịu, lạc tiên – theo quan niệm phương Đông – giữ vai trò an thần nhẹ, tạo ra một tách trà vừa dễ uống vừa hài hòa.
 
 ## Cách dùng lạc tiên an toàn
 
@@ -139,7 +139,7 @@ Thảo mộc phát huy tốt nhất khi là **một phần của thói quen thư
 
 ## Lời kết
 
-Chị Hoa giờ có một chậu lạc tiên nhỏ leo trên giàn ban công – nhắc chị về những buổi chiều tuổi thơ không âu lo. Chị hiểu rằng cây chùm bao không phải liều thuốc thần kỳ, nhưng tách trà ấm mỗi tối, cùng việc tắt điện thoại sớm và cho mình mười phút yên tĩnh, đã giúp chị ngủ dễ hơn nhiều. Đôi khi, điều cơ thể cần nhất không phải một chất mạnh, mà là một tín hiệu dịu dàng rằng: hôm nay đủ rồi, nghỉ thôi.
+Chị Hoa giờ có một chậu lạc tiên nhỏ leo trên giàn ban công – nhắc chị về những buổi chiều tuổi thơ không âu lo. Chị hiểu rằng cây chùm bao không phải liều thuốc thần kỳ; điều giúp chị ngủ dễ hơn nhiều là việc tắt điện thoại sớm và cho mình mười phút yên tĩnh, còn tách trà ấm mỗi tối là nghi thức nhỏ chị thấy dễ chịu. Đôi khi, điều cơ thể cần nhất không phải một chất mạnh, mà là một tín hiệu dịu dàng rằng: hôm nay đủ rồi, nghỉ thôi.
 
 *Thông tin mang tính tham khảo, không thay thế chẩn đoán và tư vấn của bác sĩ. Trà Dưỡng Tâm An là thực phẩm, không phải là thuốc và không có tác dụng thay thế thuốc chữa bệnh.*
 

@@ -124,7 +124,7 @@ Hoàng cười. Anh chợt nhận ra, có lẽ ngày ấy Thảo Vân cũng ch�
 
 ## Tách trà sau bữa ăn – người bạn nhỏ trên chặng đường dài
 
-**Trà Lá Ổi Mix Lá Sen** của QHUB HERBAL là thức uống Hoàng giữ lại suốt hành trình – không phải để thay bữa, mà để thay cốc trà sữa sau bữa ăn. Công thức gồm lá ổi 50% làm chủ, theo quan niệm phương Đông giúp kiện Tỳ; lá sen 20% thanh nhiệt, lợi thấp; giảo cổ lam hỗ trợ thanh lọc; gạo lứt rang ấm bụng và cho hương ngũ cốc; cỏ ngọt điều vị nên **không cần thêm đường**. Uống ấm sau bữa 15–30 phút, hoặc pha một bình để trên bàn làm việc uống trong ngày.
+**Trà Lá Ổi Mix Lá Sen** của QHUB HERBAL là thức uống Hoàng giữ lại suốt hành trình – không phải để thay bữa, mà để thay cốc trà sữa sau bữa ăn. Công thức gồm lá ổi 50% làm chủ, theo quan niệm phương Đông giúp kiện Tỳ; lá sen 20% thanh nhiệt, lợi thấp; giảo cổ lam thanh nhiệt; gạo lứt rang ấm bụng và cho hương ngũ cốc; cỏ ngọt điều vị nên **không cần thêm đường**. Uống ấm sau bữa 15–30 phút, hoặc pha một bình để trên bàn làm việc uống trong ngày.
 
 Trà không làm bạn giảm cân thay bạn – nhưng một thói quen nhỏ, dễ chịu, lặp lại mỗi ngày có thể giúp bạn giữ được những thay đổi lớn.
 

@@ -112,7 +112,7 @@ Người xưa dạy "**Nhật xuất nhi tác, nhật nhập nhi tức**" – m�
 
 ## Một nghi thức nhỏ giúp ngủ đủ
 
-Ngủ đủ bắt đầu từ việc **chịu đi ngủ đúng giờ**. Một tách trà ấm không caffeine vào khoảng 21h30 có thể là "chuông báo" nhẹ nhàng để bạn tắt máy tính, rời điện thoại. **Trà Xấu Hổ Tím – Tâm Sen** của QHUB HERBAL lấy xấu hổ tím làm chủ, phối tâm sen, lạc tiên, đinh lăng, hoa cúc vàng theo hướng thanh tâm, an thần trong kiến thức thảo mộc phương Đông – không đường, không caffeine.
+Ngủ đủ bắt đầu từ việc **chịu đi ngủ đúng giờ**. Một tách trà ấm không caffeine vào khoảng 21h30 có thể là "chuông báo" nhẹ nhàng để bạn tắt máy tính, rời điện thoại. **Trà Xấu Hổ Tím – Tâm Sen** của QHUB HERBAL lấy xấu hổ tím làm chủ, phối tâm sen, lạc tiên, đinh lăng, hoa cúc vàng – những vị mà theo quan niệm phương Đông thường dùng để thanh tâm – không đường, không caffeine.
 
 [[buy:xau-ho-tim-tam-sen]]
 

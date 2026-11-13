@@ -125,7 +125,7 @@ Những dấu hiệu này có thể gợi ý **lạc nội mạc tử cung, u x�
 
 ## Tách trà ấm – "chườm ấm từ bên trong"
 
-Nếu túi chườm làm ấm từ bên ngoài, một tách trà ấm là cách sưởi ấm từ bên trong. **Trà Ngày Dâu Về** của QHUB HERBAL phối **ích mẫu, ngải cứu, cỏ máu, gừng, táo đỏ, mâm xôi, thiên niên kiện, cam thảo** – những thảo mộc tính ấm trong kiến thức chăm sóc phụ nữ phương Đông, giúp chị em ấm bụng, dễ chịu hơn những ngày hành kinh. Túi chườm trên bụng, tách trà ấm trên tay – một buổi tối dịu dàng cho chính mình.
+Nếu túi chườm làm ấm từ bên ngoài, một tách trà ấm là cách sưởi ấm từ bên trong. **Trà Ngày Dâu Về** của QHUB HERBAL phối **ích mẫu, ngải cứu, cỏ máu, gừng, táo đỏ, mâm xôi, thiên niên kiện, cam thảo** – những thảo mộc tính ấm trong kiến thức chăm sóc phụ nữ phương Đông, cho một thức uống ấm áp, dễ chịu những ngày hành kinh. Túi chườm trên bụng, tách trà ấm trên tay – một buổi tối dịu dàng cho chính mình.
 
 **Lưu ý:** không dùng cho phụ nữ mang thai, nghi có thai, đang cho con bú; người ra kinh nhiều, đang dùng thuốc chống đông nên hỏi bác sĩ trước.
 

@@ -243,11 +243,11 @@ Có những cuộc vui khó từ chối. Điều bạn có thể làm là chăm 
 
 ## Một tách trà cho buổi sáng sau cuộc vui
 
-**Trà Cà Gai – Diệp Hạ Châu** – những vị thuốc nam quen thuộc của người hay tiếp khách, vị đắng nhẹ, hậu ngọt, uống ấm nhẹ nhàng.
+**Trà Cà Gai – Diệp Hạ Châu** – những vị thảo mộc dân gian quen thuộc với người hay tiếp khách, vị đắng nhẹ, hậu ngọt, uống ấm nhẹ nhàng.
 
 [[buy:ca-gai-diep-ha-chau]]
 
-Nếu bụng đầy, khó tiêu sau bữa nhiều dầu mỡ, **Trà Lá Ổi Mix Lá Sen** là lựa chọn dịu nhẹ hơn.
+Sau những bữa nhiều dầu mỡ, **Trà Lá Ổi Mix Lá Sen** là thức uống thanh mát, dịu nhẹ hơn.
 
 [[buy:la-oi-mix-la-sen]]
 
@@ -290,6 +290,6 @@ Mụn liên quan đến tuyến bã nhờn, vi khuẩn, nội tiết, căng th�
 
 ## Gợi ý từ QHUB HERBAL
 
-**Trà Cà Gai – Diệp Hạ Châu** phối các vị tính mát theo quan niệm phương Đông – diệp hạ châu, xạ đen, giảo cổ lam – cho tinh thần "thanh lọc từ bên trong".
+**Trà Cà Gai – Diệp Hạ Châu** phối các vị tính mát theo quan niệm phương Đông – diệp hạ châu, xạ đen, giảo cổ lam – cho một tách trà thanh mát mỗi ngày.
 
 [[buy:ca-gai-diep-ha-chau]]

@@ -139,13 +139,13 @@ Việc phân thể cần người có chuyên môn. Bảng trên chỉ giúp b�
 
 ## Thức uống thanh mát hằng ngày
 
-Theo quan niệm phương Đông, những vị thảo mộc tính mát giúp "thanh nhiệt", cân bằng lại khi cơ thể có cảm giác nóng trong. **Trà Cà Gai – Diệp Hạ Châu** của QHUB HERBAL phối cà gai leo 40%, diệp hạ châu 15%, cùng xạ đen, an xoa, giảo cổ lam theo hướng thanh nhiệt; cà gai leo tính ấm nhẹ giữ cho công thức không quá mát; cỏ ngọt điều vị, không đường. Phù hợp cho những ngày thức khuya, tiếp khách, nổi mụn vì nóng trong – uống thay nước ngọt. Nếu bạn hay khó ngủ, bứt rứt vì căng thẳng, **Trà Dưỡng Tâm An** với lạc tiên, tâm sen, hoa cúc là lựa chọn dịu nhẹ buổi tối.
+Theo quan niệm phương Đông, những vị thảo mộc tính mát giúp "thanh nhiệt", cân bằng lại khi cơ thể có cảm giác nóng trong. **Trà Cà Gai – Diệp Hạ Châu** của QHUB HERBAL phối cà gai leo 40%, diệp hạ châu 15%, cùng xạ đen, an xoa, giảo cổ lam – những vị mà theo quan niệm phương Đông thường dùng để thanh nhiệt; cà gai leo tính ấm nhẹ giữ cho công thức không quá mát; cỏ ngọt điều vị, không đường. Đây là thức uống thanh mát để thay nước ngọt trong những ngày bận rộn. Buổi tối, nếu muốn một nghi thức thư giãn, **Trà Dưỡng Tâm An** với lạc tiên, tâm sen, hoa cúc là lựa chọn dịu nhẹ.
 
 [[buy:ca-gai-diep-ha-chau]]
 
 ## Lời kết
 
-Hà đi khám, kết quả men gan bình thường. Bác sĩ nói mụn và miệng đắng của cô nhiều khả năng do thiếu ngủ và căng thẳng kéo dài. Cô bắt đầu tắt máy trước 11 giờ, mang bình trà thanh mát đến công ty thay cốc trà sữa buổi chiều, cuối tuần về quê ăn cơm mẹ nấu. Một tháng sau, da cô dịu lại, miệng không còn đắng mỗi sáng.
+Hà đi khám, kết quả men gan bình thường. Bác sĩ nói mụn và miệng đắng của cô nhiều khả năng do thiếu ngủ và căng thẳng kéo dài. Cô bắt đầu tắt máy trước 11 giờ, mang bình trà thanh mát đến công ty thay cốc trà sữa buổi chiều, cuối tuần về quê ăn cơm mẹ nấu. Một tháng sau, nhờ ngủ đủ và bớt căng thẳng, da cô dịu lại, miệng không còn đắng mỗi sáng.
 
 "Nóng gan" có thể không phải là bệnh gan – nhưng đó là tín hiệu cơ thể đang mất cân bằng. Lắng nghe tín hiệu ấy, điều chỉnh lối sống, và đi khám khi cần – là cách thương lá gan của mình đúng nhất.
 

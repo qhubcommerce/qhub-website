@@ -194,7 +194,7 @@ Xạ đen từng bị quảng cáo như "khắc tinh" của nhiều bệnh nặn
 
 ## Xạ đen trong trà QHUB
 
-Xạ đen là vị **Tá** trong Trà Cà Gai – Diệp Hạ Châu, góp phần thanh nhiệt.
+Xạ đen là vị **Tá** trong Trà Cà Gai – Diệp Hạ Châu; theo quan niệm phương Đông, đây là vị tính mát, thường dùng để thanh nhiệt.
 
 [[buy:ca-gai-diep-ha-chau]]
 
@@ -233,7 +233,7 @@ Giảo cổ lam chứa hơn 100 loại **gypenoside** – saponin có cấu trú
 
 ## Giảo cổ lam trong trà QHUB HERBAL
 
-Giảo cổ lam có trong **Trà Cà Gai – Diệp Hạ Châu** và **Trà Lá Ổi Mix Lá Sen** với vai trò vị Tá – hỗ trợ thanh lọc.
+Giảo cổ lam có trong **Trà Cà Gai – Diệp Hạ Châu** và **Trà Lá Ổi Mix Lá Sen** với vai trò vị Tá, góp phần cân bằng tính vị của công thức.
 
 [[buy:ca-gai-diep-ha-chau]]
 

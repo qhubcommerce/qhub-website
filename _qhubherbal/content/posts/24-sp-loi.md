@@ -12,7 +12,7 @@ order: 40
 - Trẻ em uống được không? :: Trà là thực phẩm thảo mộc; với trẻ nhỏ nên hỏi ý kiến bác sĩ trước khi dùng.
 - Người hay táo bón có uống được không? :: Lá ổi có tính làm se, người hay táo bón nên dùng vừa phải và uống đủ nước.
 +++
-Bữa cơm gia đình đậm đà, bữa tiệc liên hoan thịnh soạn, những bữa ăn ngoài vội vã… Ăn ngon thì vui, nhưng cảm giác **đầy bụng, nặng nề** sau đó thì chẳng ai muốn. **Trà Lá Ổi Mix Lá Sen** ra đời với lời hứa nhỏ: "**Cân bằng sau những bữa ngon.**"
+Bữa cơm gia đình đậm đà, bữa tiệc liên hoan thịnh soạn, những bữa ăn ngoài vội vã… Ăn ngon thì vui, nhưng cảm giác **đầy bụng, nặng nề** sau đó thì chẳng ai muốn. **Trà Lá Ổi Mix Lá Sen** ra đời với lời nhắn nhỏ: "**Cân bằng sau những bữa ngon.**"
 
 ## Năm vị thảo mộc
 
@@ -44,7 +44,7 @@ Lá ổi có tính làm se: người hay táo bón nên dùng vừa phải. Ph�
 slug: day-bung-sau-an-nen-lam-gi
 title: Đầy bụng, khó tiêu sau ăn: 7 thói quen giúp bụng dạ nhẹ nhàng
 seo_title: Đầy bụng khó tiêu sau ăn phải làm sao? 7 thói quen nên có
-desc: Hay đầy bụng, ợ hơi, nặng nề sau bữa ăn? 7 thói quen đơn giản: ăn chậm, đi bộ nhẹ, không nằm ngay… và một tách trà ấm giúp bụng dạ dễ chịu hơn.
+desc: Hay đầy bụng, ợ hơi, nặng nề sau bữa ăn? 7 thói quen đơn giản: ăn chậm, đi bộ nhẹ, không nằm ngay… và một tách trà ấm thư thái sau bữa ăn.
 cat: san-pham
 cover: gallery/la-oi-mix-la-sen-ly-do.webp
 products: la-oi-mix-la-sen
@@ -162,12 +162,12 @@ Tháng 11, tháng 12, rồi Tết – mùa của tất niên, liên hoan, cướ
 
 - **Đi bộ nhẹ** 10–15 phút.
 - **Không nằm ngay**.
-- **Một tách trà ấm** giúp bụng dạ nhẹ nhàng.
+- **Một tách trà ấm** thanh mát sau bữa ăn.
 - Hôm sau ăn **nhẹ, nhiều rau**, uống đủ nước.
 
 ## Bộ đôi mùa tiệc của QHUB HERBAL
 
-**Trà Lá Ổi Mix Lá Sen** – cho cảm giác nhẹ bụng sau bữa ăn nhiều dầu mỡ.
+**Trà Lá Ổi Mix Lá Sen** – thức uống thanh mát sau bữa ăn nhiều dầu mỡ.
 
 [[buy:la-oi-mix-la-sen]]
 

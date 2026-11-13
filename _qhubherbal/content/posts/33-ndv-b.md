@@ -95,7 +95,7 @@ Có những đêm trước kỳ kinh, bạn trằn trọc mãi không ngủ đư
 5. Tắm nước ấm.
 6. Một tách trà ấm không caffeine.
 
-Ban ngày: **Trà Ngày Dâu Về**. Buổi tối khó ngủ: **Trà Xấu Hổ Tím – Tâm Sen**.
+Ban ngày: **Trà Ngày Dâu Về**. Buổi tối trước giờ ngủ: **Trà Xấu Hổ Tím – Tâm Sen**.
 
 [[buy:ngay-dau-ve]]
 

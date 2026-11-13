@@ -139,7 +139,7 @@ Hay gặp ở nam giới, người thừa cân, cổ to, uống rượu buổi t
 
 ## Nghi thức buổi tối với một tách trà ấm
 
-Một nghi thức đều đặn mỗi tối giúp não học được rằng "đã đến giờ nghỉ". Tách trà ấm không caffeine là một mắt xích dễ chịu. **Trà Xấu Hổ Tím – Tâm Sen** của QHUB HERBAL phối xấu hổ tím 30%, tâm sen 10%, lạc tiên, đinh lăng, hoa cúc vàng – những vị thảo mộc quen thuộc theo quan niệm phương Đông để thanh tâm, an thần. Uống ấm trước giờ ngủ 30–60 phút, trong một căn phòng đã tắt bớt đèn và màn hình.
+Một nghi thức đều đặn mỗi tối giúp não học được rằng "đã đến giờ nghỉ". Tách trà ấm không caffeine là một mắt xích dễ chịu. **Trà Xấu Hổ Tím – Tâm Sen** của QHUB HERBAL phối xấu hổ tím 30%, tâm sen 10%, lạc tiên, đinh lăng, hoa cúc vàng – những vị thảo mộc quen thuộc mà theo quan niệm phương Đông thường được dùng để thanh tâm. Uống ấm trước giờ ngủ 30–60 phút, trong một căn phòng đã tắt bớt đèn và màn hình.
 
 Trà là thực phẩm, **không thay thế điều trị** khi bạn mất ngủ mạn tính. Người đang dùng thuốc ngủ, thuốc an thần nên hỏi bác sĩ trước.
 

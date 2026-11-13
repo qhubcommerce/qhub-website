@@ -196,7 +196,7 @@ Theo kinh nghiệm thảo mộc cổ truyền, đinh lăng có **tính bình, v�
 
 ## Đinh lăng trong trà QHUB HERBAL
 
-Đinh lăng là vị **Tá** trong cả **Trà Dưỡng Tâm An** và **Trà Xấu Hổ Tím – Tâm Sen**: bên cạnh các vị an thần, đinh lăng bồi bổ nhẹ nhàng để cơ thể vừa thư thái vừa có sức.
+Đinh lăng là vị **Tá** trong cả **Trà Dưỡng Tâm An** và **Trà Xấu Hổ Tím – Tâm Sen**: bên cạnh những vị mà theo quan niệm phương Đông thường dùng để an thần, đinh lăng được xem là vị bồi bổ nhẹ nhàng, giúp công thức thêm hài hòa.
 
 [[buy:duong-tam-an]]
 

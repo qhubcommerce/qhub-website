@@ -104,7 +104,7 @@ Theo quan niệm phương Đông, **Tâm tàng Thần** – tinh thần, ý th�
 
 ## Tách trà cho 30 phút không màn hình
 
-Một trong những cách hiệu quả nhất để rời điện thoại là thay nó bằng một nghi thức dễ chịu khác. Đun nước, hãm trà, ngửi hương thơm, uống chậm rãi bên một cuốn sách – não dần học được rằng đây là tín hiệu nghỉ ngơi. **Trà Dưỡng Tâm An** của QHUB HERBAL phối lạc tiên, tâm sen, đinh lăng, hoa cúc theo hướng dưỡng tâm, an thần trong kiến thức thảo mộc phương Đông – không caffeine, không đường. Một tách vừa phải là đủ cho "giờ tắt màn hình" mỗi tối.
+Một trong những cách hiệu quả nhất để rời điện thoại là thay nó bằng một nghi thức dễ chịu khác. Đun nước, hãm trà, ngửi hương thơm, uống chậm rãi bên một cuốn sách – não dần học được rằng đây là tín hiệu nghỉ ngơi. **Trà Dưỡng Tâm An** của QHUB HERBAL phối lạc tiên, tâm sen, đinh lăng, hoa cúc – những vị mà theo quan niệm phương Đông thường dùng để dưỡng tâm – không caffeine, không đường. Một tách vừa phải là đủ cho "giờ tắt màn hình" mỗi tối.
 
 [[buy:duong-tam-an]]
 

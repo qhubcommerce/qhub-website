@@ -111,7 +111,7 @@ Người xưa coi trọng sự **điều độ**: ăn đúng bữa, không quá 
 
 ## Thức uống thanh mát thay nước ngọt
 
-Một trong những thay đổi dễ nhất là **bỏ nước ngọt, trà sữa**. Nhưng nước lọc mãi cũng nhàm – trà thảo mộc không đường là lựa chọn dễ chịu. **Trà Cà Gai – Diệp Hạ Châu** của QHUB HERBAL phối cà gai leo, diệp hạ châu, xạ đen, an xoa, giảo cổ lam, điều vị bằng cỏ ngọt – không đường, không caffeine. Pha một bình mang theo đi làm, uống thay nước ngọt sau bữa ăn. Nếu bạn hay đầy bụng sau ăn nhiều dầu mỡ, **Trà Lá Ổi Mix Lá Sen** với lá ổi, lá sen, gạo lứt rang thơm vị ngũ cốc cũng là lựa chọn dễ uống.
+Một trong những thay đổi dễ nhất là **bỏ nước ngọt, trà sữa**. Nhưng nước lọc mãi cũng nhàm – trà thảo mộc không đường là lựa chọn dễ chịu. **Trà Cà Gai – Diệp Hạ Châu** của QHUB HERBAL phối cà gai leo, diệp hạ châu, xạ đen, an xoa, giảo cổ lam, điều vị bằng cỏ ngọt – không đường, không caffeine. Pha một bình mang theo đi làm, uống thay nước ngọt sau bữa ăn. Sau những bữa nhiều dầu mỡ, nếu muốn một vị thanh mát, **Trà Lá Ổi Mix Lá Sen** với lá ổi, lá sen, gạo lứt rang thơm vị ngũ cốc cũng là lựa chọn dễ uống.
 
 [[buy:ca-gai-diep-ha-chau]]
 

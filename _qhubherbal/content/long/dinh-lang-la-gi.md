@@ -182,7 +182,7 @@ Nếu bạn hay mệt vì áp lực kéo dài, hãy đọc thêm: [Căng thẳng
 
 ## Đinh lăng trong Trà Dưỡng Tâm An
 
-Thay vì tự sắc rễ mà không biết bao nhiêu là vừa, bạn có thể chọn đinh lăng trong một công thức định lượng sẵn. **Trà Dưỡng Tâm An** của QHUB HERBAL phối bốn vị thảo mộc quen thuộc: **lạc tiên, tâm sen, đinh lăng và hoa cúc**. Trong đó lạc tiên và tâm sen mang tinh thần an tâm, hoa cúc cho hương thơm dịu, còn đinh lăng giữ vai trò vị Tá, bồi bổ nhẹ nhàng để tách trà vừa thư thái vừa cân bằng. Trà **không chứa caffeine**, hộp 30 túi lọc × 3 g, hãm 1 túi với nước sôi khoảng 5–7 phút, hợp với một khoảng lặng buổi chiều hoặc buổi tối.
+Thay vì tự sắc rễ mà không biết bao nhiêu là vừa, bạn có thể chọn đinh lăng trong một công thức định lượng sẵn. **Trà Dưỡng Tâm An** của QHUB HERBAL phối bốn vị thảo mộc quen thuộc: **lạc tiên, tâm sen, đinh lăng và hoa cúc**. Trong đó, theo quan niệm phương Đông, lạc tiên và tâm sen là những vị thường dùng để dưỡng tâm, hoa cúc cho hương thơm dịu, còn đinh lăng giữ vai trò vị Tá, bồi bổ nhẹ nhàng để công thức cân bằng. Trà **không chứa caffeine**, hộp 30 túi lọc × 3 g, hãm 1 túi với nước sôi khoảng 5–7 phút, hợp với một khoảng lặng buổi chiều hoặc buổi tối.
 
 [[buy:duong-tam-an]]
 

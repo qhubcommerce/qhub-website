@@ -71,7 +71,7 @@ Mất ngủ mạn tính có những phương pháp điều trị hiệu quả, t
 | Hoa cúc vàng | Tá | Đắng cay | Thanh nhiệt, bình Can, cho hương thơm dịu; giàu luteolin, apigenin |
 | Cỏ ngọt | Sứ | Bình, ngọt | Điều vị |
 
-Cách phối của bài trà đi đúng hướng của người xưa vừa nói. **Xấu hổ tím và lạc tiên** an thần – giúp thần lắng xuống. **Tâm sen** thanh tâm hỏa cho người hay bứt rứt, nóng trong. **Hoa cúc vàng** bình Can, hợp với người hay lo nghĩ, căng thẳng. **Đinh lăng** bồi bổ khí huyết cho người suy nghĩ nhiều, hay mệt. Cỏ ngọt điều vị, để một tách trà buổi tối dễ uống mà không cần thêm đường.
+Theo quan niệm của người xưa vừa nói, mỗi vị trong bài trà mang một ý nghĩa riêng. **Xấu hổ tím và lạc tiên** được xem là an thần – giúp thần lắng xuống. **Tâm sen** thanh tâm hỏa cho người hay bứt rứt, nóng trong. **Hoa cúc vàng** bình Can, hợp với người hay lo nghĩ, căng thẳng. **Đinh lăng** bồi bổ khí huyết cho người suy nghĩ nhiều, hay mệt. Cỏ ngọt điều vị, để một tách trà buổi tối dễ uống mà không cần thêm đường.
 
 Quan trọng hơn: trà **không có caffeine**, không có lá chè. Bạn có thể yên tâm uống vào buổi tối.
 
@@ -117,7 +117,7 @@ Nước trà vàng nhạt, thoảng **hương hoa cúc thanh**. Ngụm đầu c�
 
 ## Lời kết
 
-Hà không ngủ ngon ngay từ đêm đầu. Nhưng sau ba tuần đặt điện thoại ngoài phòng ngủ, viết danh sách việc trước khi tắt đèn, ngâm chân và uống một tách trà ấm lúc chín rưỡi, cô nhận ra mình đã thôi đếm giờ. Có những đêm vẫn tỉnh, nhưng ngủ lại được. Sáng ra, gương mặt trong gương bớt mệt mỏi, và cô thôi quát con vì những chuyện nhỏ.
+Hà không ngủ ngon ngay từ đêm đầu. Nhưng sau ba tuần đặt điện thoại ngoài phòng ngủ, viết danh sách việc trước khi tắt đèn, ngâm chân và giữ giờ giấc đều đặn, cô nhận ra mình đã thôi đếm giờ; tách trà ấm lúc chín rưỡi trở thành khoảnh khắc thư thả cô mong chờ mỗi tối. Có những đêm vẫn tỉnh, nhưng ngủ lại được. Sáng ra, gương mặt trong gương bớt mệt mỏi, và cô thôi quát con vì những chuyện nhỏ.
 
 Giấc ngủ không thể ép. Nó chỉ đến khi ta tạo cho nó một lối về – bằng ánh đèn dịu, bằng hơi thở chậm, bằng một tách trà thơm mùi hoa cúc. Chúc bạn những đêm thật êm.
 

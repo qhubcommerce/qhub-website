@@ -1,6 +1,6 @@
 +++
 slug: top-10-tra-thao-moc-tot-cho-suc-khoe
-title: Top 10 loại trà thảo mộc tốt cho sức khỏe được dùng phổ biến nhất
+title: Top 10 loại trà thảo mộc tốt cho sức khỏe được dùng phổ biến
 desc: Tổng hợp 10 loại trà thảo mộc phổ biến tại Việt Nam và thế giới: hoa cúc, gừng, lá sen, cà gai leo, tâm sen, lá ổi, atiso, giảo cổ lam… đặc điểm, ai hợp, lưu ý.
 cat: top
 products: ca-gai-diep-ha-chau,xau-ho-tim-tam-sen,la-oi-mix-la-sen
@@ -62,7 +62,7 @@ Phụ nữ có thai, cho con bú cần hỏi bác sĩ trước khi dùng bất k
 ## Sản phẩm của chúng tôi
 
 - Những ngày ấy: **Trà Ngày Dâu Về**.
-- Căng thẳng, áp lực: **Trà Dưỡng Tâm An**.
+- Khoảng lặng giữa ngày bận rộn: **Trà Dưỡng Tâm An**.
 
 [[buy:ngay-dau-ve]]
 

@@ -174,7 +174,7 @@ Theo Cleveland Clinic và NIMH, bạn nên tìm hỗ trợ chuyên môn khi:
 
 ## Trà Dưỡng Tâm An: một khoảng lặng giữa ngày
 
-Một tách trà ấm không caffeine có thể trở thành "nghi thức" nhắc bạn dừng lại vài phút. **Trà Dưỡng Tâm An** của QHUB HERBAL phối bốn vị thảo mộc theo tinh thần an thần, dưỡng tâm: **lạc tiên, tâm sen, đinh lăng và hoa cúc**. Trà **không chứa caffeine**, hộp 30 túi lọc × 3 g; hãm 1 túi với nước sôi 5–7 phút, hợp với buổi chiều thay cho ly cà phê thứ hai, hoặc buổi tối trước giờ thư giãn.
+Một tách trà ấm không caffeine có thể trở thành "nghi thức" nhắc bạn dừng lại vài phút. **Trà Dưỡng Tâm An** của QHUB HERBAL phối bốn vị thảo mộc mà theo quan niệm phương Đông thường dùng để dưỡng tâm: **lạc tiên, tâm sen, đinh lăng và hoa cúc**. Trà **không chứa caffeine**, hộp 30 túi lọc × 3 g; hãm 1 túi với nước sôi 5–7 phút, hợp với buổi chiều thay cho ly cà phê thứ hai, hoặc buổi tối trước giờ thư giãn.
 
 [[buy:duong-tam-an]]
 
@@ -182,7 +182,7 @@ Một tách trà ấm không caffeine có thể trở thành "nghi thức" nhắ
 
 ## Lời kết
 
-Chị Ngân không thể làm mùa quyết toán ngắn lại hay khiến mẹ khỏe ngay. Nhưng chị đã thôi tự trách mình "yếu đuối". Chị đi khám tổng quát cho yên tâm, xin làm việc từ xa hai ngày mỗi tuần, nhờ em trai thay phiên về quê. Mỗi tối, chị đi bộ 30 phút ven sông Hàn, về nhà pha một tách trà ấm, viết vài dòng vào cuốn sổ nhỏ trước khi tắt đèn. Sau vài tuần, giấc ngủ dần trở lại, những cơn cáu gắt thưa dần.
+Chị Ngân không thể làm mùa quyết toán ngắn lại hay khiến mẹ khỏe ngay. Nhưng chị đã thôi tự trách mình "yếu đuối". Chị đi khám tổng quát cho yên tâm, xin làm việc từ xa hai ngày mỗi tuần, nhờ em trai thay phiên về quê. Mỗi tối, chị đi bộ 30 phút ven sông Hàn, về nhà pha một tách trà ấm, viết vài dòng vào cuốn sổ nhỏ trước khi tắt đèn. Sau vài tuần sống chậm lại như thế, giấc ngủ dần trở lại, những cơn cáu gắt thưa dần.
 
 Căng thẳng cấp tính giống như cơn mưa rào – ướt một lúc rồi tạnh. Căng thẳng mạn tính giống mưa dầm – không dữ dội nhưng thấm dần vào mọi thứ. Nhận ra mình đang ở trong cơn mưa nào là bước đầu tiên để tìm cho mình một mái hiên.
 

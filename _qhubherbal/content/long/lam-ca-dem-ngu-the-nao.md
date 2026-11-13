@@ -130,7 +130,7 @@ Theo quan niệm phương Đông, con người sống thuận theo nhịp âm d�
 
 ## Thức uống cho người làm ca
 
-Trong ca, thay nước ngọt, nước tăng lực bằng nước lọc và trà thảo mộc không đường. Sau ca, trước giấc ngủ ban ngày, một tách trà ấm **không caffeine** có thể là nghi thức báo hiệu "đã hết ca, đến giờ nghỉ". **Trà Xấu Hổ Tím – Tâm Sen** của QHUB HERBAL với xấu hổ tím, tâm sen, lạc tiên, đinh lăng, hoa cúc vàng – theo hướng thanh tâm, an thần trong kiến thức thảo mộc phương Đông – là lựa chọn dịu nhẹ. Nếu bạn hay nóng trong, nổi mụn vì thức đêm, **Trà Cà Gai – Diệp Hạ Châu** là thức uống thanh mát ban ngày.
+Trong ca, thay nước ngọt, nước tăng lực bằng nước lọc và trà thảo mộc không đường. Sau ca, trước giấc ngủ ban ngày, một tách trà ấm **không caffeine** có thể là nghi thức báo hiệu "đã hết ca, đến giờ nghỉ". **Trà Xấu Hổ Tím – Tâm Sen** của QHUB HERBAL với xấu hổ tím, tâm sen, lạc tiên, đinh lăng, hoa cúc vàng – những vị mà theo quan niệm phương Đông thường dùng để thanh tâm – là lựa chọn dịu nhẹ. Nếu bạn muốn một thức uống thanh mát cho ban ngày, **Trà Cà Gai – Diệp Hạ Châu** là một lựa chọn để thay nước ngọt.
 
 [[buy:xau-ho-tim-tam-sen]]
 

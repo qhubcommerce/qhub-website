@@ -128,7 +128,7 @@ Giữ giờ ngủ đều đặn, đặc biệt trong tuần trước kỳ kinh. 
 
 ## Năm phút bình yên giữa những ngày nhạy cảm
 
-Một tách trà ấm không caffeine có thể là khoảng lặng nhỏ giữa những ngày cảm xúc chao đảo. **Trà Dưỡng Tâm An** của QHUB HERBAL phối bốn vị dịu nhẹ: lạc tiên giúp tâm lắng xuống, tâm sen làm dịu cái bứt rứt, đinh lăng bồi bổ khí huyết, hoa cúc thơm dịu, bình Can theo quan niệm phương Đông. Khi những ngày ấy đến và bụng lạnh, mỏi mệt, **Trà Ngày Dâu Về** với gừng, ngải cứu, táo đỏ là thức uống ấm áp (không dùng khi có thai hoặc cho con bú).
+Một tách trà ấm không caffeine có thể là khoảng lặng nhỏ giữa những ngày cảm xúc chao đảo. **Trà Dưỡng Tâm An** của QHUB HERBAL phối bốn vị dịu nhẹ – theo quan niệm phương Đông, lạc tiên và tâm sen thường dùng để dưỡng tâm, thanh tâm; đinh lăng bồi bổ khí huyết; hoa cúc thơm dịu, bình Can. Khi những ngày ấy đến và bụng lạnh, mỏi mệt, **Trà Ngày Dâu Về** với gừng, ngải cứu, táo đỏ là thức uống ấm áp (không dùng khi có thai hoặc cho con bú).
 
 [[buy:duong-tam-an]]
 

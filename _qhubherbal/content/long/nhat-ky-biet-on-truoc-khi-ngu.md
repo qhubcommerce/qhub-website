@@ -139,7 +139,7 @@ Lão Tử dạy "**tri túc giả phú**" – biết đủ là giàu; người x
 
 ## Một tách trà và cuốn sổ nhỏ
 
-Có lẽ không có khung cảnh nào bình yên hơn: ánh đèn vàng dịu, một tách trà ấm, cuốn sổ mở và cây bút. **Trà Dưỡng Tâm An** của QHUB HERBAL phối lạc tiên, tâm sen, đinh lăng, hoa cúc theo hướng dưỡng tâm, an thần trong kiến thức thảo mộc phương Đông – không caffeine, không đường. Có khi, chính tách trà ấm ấy cũng là điều đầu tiên bạn viết vào trang biết ơn tối nay.
+Có lẽ không có khung cảnh nào bình yên hơn: ánh đèn vàng dịu, một tách trà ấm, cuốn sổ mở và cây bút. **Trà Dưỡng Tâm An** của QHUB HERBAL phối lạc tiên, tâm sen, đinh lăng, hoa cúc – những vị mà theo quan niệm phương Đông thường dùng để dưỡng tâm – không caffeine, không đường. Có khi, chính tách trà ấm ấy cũng là điều đầu tiên bạn viết vào trang biết ơn tối nay.
 
 [[buy:duong-tam-an]]
 

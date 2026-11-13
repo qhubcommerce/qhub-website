@@ -101,7 +101,7 @@ Người xưa có câu "**Tý thời đại thụy, Ngọ thời tiểu khế**"
 
 ## Một tách trà sau giấc ngủ trưa
 
-Sau giấc ngủ ngắn, một tách trà ấm có thể là "nút khởi động" nhẹ nhàng cho buổi chiều thay vì cốc trà sữa nhiều đường. Nếu bạn hay đầy bụng sau bữa trưa văn phòng, **Trà Lá Ổi Mix Lá Sen** của QHUB HERBAL với lá ổi, lá sen, giảo cổ lam, gạo lứt rang thơm và cỏ ngọt là lựa chọn dễ chịu – không caffeine nên không ảnh hưởng giấc ngủ đêm. Buổi tối, nếu khó vào giấc, **Trà Dưỡng Tâm An** là người bạn dịu nhẹ.
+Sau giấc ngủ ngắn, một tách trà ấm có thể là "nút khởi động" nhẹ nhàng cho buổi chiều thay vì cốc trà sữa nhiều đường. Nếu bạn muốn một thức uống thanh mát sau bữa trưa văn phòng, **Trà Lá Ổi Mix Lá Sen** của QHUB HERBAL với lá ổi, lá sen, giảo cổ lam, gạo lứt rang thơm và cỏ ngọt là lựa chọn dễ chịu – không caffeine nên không ảnh hưởng giấc ngủ đêm. Buổi tối, **Trà Dưỡng Tâm An** là người bạn dịu nhẹ cho nghi thức thư giãn trước giờ ngủ.
 
 [[buy:la-oi-mix-la-sen]]
 

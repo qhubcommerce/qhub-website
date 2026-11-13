@@ -116,7 +116,7 @@ Liệu pháp nhận thức – hành vi cho mất ngủ (CBT-I) và cho lo âu l
 
 ## Một tách trà trong "giờ chậm lại"
 
-Một tách trà ấm có thể là điểm khởi đầu cho nghi thức "tắt máy": đun nước, hãm trà, ngồi xuống với cuốn sổ, viết danh sách việc ngày mai, uống từng ngụm chậm. **Trà Dưỡng Tâm An** của QHUB HERBAL phối **lạc tiên** (dưỡng tâm, an thần), **tâm sen** (thanh tâm hỏa), **đinh lăng** (bồi bổ khí huyết), **hoa cúc** (bình Can, hương thơm dịu) – theo hướng dưỡng tâm trong kiến thức thảo mộc phương Đông, không caffeine, không đường.
+Một tách trà ấm có thể là điểm khởi đầu cho nghi thức "tắt máy": đun nước, hãm trà, ngồi xuống với cuốn sổ, viết danh sách việc ngày mai, uống từng ngụm chậm. **Trà Dưỡng Tâm An** của QHUB HERBAL phối **lạc tiên** (dưỡng tâm, an thần), **tâm sen** (thanh tâm hỏa), **đinh lăng** (bồi bổ khí huyết), **hoa cúc** (bình Can, hương thơm dịu) – tính vị của từng vị theo quan niệm phương Đông; trà không caffeine, không đường.
 
 [[buy:duong-tam-an]]
 

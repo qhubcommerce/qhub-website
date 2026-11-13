@@ -79,7 +79,7 @@ Sách xưa có câu đàn ông "**ngũ bát Thận khí suy**" – khoảng tu�
 
 ## Một thói quen nhỏ thay cho lon bia
 
-Một trong những thay đổi khó nhất với nhiều anh em là bỏ lon bia buổi tối hay cốc cà phê thứ ba trong ngày. Thay vào đó bằng một tách trà ấm không caffeine có thể giúp nghi thức "nghỉ ngơi" vẫn còn, chỉ là lành hơn. **Trà Nam Vương** của QHUB HERBAL phối ba kích, nhục thung dung, nấm ngọc cẩu, mú từn theo hướng ôn bổ quen thuộc của phương Đông, cân bằng bằng kim tiền thảo, dứa dại; cỏ ngọt điều vị – bổ mà không nóng. Uống vào buổi sáng hoặc đầu giờ chiều. Nếu bạn hay khó ngủ vì đầu óc căng thẳng, **Trà Xấu Hổ Tím – Tâm Sen** là lựa chọn dịu nhẹ cho buổi tối.
+Một trong những thay đổi khó nhất với nhiều anh em là bỏ lon bia buổi tối hay cốc cà phê thứ ba trong ngày. Thay vào đó bằng một tách trà ấm không caffeine có thể giúp nghi thức "nghỉ ngơi" vẫn còn, chỉ là lành hơn. **Trà Nam Vương** của QHUB HERBAL phối ba kích, nhục thung dung, nấm ngọc cẩu, mú từn – những vị mà theo quan niệm phương Đông mang tính ôn bổ – cân bằng bằng kim tiền thảo, dứa dại; cỏ ngọt điều vị – vị ấm mà dịu. Uống vào buổi sáng hoặc đầu giờ chiều. Buổi tối, **Trà Xấu Hổ Tím – Tâm Sen** là lựa chọn dịu nhẹ cho khoảng thư giãn trước giờ ngủ.
 
 [[buy:nam-vuong]]
 

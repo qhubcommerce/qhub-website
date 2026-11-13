@@ -122,7 +122,7 @@ Sách *Hoàng Đế Nội Kinh* viết: "**Ngũ cốc vi dưỡng, ngũ quả vi
 
 ## Một tách trà sau bữa ăn văn phòng
 
-Sau bữa trưa văn phòng, thay ly trà sữa bằng một tách trà thảo mộc không đường là thay đổi nhỏ mà hiệu quả lớn. **Trà Lá Ổi Mix Lá Sen** của QHUB HERBAL với lá ổi, lá sen, giảo cổ lam, gạo lứt rang, cỏ ngọt là thức uống nhẹ bụng sau những bữa nhiều dầu mỡ. Buổi sáng, **Trà Nam Vương** với các vị ôn bổ ba kích, nhục thung dung, nấm ngọc cẩu, mú từn là thức uống ấm dành cho phái mạnh.
+Sau bữa trưa văn phòng, thay ly trà sữa bằng một tách trà thảo mộc không đường là thay đổi nhỏ mà đáng giá. **Trà Lá Ổi Mix Lá Sen** của QHUB HERBAL với lá ổi, lá sen, giảo cổ lam, gạo lứt rang, cỏ ngọt là thức uống thanh mát, thơm mùi gạo rang sau những bữa nhiều dầu mỡ. Buổi sáng, **Trà Nam Vương** với các vị ôn bổ ba kích, nhục thung dung, nấm ngọc cẩu, mú từn là thức uống ấm dành cho phái mạnh.
 
 [[buy:la-oi-mix-la-sen]]
 

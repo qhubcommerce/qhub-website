@@ -139,12 +139,12 @@ Nhiều anh em tự hào "ngủ 5 tiếng là đủ". Nhưng nghiên cứu cho t
 3. Hạn chế cà phê sau 14h, rượu bia buổi tối.
 4. Tập thể dục ban ngày.
 5. Phòng ngủ tối, mát, yên tĩnh.
-6. Một tách trà an thần không caffeine trước ngủ.
+6. Một tách trà buổi tối không caffeine trước ngủ.
 
 ## Phân bổ trà trong ngày
 
-- **Sáng**: Trà Nam Vương – năng lượng cho ngày làm việc.
-- **Tối**: Trà Xấu Hổ Tím – Tâm Sen – thư thái để ngủ sâu.
+- **Sáng**: Trà Nam Vương – tách trà ấm mở đầu ngày làm việc.
+- **Tối**: Trà Xấu Hổ Tím – Tâm Sen – nghi thức thư thái trước giờ ngủ.
 
 [[buy:nam-vuong]]
 
@@ -179,7 +179,7 @@ products: nam-vuong,ca-gai-diep-ha-chau
 ## Hai tách trà cho anh em
 
 - **Trà Cà Gai – Diệp Hạ Châu**: buổi sáng sau cuộc vui.
-- **Trà Nam Vương**: thói quen mỗi ngày cho lưng gối, sức bền.
+- **Trà Nam Vương**: tách trà ấm mỗi ngày, vị ngọt ấm của rễ củ núi rừng.
 
 [[buy:ca-gai-diep-ha-chau]]
 

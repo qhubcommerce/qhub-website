@@ -123,13 +123,13 @@ Sau khi ngâm chân, có thể **xoa lòng bàn chân, day huyệt Dũng tuyền
 
 ## Một tách trà cùng chậu nước ấm
 
-Ngâm chân và một tách trà ấm là "cặp đôi" dưỡng sinh tuyệt vời cho buổi tối – cả hai đều nói với cơ thể rằng ngày đã khép lại. **Trà Dưỡng Tâm An** của QHUB HERBAL phối lạc tiên, tâm sen, đinh lăng, hoa cúc – bốn vị dịu nhẹ theo hướng dưỡng tâm, an thần trong kiến thức thảo mộc phương Đông; không caffeine, không đường. Với chị em hay lạnh bụng, lạnh chân những ngày ấy, **Trà Ngày Dâu Về** với gừng, ngải cứu, ích mẫu, táo đỏ là thức uống ấm áp (không dùng khi mang thai hoặc cho con bú).
+Ngâm chân và một tách trà ấm là "cặp đôi" dưỡng sinh tuyệt vời cho buổi tối – cả hai đều nói với cơ thể rằng ngày đã khép lại. **Trà Dưỡng Tâm An** của QHUB HERBAL phối lạc tiên, tâm sen, đinh lăng, hoa cúc – bốn vị dịu nhẹ mà theo quan niệm phương Đông thường dùng để dưỡng tâm; không caffeine, không đường. Với chị em hay lạnh bụng, lạnh chân những ngày ấy, **Trà Ngày Dâu Về** với gừng, ngải cứu, ích mẫu, táo đỏ là thức uống ấm áp (không dùng khi mang thai hoặc cho con bú).
 
 [[buy:duong-tam-an]]
 
 ## Lời kết
 
-Từ hôm về quê, Hương mua một chiếc chậu gỗ nhỏ. Tối nào cô cũng ngâm chân nước gừng 15 phút, pha một tách trà, đặt điện thoại ở phòng khách. Không phải đêm nào cũng ngủ ngon ngay – nhưng cô nhận ra khoảng 15 phút ấy là lúc duy nhất trong ngày cô thật sự ngồi yên với chính mình. Hai tuần sau, giấc ngủ dần trở lại. Cô gọi điện khoe với bà nội. Bà cười: "Đấy, bà nói rồi mà."
+Từ hôm về quê, Hương mua một chiếc chậu gỗ nhỏ. Tối nào cô cũng ngâm chân nước gừng 15 phút, pha một tách trà, đặt điện thoại ở phòng khách. Không phải đêm nào cũng ngủ ngon ngay – nhưng cô nhận ra khoảng 15 phút ấy là lúc duy nhất trong ngày cô thật sự ngồi yên với chính mình. Hai tuần sau, nhờ giờ giấc đều đặn và chiếc điện thoại nằm ngoài phòng khách, giấc ngủ dần trở lại. Cô gọi điện khoe với bà nội. Bà cười: "Đấy, bà nói rồi mà."
 
 Có những bí quyết sức khỏe không nằm trong lọ thuốc, mà nằm trong một chậu nước ấm, vài lát gừng – và 15 phút dành riêng cho bản thân mỗi tối.
 

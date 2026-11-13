@@ -260,7 +260,7 @@ Thận là cơ quan lọc máu, đào thải chất thải, điều hòa nước
 
 ## Về Trà Nam Vương
 
-Trà Nam Vương dùng các vị thảo mộc phương Đông để **ôn bổ Thận khí** theo nghĩa kinh nghiệm thảo mộc cổ truyền, là thực phẩm dùng hằng ngày. **Người có bệnh thận cần hỏi bác sĩ trước khi dùng.**
+Trà Nam Vương phối các vị mà theo kinh nghiệm thảo mộc cổ truyền phương Đông thường dùng để **ôn bổ Thận khí**; bản thân trà là thực phẩm dùng hằng ngày. **Người có bệnh thận cần hỏi bác sĩ trước khi dùng.**
 
 [[buy:nam-vuong]]
 
@@ -353,8 +353,8 @@ Người ta gọi ngồi lâu là "hút thuốc lá kiểu mới". Nghe có vẻ
 
 Thay nước ngọt, trà sữa bằng trà thảo mộc không đường:
 
-- Anh em ngồi nhiều, mỏi lưng: **Trà Nam Vương**.
-- Ai căng thẳng, cứng vai gáy: **Trà Dưỡng Tâm An**.
+- Anh em thích vị ấm của rễ củ núi rừng: **Trà Nam Vương**.
+- Ai cần một khoảng lặng giữa chiều: **Trà Dưỡng Tâm An**.
 
 [[buy:nam-vuong]]
 

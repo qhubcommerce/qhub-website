@@ -111,7 +111,7 @@ Theo quan niệm này, sinh lực nam giới gắn với **Thận tinh**; hao t�
 
 ## Một tách trà trong nhịp sống điều độ
 
-Với người đàn ông muốn duy trì một nếp sống điều độ theo tinh thần dưỡng sinh phương Đông, **Trà Nam Vương** của QHUB HERBAL có thể là thức uống ấm buổi sáng: **ba kích, nhục thung dung, nấm ngọc cẩu, mú từn** – những vị ôn bổ quen thuộc nuôi phần gốc – cân bằng bằng **kim tiền thảo, dứa dại**, cỏ ngọt điều vị. Trà là thực phẩm, không phải hormone, không phải thuốc điều trị suy giảm nội tiết; nếu có dấu hiệu kéo dài, hãy gặp bác sĩ.
+Với người đàn ông muốn duy trì một nếp sống điều độ theo tinh thần dưỡng sinh phương Đông, **Trà Nam Vương** của QHUB HERBAL có thể là thức uống ấm buổi sáng: **ba kích, nhục thung dung, nấm ngọc cẩu, mú từn** – những vị mà theo quan niệm phương Đông mang tính ôn bổ – cân bằng bằng **kim tiền thảo, dứa dại**, cỏ ngọt điều vị. Trà là thực phẩm, không phải hormone, không phải thuốc điều trị suy giảm nội tiết; nếu có dấu hiệu kéo dài, hãy gặp bác sĩ.
 
 [[buy:nam-vuong]]
 

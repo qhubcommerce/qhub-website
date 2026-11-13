@@ -139,13 +139,13 @@ Gan, tụy và ruột đều có "đồng hồ" riêng, hoạt động hiệu qu
 
 ## Thức uống thay cho cốc trà sữa
 
-Một trong những thay đổi dễ thấy hiệu quả nhất là bỏ đồ uống có đường. Nếu bạn hay đầy bụng sau những bữa nhiều dầu mỡ, **Trà Lá Ổi Mix Lá Sen** của QHUB HERBAL là lựa chọn dễ chịu sau bữa ăn: lá ổi 50% làm chủ kiện Tỳ theo quan niệm phương Đông, lá sen 20% thanh nhiệt lợi thấp, giảo cổ lam, gạo lứt rang thơm vị ngũ cốc, cỏ ngọt điều vị – không đường. Nếu bạn hay tiếp khách, thức khuya, **Trà Cà Gai – Diệp Hạ Châu** là thức uống thanh mát cho ban ngày.
+Một trong những thay đổi dễ thấy hiệu quả nhất là bỏ đồ uống có đường. Sau những bữa nhiều dầu mỡ, **Trà Lá Ổi Mix Lá Sen** của QHUB HERBAL là thức uống thanh mát, dễ chịu: lá ổi 50% làm chủ kiện Tỳ theo quan niệm phương Đông, lá sen 20% thanh nhiệt lợi thấp, giảo cổ lam, gạo lứt rang thơm vị ngũ cốc, cỏ ngọt điều vị – không đường. Nếu thích vị thảo mộc đắng nhẹ, hậu ngọt, **Trà Cà Gai – Diệp Hạ Châu** là thức uống thanh mát thay nước ngọt cho ban ngày.
 
 [[buy:la-oi-mix-la-sen]]
 
 ## Lời kết
 
-Tuấn Anh thử kế hoạch 3 tuần. Anh đặt báo thức 7 giờ sáng, ăn bánh mì trứng trước khi đi làm, đề xuất với team đặt cơm trưa lúc 12 giờ đúng, tối về nấu cơm đơn giản trước 8 giờ. Anh thay cốc trà sữa chiều bằng bình trà để bàn. Ba tuần sau, bụng anh nhẹ hẳn, sáng dậy không còn uể oải, mụn trên mặt dịu dần.
+Tuấn Anh thử kế hoạch 3 tuần. Anh đặt báo thức 7 giờ sáng, ăn bánh mì trứng trước khi đi làm, đề xuất với team đặt cơm trưa lúc 12 giờ đúng, tối về nấu cơm đơn giản trước 8 giờ. Anh thay cốc trà sữa chiều bằng bình trà để bàn. Sau ba tuần ăn uống đúng giờ, bụng anh nhẹ hẳn, sáng dậy không còn uể oải, mụn trên mặt dịu dần.
 
 Cơ thể không cần bạn hoàn hảo. Nó chỉ cần bạn trả lại cho nó một nhịp sống đều đặn – và nó sẽ đáp lại bằng sức khỏe.
 

@@ -189,7 +189,7 @@ Chị giảm 9 kg. "Không nhanh, nhưng mình khỏe, mình vui, không còn s�
 
 +++
 slug: ong-ngoai-tieu-duong-va-am-tra
-title: Ông ngoại và ấm trà không đường bác sĩ dặn
+title: Ông ngoại kiêng ngọt và ấm trà không đường
 desc: Câu chuyện minh họa về ông ngoại phải kiêng ngọt theo lời bác sĩ, và cách cả nhà cùng ông thay đổi thói quen uống nước chè ngọt bằng trà thảo mộc không đường.
 cat: cau-chuyen
 products: la-oi-mix-la-sen
@@ -204,7 +204,7 @@ products: la-oi-mix-la-sen
 
 - Mẹ tôi tìm mua trà thảo mộc **không đường** có vị ngọt hậu tự nhiên.
 - Mỗi sáng, cả nhà ngồi uống trà với ông.
-- Mẹ mang hộp trà đến hỏi bác sĩ của ông – bác sĩ đồng ý, dặn vẫn uống thuốc đều, theo dõi đường huyết.
+- Trước khi cho ông uống, mẹ mang hộp trà đến hỏi bác sĩ của ông; bác sĩ dặn điều quan trọng nhất vẫn là uống thuốc đều, theo dõi đường huyết.
 
 "Trà này uống cũng ngọt ngọt, được," ông gật gù.
 

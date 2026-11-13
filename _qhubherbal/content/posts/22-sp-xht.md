@@ -1,6 +1,6 @@
 +++
 slug: review-tra-xau-ho-tim-tam-sen
-title: Trà Xấu Hổ Tím – Tâm Sen QHUB HERBAL: tách trà dịu êm cho giấc ngủ
+title: Trà Xấu Hổ Tím – Tâm Sen QHUB HERBAL: tách trà dịu êm trước giờ ngủ
 seo_title: Review Trà Xấu Hổ Tím Tâm Sen QHUB HERBAL – thành phần, cách dùng
 desc: Đánh giá Trà Xấu Hổ Tím – Tâm Sen QHUB HERBAL: xấu hổ tím 30%, tâm sen 10%, lạc tiên, đinh lăng, hoa cúc. Hương vị, cách dùng buổi tối và những lưu ý.
 cat: san-pham
@@ -12,7 +12,7 @@ order: 50
 - Uống trước khi ngủ bao lâu? :: Khoảng 30–60 phút trước giờ ngủ.
 - Có dùng thay thuốc ngủ được không? :: Không. Trà là thực phẩm, không thay thế thuốc. Người đang dùng thuốc ngủ, thuốc an thần nên hỏi ý kiến bác sĩ.
 +++
-Đã bao lâu rồi bạn chưa có một giấc ngủ trọn vẹn? Nằm xuống là hàng trăm suy nghĩ ùa về, trở mình mãi mới chợp mắt, rồi tỉnh giấc lúc 2–3 giờ sáng và nhìn trần nhà đến sáng. **Trà Xấu Hổ Tím – Tâm Sen** được tạo ra cho những đêm như thế.
+Đã bao lâu rồi bạn chưa có một giấc ngủ trọn vẹn? Nằm xuống là hàng trăm suy nghĩ ùa về, trở mình mãi mới chợp mắt, rồi tỉnh giấc lúc 2–3 giờ sáng và nhìn trần nhà đến sáng. **Trà Xấu Hổ Tím – Tâm Sen** ra đời như một lời mời chậm lại: một tách trà ấm, không caffeine, cho khoảng lặng cuối ngày.
 
 ## Thông điệp: "Để mỗi giấc ngủ là một lần tái tạo"
 
@@ -101,7 +101,7 @@ Hít vào 4 giây – giữ 7 giây – thở ra 8 giây. Lặp lại 4 lần.
 
 ## 10. Một tách trà thảo mộc ấm – nghi thức cuối ngày
 
-Một tách trà không caffeine trước giờ ngủ là tín hiệu nhẹ nhàng để cơ thể biết: *đã đến lúc nghỉ ngơi*. **Trà Xấu Hổ Tím – Tâm Sen** với xấu hổ tím, tâm sen, lạc tiên – những vị thảo mộc phương Đông quen dùng để an thần.
+Một tách trà không caffeine trước giờ ngủ là tín hiệu nhẹ nhàng để cơ thể biết: *đã đến lúc nghỉ ngơi*. **Trà Xấu Hổ Tím – Tâm Sen** phối xấu hổ tím, tâm sen, lạc tiên – những vị mà theo quan niệm phương Đông thường dùng để thanh tâm.
 
 [[buy:xau-ho-tim-tam-sen]]
 
@@ -111,7 +111,7 @@ Một tách trà không caffeine trước giờ ngủ là tín hiệu nhẹ nhà
 slug: xau-ho-tim-hay-duong-tam-an
 title: Xấu Hổ Tím – Tâm Sen hay Dưỡng Tâm An: chọn trà nào cho bạn?
 seo_title: Nên chọn Trà Xấu Hổ Tím Tâm Sen hay Trà Dưỡng Tâm An? So sánh
-desc: Hai dòng trà an thần của QHUB HERBAL khác nhau thế nào? So sánh thành phần, thời điểm uống, hương vị và người phù hợp để bạn chọn đúng loại trà.
+desc: Hai dòng trà buổi chiều – buổi tối của QHUB HERBAL khác nhau thế nào? So sánh thành phần, thời điểm uống, hương vị và người phù hợp để bạn chọn đúng loại trà.
 cat: san-pham
 cover: gallery/duong-tam-an-thanh-phan.webp
 products: xau-ho-tim-tam-sen,duong-tam-an
@@ -121,7 +121,7 @@ order: 48
 - Loại nào dịu hơn? :: Dưỡng Tâm An có hương cúc dịu, thanh mà không gắt, phù hợp uống ban ngày.
 - Cả hai có caffeine không? :: Không. Cả hai đều là trà thảo mộc không caffeine.
 +++
-QHUB HERBAL có hai dòng trà giúp tinh thần thư thái: **Trà Xấu Hổ Tím – Tâm Sen** và **Trà Dưỡng Tâm An**. Nhiều khách hỏi: "Mình nên chọn loại nào?" Câu trả lời nằm ở **khi nào bạn cần nhất**.
+QHUB HERBAL có hai dòng trà dành cho những phút thư thái: **Trà Xấu Hổ Tím – Tâm Sen** và **Trà Dưỡng Tâm An**. Nhiều khách hỏi: "Mình nên chọn loại nào?" Câu trả lời nằm ở **khi nào bạn cần nhất**.
 
 ## So sánh nhanh
 
@@ -238,7 +238,7 @@ Theo kinh nghiệm thảo mộc cổ truyền, **Tâm** là nơi cất giữ **T
 2. Ăn tối nhẹ, sớm.
 3. Viết ra những lo nghĩ trước khi ngủ.
 4. Ngâm chân nước ấm.
-5. Một tách trà an thần ấm cuối ngày.
+5. Một tách trà buổi tối ấm, không caffeine.
 
 [[buy:xau-ho-tim-tam-sen]]
 

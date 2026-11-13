@@ -107,7 +107,7 @@ Trà chỉ là một phần nhỏ. Gan khỏe nhờ những điều căn bản:
 
 ## Một lựa chọn cân bằng để bắt đầu
 
-**Trà Cà Gai – Diệp Hạ Châu** của QHUB HERBAL được phối theo hướng cân bằng: cà gai leo 40% làm chủ, diệp hạ châu 15% thanh nhiệt, thêm xạ đen, an xoa, giảo cổ lam cùng hướng thanh lọc; cỏ ngọt điều hòa vị đắng cho trà dễ uống mà không cần đường. Cà gai leo tính ấm nhẹ giúp công thức không quá mát. Phù hợp với người hay tiếp khách, thức khuya, muốn một thức uống thanh mát thay nước ngọt mỗi ngày. Sản phẩm có công bố thực phẩm, ghi rõ thành phần và tỷ lệ.
+**Trà Cà Gai – Diệp Hạ Châu** của QHUB HERBAL được phối theo hướng cân bằng: cà gai leo 40% làm chủ, diệp hạ châu 15%, thêm xạ đen, an xoa, giảo cổ lam – những vị mà theo quan niệm phương Đông thường dùng để thanh nhiệt; cỏ ngọt điều hòa vị đắng cho trà dễ uống mà không cần đường. Cà gai leo tính ấm nhẹ giúp công thức không quá mát. Phù hợp với người hay tiếp khách, thức khuya, muốn một thức uống thanh mát thay nước ngọt mỗi ngày. Sản phẩm có công bố thực phẩm, ghi rõ thành phần và tỷ lệ.
 
 [[buy:ca-gai-diep-ha-chau]]
 

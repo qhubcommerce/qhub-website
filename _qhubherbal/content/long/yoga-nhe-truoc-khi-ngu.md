@@ -143,7 +143,7 @@ Yoga có nguồn gốc từ Ấn Độ, nhưng tinh thần của nó rất gần
 
 ## Tách trà ấm sau 10 phút yoga
 
-Sau chuỗi yoga, một tách trà ấm không caffeine giúp duy trì cảm giác thư thái. **Trà Dưỡng Tâm An** của QHUB HERBAL phối lạc tiên, tâm sen, đinh lăng, hoa cúc theo hướng dưỡng tâm, an thần trong kiến thức thảo mộc phương Đông – không caffeine, không đường. Với chị em những ngày kinh nguyệt, tập tư thế bướm nằm, em bé kèm một tách **Trà Ngày Dâu Về** ấm với gừng, ngải cứu, táo đỏ (không dùng khi mang thai, cho con bú) là cách chăm sóc dịu dàng cho chính mình.
+Sau chuỗi yoga, một tách trà ấm không caffeine giúp duy trì cảm giác thư thái. **Trà Dưỡng Tâm An** của QHUB HERBAL phối lạc tiên, tâm sen, đinh lăng, hoa cúc – những vị mà theo quan niệm phương Đông thường dùng để dưỡng tâm – không caffeine, không đường. Với chị em những ngày kinh nguyệt, tập tư thế bướm nằm, em bé kèm một tách **Trà Ngày Dâu Về** ấm với gừng, ngải cứu, táo đỏ (không dùng khi mang thai, cho con bú) là cách chăm sóc dịu dàng cho chính mình.
 
 [[buy:duong-tam-an]]
 

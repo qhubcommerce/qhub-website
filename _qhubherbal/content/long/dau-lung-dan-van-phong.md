@@ -109,7 +109,7 @@ Vì vậy cách chăm sóc theo quan niệm này là **giữ ấm vùng lưng**,
 
 ## Thức uống ấm cho những ngày lưng mỏi
 
-**Trà Nam Vương** của QHUB HERBAL phối các vị theo hướng ôn bổ quen thuộc của phương Đông: ba kích, nhục thung dung, nấm ngọc cẩu, mú từn nuôi phần gốc; kim tiền thảo, dứa dại hòa lại tính ấm; cỏ ngọt điều vị – bổ mà không nóng. Một tách trà ấm giữa giờ nghỉ, khi bạn đứng dậy giãn lưng, là cách nhắc mình chậm lại và chăm sóc cơ thể. Trà là thực phẩm, đi cùng vận động và tư thế đúng – không thay thế việc thăm khám khi đau lưng có dấu hiệu cảnh báo.
+**Trà Nam Vương** của QHUB HERBAL phối các vị mà theo quan niệm phương Đông mang tính ôn bổ: ba kích, nhục thung dung, nấm ngọc cẩu, mú từn; kim tiền thảo, dứa dại hòa lại tính ấm; cỏ ngọt điều vị – vị ấm mà dịu. Một tách trà ấm giữa giờ nghỉ, khi bạn đứng dậy giãn lưng, là cách nhắc mình chậm lại và chăm sóc cơ thể. Trà là thực phẩm, đi cùng vận động và tư thế đúng – không thay thế việc thăm khám khi đau lưng có dấu hiệu cảnh báo.
 
 [[buy:nam-vuong]]
 

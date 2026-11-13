@@ -125,15 +125,15 @@ Người xưa cho rằng mụn ở trán liên quan Tâm hỏa (thức khuya, c�
 
 ## Một thức uống thanh mát mỗi ngày
 
-Khi đã ngủ sớm hơn, ăn nhẹ hơn, một tách trà thanh nhiệt là người bạn đồng hành dễ chịu thay cho ly trà sữa buổi chiều. **Trà Cà Gai – Diệp Hạ Châu** của QHUB HERBAL phối cà gai leo 40%, diệp hạ châu 15%, xạ đen, an xoa, giảo cổ lam, cỏ ngọt – các vị thanh nhiệt quen thuộc theo quan niệm phương Đông, không đường, không caffeine, hợp với **cả nam lẫn nữ** hay nóng trong. Pha một bình loãng mang theo, uống thay nước trong ngày.
+Khi đã ngủ sớm hơn, ăn nhẹ hơn, một tách trà thanh mát là người bạn đồng hành dễ chịu thay cho ly trà sữa buổi chiều. **Trà Cà Gai – Diệp Hạ Châu** của QHUB HERBAL phối cà gai leo 40%, diệp hạ châu 15%, xạ đen, an xoa, giảo cổ lam, cỏ ngọt – những vị mà theo quan niệm phương Đông thường dùng để thanh nhiệt; trà không đường, không caffeine, hợp khẩu vị **cả nam lẫn nữ**. Pha một bình loãng mang theo, uống thay nước trong ngày.
 
-Nếu bạn hay đầy bụng sau những bữa nhiều dầu mỡ, **Trà Lá Ổi Mix Lá Sen** là lựa chọn thanh mát sau bữa ăn.
+Nếu bạn muốn một thức uống thanh mát sau những bữa nhiều dầu mỡ, **Trà Lá Ổi Mix Lá Sen** là một lựa chọn.
 
 [[buy:ca-gai-diep-ha-chau]]
 
 ## Lời kết
 
-Bốn tuần sau đồ án, Minh Anh vẫn có vài nốt mụn – nhưng da dịu hơn hẳn, sáng dậy không còn miệng đắng, môi khô. Cô bảo bí quyết chẳng có gì to tát: ngủ trước 12 giờ, bỏ trà sữa buổi chiều, mang bình trà theo lên thư viện.
+Bốn tuần sau đồ án, Minh Anh vẫn có vài nốt mụn – nhưng da dịu hơn hẳn, sáng dậy không còn miệng đắng, môi khô. Cô bảo bí quyết chẳng có gì to tát: ngủ trước 12 giờ và bỏ trà sữa buổi chiều – bình trà mang theo lên thư viện chỉ giúp cô dễ bỏ trà sữa hơn.
 
 Làn da là tấm gương phản chiếu những gì diễn ra bên trong. Khi bạn chăm cơ thể bằng giấc ngủ, nước, rau xanh và một chút kiên nhẫn – làn da sẽ cảm ơn bạn theo cách rõ ràng nhất.
 

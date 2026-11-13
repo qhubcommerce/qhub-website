@@ -144,7 +144,7 @@ Lời khuyên dưỡng sinh truyền thống: **ăn uống ấm nóng, đủ b�
 
 ## Một tách trà ấm cho những ngày "hết pin"
 
-**Trà Ngày Dâu Về** của QHUB HERBAL phối **ích mẫu, ngải cứu, cỏ máu, gừng, táo đỏ, mâm xôi, thiên niên kiện, cam thảo** theo kiến thức thảo mộc phương Đông – những thảo mộc quen thuộc với ý nghĩa ôn ấm, dưỡng huyết, giúp chị em ấm bụng, dễ chịu hơn những ngày hành kinh. Không caffeine, không thêm đường – một tách trà ấm buổi chiều thay cho ly trà sữa.
+**Trà Ngày Dâu Về** của QHUB HERBAL phối **ích mẫu, ngải cứu, cỏ máu, gừng, táo đỏ, mâm xôi, thiên niên kiện, cam thảo** – những thảo mộc quen thuộc mà theo quan niệm phương Đông mang ý nghĩa ôn ấm, dưỡng huyết; vị trà ấm, ngọt dịu cho những ngày hành kinh. Không caffeine, không thêm đường – một tách trà ấm buổi chiều thay cho ly trà sữa.
 
 **Lưu ý:** không dùng cho phụ nữ mang thai, nghi có thai, đang cho con bú; người ra kinh nhiều, đang dùng thuốc chống đông nên hỏi bác sĩ trước; người thiếu máu nên uống cách bữa ăn giàu sắt khoảng 1 giờ.
 

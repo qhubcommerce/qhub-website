@@ -121,12 +121,12 @@ Nếu bạn thấy ở đâu đó quảng cáo trà QHUB có công dụng như t
 
 | Sản phẩm | Dành cho bạn khi |
 |---|---|
-| Trà Cà Gai – Diệp Hạ Châu | Nóng trong, nổi mụn, muốn thanh lọc |
-| Trà Nam Vương | Nhanh mệt, mỏi lưng gối, phong độ giảm (nam giới) |
-| Trà Xấu Hổ Tím – Tâm Sen | Khó vào giấc, ngủ chập chờn |
-| Trà Ngày Dâu Về | Lạnh bụng, mỏi mệt những ngày ấy (nữ) |
-| Trà Lá Ổi Mix Lá Sen | Đầy bụng, nặng nề sau bữa ăn |
-| Trà Dưỡng Tâm An | Căng thẳng, bồn chồn, cần khoảng lặng |
+| Trà Cà Gai – Diệp Hạ Châu | Thích vị thanh mát, muốn thay nước ngọt những ngày bận rộn |
+| Trà Nam Vương | Muốn một thức uống ấm buổi sáng (nam giới) |
+| Trà Xấu Hổ Tím – Tâm Sen | Muốn một nghi thức thư giãn trước giờ ngủ |
+| Trà Ngày Dâu Về | Muốn một tách trà ấm những ngày ấy (nữ) |
+| Trà Lá Ổi Mix Lá Sen | Muốn thức uống thanh mát sau bữa ăn |
+| Trà Dưỡng Tâm An | Cần một khoảng lặng giữa ngày bận rộn |
 
 Xem chi tiết từng dòng trong bài [So sánh 7 dòng trà QHUB HERBAL](/kien-thuc/so-sanh-6-dong-tra-qhub-herbal/).
 
@@ -136,6 +136,6 @@ Xem chi tiết từng dòng trong bài [So sánh 7 dòng trà QHUB HERBAL](/kien
 
 QHUB HERBAL sinh ra với một triết lý giản dị: **lợi mình, lợi người, lợi chúng sinh – và bán hàng bằng sự chân thành**. Chúng tôi không hứa trà sẽ thay đổi cuộc đời bạn. Chúng tôi chỉ hứa nói thật: thật về nguồn gốc, thật về thành phần, thật về giới hạn của một tách trà.
 
-Còn "có tốt không" – câu trả lời xin để bạn tự cảm nhận, sau vài tuần dùng đều đặn, cùng những đêm ngủ sớm hơn và những bữa ăn tử tế hơn.
+Còn "có tốt không" – câu trả lời xin để bạn tự cảm nhận qua hương vị và sự tiện lợi khi một tách trà trở thành thói quen nhỏ, bên cạnh những đêm ngủ sớm hơn và những bữa ăn tử tế hơn.
 
 *Sản phẩm trà QHUB HERBAL là thực phẩm. Sản phẩm này không phải là thuốc và không có tác dụng thay thế thuốc chữa bệnh.*

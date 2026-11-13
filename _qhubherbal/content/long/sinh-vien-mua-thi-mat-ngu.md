@@ -141,7 +141,7 @@ Người xưa nói "**tư lự thương Tỳ**" – lo nghĩ, suy tư quá độ
 
 ## Một tách trà cho đêm ôn thi
 
-Thay lon nước tăng lực lúc 10 giờ tối bằng một tách trà ấm không caffeine – vẫn có khoảnh khắc nghỉ ngơi giữa giờ học, lại giúp giấc ngủ đến dễ hơn khi gấp sách. **Trà Dưỡng Tâm An** của QHUB HERBAL phối lạc tiên, tâm sen, đinh lăng, hoa cúc theo hướng dưỡng tâm, an thần trong kiến thức thảo mộc phương Đông – không caffeine, không đường. Ban ngày, nước lọc và trà thảo mộc thanh mát như **Trà Lá Ổi Mix Lá Sen** là lựa chọn thay nước ngọt.
+Thay lon nước tăng lực lúc 10 giờ tối bằng một tách trà ấm không caffeine – vẫn có khoảnh khắc nghỉ ngơi giữa giờ học, lại là tín hiệu nhẹ nhàng để chuẩn bị gấp sách đi ngủ. **Trà Dưỡng Tâm An** của QHUB HERBAL phối lạc tiên, tâm sen, đinh lăng, hoa cúc – những vị mà theo quan niệm phương Đông thường dùng để dưỡng tâm – không caffeine, không đường. Ban ngày, nước lọc và trà thảo mộc thanh mát như **Trà Lá Ổi Mix Lá Sen** là lựa chọn thay nước ngọt.
 
 [[buy:duong-tam-an]]
 

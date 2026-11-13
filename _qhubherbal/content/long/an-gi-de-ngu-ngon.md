@@ -115,13 +115,13 @@ Sách *Hoàng Đế Nội Kinh* có câu "**Vị bất hòa tắc ngọa bất a
 
 ## Một tách trà ấm thay cho cốc trà sữa buổi tối
 
-Thói quen trà sữa buổi tối là "kẻ thù kép" của giấc ngủ: vừa có caffeine, vừa nhiều đường. Thay nó bằng một tách trà thảo mộc ấm không caffeine, không đường là thay đổi nhỏ nhưng rõ rệt. **Trà Dưỡng Tâm An** của QHUB HERBAL phối bốn vị dịu nhẹ: lạc tiên làm chủ theo hướng dưỡng tâm, an thần; tâm sen thanh tâm hỏa; đinh lăng bồi bổ khí huyết; hoa cúc thanh nhiệt, bình Can và cho hương thơm dịu. Uống một tách vừa phải sau bữa tối, khoảng 1–2 giờ trước khi ngủ.
+Thói quen trà sữa buổi tối là "kẻ thù kép" của giấc ngủ: vừa có caffeine, vừa nhiều đường. Thay nó bằng một tách trà thảo mộc ấm không caffeine, không đường là thay đổi nhỏ nhưng rõ rệt. **Trà Dưỡng Tâm An** của QHUB HERBAL phối bốn vị dịu nhẹ – theo quan niệm phương Đông, lạc tiên (vị chủ) thường dùng để dưỡng tâm; tâm sen thanh tâm hỏa; đinh lăng bồi bổ khí huyết; hoa cúc thanh nhiệt, bình Can và cho hương thơm dịu. Uống một tách vừa phải sau bữa tối, khoảng 1–2 giờ trước khi ngủ.
 
 [[buy:duong-tam-an]]
 
 ## Lời kết
 
-Ngọc thử thay đổi: ăn tối trước 8 giờ với cơm gạo lứt, cá, rau; những hôm về muộn thì ăn bát cháo yến mạch nhỏ thay vì nhịn rồi ăn mì đêm. Cô bỏ trà sữa buổi tối, thay bằng một tách trà ấm. Tuần đầu còn thèm, tuần thứ hai cô nhận ra mình vào giấc nhanh hơn, sáng dậy bụng nhẹ, mặt bớt sưng.
+Ngọc thử thay đổi: ăn tối trước 8 giờ với cơm gạo lứt, cá, rau; những hôm về muộn thì ăn bát cháo yến mạch nhỏ thay vì nhịn rồi ăn mì đêm. Cô bỏ trà sữa buổi tối, thay bằng một tách trà ấm. Tuần đầu còn thèm, nhưng sau hai tuần ăn tối sớm và nhẹ hơn, cô nhận ra mình vào giấc nhanh hơn, sáng dậy bụng nhẹ, mặt bớt sưng.
 
 Giấc ngủ ngon bắt đầu từ bữa tối. Ăn vừa đủ, ăn đúng giờ, chọn món lành – và để dạ dày được nghỉ ngơi cùng bạn mỗi đêm.
 

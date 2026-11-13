@@ -163,13 +163,13 @@ Saponin triterpenoid, vitamin nhóm B, nhiều acid amin.
 
 ## Trong trà QHUB HERBAL
 
-Đinh lăng là vị Tá trong Trà Xấu Hổ Tím – Tâm Sen và Trà Dưỡng Tâm An – bồi bổ nhẹ nhàng bên cạnh các vị an thần.
+Đinh lăng là vị Tá trong Trà Xấu Hổ Tím – Tâm Sen và Trà Dưỡng Tâm An – theo quan niệm phương Đông là vị bồi bổ nhẹ, đi cùng các vị thường dùng để dưỡng tâm.
 
 [[buy:xau-ho-tim-tam-sen]]
 
 +++
 slug: 8-thao-moc-giup-ngu-ngon
-title: 8 loại thảo mộc giúp ngủ ngon được dùng phổ biến nhất
+title: 8 loại thảo mộc quen dùng buổi tối theo kinh nghiệm dân gian
 desc: Điểm danh 8 loại thảo mộc giúp thư giãn, dễ ngủ được dùng phổ biến ở Việt Nam và thế giới: tâm sen, lạc tiên, xấu hổ, hoa cúc, oải hương, táo đỏ, long nhãn, đinh lăng.
 cat: thao-moc
 products: xau-ho-tim-tam-sen
@@ -289,8 +289,8 @@ Nếu không có thời gian hái, phơi, sao, **Trà Xấu Hổ Tím – Tâm S
 
 +++
 slug: tra-an-than-co-gay-phu-thuoc-khong
-title: Trà an thần thảo mộc có gây phụ thuộc như thuốc ngủ không?
-desc: Uống trà an thần thảo mộc mỗi tối có bị phụ thuộc không, khác thuốc ngủ thế nào, có nên dùng lâu dài và cách dùng để không "quen" phải có trà mới ngủ được.
+title: Trà thảo mộc buổi tối có gây phụ thuộc như thuốc ngủ không?
+desc: Uống trà thảo mộc buổi tối mỗi tối có bị phụ thuộc không, khác thuốc ngủ thế nào, có nên dùng lâu dài và cách dùng để không "quen" phải có trà mới ngủ được.
 cat: thao-moc
 products: xau-ho-tim-tam-sen
 +++

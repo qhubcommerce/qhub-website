@@ -111,7 +111,7 @@ Với người chồng, con cái của người phụ nữ đang ở tuổi ti�
 
 ## Một tách trà thanh nhẹ cho buổi tối
 
-Những đêm bứt rứt, nóng trong, một tách trà thanh nhẹ, không caffeine có thể là nghi thức giúp tâm lắng xuống. **Trà Xấu Hổ Tím – Tâm Sen** của QHUB HERBAL lấy xấu hổ tím làm chủ, phối **tâm sen** và **lạc tiên** theo hướng thanh tâm, định chí; **hoa cúc vàng** thanh nhiệt, bình Can; **đinh lăng** bồi bổ – trong kiến thức thảo mộc phương Đông. Có thể pha xong để nguội bớt, uống ấm hoặc mát vừa, lượng vừa phải sau bữa tối. Trà là thực phẩm, không thay thế tư vấn của bác sĩ về các triệu chứng tiền mãn kinh.
+Những đêm bứt rứt, nóng trong, một tách trà thanh nhẹ, không caffeine có thể là nghi thức giúp tâm lắng xuống. **Trà Xấu Hổ Tím – Tâm Sen** của QHUB HERBAL lấy xấu hổ tím làm chủ, phối **tâm sen**, **lạc tiên**, **hoa cúc vàng** và **đinh lăng** – những vị mà theo quan niệm phương Đông thường dùng để thanh tâm, định chí, thanh nhiệt, bình Can và bồi bổ. Có thể pha xong để nguội bớt, uống ấm hoặc mát vừa, lượng vừa phải sau bữa tối. Trà là thực phẩm, không thay thế tư vấn của bác sĩ về các triệu chứng tiền mãn kinh.
 
 [[buy:xau-ho-tim-tam-sen]]
 

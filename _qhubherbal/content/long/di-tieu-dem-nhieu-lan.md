@@ -115,7 +115,7 @@ Bác sĩ có thể làm tổng phân tích nước tiểu, đo đường huyết
 
 ## Một tách trà ấm buổi chiều
 
-Với những người hay lưng gối mỏi, tay chân lạnh, mệt mỏi về chiều, một tách trà ấm có thể là thói quen dễ chịu – miễn là **uống vào buổi sáng hoặc đầu giờ chiều**, không uống sát giờ ngủ. **Trà Nam Vương** của QHUB HERBAL phối các vị theo hướng ôn bổ quen thuộc của phương Đông: ba kích, nhục thung dung, nấm ngọc cẩu, mú từn nuôi phần gốc; kim tiền thảo, dứa dại hòa lại tính ấm; cỏ ngọt điều vị. Trà là thực phẩm đi cùng lối sống, không thay thế việc khám khi tiểu đêm kéo dài.
+Với những ai thích một thức uống ấm, một tách trà có thể là thói quen dễ chịu – miễn là **uống vào buổi sáng hoặc đầu giờ chiều**, không uống sát giờ ngủ. **Trà Nam Vương** của QHUB HERBAL phối các vị mà theo quan niệm phương Đông mang tính ôn bổ: ba kích, nhục thung dung, nấm ngọc cẩu, mú từn; kim tiền thảo, dứa dại hòa lại tính ấm; cỏ ngọt điều vị. Trà là thực phẩm đi cùng lối sống, không thay thế việc khám khi tiểu đêm kéo dài.
 
 [[buy:nam-vuong]]
 

@@ -145,7 +145,7 @@ products: xau-ho-tim-tam-sen
 - Không rượu bia buổi tối.
 - Hạn chế nước 2 giờ trước ngủ.
 - Phòng mát 24–26°C.
-- Một tách trà an thần buổi tối, uống sớm 60 phút.
+- Một tách trà buổi tối không caffeine, uống sớm 60 phút.
 
 [[buy:xau-ho-tim-tam-sen]]
 

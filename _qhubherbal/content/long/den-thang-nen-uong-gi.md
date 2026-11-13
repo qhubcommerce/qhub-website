@@ -140,7 +140,7 @@ Trà xanh, trà đen (và ở mức độ khác nhau, nhiều loại trà thảo
 
 ## Lời kết
 
-Từ hôm ấy, Mai để sẵn một hộp trà gừng táo đỏ trong ngăn kéo và một túi chườm ấm nhỏ. Ly trà sữa đá nhường chỗ cho cốc nước ấm. Những ngày "đèn đỏ" vẫn không dễ chịu gì, nhưng cơn đau dịu hơn, người bớt uể oải. Và khi cơn đau năm nay có vẻ nặng hơn năm ngoái, cô đã chủ động đi khám thay vì cố chịu đựng.
+Từ hôm ấy, Mai để sẵn một hộp trà gừng táo đỏ trong ngăn kéo và một túi chườm ấm nhỏ. Ly trà sữa đá nhường chỗ cho cốc nước ấm. Những ngày "đèn đỏ" vẫn không dễ chịu gì, nhưng được giữ ấm và nghỉ ngơi đúng cách, cô thấy nhẹ nhàng hơn. Và khi cơn đau năm nay có vẻ nặng hơn năm ngoái, cô đã chủ động đi khám thay vì cố chịu đựng.
 
 Những ngày ấy, cơ thể đang làm việc vất vả. Hãy đáp lại nó bằng sự dịu dàng – một cốc nước ấm, một giấc ngủ đủ, và sự lắng nghe khi nó báo hiệu điều bất thường.
 

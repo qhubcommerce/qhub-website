@@ -128,7 +128,7 @@ Hãy tìm đến bác sĩ hoặc chuyên gia tâm lý. Liệu pháp nhận thứ
 
 ## Một tách trà trước 4 vòng thở
 
-Một tách trà ấm trước khi lên giường giúp cơ thể và tâm trí chuẩn bị cho bài thở. **Trà Dưỡng Tâm An** của QHUB HERBAL phối lạc tiên, tâm sen, đinh lăng, hoa cúc – bốn vị dịu nhẹ theo hướng dưỡng tâm, an thần trong kiến thức thảo mộc phương Đông; không caffeine, không đường. Uống chậm, cảm nhận hơi ấm lan tỏa – đó cũng là một cách thực hành chánh niệm.
+Một tách trà ấm trước khi lên giường là bước dạo đầu nhẹ nhàng cho bài thở. **Trà Dưỡng Tâm An** của QHUB HERBAL phối lạc tiên, tâm sen, đinh lăng, hoa cúc – bốn vị dịu nhẹ mà theo quan niệm phương Đông thường dùng để dưỡng tâm; không caffeine, không đường. Uống chậm, cảm nhận hơi ấm lan tỏa – đó cũng là một cách thực hành chánh niệm.
 
 [[buy:duong-tam-an]]
 

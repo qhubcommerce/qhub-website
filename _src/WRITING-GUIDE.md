@@ -71,3 +71,13 @@ sources:                  # bắt buộc ≥ 2 với bài phí sàn, quảng cá
 5. `git add -A && git commit -m "Kiến thức: đêm N – 10 bài" && git push`.
 6. Sau khi push, workflow `.github/workflows/indexnow.yml` tự chờ bài lên sóng, kiểm tra HTTP 200 và báo Bing qua IndexNow. Đọc kết quả trong log GitHub Actions, không cần WebFetch.
 7. Báo cáo ngắn: số bài đã viết, tiến độ x/510, kết quả kiểm tra trang và IndexNow, bài nào phải bỏ qua và lý do.
+
+
+## Bài có nhắc tới QHUB HERBAL (thương hiệu trà do chính QHUB xây)
+- QHUB HERBAL là ví dụ THẬT duy nhất được dùng làm "kinh nghiệm của đội QHUB". Không bịa doanh số, số đơn, số khách hay đánh giá; chỉ kể quy trình đội đã làm (chọn sản phẩm, tự công bố, bao bì, mã vạch, ảnh, kênh bán, chính sách giá mua 2 tặng 1).
+- Hiện có 7 sản phẩm, mỗi hộp 30 gói × 3 g, giá niêm yết 140.000đ, giá bán 105.000đ, mua 2 tặng 1 (đúng mức khuyến mại 50%). Khi nhắc tên sản phẩm, link tới trang sản phẩm trên qhub.com.vn:
+  - Trà Cà Gai – Diệp Hạ Châu `/tra-ca-gai-diep-ha-chau.html` · Trà Nam Vương `/tra-nam-vuong.html` · Trà Xấu Hổ Tím – Tâm Sen `/tra-xau-ho-tim-tam-sen.html` · Trà Ngày Dâu Về `/tra-ngay-dau-ve.html` · Trà Lá Ổi Mix Lá Sen `/tra-la-oi-mix-la-sen.html` · Trà Dưỡng Tâm An `/tra-duong-tam-an.html`
+  - **Trà Dưỡng Nhan** `/tra-duong-nhan.html` (mới, ra mắt 13/11/2026): 9 vị lá sen, tía tô, hoa hồng, hoa nhài, hoa cúc, táo đỏ, kỷ tử, đông trùng hạ thảo, cỏ ngọt; không thêm đường, không caffeine; khách hàng chính là phụ nữ 18–40 bận rộn và người mua làm quà; tự công bố 39/ANH KHOI/2026; mã vạch EAN-13 8936244311836.
+  - Trang tổng: `/qhub-herbal.html`. Web bán hàng riêng của thương hiệu: https://qhubherbal.com/
+- Trà là thực phẩm thông thường: KHÔNG gán công dụng sức khỏe cho sản phẩm (không "giúp ngủ ngon, mát gan, giải độc, đẹp da, trắng da, chống lão hóa, bổ thận, giảm cân…"), không dùng "chữa/trị", không từ tuyệt đối. Với Trà Dưỡng Nhan chỉ nói hương hoa, vị ngọt dịu, nghi thức năm phút cho bản thân, món quà; tuyệt đối không nói làm đẹp da.
+- Bài về luật quảng cáo, hồ sơ, kiểm duyệt sàn phải kiểm tra văn bản pháp luật và chính sách sàn hiện hành bằng WebSearch/WebFetch, ghi nguồn.

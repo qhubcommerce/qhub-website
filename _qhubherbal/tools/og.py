@@ -27,7 +27,7 @@ def pricebox(d,x,y):
 def shadow(im,x,y,w,h):
     s=Image.new('RGBA',im.size,(0,0,0,0)); ImageDraw.Draw(s).ellipse([x+20,y+h-16,x+w-20,y+h+20],fill=(31,77,58,70)); im.alpha_composite(s.filter(ImageFilter.GaussianBlur(16)))
 im,d=base()
-hero=Image.open(O+'hero.webp').convert('RGBA'); hero.thumbnail((470,470)); hx,hy=1200-hero.width-60,(630-hero.height)//2+10
+hero=Image.open(O+'hero-organic.webp').convert('RGBA'); hero=hero.crop(hero.getbbox()); hero.thumbnail((500,470)); hx,hy=1200-hero.width-36,(630-hero.height)//2+10
 shadow(im,hx,hy,hero.width,hero.height); im.alpha_composite(hero,(hx,hy)); d=ImageDraw.Draw(im)
 d.text((64,186),'Chăm sóc từ bên trong,',font=F(700,48),fill=FOREST)
 d.text((64,244),'bằng tinh túy thảo mộc.',font=F(700,48),fill=LEAF)

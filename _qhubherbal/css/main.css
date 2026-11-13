@@ -1170,3 +1170,5 @@ main,.ftr{position:relative;z-index:0}
 }
 /* lịch một ngày: mục lẻ cuối nằm giữa hàng */
 @media (min-width:901px){.day>.day__item:last-child:nth-child(3n+1){grid-column:2}}
+/* hero 7 hộp (ảnh thấp hơn bản 6 hộp): canh lên đầu cột trên màn hình rộng */
+@media (min-width:901px){.hero__art{align-self:start;margin-top:64px}}

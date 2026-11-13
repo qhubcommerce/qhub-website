@@ -225,11 +225,43 @@ PRODUCTS = [
     "ingredients_text": "Lạc tiên, tâm sen, đinh lăng, hoa cúc.",
     "tcb": "36/ANH KHOI/2026", "gtin": "8936244311577",
     "usage_tip": "Bất cứ khi nào bạn cần một khoảng nghỉ – năm phút cho riêng mình, rời màn hình và hít thở chậm.",
+  },  {
+    "slug": "duong-nhan", "is_new": True, "tint": "#fde9e2", "benefits": ["Dưỡng huyết, điều hòa khí huyết", "Hành khí, lòng nhẹ nhõm", "Không thêm đường"], "pain_q": "Soi gương thấy mình kém tươi – vì bận chăm cả nhà mà quên chăm mình?", "pain_txt": "Thức khuya chạy deadline, trà sữa thay bữa phụ, màn hình từ sáng đến tối. Rồi một sáng soi gương thấy mình uể oải, kém tươi. Nét tươi tắn không nằm ở lớp phấn – nó đến từ những ngày ngủ đủ, ăn lành và năm phút được nâng niu chính mình.", "pain_tag": "Thức khuya · Đồ ngọt · Kém tươi", "cat": "Phái đẹp", "no": "07", "name": "Trà Dưỡng Nhan", "short": "Dưỡng Nhan",
+    "color": "#b4584a", "organ": "Khí huyết · Tâm – Phế",
+    "tagline": "Hương hoa dịu ngọt – nâng niu nét xuân.",
+    "intro": "Nét tươi tắn không đến từ một lớp phấn, mà từ những ngày ngủ đủ, ăn lành và lòng nhẹ nhõm. Trà Dưỡng Nhan gói chín vị hoa và thảo mộc – hoa hồng, hoa nhài, táo đỏ, kỷ tử, đông trùng hạ thảo… – thành một tách trà hương hoa dịu ngọt, không thêm đường, để mỗi ngày người phụ nữ có năm phút nâng niu chính mình.",
+    "keys": ["Hoa hồng", "Hoa nhài", "Táo đỏ · Kỷ tử", "Đông trùng hạ thảo"],
+    "when_see": "Hay thức khuya, ăn ngọt, thấy mình kém tươi",
+    "for_who": "Phụ nữ 18–40, yêu hương hoa",
+    "time": "Sáng · giữa chiều",
+    "flavor": "Hương hoa hồng, hoa nhài dịu ngọt, hậu ngọt thanh từ táo đỏ, kỷ tử và cỏ ngọt – thơm ngon cả khi uống nóng hay để mát",
+    "if_list": ["Thức khuya, sáng dậy uể oải", "Soi gương thấy mình kém tươi", "Trà sữa, đồ ngọt thay bữa phụ", "Bận đến quên chăm chút bản thân"],
+    "dongy": [("Dưỡng huyết", "Táo đỏ, kỷ tử, hoa hồng – nhóm vị người xưa quen dùng để nuôi dưỡng khí huyết, theo quan niệm “kỳ hoa tại diện”: khí huyết điều hòa thì sắc mặt tươi nhuận."),
+              ("Hành khí", "Hoa hồng, hoa nhài, tía tô giúp khí cơ thông thuận, lòng nhẹ nhàng hơn sau những ngày bận rộn."),
+              ("Thư thái", "Chín vị hòa thành hương hoa dịu ngọt – năm phút rời màn hình, dành riêng cho mình.")],
+    "formula": "Hoa hồng hành khí, hòa huyết cùng kỷ tử bổ can thận làm chủ; táo đỏ dưỡng huyết, đông trùng hạ thảo bồi bổ hỗ trợ; hoa nhài, tía tô làm thông khí cơ, lá sen và hoa cúc giữ cho trà thanh mát; cỏ ngọt cho hậu vị ngọt dịu – chín vị, thơm hương hoa mà không gắt.",
+    "ings": [
+      ("hoa-hong", "Hoa hồng", "", "Quân", "Rosa spp. (nụ hoa)", "Tính ôn, vị ngọt hơi đắng · hành khí giải uất, hòa huyết", "Nụ hồng sấy – “mai khôi hoa” – vị trà quen của phái đẹp"),
+      ("ky-tu", "Kỷ tử", "", "Quân", "Lycium barbarum", "Tính bình, vị ngọt · tư bổ can thận, sáng mắt", "Quả nhỏ đỏ mọng – vị quen trong món hầm, chè dưỡng nhan"),
+      ("tao-do", "Táo đỏ", "", "Thần", "Ziziphus jujuba", "Tính ôn, vị ngọt · bổ tỳ ích khí, dưỡng huyết", "Cho trà vị ngọt dịu, tự nhiên"),
+      ("dong-trung-ha-thao", "Đông trùng hạ thảo", "", "Thần", "Cordyceps militaris", "Tính bình, vị ngọt · bổ phế, ích thận, bồi bổ cơ thể", "Nấm dược liệu nuôi trồng, sợi màu cam vàng đặc trưng"),
+      ("hoa-nhai", "Hoa nhài", "", "Tá", "Jasminum sambac", "Tính ôn, vị cay ngọt · lý khí, khai uất, hòa trung", "Hương nhài ướp trà – nét thanh lịch của trà Hà thành xưa"),
+      ("tia-to", "Tía tô", "", "Tá", "Perilla frutescens", "Tính ấm, vị cay · hành khí khoan trung, hòa vị", "Rau thơm quen thuộc trong bữa cơm Việt – mặt dưới lá tím đặc trưng"),
+      ("la-sen", "Lá sen", "", "Tá", "Nelumbo nucifera", "Tính mát, vị đắng · thanh thử, lợi thấp", "Hương lá sen thơm mát – hương vị đồng quê Việt"),
+      ("hoa-cuc-vang", "Hoa cúc vàng", "", "Tá", "Chrysanthemum indicum", "Vị đắng cay · thanh nhiệt, nhẹ đầu, sáng mắt", "Hoa cúc nhỏ – hương trà thanh mát"),
+      ("co-ngot", "Cỏ ngọt", "", "Sứ", "Stevia rebaudiana", "Tính bình, vị ngọt · điều vị, cho vị ngọt tự nhiên", "Ngọt hơn đường nhiều lần nhưng hầu như không cung cấp năng lượng"),
+    ],
+    "habits": ["Ngủ trước 23 giờ, đủ 7–8 tiếng", "Uống đủ nước, bớt trà sữa, nước ngọt", "Thêm rau, trái cây nhiều màu vào bữa ăn", "Rời màn hình 5 phút mỗi giờ", "Dành 10 phút mỗi ngày cho riêng mình"],
+    "pair": ("duong-tam-an", "chiều nhiều áp lực"),
+    "note": "Người dị ứng phấn hoa, họ Cúc nên thử lượng nhỏ trước. Người dùng thuốc chống đông (warfarin) hỏi bác sĩ vì kỷ tử có thể tương tác.",
+    "ingredients_text": "Lá sen, tía tô, hoa hồng, hoa nhài, hoa cúc, táo đỏ, kỷ tử, đông trùng hạ thảo, cỏ ngọt.",
+    "tcb": "39/ANH KHOI/2026", "gtin": "8936244311836",
+    "usage_tip": "Một tách ấm buổi sáng thay cho đồ uống ngọt, hoặc giữa chiều – năm phút rời màn hình, hít hương hoa và thả lỏng. Có thể hãm thêm lần hai.",
   },
 ]
 
 FAQ = [
-  ("Chương trình mua 2 tặng 1 áp dụng thế nào?", "Cứ mua 2 hộp bất kỳ (có thể khác loại) là bạn được tặng thêm 1 hộp, tự chọn trong 6 loại. Cộng dồn: mua 4 tặng 2, mua 6 tặng 3… Bạn chọn hộp tặng ngay trong form đặt hàng; tính ra chỉ khoảng 70.000đ một hộp. Ưu đãi này chỉ có khi đặt hàng trực tiếp tại website qhubherbal.com, không áp dụng trên các sàn thương mại điện tử."),
+  ("Chương trình mua 2 tặng 1 áp dụng thế nào?", "Cứ mua 2 hộp bất kỳ (có thể khác loại) là bạn được tặng thêm 1 hộp, tự chọn trong 7 loại. Cộng dồn: mua 4 tặng 2, mua 6 tặng 3… Bạn chọn hộp tặng ngay trong form đặt hàng; tính ra chỉ khoảng 70.000đ một hộp. Ưu đãi này chỉ có khi đặt hàng trực tiếp tại website qhubherbal.com, không áp dụng trên các sàn thương mại điện tử."),
   ("Trà QHUB HERBAL có phải là thuốc không?", "Không. Đây là thực phẩm – trà thảo mộc túi lọc đã được tự công bố theo quy định. Trà là người bạn chăm sóc hằng ngày, không phải là thuốc và không thay thế thuốc chữa bệnh."),
   ("Bao lâu thì tôi cảm nhận được?", "Thảo mộc làm việc từ tốn. QHUB mong bạn dùng đều đặn như một thói quen nhỏ, cùng giấc ngủ đủ, bữa ăn điều độ, vận động nhẹ nhàng – và lắng nghe cảm nhận của chính mình."),
   ("Phụ nữ có thai, cho con bú dùng được không?", "Không dùng Trà Ngày Dâu Về và Trà Nam Vương. Với các loại khác, bạn hãy hỏi ý kiến bác sĩ trước khi dùng nhé."),
@@ -245,6 +277,7 @@ FAQ = [
 DAY = [
   ("07:00", "Thanh mát cho ngày mới", "ca-gai-diep-ha-chau", "Một tách thay nước lọc, cho người hay nóng trong."),
   ("09:30", "Bền sức cho ngày dài", "nam-vuong", "Cho buổi sáng làm việc vững vàng."),
+  ("11:00", "Một tách hương hoa", "duong-nhan", "Thay cho ly đồ uống ngọt giữa buổi."),
   ("12:30", "Sau bữa trưa", "la-oi-mix-la-sen", "Nhẹ bụng, tỉnh táo cho buổi chiều."),
   ("15:30", "Khoảng lặng giữa chiều", "duong-tam-an", "Năm phút cho riêng mình."),
   ("21:00", "Trước giờ ngủ", "xau-ho-tim-tam-sen", "Để tâm lắng lại, giấc ngủ đến tự nhiên."),
@@ -253,7 +286,7 @@ DAY = [
 
 GIFTS = [
   ("Phong thái", "Cho chồng, cha, đối tác – bồi bổ phần gốc và thanh lọc sau những cuộc vui.", ["nam-vuong", "ca-gai-diep-ha-chau"]),
-  ("Thương em", "Cho vợ, người yêu – hơi ấm những ngày ấy và năm phút bình yên mỗi ngày.", ["ngay-dau-ve", "duong-tam-an"]),
+  ("Thương em", "Cho vợ, người yêu – hơi ấm những ngày ấy và tách trà hương hoa mỗi ngày.", ["ngay-dau-ve", "duong-nhan"]),
   ("An giấc", "Cho cha mẹ, người hay lo nghĩ – ngày thư thái, tối nhẹ lòng.", ["duong-tam-an", "xau-ho-tim-tam-sen"]),
   ("Sum vầy", "Cho gia đình hay tiệc tùng – nhẹ bụng sau bữa ngon, thanh mát sau cuộc vui.", ["la-oi-mix-la-sen", "ca-gai-diep-ha-chau"]),
 ]

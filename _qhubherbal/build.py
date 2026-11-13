@@ -19,7 +19,7 @@ bys = {p['slug']: p for p in products}
 cats = []
 for p in products:
     if p['cat'] not in cats: cats.append(p['cat'])
-    GAL = [('thanh-phan','Thành phần thảo mộc'),('ly-do','Lý do nên chọn'),('dong-y','Công dụng theo quan niệm phương Đông'),('cach-pha','Cách pha'),('trong-hop','Trong mỗi hộp có gì'),('thong-tin-hop','Thông tin trên hộp'),('hoi-dap','Hỏi đáp nhanh')]
+    GAL = [('thanh-phan','Thành phần thảo mộc'),('ly-do','Lý do nên chọn'),('ban-dang','Nhịp sống vội vàng'),('tin-hieu','Tín hiệu cơ thể cần được nâng niu'),('combo','Combo mua 2 tặng 1'),('dong-y','Công dụng theo quan niệm phương Đông'),('cach-pha','Cách pha'),('trong-hop','Trong mỗi hộp có gì'),('thong-tin-hop','Thông tin trên hộp'),('cam-ket','Cam kết của QHUB HERBAL'),('hoi-dap','Hỏi đáp nhanh')]
     p['gallery'] = [(f"{site['media']}/gallery/{p['slug']}-{k}.webp" + ("?v=2" if k == 'thong-tin-hop' else ''), f"{p['name']} – {t}") for k,t in GAL if os.path.exists(os.path.join(ROOT,'media/gallery',f"{p['slug']}-{k}.webp"))]
     for k in ('ings',):
         for ing in p[k]:

@@ -128,7 +128,7 @@ Nếu bạn thấy ở đâu đó quảng cáo trà QHUB có công dụng như t
 | Trà Lá Ổi Mix Lá Sen | Đầy bụng, nặng nề sau bữa ăn |
 | Trà Dưỡng Tâm An | Căng thẳng, bồn chồn, cần khoảng lặng |
 
-Xem chi tiết từng dòng trong bài [So sánh 6 dòng trà QHUB HERBAL](/kien-thuc/so-sanh-6-dong-tra-qhub-herbal/).
+Xem chi tiết từng dòng trong bài [So sánh 7 dòng trà QHUB HERBAL](/kien-thuc/so-sanh-6-dong-tra-qhub-herbal/).
 
 [[buy:ca-gai-diep-ha-chau]]
 

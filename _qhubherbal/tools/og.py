@@ -31,7 +31,7 @@ hero=Image.open(O+'hero.webp').convert('RGBA'); hero.thumbnail((470,470)); hx,hy
 shadow(im,hx,hy,hero.width,hero.height); im.alpha_composite(hero,(hx,hy)); d=ImageDraw.Draw(im)
 d.text((64,186),'Chăm sóc từ bên trong,',font=F(700,48),fill=FOREST)
 d.text((64,244),'bằng tinh túy thảo mộc.',font=F(700,48),fill=LEAF)
-d.text((64,318),'6 công thức trà thảo mộc túi lọc',font=F(400,26),fill=MUTED)
+d.text((64,318),f'{len(data.PRODUCTS)} công thức trà thảo mộc túi lọc',font=F(400,26),fill=MUTED)
 pricebox(d,64,372); tag(d,64,456)
 d.text((64,540),'qhubherbal.com · Zalo 0941 255 055',font=F(600,24),fill=FOREST)
 im.convert('RGB').save(O+'og.jpg',quality=86)

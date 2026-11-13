@@ -214,10 +214,10 @@ Thông tin đầy đủ: [Giới thiệu QHUB HERBAL](/gioi-thieu/).
 
 +++
 slug: so-sanh-6-dong-tra-qhub-herbal
-title: So sánh 6 dòng trà QHUB HERBAL: chọn loại nào cho bạn?
-desc: Bảng so sánh chi tiết 6 dòng trà thảo mộc QHUB HERBAL: thành phần, vị, thời điểm uống, đối tượng phù hợp và không nên dùng – giúp bạn chọn đúng trong 1 phút.
+title: So sánh 7 dòng trà QHUB HERBAL: chọn loại nào cho bạn?
+desc: Bảng so sánh chi tiết 7 dòng trà thảo mộc QHUB HERBAL: thành phần, vị, thời điểm uống, đối tượng phù hợp và không nên dùng – giúp bạn chọn đúng trong 1 phút.
 cat: top
-products: ca-gai-diep-ha-chau,nam-vuong,xau-ho-tim-tam-sen,ngay-dau-ve,la-oi-mix-la-sen,duong-tam-an
+products: ca-gai-diep-ha-chau,nam-vuong,xau-ho-tim-tam-sen,ngay-dau-ve,la-oi-mix-la-sen,duong-tam-an,duong-nhan
 +++
 | | Thành phần chính | Vị | Uống lúc | Không nên dùng |
 |---|---|---|---|---|

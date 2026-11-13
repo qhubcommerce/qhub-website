@@ -54,6 +54,7 @@ Lấy các dòng `status=todo` có `night` nhỏ nhất, 18 dòng (mỗi sản p
   - ngay-dau-ve: ích mẫu, ngải cứu, cỏ máu, gừng, táo đỏ, mâm xôi, thiên niên kiện, cam thảo. Không dùng khi mang thai, cho con bú; người ra kinh nhiều hoặc dùng thuốc chống đông phải hỏi bác sĩ.
   - la-oi-mix-la-sen: lá ổi 50%, lá sen 20%, giảo cổ lam, gạo lứt rang, cỏ ngọt. Người đang táo bón nên tạm ngưng (tanin).
   - duong-tam-an: lạc tiên, tâm sen, đinh lăng, hoa cúc.
+  - duong-nhan (mới 13/11/2026): hoa hồng, kỷ tử, táo đỏ, đông trùng hạ thảo, hoa nhài, tía tô, lá sen, hoa cúc, cỏ ngọt (9 vị, không ghi tỷ lệ). Hương hoa, không thêm đường, không caffeine; cho phụ nữ 18–40 hay thức khuya, ăn ngọt, thấy mình kém tươi. Không hứa làm đẹp da/trắng da/trẻ hóa; không phải mỹ phẩm hay thuốc. Người dùng thuốc chống đông (warfarin) hỏi bác sĩ (kỷ tử); dị ứng phấn hoa, họ Cúc thử lượng nhỏ.
   - Giá: niêm yết 140.000đ, bán 105.000đ; khuyến mại mua 2 tặng 1 (ưu đãi đúng 50%); miễn phí ship toàn quốc; đổi trả 7 ngày; thanh toán khi nhận hàng (COD).
 - **Nguồn tham khảo:** khi gặp cụm chủ đề mới chưa có trong `refs.py`, thêm cụm (SRC + RULES) với URL đã mở thử được.
 

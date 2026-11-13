@@ -1,14 +1,14 @@
 +++
-desc: So sánh chi tiết 6 dòng trà QHUB HERBAL: thành phần, tính vị, hương vị, thời điểm uống, dành cho ai, lưu ý. Kèm cách chọn theo nhu cầu, cách kết hợp trong ngày và gợi ý quà tặng theo người nhận.
+desc: So sánh chi tiết 7 dòng trà QHUB HERBAL: thành phần, tính vị, hương vị, thời điểm uống, dành cho ai, lưu ý. Kèm cách chọn theo nhu cầu, cách kết hợp trong ngày và gợi ý quà tặng theo người nhận.
 - Nên chọn dòng trà QHUB nào đầu tiên? :: Hãy bắt đầu từ điều bạn thấy rõ nhất ở mình: nóng trong nổi mụn → Cà Gai – Diệp Hạ Châu; khó ngủ → Xấu Hổ Tím – Tâm Sen; đầy bụng → Lá Ổi Mix Lá Sen; căng thẳng → Dưỡng Tâm An; những ngày ấy → Ngày Dâu Về; nhanh mệt, mỏi lưng (nam) → Nam Vương.
 - Có thể uống hai loại trong một ngày không? :: Được. Nên dùng ở hai thời điểm khác nhau, ví dụ Dưỡng Tâm An buổi chiều và Xấu Hổ Tím – Tâm Sen buổi tối, hoặc Nam Vương buổi sáng và Lá Ổi Mix Lá Sen sau bữa trưa.
 - Dòng nào uống được buổi tối? :: Xấu Hổ Tím – Tâm Sen, Dưỡng Tâm An, Lá Ổi Mix Lá Sen (sau bữa tối). Không nên uống Nam Vương sát giờ ngủ.
 - Dòng nào không dùng cho phụ nữ mang thai? :: Không dùng Trà Ngày Dâu Về và Trà Nam Vương. Với các dòng khác, bạn nên hỏi ý kiến bác sĩ trước.
-- Mua 2 tặng 1 có được chọn khác loại không? :: Được. Bạn mua 2 hộp bất kỳ (có thể khác loại) và tự chọn hộp tặng trong 6 dòng.
+- Mua 2 tặng 1 có được chọn khác loại không? :: Được. Bạn mua 2 hộp bất kỳ (có thể khác loại) và tự chọn hộp tặng trong 7 dòng.
 +++
-Bạn vừa ghé trang QHUB HERBAL, thấy sáu hộp trà sáu màu – xanh lá, xanh dương, tím, đỏ, xanh nõn, hồng – và băn khoăn: "Mình nên chọn hộp nào?". Đó là câu hỏi rất đúng, vì QHUB thiết kế mỗi dòng cho **một nhu cầu riêng**, không phải sáu vị khác nhau của cùng một loại trà.
+Bạn vừa ghé trang QHUB HERBAL, thấy bảy hộp trà bảy màu – xanh lá, xanh dương, tím, đỏ, xanh nõn, hồng, hồng đào – và băn khoăn: "Mình nên chọn hộp nào?". Đó là câu hỏi rất đúng, vì QHUB thiết kế mỗi dòng cho **một nhu cầu riêng**, không phải sáu vị khác nhau của cùng một loại trà.
 
-Bài viết này đặt sáu dòng trà cạnh nhau, so sánh từng khía cạnh – thành phần, tính vị, hương vị, thời điểm uống, người hợp, lưu ý – để bạn chọn được đúng hộp cho mình, hoặc cho người mình thương.
+Bài viết này đặt bảy dòng trà cạnh nhau, so sánh từng khía cạnh – thành phần, tính vị, hương vị, thời điểm uống, người hợp, lưu ý – để bạn chọn được đúng hộp cho mình, hoặc cho người mình thương.
 
 ## Bảng so sánh tổng quan
 
@@ -20,8 +20,9 @@ Bài viết này đặt sáu dòng trà cạnh nhau, so sánh từng khía cạn
 | **Ngày Dâu Về** | Những ngày "đèn đỏ", lạnh bụng (nữ) | Ích mẫu, ngải cứu, gừng, táo đỏ | Ấm | Trước và trong kỳ |
 | **Lá Ổi Mix Lá Sen** | Đầy bụng sau ăn | Lá ổi 50%, lá sen 20% | Bình – mát | Sau bữa ăn 15–30 phút |
 | **Dưỡng Tâm An** | Căng thẳng, bồn chồn | Lạc tiên, tâm sen, đinh lăng, hoa cúc | Mát nhẹ | Chiều, khoảng lặng giữa ngày |
+| **Dưỡng Nhan** *(mới)* | Hay thức khuya, ăn ngọt, thấy mình kém tươi (nữ) | Hoa hồng, kỷ tử, táo đỏ, đông trùng hạ thảo, hoa nhài | Bình – ấm nhẹ | Sáng, giữa chiều |
 
-Điểm chung của cả sáu dòng: **100% thảo mộc tự nhiên**, phối theo nguyên tắc Quân – Thần – Tá – Sứ của thảo mộc phương Đông, **không thêm đường, không caffeine**, sản xuất tại nhà máy đạt ISO 22000:2018, mỗi dòng có số tự công bố riêng.
+Điểm chung của cả bảy dòng: **100% thảo mộc tự nhiên**, phối theo nguyên tắc Quân – Thần – Tá – Sứ của thảo mộc phương Đông, **không thêm đường, không caffeine**, sản xuất tại nhà máy đạt ISO 22000:2018, mỗi dòng có số tự công bố riêng.
 
 ## 1. Trà Cà Gai – Diệp Hạ Châu: "Thanh lọc từ bên trong"
 
@@ -95,6 +96,18 @@ Bài viết này đặt sáu dòng trà cạnh nhau, so sánh từng khía cạn
 
 Đọc thêm: [bài viết đầy đủ về Trà Dưỡng Tâm An](/kien-thuc/review-tra-duong-tam-an/).
 
+## 7. Trà Dưỡng Nhan: "Hương hoa dịu ngọt – nâng niu nét xuân"
+
+**Thành phần:** lá sen, tía tô, hoa hồng, hoa nhài, hoa cúc, táo đỏ, kỷ tử, đông trùng hạ thảo, cỏ ngọt – chín vị, trong đó hoa hồng và kỷ tử làm chủ.
+
+**Hương vị:** hương hoa hồng, hoa nhài dịu ngọt, hậu ngọt thanh từ táo đỏ, kỷ tử và cỏ ngọt; thơm ngon cả khi uống nóng hay để mát.
+
+**Hợp với:** phụ nữ 18–40 tuổi bận rộn, hay thức khuya, làm việc nhiều với màn hình; người muốn thay trà sữa, nước ngọt bằng thức uống không thêm đường; món quà tinh tế cho mẹ, vợ, bạn gái, đồng nghiệp. Đây là trà thảo mộc, không phải mỹ phẩm hay thuốc.
+
+**Lưu ý:** người dị ứng phấn hoa, họ Cúc nên thử lượng nhỏ trước; người dùng thuốc chống đông (warfarin) hỏi bác sĩ vì kỷ tử có thể tương tác; phụ nữ có thai, cho con bú hỏi bác sĩ trước khi dùng.
+
+Xem chi tiết: [Trà Dưỡng Nhan](/san-pham/duong-nhan/).
+
 ## Những cặp dễ nhầm – chọn thế nào?
 
 **Xấu Hổ Tím – Tâm Sen hay Dưỡng Tâm An?** Cả hai đều có tâm sen, lạc tiên, đều thư giãn. Xấu Hổ Tím có xấu hổ tím làm chủ, hợp với **nghi thức trước giờ ngủ**. Dưỡng Tâm An chỉ bốn vị, dịu nhẹ hơn, hợp **ban ngày** khi căng thẳng. Người vừa căng thẳng ban ngày vừa khó ngủ ban đêm có thể dùng cả hai ở hai thời điểm.
@@ -109,19 +122,20 @@ Bài viết này đặt sáu dòng trà cạnh nhau, so sánh từng khía cạn
 |---|---|---|
 | 07:00 | Thanh mát cho ngày mới | Cà Gai – Diệp Hạ Châu |
 | 09:30 | Bền sức cho ngày dài | Nam Vương |
+| 11:00 | Một tách hương hoa | Dưỡng Nhan |
 | 12:30 | Sau bữa trưa | Lá Ổi Mix Lá Sen |
 | 15:30 | Khoảng lặng giữa chiều | Dưỡng Tâm An |
 | 21:00 | Trước giờ ngủ | Xấu Hổ Tím – Tâm Sen |
 | Hằng tháng | Những ngày cần được sưởi ấm | Ngày Dâu Về |
 
-Bạn không cần dùng cả sáu. Chọn **một đến hai dòng** đúng điều mình cần là đủ.
+Bạn không cần dùng cả bảy. Chọn **một đến hai dòng** đúng điều mình cần là đủ.
 
 ## Gợi ý quà tặng theo người nhận
 
 | Người nhận | Cặp gợi ý | Ý nghĩa |
 |---|---|---|
 | Chồng, bố, đối tác | Nam Vương + Cà Gai – Diệp Hạ Châu | Bồi bổ phần gốc, thanh mát sau những cuộc vui |
-| Vợ, người yêu | Ngày Dâu Về + Dưỡng Tâm An | Hơi ấm những ngày ấy, năm phút bình yên mỗi ngày |
+| Vợ, người yêu | Ngày Dâu Về + Dưỡng Nhan | Hơi ấm những ngày ấy, tách trà hương hoa mỗi ngày |
 | Bố mẹ, người hay lo nghĩ | Dưỡng Tâm An + Xấu Hổ Tím – Tâm Sen | Ngày thư thái, tối nhẹ lòng |
 | Cả gia đình | Lá Ổi Mix Lá Sen + Cà Gai – Diệp Hạ Châu | Nhẹ bụng sau bữa ngon, thanh mát sau cuộc vui |
 
@@ -131,6 +145,6 @@ Với chương trình **mua 2 tặng 1** (chỉ có khi đặt tại website), �
 
 ## Lời kết
 
-Sáu hộp trà, sáu màu, sáu lời chăm sóc. QHUB không mong bạn mua cả sáu – chỉ mong bạn tìm được **đúng một hộp** khiến mình thấy được lắng nghe. Nếu vẫn chưa chắc, hãy nhắn QHUB qua Hotline/Zalo 0941 255 055: kể cho chúng tôi nghe điều bạn đang gặp, chúng tôi sẽ gợi ý thật lòng – kể cả khi câu trả lời là "bạn nên đi khám trước".
+Bảy hộp trà, bảy màu, bảy lời chăm sóc. QHUB không mong bạn mua cả bảy – chỉ mong bạn tìm được **đúng một hộp** khiến mình thấy được lắng nghe. Nếu vẫn chưa chắc, hãy nhắn QHUB qua Hotline/Zalo 0941 255 055: kể cho chúng tôi nghe điều bạn đang gặp, chúng tôi sẽ gợi ý thật lòng – kể cả khi câu trả lời là "bạn nên đi khám trước".
 
 *Sản phẩm trà QHUB HERBAL là thực phẩm. Sản phẩm này không phải là thuốc và không có tác dụng thay thế thuốc chữa bệnh.*

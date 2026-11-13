@@ -92,15 +92,17 @@
 {% endmacro %}
 
 {% macro card(p, site) %}
-<article class="card" style="--c: {{ p.color }}; --t: {{ p.tint }}" data-cat="{{ p.cat }}">
+<article class="card{% if p.is_new %} card--feature{% endif %}" style="--c: {{ p.color }}; --t: {{ p.tint }}" data-cat="{{ p.cat }}">
   <a class="card__img card__img--scene" href="/san-pham/{{ p.slug }}/" aria-label="{{ p.name }}">
     <span class="card__cat">{{ p.cat }}</span>
     <span class="card__ribbon promo-tag">Mua 2 tặng 1</span>
     <img src="/assets/img/products/{{ p.slug }}-scene.webp" alt="Hộp {{ p.name }} cùng các vị thảo mộc: {{ p.ingredients_text }}" width="900" height="900" loading="lazy">
   </a>
   <div class="card__body">
+    {% if p.is_new %}<span class="new-badge">Mới ra mắt</span>{% endif %}
     <h3 class="card__name"><a href="/san-pham/{{ p.slug }}/">{{ p.name }}</a></h3>
     <p class="card__tag">{{ p.tagline }}</p>
+    {% if p.is_new %}<p class="card__intro">{{ p.intro }}</p>{% endif %}
     <ul class="bens bens--sm">{% for b in p.benefits %}<li>{{ b }}</li>{% endfor %}</ul>
     <p class="card__need">Dành cho bạn khi: {{ p.when_see|lower }}</p>
     {{ price(site) }}

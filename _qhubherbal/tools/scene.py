@@ -3,7 +3,7 @@ from PIL import Image, ImageDraw, ImageFilter, ImageFont, ImageEnhance
 import math, random, sys, os
 sys.path.insert(0,'.')
 import data
-F2=ImageFont.truetype('os.path.join(os.path.dirname(__file__),'ttf/bvp-600.ttf')',21)
+F2=ImageFont.truetype(os.path.join(os.path.dirname(os.path.abspath(__file__)),'ttf/bvp-600.ttf'),21)
 def hexrgb(h): h=h.lstrip('#'); return tuple(int(h[i:i+2],16) for i in (0,2,4))
 def dew(base,cx,cy,r):
     s=r*4; L=Image.new('RGBA',(s,s),(0,0,0,0)); d=ImageDraw.Draw(L); c=s//2
@@ -22,8 +22,10 @@ def leafline(d,x,y,ang,L,col,w=3):
     d.line([P(0,0),P(L,0)],fill=col,width=w)
     for t in [.25,.42,.59,.76]:
         d.line([P(L*t,0),P(L*(t+.12),L*.17*math.sin(math.pi*(t+.1)))],fill=col,width=max(1,w-1)); d.line([P(L*t,0),P(L*(t+.12),-L*.17*math.sin(math.pi*(t+.1)))],fill=col,width=max(1,w-1))
-FEM={'ngay-dau-ve','duong-tam-an'}
+FEM={'ngay-dau-ve','duong-tam-an','duong-nhan'}
+ONLY=set(sys.argv[1:])  # python3 tools/scene.py <slug> để chỉ dựng 1 sản phẩm
 for p in data.PRODUCTS:
+    if ONLY and p['slug'] not in ONLY: continue
     random.seed(p['slug']); W=H=900; tint=hexrgb(p['tint']); fem=p['slug'] in FEM
     bg=Image.new('RGBA',(W,H)); dr=ImageDraw.Draw(bg)
     for y in range(H):

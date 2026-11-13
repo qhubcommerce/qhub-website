@@ -55,10 +55,10 @@
     </div>
     <div class="pain">
       {% for p in products %}
-      <a class="pain__item" href="/san-pham/{{ p.slug }}/" style="--c: {{ p.color }}; --t: {{ p.tint }}">
+      <a class="pain__item{% if p.is_new %} pain__item--feature{% endif %}" href="/san-pham/{{ p.slug }}/" style="--c: {{ p.color }}; --t: {{ p.tint }}">
         <span class="pain__top"></span>
         <span class="pain__in">
-          <span class="pain__tags">{{ p.pain_tag }}</span>
+          <span class="pain__tags">{% if p.is_new %}<span class="new-badge">Mới</span> {% endif %}{{ p.pain_tag }}</span>
           <span class="pain__see">{{ p.pain_q }}</span>
           <p class="pain__txt">{{ p.pain_txt }}</p>
           <ul class="bens bens--sm">{% for b in p.benefits %}<li>{{ b }}</li>{% endfor %}</ul>
@@ -196,7 +196,7 @@
 <section class="sec story" aria-labelledby="story-title">
   <img class="leafblur" src="/assets/img/leaf-p-la-oi-mix-la-sen-2.webp" alt="" aria-hidden="true" style="left:-170px;top:20%;width:380px" loading="lazy">
   <div class="wrap">
-    <div class="story__art"><img src="/assets/img/lineup.webp" alt="6 hộp trà QHUB HERBAL xếp thành hàng" width="1800" height="475" loading="lazy"></div>
+    <div class="story__art"><img src="/assets/img/lineup.webp" alt="{{ products|length }} hộp trà QHUB HERBAL xếp thành hàng" width="2095" height="475" loading="lazy"></div>
     <div class="wrap--narrow" style="margin-inline:auto">
       <p class="eyebrow">Lời ngỏ</p>
       <span class="sec__script">Thư nhỏ gửi bạn</span>

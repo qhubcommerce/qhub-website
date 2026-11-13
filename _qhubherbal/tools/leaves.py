@@ -9,6 +9,7 @@ SRC={
  'ngay-dau-ve':[('i','ngai-cuu'),('i','ich-mau'),('d','gung')],
  'la-oi-mix-la-sen':[('d','guava'),('d','lotus'),('i','giao-co-lam')],
  'duong-tam-an':[('i','lac-tien'),('d','cuc'),('i','dinh-lang')],
+ 'duong-nhan':[('i','hoa-hong'),('i','tia-to'),('d','lotus')],
 }
 def ss(e0,e1,x): t=np.clip((x-e0)/(e1-e0),0,1); return t*t*(3-2*t)
 def cutout(path):
@@ -37,7 +38,10 @@ def make(kind,name,out,rot,blur,flip,size=620):
     pad=Image.merge('RGBA',(*rgb.split(),pad.getchannel('A'))); pad=soft(pad,blur); pad=pad.crop(pad.getbbox())
     pad.save(O+out,quality=82,method=6)
 PAR=[(16,5,False),(-24,8,True),(140,6,False)]
+import sys
+ONLY=set(sys.argv[1:])
 for slug,L in SRC.items():
+    if ONLY and slug not in ONLY: continue
     for i,(k,n) in enumerate(L):
         r,b,f=PAR[i]; make(k,n,f'leaf-p-{slug}-{i+1}.webp',r,b,f)
     print(slug)

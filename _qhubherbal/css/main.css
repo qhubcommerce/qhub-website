@@ -1142,3 +1142,31 @@ main,.ftr{position:relative;z-index:0}
 .pd__grid{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
 .pd__grid>*{min-width:0}
 @media (max-width:900px){.pd__grid{grid-template-columns:minmax(0,1fr)}}
+
+/* ===== Sản phẩm mới (thẻ nổi bật, chiếm trọn hàng) ===== */
+.new-badge{display:inline-flex;align-items:center;gap:6px;align-self:flex-start;font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:#fff;background:linear-gradient(135deg,var(--c),color-mix(in srgb,var(--c) 70%,#e8a27c));padding:5px 12px;border-radius:999px;box-shadow:0 6px 14px -6px color-mix(in srgb,var(--c) 70%,transparent)}
+.new-badge::before{content:"";width:6px;height:6px;border-radius:50%;background:#fff;box-shadow:0 0 0 3px rgba(255,255,255,.35)}
+.pain__tags .new-badge{font-size:10.5px;padding:3px 9px;margin-right:6px;vertical-align:1px}
+.card--feature{grid-column:1/-1;flex-direction:row;background:linear-gradient(120deg,#fff 0,#fff 55%,color-mix(in srgb,var(--t) 70%,#fff) 100%)}
+.card--feature .card__img{flex:0 0 46%;aspect-ratio:auto;min-height:440px;background:radial-gradient(70% 65% at 50% 50%,#fff 0,color-mix(in srgb,var(--c) 12%,#fdf3ef) 100%)}
+.card--feature .card__img img{height:auto;width:100%;max-width:470px}
+.card--feature .card__body{justify-content:center;padding:36px 44px;gap:10px}
+.card--feature .card__name{font-size:clamp(24px,2.4vw,32px)}
+.card--feature .card__intro{margin:2px 0 4px;color:var(--muted);font-size:15.5px;line-height:1.65;max-width:58ch}
+.card--feature .card__act{max-width:420px}
+.pain__item--feature{grid-column:1/-1;background:linear-gradient(120deg,#fff 0,#fff 60%,color-mix(in srgb,var(--t) 75%,#fff) 100%)}
+.pain__item--feature .pain__in{display:grid;grid-template-columns:1.25fr 1fr;column-gap:48px;row-gap:10px;align-items:start}
+.pain__item--feature .pain__tags,.pain__item--feature .pain__see,.pain__item--feature .pain__txt{grid-column:1}
+.pain__item--feature .bens{grid-column:2;grid-row:1/3;align-self:end}
+.pain__item--feature .pain__p{grid-column:2;grid-row:3;margin-top:0}
+.pain__item--feature .pain__see{font-size:21px}
+@media (max-width:760px){
+  .card--feature{flex-direction:column}
+  .card--feature .card__img{flex:none;aspect-ratio:1/1;min-height:0}
+  .card--feature .card__img img{width:auto;height:92%}
+  .card--feature .card__body{padding:16px 16px 18px}
+  .card--feature .card__intro{font-size:14px;display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden}
+  .pain__item--feature .pain__in{display:flex;flex-direction:column}
+}
+/* lịch một ngày: mục lẻ cuối nằm giữa hàng */
+@media (min-width:901px){.day>.day__item:last-child:nth-child(3n+1){grid-column:2}}

@@ -90,6 +90,7 @@ Danh sách được dựng từ các nhóm truy vấn phổ biến trong ngành 
 | Ngày Dâu Về | đau bụng kinh, đến tháng nên uống gì, tay chân lạnh, bụng lạnh, mệt mỏi kỳ kinh, trà cho con gái | ích mẫu, ngải cứu, gừng, táo đỏ, cỏ máu | trà cho phụ nữ, quà cho bạn gái |
 | Lá Ổi Mix Lá Sen | đầy bụng, khó tiêu, ợ hơi, chướng bụng, ăn nhiều dầu mỡ, mùa tiệc, giữ dáng (không hứa giảm cân) | lá ổi, lá sen, gạo lứt rang, giảo cổ lam | trà lá ổi, trà lá sen túi lọc |
 | Dưỡng Tâm An | căng thẳng, stress, áp lực công việc, bồn chồn, cứng vai gáy, đau đầu căng thẳng, kiệt sức, trà thư giãn | lạc tiên, tâm sen, đinh lăng, hoa cúc | trà thư giãn, trà hoa cúc |
+| Dưỡng Nhan | thức khuya, da kém tươi, sắc mặt nhợt, ăn nhiều đồ ngọt, bỏ trà sữa, khí huyết (quan niệm phương Đông), trà hoa hồng, trà hoa nhài, trà cho phụ nữ văn phòng (không hứa làm trắng/đẹp da) | hoa hồng, hoa nhài, kỷ tử, táo đỏ, đông trùng hạ thảo, tía tô, lá sen, hoa cúc, cỏ ngọt | trà hoa hồng túi lọc, trà dưỡng nhan, quà cho bạn gái |
 | Top / chung | top trà thảo mộc tốt, cho nữ, cho nam, cho người già, cho dân văn phòng, không caffeine, mùa hè, mùa đông, quà Tết, trà túi lọc nên mua, cách chọn trà uy tín | – | – |
 
 ## 7. Phân bổ bài (đợt 11/2026)

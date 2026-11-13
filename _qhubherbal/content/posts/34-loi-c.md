@@ -207,7 +207,7 @@ Các cơ quan quản lý thực phẩm quốc tế (như JECFA) đã đánh giá
 - Một số người không thích hậu vị hơi đắng của stevia.
 - Người dị ứng họ Cúc nên thận trọng.
 
-Cỏ ngọt là vị Sứ trong 4/6 dòng trà QHUB HERBAL – cho vị ngọt hậu mà không thêm đường.
+Cỏ ngọt là vị Sứ trong 5/7 dòng trà QHUB HERBAL – cho vị ngọt hậu mà không thêm đường.
 
 [[buy:la-oi-mix-la-sen]]
 

@@ -195,7 +195,7 @@ Trà "thật" (từ cây chè *Camellia sinensis*: trà xanh, đen, ô long) đ�
 
 Một số "trà thảo mộc" trên thị trường có trộn trà xanh – hãy đọc thành phần.
 
-Toàn bộ 6 dòng trà QHUB HERBAL đều **không caffeine**.
+Toàn bộ 7 dòng trà QHUB HERBAL đều **không caffeine**.
 
 [[buy:xau-ho-tim-tam-sen]]
 

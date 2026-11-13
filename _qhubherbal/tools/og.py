@@ -35,7 +35,9 @@ d.text((64,318),f'{len(data.PRODUCTS)} công thức trà thảo mộc túi lọc
 pricebox(d,64,372); tag(d,64,456)
 d.text((64,540),'qhubherbal.com · Zalo 0941 255 055',font=F(600,24),fill=FOREST)
 im.convert('RGB').save(O+'og.jpg',quality=86)
+ONLY=sys.argv[1:]  # python3 tools/og.py <slug>
 for p in data.PRODUCTS:
+    if ONLY and p['slug'] not in ONLY: continue
     im,d=base()
     b=Image.open(O+f"products/{p['slug']}.webp").convert('RGBA'); b.thumbnail((360,500)); bx,by=1200-b.width-130,(630-b.height)//2+10
     shadow(im,bx,by,b.width,b.height); im.alpha_composite(b,(bx,by)); d=ImageDraw.Draw(im)

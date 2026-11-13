@@ -1,6 +1,6 @@
 # Quy trình viết bài tự động mỗi đêm – qhubherbal.com
 
-Kế hoạch: `plan/plan-600.tsv` (giữ tên file cũ) nay có **734 bài**: 600 bài gốc + 134 bài nguyên liệu thảo mộc lấy từ báo cáo nghiên cứu thị trường 2026 (danh mục 200 nguyên liệu, đã bỏ các vị độc/nhạy cảm như cà độc dược, dừa cạn, phan tả diệp, dâm dương hoắc, bạch hoa xà thiệt thảo, trinh nữ hoàng cung). Từ đêm 3 (14/11/2026) mỗi đêm viết **18 bài, mỗi sản phẩm 3 bài**, theo cột `night` (đến đêm 42; đêm cuối 8 bài). Đêm 1–2 viết 12 bài/đêm.
+Kế hoạch: `plan/plan-600.tsv` (giữ tên file cũ) nay có **818 bài cho 7 sản phẩm**: 600 bài gốc + 134 bài nguyên liệu thảo mộc từ báo cáo nghiên cứu thị trường 2026 (đã bỏ các vị độc/nhạy cảm như cà độc dược, dừa cạn, phan tả diệp, dâm dương hoắc, bạch hoa xà thiệt thảo, trinh nữ hoàng cung) + 89 bài cho sản phẩm thứ 7 **Trà Dưỡng Nhan** (`duong-nhan`, thêm 13/11/2026; 5 bài nguyên liệu hoa hồng, kỷ tử, đông trùng hạ thảo, tía tô, hoa nhài chuyển từ sản phẩm khác sang). Từ đêm 3 (14/11/2026) mỗi đêm **18 bài**: Dưỡng Nhan 3 bài, 6 sản phẩm còn lại chia 15 bài (luân phiên mỗi đêm 3 sản phẩm được 3 bài, 3 sản phẩm được 2 bài) – đã xếp sẵn trong cột `night` (đến đêm 46). Đêm 1–2 viết 12 bài/đêm (+6 bài Dưỡng Nhan viết bổ sung ngày 13/11).
 
 **Nhịp đăng (quyết định 13/11/2026, anh Quang chọn):** 18 bài/ngày. Google không giới hạn số bài/ngày; rủi ro là "scaled content abuse" (sản xuất hàng loạt để kéo thứ hạng) và chất lượng YMYL. Chỉ cân nhắc tăng lên tối đa 24 bài/ngày sau 4–6 tuần nếu Search Console cho thấy phần lớn bài dài được index và không có Thao tác thủ công (manual action) – phải hỏi anh Quang trước khi tăng. Không bao giờ hạ chuẩn chất lượng để tăng số lượng.
 - Cột `kind`:
@@ -14,9 +14,9 @@ Kế hoạch: `plan/plan-600.tsv` (giữ tên file cũ) nay có **734 bài**: 60
 3. Thư mục gốc repo là web **qhub.com.vn** (công ty) – KHÔNG sửa gì ngoài `_qhubherbal/` và `.github/workflows/qhubherbal-deploy.yml`.
 
 ## 1. Chọn bài
-Lấy các dòng `status=todo` có `night` nhỏ nhất, 18 dòng (mỗi sản phẩm 3 bài nếu còn). Nếu đêm trước còn sót bài, viết bù trước.
+Lấy các dòng `status=todo` có `night` nhỏ nhất, 18 dòng (đúng như cột `night` đã chia cho 7 sản phẩm). Nếu đêm trước còn sót bài, viết bù trước.
 
-**Cách làm nhanh mà vẫn đủ chuẩn:** chia 6 subagent chạy song song (công cụ Agent, chạy nền), mỗi agent một sản phẩm, viết 3 bài; mỗi agent tự nghiên cứu nguồn, viết, chạy checklong cho file của mình và ghi đề xuất refs (SRC + RULES) ra file tạm. Agent chính tự thêm stub cho bài `moi` vào `50-plan-moi.md` TRƯỚC khi giao việc, sau đó gộp refs, kiểm tra cấu trúc 18 bài (độ dài, FAQ, seo_title, link nội bộ tồn tại, [[buy]], 2 dòng cuối), build và đăng.
+**Cách làm nhanh mà vẫn đủ chuẩn:** chia 6–7 subagent chạy song song (công cụ Agent, chạy nền), mỗi agent một sản phẩm (2–3 bài); mỗi agent tự nghiên cứu nguồn, viết, chạy checklong cho file của mình và ghi đề xuất refs (SRC + RULES) ra file tạm. Agent chính tự thêm stub cho bài `moi` vào `50-plan-moi.md` TRƯỚC khi giao việc, sau đó gộp refs, kiểm tra cấu trúc 18 bài (độ dài, FAQ, seo_title, link nội bộ tồn tại, [[buy]], 2 dòng cuối), build và đăng.
 
 **Bài nguyên liệu KHÔNG có trong công thức trà** (134 bài mới, cat `thao-moc`): đoạn sản phẩm KHÔNG được nói hoặc ngụ ý vị đó có trong trà. Chỉ giới thiệu trà QHUB phù hợp nhu cầu liên quan (ví dụ bài Actiso → "nếu bạn tìm một thức uống thảo mộc thanh mát, Trà Cà Gai – Diệp Hạ Châu gồm …"), ghi đúng công thức thật. Vị có độc tính/tương tác (bình vôi, hà thủ ô đỏ, hồng hoa, đào nhân, sâm tố nữ, xuyên tâm liên, thảo quyết minh, kombucha tự làm, nhân sâm, cam thảo…) phải có mục cảnh báo an toàn rõ ràng và khuyên hỏi bác sĩ/dược sĩ. Bài về trà có caffeine (trà xanh, matcha, ô long, hồng trà, phổ nhĩ, trà lài) nói rõ lượng caffeine theo nguồn đã kiểm chứng.
 
@@ -54,7 +54,7 @@ Lấy các dòng `status=todo` có `night` nhỏ nhất, 18 dòng (mỗi sản p
   - ngay-dau-ve: ích mẫu, ngải cứu, cỏ máu, gừng, táo đỏ, mâm xôi, thiên niên kiện, cam thảo. Không dùng khi mang thai, cho con bú; người ra kinh nhiều hoặc dùng thuốc chống đông phải hỏi bác sĩ.
   - la-oi-mix-la-sen: lá ổi 50%, lá sen 20%, giảo cổ lam, gạo lứt rang, cỏ ngọt. Người đang táo bón nên tạm ngưng (tanin).
   - duong-tam-an: lạc tiên, tâm sen, đinh lăng, hoa cúc.
-  - duong-nhan (mới 13/11/2026): hoa hồng, kỷ tử, táo đỏ, đông trùng hạ thảo, hoa nhài, tía tô, lá sen, hoa cúc, cỏ ngọt (9 vị, không ghi tỷ lệ). Hương hoa, không thêm đường, không caffeine; cho phụ nữ 18–40 hay thức khuya, ăn ngọt, thấy mình kém tươi. Không hứa làm đẹp da/trắng da/trẻ hóa; không phải mỹ phẩm hay thuốc. Người dùng thuốc chống đông (warfarin) hỏi bác sĩ (kỷ tử); dị ứng phấn hoa, họ Cúc thử lượng nhỏ.
+  - duong-nhan (Trà Dưỡng Nhan, tự công bố 39/ANH KHOI/2026): lá sen, tía tô, hoa hồng, hoa nhài, hoa cúc, táo đỏ, kỷ tử, đông trùng hạ thảo (Cordyceps militaris nuôi trồng), cỏ ngọt. Quân: hoa hồng, kỷ tử; Thần: táo đỏ, đông trùng hạ thảo; Tá: hoa nhài, tía tô, lá sen, hoa cúc; Sứ: cỏ ngọt. Không thêm đường, không caffeine. Lưu ý: phụ nữ có thai, cho con bú, trẻ em, người đang dùng thuốc (nhất là thuốc chống đông – kỷ tử có báo cáo tương tác warfarin), người dị ứng phấn hoa/họ Cúc hỏi bác sĩ. TUYỆT ĐỐI không nói trà làm trắng da, đẹp da, chống lão hóa – chỉ là thức uống hương hoa không đường cho thói quen tự chăm sóc, thay ly trà sữa.
   - Giá: niêm yết 140.000đ, bán 105.000đ; khuyến mại mua 2 tặng 1 (ưu đãi đúng 50%); miễn phí ship toàn quốc; đổi trả 7 ngày; thanh toán khi nhận hàng (COD).
 - **Nguồn tham khảo:** khi gặp cụm chủ đề mới chưa có trong `refs.py`, thêm cụm (SRC + RULES) với URL đã mở thử được.
 
@@ -66,7 +66,7 @@ Lấy các dòng `status=todo` có `night` nhỏ nhất, 18 dòng (mỗi sản p
 
 ## 4. Deploy (tự động qua GitHub Actions – không dùng Chrome)
 1. Commit và đẩy lên GitHub:
-   `cd /home/claude/qhub-website && git add -A _qhubherbal && git commit -m "QHUB HERBAL: đêm N – 18 bài (x/734)" && git pull --rebase origin main && git push origin main`
+   `cd /home/claude/qhub-website && git add -A _qhubherbal && git commit -m "QHUB HERBAL: đêm N – 18 bài (x/818)" && git pull --rebase origin main && git push origin main`
    (nếu `git status` báo HEAD detached hoặc push bị rejected dù pull báo up to date: `git fetch origin main && git rebase FETCH_HEAD && git push origin HEAD:main`.)
    (push lỗi do repo đổi thì `git pull --rebase` rồi push lại; repo này còn có lịch viết bài của qhub.com.vn chạy song song.)
 2. Workflow `.github/workflows/qhubherbal-deploy.yml` tự chạy: build → `wrangler pages deploy` 5 project (qhubherbal-img, qhubherbal-media, qhubherbal-kt1, qhubherbal-kt2, qhubherbal) → kiểm tra HTTP 200 → báo **IndexNow** (Bing/Copilot/ChatGPT Search, Yandex) cho các bài mới/đổi. Token Cloudflare nằm ở secret `CLOUDFLARE_API_TOKEN` của repo.
@@ -79,5 +79,5 @@ Cuối mỗi lần chạy, gửi SendUserMessage ngắn gồm:
 - đêm thứ mấy;
 - 12 tiêu đề đã viết;
 - đã đẩy lên GitHub và web đã có bài chưa (kết quả WebFetch);
-- tổng tiến độ (x/734).
+- tổng tiến độ (x/818).
 

@@ -151,3 +151,87 @@ products: duong-tam-an
 Căng thẳng ngắn hạn giúp ta vượt qua thử thách, nhưng căng thẳng kéo dài lại bào mòn sức khỏe. Bài viết phân biệt hai dạng căng thẳng và cách lấy lại cân bằng.
 
 [[buy:duong-tam-an]]
+
++++
+slug: tra-hoa-hong-la-gi
+herb: hoa-hong
+cover: herbs/hoa-hong.webp
+title: Trà hoa hồng là gì? Nụ hồng sấy và những điều cần biết
+seo_title: Trà hoa hồng là gì? Nụ hồng sấy và lưu ý
+desc: Trà hoa hồng (nụ hồng sấy, mai khôi hoa) là gì, hương thơm và hoạt chất, quan niệm phương Đông về hành khí giải uất, cách pha ngon và những ai cần lưu ý khi uống.
+cat: thao-moc
+date: 2026-11-13
+products: duong-nhan
++++
+Nụ hồng sấy là vị hoa quen thuộc trong ấm trà của phụ nữ Á Đông. Bài viết giải thích trà hoa hồng là gì, cách pha và những lưu ý khi dùng.
+
+[[buy:duong-nhan]]
+
++++
+slug: ky-tu-la-gi
+herb: ky-tu
+cover: herbs/ky-tu.webp
+title: Kỷ tử là gì? Câu kỷ tử đỏ, zeaxanthin và lưu ý khi dùng
+seo_title: Kỷ tử là gì? Tác dụng, cách dùng và lưu ý
+desc: Kỷ tử (câu kỷ tử, goji) là gì, dinh dưỡng và zeaxanthin, quan niệm phương Đông về tư bổ can thận, minh mục, cách dùng hằng ngày và lưu ý với người dùng thuốc chống đông.
+cat: thao-moc
+date: 2026-11-13
+products: duong-nhan
++++
+Kỷ tử là quả nhỏ đỏ mọng quen thuộc trong chè và trà dưỡng nhan. Bài viết giải thích kỷ tử là gì, dùng thế nào và ai cần thận trọng.
+
+[[buy:duong-nhan]]
+
++++
+slug: dong-trung-ha-thao-la-gi
+herb: dong-trung-ha-thao
+cover: herbs/dong-trung-ha-thao.webp
+title: Đông trùng hạ thảo là gì? Cordycepin và cách chọn hàng thật
+seo_title: Đông trùng hạ thảo là gì? Cách chọn hàng thật
+desc: Đông trùng hạ thảo là gì, khác nhau giữa Cordyceps sinensis và Cordyceps militaris nuôi trồng, cordycepin và bằng chứng khoa học, cách chọn hàng thật và ai cần thận trọng.
+cat: thao-moc
+date: 2026-11-13
+products: duong-nhan
++++
+Đông trùng hạ thảo là vị nấm dược liệu nổi tiếng nhưng cũng nhiều hàng giả. Bài viết giúp bạn hiểu đúng và chọn đúng.
+
+[[buy:duong-nhan]]
+
++++
+slug: ky-hoa-tai-dien-la-gi
+title: Kỳ hoa tại diện là gì? Khí huyết và sắc mặt theo phương Đông
+seo_title: Kỳ hoa tại diện là gì? Khí huyết và sắc mặt
+desc: Kỳ hoa tại diện nghĩa là gì, vì sao người xưa nhìn sắc mặt để đoán khí huyết, khoa học hiện đại nói gì về giấc ngủ, dinh dưỡng, thiếu máu với làn da và khi nào nên đi khám.
+cat: cam-nang
+date: 2026-11-13
+products: duong-nhan
++++
+"Kỳ hoa tại diện" là quan niệm xưa cho rằng sắc mặt phản chiếu khí huyết bên trong. Bài viết giải thích quan niệm này và điều khoa học hiện đại ghi nhận.
+
+[[buy:duong-nhan]]
+
++++
+slug: cai-tra-sua-the-nao
+title: Cai trà sữa thế nào? Lộ trình 4 tuần bớt đường mỗi ngày
+seo_title: Cai trà sữa thế nào? Lộ trình 4 tuần bớt đường
+desc: Cai trà sữa thế nào cho bền: một ly trà sữa có bao nhiêu đường, khuyến nghị của WHO về đường tự do, lộ trình 4 tuần giảm dần và những thức uống thay thế dễ chịu.
+cat: cam-nang
+date: 2026-11-13
+products: duong-nhan
++++
+Trà sữa ngon nhưng nhiều đường. Bài viết gợi ý lộ trình 4 tuần giảm dần trà sữa mà không thấy thiệt thòi.
+
+[[buy:duong-nhan]]
+
++++
+slug: an-nhieu-duong-co-lam-da-xin-mau
+title: Ăn nhiều đường có làm da xỉn màu? Hiểu đúng về glycation
+seo_title: Ăn nhiều đường có làm da xỉn? Hiểu về glycation
+desc: Ăn nhiều đường có làm da xỉn màu, nhanh lão hóa không? Giải thích glycation và AGEs, bằng chứng khoa học hiện có, lượng đường nên dùng và thói quen tốt cho làn da.
+cat: cam-nang
+date: 2026-11-13
+products: duong-nhan
++++
+Đường ảnh hưởng làn da qua quá trình glycation. Bài viết giải thích điều khoa học đã biết và cách bớt đường hợp lý.
+
+[[buy:duong-nhan]]

@@ -168,7 +168,44 @@ SRC['stress2'] = [
     ('Harvard Health Publishing – Understanding the stress response (Cơ chế phản ứng căng thẳng)', 'https://www.health.harvard.edu/staying-healthy/understanding-the-stress-response'),
 ]
 
+SRC['hoahong'] = [
+    ('Boskabady MH, Shafei MN, Saberi Z, Amini S (2011) – Pharmacological Effects of Rosa damascena (Tác dụng dược lý của hồng Damask), Iranian Journal of Basic Medical Sciences', 'https://pmc.ncbi.nlm.nih.gov/articles/PMC3586833/'),
+    ('Government Chinese Medicines Testing Institute, Department of Health Hong Kong (2021) – Rosae Rugosae Flos vs Flos Rosae Chinensis (Phân biệt mai khôi hoa và nguyệt quý hoa)', 'https://www.cmro.gov.hk/files/gcmti/research/mmi/ech_search/007_RRF_vs_FRC_en.pdf'),
+    ('Colorado State University Extension – Edible Flowers (Hoa ăn được: chọn hoa an toàn, không dùng hoa từ tiệm hoa)', 'https://extension.colostate.edu/resource/edible-flowers'),
+]
+SRC['kytu'] = [
+    ('Memorial Sloan Kettering Cancer Center – Lycium (Goji, kỷ tử): tác dụng, tương tác với warfarin, chống chỉ định', 'https://www.mskcc.org/cancer-care/integrative-medicine/herbs/lycium'),
+    ('Berisha A, Alexa E-A, Kelleher R, Zhang T (2025) – From botany to bedside: a review of the health benefits of Lycium barbarum as a functional food (Tổng quan lợi ích và an toàn của kỷ tử), Exploration of Foods and Foodomics', 'https://www.explorationpub.com/Journals/eff/Article/101070'),
+    ('Shi X, Wang X, Zheng Y, Fu L (2024) – Advances in the Study of Bioactive Compounds and Nutraceutical Properties of Goji Berry (Thành phần dinh dưỡng, hoạt chất của kỷ tử), Applied Sciences (DOAJ)', 'https://doaj.org/article/4ecf7b440acd4c1593291cd92b16e422'),
+]
+SRC['dongtrung'] = [
+    ('LiverTox – Cordyceps (Đông trùng hạ thảo: thành phần, bằng chứng, an toàn), NIDDK/NIH', 'https://www.ncbi.nlm.nih.gov/books/NBK615916/'),
+    ('Memorial Sloan Kettering Cancer Center – Cordyceps (Đông trùng hạ thảo: bằng chứng, tương tác thuốc, chống chỉ định)', 'https://www.mskcc.org/cancer-care/integrative-medicine/herbs/cordyceps'),
+    ('Jędrejko KJ, Lazur J, Muszyńska B (2021) – Cordyceps militaris: An Overview of Its Chemical Constituents in Relation to Biological Activity (Hoạt chất của đông trùng hạ thảo nuôi trồng), Foods', 'https://www.mdpi.com/2304-8158/10/11/2634'),
+]
+SRC['kyhoa'] = [
+    ('Axelsson J và cs. (2010). Beauty sleep: thí nghiệm về vẻ khỏe mạnh và hấp dẫn của người thiếu ngủ – The BMJ', 'https://pmc.ncbi.nlm.nih.gov/articles/PMC3001961'),
+    ('Sundelin T và cs. (2013). Cues of fatigue: tác động của thiếu ngủ lên khuôn mặt – Sleep', 'https://pubmed.ncbi.nlm.nih.gov/23997369/'),
+    ('WHO – Anaemia (Thiếu máu): định nghĩa, triệu chứng, tỷ lệ', 'https://www.who.int/news-room/fact-sheets/detail/anaemia'),
+]
+SRC['trasua'] = [
+    ('WHO (2015) – Khuyến nghị giảm đường tự do cho người lớn và trẻ em', 'https://www.who.int/news/item/04-03-2015-who-calls-on-countries-to-reduce-sugars-intake-among-adults-and-children'),
+    ('Liu CH và cs. (2023). Thông tin ghi nhãn đường của trà pha lắc ở miền Bắc Đài Loan – Frontiers in Nutrition', 'https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2023.1273713/pdf'),
+    ('Centre for Food Safety Hồng Kông (2013) – Hàm lượng caffeine trong đồ uống (trà sữa, cà phê)', 'https://www.cfs.gov.hk/english/programme/programme_rafs/programme_rafs_fci_01_04.html'),
+]
+SRC['glycation'] = [
+    ('Danby FW (2010). Nutrition and aging skin: sugar and glycation (Dinh dưỡng và da lão hóa: đường và glycation) – Clinics in Dermatology', 'https://www.sciencedirect.com/science/article/abs/pii/S0738081X10000428'),
+    ('Nguyen HP, Katta R (2015). Sugar Sag: glycation và vai trò của chế độ ăn trong lão hóa da – Skin Therapy Letter', 'https://skintherapyletter.com/aging-skin/glycation/'),
+    ('Smith RN và cs. (2007). Chế độ ăn tải lượng đường huyết thấp và mụn trứng cá: thử nghiệm ngẫu nhiên – American Journal of Clinical Nutrition', 'https://research-repository.rmit.edu.au/articles/journal_contribution/A_low-glycemic-load_diet_improves_symptoms_in_acne_vulgaris_patients_a_randomized_controlled_trial/27412143'),
+]
+
 RULES = [
+    ('hoahong', ['hoa hồng', 'nụ hồng', 'mai khôi'], 30),
+    ('kytu', ['kỷ tử', 'zeaxanthin', 'lycium'], 40),
+    ('dongtrung', ['đông trùng', 'cordyceps', 'cordycepin'], 30),
+    ('kyhoa', ['kỳ hoa tại diện', 'khí huyết', 'sắc mặt'], 18),
+    ('trasua', ['trà sữa'], 25),
+    ('glycation', ['glycation', 'glycat hóa', 'collagen'], 18),
     ('xaden', ['xạ đen', 'celastrus', 'ehretia'], 15),
     ('mengan', ['ggt', 'ast/alt', 'khoảng tham chiếu'], 15),
     ('duadai', ['dứa dại', 'pandanus'], 10),

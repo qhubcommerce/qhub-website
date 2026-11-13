@@ -108,7 +108,7 @@ for a in POSTS:
             ps = a['products'][0]['slug']; cand = [k for k in ks if os.path.exists(os.path.join(ROOT, 'media/gallery', f'{ps}-{k}.webp'))]
             a['cover'] = f"gallery/{ps}-{cand[sum(map(ord, a['slug'])) % len(cand)]}.webp"
         else:
-            a['cover'] = '/assets/img/lineup.webp'
+            a['cover'] = '/assets/img/lineup.webp?v=7'
     cov = a.get('cover', '')
     a['cover_url'] = cov if cov.startswith('/') else f"{site['media']}/{cov}"
     a['date'] = a.get('date', NOW.strftime('%Y-%m-%d'))

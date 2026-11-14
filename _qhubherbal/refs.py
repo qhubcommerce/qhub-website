@@ -291,7 +291,131 @@ SRC['sosanhtoi'] = [
     ('American Academy of Sleep Medicine (2017) – Clinical Practice Guideline for the Pharmacologic Treatment of Chronic Insomnia in Adults: Guideline at a Glance (Hướng dẫn dùng thuốc cho mất ngủ mạn tính)', 'https://aasm.org/wp-content/uploads/2018/01/PharmInsomnia-Guideline-at-a-Glance.pdf'),
 ]
 
+SRC['masldgay'] = [
+    ('Long MT, Noureddin M, Lim JK (2022) – AGA Clinical Practice Update: Diagnosis and Management of NAFLD in Lean Individuals (Chẩn đoán và quản lý gan nhiễm mỡ ở người gầy), Gastroenterology', 'https://www.pubmed.gov/35842345/'),
+    ('Ye Q và cộng sự (2020) – Global prevalence, incidence, and outcomes of non-obese or lean NAFLD (Tỷ lệ và tiên lượng gan nhiễm mỡ ở người gầy/không béo phì: phân tích gộp), The Lancet Gastroenterology & Hepatology', 'https://pubmed.ncbi.nlm.nih.gov/32413340/'),
+    ('Danpanichkul P, Suparan K, Kim D, Wijarnpreecha K (2024) – What Is New in MASLD in Lean Individuals: From Bench to Bedside (MASLD ở người gầy: từ cơ chế đến thực hành), Journal of Clinical Medicine', 'https://pmc.ncbi.nlm.nih.gov/articles/PMC10780205/'),
+    ('Wong VW và cộng sự (2018) – Beneficial effects of lifestyle intervention in non-obese patients with NAFLD (Thay đổi lối sống ở người gan nhiễm mỡ không béo phì), Journal of Hepatology', 'https://pubmed.ncbi.nlm.nih.gov/30142427/'),
+]
+SRC['congot'] = [
+    ('FDA (Cục Quản lý Thực phẩm và Dược phẩm Hoa Kỳ) – Import Alert 45-06: Stevia leaves, crude extracts and foods containing them (Cảnh báo nhập khẩu lá và chiết xuất thô cỏ ngọt)', 'https://www.accessdata.fda.gov/cms_ia/importalert_119.html'),
+    ('EFSA ANS Panel (2010) – Scientific Opinion on the safety of steviol glycosides for the proposed uses as a food additive (Đánh giá an toàn steviol glycoside, ADI 4 mg/kg), EFSA Journal', 'https://efsa.europa.eu/en/efsajournal/pub/1537'),
+    ('WHO/PAHO (2023) – WHO advises not to use non-sugar sweeteners for weight control in newly released guideline (WHO khuyến nghị không dùng chất tạo ngọt không đường để kiểm soát cân nặng)', 'https://www.paho.org/en/news/15-5-2023-who-advises-not-use-non-sugar-sweeteners-weight-control-newly-released-guideline'),
+    ('Peteliuk V và cộng sự (2021) – Natural sweetener Stevia rebaudiana: Functionalities, health benefits and potential risks (Tổng quan cỏ ngọt: thành phần, lợi ích và rủi ro), EXCLI Journal', 'https://pmc.ncbi.nlm.nih.gov/articles/PMC8600158/'),
+]
+SRC['chinvi'] = [
+    ('Cai W và cộng sự (2024) – Functional Nutrients and Jujube-Based Processed Products in Ziziphus jujuba (Thành phần dinh dưỡng của táo đỏ và ảnh hưởng của sấy), Molecules', 'https://mdpi-res.com/d_attachment/molecules/molecules-29-03437/article_deploy/molecules-29-03437.pdf'),
+    ('FDA – Aspartame and Other Sweeteners in Food (Steviol glycoside tinh khiết; lá cỏ ngọt nguyên, chiết xuất thô chưa là GRAS)', 'https://www.fda.gov/food/food-additives-petitions/aspartame-and-other-sweeteners-food'),
+    ('FDA – Agency Response Letter GRAS Notice No. GRN 000619 (Steviol glycoside, ADI 0–4 mg/kg/ngày tính theo steviol)', 'https://www.fda.gov/food/gras-notice-inventory/agency-response-letter-gras-notice-no-grn-000619'),
+    ('WHO/PAHO (2023) – WHO advises not to use non-sugar sweeteners for weight control (Không dùng chất tạo ngọt không đường để kiểm soát cân nặng)', 'https://www.paho.org/en/news/15-5-2023-who-advises-not-use-non-sugar-sweeteners-weight-control-newly-released-guideline'),
+]
+SRC['duongtudo'] = [
+    ('WHO – Healthy diet fact sheet (Chế độ ăn lành mạnh: đường tự do dưới 10% năng lượng, khoảng 50 g/ngày)', 'https://www.who.int/news-room/fact-sheets/detail/healthy-diet'),
+    ('NHS – How to cut down on sugar in your diet (Cách giảm đường, đọc nhãn, tên gọi khác của đường)', 'https://www.nhs.uk/live-well/eat-well/how-to-cut-down-on-sugar-in-your-diet/'),
+    ('Bộ Y tế (2026) – Thông tư 30/2026/TT-BYT hướng dẫn ghi thành phần dinh dưỡng, giá trị dinh dưỡng trên nhãn thực phẩm', 'https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/7/30-byt.signed.pdf'),
+    ('WHO/PAHO (2023) – WHO advises not to use non-sugar sweeteners for weight control (Khuyến nghị về chất tạo ngọt không đường)', 'https://www.paho.org/en/news/15-5-2023-who-advises-not-use-non-sugar-sweeteners-weight-control-newly-released-guideline'),
+]
+SRC['trahoa'] = [
+    ('Ellis LR và cộng sự (2021) – A systematic review and meta-analysis of the effects of Hibiscus sabdariffa on blood pressure and cardiometabolic markers (Atiso đỏ và huyết áp), Nutrition Reviews', 'https://eprints.whiterose.ac.uk/181700/7/nuab104.pdf'),
+    ('21 CFR 73.69 – Butterfly pea flower extract (Chiết xuất hoa đậu biếc được phép làm phẩm màu thực phẩm), Cornell Legal Information Institute', 'https://www.law.cornell.edu/cfr/text/21/73.69'),
+    ('WebMD – Honeysuckle: uses, side effects, interactions (Kim ngân hoa: an toàn và tương tác)', 'https://www.webmd.com/vitamins-supplements/honeysuckle'),
+    ('Nguyen Thanh Thi, Yamanishi T (1975) – Flavor Components in Vietnamese Green Tea and Lotus Tea (Chất thơm của trà sen Việt Nam), Agricultural and Biological Chemistry', 'https://www.jstage.jst.go.jp/article/bbb1961/39/6/39_6_1263/_article/-char/en'),
+]
+SRC['chanhniem'] = [
+    ('Goyal M. và cộng sự (2014) – Meditation programs for psychological stress and well-being: a systematic review and meta-analysis (Chương trình thiền và căng thẳng tâm lý: tổng quan có hệ thống), JAMA Internal Medicine', 'https://pubmed.ncbi.nlm.nih.gov/24395196/'),
+    ('Khoury B. và cộng sự (2015) – Mindfulness-based stress reduction for healthy individuals: A meta-analysis (MBSR ở người khỏe mạnh: phân tích gộp), Journal of Psychosomatic Research', 'https://read.qxmd.com/read/25818837/mindfulness-based-stress-reduction-for-healthy-individuals-a-meta-analysis'),
+    ('NCCIH (NIH) – Meditation and Mindfulness: Effectiveness and Safety (Thiền và chánh niệm: hiệu quả và an toàn)', 'https://www.nccih.nih.gov/health/meditation-and-mindfulness-effectiveness-and-safety'),
+]
+SRC['loaulantoa'] = [
+    ('WHO – Anxiety disorders: Fact sheet (Rối loạn lo âu), Tổ chức Y tế Thế giới', 'https://www.who.int/news-room/fact-sheets/detail/anxiety-disorders'),
+    ('NIMH – Generalized Anxiety Disorder: What You Need to Know (Rối loạn lo âu lan tỏa: điều cần biết), Viện Sức khỏe Tâm thần Quốc gia Hoa Kỳ', 'https://www.nimh.nih.gov/health/publications/generalized-anxiety-disorder-gad'),
+    ('NIMH – Generalized Anxiety Disorder: Statistics (Số liệu về rối loạn lo âu lan tỏa)', 'https://www.nimh.nih.gov/health/statistics/generalized-anxiety-disorder'),
+    ('Spitzer R.L., Kroenke K., Williams J.B.W., Löwe B. (2006) – A brief measure for assessing generalized anxiety disorder: the GAD-7 (Thang sàng lọc GAD-7), Archives of Internal Medicine', 'https://read.qxmd.com/read/16717171/a-brief-measure-for-assessing-generalized-anxiety-disorder-the-gad-7'),
+]
+SRC['foshu'] = [
+    ('Deguchi Y, Miyazaki K (2010) – Anti-hyperglycemic and anti-hyperlipidemic effects of guava leaf extract (tổng quan về chiết xuất lá ổi và trà Bansoureicha được duyệt FOSHU năm 2000), Nutrition & Metabolism', 'https://link.springer.com/content/pdf/10.1186/1743-7075-7-9.pdf'),
+    ('Food Safety Commission of Japan – Basic approach of safety assessment of FOSHU (đánh giá an toàn FOSHU theo từng sản phẩm; thẩm quyền phê duyệt chuyển sang Cơ quan Người tiêu dùng từ 9/2009)', 'https://www.fsc.go.jp/hyouka/index.data/basic_approach_of_foshu.pdf'),
+    ('Liu C, Jullian V, Chassagne F (2024) – Ethnobotany, phytochemistry, and biological activities of Psidium guajava in the treatment of diarrhea: a review (lá ổi trong kinh nghiệm dân gian trị tiêu chảy ở 44 quốc gia), Frontiers in Pharmacology', 'https://frontiersin.org/articles/10.3389/fphar.2024.1459066/full'),
+    ('Díaz-de-Cerio E và cộng sự (2017) – Health Effects of Psidium guajava L. Leaves: An Overview of the Last Decade (tổng quan hoạt chất và nghiên cứu về lá ổi), International Journal of Molecular Sciences', 'https://www.mdpi.com/1422-0067/18/4/897'),
+]
+SRC['tientieuduong'] = [
+    ('Diabetes Prevention Program Research Group – Knowler WC và cộng sự (2002) – Reduction in the Incidence of Type 2 Diabetes with Lifestyle Intervention or Metformin (thay đổi lối sống giảm 58% nguy cơ tiểu đường), New England Journal of Medicine', 'https://biostatcenter.gwu.edu/node/2247'),
+    ('CDC – Diabetes Testing (ngưỡng HbA1c, đường huyết đói, nghiệm pháp dung nạp glucose)', 'https://www.cdc.gov/diabetes/diabetes-testing/index.html'),
+    ('USPSTF (2021) – Screening for Prediabetes and Type 2 Diabetes (khuyến nghị sàng lọc người 35–70 tuổi thừa cân, béo phì)', 'https://uspreventiveservicestaskforce.org/uspstf/recommendation/screening-for-prediabetes-and-type-2-diabetes'),
+    ('Mayo Clinic – Prediabetes: Symptoms and causes (dấu hiệu da sẫm màu, yếu tố nguy cơ)', 'https://www.mayoclinic.org/diseases-conditions/prediabetes/symptoms-causes/syc-20355278'),
+]
+SRC['thoatvi'] = [
+    ('NHS (Hệ thống Y tế Quốc gia Anh) – Slipped disc (Thoát vị đĩa đệm: triệu chứng, tự chăm sóc, dấu hiệu cần cấp cứu)', 'https://www.nhs.uk/conditions/slipped-disc/'),
+    ('Hall W.A., Camino Willhuber G.O. – Nucleus Pulposus Herniation (Thoát vị nhân nhầy đĩa đệm), StatPearls, NCBI Bookshelf (cập nhật 2025)', 'https://www.ncbi.nlm.nih.gov/books/NBK542307/'),
+    ('AAOS OrthoInfo (Viện Hàn lâm Phẫu thuật Chỉnh hình Hoa Kỳ) – Herniated Disk in the Lower Back (Thoát vị đĩa đệm thắt lưng)', 'https://orthoinfo.aaos.org/en/diseases--conditions/herniated-disk'),
+    ('Brinjikji W. và cộng sự (2015) – Systematic Literature Review of Imaging Features of Spinal Degeneration in Asymptomatic Populations (Hình ảnh thoái hóa cột sống ở người không đau lưng), American Journal of Neuroradiology 36(4)', 'https://www.ajnr.org/content/36/4/811'),
+]
+SRC['bakich'] = [
+    ('Zhang J.H. và cộng sự (2018) – Morinda officinalis How. – A comprehensive review of traditional uses, phytochemistry and pharmacology (Tổng quan về ba kích: công dụng truyền thống, hóa học, dược lý), Journal of Ethnopharmacology 213', 'https://hero.epa.gov/hero/index.cfm/reference/details/reference_id/5206372'),
+    ('Du Y. và cộng sự (2020) – Efficacy and safety of Morinda officinalis oligosaccharide capsules for depressive disorder: a systematic review and meta-analysis (Viên nang oligosaccharide ba kích và trầm cảm: phân tích gộp), Brazilian Journal of Psychiatry', 'https://pmc.ncbi.nlm.nih.gov/articles/PMC8136385'),
+    ('Vũ Đức Lợi, Nguyễn Tiến Vững, Nguyễn Thị Thúy An (2016) – Một số hợp chất phân lập từ rễ cây ba kích (Morinda officinalis How.) trồng ở tỉnh Quảng Ninh, Tạp chí Y Dược học 56(9)', 'https://vjol.info.vn/tcdh/article/view/25377'),
+    ('NIH LiverTox – Noni (Cây nhàu, cùng chi Morinda: các ca tổn thương gan được báo cáo)', 'https://www.ncbi.nlm.nih.gov/books/NBK548374/'),
+]
+SRC['ngoixe'] = [
+    ('Joseph L. và cộng sự (2020) – Prevalence of musculoskeletal pain among professional drivers: A systematic review (Tỷ lệ đau cơ xương ở tài xế chuyên nghiệp), Journal of Occupational Health 62(1)', 'https://pmc.ncbi.nlm.nih.gov/articles/PMC7434558/'),
+    ('HSE (Cơ quan An toàn và Sức khỏe Anh) – Whole body vibration (Rung toàn thân và đau lưng ở người lái xe, máy)', 'https://www.hse.gov.uk/vibration/wbv/'),
+    ('GOV.UK – The Highway Code: Rules for drivers and motorcyclists 89 to 102 (Quy tắc 91: nghỉ ít nhất 15 phút sau mỗi 2 giờ lái xe)', 'https://www.gov.uk/guidance/the-highway-code/rules-for-drivers-and-motorcyclists-89-to-102'),
+    ('CDC – Understanding Your Risk for Blood Clots with Travel (Nguy cơ cục máu đông khi đi đường dài trên 4 giờ)', 'https://cdc.gov/blood-clots/risk-factors/travel.html'),
+]
+SRC['gung'] = [
+    ('NCCIH (NIH) – Ginger: Usefulness and Safety (Gừng: hiệu quả và an toàn, cập nhật 2025)', 'https://www.nccih.nih.gov/health/ginger'),
+    ('Daily JW, Zhang X, Kim DS, Park S (2015) – Efficacy of Ginger for Alleviating the Symptoms of Primary Dysmenorrhea: A Systematic Review and Meta-analysis (Gừng và đau bụng kinh nguyên phát: tổng quan hệ thống), Pain Medicine', 'https://academic.oup.com/painmedicine/article/16/12/2243/2460294'),
+    ('American Family Physician (2004) – ACOG Practice Bulletin on Nausea and Vomiting of Pregnancy (Tóm tắt hướng dẫn ACOG về buồn nôn, nôn khi mang thai)', 'https://www.aafp.org/pubs/afp/issues/2004/0801/p601.html'),
+    ('Ghasemzadeh A và cs. (2018) – Formation of 6-, 8- and 10-Shogaol in Ginger through Application of Different Drying Methods (Sự hình thành shogaol khi làm khô gừng), Molecules', 'https://mdpi.com/1420-3049/23/7/1646'),
+]
+SRC['uxo'] = [
+    ('NICHD (NIH) – Uterine Fibroids (U xơ tử cung: triệu chứng, chẩn đoán, các hướng xử lý)', 'https://www.nichd.nih.gov/health/topics/factsheets/uterine'),
+    ("Office on Women's Health (HHS) – Uterine fibroids (U xơ tử cung – Văn phòng Sức khỏe Phụ nữ Hoa Kỳ)", 'https://www.womenshealth.gov/a-z-topics/uterine-fibroids'),
+    ('Baird DD, Dunson DB, Hill MC và cs. (2003) – High cumulative incidence of uterine leiomyoma in black and white women: ultrasound evidence (Tỷ lệ tích lũy u xơ tử cung đến 50 tuổi), American Journal of Obstetrics and Gynecology', 'https://scholars.duke.edu/publication/769704'),
+]
+SRC['mamxoi'] = [
+    ('Bowman R, Taylor J, Muggleton S, Davis D (2021) – Biophysical effects, safety and efficacy of raspberry leaf use in pregnancy: a systematic integrative review (Lá mâm xôi trong thai kỳ: tổng quan hệ thống), BMC Complementary Medicine and Therapies', 'https://doaj.org/article/a2ad0020b5f84fb681084e5a82fa7f31'),
+    ('He B và cs. (2023) – Bioactive components, pharmacological effects, and drug development of traditional herbal medicine Rubus chingii Hu (Fu-Pen-Zi) (Phúc bồn tử – Rubus chingii), Frontiers in Nutrition', 'https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2022.1052504/pdf'),
+    ('Yu G và cs. (2019) – Rubus chingii Hu: A Review of the Phytochemistry and Pharmacology (Tổng quan hóa thực vật và dược lý Rubus chingii), Frontiers in Pharmacology', 'https://www.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2019.00799/full'),
+]
+SRC['thuocngu'] = [
+    ('FDA (2020) – FDA requiring Boxed Warning updated to improve safe use of benzodiazepine drug class (Cảnh báo đóng khung với nhóm benzodiazepine: lạm dụng, lệ thuộc, hội chứng cai), Cục Quản lý Thực phẩm và Dược phẩm Hoa Kỳ', 'https://www.fda.gov/drugs/drug-safety-and-availability/fda-requiring-boxed-warning-updated-improve-safe-use-benzodiazepine-drug-class'),
+    ('FDA (2019) – Certain Prescription Insomnia Medicines: New Boxed Warning due to risk of serious injuries caused by sleepwalking, sleep driving (Cảnh báo đóng khung với eszopiclone, zaleplon, zolpidem: hành vi phức tạp khi ngủ)', 'https://www.fda.gov/safety/medical-product-safety-information/certain-prescription-insomnia-medicines-new-boxed-warning-due-risk-serious-injuries-caused'),
+    ('American Geriatrics Society (2023) – 2023 Updated AGS Beers Criteria® for potentially inappropriate medication use in older adults (Danh sách thuốc nên tránh ở người cao tuổi), Journal of the American Geriatrics Society', 'https://pmc.ncbi.nlm.nih.gov/articles/PMC12478568/'),
+    ('ACP Internist Weekly (2025) – New guidance recommends tapering benzodiazepine use for most older adults (Hướng dẫn chung của ASAM và 9 hội chuyên môn về giảm liều benzodiazepine, Journal of General Internal Medicine)', 'https://immattersacp.org/weekly/archives/2025/06/24/2.htm'),
+]
+SRC['thucgiacdem'] = [
+    ('Ohayon M.M. (2008) – Nocturnal awakenings and comorbid disorders in the American general population (Thức giấc giữa đêm và bệnh lý đi kèm ở 8.937 người trưởng thành Mỹ), Journal of Psychiatric Research', 'https://read.qxmd.com/read/18374943/nocturnal-awakenings-and-comorbid-disorders-in-the-american-general-population'),
+    ('NINDS (NIH) – Brain Basics: Understanding Sleep (Các giai đoạn và chu kỳ giấc ngủ), Viện Quốc gia về Rối loạn Thần kinh và Đột quỵ Hoa Kỳ', 'https://www.ninds.nih.gov/health-information/public-education/brain-basics/brain-basics-understanding-sleep'),
+    ('Ebrahim I.O., Shapiro C.M. và cộng sự (2013) – Alcohol and sleep I: effects on normal sleep (Rượu làm xáo trộn giấc ngủ nửa sau đêm; bản tin ScienceDaily), Alcoholism: Clinical and Experimental Research', 'https://www.sciencedaily.com/releases/2013/01/130122162236.htm'),
+    ('NHLBI (NIH) – Sleep Apnea: Symptoms (Triệu chứng ngưng thở khi ngủ), Viện Tim, Phổi và Máu Hoa Kỳ', 'https://www.nhlbi.nih.gov/health/sleep-apnea/symptoms'),
+]
+SRC['nhipsinhhoc'] = [
+    ('NIGMS (NIH) – Circadian Rhythms fact sheet (Nhịp sinh học: đồng hồ gốc SCN, ánh sáng, melatonin), Viện Quốc gia về Khoa học Y sinh Tổng quát Hoa Kỳ', 'https://www.nigms.nih.gov/education/fact-sheets/Pages/circadian-rhythms'),
+    ('NIH (2017) – NIH-funded scientists Hall, Rosbash và Young nhận giải Nobel Sinh lý học hoặc Y học 2017 về cơ chế phân tử của nhịp sinh học', 'https://www.nih.gov/node/35226'),
+    ('Stothard E.R., McHill A.W., Wright K.P. và cộng sự (2017) – Circadian entrainment to the natural light-dark cycle across seasons and the weekend (Cắm trại với ánh sáng tự nhiên kéo đồng hồ sinh học sớm lên; bản tin EurekAlert), Current Biology', 'https://www.eurekalert.org/news-releases/696974'),
+    ('Roenneberg T., Allebrandt K.V., Merrow M., Vetter C. (2012) – Social jetlag and obesity (Lệch múi giờ xã hội và thừa cân; bản tin ScienceDaily), Current Biology', 'https://www.sciencedaily.com/releases/2012/05/120510122802.htm'),
+]
+
 RULES = [
+    ('masldgay', ['lean masld', 'lean nafld', 'người gầy'], 8),
+    ('congot', ['steviol', 'stevia', 'rebaudioside'], 10),
+    ('chinvi', ['ziziphus', 'jujuba', 'đại táo'], 5),
+    ('duongtudo', ['đường tự do', 'đường tổng số'], 15),
+    ('trahoa', ['atiso đỏ', 'đậu biếc', 'kim ngân'], 15),
+    ('chanhniem', ['chánh niệm', 'mbsr'], 8),
+    ('loaulantoa', ['lo âu lan tỏa', 'gad-7'], 8),
+    ('foshu', ['foshu', 'bansoureicha'], 10),
+    ('tientieuduong', ['tiền tiểu đường', 'prediabetes'], 15),
+    ('thoatvi', ['thoát vị', 'đĩa đệm', 'thần kinh tọa'], 30),
+    ('bakich', ['ba kích', 'morinda'], 25),
+    ('ngoixe', ['lái xe', 'tài xế', 'rung toàn thân', 'chặng', 'ghế lái'], 20),
+    ('gung', ['gừng', 'gingerol', 'shogaol', 'zingiber'], 40),
+    ('uxo', ['u xơ', 'leiomyoma', 'nhân xơ'], 20),
+    ('mamxoi', ['mâm xôi', 'rubus', 'phúc bồn tử', 'raspberry'], 25),
+    ('thuocngu', ['benzodiazepine', 'z-drugs', 'beers'], 10),
+    ('thucgiacdem', ['thức giấc giữa đêm', 'tỉnh giữa đêm', 'tâm thần bất an', 'ngưng thở khi ngủ'], 12),
+    ('nhipsinhhoc', ['nhịp sinh học', 'đồng hồ sinh học', 'nhân trên chéo', 'lệch múi giờ xã hội'], 15),
     ('anxoa', ['an xoa', 'helicteres'], 15),
     ('giaocolam', ['giảo cổ lam', 'gynostemma', 'gypenoside'], 20),
     ('phandogan', ['fib-4', 'fibroscan', 'hồi âm', 'xơ hóa'], 25),

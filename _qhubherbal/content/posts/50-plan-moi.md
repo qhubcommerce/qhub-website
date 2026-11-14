@@ -347,3 +347,141 @@ products: duong-nhan,ngay-dau-ve
 Hai dòng trà dành cho phái nữ của QHUB HERBAL có thành phần và hương vị khác nhau. Bài viết giúp bạn chọn loại phù hợp.
 
 [[buy:duong-nhan]]
+
++++
+slug: 9-vi-trong-tra-duong-nhan
+title: 9 vị trong Trà Dưỡng Nhan: vai trò Quân – Thần – Tá – Sứ
+seo_title: 9 vị trong Trà Dưỡng Nhan: Quân – Thần – Tá – Sứ
+desc: Trà Dưỡng Nhan gồm 9 vị: hoa hồng, kỷ tử, táo đỏ, đông trùng hạ thảo, hoa nhài, tía tô, lá sen, hoa cúc, cỏ ngọt. Vai trò từng vị theo Quân – Thần – Tá – Sứ.
+cat: san-pham
+date: 2026-11-15
+products: duong-nhan
++++
+Trà Dưỡng Nhan phối 9 vị theo nguyên tắc Quân – Thần – Tá – Sứ. Bài viết giới thiệu từng vị, hương vị và lưu ý khi dùng.
+
+[[buy:duong-nhan]]
+
++++
+slug: duong-tu-do-la-gi
+title: Đường tự do là gì? Khuyến nghị của WHO và cách đọc nhãn
+seo_title: Đường tự do là gì? Khuyến nghị WHO, cách đọc nhãn
+desc: Đường tự do là gì, khác đường tự nhiên trong trái cây thế nào? Khuyến nghị dưới 10% năng lượng của WHO, cách đọc nhãn và lượng đường trong đồ uống quen thuộc.
+cat: cam-nang
+date: 2026-11-15
+products: duong-nhan
++++
+Đường tự do là đường được thêm vào thực phẩm và đường có sẵn trong mật ong, nước ép. Bài viết giải thích khuyến nghị của WHO và cách đọc nhãn.
+
+[[buy:duong-nhan]]
+
++++
+slug: top-7-loai-tra-hoa-pho-bien-o-viet
+title: Top 7 loại trà hoa phổ biến ở Việt Nam và cách chọn
+seo_title: Top 7 loại trà hoa phổ biến ở Việt Nam
+desc: Top 7 loại trà hoa phổ biến ở Việt Nam: hoa cúc, hoa hồng, hoa nhài, atiso đỏ, hoa đậu biếc, hoa sen, kim ngân. Hương vị, caffeine, lưu ý và cách chọn.
+cat: top
+date: 2026-11-15
+products: duong-nhan
++++
+Bảy loại trà hoa quen thuộc với người Việt, khác nhau về hương vị, caffeine và lưu ý khi dùng. Bài viết giúp bạn chọn theo tiêu chí khách quan.
+
+[[buy:duong-nhan]]
+
++++
+slug: thoat-vi-dia-dem-dau-hieu-som-va-thoi
+title: Thoát vị đĩa đệm: dấu hiệu sớm và thói quen phòng ngừa
+seo_title: Thoát vị đĩa đệm: dấu hiệu sớm, cách phòng ngừa
+desc: Thoát vị đĩa đệm là gì, dấu hiệu sớm ở thắt lưng và cổ, dấu hiệu cờ đỏ cần đi khám ngay, cùng những thói quen ngồi, cúi, nâng vật giúp bảo vệ cột sống.
+cat: cam-nang
+date: 2026-11-15
+products: nam-vuong
++++
+Thoát vị đĩa đệm thường bắt đầu bằng đau lưng lan xuống chân. Bài viết giúp nhận biết sớm và xây dựng thói quen bảo vệ cột sống.
+
+[[buy:nam-vuong]]
+
++++
+slug: ngoi-xe-duong-dai-bao-ve-cot-song-the
+title: Ngồi xe đường dài bảo vệ cột sống thế nào
+desc: Ngồi xe đường dài bảo vệ cột sống thế nào? Cách chỉnh ghế, tựa lưng, nghỉ giữa chặng, bài giãn cơ 5 phút cho tài xế và hành khách, khi nào đau lưng cần đi khám.
+cat: cam-nang
+date: 2026-11-15
+products: nam-vuong
++++
+Ngồi xe nhiều giờ khiến lưng, cổ chịu áp lực. Bài viết hướng dẫn tư thế ngồi, nghỉ giữa chặng và bài giãn cơ đơn giản.
+
+[[buy:nam-vuong]]
+
++++
+slug: thuoc-ngu-rui-ro-khi-tu-y-su-dung
+title: Thuốc ngủ: rủi ro khi tự ý sử dụng lâu dài
+desc: Thuốc ngủ có những loại nào, vì sao tự ý dùng lâu dài gây lệ thuộc, té ngã, giảm trí nhớ? Cảnh báo của FDA, cách giảm liều an toàn cùng bác sĩ và CBT-I.
+cat: cam-nang
+date: 2026-11-15
+products: xau-ho-tim-tam-sen
++++
+Thuốc ngủ chỉ nên dùng theo chỉ định của bác sĩ. Bài viết giải thích rủi ro khi tự ý dùng lâu dài và hướng xử lý mất ngủ an toàn.
+
+[[buy:xau-ho-tim-tam-sen]]
+
++++
+slug: nhip-sinh-hoc-la-gi-va-cach-dat-lai
+title: Nhịp sinh học là gì và cách đặt lại đồng hồ sinh học
+seo_title: Nhịp sinh học là gì? Cách đặt lại đồng hồ sinh học
+desc: Nhịp sinh học là gì, đồng hồ sinh học trong não vận hành ra sao, vì sao thức khuya làm lệch nhịp và kế hoạch 2 tuần đặt lại giờ ngủ bằng ánh sáng, giờ ăn.
+cat: cam-nang
+date: 2026-11-15
+products: xau-ho-tim-tam-sen
++++
+Nhịp sinh học là chu kỳ khoảng 24 giờ điều phối giờ ngủ, giờ thức. Bài viết hướng dẫn cách đặt lại đồng hồ sinh học khi bị lệch.
+
+[[buy:xau-ho-tim-tam-sen]]
+
++++
+slug: u-xo-tu-cung-nhung-dieu-phu-nu-can
+title: U xơ tử cung: những điều phụ nữ cần biết
+desc: U xơ tử cung là gì, phổ biến thế nào, dấu hiệu như ra kinh nhiều, đau vùng chậu; cách chẩn đoán, theo dõi và các hướng xử lý theo bác sĩ; khi nào cần đi khám.
+cat: cam-nang
+date: 2026-11-15
+products: ngay-dau-ve
++++
+U xơ tử cung là khối u lành tính rất phổ biến ở phụ nữ. Bài viết giải thích dấu hiệu, chẩn đoán và khi nào cần đi khám.
+
+[[buy:ngay-dau-ve]]
+
++++
+slug: tien-tieu-duong-dau-hieu-va-cach-dao-nguoc
+title: Tiền tiểu đường: dấu hiệu và cách đảo ngược bằng lối sống
+seo_title: Tiền tiểu đường: dấu hiệu và cách đảo ngược
+desc: Tiền tiểu đường là gì, chỉ số đường huyết đói và HbA1c bao nhiêu thì cần lưu ý, ai nên xét nghiệm, và thay đổi lối sống theo chương trình DPP giảm 58% nguy cơ.
+cat: cam-nang
+date: 2026-11-15
+products: la-oi-mix-la-sen
++++
+Tiền tiểu đường thường không có triệu chứng rõ. Bài viết giải thích chỉ số, đối tượng nên xét nghiệm và cách thay đổi lối sống.
+
+[[buy:la-oi-mix-la-sen]]
+
++++
+slug: lo-au-lan-toa-khi-nao-lo-lang-tro
+title: Lo âu lan tỏa: khi nào lo lắng trở thành vấn đề
+desc: Rối loạn lo âu lan tỏa (GAD) là gì, khác lo lắng thông thường ở đâu, dấu hiệu kéo dài 6 tháng, bảng tự đánh giá GAD-7 và khi nào cần gặp chuyên gia tâm lý.
+cat: cam-nang
+date: 2026-11-15
+products: duong-tam-an
++++
+Ai cũng có lúc lo lắng, nhưng lo âu lan tỏa kéo dài và khó kiểm soát. Bài viết giúp nhận biết và tìm hỗ trợ phù hợp.
+
+[[buy:duong-tam-an]]
+
++++
+slug: nguoi-gay-co-bi-gan-nhiem-mo-khong
+title: Người gầy có bị gan nhiễm mỡ không?
+desc: Người gầy vẫn có thể bị gan nhiễm mỡ (lean MASLD). Bài viết giải thích vì sao, ai dễ gặp, xét nghiệm nào cần làm và thay đổi lối sống khi cân nặng vẫn bình thường.
+cat: cau-chuyen
+date: 2026-11-15
+products: ca-gai-diep-ha-chau
++++
+Gan nhiễm mỡ không chỉ gặp ở người thừa cân. Câu chuyện và kiến thức giúp người gầy hiểu nguy cơ và chủ động đi khám.
+
+[[buy:ca-gai-diep-ha-chau]]

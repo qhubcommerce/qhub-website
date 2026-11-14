@@ -1,0 +1,348 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<!-- GA4 QHUB Commerce -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-NYQMD1XPP6"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-NYQMD1XPP6');
+document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('a,button');if(!a)return;var h=a.getAttribute('href')||'';
+if(/zalo\.me/.test(h))gtag('event','click_zalo',{link_url:h});else if(/^tel:/.test(h))gtag('event','click_call',{link_url:h});
+else if(/^mailto:/.test(h))gtag('event','click_email',{link_url:h});else if(/qhubherbal\.com/.test(h))gtag('event','click_qhubherbal',{link_url:h});},true);</script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Thuật toán Threads hoạt động thế nào | QHUB Commerce</title>
+<meta name="description" content="Thuật toán Threads xếp bài thế nào: 3 bước Meta công bố, bảng tín hiệu xếp hạng, các thay đổi 2024–2026 và việc thương hiệu nên làm để được đề xuất.">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<link rel="canonical" href="https://qhub.com.vn/kien-thuc/thuat-toan-threads-hoat-dong/">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="QHUB Commerce">
+<meta property="og:locale" content="vi_VN">
+<meta property="og:title" content="Thuật toán Threads hoạt động thế nào | QHUB Commerce">
+<meta property="og:description" content="Thuật toán Threads xếp bài thế nào: 3 bước Meta công bố, bảng tín hiệu xếp hạng, các thay đổi 2024–2026 và việc thương hiệu nên làm để được đề xuất.">
+<meta property="og:url" content="https://qhub.com.vn/kien-thuc/thuat-toan-threads-hoat-dong/">
+<meta property="og:image" content="https://qhub.com.vn/og-qhub.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#0B1220">
+<link rel="icon" href="/favicon.ico" sizes="48x48">
+<link rel="icon" href="/favicon-96x96.png" type="image/png" sizes="96x96">
+<link rel="icon" href="/favicon-192x192.png" type="image/png" sizes="192x192">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="alternate" type="application/rss+xml" title="Kiến thức QHUB Commerce" href="/feed.xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/styles.css?v=20261113f">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BlogPosting", "headline": "Thuật toán Threads hoạt động thế nào", "description": "Thuật toán Threads xếp bài thế nào: 3 bước Meta công bố, bảng tín hiệu xếp hạng, các thay đổi 2024–2026 và việc thương hiệu nên làm để được đề xuất.", "inLanguage": "vi", "mainEntityOfPage": "https://qhub.com.vn/kien-thuc/thuat-toan-threads-hoat-dong/", "url": "https://qhub.com.vn/kien-thuc/thuat-toan-threads-hoat-dong/", "image": "https://qhub.com.vn/og-qhub.png", "datePublished": "2026-11-15", "dateModified": "2026-11-15", "author": {"@type": "Person", "@id": "https://qhub.com.vn/tac-gia/nguyen-van-quang/#person", "name": "Nguyễn Văn Quang", "url": "https://qhub.com.vn/tac-gia/nguyen-van-quang/", "jobTitle": "Founder & CEO", "image": "https://qhub.com.vn/quang-avatar.jpg", "worksFor": {"@id": "https://qhub.com.vn/#organization"}}, "publisher": {"@type": "Organization", "@id": "https://qhub.com.vn/#organization", "name": "CÔNG TY TNHH QHUB COMMERCE", "alternateName": "QHUB Commerce", "url": "https://qhub.com.vn/", "logo": {"@type": "ImageObject", "url": "https://qhub.com.vn/logo-qhub.png", "width": 512, "height": 512}}, "articleSection": "Phát triển Threads", "keywords": "thuật toán threads, threads xếp hạng bài viết, bảng tin dành cho bạn threads, dear algo threads, tăng tiếp cận threads", "wordCount": 2794}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Trang chủ", "item": "https://qhub.com.vn/"}, {"@type": "ListItem", "position": 2, "name": "Kiến thức", "item": "https://qhub.com.vn/kien-thuc/"}, {"@type": "ListItem", "position": 3, "name": "Phát triển Threads", "item": "https://qhub.com.vn/kien-thuc/chu-de/threads/"}, {"@type": "ListItem", "position": 4, "name": "Thuật toán Threads hoạt động thế nào", "item": "https://qhub.com.vn/kien-thuc/thuat-toan-threads-hoat-dong/"}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Thuật toán Threads ưu tiên điều gì nhất?", "acceptedAnswer": {"@type": "Answer", "text": "Meta không xếp thứ tự ưu tiên công khai. Theo trang giải thích xếp hạng của Meta, hệ thống dự đoán bài nào có giá trị nhất với từng người, dựa trên khả năng họ thích, mở xem trả lời, bấm vào trang cá nhân, theo dõi tác giả hoặc lướt qua. Trên thực tế, bài khơi được trò chuyện thật thường đi xa hơn."}}, {"@type": "Question", "name": "Bài Threads có link có bị giảm tiếp cận không?", "acceptedAnswer": {"@type": "Answer", "text": "Meta chưa từng nói có “phạt” link. Tháng 6/2025, Adam Mosseri (người đứng đầu Instagram) cho biết đội Threads đã làm việc để link được xếp hạng đúng và link hoạt động tốt hơn từ hơn một tháng trước đó. Dù vậy, người dùng Threads ít bấm link, nên bài có link vẫn cần nội dung đủ hay ngay trong bài."}}, {"@type": "Question", "name": "Dear Algo và Your Algo là gì, đã dùng được ở Việt Nam chưa?", "acceptedAnswer": {"@type": "Answer", "text": "Dear Algo (ra mắt 11/02/2026) cho người dùng đăng công khai một bài bắt đầu bằng “Dear Algo” để yêu cầu xem nhiều hoặc ít một chủ đề trong 3 ngày. Your Algo (16/06/2026) làm việc tương tự nhưng riêng tư, chọn 1, 3 hoặc 7 ngày. Khi công bố, cả hai chỉ có ở một số nước như Mỹ, Anh, Úc, New Zealand (Your Algo thêm Canada), chưa có Việt Nam; anh chị kiểm tra lại trong ứng dụng."}}, {"@type": "Question", "name": "Thẻ chủ đề có giúp bài Threads được đề xuất nhiều hơn không?", "acceptedAnswer": {"@type": "Answer", "text": "Meta cho biết dữ liệu nội bộ của họ cho thấy bài có gắn chủ đề nhận được nhiều lượt xem hơn, nhưng không công bố mức chênh lệch. Mỗi bài chỉ gắn được một thẻ chủ đề, nên hãy chọn thẻ sát với nội dung và với nhóm khách mình muốn tiếp cận."}}, {"@type": "Question", "name": "Đăng nhiều bài mỗi ngày có làm tài khoản Threads bị giảm tiếp cận không?", "acceptedAnswer": {"@type": "Answer", "text": "Meta không công bố giới hạn số bài hay hình phạt cho việc đăng nhiều. Kinh nghiệm của đội QHUB là 1–2 bài chất lượng mỗi ngày kèm thời gian trả lời bình luận hiệu quả hơn đăng dày mà bỏ mặc phần trò chuyện."}}]}</script>
+<meta property="article:published_time" content="2026-11-15">
+<meta property="article:modified_time" content="2026-11-15">
+<meta property="article:section" content="Phát triển Threads">
+</head>
+<body class="kt-body">
+<a class="skip" href="#main">Bỏ qua tới nội dung</a>
+<header class="site-header" id="top">
+  <div class="wrap">
+    <a class="brand" href="/" aria-label="QHUB Commerce — trang chủ">
+      <img src="/logo-qhub-white.png" alt="" width="45" height="48">
+      <span>QHUB<small>COMMERCE</small></span>
+    </a>
+    <nav class="nav" id="nav" aria-label="Điều hướng chính">
+      <a href="/gioi-thieu/">Giới thiệu</a>
+      <a href="/dich-vu/">Dịch vụ</a>
+      <a href="/kien-thuc/">Kiến thức</a>
+      <a href="/#doi-ngu">Đội ngũ</a>
+      <a href="/qhub-herbal.html">QHUB HERBAL</a>
+      <a class="nav-cta" href="/#dat-lich">Đặt lịch chẩn đoán</a>
+    </nav>
+    <a class="btn btn-primary btn-sm" href="/#dat-lich">Đặt lịch chẩn đoán</a>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="nav" aria-label="Mở menu">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+  </div>
+</header>
+<main id="main" class="kt-main">
+<div class="wrap kt-narrow">
+<nav class="kt-crumb" aria-label="Đường dẫn"><a href="/">Trang chủ</a><span aria-hidden="true">/</span><a href="/kien-thuc/">Kiến thức</a><span aria-hidden="true">/</span><a href="/kien-thuc/chu-de/threads/">Phát triển Threads</a><span aria-hidden="true">/</span><span aria-current="page">Thuật toán Threads hoạt động thế nào</span></nav>
+<article class="kt-article">
+<header class="kt-head">
+  <a class="kt-tag" href="/kien-thuc/chu-de/threads/">Phát triển Threads</a>
+  <h1>Thuật toán Threads hoạt động thế nào</h1>
+  <p class="kt-lead">Thuật toán Threads xếp bài thế nào: 3 bước Meta công bố, bảng tín hiệu xếp hạng, các thay đổi 2024–2026 và việc thương hiệu nên làm để được đề xuất.</p>
+  <p class="kt-meta">Bởi <a href="/tac-gia/nguyen-van-quang/">Nguyễn Văn Quang</a> · Đăng 15/11/2026 · 13 phút đọc</p>
+</header>
+<div class="kt-sum"><h2>Tóm tắt nhanh</h2><ul><li>Theo Meta, bảng tin Dành cho bạn của Threads do một hệ thống AI gồm nhiều mô hình học máy xếp hạng; bảng tin Đang theo dõi thì xếp theo thời gian đăng.</li><li>Hệ thống dự đoán khả năng người xem thích bài, mở xem trả lời, bấm vào trang cá nhân, theo dõi tác giả hay lướt qua, rồi bài nào được dự đoán có giá trị hơn sẽ đứng cao hơn.</li><li>Meta không công bố trọng số của từng tín hiệu. Mọi con số kiểu “trả lời tăng x% tiếp cận” trên mạng đều là quan sát của bên thứ ba, không phải số liệu chính thức.</li><li>Từ 2024 đến 2026, Threads ưu tiên lại bài của tài khoản đang theo dõi, xếp hạng link đúng hơn, thêm thẻ chủ đề, cộng đồng và cho người dùng tự chỉnh bảng tin bằng Dear Algo, Your Algo.</li></ul></div>
+<nav class="kt-toc" aria-label="Mục lục"><h2>Trong bài này</h2><ol><li><a href="#thuat-toan-threads-la-gi-hai-bang-tin-hai-cach-xep">Thuật toán Threads là gì? Hai bảng tin, hai cách xếp</a></li><li><a href="#thuat-toan-threads-xep-bai-qua-nhung-buoc-nao">Thuật toán Threads xếp bài qua những bước nào?</a></li><li><a href="#bang-tin-hieu-xep-hang-va-viec-thuong-hieu-nen-lam">Bảng tín hiệu xếp hạng và việc thương hiệu nên làm</a></li><li><a href="#thuat-toan-threads-a-thay-oi-the-nao-tu-2023-en-2026">Thuật toán Threads đã thay đổi thế nào từ 2023 đến 2026?</a></li><li><a href="#nhung-ieu-meta-chua-bao-gio-noi-ve-thuat-toan-threads">Những điều Meta chưa bao giờ nói về thuật toán Threads</a></li><li><a href="#kinh-nghiem-thuc-te-tu-oi-van-hanh">Kinh nghiệm thực tế từ đội vận hành</a></li><li><a href="#loi-hay-gap-khi-co-chieu-thuat-toan-threads">Lỗi hay gặp khi cố "chiều" thuật toán Threads</a></li><li><a href="#oc-so-lieu-e-biet-thuat-toan-co-ang-ay-bai-cua-minh-khong">Đọc số liệu để biết thuật toán có đang đẩy bài của mình không</a></li><li><a href="#viec-can-lam-ngay-tuan-nay">Việc cần làm ngay tuần này</a></li></ol></nav>
+<div class="kt-body-text">
+<p><strong>Thuật toán Threads là một hệ thống AI của Meta, gồm nhiều mô hình học máy chạy cùng nhau, dự đoán mỗi bài viết có giá trị với từng người xem đến đâu rồi xếp bài đó lên cao hay xuống thấp trong bảng tin Dành cho bạn.</strong> Hệ thống dựa vào những việc người xem có khả năng làm với bài: thích, mở xem trả lời, bấm vào trang cá nhân, theo dõi tác giả, hay lướt qua luôn. Meta có công bố cách hệ thống vận hành, nhưng không công bố trọng số của từng tín hiệu.</p>
+<p>Trên mạng có rất nhiều "công thức thuật toán Threads" kèm con số phần trăm, phần lớn là quan sát của bên thứ ba chứ không phải số liệu từ Meta. Bài này đội QHUB tách rõ hai phần: <strong>điều Meta chính thức nói</strong> (có nguồn, có mốc thời gian) và <strong>điều là kinh nghiệm vận hành</strong>. Thông tin được tổng hợp đến ngày 15/11/2026.</p>
+<p>Nếu anh chị mới bắt đầu, nên đọc trước bài <a href="/kien-thuc/threads-la-gi-va-doanh-nghiep-co-nen-dung-nam-2026/">Threads là gì và doanh nghiệp có nên dùng năm 2026</a> để nắm nền tảng.</p>
+<h2 id="thuat-toan-threads-la-gi-hai-bang-tin-hai-cach-xep">Thuật toán Threads là gì? Hai bảng tin, hai cách xếp</h2>
+<p>Khi mở Threads, người dùng có hai bảng tin chính, và mỗi bảng xếp bài theo một cách khác nhau:</p>
+<ul>
+<li><strong>Dành cho bạn (For You):</strong> bảng tin mặc định, do hệ thống AI của Meta chọn và xếp hạng. Ở đây có cả bài của tài khoản mình đang theo dõi lẫn bài được đề xuất từ tài khoản lạ. Khi người ta nói "thuật toán Threads", gần như là đang nói về bảng tin này.</li>
+<li><strong>Đang theo dõi (Following):</strong> chỉ hiện bài của những tài khoản mình theo dõi, xếp theo thời gian đăng, bài mới nhất ở trên.</li>
+</ul>
+<p>Ngoài ra, Threads có bảng tin tùy chỉnh (custom feed) theo chủ đề hoặc nhóm tài khoản. Từ năm 2025, người dùng có thể chọn bảng tin nào hiện ra mặc định khi mở ứng dụng.</p>
+<p>Ý nghĩa với thương hiệu: người đã theo dõi anh chị vẫn có thể thấy bài qua bảng Đang theo dõi, nhưng phần lớn <strong>tiếp cận mới</strong> (người chưa biết thương hiệu) đến từ bảng Dành cho bạn. Muốn được đề xuất tới người lạ thì phải hiểu cách bảng tin này chọn bài.</p>
+<h2 id="thuat-toan-threads-xep-bai-qua-nhung-buoc-nao">Thuật toán Threads xếp bài qua những bước nào?</h2>
+<p>Meta có một trang riêng giải thích hệ thống AI xếp hạng bảng tin Threads trên Trung tâm minh bạch (Transparency Center). Tóm lại bằng lời của mình, quy trình có ba bước.</p>
+<h3 id="buoc-1-gom-kho-bai-co-the-hien-thi">Bước 1: gom "kho" bài có thể hiển thị</h3>
+<p>Hệ thống nhìn vào toàn bộ bài có thể đưa vào bảng tin của một người: bài từ tài khoản họ theo dõi và bài từ tài khoản họ chưa theo dõi. Chỉ những bài chữ, ảnh, video đáp ứng quy định về chất lượng và tính toàn vẹn của Meta mới được đưa vào xếp hạng. Bài vi phạm tiêu chuẩn cộng đồng hoặc không đủ điều kiện đề xuất sẽ bị loại hoặc bị hạn chế ngay từ bước này.</p>
+<p>Lưu ý: đăng bài không có nghĩa toàn bộ người theo dõi sẽ thấy ngay.</p>
+<h3 id="buoc-2-du-oan-hanh-ong-cua-nguoi-xem">Bước 2: dự đoán hành động của người xem</h3>
+<p>Với từng bài, hệ thống dự đoán xác suất người xem sẽ:</p>
+<ul>
+<li>thích bài;</li>
+<li>bấm mở để xem các trả lời;</li>
+<li>bấm vào trang cá nhân của tác giả;</li>
+<li>theo dõi tác giả;</li>
+<li>lướt qua bài (tín hiệu không tích cực).</li>
+</ul>
+<p>Để dự đoán, hệ thống dùng nhiều tín hiệu đầu vào, ví dụ lịch sử tương tác của người xem với tác giả và với các chủ đề tương tự, việc họ gần đây có bấm vào trang cá nhân của tác giả không, có xem trang Instagram của tác giả không.</p>
+<h3 id="buoc-3-xep-hang-theo-gia-tri-du-oan">Bước 3: xếp hạng theo giá trị dự đoán</h3>
+<p>Các dự đoán được gộp lại thành một điểm. Theo cách Meta diễn đạt, bài mà hệ thống dự đoán mang lại nhiều giá trị hơn cho người xem sẽ đứng cao hơn trong bảng tin. Meta không công bố công thức gộp, cũng không nói hành động nào nặng ký hơn hành động nào.</p>
+<p>Người xem cũng tác động trực tiếp lên kết quả: bỏ theo dõi, tắt tiếng, ẩn bài, báo cáo bài, dùng bộ lọc từ ẩn (Hidden Words). Mỗi thao tác này là một tín hiệu cho hệ thống biết họ không muốn xem gì.</p>
+<h2 id="bang-tin-hieu-xep-hang-va-viec-thuong-hieu-nen-lam">Bảng tín hiệu xếp hạng và việc thương hiệu nên làm</h2>
+<p>Bảng dưới gom các tín hiệu đã được Meta hoặc lãnh đạo Threads nói công khai, kèm việc nên làm tương ứng. Cột "việc nên làm" là kinh nghiệm của đội QHUB, không phải hướng dẫn chính thức.</p>
+<div class="kt-table"><table>
+<thead>
+<tr>
+<th>Tín hiệu</th>
+<th>Meta nói gì (nguồn, mốc)</th>
+<th>Việc thương hiệu nên làm</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Khả năng thích bài</td>
+<td>Một trong các dự đoán chính (Transparency Center)</td>
+<td>Mỗi bài một ý rõ, câu đầu chạm đúng nỗi lo của khách</td>
+</tr>
+<tr>
+<td>Khả năng mở xem trả lời</td>
+<td>Một trong các dự đoán chính (Transparency Center)</td>
+<td>Kết bài bằng câu hỏi dễ trả lời; trả lời bình luận nhanh để chuỗi trò chuyện dài ra</td>
+</tr>
+<tr>
+<td>Khả năng bấm vào trang cá nhân, theo dõi tác giả</td>
+<td>Một trong các dự đoán chính (Transparency Center)</td>
+<td>Ảnh đại diện, tiểu sử, bài ghim cho biết ngay thương hiệu làm gì, vì sao nên theo dõi</td>
+</tr>
+<tr>
+<td>Lướt qua bài</td>
+<td>Tín hiệu không tích cực (Transparency Center)</td>
+<td>Bỏ phần chào hỏi dài dòng, không mở bài bằng giá và hotline</td>
+</tr>
+<tr>
+<td>Bài từ tài khoản đang theo dõi</td>
+<td>Mosseri cân bằng lại xếp hạng để ưu tiên bài từ người mình theo dõi (21/11/2024)</td>
+<td>Xây tệp người theo dõi thật, đúng khách hàng mục tiêu</td>
+</tr>
+<tr>
+<td>Thẻ chủ đề</td>
+<td>Dữ liệu nội bộ Meta cho thấy bài có chủ đề được xem nhiều hơn, không công bố mức chênh (2025)</td>
+<td>Chọn 2–3 chủ đề cố định; mỗi bài gắn một thẻ sát nội dung</td>
+</tr>
+<tr>
+<td>Link trong bài</td>
+<td>Mosseri: đã làm để link được xếp hạng đúng, link chạy tốt hơn (06/2025)</td>
+<td>Gắn link khi thật sự hữu ích; bài vẫn phải tự đứng được khi không ai bấm</td>
+</tr>
+<tr>
+<td>Hoạt động trên Instagram</td>
+<td>Lãnh đạo Threads cho biết hoạt động Instagram nay đóng vai trò nhỏ hơn trong đề xuất (10/2025)</td>
+<td>Không trông chờ tệp Instagram; xây tương tác ngay trên Threads</td>
+</tr>
+<tr>
+<td>Lựa chọn chủ động của người xem</td>
+<td>Ẩn, tắt tiếng, báo cáo, Dear Algo, Your Algo</td>
+<td>Tránh nội dung gây khó chịu; nói đúng chủ đề người theo dõi chờ đợi</td>
+</tr>
+</tbody>
+</table></div>
+<p>Hai điều cần nhớ khi đọc bảng. Thứ nhất, Meta liệt kê <strong>loại</strong> tín hiệu chứ không cho biết <strong>mức độ</strong>. Thứ hai, thuật toán Threads được điều chỉnh liên tục, nên bảng này đúng với các công bố đến 15/11/2026.</p>
+<h2 id="thuat-toan-threads-a-thay-oi-the-nao-tu-2023-en-2026">Thuật toán Threads đã thay đổi thế nào từ 2023 đến 2026?</h2>
+<p>Các mốc dưới đây cho thấy Threads đang đi từ một bảng tin đầy bài lạ sang ưu tiên trò chuyện, chủ đề, cộng đồng và cho người dùng quyền chỉnh bảng tin.</p>
+<div class="kt-table"><table>
+<thead>
+<tr>
+<th>Thời điểm</th>
+<th>Thay đổi</th>
+<th>Ý nghĩa với thương hiệu</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>12/2023</td>
+<td>Ra mắt thẻ chủ đề (tag), mỗi bài chỉ một thẻ. Mosseri nói muốn thẻ xoay quanh cộng đồng hơn là "hack" tương tác</td>
+<td>Không nhồi thẻ; chọn đúng một chủ đề</td>
+</tr>
+<tr>
+<td>21/11/2024</td>
+<td>Cân bằng lại xếp hạng, ưu tiên bài từ tài khoản đang theo dõi. Mosseri cảnh báo tiếp cận tới người lạ có thể giảm, tiếp cận tới người theo dõi tăng</td>
+<td>Người theo dõi thật quan trọng hơn lượt xem nhất thời</td>
+</tr>
+<tr>
+<td>2025</td>
+<td>Gắn tối đa 10 chủ đề lên hồ sơ; thẻ chủ đề hiện rõ hơn trên bảng Dành cho bạn; chọn bảng tin tùy chỉnh làm mặc định</td>
+<td>Hồ sơ nên khai rõ các chủ đề thương hiệu theo đuổi</td>
+</tr>
+<tr>
+<td>15/05/2025</td>
+<td>Gắn tối đa 5 link ở tiểu sử; thống kê lượt bấm link; báo cáo tổng kết tuần</td>
+<td>Đo được Threads kéo bao nhiêu người về website, gian hàng</td>
+</tr>
+<tr>
+<td>06/2025</td>
+<td>Mosseri cho biết link được xếp hạng đúng hơn</td>
+<td>Có thể dùng link vừa phải, không cần né hoàn toàn</td>
+</tr>
+<tr>
+<td>22/07/2025</td>
+<td>Thống kê nơi bài được khám phá; bài đủ điều kiện có thể được đề xuất cho người dùng Instagram và Facebook</td>
+<td>Một bài Threads tốt có thể đi ra ngoài Threads</td>
+</tr>
+<tr>
+<td>30/10/2025</td>
+<td>Duyệt trả lời trước khi hiện công khai, lọc trả lời</td>
+<td>Kiểm soát được bình luận xấu, spam dưới bài</td>
+</tr>
+<tr>
+<td>10/2025</td>
+<td>Meta báo khoảng 150 triệu người dùng hằng ngày; hoạt động Instagram giảm vai trò trong đề xuất</td>
+<td>Tương tác ngay trên Threads quyết định nhiều hơn</td>
+</tr>
+<tr>
+<td>11/02/2026</td>
+<td>Dear Algo: đăng công khai để yêu cầu xem nhiều hoặc ít một chủ đề trong 3 ngày (Mỹ, Anh, Úc, New Zealand)</td>
+<td>Người xem chủ động chọn chủ đề; nội dung lạc đề càng khó được đề xuất</td>
+</tr>
+<tr>
+<td>16/06/2026</td>
+<td>500 triệu người dùng hằng tháng; Your Algo chỉnh bảng tin riêng tư 1, 3 hoặc 7 ngày; Cộng đồng ra khỏi giai đoạn thử nghiệm</td>
+<td>Tham gia đúng cộng đồng ngành là một đường tiếp cận mới</td>
+</tr>
+</tbody>
+</table></div>
+<p>Khi công bố, Dear Algo và Your Algo chưa có ở Việt Nam; anh chị kiểm tra lại trong ứng dụng.</p>
+<h2 id="nhung-ieu-meta-chua-bao-gio-noi-ve-thuat-toan-threads">Những điều Meta chưa bao giờ nói về thuật toán Threads</h2>
+<p>Nhiều lời khuyên trên mạng nghe hợp lý nhưng không có nguồn chính thức:</p>
+<ul>
+<li><strong>"Trả lời bình luận tăng x% tiếp cận."</strong> Meta không công bố con số nào như vậy. Điều Meta nói là hệ thống dự đoán khả năng người xem mở xem trả lời. Nghĩa là bài có trò chuyện sống động thì có lợi, nhưng mức lợi bao nhiêu thì không ai ngoài Meta biết.</li>
+<li><strong>"Có giờ vàng 30 phút đầu."</strong> Không có công bố chính thức về khung thời gian cố định. Việc bài mới thường được thử với một nhóm người trước là quan sát phổ biến, chưa phải tài liệu của Meta.</li>
+<li><strong>"Link bị phạt."</strong> Như đã nói, Mosseri cho biết đội Threads làm để link được xếp hạng đúng. Bài có link ít tương tác thường vì người đọc ngại rời ứng dụng, không hẳn vì bị phạt.</li>
+<li><strong>"Đăng quá 3 bài một ngày sẽ bị bóp."</strong> Không có giới hạn công khai nào như vậy.</li>
+</ul>
+<p>Gặp mẹo "thuật toán" nào, hãy hỏi: ai nói, nói lúc nào, có nguồn của Meta không. Không có thì xem đó là giả thuyết để thử.</p>
+<h2 id="kinh-nghiem-thuc-te-tu-oi-van-hanh">Kinh nghiệm thực tế từ đội vận hành</h2>
+<p>Phần này là quan sát của đội QHUB khi làm nội dung Threads cho thương hiệu, không phải công bố của Meta. Anh chị nên thử trên tài khoản của mình và đo lại.</p>
+<p><strong>Câu đầu quyết định có bị lướt qua hay không.</strong> Vì "lướt qua" là tín hiệu không tích cực, bài mở đầu bằng lời chào, giới thiệu công ty hay giá khuyến mãi thường chết rất sớm. Bài mở bằng một quan sát cụ thể, một câu hỏi chạm nỗi lo hoặc một con số từ chính công việc thường giữ người đọc tốt hơn. Cách viết chi tiết có trong bài <a href="/kien-thuc/cach-viet-bai-threads-duoc-nhieu-tuong-tac/">cách viết bài Threads được nhiều tương tác</a>.</p>
+<p><strong>Trò chuyện thật giữ bài sống lâu hơn.</strong> Bài có nhiều người trả lời qua lại, và tác giả tham gia trả lời, thường còn được đẩy sau nhiều giờ. Đội mình hay dành 15–20 phút sau khi đăng để trả lời từng bình luận bằng câu có nội dung, không trả lời rập khuôn.</p>
+<p><strong>Hồ sơ là nơi chuyển lượt xem thành người theo dõi.</strong> Hệ thống dự đoán cả khả năng bấm vào trang cá nhân và theo dõi. Khi người lạ bấm vào, họ cần thấy ngay: tài khoản này nói về gì, đăng đều không, có đáng theo dõi không.</p>
+<p><strong>Đều chủ đề quan trọng hơn bắt trend.</strong> Tài khoản nói chuyện xoay quanh 2–3 chủ đề rõ ràng thường được đề xuất đúng người hơn tài khoản hôm nay bàn bóng đá, mai bàn tài chính, mốt quay sang bán hàng. Điều này càng đúng khi người xem có thể chủ động chọn chủ đề bằng Dear Algo, Your Algo.</p>
+<p><strong>Tài khoản người thật thường được quan tâm hơn tài khoản thương hiệu.</strong> Chủ doanh nghiệp hay người làm nghề chia sẻ chân thật thường nhận nhiều trả lời hơn một trang thương hiệu nói giọng thông cáo.</p>
+<p><strong>Instagram vẫn có ích, nhưng không còn là "đòn bẩy" như trước.</strong> Lãnh đạo Threads đã nói hoạt động Instagram giảm vai trò trong đề xuất. Thương hiệu có Instagram mạnh vẫn có lợi thế ban đầu về người theo dõi, nhưng tương tác trên Threads mới là thứ giữ tiếp cận. Anh chị xem thêm bài <a href="/kien-thuc/phat-trien-instagram-cho-thuong-hieu-nam-2026/">phát triển Instagram cho thương hiệu năm 2026</a> để hai kênh hỗ trợ nhau.</p>
+<h2 id="loi-hay-gap-khi-co-chieu-thuat-toan-threads">Lỗi hay gặp khi cố "chiều" thuật toán Threads</h2>
+<ul>
+<li><strong>Câu mồi tương tác.</strong> "bình luận một chữ để nhận quà", "thả tim nếu đồng ý" có thể kéo lượt bấm trong ngắn hạn, nhưng tạo ra trò chuyện rỗng và dễ khiến người xem ẩn bài. Meta nhiều lần nói muốn thẻ chủ đề và bảng tin phục vụ cộng đồng chứ không phục vụ "hack" tương tác.</li>
+<li><strong>Gắn thẻ chủ đề đang nóng nhưng không liên quan.</strong> Bài đến tay người không quan tâm, họ lướt qua, và đó chính là tín hiệu không tích cực.</li>
+<li><strong>Mua người theo dõi, mua tương tác ảo, dùng nhóm "đổi tương tác".</strong> Vi phạm quy định của Meta, làm tệp người theo dõi lệch khỏi khách hàng thật, về lâu dài còn kéo tiếp cận xuống.</li>
+<li><strong>Chỉ nhìn lượt xem.</strong> Bài nhiều lượt xem từ người lạ nhưng không ai theo dõi, không ai bấm link thì chưa giúp gì cho kinh doanh.</li>
+</ul>
+<h2 id="oc-so-lieu-e-biet-thuat-toan-co-ang-ay-bai-cua-minh-khong">Đọc số liệu để biết thuật toán có đang đẩy bài của mình không</h2>
+<p>Từ giữa năm 2025, phần thống kê (Insights) của Threads đã chi tiết hơn: báo cáo tuần so sánh số bài, lượt xem, người theo dõi mới và lượt trả lời; xem được lượt bấm link; xem bài được khám phá ở đâu, kể cả trên ứng dụng khác của Meta. Đội mình đọc theo bảng nhỏ này mỗi tuần:</p>
+<div class="kt-table"><table>
+<thead>
+<tr>
+<th>Dấu hiệu trong Insights</th>
+<th>Có thể đang xảy ra</th>
+<th>Nên chỉnh gì</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Lượt xem cao, trả lời thấp</td>
+<td>Câu mở hút nhưng bài không mời được trò chuyện</td>
+<td>Kết bài bằng câu hỏi cụ thể, dễ trả lời</td>
+</tr>
+<tr>
+<td>Trả lời nhiều, lượt xem thấp</td>
+<td>Bài hay nhưng chưa được đề xuất rộng</td>
+<td>Gắn thẻ chủ đề sát hơn, đăng vào giờ người theo dõi hoạt động</td>
+</tr>
+<tr>
+<td>Lượt xem cao, ít người theo dõi mới</td>
+<td>Người lạ thấy bài nhưng hồ sơ chưa thuyết phục</td>
+<td>Sửa tiểu sử, ghim bài giới thiệu rõ giá trị</td>
+</tr>
+<tr>
+<td>Lượt bấm link gần như bằng 0</td>
+<td>Link chưa liên quan hoặc bài chưa tạo lý do để bấm</td>
+<td>Chỉ gắn link vào bài hướng dẫn, nói rõ bấm vào sẽ được gì</td>
+</tr>
+</tbody>
+</table></div>
+<p>Sau 4–6 tuần, anh chị sẽ thấy dạng bài nào hợp với tệp của mình. Đó mới là "thuật toán" đáng tin nhất: số liệu của chính tài khoản.</p>
+<h2 id="viec-can-lam-ngay-tuan-nay">Việc cần làm ngay tuần này</h2>
+<ol>
+<li>Kiểm tra hồ sơ Threads: tiểu sử nói rõ thương hiệu làm gì, có link, có bài ghim, gắn các chủ đề thương hiệu theo đuổi.</li>
+<li>Chọn 2–3 chủ đề cố định và dùng đúng một thẻ chủ đề sát nội dung cho mỗi bài.</li>
+<li>Viết lại câu đầu của 5 bài sắp đăng để không ai phải lướt qua phần chào hỏi.</li>
+<li>Đặt lịch 15–20 phút sau mỗi bài để trả lời bình luận, và 10 phút mỗi ngày trả lời bài của người khác trong ngành.</li>
+<li>Cuối tuần mở Insights, ghi lại lượt xem, trả lời, người theo dõi mới, lượt bấm link, đối chiếu với bảng ở trên.</li>
+</ol>
+<p>Các bài khác trong chủ đề <a href="/kien-thuc/chu-de/threads/">phát triển Threads</a> sẽ đi sâu vào lịch đăng, thẻ chủ đề và bán hàng mềm. QHUB Commerce (qhub.com.vn) là đơn vị vận hành gian hàng đa sàn, có đội media, đội vận hành sàn, đội KOC và đội host livestream, nên đội mình xem Threads như một mắt xích để lắng nghe khách và thử ý tưởng trước khi đưa lên video, livestream.</p>
+</div>
+<section class="kt-faq" id="cau-hoi-thuong-gap"><h2>Câu hỏi thường gặp</h2><details><summary>Thuật toán Threads ưu tiên điều gì nhất?</summary><p>Meta không xếp thứ tự ưu tiên công khai. Theo trang giải thích xếp hạng của Meta, hệ thống dự đoán bài nào có giá trị nhất với từng người, dựa trên khả năng họ thích, mở xem trả lời, bấm vào trang cá nhân, theo dõi tác giả hoặc lướt qua. Trên thực tế, bài khơi được trò chuyện thật thường đi xa hơn.</p></details><details><summary>Bài Threads có link có bị giảm tiếp cận không?</summary><p>Meta chưa từng nói có “phạt” link. Tháng 6/2025, Adam Mosseri (người đứng đầu Instagram) cho biết đội Threads đã làm việc để link được xếp hạng đúng và link hoạt động tốt hơn từ hơn một tháng trước đó. Dù vậy, người dùng Threads ít bấm link, nên bài có link vẫn cần nội dung đủ hay ngay trong bài.</p></details><details><summary>Dear Algo và Your Algo là gì, đã dùng được ở Việt Nam chưa?</summary><p>Dear Algo (ra mắt 11/02/2026) cho người dùng đăng công khai một bài bắt đầu bằng “Dear Algo” để yêu cầu xem nhiều hoặc ít một chủ đề trong 3 ngày. Your Algo (16/06/2026) làm việc tương tự nhưng riêng tư, chọn 1, 3 hoặc 7 ngày. Khi công bố, cả hai chỉ có ở một số nước như Mỹ, Anh, Úc, New Zealand (Your Algo thêm Canada), chưa có Việt Nam; anh chị kiểm tra lại trong ứng dụng.</p></details><details><summary>Thẻ chủ đề có giúp bài Threads được đề xuất nhiều hơn không?</summary><p>Meta cho biết dữ liệu nội bộ của họ cho thấy bài có gắn chủ đề nhận được nhiều lượt xem hơn, nhưng không công bố mức chênh lệch. Mỗi bài chỉ gắn được một thẻ chủ đề, nên hãy chọn thẻ sát với nội dung và với nhóm khách mình muốn tiếp cận.</p></details><details><summary>Đăng nhiều bài mỗi ngày có làm tài khoản Threads bị giảm tiếp cận không?</summary><p>Meta không công bố giới hạn số bài hay hình phạt cho việc đăng nhiều. Kinh nghiệm của đội QHUB là 1–2 bài chất lượng mỗi ngày kèm thời gian trả lời bình luận hiệu quả hơn đăng dày mà bỏ mặc phần trò chuyện.</p></details></section>
+<section class="kt-src"><h2>Nguồn tham khảo</h2><ul><li><a href="https://transparency.meta.com/features/explaining-ranking/ig-threads-feed/" target="_blank" rel="noopener nofollow">Instagram Threads Feed AI system – Meta Transparency Center</a></li><li><a href="https://about.fb.com/news/2026/02/threads-dear-algo/" target="_blank" rel="noopener nofollow">Control Your Threads Feed With New Dear Algo Feature – Meta Newsroom (11/02/2026)</a></li><li><a href="https://about.fb.com/news/2025/03/new-threads-features-more-personalized-experience-you-control/" target="_blank" rel="noopener nofollow">New Threads Features for a More Personalized Experience That You Control – Meta Newsroom (2025, cập nhật 30/10/2025)</a></li><li><a href="https://techcrunch.com/2024/11/21/threads-adjusts-its-algorithm-to-show-you-more-content-from-accounts-you-follow" target="_blank" rel="noopener nofollow">Threads adjusts its algorithm to show you more content from accounts you follow – TechCrunch (21/11/2024)</a></li><li><a href="https://techcrunch.com/2026/06/16/threads-adds-new-personalization-and-community-features-as-it-reaches-500m-monthly-users/" target="_blank" rel="noopener nofollow">Threads adds new personalization and community features as it reaches 500M monthly users – TechCrunch (16/06/2026)</a></li><li><a href="https://www.socialmediatoday.com/news/meta-says-link-posts-ranked-properly-threads-reach/750126/" target="_blank" rel="noopener nofollow">Meta says link posts are being ranked properly on Threads – Social Media Today (06/2025)</a></li><li><a href="https://www.socialmediatoday.com/news/threads-reaches-150-million-daily-users-more-ad-options/804213/" target="_blank" rel="noopener nofollow">Threads reaches 150 million daily users – Social Media Today (29/10/2025)</a></li></ul></section>
+<aside class="kt-author">
+  <img class="kt-av" src="/quang-avatar-240.jpg" alt="Nguyễn Văn Quang" width="56" height="56" loading="lazy">
+  <div>
+    <p class="kt-by">Người viết</p>
+    <h2><a href="/tac-gia/nguyen-van-quang/">Nguyễn Văn Quang</a></h2>
+    <p class="kt-role">Founder &amp; CEO, QHUB Commerce</p>
+    <p>Đi lên từ bán hàng thị trường, qua trade marketing, brand marketing đến vận hành thương mại điện tử cho các doanh nghiệp đồ uống, thực phẩm và hàng tiêu dùng. Trực tiếp vận hành gian hàng trên Shopee, TikTok Shop, Facebook, Lazada, Tiki và Website.</p>
+  </div>
+</aside>
+<aside class="kt-cta">
+  <img src="/logo-qhub.png" alt="" width="64" height="64">
+  <div>
+    <h2>Cần người ngồi vào vận hành cùng anh chị?</h2>
+    <p>QHUB Commerce là Phòng Tăng Trưởng Thuê Ngoài cho doanh nghiệp bán hàng đa sàn. Đội QHUB trực tiếp vận hành TikTok Shop, Shopee, Facebook và Website: nội dung, livestream, affiliate, quảng cáo, dữ liệu. Buổi chẩn đoán đầu tiên 60 phút, miễn phí.</p>
+    <a class="btn btn-primary" href="/#dat-lich">Đặt lịch chẩn đoán miễn phí</a>
+    <a class="kt-cta-link" href="https://zalo.me/0856510113" target="_blank" rel="noopener">Hoặc nhắn Zalo 0856 510 113</a>
+  </div>
+</aside>
+</article>
+<section class="kt-rel"><h2>Đọc tiếp</h2><div class="kt-grid"><article class="kt-card"><a href="/kien-thuc/cach-viet-bai-threads-duoc-nhieu-tuong-tac/"><span class="kt-tag">Phát triển Threads</span><h3>Cách viết bài Threads được nhiều tương tác cho thương hiệu</h3><p>Cách viết bài Threads được nhiều tương tác: cấu trúc 500 ký tự, 7 dạng bài, chủ đề và cộng đồng, đính kèm văn bản dài, lịch đăng và lỗi hay gặp.</p><span class="kt-meta">13/11/2026 · 9 phút đọc</span></a></article><article class="kt-card"><a href="/kien-thuc/threads-la-gi-va-doanh-nghiep-co-nen-dung-nam-2026/"><span class="kt-tag">Phát triển Threads</span><h3>Threads là gì và doanh nghiệp có nên dùng năm 2026</h3><p>Threads là gì, khác Facebook, Instagram, X thế nào, doanh nghiệp có nên dùng năm 2026 không, viết gì trên Threads và cách đo hiệu quả cho người mới.</p><span class="kt-meta">12/11/2026 · 9 phút đọc</span></a></article><article class="kt-card"><a href="/kien-thuc/video-review-san-pham-tren-tiktok-lam-sao-de-that-va-thuyet-phuc/"><span class="kt-tag">Content TikTok</span><h3>Video review sản phẩm trên TikTok: làm sao để thật và thuyết phục</h3><p>Cách làm video review TikTok thật và thuyết phục: cấu trúc 5 lớp, kịch bản mẫu, checklist quay, gắn nhãn hợp tác và lưu ý Luật Quảng cáo sửa đổi 2025.</p><span class="kt-meta">15/11/2026 · 13 phút đọc</span></a></article><article class="kt-card"><a href="/kien-thuc/tu-van-hanh-hay-thue-ngoai-tiktok-shop-so-sanh-chi-phi-that/"><span class="kt-tag">Vận hành TikTok Shop</span><h3>Tự vận hành hay thuê ngoài TikTok Shop: so sánh chi phí thật</h3><p>Thuê ngoài vận hành TikTok Shop hay tự làm? Bảng tính chi phí thật 12 tháng: lương, BHXH 21,5%, thiết bị, chi phí ẩn và công thức tìm điểm hòa vốn.</p><span class="kt-meta">15/11/2026 · 13 phút đọc</span></a></article></div></section>
+</div>
+</main>
+<footer class="footer">
+  <div class="wrap">
+    <div>
+      <h4>CÔNG TY TNHH QHUB COMMERCE</h4>
+      <p class="legal-info">Giấy CN ĐKDN số 5400570349 do Phòng Đăng ký kinh doanh – Sở Tài chính tỉnh Phú Thọ cấp lần đầu ngày 13/04/2026</p>
+      <p>Người đại diện theo pháp luật: Nguyễn Văn Quang</p>
+      <p>Trụ sở: Khu Vai, Xã An Nghĩa, Tỉnh Phú Thọ, Việt Nam</p>
+      <p>Hotline/Zalo: <a href="tel:0856510113">0856 510 113</a></p>
+      <p>Email: <a href="mailto:qhubcommerce@gmail.com">qhubcommerce@gmail.com</a></p>
+    </div>
+    <div>
+      <h4>Kiến thức</h4>
+      <ul><li><a href="/kien-thuc/chu-de/tiktok/">Xây kênh TikTok</a></li><li><a href="/kien-thuc/chu-de/content-tiktok/">Content TikTok</a></li><li><a href="/kien-thuc/chu-de/tiktok-shop/">TikTok Shop căn bản</a></li><li><a href="/kien-thuc/chu-de/van-hanh-tiktok-shop/">Vận hành TikTok Shop</a></li><li><a href="/kien-thuc/chu-de/quang-cao-tiktok/">Quảng cáo TikTok &amp; GMV Max</a></li><li><a href="/kien-thuc/chu-de/phi-san-tiktok-shop/">Phí sàn TikTok Shop</a></li><li><a href="/kien-thuc/chu-de/van-hanh-shopee/">Vận hành Shopee</a></li><li><a href="/kien-thuc/chu-de/quang-cao-shopee/">Quảng cáo Shopee</a></li></ul>
+    </div>
+    <div>
+      <h4>&nbsp;</h4>
+      <ul><li><a href="/kien-thuc/chu-de/phi-san-shopee/">Phí sàn Shopee</a></li><li><a href="/kien-thuc/chu-de/ban-hang-facebook/">Bán hàng Facebook</a></li><li><a href="/kien-thuc/chu-de/youtube/">Xây kênh YouTube</a></li><li><a href="/kien-thuc/chu-de/instagram/">Phát triển Instagram</a></li><li><a href="/kien-thuc/chu-de/threads/">Phát triển Threads</a></li><li><a href="/kien-thuc/chu-de/website-seo/">Website chuẩn SEO</a></li><li><a href="/kien-thuc/chu-de/lich-sale/">Lịch sale &amp; chiến dịch</a></li><li><a href="/gioi-thieu/">Giới thiệu QHUB</a></li><li><a href="/dich-vu/">Dịch vụ</a></li><li><a href="/chinh-sach.html">Chính sách</a></li></ul>
+    </div>
+    <div class="legal"><span>© 2026 QHUB Commerce.</span><span>qhub.com.vn</span></div>
+  </div>
+</footer>
+<div class="float" aria-label="Liên hệ nhanh">
+  <a class="zalo" href="https://zalo.me/0856510113" target="_blank" rel="noopener" aria-label="Nhắn Zalo cho QHUB">Zalo</a>
+  <a class="call" href="tel:0856510113" aria-label="Gọi hotline QHUB"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 005 5L15 13l5 2v4a2 2 0 01-2 2A16 16 0 013 6a2 2 0 012-2"/></svg></a>
+</div>
+<script src="/kien-thuc.js?v=20261113f" defer></script>
+</body>
+</html>

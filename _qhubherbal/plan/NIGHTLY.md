@@ -22,7 +22,7 @@ Lấy các dòng `status=todo` có `night` nhỏ nhất, 18 dòng (đúng như c
 
 ## 2. Viết bài – tiêu chuẩn BẮT BUỘC (không viết qua loa)
 - **Độ dài:** 2.200–3.500 chữ tiếng Việt. Bài phải thực sự sâu, không độn chữ.
-- **Nghiên cứu trước khi viết:** dùng WebSearch, WebFetch cho số liệu, khuyến nghị, nghiên cứu. Chỉ nêu tên nghiên cứu (tác giả + năm, tạp chí) hoặc tổ chức (WHO, NIH, Mayo Clinic, Bộ Y tế…) khi đã kiểm chứng được. Không bịa số liệu.
+- **Nghiên cứu trước khi viết (quyết định 16/11/2026: anh Quang không ngồi duyệt quyền truy cập):** ưu tiên WebSearch; chỉ WebFetch khi thật cần, ưu tiên các trang đã dùng trong refs.py (who.int, nih.gov, nhs.uk, mayoclinic.org, pmc.ncbi.nlm.nih.gov, medlineplus.gov…), không lặp lại khi bị từ chối/chặn – bỏ nguồn đó, dùng nguồn khác; dùng WebSearch/WebFetch cho số liệu, khuyến nghị, nghiên cứu. Chỉ nêu tên nghiên cứu (tác giả + năm, tạp chí) hoặc tổ chức (WHO, NIH, Mayo Clinic, Bộ Y tế…) khi đã kiểm chứng được. Không bịa số liệu.
 - **Cấu trúc file `content/long/<slug>.md`:**
   - Khối `+++`: dòng `desc:` khoảng 150–200 ký tự, tóm tắt cụ thể; 5 dòng FAQ dạng `- Câu hỏi :: Trả lời` (câu hỏi thật người dùng hay tìm, trả lời đủ ý 1–3 câu).
   - Mở bài: câu chuyện nhân vật minh họa gần gũi, có tên, tuổi, nghề.
@@ -70,7 +70,7 @@ Lấy các dòng `status=todo` có `night` nhỏ nhất, 18 dòng (đúng như c
    (nếu `git status` báo HEAD detached hoặc push bị rejected dù pull báo up to date: `git fetch origin main && git rebase FETCH_HEAD && git push origin HEAD:main`.)
    (push lỗi do repo đổi thì `git pull --rebase` rồi push lại; repo này còn có lịch viết bài của qhub.com.vn chạy song song.)
 2. Workflow `.github/workflows/qhubherbal-deploy.yml` tự chạy: build → `wrangler pages deploy` 5 project (qhubherbal-img, qhubherbal-media, qhubherbal-kt1, qhubherbal-kt2, qhubherbal) → kiểm tra HTTP 200 → báo **IndexNow** (Bing/Copilot/ChatGPT Search, Yandex) cho các bài mới/đổi. Token Cloudflare nằm ở secret `CLOUDFLARE_API_TOKEN` của repo.
-3. Chờ ~6 phút rồi WebFetch kiểm tra 1–2 bài mới trên `https://qhubherbal.com/kien-thuc/<slug>/`. Nếu chưa lên: WebFetch `https://github.com/qhubcommerce/qhub-website/actions` xem lượt chạy "QHUB HERBAL – build & deploy" có lỗi không, sửa và push lại.
+3. Chờ ~5 phút rồi KIỂM TRA BẰNG GITHUB MCP (không WebFetch web – tránh hộp thoại xin quyền truy cập khi anh Quang vắng mặt): `actions_list` (list_workflow_runs, resource_id `qhubherbal-deploy.yml`) → `list_workflow_jobs` → `get_job_logs` (return_content true) đọc các dòng `200 https://qhubherbal.com/kien-thuc/<slug>/` và `IndexNow HTTP 200`. Lỗi thì đọc log, sửa và push lại.
 4. Google: sitemap tự cập nhật (Google đọc lại định kỳ), không cần thao tác. Nếu Claude in Chrome đang kết nối và đã đăng nhập Search Console thì có thể gửi thêm tối đa 10 URL theo cách cũ; không kết nối thì BỎ QUA, không báo lỗi, không hỏi anh Quang.
 5. `plan/PENDING_SUBMIT.txt` (nếu có): URL GSC trong đó chỉ gửi khi Chrome kết nối; không thì để nguyên.
 

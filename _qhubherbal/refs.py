@@ -397,7 +397,147 @@ SRC['nhipsinhhoc'] = [
     ('Roenneberg T., Allebrandt K.V., Merrow M., Vetter C. (2012) – Social jetlag and obesity (Lệch múi giờ xã hội và thừa cân; bản tin ScienceDaily), Current Biology', 'https://www.sciencedaily.com/releases/2012/05/120510122802.htm'),
 ]
 
+SRC['trasuachieu'] = [
+    ('Hội đồng Người tiêu dùng Hồng Kông & Trung tâm An toàn Thực phẩm (2019) – Kết quả thử nghiệm đường và năng lượng trong trà pha chế (trà sữa trân châu trung bình khoảng 400 kcal/ly), Consumer Council', 'https://www.consumer.org.hk/en/press-release/508-tea-drinks'),
+    ('Mantantzis K. và cộng sự (2019) – Sugar rush or sugar crash? A meta-analysis of carbohydrate effects on mood (phân tích gộp: carbohydrate không cải thiện tâm trạng, tăng mệt mỏi trong giờ đầu), Neuroscience & Biobehavioral Reviews', 'https://eprints.lancs.ac.uk/id/eprint/134426'),
+    ('Thayer R.E. (1987) – Energy, tiredness, and tension effects of a sugar snack versus moderate exercise (kẹo ngọt so với đi bộ nhanh 10 phút), Journal of Personality and Social Psychology', 'https://pubmed.ncbi.nlm.nih.gov/3820066/'),
+    ('Monk T.H. (2005) – The post-lunch dip in performance (hiện tượng trũng năng lượng sau bữa trưa), Clinics in Sports Medicine', 'https://www.em-consulte.com/article/415175/the-post-lunch-dip-in-performance'),
+]
+
+SRC['cafftralai'] = [
+    ('Chin J.M. và cộng sự (2008) – Caffeine content of brewed teas (đo caffeine trong 20 loại trà: 14–61 mg/phần; trà thảo mộc không phát hiện caffeine), Journal of Analytical Toxicology', 'https://academic.oup.com/jat/article/32/8/702/714436'),
+    ('Komes D. và cộng sự (2009) – Determination of caffeine content in tea and maté tea by using different methods (hàm lượng caffeine trong lá trà trắng, xanh, đen), Czech Journal of Food Sciences', 'https://www.agriculturejournals.cz/pdfs/cjf/2009/10/41.pdf'),
+    ('Chính phủ (2017) – Nghị định 43/2017/NĐ-CP về nhãn hàng hóa (ghi thành phần theo thứ tự khối lượng, ghi rõ hương liệu tự nhiên/tổng hợp)', 'https://hethongphapluat.com/nghi-dinh-43-2017-nd-cp-ve-nhan-hang-hoa.html'),
+]
+
+SRC['giouongtra'] = [
+    ('IARC (2016) – IARC Monographs evaluate drinking coffee, maté, and very hot beverages (đồ uống rất nóng trên 65 °C xếp nhóm 2A), Cơ quan Nghiên cứu Ung thư Quốc tế', 'https://www.iarc.who.int/wp-content/uploads/2018/07/pr244_E.pdf'),
+    ('EFSA (2010) – EFSA sets European dietary reference values for nutrient intakes (khuyến nghị lượng nước mỗi ngày: 2,0 lít với nữ, 2,5 lít với nam), Cơ quan An toàn Thực phẩm châu Âu', 'https://www.efsa.europa.eu/en/press/news/nda100326'),
+    ('WHO – Healthy diet fact sheet (Chế độ ăn lành mạnh: đường tự do dưới 10% năng lượng)', 'https://www.who.int/news-room/fact-sheets/detail/healthy-diet'),
+]
+
+SRC['xauhotacdung'] = [
+    ('Adurosakin OE và cộng sự (2023) – Ethnomedicinal uses, phytochemistry, pharmacological activities and toxicological effects of Mimosa pudica: A review (Công dụng dân gian, dược lý và độc tính của cây xấu hổ; ghi nhận chưa có thử nghiệm lâm sàng), Pharmacological Research – Modern Chinese Medicine (DOAJ)', 'https://doaj.org/article/ddc094ec01b24207bc35dcc5d7df380a'),
+    ('TRAMIL – Mimosa pudica (Dữ liệu cây xấu hổ: cách dùng truyền thống, độc tính trên động vật, chống chỉ định thai kỳ – cho con bú – trẻ dưới 12 tuổi), Dược điển cây thuốc vùng Caribe TRAMIL', 'https://tramil.net/en/plant/mimosa-pudica'),
+    ('Cornell University – Mimosine (Độc tính mimosine ở gia súc: rụng lông, bướu giáp), Plants Poisonous to Livestock', 'https://poisonousplants.ansci.cornell.edu/toxicagents/aminoacid/mimosine.html'),
+    ('Đỗ Tất Lợi – Cây xấu hổ (trinh nữ): thành phần, tác dụng dược lý, liều dùng dân gian, Những cây thuốc và vị thuốc Việt Nam', 'https://vnras.com/cay-xau-ho-trinh-nu-nhung-cay-thuoc-va-vi-thuoc-viet-nam-do-tat-loi/'),
+]
+
+SRC['anhsangxanh'] = [
+    ('Brown TM và cộng sự (2022) – Recommendations for daytime, evening, and nighttime indoor light exposure (Khuyến nghị mức ánh sáng melanopic ngày – tối – khi ngủ), PLOS Biology', 'https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3001571'),
+    ('Singh S, Downie LE và cộng sự (2023) – Blue-light filtering spectacle lenses for visual performance, sleep, and macular health in adults (Tổng quan Cochrane về kính lọc ánh sáng xanh; bản tin EurekAlert), Cochrane Database of Systematic Reviews', 'https://www.eurekalert.org/news-releases/998545'),
+    ('Hartstein LE và cộng sự (2024) – The impact of screen use on sleep health across the lifespan: A National Sleep Foundation consensus statement (Đồng thuận NSF: ánh sáng hay nội dung màn hình; bản tin CU Boulder), Sleep Health', 'https://www.colorado.edu/today/2024/05/28/light-or-content-what-we-know-about-screens-and-sleep-disruption'),
+    ('Hjetland GJ và cộng sự (2025) – How and when screens are used: comparing different screen activities and sleep in Norwegian university students (Dùng màn hình trên giường và mất ngủ ở sinh viên), Frontiers in Psychiatry', 'https://frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2025.1548273/full'),
+]
+
+SRC['tamsentacdung'] = [
+    ('Yen CC và cộng sự (2020) – Potential Risk of Higenamine Misuse in Sports: Evaluation of Lotus Plumule Extract Products and a Human Study (Tâm sen và higenamine – chất cấm WADA), Nutrients', 'https://mdpi.com/2072-6643/12/2/285'),
+    ('Liu Y và cộng sự (2025) – Pharmacological Potential and Mechanisms of Bisbenzylisoquinoline Alkaloids from Lotus Seed Embryos (Neferine, liensinine, isoliensinine: dược lý, sinh khả dụng, nguy cơ), Biomolecules', 'https://mdpi.com/2218-273X/15/10/1377'),
+    ('Chen S và cộng sự (2021) – Plumula Nelumbinis: A review of traditional uses, phytochemistry, pharmacology, pharmacokinetics and safety (Tổng quan về tâm sen), Journal of Ethnopharmacology (AGRIS/FAO)', 'https://agris.fao.org/search/en/records/65df004b63b8185d9caa42d0'),
+    ('Đỗ Tất Lợi – Cây sen: liên tâm, liên nhục, lá sen, liên phòng và liều dùng, Những cây thuốc và vị thuốc Việt Nam', 'https://vnras.com/cay-sen-nhung-cay-thuoc-va-vi-thuoc-viet-nam-do-tat-loi/'),
+]
+
+SRC['pcos'] = [
+    ('WHO (2026) – Polycystic ovary syndrome (Hội chứng buồng trứng đa nang: tỷ lệ 10–13%, tới 70% chưa được chẩn đoán) – Fact sheet', 'https://www.who.int/news-room/fact-sheets/detail/polycystic-ovary-syndrome'),
+    ('Teede HJ và cộng sự (2023) – Recommendations from the 2023 International Evidence-based Guideline for the Assessment and Management of Polycystic Ovary Syndrome (Hướng dẫn quốc tế 2023: AMH thay siêu âm ở người trưởng thành, lối sống, sàng lọc), Human Reproduction', 'https://pubmed.ncbi.nlm.nih.gov/37580037/'),
+    ('Nelson M, LaRouche V (2024) – Polycystic Ovary Syndrome: Assessment and Management Guidelines (Tóm tắt hướng dẫn 2023: định nghĩa kinh không đều theo tuổi, ngưỡng ≥20 nang), American Family Physician', 'https://www.aafp.org/pubs/afp/issues/2024/1100/practice-guidelines-polycystic-ovary-syndrome.html'),
+    ('Mayo Clinic – Polycystic ovary syndrome: Diagnosis and treatment (Chẩn đoán, lối sống, giảm khoảng 5% cân nặng)', 'https://www.mayoclinic.org/diseases-conditions/pcos/diagnosis-treatment/drc-20353443'),
+]
+
+SRC['chamkinh'] = [
+    ('Klein DA, Paradise SL, Reeder RM (2019) – Amenorrhea: A Systematic Approach to Diagnosis and Management (Vô kinh: định nghĩa 3/6 tháng, xét nghiệm hCG, FSH, LH, prolactin, TSH), American Family Physician', 'https://www.aafp.org/pubs/afp/issues/2019/0701/p39.html'),
+    ('NHS (Hệ thống Y tế Quốc gia Anh) – Stopped or missed periods (Kinh trễ hoặc mất: nguyên nhân và khi nào gặp bác sĩ)', 'https://www.nhs.uk/conditions/stopped-or-missed-periods/'),
+    ('NHS – Doing a pregnancy test (Thử thai: thời điểm thử, kết quả âm tính kém tin cậy hơn)', 'https://www.nhs.uk/pregnancy/trying-for-a-baby/doing-a-pregnancy-test/'),
+    ('MedlinePlus (NIH) – Pregnancy Test (Que thử nước tiểu và xét nghiệm máu hCG)', 'https://medlineplus.gov/lab-tests/pregnancy-test'),
+]
+
+SRC['taodo'] = [
+    ('Cai W và cộng sự (2024) – Functional Nutrients and Jujube-Based Processed Products in Ziziphus jujuba (Đường 23–32% quả tươi, 63–76% quả khô; vitamin C giảm khi sấy), Molecules', 'https://www.mdpi.com/1420-3049/29/14/3437'),
+    ('Naftali T và cộng sự (2008) – Ziziphus jujuba Extract for the Treatment of Chronic Idiopathic Constipation: A Controlled Clinical Trial (Chiết xuất táo tàu và táo bón mạn tính, thử nghiệm nhỏ), Digestion', 'https://karger.com/article/doi/10.1159/000190975'),
+    ('Drugs.com – Jujube (Chuyên khảo sản phẩm tự nhiên: bằng chứng lâm sàng còn hạn chế, dị ứng, tương tác venlafaxine)', 'https://www.drugs.com/npp/jujube.html'),
+]
+
+SRC['muatiec'] = [
+    ('Arquivos Brasileiros de Cardiologia (2013) – Holiday heart syndrome revisited after 34 years (Hội chứng tim ngày lễ: rối loạn nhịp, chủ yếu rung nhĩ, sau uống nhiều rượu bia), SciELO', 'https://www.scielo.br/j/abc/a/PwzNzPLTYMKsbk7v79TdyPD/abstract/?lang=en'),
+    ('WHO – Five Keys to Safer Food (Năm chìa khóa an toàn thực phẩm: không để đồ chín quá 2 giờ ở nhiệt độ phòng, bảo quản dưới 5 °C), Tổ chức Y tế Thế giới', 'https://www.afro.who.int/sites/default/files/2017-06/fan_5keys_en%20%282%29.pdf'),
+    ('USDA FSIS – Leftovers and Food Safety (Đồ ăn thừa và an toàn thực phẩm: quy tắc 2 giờ, 3–4 ngày trong tủ lạnh, hâm đến 74 °C), Bộ Nông nghiệp Hoa Kỳ', 'https://www.fsis.usda.gov/es/node/3288'),
+]
+
+SRC['momau'] = [
+    ('Mach F, Baigent C, Catapano AL và cộng sự (2019) – 2019 ESC/EAS Guidelines for the management of dyslipidaemias (Hướng dẫn xử trí rối loạn lipid máu: LDL-C mục tiêu theo mức nguy cơ, non-HDL-C, ApoB, Lp(a)), European Heart Journal', 'https://academic.oup.com/eurheartj/article/41/1/111/5556353'),
+    ('Nordestgaard BG, Langlois M và cộng sự (2016) – Fasting Is Not Routinely Required for Determination of a Lipid Profile (Xét nghiệm mỡ máu không cần nhịn đói thường quy – đồng thuận EAS/EFLM), Clinical Chemistry', 'https://www.eflm.eu/upload/publications/1036-2.%20Clin%20Chem%202016.pdf'),
+    ('MedlinePlus (Thư viện Y khoa Quốc gia Hoa Kỳ) – Cholesterol Levels: What You Need to Know (Mức cholesterol: những điều cần biết)', 'https://medlineplus.gov/cholesterollevelswhatyouneedtoknow.html'),
+    ('American Family Physician (2019) – Cholesterol Management: ACC/AHA Updates Guideline (Tóm tắt hướng dẫn quản lý cholesterol ACC/AHA 2018)', 'https://www.aafp.org/afp/2019/0501/p589.pdf'),
+]
+
+SRC['tralasen'] = [
+    ('Farrell MS, McCorvy JD, Huang XP và cộng sự (2016) – In Vitro and In Vivo Characterization of the Alkaloid Nuciferine (Đặc tính dược lý của nuciferine trên thụ thể serotonin, dopamine), PLOS ONE', 'https://escholarship.org/uc/item/998966pm'),
+    ('Yang M và cộng sự (2017) – Digital Gene Expression Analysis… Aporphine Alkaloid Biosynthesis in Lotus (Hàm lượng alkaloid lá sen thay đổi theo giai đoạn phát triển và giống), Frontiers in Plant Science', 'https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2017.00080/full'),
+    ('China Journal of Chinese Materia Medica (2020) – Quality evaluation methods for standard decoction of Nelumbinis Folium (Tỷ lệ nuciferine và flavonoid chuyển từ lá sen vào nước sắc), BVS/WPRIM', 'https://search.bvsalud.org/gim/resource/fr/wpr-1008580'),
+    ('Leong ES, Tan S, Chang YP (2012) – Antioxidant Properties and Heavy Metal Content of Lotus Plant Grown in Ex-tin Mining Pond (Kim loại nặng ở cây sen trồng tại hồ mỏ thiếc cũ), Food Science and Technology Research', 'https://www.jstage.jst.go.jp/article/fstr/18/3/18_461/_article/-char/en'),
+]
+
+SRC['vaigay'] = [
+    ('GBD 2021 Neck Pain Collaborators – Wu A.M. và cộng sự (2024) – Global, regional, and national burden of neck pain, 1990–2020, and projections to 2050 (Gánh nặng đau cổ toàn cầu: khoảng 203 triệu người năm 2020, dự báo 269 triệu ca năm 2050), The Lancet Rheumatology', 'https://www.globalhealth.ox.ac.uk/publication/2024056'),
+    ('Paksaichol A., Lawsirirat C., Janwantanakul P. (2015) – Contribution of biopsychosocial risk factors to nonspecific neck pain in office workers (Yếu tố sinh – tâm lý – xã hội và đau cổ ở nhân viên văn phòng), Journal of Occupational Health', 'https://www.jstage.jst.go.jp/article/joh/57/2/57_14-0124-OA/_html/-char/en'),
+    ('Chen X., Coombes B.K., Sjøgaard G. và cộng sự (2018) – Workplace-Based Interventions for Neck Pain in Office Workers: Systematic Review and Meta-Analysis (Can thiệp tại nơi làm việc cho đau cổ ở nhân viên văn phòng: bài tập tăng sức mạnh cổ – vai), Physical Therapy', 'https://research-repository.griffith.edu.au/items/32398aae-fcdb-496c-8ef5-b23db68ad6a3'),
+    ('OSHA – Computer Workstations eTool: Monitors (Hướng dẫn đặt màn hình máy tính: mép trên ngang hoặc hơi dưới tầm mắt, cách 50–100 cm), Cơ quan An toàn và Sức khỏe Nghề nghiệp Hoa Kỳ', 'https://www.osha.gov/etools/computer-workstations/components/monitors'),
+]
+
+SRC['hoangloan'] = [
+    ('MedlinePlus – Panic disorder (Rối loạn hoảng sợ: 13 triệu chứng của cơn hoảng loạn, yếu tố khởi phát, khi nào cần đi khám), Thư viện Y khoa Quốc gia Hoa Kỳ', 'https://medlineplus.gov/ency/article/000924.htm'),
+    ('NHS – Panic disorder (Rối loạn hoảng sợ: cơn thường kéo dài 5–20 phút, cách xử lý khi lên cơn, CBT và thuốc), Dịch vụ Y tế Quốc gia Anh', 'https://www.nhs.uk/mental-health/conditions/panic-disorder/'),
+    ('Kessler R.C., Chiu W.T., Jin R. và cộng sự (2006) – The epidemiology of panic attacks, panic disorder, and agoraphobia in the National Comorbidity Survey Replication (Dịch tễ cơn hoảng loạn và rối loạn hoảng sợ), Archives of General Psychiatry', 'https://hcp.hms.harvard.edu/publication/epidemiology-panic-attacks-panic-disorder-and-agoraphobia-national-comorbidity-survey'),
+    ('Klevebrant L., Frick A. (2022) – Effects of caffeine on anxiety and panic attacks in patients with panic disorder: A systematic review and meta-analysis (Caffeine và cơn hoảng loạn ở người có rối loạn hoảng sợ), General Hospital Psychiatry', 'https://www.pubmed.gov/34871964/'),
+]
+
+SRC['gandoruou'] = [
+    ('Ramkissoon R, Shah VH (2022) – Alcohol Use Disorder and Alcohol-Associated Liver Disease (Rối loạn sử dụng rượu và bệnh gan do rượu), Alcohol Research: Current Reviews (NIAAA)', 'https://arcr.niaaa.nih.gov/media/1741/download'),
+    ('NIAAA (Viện Quốc gia về Lạm dụng Rượu và Nghiện rượu Hoa Kỳ) – Alcohol Metabolism (Chuyển hóa rượu: ADH, ALDH, acetaldehyde)', 'https://www.niaaa.nih.gov/publications/alcohol-metabolism'),
+    ('Cẩm nang Merck (MSD) – Alcohol-Related Liver Disease (Bệnh gan do rượu), bản dành cho chuyên môn', 'https://merckmanuals.com/professional/hepatic-and-biliary-disorders/alcohol-related-liver-disease/alcohol-related-liver-disease'),
+    ('NHS (Hệ thống Y tế Quốc gia Anh) – Alcohol-related liver disease (Các giai đoạn bệnh gan do rượu)', 'https://www.nhs.uk/conditions/alcohol-related-liver-disease-arld/'),
+]
+
+SRC['tiepkhach'] = [
+    ('NHS (Hệ thống Y tế Quốc gia Anh) – The risks of drinking too much (Uống không quá 14 đơn vị/tuần, có vài ngày không rượu)', 'https://www.nhs.uk/live-well/alcohol-advice/the-risks-of-drinking-too-much/'),
+    ('Sleep Foundation – Alcohol and Sleep (Rượu bia và giấc ngủ)', 'https://www.sleepfoundation.org/nutrition/alcohol-and-sleep'),
+    ('CDC (2022) – Hepatitis B Vaccination Recommendations (Khuyến nghị tiêm vắc xin viêm gan B cho người trưởng thành 19–59 tuổi)', 'https://cdc.gov/nchhstp/director-letters/hbv-recommendations.html'),
+    ('Tạp chí Luật sư Việt Nam – Ngưỡng nồng độ cồn và mức xử phạt theo Luật Trật tự, an toàn giao thông đường bộ 2024 và Nghị định 168/2024/NĐ-CP', 'https://lsvn.vn/nguong-nong-do-con-nao-se-khong-bi-tuoc-bang-lai-xe-a152602.html'),
+]
+
+SRC['ngoccau'] = [
+    ('Wang X. và cộng sự (2012) – Phytochemicals and biological studies of plants from the genus Balanophora (Tổng quan 149 hợp chất và hoạt tính sinh học của chi Balanophora – chủ yếu ống nghiệm, động vật), Chemistry Central Journal', 'https://pmc.ncbi.nlm.nih.gov/articles/PMC3475005'),
+    ('Trần Đức Đại và cộng sự (2017) – Thành phần hóa học của cây Ngọc cẩu (Balanophora laxiflora Hemsl.) thu tại Tuyên Quang, Vietnam Journal of Chemistry', 'https://vjs.ac.vn/index.php/vjchem/article/view/0866-7144.2017-00415'),
+    ('Nguyễn Thanh Hà Tuấn và cộng sự (2021) – Đặc điểm hình thái và giải phẫu của loài Nấm ngọc cẩu Việt Nam thuộc chi Balanophora, Tạp chí Khoa học ĐHQGHN: Khoa học Y Dược', 'https://js.vnu.edu.vn/MPS/article/view/4270/3937'),
+    ('Nguyen T.D. và cộng sự (2022) – Anti-inflammatory effect of a triterpenoid from Balanophora laxiflora (Tác dụng kháng viêm của một triterpenoid từ B. laxiflora trên tế bào và động vật), Heliyon', 'https://doaj.org/article/6697270751bb43e0b1da93feef6e55b9'),
+]
+
+SRC['tieudemnam'] = [
+    ('NIDDK (NIH) – Enlarged Prostate (Benign Prostatic Hyperplasia) (Phì đại tuyến tiền liệt lành tính: tỷ lệ, triệu chứng, chẩn đoán), Viện Quốc gia về Đái tháo đường, Tiêu hóa và Bệnh thận Hoa Kỳ', 'https://www.niddk.nih.gov/health-information/urologic-diseases/prostate-problems/prostate-enlargement-benign-prostatic-hyperplasia'),
+    ('Cleveland Clinic – Nocturia (Tiểu đêm: định nghĩa, nguyên nhân, chẩn đoán, điều chỉnh lối sống)', 'https://my.clevelandclinic.org/health/symptoms/14510-nocturia'),
+    ('Unnikrishnan R., Almassi N., Fareed K. (2017) – Benign prostatic hyperplasia: Evaluation and medical management in primary care (Thang IPSS, nhật ký đi tiểu, đa niệu ban đêm), Cleveland Clinic Journal of Medicine', 'https://www.ccjm.org/content/ccjom/84/1/53.full-text.print'),
+    ('USPSTF (2018) – Screening for Prostate Cancer: Recommendation Statement (Tầm soát ung thư tuyến tiền liệt bằng PSA là quyết định cá nhân ở nam 55–69 tuổi), American Family Physician', 'https://www.aafp.org/pubs/afp/issues/2018/1015/od1.html'),
+]
+
 RULES = [
+    ('trasuachieu', ['4 giờ chiều', 'tụt năng lượng', 'trũng sau bữa trưa', 'post-lunch dip', 'sugar rush'], 7),
+    ('cafftralai', ['hương nhài', 'ướp hoa', 'hương liệu'], 20),
+    ('giouongtra', ['khung giờ', 'hãm lần hai', '65 °c', 'để mát'], 14),
+    ('xauhotacdung', ['mimosine', 'tramil'], 12),
+    ('anhsangxanh', ['iprgc', 'melanopic', 'melanopsin', 'night shift'], 20),
+    ('tamsentacdung', ['higenamine', 'wada', 'isoliensinine'], 14),
+    ('pcos', ['đa nang', 'rotterdam', 'amh'], 15),
+    ('chamkinh', ['chậm kinh', 'trễ kinh', 'que thử', 'hcg', 'vô kinh'], 20),
+    ('taodo', ['táo đỏ', 'táo tàu', 'đại táo'], 40),
+    ('muatiec', ['mùa tiệc', 'tất niên', 'mâm cỗ', 'đồ ăn thừa', 'mùa lễ'], 25),
+    ('momau', ['ldl-c', 'non-hdl', 'apob', 'lp(a)'], 35),
+    ('tralasen', ['trà lá sen', 'phan tả diệp', 'sibutramine', 'thon gọn'], 22),
+    ('vaigay', ['vai gáy', 'đau cổ', 'cơ thang'], 14),
+    ('hoangloan', ['hoảng loạn', 'hoảng sợ'], 18),
+    ('gandoruou', ['viêm gan do rượu', 'bệnh gan do rượu', 'acetaldehyde', 'audit-c', 'xơ gan'], 22),
+    ('tiepkhach', ['ngày không rượu', 'tiếp khách', 'nồng độ cồn', 'ngân sách'], 20),
+    ('ngoccau', ['ngọc cẩu', 'balanophora'], 25),
+    ('tieudemnam', ['tuyến tiền liệt', 'ipss', 'đa niệu ban đêm', 'psa'], 25),
     ('masldgay', ['lean masld', 'lean nafld', 'người gầy'], 8),
     ('congot', ['steviol', 'stevia', 'rebaudioside'], 10),
     ('chinvi', ['ziziphus', 'jujuba', 'đại táo'], 5),

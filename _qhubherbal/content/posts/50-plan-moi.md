@@ -485,3 +485,123 @@ products: ca-gai-diep-ha-chau
 Gan nhiễm mỡ không chỉ gặp ở người thừa cân. Câu chuyện và kiến thức giúp người gầy hiểu nguy cơ và chủ động đi khám.
 
 [[buy:ca-gai-diep-ha-chau]]
+
++++
+slug: co-nhan-vien-ngan-hang-va-ly-tra-sua
+title: Cô nhân viên ngân hàng và ly trà sữa lúc 4 giờ chiều
+desc: Câu chuyện một nhân viên ngân hàng và thói quen ly trà sữa lúc 4 giờ chiều: lượng đường thực sự trong một ly, khuyến nghị của WHO và cách thay đổi từng bước.
+cat: cau-chuyen
+date: 2026-11-16
+products: duong-nhan
++++
+Thói quen ly trà sữa buổi chiều rất khó bỏ. Câu chuyện và kiến thức giúp bạn hiểu lượng đường mình nạp vào và cách thay đổi nhẹ nhàng.
+
+[[buy:duong-nhan]]
+
++++
+slug: tra-hoa-nhai-va-tra-lai-khac-nhau-the
+title: Trà hoa nhài và trà lài khác nhau thế nào? Chuyện caffeine
+desc: Trà hoa nhài (hoa khô hãm riêng) và trà lài (trà xanh ướp hương nhài) khác nhau về nguyên liệu, cách làm và lượng caffeine. Bài viết giúp bạn chọn đúng loại.
+cat: thao-moc
+date: 2026-11-16
+products: duong-nhan
++++
+Cùng mang hương nhài nhưng trà hoa nhài và trà lài khác nhau ở lá trà và caffeine. Bài viết giải thích để bạn chọn phù hợp.
+
+[[buy:duong-nhan]]
+
++++
+slug: tra-duong-nhan-uong-luc-nao-tot-nhat-trong
+title: Trà Dưỡng Nhan uống lúc nào là hợp lý trong ngày
+desc: Gợi ý thời điểm uống Trà Dưỡng Nhan trong ngày: buổi sáng, sau bữa trưa, giờ trà chiều thay ly trà sữa, buổi tối; cách pha, lượng dùng và những ai cần lưu ý.
+cat: san-pham
+date: 2026-11-16
+products: duong-nhan
++++
+Trà Dưỡng Nhan không caffeine, không thêm đường. Bài viết gợi ý thời điểm uống hợp lý trong ngày và các lưu ý.
+
+[[buy:duong-nhan]]
+
++++
+slug: anh-sang-xanh-va-giac-ngu-bang-chung-khoa
+title: Ánh sáng xanh và giấc ngủ: bằng chứng khoa học
+desc: Ánh sáng xanh từ màn hình ảnh hưởng giấc ngủ đến đâu? Bằng chứng về melatonin, nhịp sinh học, chế độ ban đêm, kính lọc và thói quen dùng điện thoại buổi tối.
+cat: cam-nang
+date: 2026-11-16
+products: xau-ho-tim-tam-sen
++++
+Ánh sáng xanh và giấc ngủ: nghiên cứu nói gì và nên dùng màn hình buổi tối thế nào.
+
+[[buy:xau-ho-tim-tam-sen]]
+
++++
+slug: buong-trung-da-nang-dau-hieu-chan-doan-va
+title: Buồng trứng đa nang: dấu hiệu, chẩn đoán và lối sống
+desc: Hội chứng buồng trứng đa nang (PCOS) là gì, dấu hiệu thường gặp, tiêu chuẩn chẩn đoán Rotterdam, các nguy cơ đi kèm và thay đổi lối sống theo hướng dẫn quốc tế.
+cat: cam-nang
+date: 2026-11-16
+products: ngay-dau-ve
++++
+Buồng trứng đa nang là rối loạn nội tiết phổ biến ở phụ nữ. Bài viết giải thích dấu hiệu, chẩn đoán và lối sống.
+
+[[buy:ngay-dau-ve]]
+
++++
+slug: cham-kinh-nhung-khong-co-thai-nguyen-nhan-thuong
+title: Chậm kinh nhưng không có thai: nguyên nhân thường gặp
+desc: Chậm kinh mà thử thai âm tính có thể do căng thẳng, thay đổi cân nặng, tập luyện quá sức, PCOS, tuyến giáp, thuốc… Bài viết giải thích và chỉ rõ khi nào cần đi khám.
+cat: cam-nang
+date: 2026-11-16
+products: ngay-dau-ve
++++
+Chậm kinh không phải lúc nào cũng do mang thai. Bài viết giải thích các nguyên nhân thường gặp và khi nào cần đi khám.
+
+[[buy:ngay-dau-ve]]
+
++++
+slug: mo-mau-cao-doc-chi-so-cholesterol-triglyceride
+title: Mỡ máu cao: đọc chỉ số cholesterol, triglyceride
+desc: Cách đọc phiếu xét nghiệm mỡ máu: cholesterol toàn phần, LDL, HDL, triglyceride, non-HDL; ngưỡng tham khảo, đơn vị mmol/L và mg/dL, và thay đổi lối sống nên làm.
+cat: cam-nang
+date: 2026-11-16
+products: la-oi-mix-la-sen
++++
+Phiếu xét nghiệm mỡ máu có nhiều chỉ số. Bài viết giúp bạn đọc hiểu từng chỉ số và biết khi nào cần gặp bác sĩ.
+
+[[buy:la-oi-mix-la-sen]]
+
++++
+slug: con-hoang-loan-dau-hieu-va-cach-xu-ly
+title: Cơn hoảng loạn: dấu hiệu và cách xử lý tại chỗ
+desc: Cơn hoảng loạn (panic attack) là gì, dấu hiệu nhận biết, phân biệt với cơn đau tim, cách xử lý tại chỗ bằng hơi thở và kỹ thuật tiếp đất, khi nào cần đi khám.
+cat: cam-nang
+date: 2026-11-16
+products: duong-tam-an
++++
+Cơn hoảng loạn đến bất ngờ và rất đáng sợ. Bài viết giúp nhận biết, xử lý tại chỗ và tìm hỗ trợ phù hợp.
+
+[[buy:duong-tam-an]]
+
++++
+slug: bia-ruou-anh-huong-gan-qua-nhung-giai-doan
+title: Bia rượu ảnh hưởng gan qua những giai đoạn nào
+desc: Bệnh gan do rượu tiến triển qua các giai đoạn gan nhiễm mỡ, viêm gan do rượu, xơ hóa và xơ gan. Bài viết giải thích dấu hiệu, xét nghiệm và mức uống an toàn hơn.
+cat: cam-nang
+date: 2026-11-16
+products: ca-gai-diep-ha-chau
++++
+Rượu bia ảnh hưởng gan theo từng giai đoạn. Bài viết giải thích các giai đoạn, dấu hiệu và khi nào cần đi khám.
+
+[[buy:ca-gai-diep-ha-chau]]
+
++++
+slug: tieu-dem-o-nam-gioi-phi-dai-tuyen-tien
+title: Tiểu đêm ở nam giới: phì đại tuyến tiền liệt và các nguyên nhân khác
+desc: Tiểu đêm ở nam giới có thể do phì đại tuyến tiền liệt, uống nhiều nước buổi tối, tiểu đường, ngưng thở khi ngủ, thuốc… Bài viết giải thích và chỉ rõ khi nào đi khám.
+cat: cam-nang
+date: 2026-11-16
+products: nam-vuong
++++
+Thức dậy đi tiểu nhiều lần mỗi đêm làm giấc ngủ đứt quãng. Bài viết giải thích nguyên nhân và khi nào nam giới nên đi khám.
+
+[[buy:nam-vuong]]

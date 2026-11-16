@@ -605,3 +605,123 @@ products: nam-vuong
 Thức dậy đi tiểu nhiều lần mỗi đêm làm giấc ngủ đứt quãng. Bài viết giải thích nguyên nhân và khi nào nam giới nên đi khám.
 
 [[buy:nam-vuong]]
+
++++
+slug: vi-sao-3-4-gio-chieu-hay-them-do
+title: Vì sao 3–4 giờ chiều hay thèm đồ ngọt? Cơ chế và cách xử lý
+desc: Vì sao cứ 3–4 giờ chiều là thèm đồ ngọt? Giải thích nhịp sinh học, đường huyết sau bữa trưa, thiếu ngủ, căng thẳng và cách xử lý cơn thèm ngọt buổi chiều.
+cat: cam-nang
+date: 2026-11-17
+products: duong-nhan
++++
+Cơn thèm ngọt buổi chiều có lý do sinh học rõ ràng. Bài viết giải thích cơ chế và gợi ý cách xử lý thực tế cho dân văn phòng.
+
+[[buy:duong-nhan]]
+
++++
+slug: top-10-thuc-uong-thay-tra-sua-it-duong
+title: Top 10 thức uống thay trà sữa ít đường cho dân văn phòng
+desc: 10 thức uống thay trà sữa ít đường cho dân văn phòng: so sánh lượng đường, caffeine, cách pha, tiêu chí chọn và lưu ý theo khuyến nghị đường tự do của WHO.
+cat: top
+date: 2026-11-17
+products: duong-nhan
++++
+Muốn bớt trà sữa mà vẫn có ly nước ngon buổi chiều? Đây là 10 lựa chọn ít đường kèm tiêu chí so sánh khách quan.
+
+[[buy:duong-nhan]]
+
++++
+slug: chi-chu-tiem-lam-mong-va-nhung-ngay-dung
+title: Chị chủ tiệm làm móng và những ngày đứng cả buổi
+desc: Câu chuyện chị chủ tiệm làm móng ngồi cúi, đứng cả ngày, hít mùi hóa chất: rủi ro nghề nail, cách bảo vệ cột sống, hô hấp, giấc ngủ và giờ nghỉ cho riêng mình.
+cat: cau-chuyen
+date: 2026-11-17
+products: duong-nhan
++++
+Nghề làm móng nhiều áp lực thầm lặng. Câu chuyện và kiến thức giúp người làm nghề chăm sóc cơ thể và dành thời gian cho chính mình.
+
+[[buy:duong-nhan]]
+
++++
+slug: rong-kinh-kinh-keo-dai-khi-nao-dang-lo
+title: Rong kinh, kinh kéo dài: khi nào đáng lo
+desc: Rong kinh, kinh kéo dài trên 7 ngày là gì, khi nào đáng lo? Nguyên nhân thường gặp, dấu hiệu cường kinh, nguy cơ thiếu máu và khi nào cần đi khám phụ khoa.
+cat: cam-nang
+date: 2026-11-17
+products: ngay-dau-ve
++++
+Kinh kéo dài hay ra nhiều không nên xem nhẹ. Bài viết giúp chị em nhận biết dấu hiệu bất thường và biết khi nào cần đi khám.
+
+[[buy:ngay-dau-ve]]
+
++++
+slug: la-oi-va-duong-huyet-cac-nghien-cuu-o
+title: Lá ổi và đường huyết: các nghiên cứu ở Nhật Bản
+desc: Lá ổi và đường huyết: tổng hợp các nghiên cứu ở Nhật Bản về trà lá ổi FOSHU, cơ chế ức chế enzyme tiêu hóa tinh bột, giới hạn bằng chứng và lưu ý an toàn.
+cat: cam-nang
+date: 2026-11-17
+products: la-oi-mix-la-sen
++++
+Nhật Bản có nhiều nghiên cứu về lá ổi. Bài viết tóm tắt bằng chứng hiện có, giới hạn của nó và lời khuyên thực tế.
+
+[[buy:la-oi-mix-la-sen]]
+
++++
+slug: la-sen-va-chuyen-hoa-chat-beo-bang-chung
+title: Lá sen và chuyển hóa chất béo: bằng chứng hiện có
+desc: Lá sen và chuyển hóa chất béo: hoạt chất nuciferine, flavonoid, kết quả nghiên cứu ống nghiệm, động vật, trên người, giới hạn bằng chứng và lưu ý an toàn khi dùng.
+cat: cam-nang
+date: 2026-11-17
+products: la-oi-mix-la-sen
++++
+Lá sen thường được nhắc đến cùng mỡ máu, cân nặng. Bài viết đánh giá bằng chứng khoa học hiện có một cách trung thực.
+
+[[buy:la-oi-mix-la-sen]]
+
++++
+slug: hit-tho-hop-box-breathing-huong-dan-chi-tiet
+title: Hít thở hộp (box breathing): hướng dẫn chi tiết
+desc: Hít thở hộp (box breathing) 4-4-4-4 là gì, thực hiện thế nào? Hướng dẫn từng bước, cơ chế, nghiên cứu về thở chậm, lỗi thường gặp và ai cần thận trọng.
+cat: cam-nang
+date: 2026-11-17
+products: duong-tam-an
++++
+Hít thở hộp là kỹ thuật đơn giản để lấy lại bình tĩnh. Bài viết hướng dẫn chi tiết từng bước và cách luyện tập hằng ngày.
+
+[[buy:duong-tam-an]]
+
++++
+slug: uong-bia-xong-bao-lau-thi-lai-xe-duoc
+title: Uống bia xong bao lâu thì lái xe được và vì sao không nên
+desc: Uống bia xong bao lâu thì lái xe được? Luật Việt Nam cấm tuyệt đối nồng độ cồn khi lái xe; tốc độ đào thải cồn, các mẹo sai lầm và cách sắp xếp đi về an toàn.
+cat: cam-nang
+date: 2026-11-17
+products: ca-gai-diep-ha-chau
++++
+Không có mẹo nào giúp cồn hết nhanh. Bài viết giải thích cơ thể đào thải cồn ra sao và vì sao đã uống thì không lái xe.
+
+[[buy:ca-gai-diep-ha-chau]]
+
++++
+slug: tuyen-tien-liet-kien-thuc-co-ban-cho-dan
+title: Tuyến tiền liệt: kiến thức cơ bản cho đàn ông trên 45
+desc: Tuyến tiền liệt là gì, nằm ở đâu, làm nhiệm vụ gì? Kiến thức cơ bản cho đàn ông trên 45 về phì đại lành tính, viêm, ung thư, PSA và khi nào cần đi khám.
+cat: cam-nang
+date: 2026-11-17
+products: nam-vuong
++++
+Đàn ông trên 45 nên hiểu tuyến tiền liệt để không bỏ sót dấu hiệu bất thường. Bài viết tóm tắt kiến thức cơ bản và lịch khám hợp lý.
+
+[[buy:nam-vuong]]
+
++++
+slug: lech-mui-gio-jet-lag-cach-thich-nghi-nhanh
+title: Lệch múi giờ (jet lag): cách thích nghi nhanh
+desc: Lệch múi giờ (jet lag) là gì, vì sao bay về phía đông khó hơn? Cách thích nghi nhanh bằng ánh sáng, giờ ngủ, bữa ăn, caffeine và khi nào cần hỏi bác sĩ.
+cat: cam-nang
+date: 2026-11-17
+products: xau-ho-tim-tam-sen
++++
+Bay xa qua nhiều múi giờ dễ làm rối nhịp ngủ. Bài viết hướng dẫn cách điều chỉnh trước, trong và sau chuyến bay.
+
+[[buy:xau-ho-tim-tam-sen]]

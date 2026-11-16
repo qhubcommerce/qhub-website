@@ -22,7 +22,7 @@ Lấy các dòng `status=todo` có `night` nhỏ nhất, 18 dòng (đúng như c
 
 ## 2. Viết bài – tiêu chuẩn BẮT BUỘC (không viết qua loa)
 - **Độ dài:** 2.200–3.500 chữ tiếng Việt. Bài phải thực sự sâu, không độn chữ.
-- **Nghiên cứu trước khi viết (quyết định 16/11/2026: anh Quang không ngồi duyệt quyền truy cập):** ưu tiên WebSearch; chỉ WebFetch khi thật cần, ưu tiên các trang đã dùng trong refs.py (who.int, nih.gov, nhs.uk, mayoclinic.org, pmc.ncbi.nlm.nih.gov, medlineplus.gov…), không lặp lại khi bị từ chối/chặn – bỏ nguồn đó, dùng nguồn khác; dùng WebSearch/WebFetch cho số liệu, khuyến nghị, nghiên cứu. Chỉ nêu tên nghiên cứu (tác giả + năm, tạp chí) hoặc tổ chức (WHO, NIH, Mayo Clinic, Bộ Y tế…) khi đã kiểm chứng được. Không bịa số liệu.
+- **Nghiên cứu trước khi viết (quyết định 16/11/2026: anh Quang không ngồi duyệt quyền truy cập):** CHỈ dùng WebSearch – KHÔNG WebFetch/curl/wget hay mở URL bằng bất kỳ cách nào (agent chính và mọi subagent; ghi rõ trong brief). Lấy số liệu và URL nguồn cho refs.py từ chính kết quả WebSearch. Chỉ nêu tên nghiên cứu (tác giả + năm, tạp chí) hoặc tổ chức (WHO, NIH, Mayo Clinic, Bộ Y tế…) khi kết quả WebSearch xác nhận được. Không bịa số liệu; không xác nhận được thì bỏ.
 - **Cấu trúc file `content/long/<slug>.md`:**
   - Khối `+++`: dòng `desc:` khoảng 150–200 ký tự, tóm tắt cụ thể; 5 dòng FAQ dạng `- Câu hỏi :: Trả lời` (câu hỏi thật người dùng hay tìm, trả lời đủ ý 1–3 câu).
   - Mở bài: câu chuyện nhân vật minh họa gần gũi, có tên, tuổi, nghề.
@@ -56,7 +56,7 @@ Lấy các dòng `status=todo` có `night` nhỏ nhất, 18 dòng (đúng như c
   - duong-tam-an: lạc tiên, tâm sen, đinh lăng, hoa cúc.
   - duong-nhan (Trà Dưỡng Nhan, tự công bố 39/ANH KHOI/2026): lá sen, tía tô, hoa hồng, hoa nhài, hoa cúc, táo đỏ, kỷ tử, đông trùng hạ thảo (Cordyceps militaris nuôi trồng), cỏ ngọt. Quân: hoa hồng, kỷ tử; Thần: táo đỏ, đông trùng hạ thảo; Tá: hoa nhài, tía tô, lá sen, hoa cúc; Sứ: cỏ ngọt. Không thêm đường, không caffeine. Lưu ý: phụ nữ có thai, cho con bú, trẻ em, người đang dùng thuốc (nhất là thuốc chống đông – kỷ tử có báo cáo tương tác warfarin), người dị ứng phấn hoa/họ Cúc hỏi bác sĩ. TUYỆT ĐỐI không nói trà làm trắng da, đẹp da, chống lão hóa – chỉ là thức uống hương hoa không đường cho thói quen tự chăm sóc, thay ly trà sữa.
   - Giá: niêm yết 140.000đ, bán 105.000đ; khuyến mại mua 2 tặng 1 (ưu đãi đúng 50%); miễn phí ship toàn quốc; đổi trả 7 ngày; thanh toán khi nhận hàng (COD).
-- **Nguồn tham khảo:** khi gặp cụm chủ đề mới chưa có trong `refs.py`, thêm cụm (SRC + RULES) với URL đã mở thử được.
+- **Nguồn tham khảo:** khi gặp cụm chủ đề mới chưa có trong `refs.py`, thêm cụm (SRC + RULES) với URL lấy từ kết quả WebSearch (không mở thử bằng WebFetch).
 
 ## 3. Kiểm tra và build
 1. Chạy `python3 checklong.py`: sửa hết từ cấm. Từ "điều trị" chỉ được dùng trong ngữ cảnh "đi khám, điều trị theo bác sĩ".

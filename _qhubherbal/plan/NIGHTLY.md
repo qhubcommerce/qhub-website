@@ -77,7 +77,7 @@ Lấy các dòng `status=todo` có `night` nhỏ nhất, 18 dòng (đúng như c
 ## 5. Báo cáo
 Cuối mỗi lần chạy, gửi SendUserMessage ngắn gồm:
 - đêm thứ mấy;
-- 12 tiêu đề đã viết;
-- đã đẩy lên GitHub và web đã có bài chưa (kết quả WebFetch);
+- 18 tiêu đề đã viết;
+- đã đẩy lên GitHub và web đã có bài chưa (kết quả HTTP 200 trong log GitHub Actions);
 - tổng tiến độ (x/818).
 

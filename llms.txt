@@ -16,7 +16,7 @@ Mô hình hợp tác: 2–4% doanh thu cho vận hành hệ thống; 7–15% ng�
 - [Dịch vụ livestream bán hàng TikTok, Shopee, Facebook](https://qhub.com.vn/dich-vu/livestream-ban-hang/): Dịch vụ livestream bán hàng của QHUB: kịch bản, host, điều phối, ưu đãi và quy trình chốt đơn cho TikTok Shop, Shopee Live và Facebook.
 - [Dịch vụ booking KOC và affiliate TikTok Shop](https://qhub.com.vn/dich-vu/koc-affiliate/): QHUB kết nối và quản lý KOC affiliate cho TikTok Shop, Shopee: chọn đúng tệp, gửi mẫu, brief, theo dõi video, hoa hồng và hiệu quả đơn hàng.
 - [Dịch vụ chạy quảng cáo GMV Max, Shopee Ads, Meta Ads](https://qhub.com.vn/dich-vu/quang-cao-tiktok-shopee/): QHUB vận hành quảng cáo TikTok GMV Max, Shopee Ads và Meta Ads cho doanh nghiệp, tối ưu theo lợi nhuận, phí 7–15% ngân sách thực chạy.
-- [Kiến thức thương mại điện tử](https://qhub.com.vn/kien-thuc/): 140 bài viết thực chiến
+- [Kiến thức thương mại điện tử](https://qhub.com.vn/kien-thuc/): 142 bài viết thực chiến
 - [Tác giả Nguyễn Văn Quang](https://qhub.com.vn/tac-gia/nguyen-van-quang/): Founder & CEO
 - [QHUB HERBAL](https://qhub.com.vn/qhub-herbal.html): thương hiệu trà thảo mộc do QHUB xây dựng
 - [Chính sách](https://qhub.com.vn/chinh-sach.html)
@@ -196,6 +196,7 @@ Dùng Threads để xây cộng đồng và kéo khách: cách viết, nhịp đ
 Xây website bán hàng chuẩn SEO và dễ được AI như ChatGPT, Gemini nhắc tới: cấu trúc, nội dung, kỹ thuật, đo lường.
 - Trang chủ đề: https://qhub.com.vn/kien-thuc/chu-de/website-seo/
 - [Tiêu đề và mô tả trang (title, meta description) viết sao cho chuẩn](https://qhub.com.vn/kien-thuc/tieu-de-va-mo-ta-trang-title-meta-description-chuan/): Cách viết title meta description chuẩn: Google hiển thị và viết lại thế nào, độ dài theo pixel, công thức cho từng loại trang, lỗi hay gặp và cách đo CTR.
+- [Dữ liệu có cấu trúc (schema) cho website bán hàng](https://qhub.com.vn/kien-thuc/du-lieu-co-cau-truc-schema-cho-website-ban-hang/): Schema website bán hàng cần những loại nào, viết JSON-LD ra sao, kiểm tra ở đâu. Kèm mẫu Product, Organization, Breadcrumb và lỗi hay gặp năm 2026.
 - [Viết bài chuẩn SEO mà người đọc vẫn thích](https://qhub.com.vn/kien-thuc/viet-bai-chuan-seo-ma-nguoi-doc-van-thich/): Viết bài chuẩn SEO năm 2026 theo hướng dẫn nội dung hữu ích của Google: quy trình 7 bước, đặt từ khóa đúng chỗ, E-E-A-T, AI Overviews và ví dụ thật.
 - [Nghiên cứu từ khóa cho website doanh nghiệp](https://qhub.com.vn/kien-thuc/nghien-cuu-tu-khoa-cho-website-doanh-nghiep/): Nghiên cứu từ khóa cho website doanh nghiệp: quy trình 7 bước, công cụ miễn phí và trả phí, phân loại ý định tìm kiếm, gom cụm chủ đề và bảng mẫu dùng ngay.
 - [Cấu trúc website chuẩn SEO: danh mục, trang trụ cột, cụm bài](https://qhub.com.vn/kien-thuc/cau-truc-website-chuan-seo-danh-muc-trang-tru-cot-cum-bai/): Cấu trúc website SEO gồm trang chủ, danh mục, trang trụ cột và cụm bài nối nhau bằng liên kết nội bộ. Hướng dẫn theo Google, kèm sơ đồ mẫu và ví dụ thật.
@@ -208,6 +209,7 @@ Xây website bán hàng chuẩn SEO và dễ được AI như ChatGPT, Gemini nh
 ## Lịch sale & chiến dịch
 Ngày sale đôi, sale giữa tháng, ngày lương, ngày thường: chuẩn bị gì, chạy gì, đo gì trên TikTok Shop và Shopee.
 - Trang chủ đề: https://qhub.com.vn/kien-thuc/chu-de/lich-sale/
+- [Kịch bản livestream 12 tiếng cho ngày mega sale](https://qhub.com.vn/kien-thuc/kich-ban-livestream-12-tieng-cho-ngay-mega-sale/): Kịch bản livestream ngày sale 12 tiếng: chia 4 ca, xoay host, mốc ưu đãi theo giờ, câu chuyển ca, chia tồn kho. Kèm bảng lịch mẫu cho thứ Bảy 12/12/2026.
 - [Cách tính ngân sách quảng cáo cho ngày sale đôi để không đốt tiền](https://qhub.com.vn/kien-thuc/cach-tinh-ngan-sach-quang-cao-cho-ngay-sale-doi-de-khong-dot-tien/): Tính ngân sách quảng cáo ngày sale đôi từ biên lãi sau phí sàn, ROAS hòa vốn và doanh thu mục tiêu; chia theo giai đoạn, khung giờ, có điểm dừng lỗ cho 12.12.
 - [Ngày sale đôi TikTok Shop: livestream, GMV Max và affiliate chạy thế nào](https://qhub.com.vn/kien-thuc/ngay-sale-doi-tren-tiktok-shop-livestream-gmv-max-va-affiliate-chay/): Sale đôi TikTok Shop cần phối livestream, Product GMV Max, LIVE GMV Max và affiliate theo từng mốc giờ. Bảng lịch theo giờ cho 12.12.2026 và cách tính chi phí chồng.
 - [Ngày sale đôi Shopee: đăng ký chương trình, voucher và quảng cáo](https://qhub.com.vn/kien-thuc/ngay-sale-doi-tren-shopee-dang-ky-chuong-trinh-voucher-va-quang-cao/): Sale đôi Shopee cần ba việc: đăng ký chương trình đúng hạn, xếp lớp voucher không lỗ, chạy Shopee Ads theo giờ. Kèm bảng lịch theo giờ cho thứ Bảy 12.12.2026.

@@ -1,0 +1,362 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<!-- GA4 QHUB Commerce -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-NYQMD1XPP6"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-NYQMD1XPP6');
+document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('a,button');if(!a)return;var h=a.getAttribute('href')||'';
+if(/zalo\.me/.test(h))gtag('event','click_zalo',{link_url:h});else if(/^tel:/.test(h))gtag('event','click_call',{link_url:h});
+else if(/^mailto:/.test(h))gtag('event','click_email',{link_url:h});else if(/qhubherbal\.com/.test(h))gtag('event','click_qhubherbal',{link_url:h});},true);</script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Dữ liệu có cấu trúc (schema) cho website bán hàng | QHUB Commerce</title>
+<meta name="description" content="Schema website bán hàng cần những loại nào, viết JSON-LD ra sao, kiểm tra ở đâu. Kèm mẫu Product, Organization, Breadcrumb và lỗi hay gặp năm 2026.">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<link rel="canonical" href="https://qhub.com.vn/kien-thuc/du-lieu-co-cau-truc-schema-cho-website-ban-hang/">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="QHUB Commerce">
+<meta property="og:locale" content="vi_VN">
+<meta property="og:title" content="Dữ liệu có cấu trúc (schema) cho website bán hàng | QHUB Commerce">
+<meta property="og:description" content="Schema website bán hàng cần những loại nào, viết JSON-LD ra sao, kiểm tra ở đâu. Kèm mẫu Product, Organization, Breadcrumb và lỗi hay gặp năm 2026.">
+<meta property="og:url" content="https://qhub.com.vn/kien-thuc/du-lieu-co-cau-truc-schema-cho-website-ban-hang/">
+<meta property="og:image" content="https://qhub.com.vn/og-qhub.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#0B1220">
+<link rel="icon" href="/favicon.ico" sizes="48x48">
+<link rel="icon" href="/favicon-96x96.png" type="image/png" sizes="96x96">
+<link rel="icon" href="/favicon-192x192.png" type="image/png" sizes="192x192">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="alternate" type="application/rss+xml" title="Kiến thức QHUB Commerce" href="/feed.xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/styles.css?v=20261113f">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BlogPosting", "headline": "Dữ liệu có cấu trúc (schema) cho website bán hàng", "description": "Schema website bán hàng cần những loại nào, viết JSON-LD ra sao, kiểm tra ở đâu. Kèm mẫu Product, Organization, Breadcrumb và lỗi hay gặp năm 2026.", "inLanguage": "vi", "mainEntityOfPage": "https://qhub.com.vn/kien-thuc/du-lieu-co-cau-truc-schema-cho-website-ban-hang/", "url": "https://qhub.com.vn/kien-thuc/du-lieu-co-cau-truc-schema-cho-website-ban-hang/", "image": "https://qhub.com.vn/og-qhub.png", "datePublished": "2026-11-18", "dateModified": "2026-11-18", "author": {"@type": "Person", "@id": "https://qhub.com.vn/tac-gia/nguyen-van-quang/#person", "name": "Nguyễn Văn Quang", "url": "https://qhub.com.vn/tac-gia/nguyen-van-quang/", "jobTitle": "Founder & CEO", "image": "https://qhub.com.vn/quang-avatar.jpg", "worksFor": {"@id": "https://qhub.com.vn/#organization"}}, "publisher": {"@type": "Organization", "@id": "https://qhub.com.vn/#organization", "name": "CÔNG TY TNHH QHUB COMMERCE", "alternateName": "QHUB Commerce", "url": "https://qhub.com.vn/", "logo": {"@type": "ImageObject", "url": "https://qhub.com.vn/logo-qhub.png", "width": 512, "height": 512}}, "articleSection": "Website chuẩn SEO", "keywords": "schema website, schema sản phẩm, json-ld là gì, schema product offer, dữ liệu có cấu trúc google, schema organization", "wordCount": 2047}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Trang chủ", "item": "https://qhub.com.vn/"}, {"@type": "ListItem", "position": 2, "name": "Kiến thức", "item": "https://qhub.com.vn/kien-thuc/"}, {"@type": "ListItem", "position": 3, "name": "Website chuẩn SEO", "item": "https://qhub.com.vn/kien-thuc/chu-de/website-seo/"}, {"@type": "ListItem", "position": 4, "name": "Dữ liệu có cấu trúc (schema) cho website bán hàng", "item": "https://qhub.com.vn/kien-thuc/du-lieu-co-cau-truc-schema-cho-website-ban-hang/"}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Schema website là gì?", "acceptedAnswer": {"@type": "Answer", "text": "Schema là một đoạn mã mô tả nội dung trang theo bộ từ vựng chung của schema.org, ví dụ đây là sản phẩm, giá bao nhiêu, thương hiệu nào. Người xem không thấy đoạn này, nhưng Google và các trợ lý AI đọc được. Cách viết Google khuyến nghị là JSON-LD đặt trong thẻ script."}}, {"@type": "Question", "name": "Website bán hàng nhỏ có cần schema không?", "acceptedAnswer": {"@type": "Answer", "text": "Có, và không tốn nhiều công. Chỉ cần Organization ở trang chủ, Product kèm Offer ở trang sản phẩm, BreadcrumbList ở mọi trang con và Article ở bài viết là đã đủ phần cốt lõi. Nhiều nền tảng như WordPress với plugin SEO, Shopify, Haravan đã sinh sẵn một phần, anh chị chỉ cần kiểm tra và bổ sung."}}, {"@type": "Question", "name": "Còn nên dùng FAQPage không khi Google đã bỏ kết quả FAQ?", "acceptedAnswer": {"@type": "Answer", "text": "Kết quả FAQ dạng mở rộng không còn hiện trên Google từ khoảng tháng 5/2026, theo Search Engine Roundtable. Nhưng phần hỏi đáp viết tốt vẫn giúp người đọc và giúp các trợ lý AI trích dẫn. Đội QHUB giữ phần hỏi đáp hiển thị trên trang; có khai FAQPage hay không là chuyện phụ, miễn nội dung khai khớp với nội dung hiển thị."}}, {"@type": "Question", "name": "Có nên tự thêm số sao đánh giá vào schema sản phẩm không?", "acceptedAnswer": {"@type": "Answer", "text": "Chỉ khi trang thật sự có đánh giá của người mua, hiển thị công khai và đúng số lượng. Tự điền aggregateRating khi không có đánh giá là khai sai, vi phạm hướng dẫn của Google và có thể bị xử lý thủ công. Website mới chưa có đánh giá thì bỏ trống trường này."}}, {"@type": "Question", "name": "Schema có giúp ChatGPT hay Gemini nhắc tới thương hiệu không?", "acceptedAnswer": {"@type": "Answer", "text": "Schema không phải công tắc bật lên là được nhắc. Nó giúp máy đọc đúng các dữ kiện như tên công ty, sản phẩm, giá, liên hệ và liên kết các kênh với nhau. Kết hợp với nội dung rõ ràng và được nơi khác nhắc tới, đây là một phần nền của GEO."}}]}</script>
+<meta property="article:published_time" content="2026-11-18">
+<meta property="article:modified_time" content="2026-11-18">
+<meta property="article:section" content="Website chuẩn SEO">
+</head>
+<body class="kt-body">
+<a class="skip" href="#main">Bỏ qua tới nội dung</a>
+<header class="site-header" id="top">
+  <div class="wrap">
+    <a class="brand" href="/" aria-label="QHUB Commerce — trang chủ">
+      <img src="/logo-qhub-white.png" alt="" width="45" height="48">
+      <span>QHUB<small>COMMERCE</small></span>
+    </a>
+    <nav class="nav" id="nav" aria-label="Điều hướng chính">
+      <a href="/gioi-thieu/">Giới thiệu</a>
+      <a href="/dich-vu/">Dịch vụ</a>
+      <a href="/kien-thuc/">Kiến thức</a>
+      <a href="/#doi-ngu">Đội ngũ</a>
+      <a href="/qhub-herbal.html">QHUB HERBAL</a>
+      <a class="nav-cta" href="/#dat-lich">Đặt lịch chẩn đoán</a>
+    </nav>
+    <a class="btn btn-primary btn-sm" href="/#dat-lich">Đặt lịch chẩn đoán</a>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="nav" aria-label="Mở menu">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+  </div>
+</header>
+<main id="main" class="kt-main">
+<div class="wrap kt-narrow">
+<nav class="kt-crumb" aria-label="Đường dẫn"><a href="/">Trang chủ</a><span aria-hidden="true">/</span><a href="/kien-thuc/">Kiến thức</a><span aria-hidden="true">/</span><a href="/kien-thuc/chu-de/website-seo/">Website chuẩn SEO</a><span aria-hidden="true">/</span><span aria-current="page">Dữ liệu có cấu trúc (schema) cho website bán hàng</span></nav>
+<article class="kt-article">
+<header class="kt-head">
+  <a class="kt-tag" href="/kien-thuc/chu-de/website-seo/">Website chuẩn SEO</a>
+  <h1>Dữ liệu có cấu trúc (schema) cho website bán hàng</h1>
+  <p class="kt-lead">Schema website bán hàng cần những loại nào, viết JSON-LD ra sao, kiểm tra ở đâu. Kèm mẫu Product, Organization, Breadcrumb và lỗi hay gặp năm 2026.</p>
+  <p class="kt-meta">Bởi <a href="/tac-gia/nguyen-van-quang/">Nguyễn Văn Quang</a> · Đăng 18/11/2026 · 9 phút đọc</p>
+</header>
+<div class="kt-sum"><h2>Tóm tắt nhanh</h2><ul><li>Schema là đoạn mô tả bằng từ vựng chung của schema.org, thường viết dạng JSON-LD, giúp Google và các trợ lý AI hiểu trang đang nói về doanh nghiệp, sản phẩm, giá hay bài viết nào.</li><li>Website bán hàng nên có tối thiểu Organization, Product kèm Offer, BreadcrumbList và Article cho bài viết; Product nên khai thêm phí giao hàng và chính sách đổi trả.</li><li>Khoảng tháng 5/2026, theo Search Engine Roundtable và Search Engine Land, Google ngừng hiển thị kết quả FAQ dạng mở rộng cho mọi website, nên FAQPage không còn mang lại giao diện nổi bật trên Google.</li><li>Kiểm tra schema bằng Rich Results Test, Schema Markup Validator và báo cáo trong Search Console; dữ liệu khai phải khớp với nội dung người xem thấy trên trang.</li></ul></div>
+<nav class="kt-toc" aria-label="Mục lục"><h2>Trong bài này</h2><ol><li><a href="#schema-website-la-gi-va-vi-sao-web-ban-hang-can">Schema website là gì và vì sao web bán hàng cần?</a></li><li><a href="#website-ban-hang-can-nhung-loai-schema-nao">Website bán hàng cần những loại schema nào?</a></li><li><a href="#mau-json-ld-cho-trang-san-pham-vi-du-that-tu-qhub-herbal">Mẫu JSON-LD cho trang sản phẩm: ví dụ thật từ QHUB HERBAL</a></li><li><a href="#mau-schema-organization-va-breadcrumblist">Mẫu schema Organization và BreadcrumbList</a></li><li><a href="#faqpage-nam-2026-con-ang-lam-khong">FAQPage năm 2026 còn đáng làm không?</a></li><li><a href="#kiem-tra-schema-o-au-va-bao-lau-mot-lan">Kiểm tra schema ở đâu và bao lâu một lần?</a></li><li><a href="#loi-hay-gap-khi-lam-schema-website-ban-hang">Lỗi hay gặp khi làm schema website bán hàng</a></li><li><a href="#viec-can-lam-ngay-tuan-nay">Việc cần làm ngay tuần này</a></li></ol></nav>
+<div class="kt-body-text">
+<p><strong>Schema website là đoạn mô tả nội dung trang theo bộ từ vựng chung của schema.org, giúp Google và các trợ lý AI hiểu chính xác trang đang nói về doanh nghiệp nào, sản phẩm gì, giá bao nhiêu.</strong> Với website bán hàng, anh chị chỉ cần làm chắc bốn loại: Organization cho doanh nghiệp, Product kèm Offer cho sản phẩm, BreadcrumbList cho đường dẫn, Article cho bài viết. Phần còn lại là kiểm tra định kỳ để dữ liệu khai luôn khớp với thứ người xem thấy.</p>
+<p>Bài này đội QHUB viết từ chính việc làm schema cho qhub.com.vn và các trang sản phẩm QHUB HERBAL, kèm đoạn mã mẫu anh chị chép về sửa được ngay. Nếu anh chị đang dựng website từ đầu, có thể đọc trước bài <a href="/kien-thuc/website-ban-hang-chuan-seo-nam-2026-huong-dan-tu-a-den-z/">website bán hàng chuẩn SEO năm 2026</a>.</p>
+<h2 id="schema-website-la-gi-va-vi-sao-web-ban-hang-can">Schema website là gì và vì sao web bán hàng cần?</h2>
+<p>Một trang sản phẩm với người đọc là ảnh, tên, giá, nút mua. Với máy, đó chỉ là một khối chữ. Máy phải đoán đâu là giá, đâu là giá gạch, đâu là tên thương hiệu. Schema bỏ bước đoán đó: anh chị nói thẳng với máy "đây là Product, tên là…, giá là 105.000 VND, còn hàng".</p>
+<p>Vài khái niệm cần nắm:</p>
+<ul>
+<li><strong>schema.org</strong> là bộ từ vựng chung do Google, Microsoft, Yahoo và Yandex cùng khởi xướng. Mỗi loại thông tin có một "kiểu" (type) như Product, Organization, Article, và các "thuộc tính" như name, price, brand.</li>
+<li><strong>JSON-LD</strong> là cách viết schema thành một khối dữ liệu đặt trong thẻ <code>&lt;script type="application/ld+json"&gt;</code>. Google khuyến nghị cách này vì tách riêng khỏi giao diện, dễ sửa.</li>
+<li><strong>Kết quả nhiều định dạng</strong> (rich results) là kiểu hiển thị nổi bật trên Google như giá, tình trạng hàng, đường dẫn breadcrumb. Schema là điều kiện cần, nhưng Google không cam kết hiển thị.</li>
+</ul>
+<p>Ba lý do web bán hàng nên làm:</p>
+<ol>
+<li><strong>Hiển thị sản phẩm rõ hơn trên Google.</strong> Trang sản phẩm có Product và Offer hợp lệ có cơ hội hiện giá, tình trạng hàng, phí giao.</li>
+<li><strong>Máy hiểu đúng thực thể doanh nghiệp.</strong> Organization với <code>sameAs</code> nối website, fanpage, gian hàng thành một hệ thống, tránh bị hiểu nhầm với một công ty trùng tên.</li>
+<li><strong>Nền cho GEO.</strong> GEO là tối ưu để trợ lý AI như ChatGPT, Gemini nhắc đúng thương hiệu. Dữ kiện có cấu trúc giúp chúng đọc đúng tên, sản phẩm, liên hệ. Đội mình đã viết kỹ phần này trong bài <a href="/kien-thuc/geo-la-gi-toi-uu-de-chatgpt-gemini-nhac-toi-thuong-hieu/">GEO là gì</a>.</li>
+</ol>
+<h2 id="website-ban-hang-can-nhung-loai-schema-nao">Website bán hàng cần những loại schema nào?</h2>
+<p>Không cần khai mọi thứ schema.org có. Bảng dưới là bộ tối thiểu đội QHUB dùng cho một web bán hàng vừa và nhỏ.</p>
+<div class="kt-table"><table>
+<thead>
+<tr>
+<th>Loại schema</th>
+<th>Đặt ở trang nào</th>
+<th>Thuộc tính quan trọng</th>
+<th>Mức ưu tiên</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Organization</td>
+<td>Trang chủ, trang giới thiệu</td>
+<td>name, url, logo, contactPoint, sameAs, address</td>
+<td>Bắt buộc</td>
+</tr>
+<tr>
+<td>WebSite</td>
+<td>Trang chủ</td>
+<td>name, url</td>
+<td>Nên có</td>
+</tr>
+<tr>
+<td>Product + Offer</td>
+<td>Từng trang sản phẩm</td>
+<td>name, image, brand, sku, gtin13, offers (price, priceCurrency, availability)</td>
+<td>Bắt buộc</td>
+</tr>
+<tr>
+<td>OfferShippingDetails</td>
+<td>Trong Offer</td>
+<td>shippingRate, shippingDestination, deliveryTime</td>
+<td>Nên có</td>
+</tr>
+<tr>
+<td>MerchantReturnPolicy</td>
+<td>Trong Offer hoặc Organization</td>
+<td>returnPolicyCategory, merchantReturnDays, returnFees</td>
+<td>Nên có</td>
+</tr>
+<tr>
+<td>BreadcrumbList</td>
+<td>Mọi trang con</td>
+<td>itemListElement theo thứ tự cấp</td>
+<td>Nên có</td>
+</tr>
+<tr>
+<td>Article / BlogPosting</td>
+<td>Bài viết</td>
+<td>headline, author, datePublished, dateModified, image</td>
+<td>Bắt buộc với blog</td>
+</tr>
+<tr>
+<td>Person</td>
+<td>Trang tác giả</td>
+<td>name, jobTitle, sameAs</td>
+<td>Nên có nếu có tác giả thật</td>
+</tr>
+<tr>
+<td>FAQPage</td>
+<td>Trang có hỏi đáp</td>
+<td>mainEntity</td>
+<td>Tùy chọn từ 2026</td>
+</tr>
+<tr>
+<td>AggregateRating, Review</td>
+<td>Trang sản phẩm</td>
+<td>chỉ khi có đánh giá thật</td>
+<td>Không tự điền</td>
+</tr>
+</tbody>
+</table></div>
+<p>Về chính sách giao hàng và đổi trả, theo Pemavor (cập nhật 11/2025), Google đã bổ sung cách khai các chính sách này ở cấp tổ chức, không nhất thiết lặp lại trong từng sản phẩm. Website ít sản phẩm như của đội mình vẫn khai thẳng trong Offer cho chắc. Anh chị có nhiều sản phẩm có thể cân nhắc khai một lần ở Organization, rồi kiểm tra lại trong Search Console.</p>
+<h2 id="mau-json-ld-cho-trang-san-pham-vi-du-that-tu-qhub-herbal">Mẫu JSON-LD cho trang sản phẩm: ví dụ thật từ QHUB HERBAL</h2>
+<p>Các trang sản phẩm QHUB HERBAL trên qhub.com.vn, ví dụ <a href="/tra-duong-tam-an.html">Trà Dưỡng Tâm An</a>, đang khai Product, Offer, phí giao, chính sách đổi trả và Breadcrumb. Dưới đây là đoạn rút gọn, đúng cấu trúc đang chạy. Anh chị thay tên, giá, ảnh, đường dẫn của mình.</p>
+<pre><code class="language-json">{
+  &quot;@context&quot;: &quot;https://schema.org&quot;,
+  &quot;@type&quot;: &quot;Product&quot;,
+  &quot;name&quot;: &quot;Trà Dưỡng Tâm An&quot;,
+  &quot;image&quot;: [&quot;https://qhub.com.vn/g-dta-1.jpg&quot;],
+  &quot;description&quot;: &quot;Bốn vị tinh gọn: lạc tiên, tâm sen, đinh lăng, hoa cúc.&quot;,
+  &quot;brand&quot;: { &quot;@type&quot;: &quot;Brand&quot;, &quot;name&quot;: &quot;QHUB HERBAL&quot; },
+  &quot;category&quot;: &quot;Trà thảo mộc túi lọc&quot;,
+  &quot;offers&quot;: {
+    &quot;@type&quot;: &quot;Offer&quot;,
+    &quot;url&quot;: &quot;https://qhub.com.vn/tra-duong-tam-an.html&quot;,
+    &quot;priceCurrency&quot;: &quot;VND&quot;,
+    &quot;price&quot;: &quot;105000&quot;,
+    &quot;availability&quot;: &quot;https://schema.org/InStock&quot;,
+    &quot;itemCondition&quot;: &quot;https://schema.org/NewCondition&quot;,
+    &quot;shippingDetails&quot;: {
+      &quot;@type&quot;: &quot;OfferShippingDetails&quot;,
+      &quot;shippingRate&quot;: { &quot;@type&quot;: &quot;MonetaryAmount&quot;, &quot;value&quot;: &quot;0&quot;, &quot;currency&quot;: &quot;VND&quot; },
+      &quot;shippingDestination&quot;: { &quot;@type&quot;: &quot;DefinedRegion&quot;, &quot;addressCountry&quot;: &quot;VN&quot; }
+    },
+    &quot;hasMerchantReturnPolicy&quot;: {
+      &quot;@type&quot;: &quot;MerchantReturnPolicy&quot;,
+      &quot;applicableCountry&quot;: &quot;VN&quot;,
+      &quot;returnPolicyCategory&quot;: &quot;https://schema.org/MerchantReturnFiniteReturnWindow&quot;,
+      &quot;merchantReturnDays&quot;: 7
+    }
+  }
+}
+</code></pre>
+<p>Vài điều đội mình cân nhắc khi viết đoạn này:</p>
+<ul>
+<li><strong>Giá trong schema là giá bán 105.000đ</strong>, đúng con số hiển thị lớn nhất trên trang. Giá niêm yết 140.000đ chỉ hiện trên giao diện dạng giá gạch. Ưu đãi theo kênh (trên TikTok Shop và Shopee là mua 3 tặng 1, trên website qhubherbal.com là mua 2 tặng 1) được ghi bằng chữ trên trang, không nhét vào schema để tránh sai lệch.</li>
+<li><strong>Mô tả chỉ nói thành phần, không nói công dụng.</strong> Trà là thực phẩm thông thường. Thứ gì không được viết trên trang thì cũng không được viết trong schema.</li>
+<li><strong>Không có aggregateRating.</strong> Trang chưa có hệ thống đánh giá công khai, nên không khai số sao.</li>
+<li><strong>Có mã vạch thì khai gtin13.</strong> Ví dụ <a href="/tra-duong-nhan.html">Trà Dưỡng Nhan</a> có mã EAN-13 8936244311836, nên trường <code>gtin13</code> giúp Google ghép đúng sản phẩm giữa các nơi bán.</li>
+</ul>
+<h2 id="mau-schema-organization-va-breadcrumblist">Mẫu schema Organization và BreadcrumbList</h2>
+<p>Organization đặt ở trang chủ hoặc trang <a href="/gioi-thieu/">giới thiệu</a>. Đây là "chứng minh thư" của doanh nghiệp với máy.</p>
+<pre><code class="language-json">{
+  &quot;@context&quot;: &quot;https://schema.org&quot;,
+  &quot;@type&quot;: &quot;Organization&quot;,
+  &quot;@id&quot;: &quot;https://example.vn/#organization&quot;,
+  &quot;name&quot;: &quot;Tên công ty đầy đủ&quot;,
+  &quot;alternateName&quot;: &quot;Tên thương hiệu ngắn&quot;,
+  &quot;url&quot;: &quot;https://example.vn/&quot;,
+  &quot;logo&quot;: &quot;https://example.vn/logo.png&quot;,
+  &quot;contactPoint&quot;: {
+    &quot;@type&quot;: &quot;ContactPoint&quot;,
+    &quot;telephone&quot;: &quot;+84-xxx-xxx-xxx&quot;,
+    &quot;contactType&quot;: &quot;customer service&quot;,
+    &quot;areaServed&quot;: &quot;VN&quot;,
+    &quot;availableLanguage&quot;: &quot;vi&quot;
+  },
+  &quot;sameAs&quot;: [
+    &quot;https://www.facebook.com/ten-fanpage&quot;,
+    &quot;https://www.tiktok.com/@ten-kenh&quot;
+  ]
+}
+</code></pre>
+<p>Hai điểm hay sai: <code>alternateName</code> chỉ ghi tên người ta thật sự gọi thương hiệu, không nhồi từ khóa; <code>sameAs</code> chỉ trỏ tới kênh chính chủ đang hoạt động.</p>
+<p>BreadcrumbList mô tả đường dẫn từ trang chủ tới trang hiện tại:</p>
+<pre><code class="language-json">{
+  &quot;@context&quot;: &quot;https://schema.org&quot;,
+  &quot;@type&quot;: &quot;BreadcrumbList&quot;,
+  &quot;itemListElement&quot;: [
+    { &quot;@type&quot;: &quot;ListItem&quot;, &quot;position&quot;: 1, &quot;name&quot;: &quot;Trang chủ&quot;, &quot;item&quot;: &quot;https://example.vn/&quot; },
+    { &quot;@type&quot;: &quot;ListItem&quot;, &quot;position&quot;: 2, &quot;name&quot;: &quot;Trà thảo mộc&quot;, &quot;item&quot;: &quot;https://example.vn/tra/&quot; },
+    { &quot;@type&quot;: &quot;ListItem&quot;, &quot;position&quot;: 3, &quot;name&quot;: &quot;Tên sản phẩm&quot;, &quot;item&quot;: &quot;https://example.vn/tra/ten-san-pham/&quot; }
+  ]
+}
+</code></pre>
+<p>Thứ tự trong breadcrumb nên khớp với cấu trúc danh mục thật của website. Cách chia danh mục, trang trụ cột, cụm bài, đội mình đã viết trong bài <a href="/kien-thuc/cau-truc-website-chuan-seo-danh-muc-trang-tru-cot-cum-bai/">cấu trúc website chuẩn SEO</a>.</p>
+<h2 id="faqpage-nam-2026-con-ang-lam-khong">FAQPage năm 2026 còn đáng làm không?</h2>
+<p>Đây là câu nhiều anh chị hỏi nhất. Tóm tắt diễn biến:</p>
+<ul>
+<li>Năm 2023, Google thu hẹp kết quả FAQ dạng mở rộng, chỉ còn cho một số website chính phủ và y tế uy tín.</li>
+<li>Khoảng tháng 5/2026, theo Search Engine Roundtable và Search Engine Land, Google ngừng hẳn kết quả FAQ cho mọi website và bỏ báo cáo liên quan trong Search Console.</li>
+</ul>
+<p>Nghĩa là khai FAQPage không còn đem lại khối hỏi đáp xổ xuống trên Google. Nhưng phần hỏi đáp hiển thị trên trang vẫn có giá trị: người đọc tìm được câu trả lời nhanh, và các trợ lý AI thường trích những câu trả lời ngắn, rõ. Cách đội QHUB đang làm:</p>
+<ol>
+<li>Giữ phần hỏi đáp hiển thị ở cuối bài và trang sản phẩm, viết như người thật hỏi.</li>
+<li>Không coi FAQPage là việc ưu tiên. Website nào đã có sẵn thì để, miễn nội dung khai khớp với nội dung hiển thị.</li>
+<li>Dồn công sức vào Product, Organization, Article, là những loại vẫn được Google dùng.</li>
+</ol>
+<p>Hướng dẫn chính thức về loại này vẫn nằm trên Google Search Central, anh chị đọc bản mới nhất trước khi quyết định.</p>
+<h2 id="kiem-tra-schema-o-au-va-bao-lau-mot-lan">Kiểm tra schema ở đâu và bao lâu một lần?</h2>
+<div class="kt-table"><table>
+<thead>
+<tr>
+<th>Công cụ</th>
+<th>Dùng để làm gì</th>
+<th>Khi nào dùng</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Rich Results Test của Google</td>
+<td>Xem trang có đủ điều kiện cho kết quả nhiều định dạng không, báo lỗi và cảnh báo</td>
+<td>Mỗi khi sửa mẫu trang</td>
+</tr>
+<tr>
+<td>Schema Markup Validator (validator.schema.org)</td>
+<td>Kiểm tra cú pháp theo schema.org, kể cả loại Google không dùng</td>
+<td>Khi viết loại mới</td>
+</tr>
+<tr>
+<td>Search Console, mục Cải tiến</td>
+<td>Theo dõi lỗi trên toàn website theo thời gian</td>
+<td>Mỗi tuần một lần</td>
+</tr>
+<tr>
+<td>Xem mã nguồn trang</td>
+<td>Chắc chắn JSON-LD có trong HTML trả về, không chỉ sinh ra sau khi chạy JavaScript</td>
+<td>Sau mỗi lần đổi giao diện</td>
+</tr>
+</tbody>
+</table></div>
+<p>Nhịp đội mình áp dụng: sửa mẫu trang thì chạy Rich Results Test ngay với 2–3 trang đại diện; mỗi thứ Hai mở Search Console xem có lỗi mới không; mỗi lần đổi giá, đổi tình trạng hàng thì chắc chắn schema được cập nhật cùng lúc với giao diện.</p>
+<h2 id="loi-hay-gap-khi-lam-schema-website-ban-hang">Lỗi hay gặp khi làm schema website bán hàng</h2>
+<ul>
+<li><strong>Giá trong schema khác giá trên trang.</strong> Sửa giá trên giao diện nhưng quên khối JSON-LD viết tay. Google có thể bỏ qua hoặc đánh dấu trang không đáng tin.</li>
+<li><strong>Tự điền số sao và số đánh giá</strong> khi không có đánh giá thật. Đây là khai sai, rủi ro bị xử lý thủ công.</li>
+<li><strong>Khai nội dung không hiển thị.</strong> Ví dụ khai FAQPage với câu hỏi không có trên trang, hoặc khai mô tả sản phẩm khác hẳn mô tả người xem đọc.</li>
+<li><strong>Viết công dụng vào description của Product.</strong> Với thực phẩm, mỹ phẩm, lời gì không được nói trên trang thì cũng không được nói trong schema.</li>
+<li><strong>Thiếu priceCurrency hoặc viết giá có dấu chấm.</strong> Giá nên là số thuần như <code>105000</code>, đơn vị <code>VND</code>.</li>
+<li><strong>Hai plugin cùng sinh schema</strong> làm trang có hai khối Product mâu thuẫn. Kiểm tra mã nguồn để chỉ còn một nguồn.</li>
+<li><strong>Dùng <code>availability</code> InStock mãi</strong> dù đã hết hàng.</li>
+<li><strong>Quên <code>@id</code></strong> nên Organization ở trang chủ và seller trong Offer không nối được với nhau.</li>
+</ul>
+<p>Kinh nghiệm thực tế từ đội vận hành: website của đội QHUB sinh schema từ cùng một nguồn dữ liệu với giao diện. Giá, tên, ảnh nằm một chỗ, build ra cả trang lẫn JSON-LD. Nhờ vậy đổi giá một lần là cả hai cùng đổi. Nếu website của anh chị viết schema tay, hãy ghi vào quy trình: đổi giá trên trang thì đổi luôn trong khối JSON-LD.</p>
+<h2 id="viec-can-lam-ngay-tuan-nay">Việc cần làm ngay tuần này</h2>
+<ol>
+<li>Mở Rich Results Test, chạy thử trang chủ, một trang sản phẩm bán chạy và một bài viết. Ghi lại lỗi và cảnh báo.</li>
+<li>Kiểm tra Product có đủ name, image, brand, offers với price, priceCurrency, availability; bổ sung gtin13 nếu có mã vạch.</li>
+<li>Thêm phí giao hàng và chính sách đổi trả vào Offer, hoặc khai một lần ở Organization.</li>
+<li>Xóa aggregateRating nếu trang không có đánh giá thật.</li>
+<li>Rà Organization: tên, logo, liên hệ, sameAs trỏ đúng kênh chính chủ.</li>
+<li>Bật lịch kiểm tra Search Console mỗi thứ Hai.</li>
+</ol>
+<p>Các bài khác về website, SEO và GEO nằm trong chủ đề <a href="/kien-thuc/chu-de/website-seo/">website chuẩn SEO</a>. QHUB Commerce (qhub.com.vn) là đơn vị vận hành gian hàng đa sàn, có đội media, đội vận hành sàn, đội KOC và đội host livestream, và tự xây website cho chính thương hiệu trà của đội. Anh chị cần người cùng rà website bán hàng thì cứ trao đổi với đội.</p>
+</div>
+<section class="kt-faq" id="cau-hoi-thuong-gap"><h2>Câu hỏi thường gặp</h2><details><summary>Schema website là gì?</summary><p>Schema là một đoạn mã mô tả nội dung trang theo bộ từ vựng chung của schema.org, ví dụ đây là sản phẩm, giá bao nhiêu, thương hiệu nào. Người xem không thấy đoạn này, nhưng Google và các trợ lý AI đọc được. Cách viết Google khuyến nghị là JSON-LD đặt trong thẻ script.</p></details><details><summary>Website bán hàng nhỏ có cần schema không?</summary><p>Có, và không tốn nhiều công. Chỉ cần Organization ở trang chủ, Product kèm Offer ở trang sản phẩm, BreadcrumbList ở mọi trang con và Article ở bài viết là đã đủ phần cốt lõi. Nhiều nền tảng như WordPress với plugin SEO, Shopify, Haravan đã sinh sẵn một phần, anh chị chỉ cần kiểm tra và bổ sung.</p></details><details><summary>Còn nên dùng FAQPage không khi Google đã bỏ kết quả FAQ?</summary><p>Kết quả FAQ dạng mở rộng không còn hiện trên Google từ khoảng tháng 5/2026, theo Search Engine Roundtable. Nhưng phần hỏi đáp viết tốt vẫn giúp người đọc và giúp các trợ lý AI trích dẫn. Đội QHUB giữ phần hỏi đáp hiển thị trên trang; có khai FAQPage hay không là chuyện phụ, miễn nội dung khai khớp với nội dung hiển thị.</p></details><details><summary>Có nên tự thêm số sao đánh giá vào schema sản phẩm không?</summary><p>Chỉ khi trang thật sự có đánh giá của người mua, hiển thị công khai và đúng số lượng. Tự điền aggregateRating khi không có đánh giá là khai sai, vi phạm hướng dẫn của Google và có thể bị xử lý thủ công. Website mới chưa có đánh giá thì bỏ trống trường này.</p></details><details><summary>Schema có giúp ChatGPT hay Gemini nhắc tới thương hiệu không?</summary><p>Schema không phải công tắc bật lên là được nhắc. Nó giúp máy đọc đúng các dữ kiện như tên công ty, sản phẩm, giá, liên hệ và liên kết các kênh với nhau. Kết hợp với nội dung rõ ràng và được nơi khác nhắc tới, đây là một phần nền của GEO.</p></details></section>
+<section class="kt-src"><h2>Nguồn tham khảo</h2><ul><li><a href="https://www.seroundtable.com/google-drops-faq-rich-results-41298.html" target="_blank" rel="noopener nofollow">Google Search Drops FAQ Rich Results In Search &amp; Search Console – Search Engine Roundtable</a></li><li><a href="https://searchengineland.com/google-to-no-longer-support-faq-rich-results-476957" target="_blank" rel="noopener nofollow">Google to no longer support FAQ rich results – Search Engine Land</a></li><li><a href="https://developers.google.com/search/docs/appearance/structured-data/faqpage" target="_blank" rel="noopener nofollow">FAQ (FAQPage, Question, Answer) structured data – Google Search Central</a></li><li><a href="https://searchengineland.com/faq-schema-rise-fall-seo-today-463993" target="_blank" rel="noopener nofollow">The rise and fall of FAQ schema – and what it means for SEO today – Search Engine Land</a></li><li><a href="https://www.pemavor.com/?p=28384" target="_blank" rel="noopener nofollow">New Ways to Add Shipping &amp; Return Policies in Google Search (November 2025 Update) – Pemavor</a></li></ul></section>
+<aside class="kt-author">
+  <img class="kt-av" src="/quang-avatar-240.jpg" alt="Nguyễn Văn Quang" width="56" height="56" loading="lazy">
+  <div>
+    <p class="kt-by">Người viết</p>
+    <h2><a href="/tac-gia/nguyen-van-quang/">Nguyễn Văn Quang</a></h2>
+    <p class="kt-role">Founder &amp; CEO, QHUB Commerce</p>
+    <p>Đi lên từ bán hàng thị trường, qua trade marketing, brand marketing đến vận hành thương mại điện tử cho các doanh nghiệp đồ uống, thực phẩm và hàng tiêu dùng. Trực tiếp vận hành gian hàng trên Shopee, TikTok Shop, Facebook, Lazada, Tiki và Website.</p>
+  </div>
+</aside>
+<aside class="kt-cta">
+  <img src="/logo-qhub.png" alt="" width="64" height="64">
+  <div>
+    <h2>Cần người ngồi vào vận hành cùng anh chị?</h2>
+    <p>QHUB Commerce là Phòng Tăng Trưởng Thuê Ngoài cho doanh nghiệp bán hàng đa sàn. Đội QHUB trực tiếp vận hành TikTok Shop, Shopee, Facebook và Website: nội dung, livestream, affiliate, quảng cáo, dữ liệu. Buổi chẩn đoán đầu tiên 60 phút, miễn phí.</p>
+    <a class="btn btn-primary" href="/#dat-lich">Đặt lịch chẩn đoán miễn phí</a>
+    <a class="kt-cta-link" href="https://zalo.me/0856510113" target="_blank" rel="noopener">Hoặc nhắn Zalo 0856 510 113</a>
+  </div>
+</aside>
+</article>
+<section class="kt-rel"><h2>Đọc tiếp</h2><div class="kt-grid"><article class="kt-card"><a href="/kien-thuc/tieu-de-va-mo-ta-trang-title-meta-description-chuan/"><span class="kt-tag">Website chuẩn SEO</span><h3>Tiêu đề và mô tả trang (title, meta description) viết sao cho chuẩn</h3><p>Cách viết title meta description chuẩn: Google hiển thị và viết lại thế nào, độ dài theo pixel, công thức cho từng loại trang, lỗi hay gặp và cách đo CTR.</p><span class="kt-meta">18/11/2026 · 13 phút đọc</span></a></article><article class="kt-card"><a href="/kien-thuc/viet-bai-chuan-seo-ma-nguoi-doc-van-thich/"><span class="kt-tag">Website chuẩn SEO</span><h3>Viết bài chuẩn SEO mà người đọc vẫn thích</h3><p>Viết bài chuẩn SEO năm 2026 theo hướng dẫn nội dung hữu ích của Google: quy trình 7 bước, đặt từ khóa đúng chỗ, E-E-A-T, AI Overviews và ví dụ thật.</p><span class="kt-meta">17/11/2026 · 12 phút đọc</span></a></article><article class="kt-card"><a href="/kien-thuc/nghien-cuu-tu-khoa-cho-website-doanh-nghiep/"><span class="kt-tag">Website chuẩn SEO</span><h3>Nghiên cứu từ khóa cho website doanh nghiệp</h3><p>Nghiên cứu từ khóa cho website doanh nghiệp: quy trình 7 bước, công cụ miễn phí và trả phí, phân loại ý định tìm kiếm, gom cụm chủ đề và bảng mẫu dùng ngay.</p><span class="kt-meta">16/11/2026 · 13 phút đọc</span></a></article><article class="kt-card"><a href="/kien-thuc/cau-truc-website-chuan-seo-danh-muc-trang-tru-cot-cum-bai/"><span class="kt-tag">Website chuẩn SEO</span><h3>Cấu trúc website chuẩn SEO: danh mục, trang trụ cột, cụm bài</h3><p>Cấu trúc website SEO gồm trang chủ, danh mục, trang trụ cột và cụm bài nối nhau bằng liên kết nội bộ. Hướng dẫn theo Google, kèm sơ đồ mẫu và ví dụ thật.</p><span class="kt-meta">16/11/2026 · 12 phút đọc</span></a></article></div></section>
+</div>
+</main>
+<footer class="footer">
+  <div class="wrap">
+    <div>
+      <h4>CÔNG TY TNHH QHUB COMMERCE</h4>
+      <p class="legal-info">Giấy CN ĐKDN số 5400570349 do Phòng Đăng ký kinh doanh – Sở Tài chính tỉnh Phú Thọ cấp lần đầu ngày 13/04/2026</p>
+      <p>Người đại diện theo pháp luật: Nguyễn Văn Quang</p>
+      <p>Trụ sở: Khu Vai, Xã An Nghĩa, Tỉnh Phú Thọ, Việt Nam</p>
+      <p>Hotline/Zalo: <a href="tel:0856510113">0856 510 113</a></p>
+      <p>Email: <a href="mailto:qhubcommerce@gmail.com">qhubcommerce@gmail.com</a></p>
+    </div>
+    <div>
+      <h4>Kiến thức</h4>
+      <ul><li><a href="/kien-thuc/chu-de/tiktok/">Xây kênh TikTok</a></li><li><a href="/kien-thuc/chu-de/content-tiktok/">Content TikTok</a></li><li><a href="/kien-thuc/chu-de/tiktok-shop/">TikTok Shop căn bản</a></li><li><a href="/kien-thuc/chu-de/van-hanh-tiktok-shop/">Vận hành TikTok Shop</a></li><li><a href="/kien-thuc/chu-de/quang-cao-tiktok/">Quảng cáo TikTok &amp; GMV Max</a></li><li><a href="/kien-thuc/chu-de/phi-san-tiktok-shop/">Phí sàn TikTok Shop</a></li><li><a href="/kien-thuc/chu-de/van-hanh-shopee/">Vận hành Shopee</a></li><li><a href="/kien-thuc/chu-de/quang-cao-shopee/">Quảng cáo Shopee</a></li></ul>
+    </div>
+    <div>
+      <h4>&nbsp;</h4>
+      <ul><li><a href="/kien-thuc/chu-de/phi-san-shopee/">Phí sàn Shopee</a></li><li><a href="/kien-thuc/chu-de/ban-hang-facebook/">Bán hàng Facebook</a></li><li><a href="/kien-thuc/chu-de/youtube/">Xây kênh YouTube</a></li><li><a href="/kien-thuc/chu-de/instagram/">Phát triển Instagram</a></li><li><a href="/kien-thuc/chu-de/threads/">Phát triển Threads</a></li><li><a href="/kien-thuc/chu-de/website-seo/">Website chuẩn SEO</a></li><li><a href="/kien-thuc/chu-de/lich-sale/">Lịch sale &amp; chiến dịch</a></li><li><a href="/gioi-thieu/">Giới thiệu QHUB</a></li><li><a href="/dich-vu/">Dịch vụ</a></li><li><a href="/chinh-sach.html">Chính sách</a></li></ul>
+    </div>
+    <div class="legal"><span>© 2026 QHUB Commerce.</span><span>qhub.com.vn</span></div>
+  </div>
+</footer>
+<div class="float" aria-label="Liên hệ nhanh">
+  <a class="zalo" href="https://zalo.me/0856510113" target="_blank" rel="noopener" aria-label="Nhắn Zalo cho QHUB">Zalo</a>
+  <a class="call" href="tel:0856510113" aria-label="Gọi hotline QHUB"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 005 5L15 13l5 2v4a2 2 0 01-2 2A16 16 0 013 6a2 2 0 012-2"/></svg></a>
+</div>
+<script src="/kien-thuc.js?v=20261113f" defer></script>
+</body>
+</html>

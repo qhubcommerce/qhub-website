@@ -725,3 +725,135 @@ products: xau-ho-tim-tam-sen
 Bay xa qua nhiều múi giờ dễ làm rối nhịp ngủ. Bài viết hướng dẫn cách điều chỉnh trước, trong và sau chuyến bay.
 
 [[buy:xau-ho-tim-tam-sen]]
+
++++
+slug: cach-pha-tra-hoa-hong-kho-thom-ngon-khong
+title: Cách pha trà hoa hồng khô thơm ngon, không bị chát
+desc: Cách pha trà hoa hồng khô thơm ngon, không bị chát: chọn nụ hồng, nhiệt độ nước, thời gian hãm, tỷ lệ, cách phối táo đỏ, kỷ tử và những lưu ý khi uống.
+cat: thao-moc
+date: 2026-11-18
+products: duong-nhan
++++
+Trà hoa hồng khô dễ bị chát hoặc nhạt nếu pha sai. Bài viết hướng dẫn chọn nụ, nhiệt độ nước, thời gian hãm và cách phối vị.
+
+[[buy:duong-nhan]]
+
++++
+slug: tra-duong-nhan-vi-the-nao
+title: Trà Dưỡng Nhan vị thế nào? Có ngọt không, có đắng không
+desc: Trà Dưỡng Nhan vị thế nào: hương hoa hồng, hoa nhài, vị ngọt dịu từ táo đỏ, kỷ tử, cỏ ngọt, có đắng không, cách pha để hợp khẩu vị và ai nên lưu ý.
+cat: san-pham
+date: 2026-11-18
+products: duong-nhan
++++
+Mô tả chi tiết hương vị Trà Dưỡng Nhan theo từng vị thành phần, cách pha đậm nhạt và những ai cần lưu ý trước khi dùng.
+
+[[buy:duong-nhan]]
+
++++
+slug: them-ngot-khi-cang-thang
+title: Thèm ngọt khi căng thẳng: vì sao và làm gì để bớt
+desc: Thèm ngọt khi căng thẳng vì sao? Vai trò của cortisol, giấc ngủ, thói quen thưởng bằng đồ ngọt và cách bớt thèm: ăn đủ bữa, đạm, ngủ đủ, đồ uống không đường.
+cat: cam-nang
+date: 2026-11-18
+products: duong-nhan
++++
+Căng thẳng dễ khiến ta tìm đến đồ ngọt. Bài viết giải thích cơ chế và gợi ý cách bớt thèm ngọt bền vững.
+
+[[buy:duong-nhan]]
+
++++
+slug: gao-lut-rang-dinh-duong-va-cach-dung
+title: Gạo lứt rang: dinh dưỡng và cách dùng
+desc: Gạo lứt rang có dinh dưỡng gì, khác gạo trắng ra sao, nước gạo lứt rang pha thế nào, uống bao nhiêu là vừa, lưu ý asen và người có bệnh thận, tiêu hóa.
+cat: cam-nang
+date: 2026-11-18
+products: la-oi-mix-la-sen
++++
+Gạo lứt rang là nguyên liệu quen thuộc trong nước uống dân gian. Bài viết tóm tắt dinh dưỡng, cách rang, cách pha và lưu ý.
+
+[[buy:la-oi-mix-la-sen]]
+
++++
+slug: chanh-niem-mindfulness-bang-chung-khoa-hoc
+title: Chánh niệm (mindfulness): bằng chứng khoa học
+desc: Chánh niệm (mindfulness) là gì, bằng chứng khoa học về MBSR, MBCT với căng thẳng, lo âu, giấc ngủ đến đâu, cách bắt đầu đơn giản và khi nào cần gặp chuyên gia.
+cat: cam-nang
+date: 2026-11-18
+products: duong-tam-an
++++
+Chánh niệm được nghiên cứu nhiều trong vài thập kỷ qua. Bài viết tóm tắt bằng chứng khoa học và cách thực hành đơn giản.
+
+[[buy:duong-tam-an]]
+
++++
+slug: thien-cho-nguoi-ban-ron-bat-dau-tu-3
+title: Thiền cho người bận rộn: bắt đầu từ 3 phút
+desc: Thiền cho người bận rộn bắt đầu từ 3 phút: bài thở, quét cơ thể, thiền đi bộ, lịch 4 tuần, cách duy trì thói quen và những lưu ý cho người có vấn đề sức khỏe tâm thần.
+cat: cam-nang
+date: 2026-11-18
+products: duong-tam-an
++++
+Không cần một giờ mỗi ngày, thiền có thể bắt đầu từ 3 phút. Bài viết gợi ý các bài tập ngắn và lịch tập cho người bận rộn.
+
+[[buy:duong-tam-an]]
+
++++
+slug: vang-da-ngua-da-nuoc-tieu-sam-khi-nao
+title: Vàng da, ngứa da, nước tiểu sẫm: khi nào nghĩ đến bệnh gan
+desc: Vàng da, ngứa da, nước tiểu sẫm màu có phải bệnh gan? Nguyên nhân thường gặp, dấu hiệu cảnh báo, xét nghiệm bilirubin, men gan và khi nào cần đi khám ngay.
+cat: cam-nang
+date: 2026-11-18
+products: ca-gai-diep-ha-chau
++++
+Vàng da, ngứa da, nước tiểu sẫm có thể liên quan đến gan, mật hoặc máu. Bài viết giúp nhận biết dấu hiệu và khi nào cần đi khám.
+
+[[buy:ca-gai-diep-ha-chau]]
+
++++
+slug: viem-gan-b-c-nhung-dieu-can-biet-va
+title: Viêm gan B, C: những điều cần biết và vì sao trà không thể thay thế điều trị
+desc: Viêm gan B, C lây thế nào, xét nghiệm gì, vắc xin viêm gan B, thuốc kháng virus, theo dõi định kỳ và vì sao trà thảo mộc không thể thay thế điều trị theo bác sĩ.
+cat: cam-nang
+date: 2026-11-18
+products: ca-gai-diep-ha-chau
++++
+Viêm gan B, C là bệnh do virus cần theo dõi và điều trị theo bác sĩ. Bài viết tóm tắt những điều cần biết.
+
+[[buy:ca-gai-diep-ha-chau]]
+
++++
+slug: uong-nuoc-buoi-toi-the-nao-de-bot-tieu
+title: Uống nước buổi tối thế nào để bớt tiểu đêm
+desc: Uống nước buổi tối thế nào để bớt tiểu đêm: phân bổ nước trong ngày, giờ ngừng uống, hạn chế caffeine, rượu, nhật ký đi tiểu và khi nào tiểu đêm cần đi khám.
+cat: cam-nang
+date: 2026-11-18
+products: nam-vuong
++++
+Tiểu đêm làm gián đoạn giấc ngủ. Bài viết hướng dẫn phân bổ nước uống trong ngày và khi nào cần đi khám.
+
+[[buy:nam-vuong]]
+
++++
+slug: ngu-nuong-cuoi-tuan-co-bu-duoc-thieu-ngu
+title: Ngủ nướng cuối tuần có bù được thiếu ngủ không
+desc: Ngủ nướng cuối tuần có bù được thiếu ngủ trong tuần không? Nghiên cứu về nợ ngủ, social jetlag, nhịp sinh học và cách ngủ bù hợp lý mà không làm rối giờ ngủ.
+cat: cam-nang
+date: 2026-11-18
+products: xau-ho-tim-tam-sen
++++
+Nhiều người thức khuya cả tuần rồi ngủ bù cuối tuần. Bài viết tổng hợp nghiên cứu về nợ ngủ và cách ngủ bù hợp lý.
+
+[[buy:xau-ho-tim-tam-sen]]
+
++++
+slug: kinh-nguyet-mau-den-nau-co-cuc-y-nghia
+title: Kinh nguyệt màu đen, nâu, có cục: ý nghĩa thế nào
+desc: Kinh nguyệt màu đen, nâu, đỏ tươi, hồng nhạt hay có cục máu đông nói lên điều gì? Khi nào là bình thường, khi nào là dấu hiệu cần đi khám phụ khoa.
+cat: cam-nang
+date: 2026-11-18
+products: ngay-dau-ve
++++
+Màu sắc máu kinh thay đổi trong kỳ là bình thường ở nhiều người. Bài viết giải thích ý nghĩa và dấu hiệu cần đi khám.
+
+[[buy:ngay-dau-ve]]

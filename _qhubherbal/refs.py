@@ -688,6 +688,175 @@ RULES[:0] = [
 ]
 
 
+# Đêm 7 (18/11/2026): cụm đặc thù đặt lên đầu RULES (URL lấy từ kết quả WebSearch)
+NEW_RULES = []
+# Đề xuất nguồn – đêm 7 – Trà Cà Gai – Diệp Hạ Châu (prefix dhc7_)
+# Mọi URL lấy từ kết quả WebSearch (không mở bằng WebFetch/curl).
+
+# 1. vang-da-ngua-da-nuoc-tieu-sam-khi-nao
+SRC['dhc7_vangda'] = [
+    ('NHS – Jaundice (Vàng da ở người lớn: triệu chứng, nguyên nhân, khi nào cần đi khám)', 'https://www.nhs.uk/conditions/jaundice/'),
+    ('Merck Manual Professional – Jaundice (Tiếp cận người bệnh vàng da: cơ chế bilirubin, xét nghiệm)', 'https://www.merckmanuals.com/en-ca/professional/hepatic-and-biliary-disorders/approach-to-the-patient-with-liver-disease/jaundice'),
+    ('StatPearls – Jaundice (Vàng da: phân loại trước gan, tại gan, sau gan), NCBI Bookshelf', 'https://ncbi.nlm.nih.gov/books/NBK544252/'),
+    ('Navarro VJ và cộng sự (2014) – Liver injury from herbals and dietary supplements in the U.S. Drug-Induced Liver Injury Network, Hepatology', 'https://pubmed.ncbi.nlm.nih.gov/25043597/'),
+    ('American Liver Foundation – Gilbert Syndrome (Hội chứng Gilbert: tình trạng lành tính gây tăng bilirubin gián tiếp)', 'https://liverfoundation.org/liver-diseases/rare-disease/gilbert-syndrome/'),
+]
+NEW_RULES.append(('dhc7_vangda', ['vàng da', 'bilirubin', 'ứ mật', 'nước tiểu sẫm', 'phân bạc màu', 'tắc mật', 'gilbert', 'đường mật'], 70))
+
+# 2. uong-tra-ca-gai-leo-luc-nao
+SRC['dhc7_uongtra'] = [
+    ('BfR (Viện Đánh giá Rủi ro Liên bang Đức) – Boiling water a must for herbal teas (Trà thảo mộc nên pha bằng nước sôi)', 'https://www.bfr.bund.de/en/press-release/boiling-water-a-must-for-herbal-teas/'),
+    ('Continence Foundation of Australia – Caring for your bladder at night (Tiểu đêm: phân bổ lượng nước uống trong ngày)', 'https://www.continence.org.au/about-incontinence/urinary-incontinence/nocturia/caring-for-your-bladder-at-night-nocturia/'),
+    ('Vietnam Journal of Science and Technology – Studies on hepatoprotective effects of Vietnamese medicinal plants (Tổng quan nghiên cứu cây thuốc Việt Nam, trong đó có cà gai leo)', 'https://vjs.ac.vn/index.php/jst/article/view/17426'),
+    ('Xia Y, Luo H, Liu JP, Gluud C (2011) – Phyllanthus species for chronic hepatitis B virus infection, Cochrane', 'https://www.cochrane.org/evidence/CD008960_phyllanthus-species-chronic-hepatitis-b-virus-infection'),
+]
+NEW_RULES.append(('dhc7_uongtra', ['pha nóng', 'nước sôi', 'ủ 5 phút', 'túi trà', 'pha bình', 'trà đã pha', '95–100 °c', 'pha trà', 'lúc nào', 'trà cà gai leo'], 34))
+
+# 3. viem-gan-b-c-nhung-dieu-can-biet-va
+SRC['dhc7_viemganbc'] = [
+    ('WHO (2024) – WHO sounds alarm on viral hepatitis infections claiming 3500 lives each day (Báo cáo Viêm gan Toàn cầu 2024)', 'https://www.paho.org/en/news/10-4-2024-who-sounds-alarm-viral-hepatitis-infections-claiming-3500-lives-each-day'),
+    ('WHO – Hepatitis B fact sheet (Viêm gan B: đường lây, vắc xin liều sơ sinh, thuốc kháng virus)', 'https://www.who.int/news-room/fact-sheets/detail/hepatitis-b'),
+    ('WHO Việt Nam – Hepatitis C fact sheet (Viêm gan C: xét nghiệm, thuốc kháng virus tác động trực tiếp)', 'https://www.who.int/vietnam/news/fact-sheets/detail/hepatitis-c'),
+    ('WHO (28/04/2026) – Efforts to eliminate hepatitis delivers gains but more action needed to meet 2030 targets', 'https://www.who.int/news/item/28-04-2026-efforts-to-eliminate-hepatitis-delivers-gains-but-more-action-needed-to-meet-2030-targets'),
+    ('CDC – Clinical Care of Hepatitis C (Chăm sóc lâm sàng viêm gan C)', 'https://www.cdc.gov/hepatitis-c/hcp/clinical-care/index.html'),
+]
+NEW_RULES.append(('dhc7_viemganbc', ['viêm gan b', 'viêm gan c', 'hbsag', 'hbv dna', 'hcv rna', 'anti-hcv', 'vắc xin', 'kháng virus'], 75))
+# Đề xuất nguồn – Trà Dưỡng Nhan, đêm 7 (prefix dn7_). Mọi URL lấy từ kết quả WebSearch.
+SRC['dn7_phahoahong'] = [('BfR (Viện Đánh giá Rủi ro Liên bang Đức) (2005) – Boiling water a must for herbal teas (Khuyến cáo pha trà thảo mộc bằng nước sôi để hạn chế rủi ro vi khuẩn)', 'https://www.bfr.bund.de/en/press-release/boiling-water-a-must-for-herbal-teas/'), ('Soares S., Brandão E., Mateus N., de Freitas V. (2017) – Sensorial properties of red wine polyphenols: Astringency and bitterness (Cơ chế cảm giác chát: polyphenol gắn protein nước bọt)', 'https://www.peeref.com/works/368586'), ('University of Illinois Extension (2018) – The incredible edible rose (Hoa hồng ăn được: phần gốc cánh trắng có vị đắng)', 'https://extension.illinois.edu/blogs/ilriverhort/2018-06-22-incredible-edible-rose'), ('Colorado State University Extension – Edible Flowers (Hoa ăn được: không dùng hoa từ tiệm hoa, vườn ươm)', 'https://extension.colostate.edu/resource/edible-flowers'), ('Cai W. và cộng sự (2024) – Functional Nutrients and Jujube-Based Processed Products in Ziziphus jujuba (Táo đỏ sấy khô chứa khoảng 63–76% đường), Molecules', 'https://mdpi-res.com/d_attachment/molecules/molecules-29-03437/article_deploy/molecules-29-03437.pdf')]
+NEW_RULES.append(('dn7_phahoahong', ['pha trà hoa hồng', 'nụ hồng', 'chát', 'bfr', 'tanin', 'nước vừa sôi', 'lượng nụ', 'nụ khô'], 40))
+
+SRC['dn7_vidn'] = [('Hellfritsch C., Brockhoff A., Stähler F., Meyerhof W., Hofmann T. (2012) – Human psychometric and taste receptor responses to steviol glycosides (Steviol glycoside kích hoạt cả thụ thể ngọt và thụ thể đắng hTAS2R4, hTAS2R14), Journal of Agricultural and Food Chemistry', 'https://portal.fis.tum.de/en/publications/human-psychometric-and-taste-receptor-responses-to-steviol-glycos/'), ('FDA (Cục Quản lý Thực phẩm và Dược phẩm Hoa Kỳ) – High-Intensity Sweeteners (Steviol glycoside ngọt gấp khoảng 200–400 lần đường)', 'https://www.fda.gov/food/food-additives-petitions/high-intensity-sweeteners'), ('Liu C.H. và cộng sự (2023) – Sugar labeling information and online marketing strategies for hand-shaken tea drinks in northern Taiwan (1.581 ly trà pha lắc: trà sữa trung vị khoảng 52 g đường/ly), Frontiers in Nutrition', 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10682441/'), ('BfR (Viện Đánh giá Rủi ro Liên bang Đức) (2005) – Boiling water a must for herbal teas (Pha trà thảo mộc bằng nước sôi)', 'https://www.bfr.bund.de/en/press-release/boiling-water-a-must-for-herbal-teas/')]
+NEW_RULES.append(('dn7_vidn', ['vị ngọt', 'đắng', 'hellfritsch', 'hương hoa', 'khẩu vị', 'ngọt nhẹ'], 42))
+
+SRC['dn7_cangthangngot'] = [('Harvard Health Publishing – Why stress causes people to overeat (Căng thẳng cấp làm giảm thèm ăn, căng thẳng kéo dài tăng cortisol và thèm ăn)', 'https://www.health.harvard.edu/staying-healthy/why-stress-causes-people-to-overeat'), ('American Psychological Association (2013) – Stress in America: Eating (38% người trưởng thành ăn quá nhiều hoặc ăn đồ kém lành mạnh vì căng thẳng trong tháng qua)', 'https://www.apa.org/news/press/releases/stress/2013/eating'), ('Yau Y.H.C., Potenza M.N. (2013) – Stress and eating behaviors (Căng thẳng, hệ phần thưởng và hành vi ăn uống), Minerva Endocrinologica', 'https://pmc.ncbi.nlm.nih.gov/articles/PMC4214609/'), ("King's College London (2018) – Sleeping for longer leads to a healthier diet (Thử nghiệm kéo dài giấc ngủ: giảm khoảng 10 g đường tự do mỗi ngày; Al Khatib và cộng sự, American Journal of Clinical Nutrition)", 'https://www.kcl.ac.uk/news/sleeping-for-longer-leads-to-a-healthier-diet-2'), ('NIDDK (NIH) – Symptoms & Causes of Binge Eating Disorder (Dấu hiệu rối loạn ăn uống vô độ)', 'https://www.niddk.nih.gov/health-information/weight-management/binge-eating-disorder/symptoms-causes')]
+NEW_RULES.append(('dn7_cangthangngot', ['thèm ngọt', 'đói cảm xúc', 'dallman', 'al khatib', 'stress in america', 'yau', 'đồ ăn an ủi', 'ăn quá nhiều'], 14))
+# Đề xuất nguồn – đêm 7, sản phẩm duong-tam-an (prefix dta7_). URL lấy từ kết quả WebSearch, không mở bằng WebFetch.
+
+SRC['dta7_chanhniem'] = [
+    ('Goyal M và cộng sự (2014) – Meditation programs for psychological stress and well-being: a systematic review and meta-analysis (Phân tích tổng hợp các chương trình thiền với căng thẳng, lo âu, trầm cảm, đau), JAMA Internal Medicine (PubMed)', 'https://pubmed.ncbi.nlm.nih.gov/24395196/'),
+    ('Đại học Oxford (2016) – Mindfulness-based cognitive therapy linked to reduced depressive relapse risk (Kuyken và cộng sự, JAMA Psychiatry: MBCT và nguy cơ tái phát trầm cảm)', 'https://www.psych.ox.ac.uk/news/mindfulness-based-cognitive-therapy-linked-to-reduced-depressive-relapse-risk'),
+    ('NICE – Depression in adults (NG222): Preventing relapse (Hướng dẫn phòng tái phát trầm cảm, có liệu pháp nhóm dựa trên chánh niệm)', 'https://www.nice.org.uk/guidance/ng222/resources/preventing-relapse-pdf-11131007008'),
+    ('Farias M và cộng sự (2020) – Adverse events in meditation practices and meditation-based therapies: a systematic review (Tác dụng không mong muốn của thiền), Acta Psychiatrica Scandinavica (PubMed)', 'https://pubmed.ncbi.nlm.nih.gov/32820538/'),
+    ('Hilton L và cộng sự (2017) – Mindfulness Meditation for Chronic Pain: Systematic Review and Meta-analysis (Thiền chánh niệm với đau mạn tính), Annals of Behavioral Medicine (PMC)', 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5368208/'),
+]
+SRC['dta7_stresscv'] = [
+    ('WHO và ILO (2022) – WHO and ILO call for new measures to tackle mental health issues at work (12 tỷ ngày công mất mỗi năm do trầm cảm, lo âu)', 'https://www.who.int/europe/news/item/28-09-2022-who-and-ilo-call-for-new-measures-to-tackle-mental-health-issues-at-work'),
+    ('WHO (2022) – Mental health at work: WHO guidelines (Hướng dẫn về sức khỏe tâm thần nơi làm việc) (PMC)', 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10168149/'),
+    ('Gallup – State of the Global Workplace (Báo cáo toàn cầu về mức gắn kết và cảm xúc của người lao động)', 'https://www.gallup.com/workplace/697904/state-of-the-global-workplace-global-data.aspx'),
+    ('Albulescu P và cộng sự (2022) – Phân tích tổng hợp về micro-break (Hiệu quả của các quãng nghỉ ngắn trong giờ làm), PLOS ONE (DOAJ)', 'https://doaj.org/article/c6f37b6ba159469296b2cb968b65505f'),
+    ('WHO – Stress: Questions and answers (Căng thẳng là gì, khi nào cần hỗ trợ)', 'https://www.who.int/news-room/questions-and-answers/item/stress'),
+]
+SRC['dta7_thienngan'] = [
+    ('Basso JC và cộng sự (2019) – Brief, daily meditation enhances attention, memory, mood, and emotional regulation in non-experienced meditators (Thiền ngắn 13 phút mỗi ngày ở người mới tập), Behavioural Brain Research (PubMed)', 'https://pubmed.ncbi.nlm.nih.gov/30153464/'),
+    ('Mindful.org – The Three-Minute Breathing Space Practice (Hướng dẫn bài thở 3 phút trong MBCT)', 'https://www.mindful.org/the-three-minute-breathing-space-practice/'),
+    ('Harvard Gazette (2010) – Wandering mind not a happy mind (Killingsworth & Gilbert, Science: tâm trí lang thang gần nửa thời gian thức)', 'https://news.harvard.edu/gazette/story/2010/11/wandering-mind-not-a-happy-mind/'),
+    ('NCCIH (NIH) – Meditation and Mindfulness: Effectiveness and Safety (Hiệu quả và an toàn của thiền, chánh niệm)', 'https://www.nccih.nih.gov/health/meditation-and-mindfulness-effectiveness-and-safety'),
+    ('The Effect of Walking on Depressive and Anxiety Symptoms: Systematic Review and Meta-Analysis (2024, Đi bộ và triệu chứng trầm cảm, lo âu), JMIR Public Health and Surveillance (PMC)', 'https://pmc.ncbi.nlm.nih.gov/articles/PMC11287235/'),
+]
+
+NEW_RULES.append(('dta7_chanhniem', ['mbct', 'mbsr', 'goyal', 'kuyken', 'farias', 'hoge'], 20))   # bài này 33, bài khác cao nhất 9 (thien-cho-nguoi-ban-ron 8)
+NEW_RULES.append(('dta7_stresscv', ['stress công việc', 'micro-break', '20-20-20', 'nghỉ ngắn', 'quy tắc 20', 'albulescu'], 15))   # bài này 32, bài khác cao nhất 6
+NEW_RULES.append(('dta7_thienngan', ['bài thở 3 phút', 'quét cơ thể', 'thiền đi bộ', 'tâm lang thang', 'lịch tập', 'thói quen sẵn có'], 20))   # bài này 33, bài khác cao nhất 3
+# Đề xuất nguồn – đêm 7 – sản phẩm la-oi-mix-la-sen (prefix loi7_)
+# URL lấy từ kết quả WebSearch (không mở bằng WebFetch/curl).
+
+# Bài: an-khong-tieu-buoi-toi
+SRC['loi7_khotieutoi'] = [
+    ('Fujiwara và cộng sự (2005), Am J Gastroenterol – Khoảng cách bữa tối đến giờ ngủ và trào ngược dạ dày – thực quản', 'https://pubmed.ncbi.nlm.nih.gov/16393212/'),
+    ('ACG & CAG (2017) – Hướng dẫn lâm sàng xử trí khó tiêu', 'https://pubmed.ncbi.nlm.nih.gov/28631728/'),
+    ('Goo và cộng sự (1987), Gastroenterology – Biến đổi theo nhịp ngày đêm của tốc độ làm rỗng dạ dày', 'https://pubmed.ncbi.nlm.nih.gov/3609660/'),
+    ('Ford và cộng sự (2015), Gut – Tỷ lệ khó tiêu chưa thăm khám trên toàn cầu (phân tích gộp)', 'https://eprints.whiterose.ac.uk/84127/'),
+    ('NICE QS96 – Tiêu chí nội soi khẩn ở người khó tiêu, trào ngược', 'https://www.nice.org.uk/guidance/qs96/chapter/Quality-statement-2-Urgent-endoscopy'),
+]
+NEW_RULES.append(('loi7_khotieutoi', ['bữa tối', 'khó tiêu', 'giờ ngủ', 'trào ngược', 'nằm'], 58))
+
+# Bài: gao-lut-rang-dinh-duong-va-cach-dung
+SRC['loi7_gaolut'] = [
+    ('Harvard Health – So sánh gạo lứt và gạo trắng', 'https://www.health.harvard.edu/nutrition/brown-rice-versus-white-rice-a-head-to-head-comparison'),
+    ('Harvard T.H. Chan (2010) – Gạo trắng, gạo lứt và nguy cơ tiểu đường típ 2 (Sun và cộng sự)', 'https://www.hsph.harvard.edu/news/press-releases/white-rice-brown-rice-whole-grains-diabetes'),
+    ('FDA – Đánh giá rủi ro asen trong gạo và sản phẩm từ gạo', 'https://www.fda.gov/Food/FoodScienceResearch/RiskSafetyAssessment/ucm485278.htm'),
+    ('FDA (2020) – Mức hành động asen vô cơ trong bột ngũ cốc gạo cho trẻ nhũ nhi', 'https://www.fda.gov/food/cfsan-constituent-updates/fda-issues-final-guidance-industry-action-level-inorganic-arsenic-infant-rice-cereals'),
+    ('DaVita – Gạo trong chế độ ăn của người bệnh thận', 'https://davita.com/diet-nutrition/kidney-diet-tips/is-rice-an-acceptable-food-for-a-kidney-diet/'),
+]
+NEW_RULES.append(('loi7_gaolut', ['gạo lứt', 'phốt pho', 'magie', 'bệnh thận', 'nảy mầm', 'kali', 'phytate', 'vitamin b1'], 95))
+
+# Bài: an-nhieu-dau-mo-nen-uong-gi
+SRC['loi7_daumo'] = [
+    ('NIDDK – Triệu chứng và nguyên nhân sỏi mật', 'https://www.niddk.nih.gov/health-information/digestive-diseases/gallstones/symptoms-causes'),
+    ('NIDDK – Triệu chứng và nguyên nhân viêm tụy', 'https://www.niddk.nih.gov/health-information/digestive-diseases/pancreatitis/symptoms-causes'),
+    ('WHO – Chế độ ăn lành mạnh (khuyến nghị chất béo)', 'https://www.who.int/news-room/fact-sheets/detail/healthy-diet'),
+    ('Rome Foundation – Chất béo trong khẩu phần và rối loạn tiêu hóa chức năng', 'https://old.theromefoundation.org/wp-content/uploads/Dietary-Lipids-and-Functional-Gastrointestinal-Disorders.pdf'),
+]
+NEW_RULES.append(('loi7_daumo', ['dầu mỡ', 'chất béo', 'chiên', 'sỏi mật', 'nước ngọt có ga'], 60))
+# Đề xuất nguồn – đêm 7, sản phẩm nam-vuong (prefix nv7_). URL lấy từ kết quả WebSearch.
+
+# Bài: than-khi-theo-dong-y
+SRC['nv7_thankhi'] = [
+    ('ASN/ERA-EDTA/ISN (2018) – Đại dịch ẩn: hơn 850 triệu người mắc bệnh thận', 'https://www.asn-online.org/news/2018/0626-Joint_Hidden_Epidem.pdf'),
+    ('GBD 2023 Chronic Kidney Disease Collaborators – The Lancet (2025): gánh nặng bệnh thận mạn 1990–2023', 'https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(25)01853-7/fulltext'),
+    ('KDIGO 2024 – Hướng dẫn đánh giá và quản lý bệnh thận mạn', 'https://kdigo.org/wp-content/uploads/2024/03/KDIGO-2024-CKD-Guideline.pdf'),
+    ('CDC – Bệnh thận mạn: phổ biến, nghiêm trọng, tốn kém', 'https://www.cdc.gov/kidney-disease/ckd-facts/index.html'),
+    ('PMC – Thảo mộc chứa acid aristolochic, suy thận và ung thư biểu mô đường tiết niệu', 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4241283/'),
+]
+NEW_RULES.append(('nv7_thankhi', ['thận khí', 'tạng thận', 'thận âm', 'thận dương', 'tàng tinh', 'aristolochic', 'egfr', 'quả thận'], 40))
+
+# Bài: uong-nuoc-buoi-toi-the-nao-de-bot-tieu
+SRC['nv7_uongnuocdem'] = [
+    ('StatPearls – Tiểu đêm (định nghĩa, đa niệu về đêm)', 'https://www.statpearls.com/point-of-care/25914'),
+    ('Nocturia: consequences, classification, and management – PMC', 'https://pmc.ncbi.nlm.nih.gov/articles/PMC5583737/'),
+    ('EFSA (2010) – Giá trị tham chiếu dinh dưỡng về nước', 'https://www.sennutricion.org/media/Docs_Consenso/Scientific_Opinion_Dietary_Reference_Values_for_water-EFSA_2010.pdf'),
+    ('NAFC – Các biện pháp hành vi giảm tiểu đêm', 'https://nafc.org/bhealth-blog/behavorial-therapies-for-reducing-nocturia/'),
+    ('Oxford Health NHS – Hiểu về tiểu đêm', 'https://oxfordhealth.nhs.uk/ababs/advice/understanding-nocturia/'),
+]
+NEW_RULES.append(('nv7_uongnuocdem', ['đa niệu về đêm', 'nhật ký đi tiểu', 'nâng chân', 'kê chân', 'uống nước buổi tối', 'phân bổ', 'dừng uống', 'ngừng uống', 'lịch uống', 'uống dồn'], 16))
+# Đề xuất nguồn – đêm 7 – sản phẩm ngay-dau-ve (prefix ndv7_)
+# URL lấy từ kết quả WebSearch (không mở bằng WebFetch/curl).
+
+# Bài: kinh-nguyet-mau-den-nau-co-cuc-y-nghia
+SRC['ndv7_maukinh'] = [
+    ('Cleveland Clinic – Period Blood Color: What It Means (Ý nghĩa màu máu kinh: đỏ tươi, đỏ sẫm, nâu, đen, hồng, cam, xám)', 'https://health.clevelandclinic.org/what-does-the-color-of-your-period-mean'),
+    ('ACOG – Heavy Menstrual Bleeding (Dấu hiệu ra kinh nhiều: thấm băng mỗi giờ, cục máu cỡ đồng 25 xu, kinh trên 7 ngày)', 'https://www.acog.org/womens-health/faqs/heavy-menstrual-bleeding'),
+    ('NHS – Heavy periods (Kinh nguyệt ra nhiều, cục máu đông lớn hơn khoảng 2,5 cm)', 'https://www.nhs.uk/conditions/heavy-periods/'),
+    ('Merck Manual (Professional) – Bacterial Vaginosis (Viêm âm đạo do vi khuẩn: dịch xám, loãng, mùi tanh)', 'https://www.merckmanuals.com/professional/gynecology-and-obstetrics/vaginitis-cervicitis-and-pelvic-inflammatory-disease/bacterial-vaginosis-bv'),
+    ('NHS – Postmenopausal bleeding (Ra máu sau mãn kinh luôn cần đi khám)', 'https://www.nhs.uk/symptoms/post-menopausal-bleeding/'),
+]
+NEW_RULES.append(('ndv7_maukinh', ['màu máu kinh', 'máu kinh màu', 'cục máu', 'oxy hóa', 'máu nâu', 'ra máu báo thai', 'màu xám'], 35))
+
+# Bài: cham-soc-ban-than-nhung-ngay-ay
+SRC['ndv7_chamsoc'] = [
+    ('Akin MD và cộng sự (2001) – Continuous low-level topical heat in the treatment of dysmenorrhea, Obstetrics & Gynecology (PubMed)', 'https://pubmed.ncbi.nlm.nih.gov/11239634/'),
+    ('Jo J, Lee SH (2018) – Heat therapy for primary dysmenorrhea: A systematic review and meta-analysis of its effects on pain relief and quality of life, Scientific Reports', 'https://www.nature.com/articles/s41598-018-34303-z'),
+    ('Armour M và cộng sự (2019) – Exercise for dysmenorrhoea (Tổng quan Cochrane về vận động và đau bụng kinh)', 'https://www.cochrane.org/evidence/CD004142'),
+    ('FDA – The Facts on Tampons and How to Use Them Safely (Dùng tampon an toàn, hội chứng sốc nhiễm độc)', 'https://www.fda.gov/medical-devices/menstrual-product-options-facts-and-safe-use/tampons'),
+    ('NIH Office of Dietary Supplements – Iron: Fact Sheet for Consumers (Nhu cầu sắt, sắt heme và không heme)', 'https://ods.od.nih.gov/factsheets/iron-Consumer/'),
+]
+NEW_RULES.append(('ndv7_chamsoc', ['tampon', 'sốc nhiễm độc', 'đèn đỏ', 'tss', 'cốc nguyệt san', 'thay băng', 'vệ sinh kinh nguyệt'], 16))
+
+# Gợi ý thêm (tùy chọn) nếu muốn bổ sung cho cụm PMS: ACOG – Premenstrual Syndrome (PMS)
+# https://www.acog.org/womens-health/faqs/premenstrual-syndrome
+# Đề xuất nguồn – đêm 7 – sản phẩm xau-ho-tim-tam-sen (prefix xht7_)
+# Tất cả URL lấy từ kết quả WebSearch (không mở bằng WebFetch/curl).
+
+SRC['xht7_ngubu'] = [
+    ('Depner CM, Wright KP và cộng sự (2019) – Ad libitum Weekend Recovery Sleep Fails to Prevent Metabolic Dysregulation (Ngủ bù cuối tuần không ngăn được rối loạn chuyển hóa; bản tin ScienceDaily), Current Biology', 'https://www.sciencedaily.com/releases/2019/02/190228113534.htm'),
+    ('NIH Research Matters – Weekend catch-up can\'t counter chronic sleep deprivation (Ngủ bù cuối tuần không bù được thiếu ngủ mạn tính)', 'https://www.nih.gov/news-events/nih-research-matters/weekend-catch-cant-counter-chronic-sleep-deprivation'),
+    ('Åkerstedt T và cộng sự (2018) – Sleep duration and mortality – Does weekend sleep matter? (Thời lượng ngủ, ngủ cuối tuần và tử vong), Journal of Sleep Research (PubMed)', 'https://pubmed.ncbi.nlm.nih.gov/29790200/'),
+    ('Wittmann M, Roenneberg T và cộng sự (2006) – Social jetlag: misalignment of biological and social time (Lệch múi giờ xã hội), Chronobiology International (PubMed)', 'https://pubmed.ncbi.nlm.nih.gov/16687322/'),
+    ('AASM & SRS (2015) – Seven or more hours of sleep per night: a health necessity for adults (Người trưởng thành cần ngủ từ 7 giờ trở lên mỗi đêm)', 'https://aasm.org/seven-or-more-hours-of-sleep-per-night-a-health-necessity-for-adults/'),
+]
+NEW_RULES.append(('xht7_ngubu', ['ngủ bù', 'ngủ nướng', 'social jetlag', 'depner', 'åkerstedt'], 28))
+
+SRC['xht7_lactien'] = [
+    ('NCCIH (NIH) – Passionflower: Usefulness and Safety (Lạc tiên tím: hiệu quả, an toàn, buồn ngủ, thai kỳ)', 'https://nccih.nih.gov/health/passionflower?nav=govd'),
+    ('Akhondzadeh S và cộng sự (2001) – Passionflower in the treatment of generalized anxiety: a pilot double-blind randomized controlled trial with oxazepam (Thử nghiệm thí điểm so với oxazepam), Journal of Clinical Pharmacy and Therapeutics (PubMed)', 'https://pubmed.ncbi.nlm.nih.gov/11679026/'),
+    ('Cochrane (Miyasaka và cộng sự) – Passiflora for anxiety disorder (Tổng quan Cochrane về lạc tiên và rối loạn lo âu)', 'https://www.cochrane.org/evidence/CD004518_passiflora-anxiety-disorder'),
+    ('Cơ quan Dược phẩm châu Âu (EMA) – Passiflorae herba: herbal medicinal product (Chuyên luận thảo dược dùng theo truyền thống)', 'https://www.ema.europa.eu/da/medicines/herbal/passiflorae-herba'),
+    ('Cyanogenesis of Passiflora foetida (Khả năng sinh cyanid của lạc tiên Passiflora foetida), Planta Medica 1982', 'https://www.thieme-connect.com/products/ejournals/abstract/10.1055/s-2007-971239'),
+]
+NEW_RULES.append(('xht7_lactien', ['passionflower', 'cyanid', 'chanh dây', 'nccih', 'akhondzadeh'], 18))
+RULES[:0] = NEW_RULES
+
+
 def refs_for(body):
     low = body.lower(); out = []
     for key, kws, n in RULES:

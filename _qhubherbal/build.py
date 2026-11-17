@@ -396,7 +396,7 @@ render('page.html', '/404.html', content=NOTFOUND, title='Không tìm thấy tra
 
 render('fragment_order.html', '/assets/order.html', noindex=True)
 # llms.txt – tóm tắt cho các trợ lý AI
-L = [f"# QHUB HERBAL", "", f"> Thương hiệu trà thảo mộc túi lọc Việt Nam của {site['company']} (MST {site['mst']}). {len(products)} công thức theo quan niệm phương Đông, hộp 30 túi × 3 g, không thêm đường, không caffeine. Giá ưu đãi {vnd_s(site['price_sale'])}đ/hộp (niêm yết {vnd_s(site['price_list'])}đ). Đang có chương trình mua 2 tặng 1 (mua 2 hộp bất kỳ tặng 1 hộp tự chọn, cộng dồn). Sản xuất tại nhà máy đạt ISO 22000:2018. Đặt hàng: {site['domain']} · hotline/Zalo {site['hotline']}.", "",
+L = [f"# QHUB HERBAL", "", f"> Thương hiệu trà thảo mộc túi lọc Việt Nam của {site['company']} (MST {site['mst']}). {len(products)} công thức theo quan niệm phương Đông, hộp 30 túi × 3 g, không thêm đường, không caffeine. Giá ưu đãi {vnd_s(site['price_sale'])}đ/hộp (niêm yết {vnd_s(site['price_list'])}đ). Cùng giá ở mọi kênh, ưu đãi tặng hộp khác nhau theo kênh: đặt tại website có chương trình mua 2 tặng 1 (mua 2 hộp bất kỳ tặng 1 hộp tự chọn, cộng dồn; trả 210.000đ nhận 3 hộp); trên TikTok Shop và Shopee là mua 3 tặng 1 (trả 315.000đ nhận 4 hộp); hộp tặng đều được chọn khác vị. Sản xuất tại nhà máy đạt ISO 22000:2018. Đặt hàng: {site['domain']} · hotline/Zalo {site['hotline']}.", "",
      "Lưu ý: sản phẩm là thực phẩm, không phải là thuốc và không có tác dụng thay thế thuốc chữa bệnh.", "", "## Sản phẩm"]
 for p in products:
     L.append(f"- [{p['name']}]({site['domain']}/san-pham/{p['slug']}/): {p['tagline']} Dành cho: {p['when_see'].lower()}. Thành phần: {', '.join(i[1] for i in p['ings'])}. Uống: {p['time'].lower()}.")

@@ -4,7 +4,7 @@ desc: So sánh chi tiết 7 dòng trà QHUB HERBAL: thành phần, tính vị, h
 - Có thể uống hai loại trong một ngày không? :: Được. Nên dùng ở hai thời điểm khác nhau, ví dụ Dưỡng Tâm An buổi chiều và Xấu Hổ Tím – Tâm Sen buổi tối, hoặc Nam Vương buổi sáng và Lá Ổi Mix Lá Sen sau bữa trưa.
 - Dòng nào uống được buổi tối? :: Xấu Hổ Tím – Tâm Sen, Dưỡng Tâm An, Lá Ổi Mix Lá Sen (sau bữa tối). Không nên uống Nam Vương sát giờ ngủ.
 - Dòng nào không dùng cho phụ nữ mang thai? :: Không dùng Trà Ngày Dâu Về và Trà Nam Vương. Với các dòng khác, bạn nên hỏi ý kiến bác sĩ trước.
-- Mua 2 tặng 1 có được chọn khác loại không? :: Được. Bạn mua 2 hộp bất kỳ (có thể khác loại) và tự chọn hộp tặng trong 7 dòng.
+- Mua 2 tặng 1 có được chọn khác loại không? :: Được. Khi đặt tại website, bạn mua 2 hộp bất kỳ (có thể khác loại) và tự chọn hộp tặng trong 7 dòng. Trên TikTok Shop và Shopee, ưu đãi là mua 3 tặng 1 và hộp tặng cũng được chọn khác vị.
 +++
 Bạn vừa ghé trang QHUB HERBAL, thấy bảy hộp trà bảy màu – xanh lá, xanh dương, tím, đỏ, xanh nõn, hồng, hồng đào – và băn khoăn: "Mình nên chọn hộp nào?". Đó là câu hỏi rất đúng, vì QHUB thiết kế mỗi dòng cho **một nhu cầu riêng**, không phải sáu vị khác nhau của cùng một loại trà.
 
@@ -24,7 +24,7 @@ Bài viết này đặt bảy dòng trà cạnh nhau, so sánh từng khía cạ
 
 Điểm chung của cả bảy dòng: **100% thảo mộc tự nhiên**, phối theo nguyên tắc Quân – Thần – Tá – Sứ của thảo mộc phương Đông, **không thêm đường, không caffeine**, sản xuất tại nhà máy đạt ISO 22000:2018, mỗi dòng có số tự công bố riêng.
 
-## 1. Trà Cà Gai – Diệp Hạ Châu: "Thanh lọc từ bên trong"
+## 1. Trà Cà Gai – Diệp Hạ Châu: vị đắng nhẹ, hậu ngọt thanh
 
 **Thành phần:** cà gai leo 40%, xạ đen, diệp hạ châu 15%, an xoa, giảo cổ lam, cỏ ngọt.
 

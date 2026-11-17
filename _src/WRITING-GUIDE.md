@@ -78,6 +78,7 @@ sources:                  # bắt buộc ≥ 2 với bài phí sàn, quảng cá
 - Hiện có 7 sản phẩm, mỗi hộp 30 gói × 3 g, giá niêm yết 140.000đ, giá bán 105.000đ ở mọi kênh. **Ưu đãi khác nhau theo kênh (anh Quang xác nhận 17/11/2026):**
   - **TikTok Shop và Shopee: mua 3 tặng 1** – khách trả 3 × 105.000đ = 315.000đ, nhận 4 hộp; hộp tặng bằng khoảng 33% giá trị hàng mua; tính cả phần giảm từ 140.000đ thì khách nhận 4 hộp (giá niêm yết 560.000đ) với 315.000đ, tổng ưu đãi khoảng 43,75%.
   - **Website qhubherbal.com: mua 2 tặng 1** – khách trả 210.000đ, nhận 3 hộp; hộp tặng bằng 50% giá trị hàng mua, tính cả phần giảm giá thì tổng ưu đãi cũng đúng 50% (3 hộp niêm yết 420.000đ, trả 210.000đ), nên trên website không chồng thêm mã giảm giá.
+  - Ở mọi kênh, khách được chọn hộp tặng khác vị (anh Quang xác nhận 17/11/2026).
   - KHÔNG viết "mua 2 tặng 1" khi nói về sàn, KHÔNG viết "một chính sách cho mọi kênh". Ví dụ tính phí sàn với đơn combo thì dùng mua 3 tặng 1 (4 hộp, 315.000đ).
 - Khi nhắc tên sản phẩm, link tới trang sản phẩm trên qhub.com.vn:
   - Trà Cà Gai – Diệp Hạ Châu `/tra-ca-gai-diep-ha-chau.html` · Trà Nam Vương `/tra-nam-vuong.html` · Trà Xấu Hổ Tím – Tâm Sen `/tra-xau-ho-tim-tam-sen.html` · Trà Ngày Dâu Về `/tra-ngay-dau-ve.html` · Trà Lá Ổi Mix Lá Sen `/tra-la-oi-mix-la-sen.html` · Trà Dưỡng Tâm An `/tra-duong-tam-an.html`

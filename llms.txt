@@ -16,7 +16,7 @@ Mô hình hợp tác: 2–4% doanh thu cho vận hành hệ thống; 7–15% ng�
 - [Dịch vụ livestream bán hàng TikTok, Shopee, Facebook](https://qhub.com.vn/dich-vu/livestream-ban-hang/): Dịch vụ livestream bán hàng của QHUB: kịch bản, host, điều phối, ưu đãi và quy trình chốt đơn cho TikTok Shop, Shopee Live và Facebook.
 - [Dịch vụ booking KOC và affiliate TikTok Shop](https://qhub.com.vn/dich-vu/koc-affiliate/): QHUB kết nối và quản lý KOC affiliate cho TikTok Shop, Shopee: chọn đúng tệp, gửi mẫu, brief, theo dõi video, hoa hồng và hiệu quả đơn hàng.
 - [Dịch vụ chạy quảng cáo GMV Max, Shopee Ads, Meta Ads](https://qhub.com.vn/dich-vu/quang-cao-tiktok-shopee/): QHUB vận hành quảng cáo TikTok GMV Max, Shopee Ads và Meta Ads cho doanh nghiệp, tối ưu theo lợi nhuận, phí 7–15% ngân sách thực chạy.
-- [Kiến thức thương mại điện tử](https://qhub.com.vn/kien-thuc/): 132 bài viết thực chiến
+- [Kiến thức thương mại điện tử](https://qhub.com.vn/kien-thuc/): 140 bài viết thực chiến
 - [Tác giả Nguyễn Văn Quang](https://qhub.com.vn/tac-gia/nguyen-van-quang/): Founder & CEO
 - [QHUB HERBAL](https://qhub.com.vn/qhub-herbal.html): thương hiệu trà thảo mộc do QHUB xây dựng
 - [Chính sách](https://qhub.com.vn/chinh-sach.html)
@@ -37,6 +37,7 @@ Xây kênh TikTok bán hàng từ con số 0: định vị, thuật toán, lịc
 ## Content TikTok
 Lên ý tưởng, viết kịch bản, quay dựng video ngắn bán hàng; hook, nhịp, CTA và cách nhân bản nội dung thắng.
 - Trang chủ đề: https://qhub.com.vn/kien-thuc/chu-de/content-tiktok/
+- [Nhịp video TikTok: cắt cảnh bao nhiêu giây là vừa](https://qhub.com.vn/kien-thuc/nhip-video-tiktok-cat-canh-bao-nhieu-giay-la-vua/): Nhịp video TikTok cho video bán hàng: bảng số giây mỗi cảnh theo review, unbox, demo, kể chuyện, quảng cáo; cách đọc biểu đồ giữ chân và chi phí thời gian dựng.
 - [Dựng video TikTok bằng CapCut: quy trình 20 phút một video](https://qhub.com.vn/kien-thuc/dung-video-tiktok-bang-capcut-quy-trinh-20-phut-mot-video/): Dựng video CapCut cho TikTok trong 20 phút: dự án mẫu dùng lại, cắt nhịp, phụ đề tự động tiếng Việt, chữ hook, âm thanh, xuất 1080p 9:16 và checklist trước khi đăng.
 - [Ánh sáng và âm thanh cho video TikTok tại nhà](https://qhub.com.vn/kien-thuc/anh-sang-va-am-thanh-cho-video-tiktok-tai-nha/): Ánh sáng quay TikTok tại nhà: dùng cửa sổ theo giờ, chọn đèn LED, chỉnh nhiệt độ màu, tránh bóng và nhấp nháy; kèm mic, xử lý tiếng vang và nhạc thương mại.
 - [Quay video TikTok bằng điện thoại: thiết bị tối thiểu và cách đặt máy](https://qhub.com.vn/kien-thuc/quay-video-tiktok-bang-dien-thoai-thiet-bi-toi-thieu-va-cach-dat-may/): Quay video TikTok bằng điện thoại: bộ thiết bị tối thiểu, cài đặt máy, 4 góc đặt máy cho video sản phẩm, ánh sáng, âm thanh và thông số 9:16, 1080×1920.
@@ -66,6 +67,7 @@ Mở gian hàng, chính sách, điểm hiệu quả, liên kết affiliate và m
 ## Vận hành TikTok Shop
 Vận hành gian hàng TikTok Shop hằng ngày: sản phẩm, giá, kho, livestream, affiliate KOC, chăm sóc đơn và đội ngũ.
 - Trang chủ đề: https://qhub.com.vn/kien-thuc/chu-de/van-hanh-tiktok-shop/
+- [Kịch bản livestream bán hàng 2 tiếng chi tiết theo phút](https://qhub.com.vn/kien-thuc/kich-ban-livestream-ban-hang-2-tieng-chi-tiet-theo-phut/): Kịch bản livestream bán hàng 2 tiếng theo từng khung phút: lời thoại mẫu cho host, việc của trực chat, người ghim giỏ, người chạy quảng cáo và chỉ số đọc sau phiên.
 - [Setup phòng livestream: thiết bị, ánh sáng, bố cục](https://qhub.com.vn/kien-thuc/setup-phong-livestream-thiet-bi-anh-sang-bo-cuc/): Setup phòng livestream bán hàng TikTok Shop cho doanh nghiệp: thiết bị theo 3 mức ngân sách, mạng, ánh sáng 3 điểm, bố cục bàn sản phẩm và vị trí từng người.
 - [Host livestream: tuyển, đào tạo, trả lương theo doanh số](https://qhub.com.vn/kien-thuc/host-livestream-tuyen-dao-tao-tra-luong-theo-doanh-so/): Tuyển host livestream nội bộ theo 5 bước, giáo trình đào tạo 4 tuần, cách trả lương cứng cộng hoa hồng theo doanh số kèm ví dụ giả định và bảng KPI hằng tháng.
 - [Livestream bán hàng TikTok Shop: từ phiên đầu tiên đến phiên ra đơn đều](https://qhub.com.vn/kien-thuc/livestream-ban-hang-tiktok-shop-tu-phien-dau-tien-den-phien-ra-don-deu/): Livestream TikTok Shop từ phiên đầu: điều kiện mở LIVE, chuẩn bị, kịch bản 90 phút, điều cấm khi live, lộ trình 8 tuần để phiên nào cũng có đơn.
@@ -85,6 +87,7 @@ Vận hành gian hàng TikTok Shop hằng ngày: sản phẩm, giá, kho, livest
 Chạy GMV Max cho sản phẩm và LIVE, ROI mục tiêu, sáng tạo quảng cáo, đọc báo cáo và tối ưu ngân sách.
 - Trang chủ đề: https://qhub.com.vn/kien-thuc/chu-de/quang-cao-tiktok/
 - [Video sáng tạo cho GMV Max: số lượng, định dạng, làm mới](https://qhub.com.vn/kien-thuc/video-sang-tao-cho-gmv-max-so-luong-dinh-dang-lam-moi/): Video GMV Max lấy từ đâu, mỗi sản phẩm cần bao nhiêu video, định dạng nào, khi nào video mỏi và làm mới theo nhịp nào. Kèm cách đọc báo cáo theo từng video.
+- [Đọc báo cáo GMV Max: chỉ số nào quan trọng](https://qhub.com.vn/kien-thuc/doc-bao-cao-gmv-max-chi-so-nao-quan-trong/): Báo cáo GMV Max có những chỉ số nào, đọc theo ngày hay theo tuần, so ROI với ROI hòa vốn ra sao, và ba cái bẫy: đếm trùng affiliate, số liệu trễ, đơn hủy hoàn.
 - [GMV Max không tiêu tiền hoặc tiêu quá nhanh: nguyên nhân và cách xử lý](https://qhub.com.vn/kien-thuc/gmv-max-khong-tieu-tien-hoac-tieu-qua-nhanh-nguyen-nhan/): GMV Max không tiêu tiền hoặc tiêu hết ngân sách quá nhanh vì đâu: ROI mục tiêu, kho video, sản phẩm, trạng thái chiến dịch, Max delivery. Bảng xử lý từng ca.
 - [Target ROI và Max delivery trong GMV Max: chọn chế độ nào](https://qhub.com.vn/kien-thuc/target-roi-va-max-delivery-trong-gmv-max-chon-che-do/): Chế độ GMV Max nào hợp với shop: Target ROI giữ lãi ổn định, Max delivery (Phân phối tối đa) đẩy doanh thu ngày sale, ra mắt. Cách chọn, cách tính, lỗi hay gặp.
 - [Ngân sách GMV Max: bắt đầu bao nhiêu, tăng khi nào](https://qhub.com.vn/kien-thuc/ngan-sach-gmv-max-bat-dau-bao-nhieu-tang/): Ngân sách GMV Max nên bắt đầu bao nhiêu: công thức theo hướng dẫn TikTok, cách tính cho shop mới, khi nào tăng, khi nào giữ và cách lên ngân sách tháng.
@@ -107,6 +110,7 @@ Các loại phí TikTok Shop, cách tính trên từng đơn, cách định giá
 ## Vận hành Shopee
 Vận hành gian hàng Shopee: SEO sản phẩm, chương trình, voucher, kho vận, đánh giá, chỉ số shop và Shopee Mall.
 - Trang chủ đề: https://qhub.com.vn/kien-thuc/chu-de/van-hanh-shopee/
+- [Voucher shop, mã giảm giá, combo trên Shopee: dùng đúng lúc](https://qhub.com.vn/kien-thuc/voucher-shop-ma-giam-gia-combo-tren-shopee-dung-dung-luc/): Voucher Shopee gồm mã shop, giảm giá, combo, mua kèm deal sốc, mã follower, mã live. Dùng lúc nào, chi phí thật và cách không chồng mã lỗ.
 - [Thuộc tính và ngành hàng trên Shopee: chọn đúng để được hiển thị](https://qhub.com.vn/kien-thuc/thuoc-tinh-va-nganh-hang-tren-shopee-chon-dung-de-duoc-hien-thi/): Chọn ngành hàng Shopee đúng tới cấp cuối và điền đủ thuộc tính để sản phẩm được hiển thị: cách chọn, lỗi bị ẩn, phí theo ngành, checklist mẫu với trà túi lọc.
 - [Đăng ký chương trình khuyến mãi Shopee: các loại và điều kiện](https://qhub.com.vn/kien-thuc/dang-ky-chuong-trinh-khuyen-mai-cua-shopee/): Chương trình khuyến mãi Shopee gồm chương trình của sàn và công cụ của shop. Điều kiện tham gia, cách đăng ký trong Kênh Người Bán và giới hạn khuyến mại 50%.
 - [Tối ưu sản phẩm Shopee: ảnh, video và mô tả sao cho ra đơn](https://qhub.com.vn/kien-thuc/toi-uu-anh-video-va-mo-ta-san-pham-tren-shopee/): Tối ưu sản phẩm Shopee qua ba thứ: bộ 9 ảnh, video ngắn và mô tả đủ ý. Bảng thông số, bố cục từng ảnh, khung mô tả mẫu và lỗi hay gặp.
@@ -135,6 +139,7 @@ Shopee Ads: quảng cáo tìm kiếm, khám phá, Shop+ Ads, GMV Max, giá thầ
 ## Phí sàn Shopee
 Phí cố định, phí xử lý giao dịch, gói dịch vụ, Voucher Xtra và cách tính lợi nhuận thật trên Shopee.
 - Trang chủ đề: https://qhub.com.vn/kien-thuc/chu-de/phi-san-shopee/
+- [Gói Freeship Xtra và PiShip trên Shopee: phí, lợi ích, có nên bật](https://qhub.com.vn/kien-thuc/goi-freeship-xtra-va-piship-tren-shopee/): Freeship Xtra Shopee và PiShip là hai gói phí vận chuyển tùy chọn. Bài giải thích cách tính phí trên từng đơn, cách đăng ký, hủy và bảng lãi có, không tham gia.
 - [Gói Voucher Xtra Shopee: phí, lợi ích, có nên tham gia](https://qhub.com.vn/kien-thuc/goi-voucher-xtra-shopee-phi-loi-ich-co-nen-tham-gia/): Gói Voucher Xtra Shopee 2026: mức phí khoảng 5,5% và trần 50.000 đồng mỗi sản phẩm, lợi ích, cách đăng ký, hủy và bảng tính lãi trên đơn trà 105.000 đồng.
 - [Phí hạ tầng Shopee là gì](https://qhub.com.vn/kien-thuc/phi-ha-tang-shopee/): Phí hạ tầng Shopee là 3.000 đồng mỗi đơn thành công, áp dụng từ 01/7/2025: đơn nào bị tính, xem ở đâu trong doanh thu, ví dụ trên hộp trà 105.000 đồng.
 - [Phí xử lý giao dịch Shopee 6% (phí thanh toán): áp dụng thế nào](https://qhub.com.vn/kien-thuc/phi-xu-ly-giao-dich-shopee-6-phi-thanh-toan-ap-dung/): Phí xử lý giao dịch Shopee 6% là phí thanh toán đổi tên: áp dụng từ khi nào, tính trên giá nào, có tính phí ship, đơn hoàn ra sao, bảng ví dụ và cách chỉnh giá.
@@ -157,6 +162,7 @@ Bán hàng trên Facebook: fanpage, nhóm, livestream, quảng cáo Meta, inbox 
 ## Xây kênh YouTube
 Xây kênh YouTube cho doanh nghiệp: Shorts, video dài, SEO YouTube, nhịp đăng và biến người xem thành khách.
 - Trang chủ đề: https://qhub.com.vn/kien-thuc/chu-de/youtube/
+- [YouTube Studio: đọc số liệu kênh sao cho đúng](https://qhub.com.vn/kien-thuc/youtube-studio-doc-so-lieu-kenh/): Đọc số liệu kênh trong YouTube Studio: tab Tổng quan, Nội dung, Khán giả, Nghiên cứu; ý nghĩa CTR, thời lượng xem, giữ chân, nguồn lưu lượng và nhịp xem mỗi tuần.
 - [Lịch đăng YouTube cho đội nhỏ: bao nhiêu video, đăng lúc nào](https://qhub.com.vn/kien-thuc/lich-dang-youtube-cho-doi-nho/): Lịch đăng YouTube cho đội 1–3 người: số Shorts và video dài mỗi tuần, lịch mẫu theo tuần và tháng, cách lên lịch trong YouTube Studio, chọn giờ và đo sau 8 tuần.
 - [Thuật toán YouTube đề xuất video thế nào](https://qhub.com.vn/kien-thuc/thuat-toan-youtube-de-xuat-video/): Thuật toán YouTube đề xuất video dựa trên lượt nhấp, thời gian xem, khảo sát mức hài lòng; cách từng bề mặt Trang chủ, Video đề xuất, Shorts, Tìm kiếm chọn video.
 - [Ảnh thu nhỏ (thumbnail YouTube): thiết kế để được bấm](https://qhub.com.vn/kien-thuc/anh-thu-nho-youtube-thiet-ke-de-duoc-bam/): Thumbnail YouTube chuẩn 2026: kích thước 1280×720, định dạng, dung lượng, công thức thiết kế dễ được bấm và cách dùng Thử nghiệm và so sánh.
@@ -168,6 +174,7 @@ Xây kênh YouTube cho doanh nghiệp: Shorts, video dài, SEO YouTube, nhịp �
 ## Phát triển Instagram
 Phát triển Instagram cho thương hiệu: Reels, Stories, hồ sơ, hashtag và bán hàng qua Instagram.
 - Trang chủ đề: https://qhub.com.vn/kien-thuc/chu-de/instagram/
+- [Lịch đăng Instagram cho đội nhỏ: Reels, carousel, Stories mỗi tuần](https://qhub.com.vn/kien-thuc/lich-dang-instagram-cho-doi-nho/): Lịch đăng Instagram cho đội 1–3 người: tỷ lệ Reels, carousel, Stories mỗi tuần, khung giờ thử, làm nội dung theo lô, công cụ lên lịch và đọc Insights.
 - [Hashtag và từ khóa trên Instagram 2026](https://qhub.com.vn/kien-thuc/hashtag-va-tu-khoa-tren-instagram-2026/): Hashtag Instagram 2026 chỉ còn tối đa 5 mỗi bài. Cách chọn hashtag, đặt từ khóa trong chú thích, tên hồ sơ, Reels để được tìm thấy trên Instagram và Google.
 - [Thuật toán Instagram đề xuất nội dung thế nào](https://qhub.com.vn/kien-thuc/thuat-toan-instagram-de-xuat-noi-dung/): Thuật toán Instagram xếp Feed, Stories, Reels, Khám phá theo tín hiệu nào, vì sao lượt gửi và thời gian xem quan trọng, luật nội dung gốc và cách dùng Trial Reels.
 - [Tối ưu hồ sơ Instagram doanh nghiệp](https://qhub.com.vn/kien-thuc/toi-uu-ho-so-instagram-doanh-nghiep/): Tối ưu hồ sơ Instagram doanh nghiệp: tên tìm kiếm được, tiểu sử 150 ký tự, tối đa 5 liên kết, nút liên hệ, tin nổi bật, bài ghim. Kèm checklist và lỗi hay gặp.
@@ -178,6 +185,7 @@ Phát triển Instagram cho thương hiệu: Reels, Stories, hồ sơ, hashtag v
 ## Phát triển Threads
 Dùng Threads để xây cộng đồng và kéo khách: cách viết, nhịp đăng, liên kết với Instagram và bán hàng mềm.
 - Trang chủ đề: https://qhub.com.vn/kien-thuc/chu-de/threads/
+- [Lịch đăng Threads và nhịp tương tác cho doanh nghiệp nhỏ](https://qhub.com.vn/kien-thuc/lich-dang-threads-va-nhip-tuong-tac/): Lịch đăng Threads cho doanh nghiệp nhỏ: đăng mấy bài, giờ nào, trả lời bình luận giờ đầu ra sao, lịch tuần mẫu, cách lên lịch bài và đọc Threads Insights.
 - [Bán hàng mềm trên Threads mà không bị ghét](https://qhub.com.vn/kien-thuc/ban-hang-mem-tren-threads-ma-khong-bi-ghet/): Bán hàng trên Threads theo kiểu mềm: tỷ lệ bài nhắc sản phẩm, 6 dạng bài mẫu, cách gắn link, trả lời bình luận, quảng cáo Threads và những lỗi khiến người đọc ghét.
 - [Xây thương hiệu cá nhân trên Threads cho chủ doanh nghiệp](https://qhub.com.vn/kien-thuc/xay-thuong-hieu-ca-nhan-tren-threads-cho-chu-doanh-nghiep/): Thương hiệu cá nhân Threads cho chủ doanh nghiệp: chọn trụ cột nội dung, làm hồ sơ, lộ trình 90 ngày, ranh giới khi chia sẻ và cách dẫn người theo dõi thành khách.
 - [Thuật toán Threads hoạt động thế nào](https://qhub.com.vn/kien-thuc/thuat-toan-threads-hoat-dong/): Thuật toán Threads xếp bài thế nào: 3 bước Meta công bố, bảng tín hiệu xếp hạng, các thay đổi 2024–2026 và việc thương hiệu nên làm để được đề xuất.

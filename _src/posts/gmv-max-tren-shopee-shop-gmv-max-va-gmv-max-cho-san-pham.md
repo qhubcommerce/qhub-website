@@ -6,7 +6,7 @@ keyword: "gmv max shopee"
 keywords: ["shop gmv max", "tối đa doanh thu shopee", "roas mục tiêu shopee", "quảng cáo tự động shopee", "tùy chỉnh roas shopee"]
 description: "GMV Max Shopee là gì, Shop GMV Max khác GMV Max cho từng sản phẩm thế nào, đặt ROAS mục tiêu ra sao, khi nào nên dùng thay quảng cáo thủ công."
 date: 2026-11-16
-updated: 2026-11-16
+updated: 2026-11-17
 summary:
   - "GMV Max Shopee là cách đặt giá thầu tự động tối ưu theo tổng doanh thu; ở Việt Nam, trung tâm học Shopee Ads gọi chế độ này là Tối đa Doanh thu, có kiểu Tùy chỉnh ROAS."
   - "Theo thông báo Shopee Ads khu vực ngày 23/3/2026, tính năng Tự động chọn sản phẩm được đổi tên thành Shop GMV Max; mỗi shop chỉ có một chiến dịch Shop GMV Max."
@@ -113,19 +113,19 @@ Tên nút có thể khác theo tài khoản và theo thời điểm, khung chung
 
 Biên lợi nhuận trước quảng cáo là phần còn lại của giá bán sau khi trừ giá vốn, phí cố định, phí thanh toán, phí dịch vụ, phí hạ tầng, voucher shop và đóng gói. Năm 2026 phí Shopee thay đổi nhiều đợt, anh chị lấy số mới nhất theo bài [phí sàn Shopee 2026](/kien-thuc/phi-san-shopee-2026-tong-hop-moi-loai-phi-va-cach-tinh/).
 
-Lấy ví dụ một gian hàng trà có nhiều sản phẩm như [QHUB HERBAL](/qhub-herbal.html) của chính đội mình: 7 loại trà, mỗi hộp 30 gói × 3 g, giá bán 105.000 đồng, chính sách mua 2 tặng 1. **Các con số chi phí dưới đây là giả định để minh họa cách tính, không phải số liệu bán hàng thật.**
+Lấy ví dụ một gian hàng trà có nhiều sản phẩm như [QHUB HERBAL](/qhub-herbal.html) của chính đội mình: 7 loại trà, mỗi hộp 30 gói × 3 g, giá bán 105.000 đồng, ưu đãi mua 3 tặng 1 trên Shopee. **Các con số chi phí dưới đây là giả định để minh họa cách tính, không phải số liệu bán hàng thật.**
 
-| Khoản | Đơn lẻ 1 hộp | Combo mua 2 tặng 1 |
+| Khoản | Đơn lẻ 1 hộp | Combo mua 3 tặng 1 (4 hộp) |
 | --- | --- | --- |
-| Doanh thu | 105.000 đồng | 210.000 đồng |
-| Giá vốn hàng (giả định) | 35.000 đồng | 105.000 đồng (3 hộp) |
-| Tổng phí sàn (giả định khoảng 25%) | 26.250 đồng | 52.500 đồng |
+| Doanh thu | 105.000 đồng | 315.000 đồng |
+| Giá vốn hàng (giả định) | 35.000 đồng | 140.000 đồng (4 hộp) |
+| Tổng phí sàn (giả định khoảng 25%) | 26.250 đồng | 78.750 đồng |
 | Đóng gói (giả định) | 5.000 đồng | 7.000 đồng |
-| Lãi trước quảng cáo | 38.750 đồng | 45.500 đồng |
-| Biên trước quảng cáo | Khoảng 37% | Khoảng 22% |
-| **ROAS hòa vốn** | **Khoảng 2,7** | **Khoảng 4,6** |
+| Lãi trước quảng cáo | 38.750 đồng | 89.250 đồng |
+| Biên trước quảng cáo | Khoảng 37% | Khoảng 28% |
+| **ROAS hòa vốn** | **Khoảng 2,7** | **Khoảng 3,5** |
 
-Bảng này cho thấy một điều quan trọng với Shop GMV Max: cùng một gian hàng, đơn lẻ và đơn combo có ROAS hòa vốn chênh nhau rất xa. Nếu để một chiến dịch Shop GMV Max chung với một mức ROAS mục tiêu, rất dễ có sản phẩm lãi, có sản phẩm lỗ mà con số tổng vẫn đẹp.
+Bảng này cho thấy một điều quan trọng với Shop GMV Max: cùng một gian hàng, đơn lẻ và đơn combo có ROAS hòa vốn chênh nhau đáng kể. Nếu để một chiến dịch Shop GMV Max chung với một mức ROAS mục tiêu, rất dễ có sản phẩm lãi, có sản phẩm lỗ mà con số tổng vẫn đẹp.
 
 ### Bước 2: Chọn cách quảng bá
 

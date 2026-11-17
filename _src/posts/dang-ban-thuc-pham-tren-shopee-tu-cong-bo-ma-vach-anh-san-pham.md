@@ -6,7 +6,7 @@ keyword: "đăng bán thực phẩm shopee"
 keywords: ["bán thực phẩm trên shopee cần giấy tờ gì", "chứng từ sản phẩm shopee", "ảnh sản phẩm thực phẩm shopee", "bán trà túi lọc trên shopee"]
 description: "Đăng bán thực phẩm Shopee cần hồ sơ tự công bố, chứng từ theo ngành, mã vạch đúng và bộ ảnh rõ thông tin. Checklist từng bước, lấy trà QHUB HERBAL làm ví dụ."
 date: 2026-11-14
-updated: 2026-11-14
+updated: 2026-11-17
 summary:
   - "Muốn đăng bán thực phẩm trên Shopee bền lâu, anh chị cần ba lớp: hồ sơ pháp lý của sản phẩm, chứng từ nộp cho sàn và trang sản phẩm khớp với hai lớp trên."
   - "Trà thảo mộc, đồ khô, bánh kẹo đóng gói là thực phẩm thường, tự công bố theo Nghị định 15/2018/NĐ-CP (Nghị định 46/2026 đang tạm ngưng hiệu lực từ 06/4/2026)."
@@ -126,7 +126,7 @@ Bộ ảnh đội QHUB dùng cho mỗi vị trà trên Shopee có 7–9 ảnh, t
 4. **Ảnh cách pha:** một túi với 200 ml nước sôi, chờ 5 phút.
 5. **Ảnh mặt sau hộp:** thấy rõ số tự công bố, đơn vị chịu trách nhiệm, hạn dùng.
 6. **Ảnh dịp dùng:** một tách trà giữa giờ làm, hộp trà gói làm quà.
-7. **Ảnh chính sách:** giá, mua 2 tặng 1, giao hàng, đổi trả.
+7. **Ảnh chính sách:** giá, mua 3 tặng 1, giao hàng, đổi trả.
 
 Video sản phẩm 20–40 giây nên có: cận cảnh túi trà, màu nước, hơi nóng bốc lên. Không cần lời, chỉ cần chữ ngắn ghi tên vị và thành phần.
 
@@ -149,7 +149,7 @@ Phần thuộc tính (ngành hàng, thương hiệu, xuất xứ, hạn sử d�
 
 Trà thường không được nói công dụng sức khỏe. Mọi câu kiểu "uống vào cơ thể sẽ thế nào" đều nên bỏ. Thay vào đó, viết về hương, vị, màu nước, nguyên liệu, nghi thức năm phút pha trà, món quà. Cách viết này vừa an toàn, vừa khiến khách hình dung được sản phẩm rõ hơn.
 
-Về giá, QHUB HERBAL dùng một chính sách cho mọi kênh: giá niêm yết 140.000đ, giá bán 105.000đ, mua 2 tặng 1 với hộp tặng được chọn vị khác. Anh chị nên tính phí sàn trước khi chốt giá, xem bài [phí sàn Shopee 2026](/kien-thuc/phi-san-shopee-2026-tong-hop-moi-loai-phi-va-cach-tinh/).
+Về giá, QHUB HERBAL giữ cùng một mức giá ở mọi kênh: giá niêm yết 140.000đ, giá bán 105.000đ; ưu đãi tặng hộp thì khác nhau theo kênh. Trên Shopee và TikTok Shop là mua 3 tặng 1 (trả 315.000đ, nhận 4 hộp), trên website qhubherbal.com là mua 2 tặng 1, hộp tặng được chọn vị khác. Anh chị nên tính phí sàn trước khi chốt giá, xem bài [phí sàn Shopee 2026](/kien-thuc/phi-san-shopee-2026-tong-hop-moi-loai-phi-va-cach-tinh/).
 
 ## Lỗi hay gặp khi đăng bán thực phẩm trên Shopee
 

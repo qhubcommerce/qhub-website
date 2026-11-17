@@ -6,7 +6,7 @@ keyword: "instagram stories bán hàng"
 keywords: ["highlights instagram cho shop", "sticker liên kết instagram story", "kích thước instagram story", "lịch đăng stories"]
 description: "Instagram Stories bán hàng: dùng sticker liên kết, câu hỏi, khảo sát, đếm ngược, kích thước 1080x1920, lịch đăng tuần, cách sắp Highlights cho shop và đo hiệu quả."
 date: 2026-11-15
-updated: 2026-11-15
+updated: 2026-11-17
 summary:
   - "Stories tự biến mất sau 24 giờ, còn Highlights giữ các Stories đã chọn trên hồ sơ, nên Stories dùng để trò chuyện hằng ngày và Highlights dùng làm tủ kính thông tin cho shop."
   - "Khung Stories chuẩn là 1080 × 1920 px (tỷ lệ 9:16); từ năm 2022, video dưới 60 giây không còn bị cắt thành đoạn 15 giây."
@@ -124,7 +124,7 @@ QHUB HERBAL là thương hiệu trà do chính đội QHUB xây. Sản phẩm m�
 1. **Khung 1:** ảnh hộp trà trên bàn làm việc, chữ "Món quà nhỏ cho người mình quý". Sticker câu hỏi: "Năm nay anh chị muốn tặng ai?"
 2. **Khung 2:** video 15 giây pha trà, cánh hoa hồng, hoa nhài, hoa cúc nở trong cốc thủy tinh. Chữ: "9 vị · không thêm đường · không caffeine".
 3. **Khung 3:** khảo sát "Anh chị thích uống nóng hay uống lạnh?"
-4. **Khung 4:** quy cách và giá rõ ràng: hộp 30 gói × 3 g, giá niêm yết 140.000đ, giá bán 105.000đ, mua 2 tặng 1. Sticker liên kết "Xem chi tiết" dẫn tới trang sản phẩm.
+4. **Khung 4:** quy cách và giá rõ ràng: hộp 30 gói × 3 g, giá niêm yết 140.000đ, giá bán 105.000đ, mua 2 tặng 1 khi đặt trên website qhubherbal.com (trên TikTok Shop và Shopee là mua 3 tặng 1). Sticker liên kết "Xem chi tiết" dẫn tới trang sản phẩm trên website.
 5. **Khung 5:** "Năm phút cho riêng mình mỗi chiều", ảnh một người ngồi bên cửa sổ với tách trà. Sticker đếm ngược tới 12.12.
 
 Chuỗi này chỉ nói hương vị, cảm giác thư thả và chuyện làm quà. Trà là thực phẩm thông thường, nên mình không gán bất kỳ công dụng sức khỏe hay làm đẹp nào cho sản phẩm trong Stories. Anh chị bán thực phẩm, mỹ phẩm cũng nên giữ đúng nguyên tắc này.

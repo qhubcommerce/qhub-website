@@ -65,22 +65,22 @@ ROAS hòa vốn là mức ROAS mà ở đó tiền lãi trước quảng cáo v�
 
 Phí sàn Shopee tính đến tháng 11/2026 gồm ba khoản bắt buộc: phí cố định theo ngành (với thực phẩm và đồ uống ở shop thường, GHN ghi khoảng 10–15%), phí xử lý giao dịch 6% (từ 01/5/2026 với shop thường, 08/5/2026 với Mall) và phí hạ tầng 3.000 đồng mỗi đơn. Nếu tham gia Voucher Xtra thì cộng thêm khoảng 5,5%, tối đa 50.000 đồng mỗi sản phẩm theo Eimskip và một số nguồn từ 23/5/2026 (có nguồn vẫn ghi 4%). Mức từng loại phí và chỗ các nguồn lệch nhau có trong bài [phí sàn Shopee 2026](/kien-thuc/phi-san-shopee-2026-tong-hop-moi-loai-phi-va-cach-tinh/).
 
-Lấy ví dụ một hộp trà [QHUB HERBAL](/qhub-herbal.html), thương hiệu do chính đội QHUB xây: giá bán 105.000 đồng, hộp 30 gói × 3 g, chính sách mua 2 tặng 1. **Giá vốn, đóng gói và tỷ lệ phí cố định 12% dưới đây là số giả định để minh họa phép tính, không phải số liệu thật của thương hiệu.**
+Lấy ví dụ một hộp trà [QHUB HERBAL](/qhub-herbal.html), thương hiệu do chính đội QHUB xây: giá bán 105.000 đồng, hộp 30 gói × 3 g, ưu đãi mua 3 tặng 1 trên Shopee. **Giá vốn, đóng gói và tỷ lệ phí cố định 12% dưới đây là số giả định để minh họa phép tính, không phải số liệu thật của thương hiệu.**
 
-| Khoản | Đơn 1 hộp | Combo mua 2 tặng 1 |
+| Khoản | Đơn 1 hộp | Combo mua 3 tặng 1 (4 hộp) |
 | --- | --- | --- |
-| Doanh thu | 105.000 | 210.000 |
-| Giá vốn (giả định) | 35.000 | 105.000 (3 hộp) |
+| Doanh thu | 105.000 | 315.000 |
+| Giá vốn (giả định) | 35.000 | 140.000 (4 hộp) |
 | Đóng gói (giả định) | 5.000 | 7.000 |
-| Phí cố định 12% (giả định) | 12.600 | 25.200 |
-| Phí xử lý giao dịch 6% | 6.300 | 12.600 |
+| Phí cố định 12% (giả định) | 12.600 | 37.800 |
+| Phí xử lý giao dịch 6% | 6.300 | 18.900 |
 | Phí hạ tầng | 3.000 | 3.000 |
-| Voucher Xtra 5,5% (nếu tham gia) | 5.775 | 11.550 |
-| **Lãi trước quảng cáo** | **37.325** | **45.650** |
-| Biên trước quảng cáo | Khoảng 35,5% | Khoảng 21,7% |
-| **ROAS hòa vốn** | **Khoảng 2,8** | **Khoảng 4,6** |
+| Voucher Xtra 5,5% (nếu tham gia) | 5.775 | 17.325 |
+| **Lãi trước quảng cáo** | **37.325** | **90.975** |
+| Biên trước quảng cáo | Khoảng 35,5% | Khoảng 28,9% |
+| **ROAS hòa vốn** | **Khoảng 2,8** | **Khoảng 3,5** |
 
-Đơn vị: đồng. Cùng một sản phẩm, đơn lẻ hòa vốn ở ROAS khoảng 2,8, còn đơn combo phải tới khoảng 4,6. Nếu anh chị đặt một mức ROAS mục tiêu 3,5 cho cả chiến dịch, đơn lẻ có lãi nhưng đơn combo đang lỗ. Đây là lý do mình luôn tính hòa vốn theo **cơ cấu đơn thực tế**: lấy tỷ lệ đơn lẻ và đơn combo của 2–4 tuần gần nhất, tính biên bình quân có trọng số rồi mới ra ROAS hòa vốn của chiến dịch.
+Đơn vị: đồng. Cùng một sản phẩm, đơn lẻ hòa vốn ở ROAS khoảng 2,8, còn đơn combo phải tới khoảng 3,5. Nếu anh chị đặt một mức ROAS mục tiêu 3 cho cả chiến dịch, đơn lẻ có lãi nhưng đơn combo đang lỗ. Đây là lý do mình luôn tính hòa vốn theo **cơ cấu đơn thực tế**: lấy tỷ lệ đơn lẻ và đơn combo của 2–4 tuần gần nhất, tính biên bình quân có trọng số rồi mới ra ROAS hòa vốn của chiến dịch.
 
 Thêm một lớp nữa là hàng hoàn và đơn hủy. Báo cáo quảng cáo thường ghi nhận doanh thu khi đơn được đặt, còn tiền về túi chỉ tính trên đơn giao thành công. Cách điều chỉnh đơn giản: **ROAS hòa vốn thực ≈ ROAS hòa vốn ÷ (1 − tỷ lệ hoàn hủy)**. Với hòa vốn 2,8 và tỷ lệ hoàn hủy 10%, mức hòa vốn thực khoảng 3,1.
 
@@ -140,7 +140,7 @@ Lưu ý quan trọng ngày sale: giá sale thấp hơn thì biên mỏng hơn, n
 1. **Đặt theo mức Shopee gợi ý** mà không so với ROAS hòa vốn của mình.
 2. **Tính hòa vốn bằng phí sàn năm 2025.** Phí xử lý giao dịch đã lên 6% từ tháng 5/2026, phí cố định nhiều ngành cũng đổi từ 23/5/2026.
 3. **Quên Voucher Xtra và đồng tài trợ mã** khi tính biên. Mỗi gói vài phần trăm, cộng lại làm hòa vốn nhảy lên đáng kể.
-4. **Một mức ROAS cho cả shop** trong Shop GMV Max, trong khi đơn lẻ và đơn combo có hòa vốn chênh nhau xa.
+4. **Một mức ROAS cho cả shop** trong Shop GMV Max, trong khi đơn lẻ và đơn combo có mức hòa vốn khác nhau.
 5. **Chỉnh ROAS mỗi ngày**, thậm chí vài lần một ngày. Hệ thống chưa kịp học đã bị đổi hướng.
 6. **Hạ ROAS sâu ngày sale** mà không tính lại hòa vốn theo giá sale.
 7. **Chỉ nhìn ROAS trong báo cáo quảng cáo**, không trừ hàng hoàn, đơn hủy.

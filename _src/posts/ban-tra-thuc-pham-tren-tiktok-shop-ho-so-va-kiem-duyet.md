@@ -6,7 +6,7 @@ keyword: "bán thực phẩm tiktok shop"
 keywords: ["mở ngành hàng thực phẩm tiktok shop", "bán trà trên tiktok shop", "ngành hàng hạn chế tiktok shop", "sản phẩm bị từ chối tiktok shop"]
 description: "Bán thực phẩm TikTok Shop phải mở ngành hàng hạn chế, nộp hồ sơ sản phẩm và qua kiểm duyệt cả trang lẫn video. Hướng dẫn chi tiết, ví dụ trà QHUB HERBAL."
 date: 2026-11-14
-updated: 2026-11-14
+updated: 2026-11-17
 summary:
   - "Thực phẩm và đồ uống là ngành hàng hạn chế trên TikTok Shop: phải nộp hồ sơ mở ngành, thời gian duyệt thường 3–5 ngày làm việc."
   - "Hồ sơ gồm ba nhóm: giấy tờ doanh nghiệp, giấy tờ thương hiệu và giấy tờ sản phẩm (tự công bố, kiểm nghiệm); danh sách chi tiết xem trong form của Seller Center."
@@ -97,7 +97,7 @@ Sản phẩm bị từ chối thường vì những lỗi rất nhỏ. Đây là
 
 **Thuộc tính:** chọn đúng ngành con, điền đủ hạn sử dụng, xuất xứ, mã vạch. Chọn sai ngành là lý do hay gặp khiến sản phẩm bị yêu cầu giấy tờ của nhóm khác.
 
-**Giá và ưu đãi:** QHUB HERBAL giữ một chính sách cho mọi kênh: niêm yết 140.000đ, bán 105.000đ, mua 2 tặng 1. Trước khi chốt giá, anh chị nên trừ đủ các loại phí, xem bài [phí sàn TikTok Shop 2026](/kien-thuc/phi-san-tiktok-shop-2026-tong-hop-moi-loai-phi-va-cach-tinh/).
+**Giá và ưu đãi:** QHUB HERBAL giữ cùng một mức giá ở mọi kênh: niêm yết 140.000đ, bán 105.000đ mỗi hộp. Ưu đãi tặng hộp thì khác nhau theo kênh: trên TikTok Shop và Shopee là mua 3 tặng 1 (trả 315.000đ, nhận 4 hộp), trên website qhubherbal.com là mua 2 tặng 1. Trước khi chốt giá, anh chị nên trừ đủ các loại phí, xem bài [phí sàn TikTok Shop 2026](/kien-thuc/phi-san-tiktok-shop-2026-tong-hop-moi-loai-phi-va-cach-tinh/).
 
 ## Kiểm duyệt video và LIVE với ngành thực phẩm: ranh giới ở đâu?
 

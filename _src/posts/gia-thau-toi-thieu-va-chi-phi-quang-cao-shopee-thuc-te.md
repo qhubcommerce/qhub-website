@@ -136,16 +136,16 @@ Anh chị để ý: CPC chỉ 900 đồng, nhưng mỗi đơn tốn 30.000 đồ
 - **Giá thầu tối đa hòa vốn = Giá trị đơn × CR × Biên trước quảng cáo**
 - **Giá thầu để đạt ROAS mục tiêu = Giá trị đơn × CR ÷ ROAS mục tiêu**
 
-Mình lấy giá bán thật của [Trà Dưỡng Nhan](/tra-duong-nhan.html), sản phẩm của thương hiệu QHUB HERBAL do chính đội QHUB xây: giá niêm yết 140.000 đồng, giá bán 105.000 đồng, mua 2 tặng 1. **Biên trước quảng cáo dưới đây lấy từ bảng giả định trong bài [đặt ROAS mục tiêu cho GMV Max Shopee](/kien-thuc/dat-roas-muc-tieu-cho-gmv-max-shopee/) (giá vốn, đóng gói, phí cố định 12% và Voucher Xtra 5,5% đều là số giả định). CR 3% cũng là giả định. Đây không phải số liệu thật của thương hiệu.**
+Mình lấy giá bán thật của [Trà Dưỡng Nhan](/tra-duong-nhan.html), sản phẩm của thương hiệu QHUB HERBAL do chính đội QHUB xây: giá niêm yết 140.000 đồng, giá bán 105.000 đồng, mua 3 tặng 1 trên Shopee. **Biên trước quảng cáo dưới đây lấy từ bảng giả định trong bài [đặt ROAS mục tiêu cho GMV Max Shopee](/kien-thuc/dat-roas-muc-tieu-cho-gmv-max-shopee/) (giá vốn, đóng gói, phí cố định 12% và Voucher Xtra 5,5% đều là số giả định). CR 3% cũng là giả định. Đây không phải số liệu thật của thương hiệu.**
 
-| Chỉ số | Đơn 1 hộp | Đơn mua 2 tặng 1 |
+| Chỉ số | Đơn 1 hộp | Combo mua 3 tặng 1 (4 hộp) |
 | --- | --- | --- |
-| Giá trị đơn | 105.000 đồng | 210.000 đồng |
-| Biên trước quảng cáo (giả định) | 35,5% | 21,7% |
-| ROAS hòa vốn | Khoảng 2,8 | Khoảng 4,6 |
+| Giá trị đơn | 105.000 đồng | 315.000 đồng |
+| Biên trước quảng cáo (giả định) | 35,5% | 28,9% |
+| ROAS hòa vốn | Khoảng 2,8 | Khoảng 3,5 |
 | CR (giả định) | 3% | 3% |
-| Giá thầu tối đa hòa vốn | 105.000 × 3% × 35,5% ≈ 1.118 đồng | 210.000 × 3% × 21,7% ≈ 1.367 đồng |
-| Giá thầu để đạt ROAS 5 | 105.000 × 3% ÷ 5 = 630 đồng | 210.000 × 3% ÷ 5 = 1.260 đồng |
+| Giá thầu tối đa hòa vốn | 105.000 × 3% × 35,5% ≈ 1.118 đồng | 315.000 × 3% × 28,9% ≈ 2.731 đồng |
+| Giá thầu để đạt ROAS 5 | 105.000 × 3% ÷ 5 = 630 đồng | 315.000 × 3% ÷ 5 = 1.890 đồng |
 
 Bảng này cho thấy một điều ít người để ý: **đơn combo cần ROAS cao hơn mới hòa vốn, nhưng vẫn chịu được giá thầu cao hơn**, vì mỗi lượt nhấp ra đơn mang về nhiều tiền hơn. Nếu phần lớn người mua chọn combo, anh chị có thể trả giá thầu mạnh hơn mà vẫn có lãi. Nếu phần lớn chỉ mua một hộp, giá thầu trên khoảng 1.100 đồng là bắt đầu lỗ. Phí sàn từng khoản để tính biên, anh chị xem bài [phí sàn Shopee 2026](/kien-thuc/phi-san-shopee-2026-tong-hop-moi-loai-phi-va-cach-tinh/).
 
@@ -174,7 +174,7 @@ Còn hai điều chỉnh nên làm trước khi chốt con số:
 2. **Chỉ nhìn CPC, không nhìn chi phí mỗi đơn.** CPC rẻ mà CR thấp vẫn là đơn đắt.
 3. **Tính ROAS hòa vốn bằng biên trước phí sàn.** Năm 2026, phí xử lý giao dịch 6%, phí hạ tầng 3.000 đồng mỗi đơn và phí cố định theo ngành cộng lại đã ăn một phần lớn biên.
 4. **Quên thuế trên phí quảng cáo** khi so ROAS trong báo cáo với kế hoạch tài chính.
-5. **Dùng một ROAS mục tiêu cho cả đơn lẻ và đơn combo**, trong khi hai loại đơn có mức hòa vốn khác hẳn.
+5. **Dùng một ROAS mục tiêu cho cả đơn lẻ và đơn combo**, trong khi hai loại đơn có mức hòa vốn khác nhau.
 6. **Nạp tiền nhỏ giọt.** Với ngân sách ngày tối thiểu 100.000 đồng, số dư cạn nhanh, chiến dịch dừng đúng lúc hệ thống đang học.
 7. **Tăng giá thầu khi CTR thấp.** Hiển thị nhiều mà ít người bấm là lỗi của ảnh bìa, giá hay tên sản phẩm, không phải của giá thầu.
 

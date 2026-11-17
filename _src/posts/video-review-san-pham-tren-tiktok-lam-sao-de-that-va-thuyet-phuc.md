@@ -6,7 +6,7 @@ keyword: "video review tiktok"
 keywords: ["cách làm video review sản phẩm", "kịch bản review tiktok", "review sản phẩm tiktok shop", "koc review đúng luật"]
 description: "Cách làm video review TikTok thật và thuyết phục: cấu trúc 5 lớp, kịch bản mẫu, checklist quay, gắn nhãn hợp tác và lưu ý Luật Quảng cáo sửa đổi 2025."
 date: 2026-11-15
-updated: 2026-11-15
+updated: 2026-11-17
 summary:
   - "Video review TikTok thuyết phục nhất là video người nói đã dùng sản phẩm thật, cho thấy bằng cận cảnh, nói cả điểm chưa hợp và kết luận sản phẩm hợp với ai."
   - "Từ 01/01/2026, Luật Quảng cáo sửa đổi 2025 yêu cầu người có ảnh hưởng kiểm tra tài liệu sản phẩm, không giới thiệu thứ chưa dùng hoặc chưa hiểu rõ và phải báo rõ khi đang quảng cáo."
@@ -133,7 +133,7 @@ Lấy ví dụ [Trà Dưỡng Nhan](/tra-duong-nhan.html) của QHUB HERBAL, dò
 - **Mùi và vị:** hương hoa nhẹ, vị ngọt dịu từ cỏ ngọt, không thêm đường, không caffeine.
 - **Điểm chưa hợp (nếu KOC thật sự thấy vậy):** người quen trà xanh đậm, chát có thể thấy vị này nhẹ; ai chưa quen cỏ ngọt có thể thấy hậu ngọt hơi lạ ở ngụm đầu.
 - **Dành cho ai:** người thích trà hoa nhẹ, muốn có năm phút nghỉ giữa ngày, hoặc đang tìm một hộp quà nhỏ.
-- **Giá:** giá niêm yết 140.000đ, giá bán 105.000đ mỗi hộp, đang có mua 2 tặng 1.
+- **Giá:** giá niêm yết 140.000đ, giá bán 105.000đ mỗi hộp, trên TikTok Shop đang có mua 3 tặng 1.
 
 Những câu tuyệt đối không xuất hiện, kể cả ở chữ trên màn hình, hashtag hay câu trả lời bình luận: bất kỳ câu nào nói uống vào cơ thể sẽ thay đổi, bất kỳ hình trước và sau nào, và mọi liên hệ giữa tên sản phẩm với làn da hay ngoại hình. Tên sản phẩm là tên, không phải lời hứa. Bài [làm video giới thiệu trà thảo mộc trên TikTok không vi phạm](/kien-thuc/lam-video-gioi-thieu-tra-thao-moc-tren-tiktok-khong-vi-pham/) có bảng chi tiết từng lớp nội dung được và không được nói.
 

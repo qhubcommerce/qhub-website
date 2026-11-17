@@ -6,7 +6,7 @@ keyword: "phí xử lý giao dịch shopee"
 keywords: ["phí thanh toán shopee", "phí xử lý giao dịch shopee 6%", "cách tính phí thanh toán shopee", "phí giao dịch shopee mall"]
 description: "Phí xử lý giao dịch Shopee 6% là phí thanh toán đổi tên: áp dụng từ khi nào, tính trên giá nào, có tính phí ship, đơn hoàn ra sao, bảng ví dụ và cách chỉnh giá."
 date: 2026-11-15
-updated: 2026-11-15
+updated: 2026-11-17
 summary:
   - "Phí xử lý giao dịch là tên mới của phí thanh toán từ 24/4/2026; mức 6% (đã gồm thuế) áp dụng từ 01/5/2026 với shop thường và 08/5/2026 với Shopee Mall, thay cho mức cũ 4,91%."
   - "Cơ sở tính theo GHN và MISA eShop: giá sản phẩm trước Shopee trợ giá, cộng phí vận chuyển người mua trả, trừ khuyến mãi của người bán và khuyến mãi ngân hàng."
@@ -140,23 +140,23 @@ Với cùng một đơn 105.000 đồng nhưng khách trả 15.000 đồng phí 
 
 Nhìn bảng sẽ thấy: phần trăm phí xử lý giao dịch thì như nhau ở mọi mức giá, nhưng khi cộng phí hạ tầng cố định, đơn càng nhỏ thì tổng phí theo đơn càng nặng. Đơn 50.000 đồng mất 12% chỉ cho hai khoản này, chưa tính phí cố định.
 
-## Ví dụ với hộp trà 105.000 đồng và combo mua 2 tặng 1
+## Ví dụ với hộp trà 105.000 đồng và combo mua 3 tặng 1
 
-Để có số gần thực tế, mình lấy giá bán thật của một hộp trà QHUB HERBAL, ví dụ [Trà Lá Ổi Mix Lá Sen](/tra-la-oi-mix-la-sen.html): giá niêm yết 140.000 đồng, giá bán 105.000 đồng, hộp 30 gói × 3 g, chương trình mua 2 tặng 1. Tỷ lệ phí cố định 12% là số **giả định** trong khoảng 10–15% mà GHN ghi cho ngành thực phẩm và đồ uống ở shop thường. Mình không đưa giá vốn hay doanh số thật của thương hiệu.
+Để có số gần thực tế, mình lấy giá bán thật của một hộp trà QHUB HERBAL, ví dụ [Trà Lá Ổi Mix Lá Sen](/tra-la-oi-mix-la-sen.html): giá niêm yết 140.000 đồng, giá bán 105.000 đồng, hộp 30 gói × 3 g, chương trình mua 3 tặng 1 trên Shopee. Tỷ lệ phí cố định 12% là số **giả định** trong khoảng 10–15% mà GHN ghi cho ngành thực phẩm và đồ uống ở shop thường. Mình không đưa giá vốn hay doanh số thật của thương hiệu.
 
-| Khoản (shop thường, khách được miễn phí ship) | Đơn 1 hộp | Combo mua 2 tặng 1 (3 hộp, 210.000 đồng) |
+| Khoản (shop thường, khách được miễn phí ship) | Đơn 1 hộp | Combo mua 3 tặng 1 (4 hộp, 315.000 đồng) |
 | --- | --- | --- |
-| Cơ sở tính | 105.000 | 210.000 |
-| Phí cố định (giả định 12%) | 12.600 | 25.200 |
-| Phí xử lý giao dịch 6% | 6.300 | 12.600 |
+| Cơ sở tính | 105.000 | 315.000 |
+| Phí cố định (giả định 12%) | 12.600 | 37.800 |
+| Phí xử lý giao dịch 6% | 6.300 | 18.900 |
 | Phí hạ tầng | 3.000 | 3.000 |
-| **Tổng phí bắt buộc** | **21.900 (20,9%)** | **40.800 (19,4%)** |
-| Phí xử lý giao dịch tính trên mỗi hộp giao đi | 6.300 | 4.200 |
-| Phí hạ tầng tính trên mỗi hộp giao đi | 3.000 | 1.000 |
+| **Tổng phí bắt buộc** | **21.900 (20,9%)** | **59.700 (19,0%)** |
+| Phí xử lý giao dịch tính trên mỗi hộp giao đi | 6.300 | 4.725 |
+| Phí hạ tầng tính trên mỗi hộp giao đi | 3.000 | 750 |
 
-Combo mua 2 tặng 1 cài theo dạng 3 sản phẩm giá đặc biệt bằng giá 2 sản phẩm, phần giảm này do shop chịu nên được trừ khỏi cơ sở tính. Kết quả: phí xử lý giao dịch tính trên 210.000 đồng chứ không phải 315.000 đồng. Cùng với phí hạ tầng chia cho ba hộp, tổng phí bắt buộc trên doanh thu giảm từ 20,9% xuống 19,4%.
+Combo mua 3 tặng 1 cài theo dạng 4 sản phẩm giá đặc biệt bằng giá 3 sản phẩm, phần giảm này do shop chịu nên được trừ khỏi cơ sở tính. Kết quả: phí xử lý giao dịch tính trên 315.000 đồng chứ không phải 420.000 đồng. Cùng với phí hạ tầng chia cho bốn hộp, tổng phí bắt buộc trên doanh thu giảm từ 20,9% xuống khoảng 19,0%.
 
-Cách tính lãi đầy đủ cho chương trình này, kể cả giá vốn hộp tặng và giới hạn khuyến mại 50%, có trong bài [combo mua 2 tặng 1](/kien-thuc/combo-mua-2-tang-1-tinh-gia-gioi-han-khuyen-mai-va-cach-chay/).
+Hộp tặng bằng 105.000 ÷ 315.000 ≈ 33,3% giá trị hàng mua, cộng cả phần giảm từ giá niêm yết thì tổng ưu đãi khoảng 43,75%, vẫn dưới mức 50%. Cách tính lãi đầy đủ cho kiểu chương trình tặng hộp, kể cả giá vốn hộp tặng và giới hạn khuyến mại 50%, có trong bài [combo mua 2 tặng 1](/kien-thuc/combo-mua-2-tang-1-tinh-gia-gioi-han-khuyen-mai-va-cach-chay/).
 
 ## Phí tăng lên 6% thì nên chỉnh giá và combo thế nào?
 

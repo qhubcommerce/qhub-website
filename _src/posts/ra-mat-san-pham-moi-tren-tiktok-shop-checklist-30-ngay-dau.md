@@ -6,12 +6,12 @@ keyword: "ra mắt sản phẩm mới tiktok shop"
 keywords: ["checklist ra mắt sản phẩm", "launch sản phẩm tiktok shop", "đăng bán thực phẩm trên tiktok shop", "sản phẩm mới không có đơn"]
 description: "Ra mắt sản phẩm mới trên TikTok Shop: checklist 30 ngày đầu gồm giấy tờ, giá, khuyến mại, video, KOC, livestream, quảng cáo và ví dụ thật Trà Dưỡng Nhan."
 date: 2026-11-14
-updated: 2026-11-14
+updated: 2026-11-17
 summary:
   - "Ra mắt sản phẩm mới trên TikTok Shop nên chia thành 5 chặng: chuẩn bị trước ngày 0, tuần đầu lấy đơn thật, tuần hai thử nội dung, tuần ba mở rộng KOC và livestream, tuần bốn mới dồn quảng cáo."
   - "Thực phẩm thường đi theo Nghị định 15/2018/NĐ-CP về tự công bố, vì Nghị định 46/2026/NĐ-CP đã bị tạm ngưng hiệu lực từ 06/4/2026."
   - "Tính giá phải trừ đủ phí hoa hồng, phí giao dịch 6% (từ 09/5/2026) và phí xử lý 3.000đ/đơn trước khi chọn mức khuyến mại."
-  - "Trà Dưỡng Nhan của QHUB HERBAL ra mắt 13/11/2026 là ví dụ thật về phần việc trước ngày 0: tự công bố, bao bì, mã vạch, ảnh và chính sách giá mua 2 tặng 1."
+  - "Trà Dưỡng Nhan của QHUB HERBAL ra mắt 13/11/2026 là ví dụ thật về phần việc trước ngày 0: tự công bố, bao bì, mã vạch, ảnh và chính sách giá mua 3 tặng 1 trên TikTok Shop (mua 2 tặng 1 trên website qhubherbal.com)."
 faq:
   - q: "Sản phẩm mới đăng lên TikTok Shop bao lâu thì có đơn?"
     a: "Không có mốc cố định. Sản phẩm có sẵn 5–10 video, vài KOC đăng trong tuần đầu và trang sản phẩm đầy đủ thường có những đơn đầu tiên sớm hơn hẳn sản phẩm chỉ đăng lên rồi chờ. Anh chị nên đặt mục tiêu tuần đầu là đơn thật và đánh giá thật, chưa phải doanh số."
@@ -20,7 +20,7 @@ faq:
   - q: "Thực phẩm thường có cần giấy xác nhận nội dung quảng cáo không?"
     a: "Theo Nghị định 15/2018/NĐ-CP, nhóm phải đăng ký nội dung quảng cáo là thực phẩm bảo vệ sức khỏe, thực phẩm dinh dưỡng y học, thực phẩm cho chế độ ăn đặc biệt và dinh dưỡng cho trẻ đến 36 tháng. Thực phẩm thường không nằm trong nhóm này, nhưng nội dung quảng cáo vẫn phải đúng bản tự công bố và không được gây hiểu nhầm là thuốc."
   - q: "Mua 2 tặng 1 có vượt mức khuyến mại cho phép không?"
-    a: "Hộp tặng bằng một nửa giá trị hai hộp mua, tức đúng 50%. Thông tư 39/2025/TT-BCT đặt trần 50% từ 01/7/2025. Nghị định 239/2026/NĐ-CP (26/6/2026) được LuatVietnam cho là đã bỏ trần này, nhưng các bản tóm tắt khác chưa nêu, nên giữ trong 50% vẫn là cách an toàn."
+    a: "Hộp tặng bằng một nửa giá trị hai hộp mua, tức đúng 50%. Thông tư 39/2025/TT-BCT đặt trần 50% từ 01/7/2025. Nghị định 239/2026/NĐ-CP (26/6/2026) được LuatVietnam cho là đã bỏ trần này, nhưng các bản tóm tắt khác chưa nêu, nên giữ trong 50% vẫn là cách an toàn. Trên TikTok Shop và Shopee, QHUB HERBAL chạy mua 3 tặng 1, hộp tặng khoảng 33,3% giá trị hàng mua."
   - q: "Có nên chạy GMV Max ngay ngày đầu ra mắt không?"
     a: "Đội QHUB thường chưa dồn ngân sách ngay. Hệ thống quảng cáo cần dữ liệu đơn và video thật để học. Tuần đầu nên lấy đơn từ video, KOC và livestream, khi đã biết video nào giữ người xem tốt thì mới tăng quảng cáo."
 sources:
@@ -98,15 +98,15 @@ Hai nguồn đều ghi là số tham khảo, TikTok Shop có thể đổi. Trư�
 
 ### Ví dụ tính với giá thật của QHUB HERBAL
 
-Mỗi hộp QHUB HERBAL có 30 gói × 3 g, giá niêm yết 140.000đ, giá bán 105.000đ, mua 2 tặng 1. Giả sử bán đúng giá đang niêm yết trên website và áp mức phí shop thường ở trên, phép tính minh họa như sau:
+Mỗi hộp QHUB HERBAL có 30 gói × 3 g, giá niêm yết 140.000đ, giá bán 105.000đ ở mọi kênh; trên TikTok Shop chạy mua 3 tặng 1 (trên website qhubherbal.com là mua 2 tặng 1). Giả sử bán trên TikTok Shop đúng giá đang bán trên website và áp mức phí shop thường ở trên, phép tính minh họa như sau:
 
-| Khoản | Đơn 1 hộp | Đơn mua 2 tặng 1 |
+| Khoản | Đơn 1 hộp | Combo mua 3 tặng 1 (4 hộp) |
 | --- | --- | --- |
-| Khách trả | 105.000đ | 210.000đ (nhận 3 hộp) |
-| Hoa hồng sàn 14% | 14.700đ | 29.400đ |
-| Phí giao dịch 6% | 6.300đ | 12.600đ |
+| Khách trả | 105.000đ | 315.000đ (nhận 4 hộp) |
+| Hoa hồng sàn 14% | 14.700đ | 44.100đ |
+| Phí giao dịch 6% | 6.300đ | 18.900đ |
 | Phí xử lý đơn | 3.000đ | 3.000đ |
-| Còn lại trước giá vốn, đóng gói, KOC, quảng cáo | 81.000đ | 165.000đ (55.000đ mỗi hộp) |
+| Còn lại trước giá vốn, đóng gói, KOC, quảng cáo | 81.000đ | 249.000đ (62.250đ mỗi hộp) |
 
 Phần còn lại phải đủ trả giá vốn, đóng gói, hoa hồng KOC và quảng cáo. Nếu quá mỏng, đổi cấu trúc ưu đãi trước khi ra mắt.
 
@@ -114,7 +114,7 @@ Phần còn lại phải đủ trả giá vốn, đóng gói, hoa hồng KOC và
 
 Thông tư 39/2025/TT-BCT, hiệu lực từ 01/7/2025, đặt trần 50% cho cả mức giảm giá và giá trị hàng tặng so với giá trước khuyến mại. Ngày 26/6/2026, Nghị định 239/2026/NĐ-CP sửa Nghị định 81/2018. LuatVietnam cho rằng nghị định mới đã bãi bỏ quy định về mức giảm giá tối đa và hạn mức giá trị hàng khuyến mại. Các bản tóm tắt của KPMG và PwC thì chỉ nêu việc bỏ giới hạn tổng thời gian giảm giá.
 
-Khi nguồn còn lệch, đội QHUB chọn giữ trong ngưỡng 50%. Mua 2 tặng 1 là một ví dụ: hộp tặng bằng đúng một nửa giá trị hai hộp mua. Còn giá niêm yết thì luôn phải là giá thật, không nâng lên rồi ghi giảm sâu.
+Khi nguồn còn lệch, đội QHUB chọn giữ trong ngưỡng 50%. Với QHUB HERBAL, mua 3 tặng 1 trên TikTok Shop và Shopee có hộp tặng khoảng 33,3% giá trị ba hộp mua (tính cả phần giảm từ giá niêm yết là 43,75%); mua 2 tặng 1 trên website qhubherbal.com có hộp tặng bằng đúng một nửa giá trị hai hộp mua, sát trần nên không chồng thêm mã giảm giá. Còn giá niêm yết thì luôn phải là giá thật, không nâng lên rồi ghi giảm sâu.
 
 ## Checklist 30 ngày đầu khi ra mắt sản phẩm mới trên TikTok Shop
 
@@ -133,7 +133,7 @@ Khi nguồn còn lệch, đội QHUB chọn giữ trong ngưỡng 50%. Mua 2 t�
 - [ ] Hồ sơ tự công bố và phiếu kiểm nghiệm còn hạn, scan rõ nét.
 - [ ] Nộp duyệt ngành hàng hạn chế nếu gian hàng chưa có ngành này.
 - [ ] Mã vạch in trên bao bì, khớp với mã khai trên sàn.
-- [ ] Bảng tính lãi theo từng cấu trúc ưu đãi (1 hộp, combo, mua 2 tặng 1).
+- [ ] Bảng tính lãi theo từng cấu trúc ưu đãi (1 hộp, combo, mua 2 tặng 1, mua 3 tặng 1).
 - [ ] Bộ ảnh sàn: ảnh bìa nền sạch, ảnh thành phần, ảnh quy cách, ảnh ưu đãi.
 - [ ] Mô tả trả lời đủ: thành phần, quy cách, cách dùng, bảo quản, hạn dùng, lưu ý khi dùng, số tự công bố.
 - [ ] Quay sẵn ít nhất 10 video với nhiều góc khác nhau.
@@ -175,7 +175,7 @@ Vì vậy brief gửi KOC nên kèm bản tự công bố và một danh sách c
 | Không thêm đường, không caffeine | Hứa hẹn thay đổi về ngoại hình |
 | Năm phút pha trà như một nghi thức cho bản thân | Dùng hình ảnh bác sĩ, cơ sở y tế để giới thiệu |
 | Món quà cho mẹ, vợ, bạn gái | Từ tuyệt đối kiểu nhất, duy nhất |
-| Mua 2 tặng 1, hộp tặng được chọn vị khác | So sánh hạ thấp sản phẩm khác |
+| Mua 3 tặng 1 trên TikTok Shop, hộp tặng được chọn vị khác | So sánh hạ thấp sản phẩm khác |
 
 Tên sản phẩm càng gợi cảm xúc thì nội dung càng phải cẩn thận. Đây là bài học đội rút ra ngay từ lúc đặt tên Trà Dưỡng Nhan.
 
@@ -202,7 +202,7 @@ Phần trước ngày 0 của Trà Dưỡng Nhan đội làm theo đúng thứ t
 3. **Bao bì.** Hộp riêng cho vị mới, cùng hệ nhận diện với sáu vị trước, quy cách 30 gói × 3 g. Số lô, ngày sản xuất, hạn dùng in dưới đáy hộp.
 4. **Mã vạch.** Mã EAN-13 8936244311836, đầu 893 là mã quốc gia Việt Nam. Khai đúng mã này ở mọi kênh để không lệch tồn kho.
 5. **Ảnh và trang sản phẩm.** Ảnh thành phần cho từng vị, ảnh cách pha, phần lưu ý khi dùng cho người mẫn cảm, phụ nữ có thai và người đang dùng thuốc. Anh chị xem trang thật ở [Trà Dưỡng Nhan](/tra-duong-nhan.html).
-6. **Chính sách giá.** 105.000đ một hộp (niêm yết 140.000đ), mua 2 tặng 1, hộp tặng được chọn vị khác. Một chính sách cho mọi kênh, để khách không thấy mỗi nơi một giá.
+6. **Chính sách giá.** 105.000đ một hộp (niêm yết 140.000đ) ở mọi kênh, hộp tặng được chọn vị khác. Ưu đãi tặng hộp khác nhau theo kênh: mua 3 tặng 1 trên TikTok Shop và Shopee, mua 2 tặng 1 trên website qhubherbal.com. Giá bán giữ giống nhau ở mọi kênh để khách không thấy mỗi nơi một giá.
 
 ### Lỗi hay gặp khi ra mắt sản phẩm mới
 

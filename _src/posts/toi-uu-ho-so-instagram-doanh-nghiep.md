@@ -6,7 +6,7 @@ keyword: "tối ưu hồ sơ instagram"
 keywords: ["cách viết bio instagram cho doanh nghiệp", "tài khoản doanh nghiệp instagram", "link trong bio instagram", "tin nổi bật instagram"]
 description: "Tối ưu hồ sơ Instagram doanh nghiệp: tên tìm kiếm được, tiểu sử 150 ký tự, tối đa 5 liên kết, nút liên hệ, tin nổi bật, bài ghim. Kèm checklist và lỗi hay gặp."
 date: 2026-11-15
-updated: 2026-11-15
+updated: 2026-11-17
 summary:
   - "Tối ưu hồ sơ Instagram là chỉnh 8 phần trên trang hồ sơ để người lạ hiểu doanh nghiệp bán gì trong vài giây và biết bấm vào đâu: loại tài khoản, tên người dùng, tên hiển thị, tiểu sử, liên kết, nút liên hệ, tin nổi bật, bài ghim."
   - "Giới hạn cần nhớ (kiểm tra 11/2026): tên hiển thị 30 ký tự, tiểu sử 150 ký tự, tối đa 5 liên kết theo Trung tâm trợ giúp Instagram, ghim tối đa 3 bài hoặc Reels."
@@ -98,9 +98,9 @@ Ví dụ minh họa với một thương hiệu trà túi lọc, lấy [QHUB HER
 
 > Trà thảo mộc túi lọc Việt · hộp 30 gói × 3 g
 > Pha 5 phút ở nhà, ở văn phòng, hoặc làm quà
-> Mua 2 tặng 1 · Đặt hàng ở link bên dưới
+> Mua 2 tặng 1 trên website · Đặt hàng ở link bên dưới
 
-Tiểu sử này không có lời nào về công dụng sức khỏe. Với thực phẩm thông thường như trà, hồ sơ chỉ nên nói về quy cách, cách dùng, dịp dùng và ưu đãi. Nếu sau này ưu đãi đổi, dòng 3 phải sửa theo ngay, đừng để khách nhắn hỏi mua 2 tặng 1 khi chương trình đã kết thúc.
+Tiểu sử này không có lời nào về công dụng sức khỏe. Với thực phẩm thông thường như trà, hồ sơ chỉ nên nói về quy cách, cách dùng, dịp dùng và ưu đãi. Dòng 3 ghi rõ "trên website" vì link trong hồ sơ dẫn về website qhubherbal.com, nơi áp dụng mua 2 tặng 1; trên TikTok Shop và Shopee, QHUB HERBAL chạy mua 3 tặng 1. Nếu sau này ưu đãi đổi, dòng 3 phải sửa theo ngay, đừng để khách nhắn hỏi mua 2 tặng 1 khi chương trình đã kết thúc.
 
 Thêm vài nguyên tắc: đặt từ khóa tự nhiên để Instagram và Google hiểu tài khoản nói về gì; dùng biểu tượng cảm xúc tiết chế, một hai cái để ngắt dòng là đủ; không hứa điều không làm được như "giao 2 giờ toàn quốc".
 
@@ -155,7 +155,7 @@ Lưới hồ sơ hiện dùng ô dọc tỷ lệ 3:4, nên ảnh bìa Reels và 
 
 ## Bước 7: Ảnh đại diện và sự đồng bộ giữa các kênh
 
-Ảnh đại diện hiển thị rất nhỏ, dạng tròn, nên logo dạng biểu tượng dễ nhận ra hơn logo ngang dài. Hồ sơ Instagram cũng không đứng một mình: khách thường đi qua TikTok, Facebook, Shopee rồi mới vào Instagram. Đồng bộ bốn thứ giữa các kênh: tên người dùng, ảnh đại diện, cách viết tên thương hiệu và ưu đãi đang chạy. Nếu thương hiệu dùng thêm Threads, tài khoản Threads gắn với chính tài khoản Instagram, xem thêm bài [Threads là gì và doanh nghiệp có nên dùng năm 2026](/kien-thuc/threads-la-gi-va-doanh-nghiep-co-nen-dung-nam-2026/).
+Ảnh đại diện hiển thị rất nhỏ, dạng tròn, nên logo dạng biểu tượng dễ nhận ra hơn logo ngang dài. Hồ sơ Instagram cũng không đứng một mình: khách thường đi qua TikTok, Facebook, Shopee rồi mới vào Instagram. Đồng bộ bốn thứ giữa các kênh: tên người dùng, ảnh đại diện, cách viết tên thương hiệu và ưu đãi đang chạy (nếu mỗi kênh một ưu đãi thì ghi rõ kênh nào ưu đãi gì). Nếu thương hiệu dùng thêm Threads, tài khoản Threads gắn với chính tài khoản Instagram, xem thêm bài [Threads là gì và doanh nghiệp có nên dùng năm 2026](/kien-thuc/threads-la-gi-va-doanh-nghiep-co-nen-dung-nam-2026/).
 
 Về bán hàng, Instagram ở Việt Nam chủ yếu dẫn khách sang tin nhắn hoặc nơi mua khác. Một điểm mới đáng biết: từ tháng 7/2026, Shopee và Meta mở rộng chương trình tiếp thị liên kết sang Instagram ở một số nước Đông Nam Á, trong đó có Việt Nam. Nhà sáng tạo đủ điều kiện có thể gắn thẻ sản phẩm Shopee trong Reels và bài đăng để nhận hoa hồng. Với thương hiệu, đây là lý do để giữ tên gian hàng trên Shopee và tên hồ sơ Instagram thống nhất, để khách nhận ra khi thấy sản phẩm qua bài của KOC.
 

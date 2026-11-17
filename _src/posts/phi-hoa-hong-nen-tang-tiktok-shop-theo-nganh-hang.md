@@ -6,7 +6,7 @@ keyword: "phí hoa hồng tiktok shop"
 keywords: ["phí hoa hồng tiktok shop 2026", "bảng phí hoa hồng tiktok shop theo ngành", "phí hoa hồng tiktok shop mall", "cách tính phí hoa hồng tiktok shop"]
 description: "Phí hoa hồng TikTok Shop theo ngành: bảng mức phí shop tiêu chuẩn (từ 03/7/2026) và Mall (từ 03/8/2026), cách tính trên đơn, cách tra ngành cấp 3."
 date: 2026-11-15
-updated: 2026-11-15
+updated: 2026-11-17
 summary:
   - "Phí hoa hồng nền tảng TikTok Shop tính theo ngành hàng: biểu phí hiện hành áp dụng cho shop tiêu chuẩn từ 03/7/2026 và cho Mall từ 03/8/2026; đến 15/11/2026 chưa thấy công bố biểu phí mới hơn."
   - "Ngành cấp 3 không có trong bảng bị áp mức mặc định 14% (shop tiêu chuẩn) và 16% (Mall); có ngành làm đẹp của Mall lên tới 19,8%."
@@ -130,7 +130,7 @@ Vì chưa dò từng dòng PDF trong bài viết này, mình dùng mức cận t
 
 Nếu đơn có voucher 10.000 đồng do TikTok Shop tài trợ, khách chỉ trả 95.000 đồng nhưng hoa hồng vẫn tính trên 105.000 đồng. Ngược lại, nếu shop tự phát voucher 10.000 đồng, cơ sở tính giảm còn 95.000 đồng.
 
-Nhìn vào bảng, anh chị sẽ thấy với sản phẩm giá thấp như một hộp trà, phí xử lý cố định 3.000 đồng cộng với hoa hồng đã ngốn gần một phần tư giá bán. Đây là lý do QHUB HERBAL giữ chính sách mua 2 tặng 1: giá trị đơn lớn hơn thì phí cố định được chia mỏng hơn. Còn quà tặng đi kèm được ghi nhận thế nào trong đơn, anh chị nên mở chi tiết thu nhập của một đơn thật để kiểm tra, thay vì đoán.
+Nhìn vào bảng, anh chị sẽ thấy với sản phẩm giá thấp như một hộp trà, phí xử lý cố định 3.000 đồng cộng với hoa hồng đã ngốn gần một phần tư giá bán. Đây là lý do QHUB HERBAL chạy mua 3 tặng 1 trên TikTok Shop và Shopee (khách trả 315.000 đồng, nhận 4 hộp): giá trị đơn lớn hơn thì phí cố định được chia mỏng hơn. Còn quà tặng đi kèm được ghi nhận thế nào trong đơn, anh chị nên mở chi tiết thu nhập của một đơn thật để kiểm tra, thay vì đoán.
 
 ## Cách tra đúng ngành hàng cấp 3 cho sản phẩm
 

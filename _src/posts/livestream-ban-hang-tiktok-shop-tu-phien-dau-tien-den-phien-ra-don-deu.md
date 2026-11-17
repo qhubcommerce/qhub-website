@@ -6,7 +6,7 @@ keyword: "livestream tiktok shop"
 keywords: ["cách livestream bán hàng trên tiktok shop", "điều kiện live tiktok shop", "kịch bản livestream bán hàng", "quy định livestream tiktok shop"]
 description: "Livestream TikTok Shop từ phiên đầu: điều kiện mở LIVE, chuẩn bị, kịch bản 90 phút, điều cấm khi live, lộ trình 8 tuần để phiên nào cũng có đơn."
 date: 2026-11-16
-updated: 2026-11-16
+updated: 2026-11-17
 summary:
   - "Livestream TikTok Shop ra đơn đều nhờ lịch live cố định, kịch bản theo phút và đọc số liệu sau mỗi phiên, không phải nhờ một phiên dài may mắn."
   - "TikTok yêu cầu người phát LIVE từ 18 tuổi; tài khoản chính thức liên kết gian hàng thường không cần đủ mốc khoảng 1.000 người theo dõi như tài khoản thường, nhưng điều kiện có thể đổi nên phải kiểm tra trong ứng dụng."
@@ -86,7 +86,7 @@ Phiên đầu không cần studio. Nhưng cần đủ năm nhóm việc dưới 
 
 **5. Kịch bản và danh sách câu không được nói.** Viết trước theo phút (xem phần sau). Kèm một danh sách ngắn những câu cấm với ngành hàng của mình.
 
-Với ngành thực phẩm như trà, phần danh sách câu cấm rất quan trọng. Lấy ví dụ thương hiệu [QHUB HERBAL](/qhub-herbal.html) do đội QHUB xây: khi giới thiệu trà trên live, host chỉ nói về thành phần, hương vị, cách pha, quy cách hộp 30 gói × 3 g và chương trình mua 2 tặng 1. Host không gán công dụng sức khỏe cho sản phẩm, vì trà là thực phẩm thông thường.
+Với ngành thực phẩm như trà, phần danh sách câu cấm rất quan trọng. Lấy ví dụ thương hiệu [QHUB HERBAL](/qhub-herbal.html) do đội QHUB xây: khi giới thiệu trà trên live, host chỉ nói về thành phần, hương vị, cách pha, quy cách hộp 30 gói × 3 g và chương trình mua 3 tặng 1 trên TikTok Shop. Host không gán công dụng sức khỏe cho sản phẩm, vì trà là thực phẩm thông thường.
 
 ## Kịch bản mẫu cho phiên livestream 90 phút đầu tiên
 

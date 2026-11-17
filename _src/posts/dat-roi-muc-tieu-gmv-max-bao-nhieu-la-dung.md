@@ -6,7 +6,7 @@ keyword: "roi mục tiêu gmv max"
 keywords: ["roi hòa vốn tiktok shop", "cách tính roi gmv max", "roi gợi ý gmv max", "bảo vệ roi gmv max"]
 description: "ROI mục tiêu GMV Max nên đặt bao nhiêu: công thức ROI hòa vốn từ biên lợi nhuận sau phí sàn, bảng tính theo từng mức biên, khi nào hạ hay nâng ROI, ngày sale."
 date: 2026-11-15
-updated: 2026-11-15
+updated: 2026-11-17
 summary:
   - "ROI mục tiêu GMV Max đúng là mức cao hơn ROI hòa vốn của chính sản phẩm, với ROI hòa vốn bằng 1 chia biên lợi nhuận trước quảng cáo (đã trừ giá vốn và phí sàn)."
   - "Muốn giữ lại một tỷ lệ lãi sau quảng cáo, dùng công thức: ROI mục tiêu = 1 ÷ (biên trước quảng cáo − biên lãi mong muốn). Biên 30%, muốn giữ 10% thì ROI mục tiêu là 5."
@@ -71,21 +71,21 @@ Phí sàn TikTok Shop năm 2026 gồm ba khoản bắt buộc: hoa hồng nền 
 
 ### Ví dụ: một hộp trà giá 105.000 đồng
 
-Lấy ví dụ một hộp trà [QHUB HERBAL](/qhub-herbal.html), giá bán 105.000 đồng (giá niêm yết 140.000 đồng). Giá vốn và đóng gói dưới đây là **số giả định** để minh họa cách tính, không phải giá vốn thật của sản phẩm. Hoa hồng lấy mức mặc định 14%; mức thật của ngành thực phẩm, đồ uống anh chị tra trong Seller Center.
+Lấy ví dụ một hộp trà [QHUB HERBAL](/qhub-herbal.html), giá bán 105.000 đồng (giá niêm yết 140.000 đồng), trên TikTok Shop đang chạy mua 3 tặng 1: khách trả 315.000 đồng, nhận 4 hộp. Giá vốn và đóng gói dưới đây là **số giả định** để minh họa cách tính, không phải giá vốn thật của sản phẩm. Hoa hồng lấy mức mặc định 14%; mức thật của ngành thực phẩm, đồ uống anh chị tra trong Seller Center.
 
-| Khoản | Bán lẻ 1 hộp | Đơn mua 2 tặng 1 |
+| Khoản | Bán lẻ 1 hộp | Combo mua 3 tặng 1 (4 hộp) |
 | --- | --- | --- |
-| Giá bán (khách trả) | 105.000 đ | 210.000 đ |
-| Giá vốn (giả định 35.000 đ/hộp) | 35.000 đ | 105.000 đ (3 hộp) |
-| Hoa hồng nền tảng 14% | 14.700 đ | 29.400 đ |
-| Phí giao dịch 6% | 6.300 đ | 12.600 đ |
+| Giá bán (khách trả) | 105.000 đ | 315.000 đ |
+| Giá vốn (giả định 35.000 đ/hộp) | 35.000 đ | 140.000 đ (4 hộp) |
+| Hoa hồng nền tảng 14% | 14.700 đ | 44.100 đ |
+| Phí giao dịch 6% | 6.300 đ | 18.900 đ |
 | Phí xử lý đơn | 3.000 đ | 3.000 đ |
 | Đóng gói (giả định) | 5.000 đ | 5.000 đ |
-| **Lãi trước quảng cáo** | **41.000 đ** | **55.000 đ** |
-| Biên trước quảng cáo | 39,0% | 26,2% |
-| **ROI hòa vốn** | **105.000 ÷ 41.000 ≈ 2,56** | **210.000 ÷ 55.000 ≈ 3,82** |
+| **Lãi trước quảng cáo** | **41.000 đ** | **104.000 đ** |
+| Biên trước quảng cáo | 39,0% | 33,0% |
+| **ROI hòa vốn** | **105.000 ÷ 41.000 ≈ 2,56** | **315.000 ÷ 104.000 ≈ 3,03** |
 
-Cùng một sản phẩm, chạy mua 2 tặng 1 là ROI hòa vốn nhảy từ khoảng 2,6 lên khoảng 3,8. Giữ nguyên ROI mục tiêu 3 thì đơn lẻ có lãi còn đơn combo đang lỗ. Mỗi mức giá, mỗi chương trình cần ROI hòa vốn riêng.
+Cùng một sản phẩm, chạy mua 3 tặng 1 là ROI hòa vốn tăng từ khoảng 2,6 lên khoảng 3,0. Giữ nguyên ROI mục tiêu 3 thì đơn lẻ có lãi còn đơn combo đã nằm dưới hòa vốn. Mỗi mức giá, mỗi chương trình cần ROI hòa vốn riêng.
 
 Nếu đơn đến từ KOC affiliate, cộng thêm hoa hồng affiliate. Với đơn lẻ trên, affiliate 10% làm lãi trước quảng cáo còn 30.500 đồng và ROI hòa vốn lên khoảng 3,4. Trong thực tế, mình lấy tỷ lệ affiliate trung bình theo tỷ trọng đơn của tháng trước để tính.
 
@@ -164,7 +164,7 @@ Theo trang "Ngày khuyến mãi cho GMV Max" của TikTok Ads (cập nhật 3/20
 - **Tăng ngân sách**, mặc định thêm 50%, có thể tự chỉnh.
 - Áp dụng cho cả Product GMV Max và LIVE GMV Max; TikTok khuyên bật trước sự kiện 3–5 ngày và tải thêm video mới.
 
-Bẫy ở đây là **hai lực cùng kéo về một phía**. Ngày sale anh chị thường giảm giá hoặc làm combo, biên mỏng đi nên ROI hòa vốn tăng lên. Cùng lúc, hệ thống lại hạ ROI mục tiêu xuống. Quay lại ví dụ trà: ngày thường đặt ROI 3,5 cho đơn lẻ là thoải mái. Ngày sale bán theo combo mua 2 tặng 1, hòa vốn đã là 3,82; nếu hệ thống hạ 30% thì ROI mục tiêu còn 2,45, thấp hơn hòa vốn khá xa.
+Bẫy ở đây là **hai lực cùng kéo về một phía**. Ngày sale anh chị thường giảm giá hoặc làm combo, biên mỏng đi nên ROI hòa vốn tăng lên. Cùng lúc, hệ thống lại hạ ROI mục tiêu xuống. Quay lại ví dụ trà: ngày thường đặt ROI 3,5 cho đơn lẻ là thoải mái. Ngày sale bán theo combo mua 3 tặng 1, hòa vốn đã là 3,03; nếu hệ thống hạ 30% thì ROI mục tiêu còn 2,45, thấp hơn hòa vốn khá xa.
 
 Trước mỗi đợt sale, mình làm ba việc: tính lại hòa vốn theo giá sale, chọn mức hạ phù hợp (10% thay vì 30% nếu biên mỏng), và đặt trần số tiền chấp nhận lỗ để mua khách mới.
 

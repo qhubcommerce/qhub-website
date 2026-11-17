@@ -6,7 +6,7 @@ keyword: "video trà thảo mộc tiktok"
 keywords: ["quay video trà thảo mộc", "kịch bản video bán trà", "video tiktok thực phẩm bị gỡ", "brief koc trà thảo mộc"]
 description: "Cách làm video trà thảo mộc TikTok không vi phạm: nói gì, tránh gì, 5 dạng video an toàn, kịch bản mẫu và brief KOC theo luật quảng cáo 2026."
 date: 2026-11-14
-updated: 2026-11-14
+updated: 2026-11-17
 summary:
   - "Video trà thảo mộc trên TikTok an toàn khi chỉ nói những gì người xem thấy và cảm được: màu nước, mùi hương, thành phần thật, cách pha, dịp dùng, món quà."
   - "Trà túi lọc thường là thực phẩm thông thường nên không được nói công dụng với cơ thể, kể cả bằng chữ trên màn hình, giọng đọc hay bình luận ghim."
@@ -87,7 +87,7 @@ Gói hộp trà làm quà cho mẹ, cho vợ, cho đồng nghiệp. Dạng này 
 
 ### 5. Hỏi đáp về cách dùng
 
-Trả lời bình luận bằng video: pha nóng hay lạnh, một túi pha được mấy lần, có đường không, hạn dùng bao lâu, mua 2 tặng 1 thì chọn vị tặng thế nào. Dạng này xây niềm tin vì cho thấy shop có người thật trả lời.
+Trả lời bình luận bằng video: pha nóng hay lạnh, một túi pha được mấy lần, có đường không, hạn dùng bao lâu, mua 3 tặng 1 thì chọn vị tặng thế nào. Dạng này xây niềm tin vì cho thấy shop có người thật trả lời.
 
 Muốn có thêm ý tưởng, anh chị xem bài [12 dạng video TikTok bán hàng ra đơn đều](/kien-thuc/content-tiktok-ban-hang-12-dang-video-ra-don-deu/), chọn những dạng hợp với thực phẩm.
 
@@ -101,7 +101,7 @@ Kịch bản dưới theo công thức 4 phần quen thuộc: mở đầu giữ 
 | 3–10 | Bàn làm việc bừa bộn, điện thoại rung liên tục | "Chiều nào cũng vậy, việc chưa xong việc khác đã tới." |
 | 10–20 | Mở hộp, lấy một túi, bày vài cánh hoa, ly trà màu hổ phách | "Trà hoa 9 vị, ngọt dịu từ cỏ ngọt, không thêm đường, không caffeine." |
 | 20–27 | Tay ôm ly trà, nhìn ra cửa sổ | "Một túi, 200 ml nước sôi, chờ năm phút." |
-| 27–30 | Hộp trà, giá, ưu đãi | "Mua 2 tặng 1, chọn vị khác. Bấm giỏ hàng xem thành phần nhé." |
+| 27–30 | Hộp trà, giá, ưu đãi | "Mua 3 tặng 1, hộp tặng chọn vị khác. Bấm giỏ hàng xem thành phần nhé." |
 
 Để ý rằng cả kịch bản không có câu nào nói về cơ thể. Người xem vẫn hiểu trà này dành cho ai và dùng lúc nào. Ba giây đầu là quan trọng nhất; nếu cần thêm câu mở đầu, anh chị tham khảo bài [30 câu hook 3 giây đầu](/kien-thuc/hook-3-giay-dau-30-cau-mo-dau-giu-chan-nguoi-xem/) và chọn những câu không mang tính hứa hẹn.
 

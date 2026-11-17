@@ -6,7 +6,7 @@ keyword: "sale tết 2027"
 keywords: ["lịch sale tết 2027", "bán hàng tết đinh mùi", "hạn chót giao hàng trước tết 2027", "nhóm hàng bán chạy dịp tết", "kế hoạch bán hàng tết"]
 description: "Sale Tết 2027 kéo dài từ 12.12.2026 đến ông Công ông Táo 30/1/2027. Lịch mốc, nhóm hàng bán chạy, hạn giao hàng và kế hoạch theo từng tuần cho nhà bán."
 date: 2026-11-16
-updated: 2026-11-16
+updated: 2026-11-17
 summary:
   - "Mùng 1 Tết Đinh Mùi là thứ Bảy 6/2/2027; ông Công ông Táo (23 tháng Chạp) là thứ Bảy 30/1/2027; giao thừa là tối thứ Sáu 5/2/2027."
   - "Theo thông báo của Bộ Nội vụ được CafeF đưa ngày 10/10/2026, công chức nghỉ Tết 7 ngày từ thứ Năm 4/2 đến hết thứ Tư 10/2/2027; doanh nghiệp được chọn phương án riêng."
@@ -152,7 +152,7 @@ QHUB HERBAL là thương hiệu trà túi lọc do chính đội QHUB xây. Mìn
 
 **Cách định vị cho mùa Tết.** Đội mình không lên lịch theo sale đôi trước, mà theo mùa quà. Nội dung Trà Dưỡng Nhan chỉ xoay quanh hương hoa hồng, hoa nhài, vị ngọt dịu, năm phút pha trà cho bản thân giữa những ngày cuối năm bận rộn, và ý nghĩa của một hộp quà gửi người thân. Trà là thực phẩm thông thường, nên đội mình không nói công dụng gì với cơ thể, không dùng từ tuyệt đối.
 
-**Chính sách giá.** Thay vì giảm giá sâu từng đợt, đội mình giữ combo mua 2 tặng 1 cả mùa. Người mua quà Tết thường mua cho nhiều người cùng lúc, nên combo hợp hơn giảm giá. Hộp tặng cùng giá với hộp mua, nên giá trị hàng tặng bằng 50% giá trị hai hộp phải mua, nằm trong giới hạn khuyến mại. Cách tính lãi và cài đặt combo có trong bài [combo mua 2 tặng 1](/kien-thuc/combo-mua-2-tang-1-tinh-gia-gioi-han-khuyen-mai-va-cach-chay/).
+**Chính sách giá.** Thay vì giảm giá sâu từng đợt, đội mình giữ combo tặng hộp cả mùa, ưu đãi theo kênh: mua 3 tặng 1 trên TikTok Shop và Shopee (khách trả 315.000đ, nhận 4 hộp), mua 2 tặng 1 trên website qhubherbal.com (khách trả 210.000đ, nhận 3 hộp). Người mua quà Tết thường mua cho nhiều người cùng lúc, nên combo hợp hơn giảm giá. Hộp tặng cùng giá với hộp mua, nên giá trị hàng tặng khoảng 33,3% giá trị hàng phải mua trên sàn và đúng 50% trên website; tính cả phần giảm từ giá niêm yết thì lần lượt là 43,75% và 50%, đều nằm trong giới hạn khuyến mại. Cách tính lãi và cài đặt combo có trong bài [combo mua 2 tặng 1](/kien-thuc/combo-mua-2-tang-1-tinh-gia-gioi-han-khuyen-mai-va-cach-chay/).
 
 **Vận hành.** Hộp trà khô, nhẹ, ít vỡ, nên chịu được giao xa tốt hơn nhiều nhóm hàng. Dù vậy, đội vẫn đặt hạn chót giao tỉnh trước tuần ông Công ông Táo, và ghi rõ hạn đặt trên trang sản phẩm.
 

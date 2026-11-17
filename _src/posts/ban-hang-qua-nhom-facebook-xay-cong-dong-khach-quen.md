@@ -6,7 +6,7 @@ keyword: "bán hàng nhóm facebook"
 keywords: ["cách xây nhóm facebook bán hàng", "nhóm facebook công khai hay riêng tư", "livestream trong nhóm facebook", "chăm sóc khách quen facebook"]
 description: "Bán hàng nhóm Facebook để giữ khách quen: chọn nhóm công khai hay riêng tư, gắn với fanpage, quy tắc nhóm, lịch nội dung, mời khách cũ, livestream và chốt đơn."
 date: 2026-11-14
-updated: 2026-11-14
+updated: 2026-11-17
 summary:
   - "Bán hàng qua nhóm Facebook hợp nhất với việc giữ và bán lại cho khách đã mua, không phải để tìm khách lạ giá rẻ."
   - "Nhóm khách quen nên để riêng tư; từ 03/11/2025 Meta cho phép đổi nhóm riêng tư sang công khai với thời gian chờ 3 ngày, bài cũ vẫn chỉ thành viên cũ xem được."
@@ -170,7 +170,7 @@ Những lỗi đội QHUB gặp nhiều nhất khi tiếp nhận nhóm của doa
 - **Đổi nhóm sang công khai vội vàng** mà không báo trước, thành viên mất cảm giác an toàn.
 - **Chỉ đếm thành viên,** không đo số người tương tác và số đơn từ nhóm.
 
-Một ví dụ cách đội mình lên khung cho nhóm khách quen yêu trà của [QHUB HERBAL](/qhub-herbal.html), thương hiệu trà thảo mộc do chính QHUB xây. Nhóm định hướng là nơi những người thích pha trà chia sẻ với nhau, không phải nơi rao bán. Nội dung xoay quanh cách pha (mỗi túi lọc hãm với 200 ml nước sôi 95–100 °C trong 5 phút), cách bày một ấm trà tiếp khách, khoảnh khắc năm phút uống trà cho riêng mình, gợi ý quà tặng. Bài ưu đãi chỉ chiếm phần nhỏ, nhắc chính sách đang áp dụng là mua 2 tặng 1, giá bán 105.000đ mỗi hộp 30 gói. Khi [Trà Dưỡng Nhan](/tra-duong-nhan.html) ra mắt ngày 13/11/2026, cách giới thiệu phù hợp trong nhóm là kể về 9 vị nguyên liệu, hương hoa, vị ngọt dịu, không thêm đường, không caffeine, và mời thành viên góp ý. Quy tắc riêng của nhóm ghi rõ: trà là thực phẩm thông thường, thương hiệu không nói về công dụng sức khỏe, và quản trị viên sẽ nhắc nhẹ khi có bình luận như vậy.
+Một ví dụ cách đội mình lên khung cho nhóm khách quen yêu trà của [QHUB HERBAL](/qhub-herbal.html), thương hiệu trà thảo mộc do chính QHUB xây. Nhóm định hướng là nơi những người thích pha trà chia sẻ với nhau, không phải nơi rao bán. Nội dung xoay quanh cách pha (mỗi túi lọc hãm với 200 ml nước sôi 95–100 °C trong 5 phút), cách bày một ấm trà tiếp khách, khoảnh khắc năm phút uống trà cho riêng mình, gợi ý quà tặng. Bài ưu đãi chỉ chiếm phần nhỏ, nhắc chính sách đang áp dụng: giá bán 105.000đ mỗi hộp 30 gói ở mọi kênh, ưu đãi mua 3 tặng 1 trên TikTok Shop và Shopee, mua 2 tặng 1 trên website qhubherbal.com. Khi [Trà Dưỡng Nhan](/tra-duong-nhan.html) ra mắt ngày 13/11/2026, cách giới thiệu phù hợp trong nhóm là kể về 9 vị nguyên liệu, hương hoa, vị ngọt dịu, không thêm đường, không caffeine, và mời thành viên góp ý. Quy tắc riêng của nhóm ghi rõ: trà là thực phẩm thông thường, thương hiệu không nói về công dụng sức khỏe, và quản trị viên sẽ nhắc nhẹ khi có bình luận như vậy.
 
 ## Việc cần làm ngay tuần này
 

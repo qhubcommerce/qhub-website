@@ -111,7 +111,7 @@ Với WhatsApp, theo SleekFlow (nhà cung cấp giải pháp WhatsApp Business),
 
 ## Kịch bản inbox mẫu: chốt đơn combo mua 2 tặng 1
 
-Phần này mình lấy ví dụ thật là trà thảo mộc [QHUB HERBAL](/qhub-herbal.html), thương hiệu do chính QHUB xây. Mỗi hộp 30 gói × 3 g, giá niêm yết 140.000đ, giá bán 105.000đ, chương trình mua 2 tặng 1. Mình chỉ kể kịch bản và cách nghĩ, không đưa số đơn hay doanh thu.
+Phần này mình lấy ví dụ thật là trà thảo mộc [QHUB HERBAL](/qhub-herbal.html), thương hiệu do chính QHUB xây. Mỗi hộp 30 gói × 3 g, giá niêm yết 140.000đ, giá bán 105.000đ ở mọi kênh; chương trình mua 2 tặng 1 khi đặt trên website qhubherbal.com, còn trên TikTok Shop và Shopee là mua 3 tặng 1. Mình chỉ kể kịch bản và cách nghĩ, không đưa số đơn hay doanh thu.
 
 Trước khi viết kịch bản, đội QHUB luôn đặt một nguyên tắc: **trà là thực phẩm thông thường, không gán công dụng sức khỏe**, cả trong quảng cáo lẫn trong inbox. Câu trả lời của nhân viên cũng được tính là nội dung quảng cáo của shop.
 
@@ -122,7 +122,7 @@ Trước khi viết kịch bản, đội QHUB luôn đặt một nguyên tắc: 
 "Nếu chị mua làm quà, nhiều khách chọn Trà Dưỡng Nhan, 9 vị gồm lá sen, tía tô, hoa hồng, hoa nhài, hoa cúc, táo đỏ, kỷ tử, đông trùng hạ thảo, cỏ ngọt. Không thêm đường, không caffeine, vị ngọt dịu, mùi hoa nhẹ. Mỗi hộp 30 gói túi lọc."
 
 **Bước 3. Báo giá và ưu đãi rõ ràng, có phép tính sẵn:**
-"Giá niêm yết 140.000đ, shop đang bán 105.000đ một hộp. Tuần này mua 2 tặng 1, chị trả 210.000đ nhận 3 hộp, hộp tặng chị được chọn vị khác."
+"Giá niêm yết 140.000đ, shop đang bán 105.000đ một hộp. Chị đặt trên website qhubherbal.com đang được mua 2 tặng 1, trả 210.000đ nhận 3 hộp, hộp tặng chị được chọn vị khác. Nếu chị quen mua trên Shopee hay TikTok Shop thì bên đó là mua 3 tặng 1 ạ."
 
 **Bước 4. Xử lý câu hỏi khó mà không nói quá:**
 Khách hỏi "Uống cái này có đẹp da không em?". Nhân viên không trả lời "có". Câu đúng là: "Dạ đây là trà thực phẩm thông thường nên shop không nói về tác dụng lên cơ thể ạ. Shop chỉ chia sẻ được thành phần, cách pha và hương vị. Anh chị có thể pha một ấm buổi chiều, coi như năm phút nghỉ ngơi cho mình ạ."
@@ -133,7 +133,7 @@ Khách hỏi "Uống cái này có đẹp da không em?". Nhân viên không tr�
 **Bước 6. Xác nhận đơn và hẹn giao:**
 Nhắc lại sản phẩm, tổng tiền, phí ship, thời gian giao dự kiến. Với đơn thanh toán khi nhận hàng, gọi xác nhận trước khi gửi để giảm hoàn.
 
-Về phép tính khuyến mại, mua 2 tặng 1 tương đương giảm khoảng 33,3% trên mỗi hộp, còn giá trị hàng tặng bằng 50% giá trị hàng phải mua. Bài [combo mua 2 tặng 1: tính giá và giới hạn khuyến mại](/kien-thuc/combo-mua-2-tang-1-tinh-gia-gioi-han-khuyen-mai-va-cach-chay/) có công thức chi tiết để anh chị kiểm tra trước khi chạy.
+Về phép tính khuyến mại, mua 2 tặng 1 trên website tương đương giảm khoảng 33,3% trên mỗi hộp, còn giá trị hàng tặng bằng 50% giá trị hàng phải mua. Mua 3 tặng 1 trên sàn thì giá thực mỗi hộp 78.750đ, giảm 25%, hàng tặng khoảng 33,3% giá trị hàng mua. Bài [combo mua 2 tặng 1: tính giá và giới hạn khuyến mại](/kien-thuc/combo-mua-2-tang-1-tinh-gia-gioi-han-khuyen-mai-va-cach-chay/) có công thức chi tiết để anh chị kiểm tra trước khi chạy.
 
 ## Bảng chỉ số quảng cáo tin nhắn: đọc thế nào cho đúng?
 

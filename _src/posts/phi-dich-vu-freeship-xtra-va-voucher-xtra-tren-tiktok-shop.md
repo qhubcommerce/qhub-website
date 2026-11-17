@@ -76,21 +76,21 @@ Ba khoản bắt buộc trên mỗi đơn giao thành công vẫn là hoa hồng
 
 ## Ví dụ tính phí Freeship Xtra và Voucher Xtra trên một đơn
 
-Mình lấy ví dụ thật về giá của [Trà Dưỡng Nhan](/tra-duong-nhan.html), sản phẩm mới của QHUB HERBAL, thương hiệu trà do chính đội QHUB xây: hộp 30 gói × 3 g, giá niêm yết 140.000 đồng, giá bán 105.000 đồng, chương trình mua 2 tặng 1. Khách mua 2 hộp, được tặng 1 hộp, trả 210.000 đồng.
+Mình lấy ví dụ thật về giá của [Trà Dưỡng Nhan](/tra-duong-nhan.html), sản phẩm mới của QHUB HERBAL, thương hiệu trà do chính đội QHUB xây: hộp 30 gói × 3 g, giá niêm yết 140.000 đồng, giá bán 105.000 đồng, trên TikTok Shop và Shopee đang chạy mua 3 tặng 1 (trên website qhubherbal.com là mua 2 tặng 1). Khách mua 3 hộp trên TikTok Shop, được tặng 1 hộp, trả 315.000 đồng, nhận 4 hộp.
 
-Các giả định để minh họa, **không phải số liệu bán hàng thật**: tỷ lệ hoa hồng 12% (nằm trong khoảng của nhóm đồ ăn, đồ uống ở shop tiêu chuẩn); Voucher Xtra 5%; Freeship Xtra **giả định 5%** chỉ để có số mà tính, anh chị thay bằng mức thật trong Seller Center. Phí tính trên tiền hàng 210.000 đồng, khách được miễn phí vận chuyển, không dùng voucher shop.
+Các giả định để minh họa, **không phải số liệu bán hàng thật**: tỷ lệ hoa hồng 12% (nằm trong khoảng của nhóm đồ ăn, đồ uống ở shop tiêu chuẩn); Voucher Xtra 5%; Freeship Xtra **giả định 5%** chỉ để có số mà tính, anh chị thay bằng mức thật trong Seller Center. Phí tính trên tiền hàng 315.000 đồng, khách được miễn phí vận chuyển, không dùng voucher shop.
 
 | Khoản | Cách tính | Số tiền |
 | --- | --- | --- |
-| Hoa hồng nền tảng | 210.000 × 12% | 25.200 đồng |
-| Phí giao dịch | 210.000 × 6% | 12.600 đồng |
+| Hoa hồng nền tảng | 315.000 × 12% | 37.800 đồng |
+| Phí giao dịch | 315.000 × 6% | 18.900 đồng |
 | Phí xử lý đơn (kiện nhẹ) | Cố định | 3.000 đồng |
-| **Tổng phí bắt buộc** | | **40.800 đồng (19,4%)** |
-| Voucher Xtra | 210.000 × 5% (chưa chạm trần 50.000 đồng mỗi sản phẩm) | 10.500 đồng |
-| Freeship Xtra (giả định 5%) | 210.000 × 5% | 10.500 đồng |
-| **Tổng nếu tham gia cả hai** | | **61.800 đồng (29,4%)** |
+| **Tổng phí bắt buộc** | | **59.700 đồng (19,0%)** |
+| Voucher Xtra | 315.000 × 5% (chưa chạm trần 50.000 đồng mỗi sản phẩm) | 15.750 đồng |
+| Freeship Xtra (giả định 5%) | 315.000 × 5% | 15.750 đồng |
+| **Tổng nếu tham gia cả hai** | | **91.200 đồng (29,0%)** |
 
-Chỉ riêng hai chương trình Xtra đã kéo tổng phí từ khoảng 19% lên khoảng 29% tiền hàng. Đó là chưa tính giá vốn của cả 3 hộp (gồm hộp tặng), đóng gói, hoa hồng affiliate nếu đơn đến từ KOC, quảng cáo và thuế khấu trừ nếu là hộ kinh doanh. Với chương trình mua 2 tặng 1, giá vốn đã cao hơn đơn lẻ, nên khoảng dư cho phí Xtra mỏng đi rõ rệt.
+Chỉ riêng hai chương trình Xtra đã kéo tổng phí từ khoảng 19% lên khoảng 29% tiền hàng. Đó là chưa tính giá vốn của cả 4 hộp (gồm hộp tặng), đóng gói, hoa hồng affiliate nếu đơn đến từ KOC, quảng cáo và thuế khấu trừ nếu là hộ kinh doanh. Với chương trình mua 3 tặng 1, giá vốn đã cao hơn đơn lẻ, nên khoảng dư cho phí Xtra mỏng đi rõ rệt.
 
 Một điểm cần kiểm tra: cơ sở tính phí Xtra có trừ giảm giá do shop chịu hay không, và hộp tặng có được tính là "sản phẩm bán ra" hay không. Cách chắc nhất là mở chi tiết quyết toán của một đơn combo trong Seller Center sau khi tham gia, đối chiếu từng dòng phí. Cách đọc cơ sở tính khi có voucher có trong bài [phí giao dịch 6% tính thế nào trên từng đơn](/kien-thuc/phi-giao-dich-tiktok-shop-6-tinh-the-nao-tren-tung-don/).
 

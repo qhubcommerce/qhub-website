@@ -158,7 +158,7 @@ QHUB HERBAL là thương hiệu trà do chính QHUB xây. [Trà Dưỡng Nhan](/
 
 **Câu hỏi chính:** người tìm muốn biết trà gồm những gì, vị ra sao, pha thế nào, có hợp làm quà không.
 
-**Thứ chỉ mình có:** danh sách 9 vị (lá sen, tía tô, hoa hồng, hoa nhài, hoa cúc, táo đỏ, kỷ tử, đông trùng hạ thảo, cỏ ngọt), không thêm đường, không caffeine, quy cách 30 gói × 3 g, số tự công bố 39/ANH KHOI/2026, mã vạch, ảnh màu nước pha thật, giá niêm yết 140.000đ, giá bán 105.000đ, chương trình mua 2 tặng 1.
+**Thứ chỉ mình có:** danh sách 9 vị (lá sen, tía tô, hoa hồng, hoa nhài, hoa cúc, táo đỏ, kỷ tử, đông trùng hạ thảo, cỏ ngọt), không thêm đường, không caffeine, quy cách 30 gói × 3 g, số tự công bố 39/ANH KHOI/2026, mã vạch, ảnh màu nước pha thật, giá niêm yết 140.000đ, giá bán 105.000đ, ưu đãi theo kênh (mua 3 tặng 1 trên TikTok Shop và Shopee, mua 2 tặng 1 trên website qhubherbal.com).
 
 **Ranh giới bắt buộc:** trà là thực phẩm thông thường, nên trang không có bất kỳ câu nào về tác dụng lên cơ thể. Tên sản phẩm có chữ "Dưỡng Nhan" lại càng dễ bị hiểu nhầm, nên đội mình không viết gì liên quan tới làn da. Chi tiết câu được viết, câu không được viết có trong bài [viết trang sản phẩm thực phẩm đúng luật quảng cáo](/kien-thuc/viet-trang-san-pham-thuc-pham-tra-thao-moc-dung-luat-quang-cao/).
 

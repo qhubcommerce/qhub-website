@@ -16,7 +16,7 @@ faq:
   - q: "Khách hỏi giá rồi im lặng thì nên nhắn lại thế nào?"
     a: "Trong 24 giờ kể từ tin cuối của khách, shop có thể nhắn lại một lần, ngắn, có thông tin mới như hỏi khách muốn chọn vị nào hoặc báo phí ship về tỉnh của khách. Không nhắn dồn nhiều tin, không gây áp lực. Quá 24 giờ thì không gửi tin khuyến mãi, muốn tiếp cận lại nên dùng quảng cáo nhắm lại hoặc tin nhắn tiếp thị cho người đã đăng ký nhận tin."
   - q: "Trả lời khách chê đắt thế nào để không phải giảm giá?"
-    a: "Đồng ý với cảm nhận của khách trước, rồi quy về giá trên mỗi lần dùng, nói rõ khách nhận được gì và gợi ý combo có lợi hơn. Ví dụ hộp trà 30 gói giá 105.000đ là khoảng 3.500đ một gói, mua 2 tặng 1 còn khoảng 2.300đ một gói. Không chê sản phẩm của shop khác để nâng mình lên."
+    a: "Đồng ý với cảm nhận của khách trước, rồi quy về giá trên mỗi lần dùng, nói rõ khách nhận được gì và gợi ý combo có lợi hơn. Ví dụ hộp trà 30 gói giá 105.000đ là khoảng 3.500đ một gói, mua 2 tặng 1 khi đặt trên website còn khoảng 2.300đ một gói. Không chê sản phẩm của shop khác để nâng mình lên."
   - q: "Có được nhắn tin khuyến mãi cho khách cũ trên Messenger không?"
     a: "Chỉ trong khung 24 giờ sau khi khách nhắn, hoặc qua tính năng tin nhắn tiếp thị của Meta với người đã chủ động đồng ý nhận tin. Gửi hàng loạt cho khách cũ ngoài các trường hợp này vi phạm chính sách Messenger và có thể khiến trang bị hạn chế. Nhắn qua số điện thoại khi khách chưa đồng ý còn có thể bị phạt theo Nghị định 330/2026/NĐ-CP."
   - q: "Xin số điện thoại khách trong inbox cần lưu ý gì về dữ liệu cá nhân?"
@@ -95,21 +95,21 @@ Tên, số điện thoại, địa chỉ khách gửi trong inbox đều là d�
 
 ## Kịch bản chốt đơn inbox mẫu theo từng tình huống
 
-Phần này mình lấy ví dụ thật là trà [QHUB HERBAL](/qhub-herbal.html), thương hiệu do chính QHUB xây. Mỗi hộp 30 gói × 3 g, giá niêm yết 140.000đ, giá bán 105.000đ, mua 2 tặng 1. Mình chỉ kể kịch bản, không đưa số đơn hay tỷ lệ chốt.
+Phần này mình lấy ví dụ thật là trà [QHUB HERBAL](/qhub-herbal.html), thương hiệu do chính QHUB xây. Mỗi hộp 30 gói × 3 g, giá niêm yết 140.000đ, giá bán 105.000đ ở mọi kênh; ưu đãi mua 2 tặng 1 khi đặt trên website qhubherbal.com, mua 3 tặng 1 trên TikTok Shop và Shopee. Mình chỉ kể kịch bản, không đưa số đơn hay tỷ lệ chốt.
 
 ### Tình huống 1: Khách chỉ nhắn "giá?" hoặc "ib"
 
 Lỗi hay gặp là hỏi lại "chị cần tư vấn gì ạ". Khách hỏi giá thì **báo giá ngay**, kèm ưu đãi, rồi mới hỏi nhu cầu.
 
-> "Dạ shop chào chị. Trà QHUB HERBAL giá 105.000đ một hộp 30 gói túi lọc (giá niêm yết 140.000đ). Tuần này mua 2 tặng 1, chị trả 210.000đ nhận 3 hộp. Chị đang tìm để uống hằng ngày hay mua làm quà ạ?"
+> "Dạ shop chào chị. Trà QHUB HERBAL giá 105.000đ một hộp 30 gói túi lọc (giá niêm yết 140.000đ). Chị đặt trên website qhubherbal.com đang được mua 2 tặng 1, trả 210.000đ nhận 3 hộp; nếu chị quen mua trên Shopee hay TikTok Shop thì bên đó là mua 3 tặng 1. Chị đang tìm để uống hằng ngày hay mua làm quà ạ?"
 
 ### Tình huống 2: Khách chê đắt
 
 Không cãi, không vội giảm giá. **Đồng ý cảm nhận, quy về giá mỗi lần dùng, đưa lựa chọn có lợi hơn.**
 
-> "Dạ chị nói đúng, nếu nhìn cả hộp thì không rẻ ạ. Mỗi hộp có 30 gói, tính ra khoảng 3.500đ một lần pha. Nếu chị lấy combo mua 2 tặng 1 thì còn khoảng 2.300đ một gói. Chị muốn thử một hộp trước hay lấy combo để được giá tốt hơn ạ?"
+> "Dạ chị nói đúng, nếu nhìn cả hộp thì không rẻ ạ. Mỗi hộp có 30 gói, tính ra khoảng 3.500đ một lần pha. Nếu chị lấy combo mua 2 tặng 1 trên website thì còn khoảng 2.300đ một gói. Chị muốn thử một hộp trước hay lấy combo để được giá tốt hơn ạ?"
 
-Phép tính: 105.000đ ÷ 30 gói ≈ 3.500đ; 210.000đ ÷ 90 gói ≈ 2.333đ. Anh chị nhớ tính lại theo giá của shop mình, và kiểm tra mức khuyến mại theo bài [combo mua 2 tặng 1](/kien-thuc/combo-mua-2-tang-1-tinh-gia-gioi-han-khuyen-mai-va-cach-chay/).
+Phép tính: 105.000đ ÷ 30 gói ≈ 3.500đ; 210.000đ ÷ 90 gói ≈ 2.333đ (mua 2 tặng 1 trên website); trên sàn, mua 3 tặng 1 là 315.000đ ÷ 120 gói = 2.625đ. Anh chị nhớ tính lại theo giá của shop mình, và kiểm tra mức khuyến mại theo bài [combo mua 2 tặng 1](/kien-thuc/combo-mua-2-tang-1-tinh-gia-gioi-han-khuyen-mai-va-cach-chay/).
 
 ### Tình huống 3: Khách đã xem nhưng im lặng
 
@@ -135,7 +135,7 @@ Quy tắc của đội QHUB: **không nói xấu, không hạ thấp sản phẩ
 
 Khách mua quà quan tâm hình thức, thời gian giao và lời nhắn hơn là giá.
 
-> "Dạ nếu chị mua tặng, shop gợi ý chị xem Trà Dưỡng Nhan: 9 vị gồm lá sen, tía tô, hoa hồng, hoa nhài, hoa cúc, táo đỏ, kỷ tử, đông trùng hạ thảo, cỏ ngọt, mùi hoa nhẹ, không thêm đường, không caffeine. Chị cần giao trước ngày nào, và có muốn shop ghi kèm lời nhắn không ạ? Combo mua 2 tặng 1 cũng tiện nếu chị tặng nhiều người."
+> "Dạ nếu chị mua tặng, shop gợi ý chị xem Trà Dưỡng Nhan: 9 vị gồm lá sen, tía tô, hoa hồng, hoa nhài, hoa cúc, táo đỏ, kỷ tử, đông trùng hạ thảo, cỏ ngọt, mùi hoa nhẹ, không thêm đường, không caffeine. Chị cần giao trước ngày nào, và có muốn shop ghi kèm lời nhắn không ạ? Combo mua 2 tặng 1 trên website cũng tiện nếu chị tặng nhiều người."
 
 Thông tin trong câu mẫu lấy đúng theo trang [Trà Dưỡng Nhan](/tra-duong-nhan.html), sản phẩm ra mắt ngày 13/11/2026. Kịch bản quà tặng chỉ nói hương vị, hộp, lời nhắn và thời gian giao, không nói gì về làn da.
 

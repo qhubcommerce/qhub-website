@@ -126,9 +126,9 @@ Chia sẻ cách chọn sản phẩm trong ngành nói chung, rồi mới nói s�
 
 ### 6. Thông báo ưu đãi trung thực
 
-Ưu đãi thì cứ nói thẳng, nhưng nói một lần, rõ ràng, có thời hạn và đúng sự thật. Ví dụ QHUB HERBAL áp dụng giá bán 105.000đ mỗi hộp (giá niêm yết 140.000đ) và mua 2 tặng 1, đúng mức khuyến mại 50% theo quy định.
+Ưu đãi thì cứ nói thẳng, nhưng nói một lần, rõ ràng, có thời hạn và đúng sự thật. Ví dụ QHUB HERBAL bán cùng giá 105.000đ mỗi hộp (giá niêm yết 140.000đ) ở mọi kênh, còn ưu đãi tặng hộp khác nhau theo kênh: mua 3 tặng 1 trên TikTok Shop và Shopee, mua 2 tặng 1 trên website qhubherbal.com. Mức tặng trên website đúng 50% giá trị hàng mua, trên sàn khoảng 33,3%, đều trong giới hạn khuyến mại theo quy định.
 
-> "Mùa quà cuối năm, Trà Dưỡng Nhan đang mua 2 tặng 1. Một hộp 30 gói, mỗi gói 3 g. Ai đang tìm quà nhỏ cho chị em đồng nghiệp thì link ở bình luận."
+> "Mùa quà cuối năm, Trà Dưỡng Nhan đang mua 2 tặng 1 khi đặt trên website, còn trên TikTok Shop và Shopee là mua 3 tặng 1. Một hộp 30 gói, mỗi gói 3 g. Ai đang tìm quà nhỏ cho chị em đồng nghiệp thì link ở bình luận."
 
 Lưu ý chung cho cả sáu dạng: không dùng đánh giá giả, không bịa số đơn, không viết những câu như "bán hết sạch" khi không đúng. Người dùng Threads rất hay hỏi vặn, và một lời nói quá có thể bị nhớ rất lâu.
 

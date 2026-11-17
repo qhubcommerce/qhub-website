@@ -142,7 +142,7 @@ Product GMV Max là nền đơn chạy suốt 24 giờ. Ngày sale, sai lầm l�
 
 [Trà Dưỡng Nhan](/tra-duong-nhan.html) ra mắt ngày 13/11/2026, nên 12.12 là ngày sale đôi đầu tiên của sản phẩm. Mình chỉ kể cách đội chuẩn bị, không nói số đơn.
 
-- **Một ưu đãi cho cả ba nơi:** giá niêm yết 140.000 đồng, giá bán 105.000 đồng, mua 2 tặng 1. Không chồng thêm nhiều lớp mã để host, quảng cáo và KOC nói giống nhau.
+- **Một ưu đãi cho cả ba nơi:** giá niêm yết 140.000 đồng, giá bán 105.000 đồng, mua 3 tặng 1 trên TikTok Shop (khách trả 315.000 đồng, nhận 4 hộp). Không chồng thêm nhiều lớp mã để host, quảng cáo và KOC nói giống nhau.
 - **Affiliate:** gửi mẫu cho nhóm KOC có người xem là phụ nữ 18–40 bận rộn và người hay mua quà. Brief chỉ nói hương hoa, vị ngọt dịu, 9 vị thành phần, không thêm đường, không caffeine, nghi thức năm phút pha trà cho bản thân và món quà cuối năm. Không có câu nào về tác dụng lên cơ thể, không có hình ảnh trước và sau.
 - **Livestream:** phiên chính rơi vào tối thứ Bảy, có đoạn pha trà trực tiếp, cho người xem thấy màu nước và hộp quà.
 - **GMV Max:** Product GMV Max chạy trên kho video của shop cộng video KOC đã ủy quyền, ROI mục tiêu tính theo biên sau hoa hồng.

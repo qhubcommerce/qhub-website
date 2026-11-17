@@ -6,7 +6,7 @@ keyword: "bài học sale 11.11"
 keywords: ["hậu kiểm sau sale 11.11", "rút kinh nghiệm sale 11.11", "chuẩn bị 12.12 sau 11.11", "phân tích số liệu ngày sale"]
 description: "Bài học sale 11.11 cho đợt 12.12/2026: bảng chỉ số cần so sánh, checklist hậu kiểm tồn kho, đơn hoàn hủy, voucher, quảng cáo, livestream, CSKH và lịch 26 ngày."
 date: 2026-11-16
-updated: 2026-11-16
+updated: 2026-11-17
 summary:
   - "Bài học sale 11.11 đáng tin nhất đến từ dữ liệu gian hàng của chính anh chị, vì đến 16/11/2026 chưa có số liệu đầy đủ, chính thức về 11.11 năm nay."
   - "So sánh 11.11 với ngày thường và với 10.10 theo các chỉ số: doanh thu thuần, lãi đóng góp, tỷ lệ chuyển đổi, chi phí quảng cáo trên doanh thu, tỷ lệ hủy, hoàn."
@@ -121,7 +121,7 @@ Nhìn xa hơn, 12.12 là cầu nối sang mùa quà Tết. Lịch cả năm sau 
 QHUB HERBAL là thương hiệu trà thảo mộc do chính QHUB xây. [Trà Dưỡng Nhan](/tra-duong-nhan.html) ra mắt ngày 13/11/2026, tức hai ngày sau 11.11, nên 12.12 sẽ là ngày sale đôi đầu tiên của sản phẩm này. Mình không chia sẻ số đơn hay doanh thu, chỉ kể cách đội làm.
 
 - **Bài học về hàng:** với các sản phẩm đã bán, đội đối chiếu số đơn theo giờ của khung mạnh nhất để tính lượng hàng cần cho 12.12. Sản phẩm mới chưa có lịch sử nên được ước theo sản phẩm cùng nhóm khách.
-- **Bài học về ưu đãi:** chương trình mua 2 tặng 1 (giá bán 105.000đ mỗi hộp, giá niêm yết 140.000đ) được giữ đơn giản, không chồng thêm nhiều lớp mã để người mua dễ hiểu và đội dễ kiểm soát lãi.
+- **Bài học về ưu đãi:** chương trình mua 3 tặng 1 trên TikTok Shop và Shopee (giá bán 105.000đ mỗi hộp, giá niêm yết 140.000đ, khách trả 315.000đ nhận 4 hộp; trên website qhubherbal.com là mua 2 tặng 1) được giữ đơn giản, không chồng thêm nhiều lớp mã để người mua dễ hiểu và đội dễ kiểm soát lãi.
 - **Bài học về nội dung:** 12.12 là mùa quà cuối năm, nên góc kể ưu tiên là món quà cho mẹ, cho bạn, cho đồng nghiệp, và nghi thức năm phút pha trà giữa ngày bận. Câu chữ chỉ nói hương hoa, vị ngọt dịu, thành phần, không gán bất cứ công dụng nào lên cơ thể.
 - **Bài học về chăm sóc khách:** những câu hỏi lặp lại trong tin nhắn được đưa vào mô tả sản phẩm và kịch bản live, để người trực đỡ tải trong đêm 11/12.
 

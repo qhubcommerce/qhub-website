@@ -6,7 +6,7 @@ keyword: "lịch mega sale 2027"
 keywords: ["lịch sale 2027", "các ngày sale lớn 2027", "lịch khuyến mãi 2027 cho shop online", "lịch nghỉ lễ 2027 bán hàng"]
 description: "Lịch mega sale 2027 theo từng tháng: sale đôi, sale 15, ngày lương, Tết, 8/3, Trung thu, 20/10, Black Friday, kèm thứ trong tuần và cách chia sức theo quý, ngành."
 date: 2026-11-15
-updated: 2026-11-15
+updated: 2026-11-17
 summary:
   - "Năm 2027 có ba lớp ngày bán: 12 ngày sale đôi, sale giữa tháng (ngày 15) và sale ngày lương (quanh ngày 25), cộng các dịp lễ như Tết, 8/3, Trung thu, 20/10, Black Friday."
   - "Tết Nguyên đán rơi vào thứ Bảy 6/2/2027, công chức nghỉ từ 4/2 đến 10/2/2027; Giỗ Tổ Hùng Vương là thứ Sáu 16/4, Trung thu là thứ Tư 15/9/2027."
@@ -133,9 +133,9 @@ Cột "chỉ giữ nhịp" không có nghĩa là nghỉ bán. Những tháng nà
 
 ### Ví dụ thật từ ngành trà quà tặng của đội QHUB
 
-QHUB HERBAL là thương hiệu trà túi lọc do chính đội QHUB xây. Mỗi hộp 30 gói × 3 g, giá niêm yết 140.000đ, giá bán 105.000đ, mua 2 tặng 1. Với ngành này, đội mình không lên lịch theo sale đôi trước, mà lên lịch theo **mùa quà**: 8/3, 20/10, Trung thu và Tết. Sale đôi gần mùa quà (10.10 trước 20/10, 12.12 trước Tết) mới là đợt dồn sức. Sale đôi xa mùa quà như 7.7 chỉ giữ nhịp.
+QHUB HERBAL là thương hiệu trà túi lọc do chính đội QHUB xây. Mỗi hộp 30 gói × 3 g, giá niêm yết 140.000đ, giá bán 105.000đ ở mọi kênh; ưu đãi là mua 3 tặng 1 trên TikTok Shop và Shopee, mua 2 tặng 1 trên website qhubherbal.com. Với ngành này, đội mình không lên lịch theo sale đôi trước, mà lên lịch theo **mùa quà**: 8/3, 20/10, Trung thu và Tết. Sale đôi gần mùa quà (10.10 trước 20/10, 12.12 trước Tết) mới là đợt dồn sức. Sale đôi xa mùa quà như 7.7 chỉ giữ nhịp.
 
-Sản phẩm mới nhất là [Trà Dưỡng Nhan](/tra-duong-nhan.html), ra mắt ngày 13/11/2026, nên 12.12 và mùa Tết 2027 sẽ là mùa quà đầu tiên của nó. Nội dung bán hàng chỉ xoay quanh hương hoa hồng, hoa nhài, vị ngọt dịu, nghi thức năm phút pha trà cho bản thân và ý nghĩa món quà, không nói công dụng với cơ thể vì trà là thực phẩm thông thường. Combo mua 2 tặng 1 hợp với người mua quà cho nhiều người cùng lúc, nên đội mình giữ combo này cả năm thay vì giảm giá sâu từng đợt.
+Sản phẩm mới nhất là [Trà Dưỡng Nhan](/tra-duong-nhan.html), ra mắt ngày 13/11/2026, nên 12.12 và mùa Tết 2027 sẽ là mùa quà đầu tiên của nó. Nội dung bán hàng chỉ xoay quanh hương hoa hồng, hoa nhài, vị ngọt dịu, nghi thức năm phút pha trà cho bản thân và ý nghĩa món quà, không nói công dụng với cơ thể vì trà là thực phẩm thông thường. Combo tặng hộp (mua 3 tặng 1 trên sàn, mua 2 tặng 1 trên website) hợp với người mua quà cho nhiều người cùng lúc, nên đội mình giữ combo này cả năm thay vì giảm giá sâu từng đợt.
 
 ## Kinh nghiệm thực tế từ đội vận hành khi lên lịch cả năm
 

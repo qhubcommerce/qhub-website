@@ -143,7 +143,7 @@ Phòng live doanh nghiệp chạy tốt khi mỗi người có một vị trí c
 - **Chừa một khoảng trống ở giữa bàn** để host đặt sản phẩm đang giới thiệu, mở hộp, pha thử, cho camera thấy rõ.
 - **Hàng mẫu tách riêng hàng bán.** Hàng mẫu đã mở dùng để trình diễn, hàng nguyên seal để quay cận cảnh bao bì, nhãn, hạn dùng.
 
-Ví dụ với hộp trà [QHUB HERBAL](/qhub-herbal.html) do đội QHUB xây, bàn live có một hộp nguyên seal để quay cận nhãn và mã vạch, một bộ ấm tách để pha thử, và thẻ ghi rõ chương trình mua 2 tặng 1. Host chỉ nói về thành phần, hương vị, cách pha và quy cách hộp, không nói công dụng sức khỏe, vì trà là thực phẩm thông thường.
+Ví dụ với hộp trà [QHUB HERBAL](/qhub-herbal.html) do đội QHUB xây, bàn live có một hộp nguyên seal để quay cận nhãn và mã vạch, một bộ ấm tách để pha thử, và thẻ ghi rõ chương trình mua 3 tặng 1 trên TikTok Shop. Host chỉ nói về thành phần, hương vị, cách pha và quy cách hộp, không nói công dụng sức khỏe, vì trà là thực phẩm thông thường.
 
 ## Cách âm và âm thanh trong phòng livestream
 

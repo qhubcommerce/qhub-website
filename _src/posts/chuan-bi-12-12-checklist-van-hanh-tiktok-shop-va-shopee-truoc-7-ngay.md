@@ -6,7 +6,7 @@ keyword: "chuẩn bị sale 12.12"
 keywords: ["checklist sale 12.12", "sale 12.12 tiktok shop", "shopee 12.12 siêu sale sinh nhật", "chuẩn bị mega sale cuối năm"]
 description: "Chuẩn bị sale 12.12 năm 2026: checklist theo từng ngày từ 5/12 đến 11/12, phân việc cho TikTok Shop và Shopee, lịch trực ngày thứ Bảy 12/12 và 3 ngày sau sale."
 date: 2026-11-15
-updated: 2026-11-15
+updated: 2026-11-17
 summary:
   - "12/12/2026 rơi vào thứ Bảy, nên giờ G 0h thực chất là đêm thứ Sáu 11/12 và ba ngày sau sale có một ngày Chủ nhật cần chốt lịch lấy hàng với đơn vị vận chuyển."
   - "Bảy ngày cuối (5/12–11/12) không phải lúc lên kế hoạch mà là lúc khóa giá, khóa kho, xếp nội dung và tổng duyệt cho từng sàn."
@@ -112,7 +112,7 @@ Cộng thêm hoa hồng affiliate, chi phí quảng cáo và thuế khấu trừ
 2. Nhờ một người dùng tài khoản khách đặt thử một đơn trên mỗi sàn, áp đủ mọi mã có thể.
 3. So giá cuối với bảng tính lãi. Nếu dưới mức lãi tối thiểu, gỡ bớt một lớp ưu đãi.
 
-**Ví dụ với QHUB HERBAL.** Thương hiệu trà [QHUB HERBAL](/qhub-herbal.html) do chính đội QHUB xây đang chạy mua 2 tặng 1 quanh năm: mỗi hộp 30 gói × 3 g, giá niêm yết 140.000đ, giá bán 105.000đ, hộp tặng được chọn vị khác. Hộp tặng đã bằng đúng 50% giá trị hai hộp mua. Vì vậy, với combo kiểu này, cách an toàn cho ngày 12.12 là giữ nguyên chương trình, nói rõ đây là món quà cuối năm tiện tặng, thay vì chồng thêm giảm giá lên chính combo. Cách tính lãi của mua 2 tặng 1 có trong bài [combo mua 2 tặng 1](/kien-thuc/combo-mua-2-tang-1-tinh-gia-gioi-han-khuyen-mai-va-cach-chay/).
+**Ví dụ với QHUB HERBAL.** Thương hiệu trà [QHUB HERBAL](/qhub-herbal.html) do chính đội QHUB xây đang chạy mua 3 tặng 1 quanh năm trên TikTok Shop và Shopee: mỗi hộp 30 gói × 3 g, giá niêm yết 140.000đ, giá bán 105.000đ, khách trả 315.000đ nhận 4 hộp, hộp tặng được chọn vị khác. Hộp tặng bằng khoảng 33,3% giá trị ba hộp mua; tính cả phần giảm từ giá niêm yết (4 hộp niêm yết 560.000đ, khách trả 315.000đ) thì tổng ưu đãi đã là 43,75%, không còn nhiều khoảng trống tới mức 50%. Vì vậy, với combo kiểu này, cách an toàn cho ngày 12.12 là giữ nguyên chương trình, nói rõ đây là món quà cuối năm tiện tặng, thay vì chồng thêm giảm giá lên chính combo. Cách tính lãi của combo tặng hộp có trong bài [combo mua 2 tặng 1](/kien-thuc/combo-mua-2-tang-1-tinh-gia-gioi-han-khuyen-mai-va-cach-chay/).
 
 ## Ngày 8/12 đến 10/12: nội dung, KOC và quảng cáo làm nóng
 

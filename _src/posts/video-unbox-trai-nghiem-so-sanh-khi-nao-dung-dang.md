@@ -6,7 +6,7 @@ keyword: "video unbox tiktok"
 keywords: ["video mở hộp sản phẩm", "video trải nghiệm sản phẩm tiktok", "video so sánh sản phẩm", "quảng cáo so sánh luật quảng cáo"]
 description: "Video unbox TikTok, video trải nghiệm và video so sánh khác nhau thế nào, hợp giai đoạn nào của khách, ngành nào, kèm kịch bản mẫu và quy định cần tránh."
 date: 2026-11-15
-updated: 2026-11-15
+updated: 2026-11-17
 summary:
   - "Video unbox trả lời câu hỏi “hàng thật trông thế nào”, video trải nghiệm trả lời “có hợp với mình không”, video so sánh trả lời “nên chọn cái nào”."
   - "Unbox hợp với người đã quan tâm và cả người vừa mua; trải nghiệm hợp với người đang cân nhắc; so sánh hợp với người đang chọn giữa nhiều phương án."
@@ -103,7 +103,7 @@ Với hàng làm quà như hộp trà, hộp bánh, bộ quà Tết, video unbox
 | 14–18 | Cận mã vạch | "Mã vạch EAN-13 in rõ, bắt đầu bằng 893." |
 | 18–25 | Mở hộp, xếp các gói ra, đếm nhanh | "Bên trong là 30 gói, mỗi gói 3 gram." |
 | 25–31 | Xé một gói đổ ra đĩa, đọc tên vị | "9 vị: lá sen, tía tô, hoa hồng, hoa nhài, hoa cúc, táo đỏ, kỷ tử, đông trùng hạ thảo, cỏ ngọt." |
-| 31–35 | Pha một túi với nước sôi, nước đổi màu | "Không thêm đường, không caffeine. Giá và ưu đãi mua 2 tặng 1 ở giỏ hàng." |
+| 31–35 | Pha một túi với nước sôi, nước đổi màu | "Không thêm đường, không caffeine. Giá và ưu đãi mua 3 tặng 1 ở giỏ hàng." |
 
 Ba điều kịch bản này cố ý làm. Một, câu "sản phẩm của shop" ngay giây đầu để người xem biết đây là shop tự giới thiệu. Hai, mỗi câu nói đi kèm một cảnh chứng minh: nói 30 gói thì đếm, nói mã vạch thì quay cận. Ba, chỉ đọc tên thành phần, không giải thích từng vị "tốt cho gì". Tên sản phẩm là tên, không phải lời hứa. Cách làm bao bì và mã vạch để lên hình rõ, anh chị xem bài [bao bì và mã vạch EAN-13](/kien-thuc/bao-bi-va-ma-vach-ean-13-chuan-bi-gi-truoc-khi-len-san/).
 
@@ -126,7 +126,7 @@ So sánh trong phạm vi sản phẩm của chính mình. Ví dụ với QHUB HE
 - **Mở (0–3 giây):** "Hai vị trà này khác nhau ở đâu? Mình pha cùng lúc cho anh chị xem."
 - **Cùng điều kiện (3–15 giây):** hai cốc giống nhau, cùng lượng nước, cùng thời gian ngâm 5 phút. Quay liền một cảnh.
 - **So từng tiêu chí (15–38 giây):** màu nước, mùi khi mở nắp, vị ngụm đầu, hậu vị. Chỉ nói cảm nhận về mùi vị.
-- **Kết luận (38–45 giây):** "Thích hương hoa thì chọn vị này, thích vị đậm hơn thì chọn vị kia. Mua 2 tặng 1 được chọn hộp tặng khác vị để thử cả hai."
+- **Kết luận (38–45 giây):** "Thích hương hoa thì chọn vị này, thích vị đậm hơn thì chọn vị kia. Giỏ hàng đang mua 3 tặng 1, được chọn hộp tặng khác vị để thử cả hai."
 
 Cách so sánh này giúp người xem chọn, đồng thời tăng giá trị đơn vì khách muốn thử nhiều vị.
 

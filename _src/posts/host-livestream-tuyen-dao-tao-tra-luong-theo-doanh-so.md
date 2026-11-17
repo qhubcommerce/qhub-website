@@ -115,7 +115,7 @@ QHUB HERBAL là thương hiệu trà thảo mộc do chính đội QHUB xây. Kh
 | "Giúp ngủ ngon, mát gan, giải độc, giảm cân" | Khẳng định công dụng sức khỏe | "Không thêm đường, không caffeine, vị ngọt dịu từ cỏ ngọt" |
 | "Chữa được…", "trị dứt…" | Cấm tuyệt đối với thực phẩm | "Mỗi hộp 30 gói × 3 g, pha với nước nóng vài phút là dùng được" |
 | "Tốt nhất thị trường", "số một" | Từ tuyệt đối, so sánh không có căn cứ | "Hộp đẹp, hợp làm quà cho mẹ, cho bạn" |
-| "Chỉ còn 5 hộp cuối" khi kho còn nhiều | Khuyến mại không thật | "Mua 2 tặng 1, giá bán 105.000 đồng, giá niêm yết 140.000 đồng" |
+| "Chỉ còn 5 hộp cuối" khi kho còn nhiều | Khuyến mại không thật | "Mua 3 tặng 1, giá bán 105.000 đồng, giá niêm yết 140.000 đồng" |
 | "Bên kia bán hàng kém lắm" | Hạ thấp đối thủ | Chỉ nói về sản phẩm của mình |
 
 Đội mình dán tờ "được nói, không được nói" cạnh máy quay. Người trực có quyền nhắn nhắc host ngay trong phiên. Lỡ lời thì host đính chính luôn trên live, không lờ đi.

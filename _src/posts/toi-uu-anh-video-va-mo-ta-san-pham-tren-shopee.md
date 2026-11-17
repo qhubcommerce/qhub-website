@@ -6,7 +6,7 @@ keyword: "tối ưu sản phẩm shopee"
 keywords: ["kích thước ảnh shopee", "video sản phẩm shopee", "cách viết mô tả sản phẩm shopee", "ảnh bìa shopee"]
 description: "Tối ưu sản phẩm Shopee qua ba thứ: bộ 9 ảnh, video ngắn và mô tả đủ ý. Bảng thông số, bố cục từng ảnh, khung mô tả mẫu và lỗi hay gặp."
 date: 2026-11-16
-updated: 2026-11-16
+updated: 2026-11-17
 summary:
   - "Tối ưu sản phẩm Shopee là làm cho trang sản phẩm được bấm vào nhiều hơn và chốt đơn tốt hơn, chủ yếu qua ảnh, video và mô tả."
   - "Shopee cho đăng tối đa 9 ảnh mỗi sản phẩm, ảnh vuông 1:1 là chuẩn quen thuộc và Shopee có hướng dẫn riêng về ảnh tỉ lệ 3:4."
@@ -169,7 +169,7 @@ Trà là thực phẩm thông thường. Vì vậy mọi ảnh, video và mô t�
 
 > Trà Dưỡng Nhan QHUB HERBAL là trà hoa túi lọc 9 vị, hương lá sen, hoa hồng, hoa nhài quyện cùng vị ngọt dịu tự nhiên từ cỏ ngọt. Không thêm đường, không caffeine. Mỗi hộp 30 gói × 3 g, mỗi gói pha với 200 ml nước sôi trong 5 phút, đủ cho một khoảng nghỉ nhỏ giữa ngày bận. Hộp trà nhỏ gọn, hợp làm quà cho mẹ, cho bạn bè.
 
-Sau đoạn mở là thành phần, cách pha, bảo quản, số tự công bố, đơn vị chịu trách nhiệm, lưu ý cho người mẫn cảm với thành phần, phụ nữ có thai, người đang dùng thuốc, dòng nhắc sản phẩm không phải là thuốc, và chính sách giá chung cho mọi kênh của QHUB HERBAL: niêm yết 140.000đ, bán 105.000đ, mua 2 tặng 1.
+Sau đoạn mở là thành phần, cách pha, bảo quản, số tự công bố, đơn vị chịu trách nhiệm, lưu ý cho người mẫn cảm với thành phần, phụ nữ có thai, người đang dùng thuốc, dòng nhắc sản phẩm không phải là thuốc, và giá của QHUB HERBAL: niêm yết 140.000đ, bán 105.000đ như mọi kênh, ưu đãi trên Shopee là mua 3 tặng 1 (website qhubherbal.com là mua 2 tặng 1).
 
 Phần hồ sơ, mã vạch và chứng từ cho sàn với ngành thực phẩm có trong bài [đăng bán thực phẩm trên Shopee](/kien-thuc/dang-ban-thuc-pham-tren-shopee-tu-cong-bo-ma-vach-anh-san-pham/).
 

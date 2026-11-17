@@ -6,7 +6,7 @@ keyword: "thương hiệu cá nhân threads"
 keywords: ["xây thương hiệu cá nhân trên threads", "personal branding threads", "chủ doanh nghiệp dùng threads", "threads cho founder"]
 description: "Thương hiệu cá nhân Threads cho chủ doanh nghiệp: chọn trụ cột nội dung, làm hồ sơ, lộ trình 90 ngày, ranh giới khi chia sẻ và cách dẫn người theo dõi thành khách."
 date: 2026-11-16
-updated: 2026-11-16
+updated: 2026-11-17
 summary:
   - "Xây thương hiệu cá nhân trên Threads là chủ doanh nghiệp tự chia sẻ đều đặn góc nhìn nghề và hành trình làm doanh nghiệp, để người đọc tin con người trước rồi tin thương hiệu sau."
   - "Threads đạt khoảng 500 triệu người dùng hằng tháng (Meta công bố 16/6/2026); tại Việt Nam tệp còn nhỏ, khoảng 4,65 triệu người theo số liệu quảng cáo cuối 2025, nhưng trẻ và thích trò chuyện."
@@ -137,7 +137,7 @@ Lấy ví dụ thật từ QHUB HERBAL, thương hiệu trà thảo mộc do ch�
 
 - Hành trình chọn 7 sản phẩm, mỗi hộp 30 gói × 3 g.
 - Chuyện tự công bố sản phẩm, làm mã vạch, chọn bao bì trước khi lên sàn.
-- Vì sao chọn chính sách mua 2 tặng 1, đúng mức khuyến mại 50% theo quy định.
+- Vì sao cùng một giá ở mọi kênh nhưng ưu đãi khác nhau theo kênh: mua 2 tặng 1 trên website qhubherbal.com, đúng mức khuyến mại 50%; mua 3 tặng 1 trên TikTok Shop và Shopee, hàng tặng khoảng 33,3% giá trị hàng mua.
 - Ngày ra mắt [Trà Dưỡng Nhan](/tra-duong-nhan.html) 13/11/2026: chín vị từ lá sen, hoa hồng, hoa nhài, hoa cúc, táo đỏ, kỷ tử..., không thêm đường, không caffeine, nghĩ cho những người phụ nữ bận rộn muốn có năm phút cho riêng mình và cho người tìm một món quà.
 
 Mỗi câu chuyện như vậy là một bài Threads tự nhiên. Người đọc không cảm thấy bị chào hàng, nhưng sau vài tuần họ biết thương hiệu có thật, có người làm cẩn thận phía sau.

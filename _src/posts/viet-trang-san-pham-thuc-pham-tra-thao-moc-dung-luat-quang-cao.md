@@ -6,7 +6,7 @@ keyword: "quảng cáo thực phẩm đúng luật"
 keywords: ["viết mô tả sản phẩm trà thảo mộc", "trang sản phẩm thực phẩm", "luật quảng cáo thực phẩm 2026", "nội dung trang sản phẩm chuẩn seo"]
 description: "Cách viết trang sản phẩm thực phẩm, trà thảo mộc vừa chuẩn SEO vừa quảng cáo thực phẩm đúng luật: thông tin bắt buộc, câu nên và không nên, mẫu bố cục."
 date: 2026-11-14
-updated: 2026-11-14
+updated: 2026-11-17
 summary:
   - "Trang sản phẩm trên website cũng là quảng cáo, nên phải theo Luật Quảng cáo sửa đổi 2025 (hiệu lực 01/01/2026) và Nghị định 342/2025/NĐ-CP."
   - "Quảng cáo thực phẩm phải có tên sản phẩm và tên, địa chỉ tổ chức chịu trách nhiệm; trà thường không phải thực phẩm bảo vệ sức khỏe nên không được nói công dụng."
@@ -114,7 +114,7 @@ Hai điểm hay bị bỏ sót:
 
 1. **Tiêu đề và câu mở đầu.** Tên sản phẩm đúng hồ sơ, kèm quy cách. Câu mở đầu nói sản phẩm là gì, dành cho ai, vị thế nào. Ví dụ: "Trà Dưỡng Nhan là trà thảo mộc túi lọc 9 vị hoa và quả, vị ngọt dịu, không thêm đường, hộp 30 gói × 3 g."
 2. **Ảnh.** Ảnh bìa hộp nền sạch, ảnh thành phần, ảnh nước trà, ảnh quy cách, ảnh chính sách. Thẻ alt mô tả đúng ảnh.
-3. **Giá và chính sách.** Giá niêm yết, giá bán, ưu đãi, giao hàng, đổi trả. QHUB HERBAL để giá niêm yết 140.000đ, giá bán 105.000đ, mua 2 tặng 1, giống nhau ở mọi kênh.
+3. **Giá và chính sách.** Giá niêm yết, giá bán, ưu đãi, giao hàng, đổi trả. QHUB HERBAL để giá niêm yết 140.000đ, giá bán 105.000đ, giống nhau ở mọi kênh; ưu đãi tặng hộp khác nhau theo kênh và ghi rõ trên trang: mua 3 tặng 1 trên TikTok Shop và Shopee, mua 2 tặng 1 trên website qhubherbal.com.
 4. **Mô tả cảm quan.** Màu nước, mùi, vị, hậu vị. Đây là phần thay cho "công dụng" mà vẫn khiến người đọc muốn thử.
 5. **Thành phần.** Danh sách đầy đủ, có thể kèm ảnh từng nguyên liệu và một câu về nguồn gốc. Không kèm công dụng.
 6. **Thông tin pháp lý.** Số tự công bố, đơn vị chịu trách nhiệm, địa chỉ, xuất xứ, mã vạch, hạn dùng, bảo quản.
@@ -142,7 +142,7 @@ Trang sản phẩm có thể đúng luật hoàn toàn, nhưng khối đánh gi�
 - **Hình ảnh gợi bảo chứng y tế:** áo blouse trắng, ống nghiệm, biểu tượng chữ thập.
 - **Bảng "trước – sau".** Với thực phẩm thông thường, mọi so sánh trước và sau khi dùng đều là nói công dụng.
 - **Quên phần ẩn:** thẻ alt, meta description, schema, tên file ảnh có chữ công dụng.
-- **Giá và ưu đãi trên web khác sàn,** khách so sánh xong mất niềm tin.
+- **Giá trên web khác sàn, hoặc ưu đãi mỗi kênh một kiểu mà không ghi rõ kênh nào áp dụng gì,** khách so sánh xong mất niềm tin.
 - **Không ghi lưu ý khi dùng.** Thiếu phần này, trang trông như đang giấu điều gì đó.
 
 Một kinh nghiệm nhỏ: hãy giao một người không viết bài đọc lại trang với đúng một câu hỏi "câu này nói về sản phẩm hay nói về cơ thể tôi?". Người viết thường quen mắt nên bỏ qua.

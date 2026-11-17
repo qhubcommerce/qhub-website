@@ -127,7 +127,7 @@ Shop tự chọn sản phẩm và khung giờ trong danh sách khung giờ Shope
 | Mã giảm giá của Shop | Tăng nếu có đơn tối thiểu | Giảm theo giá trị mã | Chồng với mã của sàn, giá cuối quá thấp |
 | Flash Sale của Shop | Không đổi | Giảm mạnh trong khung ngắn | Số lượng đặt quá lớn |
 
-## Giới hạn khuyến mại 50%: ví dụ QHUB HERBAL mua 2 tặng 1
+## Giới hạn khuyến mại 50%: ví dụ QHUB HERBAL mua 3 tặng 1
 
 Dù chạy công cụ nào trên Shopee, chương trình khuyến mãi vẫn phải theo pháp luật về khuyến mại, không chỉ theo luật của sàn.
 
@@ -137,9 +137,9 @@ Dù chạy công cụ nào trên Shopee, chương trình khuyến mãi vẫn ph�
 
 Khi nguồn còn lệch, đội QHUB chọn cách an toàn: **giữ mọi chương trình trong 50%**. Nếu một sản phẩm vừa được giảm giá vừa có quà tặng hay mã giảm giá chồng lên, nên cộng gộp các phần ưu đãi rồi so với giá trước khuyến mại, và hỏi luật sư với các trường hợp sát ngưỡng.
 
-Ví dụ thật từ thương hiệu trà QHUB HERBAL do chính đội QHUB xây. Mỗi hộp 30 gói × 3 g, giá niêm yết 140.000 đồng, giá bán 105.000 đồng, chính sách mua 2 tặng 1. Khách mua hai hộp, ví dụ [Trà Dưỡng Nhan](/tra-duong-nhan.html), trả 210.000 đồng và được tặng một hộp 105.000 đồng. Giá trị hàng tặng bằng 105.000 ÷ 210.000 = **đúng 50%** giá trị hàng phải mua. Vì bảy vị cùng quy cách và cùng giá bán, khách chọn hộp tặng vị nào thì tỷ lệ vẫn giữ nguyên.
+Ví dụ thật từ thương hiệu trà QHUB HERBAL do chính đội QHUB xây. Mỗi hộp 30 gói × 3 g, giá niêm yết 140.000 đồng, giá bán 105.000 đồng ở mọi kênh, còn ưu đãi tặng hộp khác nhau theo kênh. Trên Shopee và TikTok Shop là mua 3 tặng 1: khách mua ba hộp, ví dụ [Trà Dưỡng Nhan](/tra-duong-nhan.html), trả 315.000 đồng và được tặng một hộp 105.000 đồng. Giá trị hàng tặng bằng 105.000 ÷ 315.000 ≈ **33,3%** giá trị hàng phải mua. Nếu cộng cả phần giảm từ giá niêm yết, bốn hộp niêm yết 560.000 đồng mà khách trả 315.000 đồng, tổng ưu đãi là **43,75%**, vẫn dưới 50%. Trên website qhubherbal.com, ưu đãi là mua 2 tặng 1: trả 210.000 đồng nhận ba hộp, hộp tặng bằng đúng 50% giá trị hàng mua, cộng cả phần giảm giá cũng đúng 50%, nên trên website không chồng thêm mã giảm giá. Vì bảy vị cùng quy cách và cùng giá bán, khách chọn hộp tặng vị nào thì tỷ lệ vẫn giữ nguyên.
 
-Trên Shopee, cách cài gọn nhất là Combo khuyến mãi 3 sản phẩm với giá đặc biệt bằng giá 2 sản phẩm. Điều kiện chương trình, món được tặng và thời gian áp dụng ghi rõ trong trang sản phẩm. Đội mình không chồng thêm mã giảm giá sâu lên combo, để giá cuối vẫn còn lãi và tổng ưu đãi không vượt ngưỡng.
+Trên Shopee, cách cài gọn nhất là Combo khuyến mãi 4 sản phẩm với giá đặc biệt bằng giá 3 sản phẩm. Điều kiện chương trình, món được tặng và thời gian áp dụng ghi rõ trong trang sản phẩm. Đội mình không chồng thêm mã giảm giá sâu lên combo, để giá cuối vẫn còn lãi và tổng ưu đãi không vượt ngưỡng.
 
 ## Lỗi hay gặp khi chạy chương trình khuyến mãi Shopee
 
@@ -153,7 +153,7 @@ Từ các gian hàng đội mình từng vận hành, đây là những lỗi g�
 6. **Không ghi rõ điều kiện quà tặng và đổi trả.** Khách trả một hộp mua thì hộp tặng xử lý thế nào, phải ghi từ đầu.
 7. **Đổi chương trình liên tục.** Hôm nay mua 2 tặng 1, mai giảm 40%, khách cũ thấy thiệt và chờ đợt sâu hơn mới mua.
 
-Kinh nghiệm thực tế từ đội vận hành: đội QHUB giữ một chính sách nền cố định quanh năm, như combo mua 2 tặng 1, rồi chỉ thêm một lớp ưu đãi có thời hạn vào ngày sale. Lịch đăng ký chương trình của sàn nằm chung một bảng với lịch tồn kho, để người vận hành nhìn thấy cả hai cùng lúc.
+Kinh nghiệm thực tế từ đội vận hành: đội QHUB giữ một chính sách nền cố định quanh năm, như combo mua 3 tặng 1 trên Shopee, rồi chỉ thêm một lớp ưu đãi có thời hạn vào ngày sale. Lịch đăng ký chương trình của sàn nằm chung một bảng với lịch tồn kho, để người vận hành nhìn thấy cả hai cùng lúc.
 
 ## Việc cần làm ngay tuần này
 

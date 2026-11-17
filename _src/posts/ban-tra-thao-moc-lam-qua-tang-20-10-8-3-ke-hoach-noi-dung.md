@@ -6,7 +6,7 @@ keyword: "bán quà tặng 8/3"
 keywords: ["quà tặng 20/10", "bán trà làm quà", "kế hoạch nội dung facebook 8/3", "quà 8/3 cho mẹ", "livestream quà tặng"]
 description: "Kế hoạch 4 tuần bán quà tặng 8/3 và 20/10 trên Facebook với trà thảo mộc: lịch đăng fanpage, nhóm, livestream, inbox, quảng cáo Meta và lỗi cần tránh."
 date: 2026-11-14
-updated: 2026-11-14
+updated: 2026-11-17
 summary:
   - "Bán quà tặng 8/3 và 20/10 hiệu quả nhất khi bắt đầu nội dung từ 4 tuần trước, chốt đơn mạnh ở tuần cuối và có hạn chót đặt hàng rõ ràng."
   - "Người mua quà không phải người dùng: nội dung cần trả lời 'tặng ai, nói gì, gói thế nào, khi nào nhận' thay vì chỉ giới thiệu sản phẩm."
@@ -20,7 +20,7 @@ faq:
   - q: "Có nên chạy quảng cáo Facebook cho quà 8/3 không?"
     a: "Nên, nhưng chạy sớm để làm ấm tệp. Tuần thứ 3 và 4 trước ngày dùng quảng cáo tin nhắn hoặc chuyển đổi nhắm vào người đã tương tác với fanpage, video và nhóm. Đừng để đến 2–3 ngày cuối mới bắt đầu, vì lúc đó giá quảng cáo dịp lễ thường cao và đơn đặt muộn khó giao kịp."
   - q: "Combo mua 2 tặng 1 có hợp làm quà không?"
-    a: "Rất hợp, vì người mua quà thường tặng nhiều người cùng lúc: mẹ, mẹ chồng, đồng nghiệp. Với QHUB HERBAL, khách mua 2 hộp được tặng 1 hộp và được chọn vị khác. Hộp tặng bằng một nửa giá trị hai hộp mua, tức đúng mức 50%."
+    a: "Rất hợp, vì người mua quà thường tặng nhiều người cùng lúc: mẹ, mẹ chồng, đồng nghiệp. Với QHUB HERBAL, ưu đãi khác nhau theo kênh: trên website qhubherbal.com khách mua 2 hộp được tặng 1 hộp và được chọn vị khác, hộp tặng bằng một nửa giá trị hai hộp mua, tức đúng mức 50%; trên TikTok Shop và Shopee là mua 3 tặng 1, hộp tặng khoảng 33,3% giá trị hàng mua."
   - q: "Nhờ KOC review trà làm quà cần lưu ý gì theo luật mới?"
     a: "Từ 01/01/2026, Luật Quảng cáo sửa đổi yêu cầu người có ảnh hưởng kiểm tra tài liệu sản phẩm, chỉ giới thiệu sản phẩm đã hiểu rõ hoặc đã dùng, và ghi rõ nội dung là quảng cáo. Brief cho KOC nên có danh sách câu được nói, câu không được nói và gửi kèm thông tin công bố sản phẩm."
 sources:
@@ -148,9 +148,9 @@ Nội dung quảng cáo dùng lại những bài tự nhiên đã có tương t�
 
 Người mua quà thường mua cho nhiều người. Ưu đãi theo combo vì vậy hợp hơn giảm giá từng hộp.
 
-QHUB HERBAL giữ một chính sách cho mọi kênh, kể cả mùa lễ: hộp 30 gói × 3 g, giá niêm yết 140.000đ, giá bán 105.000đ, mua 2 tặng 1 và được chọn vị khác cho hộp tặng. Với người mua quà, combo này vừa vặn: một hộp cho mẹ, một hộp cho mẹ chồng, một hộp để mình thử. Khách có thể ghép Trà Dưỡng Nhan với Trà Dưỡng Tâm An hay vị khác trong [bộ sưu tập QHUB HERBAL](/qhub-herbal.html).
+QHUB HERBAL giữ cùng một giá ở mọi kênh, kể cả mùa lễ: hộp 30 gói × 3 g, giá niêm yết 140.000đ, giá bán 105.000đ. Ưu đãi tặng hộp thì khác nhau theo kênh: mua 2 tặng 1 trên website qhubherbal.com (trả 210.000đ nhận 3 hộp, được chọn vị khác cho hộp tặng), mua 3 tặng 1 trên TikTok Shop và Shopee (trả 315.000đ nhận 4 hộp). Với người mua quà, combo trên website vừa vặn: một hộp cho mẹ, một hộp cho mẹ chồng, một hộp để mình thử; ai tặng nhiều người hơn thì đơn 4 hộp trên sàn hợp hơn. Khách có thể ghép Trà Dưỡng Nhan với Trà Dưỡng Tâm An hay vị khác trong [bộ sưu tập QHUB HERBAL](/qhub-herbal.html).
 
-Về pháp lý, hộp tặng có giá trị bằng một nửa hai hộp mua, tức đúng 50%. Thông tư 39/2025/TT-BCT đặt trần 50% cho giá trị hàng tặng. Nghị định 239/2026/NĐ-CP ban hành ngày 26/6/2026 được LuatVietnam cho là đã bỏ trần này, nhưng bản tóm tắt của KPMG không nhắc tới. Khi các nguồn còn lệch nhau, đội chọn giữ trong 50%, và anh chị nên kiểm tra lại văn bản trước khi chạy chương trình.
+Về pháp lý, với mua 2 tặng 1 trên website, hộp tặng có giá trị bằng một nửa hai hộp mua, tức đúng 50%; tính cả phần giảm từ giá niêm yết (3 hộp niêm yết 420.000đ, khách trả 210.000đ) cũng đúng 50%, nên đội không chồng thêm mã giảm giá trên website. Với mua 3 tặng 1 trên sàn, hộp tặng khoảng 33,3% giá trị hàng mua, cộng cả phần giảm giá là 43,75% (4 hộp niêm yết 560.000đ, khách trả 315.000đ). Thông tư 39/2025/TT-BCT đặt trần 50% cho giá trị hàng tặng. Nghị định 239/2026/NĐ-CP ban hành ngày 26/6/2026 được LuatVietnam cho là đã bỏ trần này, nhưng bản tóm tắt của KPMG không nhắc tới. Khi các nguồn còn lệch nhau, đội chọn giữ trong 50%, và anh chị nên kiểm tra lại văn bản trước khi chạy chương trình.
 
 Một vài gợi ý thêm cho mùa quà tặng:
 

@@ -154,7 +154,7 @@ QHUB HERBAL là thương hiệu trà thảo mộc do chính QHUB xây, hiện c�
 | Mã vạch (GTIN) | Nên điền | 8936244311836 | Mỗi vị một mã riêng |
 | Số tự công bố | Ghi ở mô tả, ảnh mặt sau | 39/ANH KHOI/2026 | Để khách và sàn đối chiếu |
 
-Về giá, cả 7 vị dùng chung một chính sách: niêm yết 140.000 đồng, bán 105.000 đồng, mua 2 tặng 1. Vì vậy đội đặt cả 7 vị vào cùng một nhánh ngành để biểu phí đồng nhất, dễ tính lãi cho combo. Câu chữ trên trang chỉ nói hương hoa, vị ngọt dịu, nghi thức năm phút pha trà cho bản thân và món quà, không nói bất cứ điều gì về tác dụng lên cơ thể.
+Về giá, cả 7 vị dùng chung một mức giá: niêm yết 140.000 đồng, bán 105.000 đồng, và cùng ưu đãi mua 3 tặng 1 trên Shopee. Vì vậy đội đặt cả 7 vị vào cùng một nhánh ngành để biểu phí đồng nhất, dễ tính lãi cho combo. Câu chữ trên trang chỉ nói hương hoa, vị ngọt dịu, nghi thức năm phút pha trà cho bản thân và món quà, không nói bất cứ điều gì về tác dụng lên cơ thể.
 
 ## Lỗi hay gặp khi chọn ngành hàng và thuộc tính trên Shopee
 

@@ -163,7 +163,7 @@ Mỗi 1–2 giờ, người điều phối xem nhanh bốn số: số đơn, t�
 
 [Trà Dưỡng Nhan](/tra-duong-nhan.html) của QHUB HERBAL, thương hiệu trà do chính đội QHUB xây, ra mắt ngày 13/11/2026. 12.12 là ngày sale đôi đầu tiên của sản phẩm. Mình chỉ kể cách đội chuẩn bị, không nói số đơn.
 
-- **Ưu đãi giữ một lớp chính.** Giá niêm yết 140.000 đồng, giá bán 105.000 đồng, mua 2 tặng 1. Hộp tặng đã bằng 50% giá trị hai hộp mua, nên đội không chồng thêm mã shop giảm sâu lên combo.
+- **Ưu đãi giữ một lớp chính.** Giá niêm yết 140.000 đồng, giá bán 105.000 đồng, trên Shopee là mua 3 tặng 1: khách trả 315.000 đồng nhận bốn hộp. Hộp tặng bằng khoảng 33,3% giá trị ba hộp mua, cộng cả phần giảm từ giá niêm yết thì tổng ưu đãi đã khoảng 43,75%, nên đội không chồng thêm mã shop giảm sâu lên combo.
 - **Tính lãi trước khi bật gói.** Đơn combo có biên mỏng hơn đơn lẻ, nên quyết định tham gia Voucher Xtra và mức ROAS mục tiêu được tính riêng cho từng loại đơn.
 - **Trang sản phẩm làm trước quảng cáo.** Ảnh bìa rõ hộp, tên sản phẩm có từ khóa người mua hay gõ như "trà hoa", "quà tặng", mô tả ghi đủ 9 vị thành phần, không thêm đường, không caffeine.
 - **Nội dung chỉ nói điều được nói.** Shopee Video và phiên live nói về hương hoa, vị ngọt dịu, nghi thức năm phút pha trà cho bản thân và món quà cuối năm. Không có câu nào gán công dụng lên cơ thể.

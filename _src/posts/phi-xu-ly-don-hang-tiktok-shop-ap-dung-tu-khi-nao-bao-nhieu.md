@@ -6,11 +6,11 @@ keyword: "phí xử lý đơn hàng tiktok shop"
 keywords: ["phí xử lý đơn tiktok shop 3000", "tiktok shop thu 3.000 đồng mỗi đơn", "phí xử lý đơn hàng tiktok shop đơn hoàn", "phí cố định mỗi đơn tiktok shop"]
 description: "Phí xử lý đơn hàng TikTok Shop là 3.000 đồng mỗi đơn giao thành công, áp dụng từ 27/10/2025: đơn nào bị tính, đơn hoàn ra sao, ví dụ trên hộp trà 105.000 đồng."
 date: 2026-11-16
-updated: 2026-11-16
+updated: 2026-11-17
 summary:
   - "Phí xử lý đơn hàng TikTok Shop là 3.000 đồng cho mỗi đơn giao thành công, đã gồm thuế, áp dụng từ 27/10/2025 và đến giữa tháng 11/2026 chưa thấy thông báo đổi mức."
   - "Phí tính theo đơn, không theo số sản phẩm hay giá trị; theo báo chí, đơn đã giao rồi phát sinh hoàn tiền, trả hàng vẫn bị thu và không được hoàn khoản này."
-  - "Với một hộp trà 105.000 đồng, phí xử lý chiếm khoảng 2,9% giá bán; gom thành combo 3 hộp thì chỉ còn khoảng 1,4% doanh thu đơn."
+  - "Với một hộp trà 105.000 đồng, phí xử lý chiếm khoảng 2,9% giá bán; gom thành combo mua 3 tặng 1 (4 hộp, 315.000 đồng) thì chỉ còn khoảng 1% doanh thu đơn."
   - "Từ 12/10/2026 TikTok Shop có thêm phí vận hành logistics cho kiện trên 10 kg, đây là khoản khác, không thay thế phí xử lý đơn."
 faq:
   - q: "Phí xử lý đơn hàng TikTok Shop là bao nhiêu?"
@@ -20,7 +20,7 @@ faq:
   - q: "Đơn bị hủy trước khi giao có mất phí xử lý đơn không?"
     a: "Phí được mô tả là thu trên đơn giao thành công, nên đơn hủy trước khi giao thường không phát sinh khoản này. Các nguồn mình tra không mô tả riêng từng trường hợp hủy hay giao thất bại, vì vậy anh chị nên mở chi tiết vài đơn hủy trong mục Tài chính để chắc chắn."
   - q: "Đơn có nhiều sản phẩm thì phí xử lý tính thế nào?"
-    a: "Phí tính một lần cho mỗi đơn, không nhân theo số sản phẩm hay giá trị. Đơn 3 hộp trà vẫn chỉ mất 3.000 đồng, nên gom combo giúp phí trên mỗi sản phẩm giảm còn khoảng 1.000 đồng."
+    a: "Phí tính một lần cho mỗi đơn, không nhân theo số sản phẩm hay giá trị. Đơn combo 4 hộp trà vẫn chỉ mất 3.000 đồng, nên gom combo giúp phí trên mỗi hộp giảm còn khoảng 750 đồng."
   - q: "Phí vận hành logistics TikTok Shop có phải là phí xử lý đơn không?"
     a: "Không. Theo báo chí tháng 9/2026, phí vận hành logistics áp dụng từ 12/10/2026 cho kiện hàng nặng trên 10 kg, mức từ 3.000 đến 65.000 đồng mỗi kiện. Phí xử lý đơn 3.000 đồng vẫn thu trên mọi đơn giao thành công, độc lập với khoản kia."
 sources:
@@ -95,22 +95,22 @@ Trường hợp đáng chú ý nhất là đơn hoàn sau khi giao. Phí giao d�
 
 ## Ví dụ tính phí trên một hộp trà 105.000 đồng
 
-Mình lấy giá bán thật của [Trà Nam Vương](/tra-nam-vuong.html), một sản phẩm của QHUB HERBAL, thương hiệu trà túi lọc do chính đội QHUB xây: hộp 30 gói × 3 g, giá niêm yết 140.000 đồng, giá bán 105.000 đồng, chương trình mua 2 tặng 1. Tỷ lệ hoa hồng 12% là số giả định trong khoảng 8,5–13,5% của nhóm Đồ ăn và đồ uống ở shop tiêu chuẩn. Giả định khách được miễn phí vận chuyển, không có voucher. Mình không đưa giá vốn hay số đơn thật của thương hiệu.
+Mình lấy giá bán thật của [Trà Nam Vương](/tra-nam-vuong.html), một sản phẩm của QHUB HERBAL, thương hiệu trà túi lọc do chính đội QHUB xây: hộp 30 gói × 3 g, giá niêm yết 140.000 đồng, giá bán 105.000 đồng, trên TikTok Shop và Shopee đang chạy mua 3 tặng 1 (khách trả 315.000 đồng, nhận 4 hộp). Tỷ lệ hoa hồng 12% là số giả định trong khoảng 8,5–13,5% của nhóm Đồ ăn và đồ uống ở shop tiêu chuẩn. Giả định khách được miễn phí vận chuyển, không có voucher. Mình không đưa giá vốn hay số đơn thật của thương hiệu.
 
-| Khoản | Đơn 1 hộp | Combo mua 2 tặng 1 (3 hộp) |
+| Khoản | Đơn 1 hộp | Combo mua 3 tặng 1 (4 hộp) |
 | --- | --- | --- |
-| Giá trị sản phẩm trước khuyến mãi | 105.000 | 315.000 |
+| Giá trị sản phẩm trước khuyến mãi | 105.000 | 420.000 |
 | Phần giảm do shop chịu | 0 | 105.000 |
-| Cơ sở tính hoa hồng và phí giao dịch | 105.000 | 210.000 |
-| Hoa hồng nền tảng 12% (giả định) | 12.600 | 25.200 |
-| Phí giao dịch 6% | 6.300 | 12.600 |
+| Cơ sở tính hoa hồng và phí giao dịch | 105.000 | 315.000 |
+| Hoa hồng nền tảng 12% (giả định) | 12.600 | 37.800 |
+| Phí giao dịch 6% | 6.300 | 18.900 |
 | Phí xử lý đơn hàng | 3.000 | 3.000 |
-| Tổng phí bắt buộc | 21.900 | 40.800 |
-| Tổng phí trên doanh thu đơn | 20,9% | 19,4% |
-| Riêng phí xử lý trên doanh thu đơn | 2,9% | 1,4% |
-| Phí xử lý chia trên mỗi hộp giao đi | 3.000 | 1.000 |
+| Tổng phí bắt buộc | 21.900 | 59.700 |
+| Tổng phí trên doanh thu đơn | 20,9% | 19,0% |
+| Riêng phí xử lý trên doanh thu đơn | 2,9% | 1,0% |
+| Phí xử lý chia trên mỗi hộp giao đi | 3.000 | 750 |
 
-Hai điều rút ra từ bảng. Một, với đơn 105.000 đồng, phí xử lý chiếm gần 3% giá bán, ngang một nửa phí giao dịch. Hai, khi gom thành combo, phí xử lý không tăng nên tỷ trọng giảm một nửa. Đây là một lý do QHUB HERBAL giữ chính sách mua 2 tặng 1 trên sàn.
+Hai điều rút ra từ bảng. Một, với đơn 105.000 đồng, phí xử lý chiếm gần 3% giá bán, ngang một nửa phí giao dịch. Hai, khi gom thành combo, phí xử lý không tăng nên tỷ trọng giảm còn khoảng một phần ba. Đây là một lý do QHUB HERBAL chạy mua 3 tặng 1 trên TikTok Shop và Shopee.
 
 Nếu đơn đến từ affiliate, anh chị cộng thêm hoa hồng người sáng tạo nội dung. Nếu đơn bị hoàn sau khi giao, 3.000 đồng vẫn mất, cộng thêm phí vận chuyển hai chiều và chi phí đóng gói lại.
 

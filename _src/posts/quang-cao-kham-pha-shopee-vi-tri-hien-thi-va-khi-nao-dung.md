@@ -6,7 +6,7 @@ keyword: "quảng cáo khám phá shopee"
 keywords: ["discovery ads shopee", "gợi ý hôm nay shopee", "có thể bạn cũng thích shopee", "quảng cáo sản phẩm shopee"]
 description: "Quảng cáo khám phá Shopee năm 2026 còn không, hiển thị ở Gợi ý hôm nay và Có thể bạn cũng thích ra sao, tính phí thế nào và khi nào nên dùng cho có lãi."
 date: 2026-11-14
-updated: 2026-11-14
+updated: 2026-11-17
 summary:
   - "Quảng cáo khám phá đưa sản phẩm vào các mục gợi ý như Gợi ý hôm nay ở trang chủ và Có thể bạn cũng thích ở trang chi tiết sản phẩm."
   - "Từ năm 2024, Shopee gom tìm kiếm và khám phá vào chung Quảng cáo Sản phẩm; khám phá giờ là một lựa chọn vị trí hiển thị, và năm 2026 còn chạy qua GMV Max."
@@ -122,7 +122,7 @@ Quảng cáo khám phá mạnh ở chỗ tiếp cận người chưa biết mìn
 | Biên lợi nhuận mỏng | Hạn chế | Chuyển đổi thấp dễ đẩy chi phí mỗi đơn vượt lãi |
 | Trang sản phẩm chưa có đánh giá, ảnh xấu | Chưa nên | Có người bấm nhưng không ai mua |
 
-Lấy ví dụ một sản phẩm mới như [Trà Dưỡng Nhan](/tra-duong-nhan.html) của QHUB HERBAL, ra mắt ngày 13/11/2026. Đây là trà thảo mộc 9 vị, hương hoa, vị ngọt dịu, khách chính là phụ nữ bận rộn và người mua làm quà. Người mua gần như chưa biết tên sản phẩm để gõ tìm, nên với kiểu sản phẩm này, vị trí khám phá đáng thử hơn là chỉ đấu thầu từ khóa. Ảnh bìa nên cho thấy hộp trà và ưu đãi mua 2 tặng 1, vì ở Gợi ý hôm nay người mua quyết định bấm trong một giây.
+Lấy ví dụ một sản phẩm mới như [Trà Dưỡng Nhan](/tra-duong-nhan.html) của QHUB HERBAL, ra mắt ngày 13/11/2026. Đây là trà thảo mộc 9 vị, hương hoa, vị ngọt dịu, khách chính là phụ nữ bận rộn và người mua làm quà. Người mua gần như chưa biết tên sản phẩm để gõ tìm, nên với kiểu sản phẩm này, vị trí khám phá đáng thử hơn là chỉ đấu thầu từ khóa. Ảnh bìa nên cho thấy hộp trà và ưu đãi mua 3 tặng 1 trên Shopee, vì ở Gợi ý hôm nay người mua quyết định bấm trong một giây.
 
 Để biết sản phẩm của anh chị thuộc nhóm nào, đọc thêm bài [quảng cáo tìm kiếm sản phẩm Shopee](/kien-thuc/quang-cao-tim-kiem-san-pham-shopee-tu-khoa-gia-thau-doi-sanh/) và bài tổng quan [các loại Shopee Ads và cách chọn](/kien-thuc/quang-cao-shopee-2026-cac-loai-shopee-ads-va-cach-chon/).
 

@@ -63,19 +63,23 @@ sources:                  # bắt buộc ≥ 2 với bài phí sàn, quảng cá
 - Khẳng định công dụng chữa bệnh cho bất kỳ sản phẩm nào, kể cả khi lấy ví dụ ngành thực phẩm hay mỹ phẩm.
 - Nói xấu, so sánh hạ thấp đối thủ hay đơn vị khác.
 
-## 7. Quy trình mỗi lượt (20 bài/đêm, chia 2 lượt × 10 bài)
+## 7. Quy trình mỗi lượt (30 bài/đêm, chia 3 lượt × 10 bài)
 1. `git pull`, đọc `_src/plan.csv`. Chọn 10 dòng có `night` nhỏ nhất mà chưa có file trong `_src/posts/`.
 2. Với mỗi bài: tra cứu, viết, lưu file.
 3. Đặt `date` và `updated` bằng ngày hôm nay (giờ Việt Nam).
 4. `pip install --break-system-packages markdown pyyaml` (nếu thiếu), rồi chạy `python3 _tools/build.py --strict`. Sửa đến khi không còn cảnh báo.
-5. `git add -A && git commit -m "Kiến thức: đêm N – 10 bài" && git push`.
+5. `git add -A -- . ':(exclude)_qhubherbal' && git commit -m "Kiến thức: thêm 10 bài (tiến độ x/520)" && git push origin main`.
 6. Sau khi push, workflow `.github/workflows/indexnow.yml` tự chờ bài lên sóng, kiểm tra HTTP 200 và báo Bing qua IndexNow. Đọc kết quả trong log GitHub Actions, không cần WebFetch.
-7. Báo cáo ngắn: số bài đã viết, tiến độ x/510, kết quả kiểm tra trang và IndexNow, bài nào phải bỏ qua và lý do.
+7. Báo cáo ngắn: số bài đã viết, tiến độ x/520, kết quả kiểm tra trang và IndexNow, bài nào phải bỏ qua và lý do.
 
 
 ## Bài có nhắc tới QHUB HERBAL (thương hiệu trà do chính QHUB xây)
 - QHUB HERBAL là ví dụ THẬT duy nhất được dùng làm "kinh nghiệm của đội QHUB". Không bịa doanh số, số đơn, số khách hay đánh giá; chỉ kể quy trình đội đã làm (chọn sản phẩm, tự công bố, bao bì, mã vạch, ảnh, kênh bán, chính sách giá mua 2 tặng 1).
-- Hiện có 7 sản phẩm, mỗi hộp 30 gói × 3 g, giá niêm yết 140.000đ, giá bán 105.000đ, mua 2 tặng 1 (đúng mức khuyến mại 50%). Khi nhắc tên sản phẩm, link tới trang sản phẩm trên qhub.com.vn:
+- Hiện có 7 sản phẩm, mỗi hộp 30 gói × 3 g, giá niêm yết 140.000đ, giá bán 105.000đ ở mọi kênh. **Ưu đãi khác nhau theo kênh (anh Quang xác nhận 17/11/2026):**
+  - **TikTok Shop và Shopee: mua 3 tặng 1** – khách trả 3 × 105.000đ = 315.000đ, nhận 4 hộp; hộp tặng bằng khoảng 33% giá trị hàng mua; tính cả phần giảm từ 140.000đ thì khách nhận 4 hộp (giá niêm yết 560.000đ) với 315.000đ, tổng ưu đãi khoảng 43,75%.
+  - **Website qhubherbal.com: mua 2 tặng 1** – khách trả 210.000đ, nhận 3 hộp; hộp tặng bằng 50% giá trị hàng mua, tính cả phần giảm giá thì tổng ưu đãi cũng đúng 50% (3 hộp niêm yết 420.000đ, trả 210.000đ), nên trên website không chồng thêm mã giảm giá.
+  - KHÔNG viết "mua 2 tặng 1" khi nói về sàn, KHÔNG viết "một chính sách cho mọi kênh". Ví dụ tính phí sàn với đơn combo thì dùng mua 3 tặng 1 (4 hộp, 315.000đ).
+- Khi nhắc tên sản phẩm, link tới trang sản phẩm trên qhub.com.vn:
   - Trà Cà Gai – Diệp Hạ Châu `/tra-ca-gai-diep-ha-chau.html` · Trà Nam Vương `/tra-nam-vuong.html` · Trà Xấu Hổ Tím – Tâm Sen `/tra-xau-ho-tim-tam-sen.html` · Trà Ngày Dâu Về `/tra-ngay-dau-ve.html` · Trà Lá Ổi Mix Lá Sen `/tra-la-oi-mix-la-sen.html` · Trà Dưỡng Tâm An `/tra-duong-tam-an.html`
   - **Trà Dưỡng Nhan** `/tra-duong-nhan.html` (mới, ra mắt 13/11/2026): 9 vị lá sen, tía tô, hoa hồng, hoa nhài, hoa cúc, táo đỏ, kỷ tử, đông trùng hạ thảo, cỏ ngọt; không thêm đường, không caffeine; khách hàng chính là phụ nữ 18–40 bận rộn và người mua làm quà; tự công bố 39/ANH KHOI/2026; mã vạch EAN-13 8936244311836.
   - Trang tổng: `/qhub-herbal.html`. Web bán hàng riêng của thương hiệu: https://qhubherbal.com/

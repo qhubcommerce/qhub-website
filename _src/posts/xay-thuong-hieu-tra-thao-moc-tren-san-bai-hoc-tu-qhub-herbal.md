@@ -6,12 +6,12 @@ keyword: "xây thương hiệu trà thảo mộc"
 keywords: ["thương hiệu trà túi lọc", "bán trà thảo mộc trên tiktok", "bao bì trà thảo mộc", "quảng cáo trà thảo mộc"]
 description: "Xây thương hiệu trà thảo mộc trên sàn bắt đầu từ danh mục, hồ sơ tự công bố, bao bì, mã vạch, ảnh và chính sách giá. Sáu bài học thật từ QHUB HERBAL."
 date: 2026-11-14
-updated: 2026-11-14
+updated: 2026-11-17
 summary:
   - "Xây thương hiệu trà thảo mộc trên sàn là làm cho khách nhận ra mình qua tên, bao bì, ảnh, giọng nói và chính sách giá giống nhau ở mọi kênh."
   - "QHUB HERBAL đi theo 6 bước: chọn danh mục, hoàn thiện hồ sơ tự công bố, nhận diện, bao bì, ảnh sàn và nội dung, rồi mới lên kênh bán."
   - "Trà thảo mộc là thực phẩm thường: nội dung chỉ nói hương vị, thành phần, cách pha, dịp dùng; không gán công dụng sức khỏe cho sản phẩm."
-  - "Một chính sách giá cho mọi kênh (105.000đ/hộp, mua 2 tặng 1) giúp thương hiệu mới giữ được niềm tin."
+  - "Cùng một mức giá ở mọi kênh (105.000đ/hộp), ưu đãi ghi rõ theo kênh (mua 3 tặng 1 trên TikTok Shop và Shopee, mua 2 tặng 1 trên website qhubherbal.com) giúp thương hiệu mới giữ được niềm tin."
 faq:
   - q: "Xây thương hiệu trà thảo mộc nên bắt đầu từ đâu?"
     a: "Bắt đầu từ danh mục và khách hàng: mỗi vị dành cho ai, dùng vào dịp nào. Sau đó mới đến hồ sơ tự công bố, nhận diện và bao bì. Làm ngược lại, anh chị dễ phải in lại hộp hoặc đổi tên khi hồ sơ đã nộp."
@@ -126,18 +126,20 @@ Cách dựng kênh từ đầu, anh chị xem bài [cách xây kênh TikTok bán
 
 Một điều đội rút ra khi làm Trà Dưỡng Nhan: tên sản phẩm gợi cảm xúc thì càng dễ bị hiểu thành lời hứa. Nội dung vì thế chỉ bám vào hương hoa, vị ngọt dịu, khoảnh khắc dành cho bản thân và món quà. Brief cho KOC cũng ghi rõ cột không được nói.
 
-## Bài học 5: một chính sách giá cho mọi kênh
+## Bài học 5: cùng giá ở mọi kênh, ưu đãi rõ theo từng kênh
 
-Thương hiệu mới dễ mất niềm tin nhất khi khách thấy mỗi nơi một giá. QHUB HERBAL giữ một chính sách cho mọi kênh:
+Thương hiệu mới dễ mất niềm tin nhất khi khách thấy mỗi nơi một giá. QHUB HERBAL giữ cùng một mức giá ở mọi kênh, còn ưu đãi tặng hộp thì khác nhau theo kênh và được ghi rõ ở từng nơi:
 
 - Giá niêm yết 140.000đ, giá bán 105.000đ mỗi hộp.
-- Mua 2 tặng 1, hộp tặng được chọn vị khác. Cách này để khách thử thêm vị mới thay vì chỉ mua lại vị cũ.
+- Trên TikTok Shop và Shopee: mua 3 tặng 1, khách trả 315.000đ và nhận 4 hộp.
+- Trên website qhubherbal.com: mua 2 tặng 1, khách trả 210.000đ và nhận 3 hộp.
+- Hộp tặng được chọn vị khác. Cách này để khách thử thêm vị mới thay vì chỉ mua lại vị cũ.
 - Miễn phí giao hàng, thanh toán khi nhận hàng, được kiểm hàng trước khi trả tiền.
 - Đổi trả trong 7 ngày, kể cả khi đổi ý nếu hộp còn nguyên seal.
 
-Về mặt pháp lý, hộp tặng có giá trị bằng một nửa hai hộp mua, tức đúng 50%. Thông tư 39/2025/TT-BCT (hiệu lực 01/7/2025) đặt trần 50% cho giá trị hàng tặng và mức giảm giá. Nghị định 239/2026/NĐ-CP ngày 26/6/2026 được LuatVietnam cho là đã bỏ các trần này, nhưng một số bản tóm tắt khác chỉ nhắc việc bỏ giới hạn thời gian giảm giá. Khi nguồn còn lệch, đội chọn giữ trong 50%.
+Về mặt pháp lý, trên sàn hộp tặng có giá trị khoảng 33,3% giá trị ba hộp mua (105.000đ ÷ 315.000đ); tính cả phần giảm từ giá niêm yết thì 4 hộp niêm yết 560.000đ, khách trả 315.000đ, tổng ưu đãi 43,75%. Trên website, hộp tặng bằng đúng 50% giá trị hai hộp mua; tính cả phần giảm giá thì 3 hộp niêm yết 420.000đ, khách trả 210.000đ, cũng đúng 50%, sát trần, nên website không chồng thêm mã giảm giá. Thông tư 39/2025/TT-BCT (hiệu lực 01/7/2025) đặt trần 50% cho giá trị hàng tặng và mức giảm giá. Nghị định 239/2026/NĐ-CP ngày 26/6/2026 được LuatVietnam cho là đã bỏ các trần này, nhưng một số bản tóm tắt khác chỉ nhắc việc bỏ giới hạn thời gian giảm giá. Khi nguồn còn lệch, đội chọn giữ trong 50%.
 
-Website cũng là một kênh cần đồng bộ. Trang sản phẩm trên qhub.com.vn và web riêng [qhubherbal.com](https://qhubherbal.com/) dùng chung giá và chính sách. Vì sao doanh nghiệp bán trên sàn vẫn nên có website, anh chị xem bài [có cần website riêng không](/kien-thuc/doanh-nghiep-ban-tren-san-co-can-website-rieng-khong/).
+Website cũng là một kênh cần đồng bộ. Trang sản phẩm trên qhub.com.vn và web riêng [qhubherbal.com](https://qhubherbal.com/) dùng chung giá, và ưu đãi của từng kênh được ghi rõ để khách không bị bất ngờ khi so sánh. Vì sao doanh nghiệp bán trên sàn vẫn nên có website, anh chị xem bài [có cần website riêng không](/kien-thuc/doanh-nghiep-ban-tren-san-co-can-website-rieng-khong/).
 
 ## Lỗi hay gặp khi xây thương hiệu trà thảo mộc trên sàn
 
@@ -155,6 +157,6 @@ Website cũng là một kênh cần đồng bộ. Trang sản phẩm trên qhub.
 2. Rà lại hồ sơ tự công bố: tên, thành phần trên hồ sơ có khớp hộp và trang sản phẩm không, phiếu kiểm nghiệm còn hạn không.
 3. Thu nhỏ ảnh bìa xuống cỡ ô sản phẩm trên điện thoại, xem còn đọc được tên vị không.
 4. Soát lại mọi câu chữ trên sàn, kênh TikTok và brief KOC, bỏ hết câu nói về công dụng sức khỏe.
-5. Lập một bảng chính sách giá và ưu đãi chung, áp dụng cho mọi kênh.
+5. Lập một bảng giá chung cho mọi kênh, ghi rõ ưu đãi của từng kênh.
 
 QHUB Commerce (qhub.com.vn) xây QHUB HERBAL bằng chính đội media, đội vận hành sàn, đội KOC và đội host livestream đang làm cho các thương hiệu đối tác. Nếu anh chị muốn đi cùng một đội như vậy, xem trang [vận hành TikTok Shop](/dich-vu/van-hanh-tiktok-shop/).

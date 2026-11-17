@@ -6,7 +6,7 @@ keyword: "chế độ gmv max"
 keywords: ["max delivery gmv max", "phân phối tối đa gmv max", "target roi gmv max", "roi mục tiêu tiktok shop", "chế độ tối ưu hóa gmv max"]
 description: "Chế độ GMV Max nào hợp với shop: Target ROI giữ lãi ổn định, Max delivery (Phân phối tối đa) đẩy doanh thu ngày sale, ra mắt. Cách chọn, cách tính, lỗi hay gặp."
 date: 2026-11-16
-updated: 2026-11-16
+updated: 2026-11-17
 summary:
   - "GMV Max có hai chế độ tối ưu: Target ROI (giữ ROI quanh mức anh chị đặt) và Max delivery, trên giao diện tiếng Việt gọi là Phân phối tối đa (ưu tiên tiêu ngân sách để có nhiều doanh thu nhất)."
   - "Target ROI là chế độ dùng hằng ngày; Max delivery chỉ nên bật ngắn ngày có chủ đích: ngày sale lớn, ra mắt sản phẩm, xả tồn kho, hoặc 5–7 ngày đầu khi tài khoản mới cần lưu lượng."
@@ -120,7 +120,7 @@ Công thức đơn giản:
 
 Nếu kết quả dương, đó là số tiền anh chị đang trả để mua lưu lượng. Nhân với số ngày định chạy là ra tổng "học phí". Nếu con số này lớn hơn mức anh chị chấp nhận được, hãy giảm ngân sách hoặc rút ngắn số ngày.
 
-Ví dụ minh họa với sản phẩm mới ra mắt của chính đội mình. [Trà Dưỡng Nhan](/tra-duong-nhan.html) của QHUB HERBAL ra mắt ngày 13/11/2026, hộp 30 gói × 3 g, giá bán 105.000 đồng, mua 2 tặng 1. Đây là trà hoa thảo mộc 9 vị, không thêm đường, không caffeine, hợp làm quà. Khi lên kế hoạch quảng cáo cho một sản phẩm mới như vậy, mình tính như bảng sau. **Các số chi phí và doanh thu dưới đây là giả định để minh họa cách tính, không phải số liệu bán hàng thật.**
+Ví dụ minh họa với sản phẩm mới ra mắt của chính đội mình. [Trà Dưỡng Nhan](/tra-duong-nhan.html) của QHUB HERBAL ra mắt ngày 13/11/2026, hộp 30 gói × 3 g, giá bán 105.000 đồng, trên TikTok Shop chạy mua 3 tặng 1 (315.000 đồng nhận 4 hộp). Đây là trà hoa thảo mộc 9 vị, không thêm đường, không caffeine, hợp làm quà. Khi lên kế hoạch quảng cáo cho một sản phẩm mới như vậy, mình tính như bảng sau. **Các số chi phí và doanh thu dưới đây là giả định để minh họa cách tính, không phải số liệu bán hàng thật.**
 
 | Khoản | Giá trị giả định |
 | --- | --- |

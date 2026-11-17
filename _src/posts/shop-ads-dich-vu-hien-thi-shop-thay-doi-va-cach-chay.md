@@ -6,7 +6,7 @@ keyword: "shop+ ads shopee"
 keywords: ["dịch vụ hiển thị shop+", "quảng cáo shop shopee", "dịch vụ hiển thị shop shopee", "shop ads shopee"]
 description: "Shop+ Ads Shopee (Dịch vụ Hiển thị Shop+) là gì, khác Quảng cáo Shop cũ ra sao, tính phí, điều kiện, cách thiết lập và khi nào nên chạy cho có lãi."
 date: 2026-11-15
-updated: 2026-11-15
+updated: 2026-11-17
 summary:
   - "Shop+ Ads là cách gọi quen của Dịch vụ Hiển thị Shop+, hình thức trả phí đưa cả gian hàng lên khu vực nổi bật ở trang kết quả tìm kiếm Shopee."
   - "Tại Việt Nam, Shopee gọi các loại quảng cáo là Dịch vụ Hiển thị; Shop+ được cập nhật từ ngày 13/8/2026 theo Shopdora và Túi Gói Hàng."
@@ -150,7 +150,7 @@ Shop+ không phải loại quảng cáo dành cho mọi shop. Bảng dưới là
 | Biên lợi nhuận mỏng | Hạn chế | Khó đo lãi lỗ trên từng đơn |
 | Trước ngày sale đôi 3–5 ngày | Nên với shop đã có nền | Làm nóng, đưa người mua vào giỏ hàng chờ |
 
-Lấy ví dụ một thương hiệu nhiều vị như [QHUB HERBAL](/qhub-herbal.html), có 7 loại trà túi lọc cùng quy cách hộp 30 gói. Người gõ tên thương hiệu hoặc một cụm ngành như "trà túi lọc" mà thấy cả khối gian hàng sẽ có cơ hội chọn vị hợp mình, và chương trình mua 2 tặng 1 khuyến khích họ lấy thêm một vị khác. Kiểu danh mục nhiều sản phẩm cùng nhóm như vậy là chỗ Shop+ phát huy. Ngược lại, nếu chỉ có một vị trà, đội mình sẽ dồn tiền vào quảng cáo tìm kiếm sản phẩm theo hướng dẫn trong bài [quảng cáo tìm kiếm sản phẩm Shopee](/kien-thuc/quang-cao-tim-kiem-san-pham-shopee-tu-khoa-gia-thau-doi-sanh/).
+Lấy ví dụ một thương hiệu nhiều vị như [QHUB HERBAL](/qhub-herbal.html), có 7 loại trà túi lọc cùng quy cách hộp 30 gói. Người gõ tên thương hiệu hoặc một cụm ngành như "trà túi lọc" mà thấy cả khối gian hàng sẽ có cơ hội chọn vị hợp mình, và chương trình mua 3 tặng 1 trên Shopee khuyến khích họ lấy thêm vị khác. Kiểu danh mục nhiều sản phẩm cùng nhóm như vậy là chỗ Shop+ phát huy. Ngược lại, nếu chỉ có một vị trà, đội mình sẽ dồn tiền vào quảng cáo tìm kiếm sản phẩm theo hướng dẫn trong bài [quảng cáo tìm kiếm sản phẩm Shopee](/kien-thuc/quang-cao-tim-kiem-san-pham-shopee-tu-khoa-gia-thau-doi-sanh/).
 
 ## Đo hiệu quả Shop+ Ads thế nào cho đúng?
 

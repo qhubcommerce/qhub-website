@@ -6,7 +6,7 @@ keyword: "kịch bản video tiktok"
 keywords: ["mẫu kịch bản video tiktok", "cách viết kịch bản tiktok", "kịch bản video bán hàng", "kịch bản tiktok shop"]
 description: "Cách viết kịch bản video TikTok bán hàng theo 4 phần: Hook, Vấn đề, Giải pháp, Kêu gọi. Có bảng thời lượng, mẫu điền sẵn cho 5 ngành và lưu ý chính sách."
 date: 2026-11-14
-updated: 2026-11-14
+updated: 2026-11-17
 summary:
   - "Kịch bản video TikTok bán hàng gọn nhất đi theo 4 phần: Hook, Vấn đề hoặc bối cảnh, Giải pháp kèm chứng minh, Kêu gọi hành động."
   - "Với video 30 giây, tỷ lệ dễ dùng là 3 giây hook, 6–8 giây vấn đề, 15–17 giây giải pháp, 3–5 giây kêu gọi; TikTok Ads gợi ý 21–34 giây cho phần lớn video quảng cáo."
@@ -138,7 +138,7 @@ QHUB HERBAL là thương hiệu trà thảo mộc do chính QHUB xây. Khi làm 
 - **Hook (0–3 giây):** cận cảnh mở nắp hộp quà, bên trong là các túi lọc xếp đều. Lời: "Quà cho mẹ mà không phải bánh kẹo, mình chọn cái này." Chữ: "Quà nhỏ, ý lớn".
 - **Bối cảnh (3–9 giây):** cảnh cuối ngày làm việc, laptop vừa gập lại. Lời: "Mẹ mình hay bảo chẳng cần quà gì. Nên mình chọn thứ mẹ dùng được mỗi ngày."
 - **Giải pháp (9–26 giây):** thả một túi lọc vào cốc, rót nước sôi, đặt đồng hồ 5 phút, nước trà lên màu, đưa cốc lên gần camera. Lời: "Chín vị hoa và thảo mộc: hoa hồng, hoa nhài, hoa cúc, táo đỏ, kỷ tử, lá sen, tía tô, đông trùng hạ thảo và cỏ ngọt. Hương hoa, vị ngọt dịu từ cỏ ngọt, không thêm đường, không caffeine. Hãm 5 phút là có một cốc ấm."
-- **Kêu gọi (26–30 giây):** hai hộp đặt cạnh nhau, thêm hộp thứ ba. Lời: "Hộp 30 gói, đang mua 2 tặng 1, hộp tặng chọn vị khác được. Anh chị bấm giỏ hàng nha."
+- **Kêu gọi (26–30 giây):** ba hộp đặt cạnh nhau, thêm hộp thứ tư. Lời: "Hộp 30 gói, đang mua 3 tặng 1, hộp tặng chọn vị khác được. Anh chị bấm giỏ hàng nha."
 
 Những câu đội mình cố ý **không** đưa vào kịch bản: bất kỳ câu nào nói trà làm thay đổi làn da, vóc dáng, giấc ngủ hay sức khỏe. Tên sản phẩm có chữ "Dưỡng Nhan" nhưng kịch bản chỉ tả hương, vị, nghi thức pha và ý nghĩa món quà. Giá nói trong video phải khớp giá trên giỏ hàng: giá niêm yết 140.000đ, giá bán 105.000đ mỗi hộp. Anh chị xem đủ 7 vị trà ở trang [QHUB HERBAL](/qhub-herbal.html).
 

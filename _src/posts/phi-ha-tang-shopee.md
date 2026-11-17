@@ -6,12 +6,12 @@ keyword: "phí hạ tầng shopee"
 keywords: ["phí hạ tầng shopee 3000", "shopee thu 3.000 đồng mỗi đơn", "phí hạ tầng shopee áp dụng từ khi nào", "kiểm tra phí hạ tầng shopee"]
 description: "Phí hạ tầng Shopee là 3.000 đồng mỗi đơn thành công, áp dụng từ 01/7/2025: đơn nào bị tính, xem ở đâu trong doanh thu, ví dụ trên hộp trà 105.000 đồng."
 date: 2026-11-16
-updated: 2026-11-16
+updated: 2026-11-17
 summary:
   - "Phí hạ tầng Shopee là khoản cố định 3.000 đồng (đã gồm thuế) trên mỗi đơn thành công, áp dụng từ 01/7/2025 cho cả shop thường và Shopee Mall."
   - "Phí tính theo đơn, không theo số sản phẩm; khoản này được trừ thẳng vào doanh thu đơn trước khi tiền về Số dư của shop, không thu riêng."
   - "Đến giữa tháng 11/2026, các đợt tăng phí năm 2026 chạm vào phí xử lý giao dịch, phí cố định và các gói dịch vụ, chưa thấy nguồn nào ghi phí hạ tầng đổi mức."
-  - "Với hộp trà 105.000 đồng, phí hạ tầng chiếm khoảng 2,9% giá bán; combo mua 2 tặng 1 kéo xuống còn khoảng 1,4% doanh thu đơn."
+  - "Với hộp trà 105.000 đồng, phí hạ tầng chiếm khoảng 2,9% giá bán; combo mua 3 tặng 1 (4 hộp, 315.000 đồng) kéo xuống còn khoảng 1% doanh thu đơn."
 faq:
   - q: "Phí hạ tầng Shopee là bao nhiêu tiền mỗi đơn?"
     a: "Là 3.000 đồng mỗi đơn thành công, đã gồm thuế. Mức này áp dụng từ 01/7/2025 theo thông báo của Shopee được Tuổi Trẻ, Báo Pháp Luật, BigSeller đưa tin, và vẫn được GHN, Eimskip ghi trong bảng phí 2026. Anh chị nên đối chiếu lại trong Kênh Người Bán vì phí có thể đổi."
@@ -109,22 +109,22 @@ Với kế toán, phí hạ tầng là chi phí bán hàng của shop. Phí sàn
 
 ## Ví dụ tính phí trên hộp trà 105.000 đồng
 
-Mình lấy giá bán thật của [Trà Xấu Hổ Tím – Tâm Sen](/tra-xau-ho-tim-tam-sen.html), một sản phẩm của QHUB HERBAL, thương hiệu trà túi lọc do chính đội QHUB xây: hộp 30 gói × 3 g, giá niêm yết 140.000 đồng, giá bán 105.000 đồng, chương trình mua 2 tặng 1. Phí cố định 12% là số giả định trong khoảng 10–15% mà GHN ghi cho ngành thực phẩm và đồ uống ở shop thường. Giả định khách được miễn phí vận chuyển, không voucher, không tham gia gói dịch vụ. Mình không đưa giá vốn hay số đơn thật.
+Mình lấy giá bán thật của [Trà Xấu Hổ Tím – Tâm Sen](/tra-xau-ho-tim-tam-sen.html), một sản phẩm của QHUB HERBAL, thương hiệu trà túi lọc do chính đội QHUB xây: hộp 30 gói × 3 g, giá niêm yết 140.000 đồng, giá bán 105.000 đồng, chương trình mua 3 tặng 1 trên Shopee. Phí cố định 12% là số giả định trong khoảng 10–15% mà GHN ghi cho ngành thực phẩm và đồ uống ở shop thường. Giả định khách được miễn phí vận chuyển, không voucher, không tham gia gói dịch vụ. Mình không đưa giá vốn hay số đơn thật.
 
-| Khoản | Đơn 1 hộp | Combo mua 2 tặng 1 (3 hộp) |
+| Khoản | Đơn 1 hộp | Combo mua 3 tặng 1 (4 hộp) |
 | --- | --- | --- |
-| Giá trị sản phẩm trước khuyến mãi | 105.000 | 315.000 |
+| Giá trị sản phẩm trước khuyến mãi | 105.000 | 420.000 |
 | Phần giảm do shop chịu | 0 | 105.000 |
-| Cơ sở tính phí theo % | 105.000 | 210.000 |
-| Phí cố định 12% (giả định) | 12.600 | 25.200 |
-| Phí xử lý giao dịch 6% | 6.300 | 12.600 |
+| Cơ sở tính phí theo % | 105.000 | 315.000 |
+| Phí cố định 12% (giả định) | 12.600 | 37.800 |
+| Phí xử lý giao dịch 6% | 6.300 | 18.900 |
 | Phí hạ tầng | 3.000 | 3.000 |
-| Tổng phí bắt buộc | 21.900 | 40.800 |
-| Tổng phí trên doanh thu đơn | 20,9% | 19,4% |
-| Riêng phí hạ tầng trên doanh thu đơn | 2,9% | 1,4% |
-| Phí hạ tầng chia trên mỗi hộp giao đi | 3.000 | 1.000 |
+| Tổng phí bắt buộc | 21.900 | 59.700 |
+| Tổng phí trên doanh thu đơn | 20,9% | 19,0% |
+| Riêng phí hạ tầng trên doanh thu đơn | 2,9% | 1,0% |
+| Phí hạ tầng chia trên mỗi hộp giao đi | 3.000 | 750 |
 
-Với đơn một hộp, phí hạ tầng chiếm gần 3% giá bán, bằng khoảng một nửa phí xử lý giao dịch. Gom thành combo, phí hạ tầng giữ nguyên nên tỷ trọng giảm một nửa. Nếu shop bật thêm Voucher Xtra hay đồng tài trợ mã, tổng phí còn cao hơn, nên phải tính lại trước khi tham gia.
+Với đơn một hộp, phí hạ tầng chiếm gần 3% giá bán, bằng khoảng một nửa phí xử lý giao dịch. Gom thành combo 4 hộp, phí hạ tầng giữ nguyên nên tỷ trọng chỉ còn khoảng một phần ba. Nếu shop bật thêm Voucher Xtra hay đồng tài trợ mã, tổng phí còn cao hơn, nên phải tính lại trước khi tham gia.
 
 Bảng nhanh cho các mức giá trị đơn khác:
 
@@ -134,6 +134,7 @@ Bảng nhanh cho các mức giá trị đơn khác:
 | 60.000 | 5,0% |
 | 105.000 | 2,9% |
 | 210.000 | 1,4% |
+| 315.000 | 1,0% |
 | 500.000 | 0,6% |
 
 **Công thức:** Tỷ lệ phí hạ tầng = 3.000 ÷ Doanh thu đơn × 100%. Lấy giá trị đơn trung bình của shop (tổng doanh thu chia số đơn) để biết khoản này đang chiếm bao nhiêu.

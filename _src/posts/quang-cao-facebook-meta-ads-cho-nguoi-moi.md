@@ -6,7 +6,7 @@ keyword: "quảng cáo facebook"
 keywords: ["chạy quảng cáo facebook cho người mới", "meta ads là gì", "mục tiêu chiến dịch facebook", "pixel và conversions api", "chỉ số cpm ctr cpc roas"]
 description: "Quảng cáo Facebook cho người mới: cấu trúc chiến dịch, 6 mục tiêu, Advantage+, Pixel và Conversions API, ngân sách khởi đầu, cách đọc CPM, CTR, CPA, ROAS."
 date: 2026-11-16
-updated: 2026-11-16
+updated: 2026-11-17
 summary:
   - "Quảng cáo Facebook (Meta Ads) có ba tầng: chiến dịch chọn mục tiêu, nhóm quảng cáo chọn đối tượng, ngân sách, vị trí, còn quảng cáo là nội dung người xem thấy."
   - "Trình quản lý quảng cáo hiện có 6 mục tiêu: Nhận biết, Lưu lượng truy cập, Lượt tương tác, Khách hàng tiềm năng, Quảng bá ứng dụng và Doanh số."
@@ -151,7 +151,7 @@ Phần này mình nói thận trọng vì quy định thay đổi nhiều. Theo 
 
 Đây là cách đội QHUB nghĩ khi lên một chiến dịch Meta cho [Trà Dưỡng Nhan](/tra-duong-nhan.html), sản phẩm mới ra mắt ngày 13/11/2026. Mình chỉ chia sẻ cách thiết lập, không đưa số liệu doanh thu.
 
-- **Sản phẩm:** trà thảo mộc túi lọc 9 vị gồm lá sen, tía tô, hoa hồng, hoa nhài, hoa cúc, táo đỏ, kỷ tử, đông trùng hạ thảo, cỏ ngọt. Không thêm đường, không caffeine. Hộp 30 gói × 3 g, giá niêm yết 140.000đ, giá bán 105.000đ, chương trình mua 2 tặng 1.
+- **Sản phẩm:** trà thảo mộc túi lọc 9 vị gồm lá sen, tía tô, hoa hồng, hoa nhài, hoa cúc, táo đỏ, kỷ tử, đông trùng hạ thảo, cỏ ngọt. Không thêm đường, không caffeine. Hộp 30 gói × 3 g, giá niêm yết 140.000đ, giá bán 105.000đ; chương trình mua 2 tặng 1 trên website qhubherbal.com, nơi chiến dịch dẫn về (trên TikTok Shop và Shopee là mua 3 tặng 1).
 - **Khách chính:** phụ nữ 18–40 bận rộn và người mua làm quà.
 - **Chiến dịch:** Doanh số, dẫn về web bán hàng riêng của thương hiệu đã gắn Pixel và Conversions API. Song song có thể chạy một chiến dịch Lượt tương tác nhắm tin nhắn cho người muốn hỏi trước khi mua quà.
 - **Nhóm quảng cáo:** đối tượng Advantage+, gợi ý nữ 18–40, giới hạn cứng tuổi tối thiểu 18, toàn quốc.

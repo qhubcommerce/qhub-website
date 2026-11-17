@@ -80,28 +80,28 @@ Tổng quan mọi loại phí khác có trong bài [phí sàn Shopee 2026](/kien
 
 ## Ví dụ tính phí Voucher Xtra trên một đơn trà 105.000 đồng
 
-Để có con số gần thực tế, mình lấy giá bán thật của một hộp trà [QHUB HERBAL](/qhub-herbal.html), thương hiệu do chính đội QHUB xây, ví dụ [Trà Dưỡng Nhan](/tra-duong-nhan.html): giá niêm yết 140.000 đồng, giá bán 105.000 đồng, hộp 30 gói × 3 g, chương trình mua 2 tặng 1. **Phí cố định 12% (trong khoảng 10–15% GHN ghi cho thực phẩm và đồ uống ở shop thường), giá vốn và đóng gói là số giả định để minh họa phép tính. Mình không đưa giá vốn hay doanh số thật của thương hiệu.**
+Để có con số gần thực tế, mình lấy giá bán thật của một hộp trà [QHUB HERBAL](/qhub-herbal.html), thương hiệu do chính đội QHUB xây, ví dụ [Trà Dưỡng Nhan](/tra-duong-nhan.html): giá niêm yết 140.000 đồng, giá bán 105.000 đồng, hộp 30 gói × 3 g, chương trình mua 3 tặng 1 trên Shopee. **Phí cố định 12% (trong khoảng 10–15% GHN ghi cho thực phẩm và đồ uống ở shop thường), giá vốn và đóng gói là số giả định để minh họa phép tính. Mình không đưa giá vốn hay doanh số thật của thương hiệu.**
 
-| Khoản | Đơn 1 hộp | Combo mua 2 tặng 1 |
+| Khoản | Đơn 1 hộp | Combo mua 3 tặng 1 (4 hộp) |
 | --- | --- | --- |
-| Doanh thu | 105.000 | 210.000 |
-| Phí cố định 12% (giả định) | 12.600 | 25.200 |
-| Phí xử lý giao dịch 6% | 6.300 | 12.600 |
+| Doanh thu | 105.000 | 315.000 |
+| Phí cố định 12% (giả định) | 12.600 | 37.800 |
+| Phí xử lý giao dịch 6% | 6.300 | 18.900 |
 | Phí hạ tầng | 3.000 | 3.000 |
-| **Phí bắt buộc** | **21.900 (20,9%)** | **40.800 (19,4%)** |
-| Voucher Xtra 5,5% | 5.775 | 11.550 |
-| **Tổng phí nếu tham gia** | **27.675 (26,4%)** | **52.350 (24,9%)** |
-| Giá vốn (giả định) | 35.000 | 105.000 (3 hộp) |
+| **Phí bắt buộc** | **21.900 (20,9%)** | **59.700 (19,0%)** |
+| Voucher Xtra 5,5% | 5.775 | 17.325 |
+| **Tổng phí nếu tham gia** | **27.675 (26,4%)** | **77.025 (24,5%)** |
+| Giá vốn (giả định) | 35.000 | 140.000 (4 hộp) |
 | Đóng gói (giả định) | 5.000 | 7.000 |
-| Lãi trước quảng cáo, không Voucher Xtra | 43.100 | 57.200 |
-| Lãi trước quảng cáo, có Voucher Xtra | 37.325 | 45.650 |
+| Lãi trước quảng cáo, không Voucher Xtra | 43.100 | 108.300 |
+| Lãi trước quảng cáo, có Voucher Xtra | 37.325 | 90.975 |
 
 Đơn vị: đồng. Câu hỏi then chốt không phải "phí bao nhiêu" mà là **cần thêm bao nhiêu đơn để bù phí**:
 
 **Tỷ lệ đơn cần tăng = Lãi không Voucher Xtra ÷ Lãi có Voucher Xtra − 1**
 
 - Đơn 1 hộp: 43.100 ÷ 37.325 − 1 ≈ 15,5%. Nghĩa là nếu trước đây shop bán 100 đơn, sau khi tham gia phải bán được khoảng 116 đơn mới giữ nguyên tổng lãi.
-- Combo mua 2 tặng 1: 57.200 ÷ 45.650 − 1 ≈ 25,3%. Đơn combo đã có biên mỏng hơn vì tặng thêm một hộp, nên phí 5,5% trên 210.000 đồng ăn vào lãi mạnh hơn.
+- Combo mua 3 tặng 1: 108.300 ÷ 90.975 − 1 ≈ 19,0%. Đơn combo đã có biên mỏng hơn vì tặng thêm một hộp, nên phí 5,5% trên 315.000 đồng ăn vào lãi mạnh hơn. Mỗi sản phẩm trong đơn còn xa mức trần 50.000 đồng, nên phí tính đủ theo tỷ lệ.
 - Nếu mức thực tế của shop là 4%: phí đơn lẻ còn 4.200 đồng, cần tăng khoảng 10,8% số đơn.
 
 Đó là chưa tính quảng cáo. Nếu sản phẩm đang chạy quảng cáo, mỗi phần trăm phí tăng thêm làm ROAS hòa vốn (mức doanh thu trên chi phí quảng cáo mà dưới đó là lỗ) cao lên. Cách tính chi tiết có trong bài [đặt ROAS mục tiêu cho GMV Max Shopee](/kien-thuc/dat-roas-muc-tieu-cho-gmv-max-shopee/).

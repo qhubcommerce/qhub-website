@@ -6,12 +6,12 @@ keyword: "mua 2 tặng 1"
 keywords: ["combo mua 2 tặng 1", "giới hạn khuyến mại 50%", "cách tính giá khuyến mại", "tạo combo trên shopee", "khuyến mại tiktok shop"]
 description: "Mua 2 tặng 1 có lãi không? Công thức tính giá vốn, biên lợi nhuận, giới hạn khuyến mại 50% và cách cài combo trên TikTok Shop, Shopee."
 date: 2026-11-14
-updated: 2026-11-14
+updated: 2026-11-17
 summary:
   - "Mua 2 tặng 1 tương đương giảm 33,3% trên mỗi sản phẩm, nhưng chi phí thật của món tặng là giá vốn, không phải giá bán."
   - "Công thức kiểm tra nhanh: giá vốn mỗi sản phẩm phải nhỏ hơn (2 × giá bán × (1 − tỷ lệ phí sàn) − chi phí mỗi đơn) ÷ 3 thì mới không lỗ."
   - "Thông tư 39/2025/TT-BCT đặt trần 50% cho giá trị hàng tặng; Nghị định 239/2026/NĐ-CP được một số nguồn cho là đã bỏ trần này, khi nguồn còn lệch nên giữ trong 50%."
-  - "QHUB HERBAL chạy mua 2 tặng 1 với hộp tặng được chọn vị khác, giá trị tặng đúng bằng 50% giá trị hai hộp mua."
+  - "QHUB HERBAL chạy ưu đãi theo kênh: mua 2 tặng 1 trên website qhubherbal.com (hộp tặng đúng 50% giá trị hai hộp mua) và mua 3 tặng 1 trên TikTok Shop, Shopee (hộp tặng khoảng 33,3% giá trị ba hộp mua)."
 faq:
   - q: "Mua 2 tặng 1 tương đương giảm giá bao nhiêu phần trăm?"
     a: "Khách trả tiền 2 sản phẩm và nhận 3, nên giá thực mỗi sản phẩm còn 2/3, tức giảm khoảng 33,3%. Nếu tính theo luật khuyến mại, giá trị hàng tặng bằng 50% giá trị hàng phải mua. Hai con số này khác nhau vì một cái chia cho 3 sản phẩm, một cái chia cho 2 sản phẩm mua."
@@ -38,7 +38,7 @@ sources:
 
 **Mua 2 tặng 1 là khách trả tiền hai sản phẩm và nhận ba, tương đương giảm khoảng 33,3% trên mỗi sản phẩm, còn theo luật khuyến mại thì giá trị hàng tặng bằng 50% giá trị hàng phải mua.** Chương trình này có lãi hay không phụ thuộc vào giá vốn, phí sàn và chi phí mỗi đơn, chứ không phụ thuộc vào cảm giác "tặng nhiều quá". Điểm nhiều người bỏ sót: chi phí thật của món tặng là giá vốn của nó, không phải giá bán.
 
-Bài này đội QHUB viết từ chính chương trình đang chạy cho thương hiệu trà [QHUB HERBAL](/qhub-herbal.html): giá bán 105.000đ mỗi hộp, mua 2 tặng 1, hộp tặng được chọn vị khác. Mình sẽ dùng giá bán thật để minh họa, còn giá vốn và phí là số giả định để anh chị thay bằng số của mình. Mình không đưa giá vốn hay doanh số thật của QHUB HERBAL.
+Bài này đội QHUB viết từ chính chương trình đang chạy cho thương hiệu trà [QHUB HERBAL](/qhub-herbal.html): giá bán 105.000đ mỗi hộp ở mọi kênh, mua 2 tặng 1 trên website qhubherbal.com và mua 3 tặng 1 trên TikTok Shop, Shopee. Mình sẽ dùng giá bán thật để minh họa, còn giá vốn và phí là số giả định để anh chị thay bằng số của mình. Mình không đưa giá vốn hay doanh số thật của QHUB HERBAL.
 
 ## Mua 2 tặng 1 thực chất là giảm bao nhiêu?
 
@@ -50,7 +50,7 @@ Ba cách nhìn cùng một chương trình cho ra ba con số khác nhau. Anh ch
 | Mức giảm trên mỗi sản phẩm | 1 − 2/3 | khoảng 33,3% |
 | Giá trị hàng tặng so với hàng phải mua (cách tính của luật) | 1 ÷ 2 | 105.000đ ÷ 210.000đ = 50% |
 
-Nếu so với giá niêm yết 140.000đ thì khách nhận ba hộp có tổng giá niêm yết 420.000đ và trả 210.000đ. Khi nói với khách, nên dùng một cách diễn đạt rõ ràng, đúng sự thật, ví dụ "mua 2 hộp tặng 1 hộp". Tránh cộng dồn nhiều con số giảm giá để tạo cảm giác ưu đãi lớn hơn thực tế.
+Nếu so với giá niêm yết 140.000đ thì khách nhận ba hộp có tổng giá niêm yết 420.000đ và trả 210.000đ, tức tổng ưu đãi đúng 50%. Khi nói với khách, nên dùng một cách diễn đạt rõ ràng, đúng sự thật, ví dụ "mua 2 hộp tặng 1 hộp". Tránh cộng dồn nhiều con số giảm giá để tạo cảm giác ưu đãi lớn hơn thực tế.
 
 ## Công thức tính lãi khi chạy mua 2 tặng 1
 
@@ -98,6 +98,15 @@ Ba điều rút ra từ bảng:
 
 Khi nguồn còn lệch như vậy, đội QHUB chọn cách an toàn: giữ giá trị hàng tặng trong 50%. Mua 2 tặng 1 cùng loại, cùng giá thì đúng 50%, nằm trong trần. Cần cẩn thận với các biến thể như "mua 1 tặng 1", "mua 2 tặng 2" hay tặng món đắt hơn món mua, vì những chương trình đó vượt 50% nếu trần còn hiệu lực. Anh chị nên kiểm tra lại văn bản gốc hoặc hỏi luật sư trước khi chạy các biến thể này.
 
+Để anh chị so sánh, đây là hai chương trình QHUB HERBAL đang chạy theo kênh, cùng giá bán 105.000đ và giá niêm yết 140.000đ mỗi hộp:
+
+| Kênh và chương trình | Khách trả | Nhận | Giá thực mỗi hộp | Hộp tặng so với hàng phải mua | Tính cả phần giảm từ giá niêm yết |
+| --- | --- | --- | --- | --- | --- |
+| Website qhubherbal.com: mua 2 tặng 1 | 210.000đ | 3 hộp | 70.000đ | 105.000 ÷ 210.000 = 50% | Niêm yết 420.000đ, trả 210.000đ: đúng 50% |
+| TikTok Shop, Shopee: mua 3 tặng 1 | 315.000đ | 4 hộp | 78.750đ | 105.000 ÷ 315.000 ≈ 33,3% | Niêm yết 560.000đ, trả 315.000đ: 43,75% |
+
+Mua 3 tặng 1 trên sàn còn khoảng cách với trần 50% ngay cả khi cộng cả phần giảm từ giá niêm yết. Mua 2 tặng 1 trên website thì đã chạm đúng 50%, nên đội không chồng thêm mã giảm giá trên website.
+
 Ngoài trần giá trị, có vài nguyên tắc vẫn phải giữ:
 
 - Hàng tặng phải là hàng hợp pháp, còn hạn dùng, đủ nhãn. Với thực phẩm, hộp tặng cũng phải có số tự công bố, hạn dùng như hộp bán.
@@ -131,7 +140,7 @@ Dù dùng cách nào, hãy thử đặt một đơn thật trước khi đẩy q
 
 ### QHUB HERBAL cài thế nào
 
-Với QHUB HERBAL, một điểm đội cân nhắc kỹ là **hộp tặng được chọn vị khác**. Ví dụ khách mua hai hộp [Trà Dưỡng Nhan](/tra-duong-nhan.html) có thể chọn hộp tặng là một vị khác trong bảy vị. Mục đích là để khách thử thêm vị mới thay vì chỉ mua lại vị cũ. Vì cả bảy vị cùng quy cách 30 gói × 3 g và cùng giá 105.000đ, hộp tặng luôn bằng đúng 50% giá trị hai hộp mua, không lệch dù khách chọn vị nào. Chính sách này giữ giống nhau trên mọi kênh, kể cả web riêng qhubherbal.com.
+Với QHUB HERBAL, một điểm đội cân nhắc kỹ là **hộp tặng được chọn vị khác**. Ví dụ khách mua hai hộp [Trà Dưỡng Nhan](/tra-duong-nhan.html) trên website qhubherbal.com có thể chọn hộp tặng là một vị khác trong bảy vị. Mục đích là để khách thử thêm vị mới thay vì chỉ mua lại vị cũ. Vì cả bảy vị cùng quy cách 30 gói × 3 g và cùng giá 105.000đ, hộp tặng luôn bằng đúng 50% giá trị hai hộp mua, không lệch dù khách chọn vị nào. Trên TikTok Shop và Shopee, chương trình là mua 3 tặng 1: khách trả 315.000đ, nhận 4 hộp, hộp tặng khoảng 33,3% giá trị hàng mua. Giá bán giống nhau ở mọi kênh, chỉ ưu đãi tặng hộp khác nhau theo kênh.
 
 ## Khi nào nên và không nên chạy mua 2 tặng 1?
 
@@ -143,7 +152,7 @@ Với QHUB HERBAL, một điểm đội cân nhắc kỹ là **hộp tặng đư
 | Phí đóng gói, vận chuyển đáng kể so với giá sản phẩm | Hàng cồng kềnh, tặng thêm làm phí ship tăng mạnh |
 | Hạn dùng dài, khách dùng hết trước hạn | Hạn dùng ngắn, khách khó dùng hết 3 sản phẩm |
 
-Mua 2 tặng 1 cũng là một cách tốt để chuẩn bị cho các ngày sale lớn. Anh chị có thể giữ chương trình cố định quanh năm và cộng thêm phiếu giảm giá vào ngày sale, thay vì đổi chính sách liên tục. Kế hoạch cho ngày sale đôi, anh chị xem bài [ngày sale đôi nên làm gì](/kien-thuc/ngay-sale-doi-nen-lam-gi-ke-hoach-14-ngay-cho-nha-ban-tiktok-shop/).
+Mua 2 tặng 1 cũng là một cách tốt để chuẩn bị cho các ngày sale lớn. Anh chị có thể giữ chương trình cố định quanh năm thay vì đổi chính sách liên tục. Muốn cộng thêm phiếu giảm giá vào ngày sale thì phải tính lại tổng ưu đãi trước: mua 2 tặng 1 cùng loại, cùng giá đã chạm đúng mức 50%, chồng thêm phiếu là dễ vượt trần; còn mua 3 tặng 1 (khoảng 33,3%) mới chừa chỗ cho một phiếu nhỏ. Kế hoạch cho ngày sale đôi, anh chị xem bài [ngày sale đôi nên làm gì](/kien-thuc/ngay-sale-doi-nen-lam-gi-ke-hoach-14-ngay-cho-nha-ban-tiktok-shop/).
 
 ## Lỗi hay gặp khi chạy mua 2 tặng 1
 
@@ -165,4 +174,4 @@ Từ các gian hàng đội mình từng vận hành, đây là những lỗi g�
 4. Viết rõ điều kiện chương trình và chính sách đổi trả với hàng tặng lên trang sản phẩm.
 5. Rà lại các ưu đãi đang chồng nhau để giá cuối không xuống dưới giá vốn.
 
-QHUB Commerce (qhub.com.vn) vận hành gian hàng đa sàn cho doanh nghiệp với đội media, đội vận hành sàn, đội KOC và đội host livestream, và đang chạy chính chương trình mua 2 tặng 1 cho thương hiệu trà QHUB HERBAL. Nếu anh chị cần một đội cùng tính giá, cài chương trình và theo dõi lãi lỗ hằng tuần, đội QHUB sẵn sàng ngồi cùng anh chị.
+QHUB Commerce (qhub.com.vn) vận hành gian hàng đa sàn cho doanh nghiệp với đội media, đội vận hành sàn, đội KOC và đội host livestream, và đang chạy chương trình tặng hộp cho thương hiệu trà QHUB HERBAL: mua 2 tặng 1 trên website qhubherbal.com, mua 3 tặng 1 trên TikTok Shop và Shopee. Nếu anh chị cần một đội cùng tính giá, cài chương trình và theo dõi lãi lỗ hằng tuần, đội QHUB sẵn sàng ngồi cùng anh chị.

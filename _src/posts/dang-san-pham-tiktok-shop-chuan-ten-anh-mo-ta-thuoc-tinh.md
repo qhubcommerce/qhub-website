@@ -176,7 +176,7 @@ Ví dụ cách đội QHUB điền một số thuộc tính cho Trà Dưỡng Nh
 | Hạn sử dụng, bảo quản | Theo nhãn | Không tự ước lượng |
 | Số tự công bố | 39/ANH KHOI/2026 | Đưa vào mô tả nếu ngành không có ô riêng |
 
-**Biến thể** là các lựa chọn trong cùng một trang sản phẩm, ví dụ hộp lẻ và combo. Mỗi biến thể có giá, tồn kho và mã SKU (mã quản lý kho nội bộ) riêng. Trà Dưỡng Nhan có giá niêm yết 140.000 đồng, giá bán 105.000 đồng và chính sách mua 2 tặng 1. Đội cài chương trình mua 2 tặng 1 bằng công cụ khuyến mãi, không tạo thêm một trang sản phẩm gần giống để bán combo.
+**Biến thể** là các lựa chọn trong cùng một trang sản phẩm, ví dụ hộp lẻ và combo. Mỗi biến thể có giá, tồn kho và mã SKU (mã quản lý kho nội bộ) riêng. Trà Dưỡng Nhan có giá niêm yết 140.000 đồng, giá bán 105.000 đồng, trên TikTok Shop và Shopee đang chạy mua 3 tặng 1. Đội cài chương trình mua 3 tặng 1 bằng công cụ khuyến mãi, không tạo thêm một trang sản phẩm gần giống để bán combo.
 
 **Thông tin vận chuyển:** cân nặng và kích thước phải là số đo sau khi đã đóng gói giao hàng, không phải khối lượng tịnh. Nhập thấp hơn thực tế dễ phát sinh chênh lệch phí vận chuyển khi đối soát.
 

@@ -185,7 +185,7 @@ Cần nói rõ: Trà Lá Ổi Mix Lá Sen là thực phẩm thông thường, kh
 
 **Lưu ý khi dùng:** Người **đang dùng thuốc điều trị tiểu đường**, thuốc huyết áp, thuốc chống đông hoặc thuốc mạn tính khác nên hỏi ý kiến bác sĩ trước khi uống thường xuyên bất kỳ trà thảo mộc nào. Lá ổi giàu tanin, có tính làm se – **người đang táo bón nên tạm ngưng**. Phụ nữ có thai, cho con bú và trẻ nhỏ cần hỏi bác sĩ trước khi dùng. Ngưng dùng nếu có biểu hiện bất thường.
 
-Giá niêm yết 140.000đ, giá bán 105.000đ/hộp; khuyến mại mua 2 tặng 1, miễn phí giao hàng toàn quốc, đổi trả trong 7 ngày, thanh toán khi nhận hàng.
+Giá niêm yết 140.000đ, giá bán 105.000đ/hộp; khuyến mại mua 2 tặng 1 khi đặt tại website, miễn phí giao hàng toàn quốc, đổi trả trong 7 ngày, thanh toán khi nhận hàng.
 
 ## Lời kết
 

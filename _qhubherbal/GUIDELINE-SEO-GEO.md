@@ -155,7 +155,7 @@ Anh Quang yêu cầu mỗi bài phải dài 2–3 trang, đọc như một bài 
 3. **Dấu hiệu cần đi khám (100–200 chữ):** bắt buộc với các bài về triệu chứng.
 4. **Việc làm được ngay (400–600 chữ):** ăn uống, ngủ, vận động; dùng bảng hoặc danh sách; mẹo cụ thể theo khung giờ.
 5. **Thảo mộc liên quan (250–400 chữ):** tính vị, cách dùng an toàn, ai không nên dùng.
-6. **Dẫn sản phẩm (120–200 chữ):** đặt ở 2/3 cuối bài, giọng gợi ý chứ không chốt đơn, có `[[buy:slug]]`, nhắc mua 2 tặng 1 tối đa 1 lần.
+6. **Dẫn sản phẩm (120–200 chữ):** đặt ở 2/3 cuối bài, giọng gợi ý chứ không chốt đơn, có `[[buy:slug]]`, nhắc ưu đãi tối đa 1 lần, viết đúng "mua 2 tặng 1 khi đặt tại website" (xem mục Giá & ưu đãi theo kênh bên dưới).
 7. **Lưu ý và lời kết:** câu từ ấm áp, mộc mạc.
 
 **Giọng văn theo nhóm sản phẩm:**
@@ -164,3 +164,10 @@ Anh Quang yêu cầu mỗi bài phải dài 2–3 trang, đọc như một bài 
 - **Cà Gai – Diệp Hạ Châu:** nóng trong, nổi mụn, thanh lọc, cho cả nam lẫn nữ.
 
 **Tuân thủ:** giữ nguyên toàn bộ quy định ở phần đầu tài liệu (không "chữa/trị/điều trị", không tên bệnh làm công dụng, không "ích tinh/tráng dương"…).
+
+## Giá & ưu đãi theo kênh (cập nhật 17/11/2026 – bắt buộc khi nhắc giá/khuyến mại)
+- Mọi kênh cùng giá: niêm yết 140.000đ, giá bán 105.000đ/hộp (30 gói × 3 g).
+- **Website qhubherbal.com: mua 2 tặng 1** – trả 210.000đ nhận 3 hộp. Hộp tặng = 50% giá trị hàng mua; tính cả phần giảm từ giá niêm yết cũng đúng 50% (3 hộp niêm yết 420.000đ, trả 210.000đ) → sát trần khuyến mại 50%, **không chồng thêm mã giảm giá/voucher** trên website.
+- **TikTok Shop, Shopee: mua 3 tặng 1** – trả 315.000đ nhận 4 hộp (hộp tặng ≈33,3%; tính cả phần giảm từ niêm yết là 43,75%).
+- Ở mọi kênh khách đều được chọn hộp tặng khác vị.
+- Cách viết: "mua 2 tặng 1 khi đặt tại website"; nhắc sàn thì "mua 3 tặng 1". Không viết "một chính sách cho mọi kênh"; nếu cần nói thì viết "cùng giá ở mọi kênh, ưu đãi tặng hộp khác nhau theo kênh".

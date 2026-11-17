@@ -153,7 +153,7 @@ Người tiểu đường nên xây dựng kế hoạch ăn uống cùng bác s�
 
 Sau khi đã ăn rau trước, cơm sau, nhiều gia đình vẫn giữ thói quen ngồi lại với nhau bên ấm trà. Thay cho nước ngọt hay trà sữa, bạn có thể chọn **Trà Lá Ổi Mix Lá Sen** của QHUB HERBAL – thức uống thanh mát, không thêm đường, không caffeine, với công thức **lá ổi 50%, lá sen 20%, giảo cổ lam, gạo lứt rang và cỏ ngọt**. Gạo lứt rang cho hương ngũ cốc thơm bùi, cỏ ngọt mang vị ngọt nhẹ tự nhiên. Pha 1 túi lọc với khoảng 200 ml nước sôi, ủ 5 phút, uống ấm sau bữa ăn.
 
-Đây là thực phẩm thông thường, một lựa chọn đồ uống không đường cho bữa cơm – không phải là cách kiểm soát đường huyết và không thay thế thuốc hay chế độ ăn bác sĩ hướng dẫn. Giá bán 105.000đ/hộp (niêm yết 140.000đ), ưu đãi mua 2 tặng 1, miễn phí giao hàng toàn quốc.
+Đây là thực phẩm thông thường, một lựa chọn đồ uống không đường cho bữa cơm – không phải là cách kiểm soát đường huyết và không thay thế thuốc hay chế độ ăn bác sĩ hướng dẫn. Giá bán 105.000đ/hộp (niêm yết 140.000đ), ưu đãi mua 2 tặng 1 khi đặt tại website, miễn phí giao hàng toàn quốc.
 
 [[buy:la-oi-mix-la-sen]]
 

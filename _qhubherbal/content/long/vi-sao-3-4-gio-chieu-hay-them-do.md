@@ -163,7 +163,7 @@ Nhiều người vẫn muốn giữ "nghi thức" giờ nghỉ 4 giờ chiều: 
 
 **Trà Dưỡng Nhan** của QHUB HERBAL là một thức uống như vậy. Công thức gồm chín vị: **hoa hồng và kỷ tử** là Quân, **táo đỏ và đông trùng hạ thảo** (*Cordyceps militaris* nuôi trồng) là Thần, **hoa nhài, tía tô, lá sen, hoa cúc** là Tá, và **cỏ ngọt** là Sứ. Trà không có lá trà nên không chứa caffeine, không thêm đường; hậu ngọt nhẹ đến từ táo đỏ, kỷ tử và cỏ ngọt, hương chủ đạo là hoa hồng và hoa nhài. Mỗi túi lọc hãm với khoảng 200 ml nước 95–100 °C trong 5 phút, uống ấm hoặc để nguội mang theo.
 
-Cần nói rõ: tên "Dưỡng Nhan" là tên thương mại. Đây là thực phẩm đã tự công bố (số 39/ANH KHOI/2026), không có tác dụng làm đẹp da hay thay đổi đường huyết, và không thay thế những thay đổi về ăn, ngủ, vận động ở trên. Nó chỉ là một ly nước hương hoa để giờ nghỉ chiều vẫn dễ chịu mà không cần thêm thìa đường nào. Giá niêm yết 140.000đ, giá bán 105.000đ/hộp; mua 2 tặng 1, miễn phí giao hàng toàn quốc, đổi trả trong 7 ngày, thanh toán khi nhận hàng.
+Cần nói rõ: tên "Dưỡng Nhan" là tên thương mại. Đây là thực phẩm đã tự công bố (số 39/ANH KHOI/2026), không có tác dụng làm đẹp da hay thay đổi đường huyết, và không thay thế những thay đổi về ăn, ngủ, vận động ở trên. Nó chỉ là một ly nước hương hoa để giờ nghỉ chiều vẫn dễ chịu mà không cần thêm thìa đường nào. Giá niêm yết 140.000đ, giá bán 105.000đ/hộp; mua 2 tặng 1 khi đặt tại website, miễn phí giao hàng toàn quốc, đổi trả trong 7 ngày, thanh toán khi nhận hàng.
 
 [[buy:duong-nhan]]
 

@@ -23,6 +23,9 @@ Nghiên cứu về vị thảo mộc (ống nghiệm, động vật, chiết xu�
 
 ## R7. Bắt buộc: 2 dòng cuối (không phải là thuốc…; nhân vật minh họa). Không dùng chữ "Đông y" (viết "quan niệm phương Đông"/"thảo mộc truyền thống"). Không dùng: chữa, trị, điều trị (trừ ngữ cảnh "đi khám, điều trị theo bác sĩ"), thần dược, tráng dương, cường dương, ích tinh, giảm cân (trừ khi bác bỏ), "chữa lành".
 
+## R8. Giá & khuyến mại phải đúng theo kênh (17/11/2026)
+Mọi kênh cùng giá niêm yết 140.000đ, giá bán 105.000đ/hộp. Website: mua 2 tặng 1 (tổng ưu đãi đúng 50% – sát trần khuyến mại, không chồng thêm mã giảm giá/voucher, không hứa thêm quà). TikTok Shop/Shopee: mua 3 tặng 1. Mọi kênh được chọn hộp tặng khác vị. Không viết "một chính sách cho mọi kênh".
+
 ## Tự kiểm tra trước khi đăng (bắt buộc với mọi bài mới)
 1. `python3 checklong.py`: dòng `ADS …` không được có ở bài mới (cảnh báo câu nhắc tên sản phẩm kèm công dụng sức khỏe, từ tuyệt đối, "trà an thần", nhân viên y tế/Bộ Y tế bảo chứng); danh sách từ cấm phía trên cũng phải sạch ở bài mới.
 2. Đọc lại thủ công: đoạn giới thiệu sản phẩm, đoạn có [[buy:…]], phần "Lời kết", tiêu đề, desc, FAQ – áp dụng R1–R7.

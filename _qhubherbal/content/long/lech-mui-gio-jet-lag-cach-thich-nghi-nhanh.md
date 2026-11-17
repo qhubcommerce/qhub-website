@@ -176,7 +176,7 @@ Hãy đi khám nếu:
 
 **Trà Xấu Hổ Tím – Tâm Sen** của QHUB HERBAL là trà thảo mộc túi lọc **không caffeine, không thêm đường**, phối xấu hổ tím 30% (vị Quân), tâm sen 10% và lạc tiên (vị Thần), đinh lăng và hoa cúc vàng (vị Tá), cỏ ngọt (vị Sứ). Theo quan niệm phương Đông, xấu hổ tím và tâm sen là những vị thường dùng để thanh tâm, lạc tiên có tính mát; hoa cúc vàng cho hương thơm nhẹ, cỏ ngọt tạo hậu vị ngọt. Nước trà đắng nhẹ thanh, hậu ngọt.
 
-Cần nói rõ: trà không giúp bạn thích nghi với múi giờ mới và không thay thế ánh sáng, giờ ngủ hay melatonin khi được bác sĩ tư vấn. Nó đơn giản là **một tách nước ấm không caffeine** – khác với cà phê mà bạn nên dừng sau đầu giờ chiều – cho nghi thức buổi tối ở nơi xa: tắm xong, giảm đèn, pha một túi với khoảng 200 ml nước sôi, ủ 5 phút, uống chậm, trước giờ ngủ khoảng 1 giờ để khỏi dậy đêm đi tiểu. Hộp 30 túi lọc gọn, dễ mang theo; giá niêm yết 140.000đ, giá bán 105.000đ, mua 2 tặng 1, miễn phí giao hàng toàn quốc, đổi trả 7 ngày, thanh toán khi nhận hàng.
+Cần nói rõ: trà không giúp bạn thích nghi với múi giờ mới và không thay thế ánh sáng, giờ ngủ hay melatonin khi được bác sĩ tư vấn. Nó đơn giản là **một tách nước ấm không caffeine** – khác với cà phê mà bạn nên dừng sau đầu giờ chiều – cho nghi thức buổi tối ở nơi xa: tắm xong, giảm đèn, pha một túi với khoảng 200 ml nước sôi, ủ 5 phút, uống chậm, trước giờ ngủ khoảng 1 giờ để khỏi dậy đêm đi tiểu. Hộp 30 túi lọc gọn, dễ mang theo; giá niêm yết 140.000đ, giá bán 105.000đ, mua 2 tặng 1 khi đặt tại website, miễn phí giao hàng toàn quốc, đổi trả 7 ngày, thanh toán khi nhận hàng.
 
 [[buy:xau-ho-tim-tam-sen]]
 

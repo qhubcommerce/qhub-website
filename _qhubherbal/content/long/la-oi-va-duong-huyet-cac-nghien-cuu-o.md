@@ -165,7 +165,7 @@ Chúng tôi nói rõ ba điều. Thứ nhất, các nghiên cứu Nhật Bản k
 
 **Lưu ý khi dùng:** Lá ổi giàu tanin, có tính làm se – **người đang táo bón nên tạm ngưng**, người hay táo bón nên uống loãng và ít. **Phụ nữ có thai, cho con bú, người đang dùng thuốc tiểu đường hoặc thuốc mỡ máu** nên hỏi ý kiến bác sĩ trước khi dùng; người đang dùng insulin hoặc thuốc dễ gây hạ đường huyết càng cần thận trọng. Không dùng thay nước lọc cả ngày. Ngưng dùng nếu có biểu hiện bất thường.
 
-Giá niêm yết 140.000đ, giá bán 105.000đ/hộp; mua 2 tặng 1, miễn phí giao hàng toàn quốc, đổi trả trong 7 ngày, thanh toán khi nhận hàng.
+Giá niêm yết 140.000đ, giá bán 105.000đ/hộp; mua 2 tặng 1 khi đặt tại website, miễn phí giao hàng toàn quốc, đổi trả trong 7 ngày, thanh toán khi nhận hàng.
 
 ## Lời kết
 

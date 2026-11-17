@@ -171,7 +171,7 @@ Chị Diễm từng có thói quen gọi trà sữa vào giữa chiều – vừ
 
 **Trà Dưỡng Nhan** của QHUB HERBAL là một lựa chọn như vậy. Công thức gồm chín vị: **hoa hồng và kỷ tử** là Quân, **táo đỏ và đông trùng hạ thảo** (*Cordyceps militaris* nuôi trồng) là Thần, **hoa nhài, tía tô, lá sen, hoa cúc** là Tá, **cỏ ngọt** là Sứ. Trà không có lá trà nên không chứa caffeine, không thêm đường; hương chủ đạo là hoa hồng, hoa nhài, hậu ngọt nhẹ. Mỗi túi lọc hãm với khoảng 200 ml nước 95–100 °C trong 5 phút; có thể pha sẵn vào bình từ sáng.
 
-Cần nói rõ: tên "Dưỡng Nhan" là tên thương mại. Đây là thực phẩm đã tự công bố (số 39/ANH KHOI/2026), không có tác dụng làm đẹp da, không giảm đau mỏi hay bảo vệ đường hô hấp, và không thay thế thông gió, đồ bảo hộ hay việc đi khám. Nó chỉ là một ly nước không đường để giờ nghỉ của người chủ tiệm có một chút hương hoa. Giá niêm yết 140.000đ, giá bán 105.000đ/hộp; mua 2 tặng 1, miễn phí giao hàng toàn quốc, đổi trả trong 7 ngày, thanh toán khi nhận hàng.
+Cần nói rõ: tên "Dưỡng Nhan" là tên thương mại. Đây là thực phẩm đã tự công bố (số 39/ANH KHOI/2026), không có tác dụng làm đẹp da, không giảm đau mỏi hay bảo vệ đường hô hấp, và không thay thế thông gió, đồ bảo hộ hay việc đi khám. Nó chỉ là một ly nước không đường để giờ nghỉ của người chủ tiệm có một chút hương hoa. Giá niêm yết 140.000đ, giá bán 105.000đ/hộp; mua 2 tặng 1 khi đặt tại website, miễn phí giao hàng toàn quốc, đổi trả trong 7 ngày, thanh toán khi nhận hàng.
 
 [[buy:duong-nhan]]
 

@@ -139,7 +139,7 @@ Trong bài viết về lạc nội mạc tử cung, cần nói thật rõ: **Tr�
 
 [[buy:ngay-dau-ve]]
 
-**Lưu ý:** không dùng cho phụ nữ mang thai, người có thể đang mang thai, phụ nữ cho con bú và người đang chuẩn bị hỗ trợ sinh sản khi chưa hỏi bác sĩ. Người ra kinh nhiều, người đang dùng thuốc chống đông, người đang dùng thuốc nội tiết hoặc đang theo phác đồ của bác sĩ cho lạc nội mạc tử cung phải hỏi ý kiến bác sĩ trước khi dùng. Giá bán 105.000đ (niêm yết 140.000đ), mua 2 tặng 1, miễn phí giao hàng toàn quốc, thanh toán khi nhận hàng.
+**Lưu ý:** không dùng cho phụ nữ mang thai, người có thể đang mang thai, phụ nữ cho con bú và người đang chuẩn bị hỗ trợ sinh sản khi chưa hỏi bác sĩ. Người ra kinh nhiều, người đang dùng thuốc chống đông, người đang dùng thuốc nội tiết hoặc đang theo phác đồ của bác sĩ cho lạc nội mạc tử cung phải hỏi ý kiến bác sĩ trước khi dùng. Giá bán 105.000đ (niêm yết 140.000đ), mua 2 tặng 1 khi đặt tại website, miễn phí giao hàng toàn quốc, thanh toán khi nhận hàng.
 
 ## Lời kết
 

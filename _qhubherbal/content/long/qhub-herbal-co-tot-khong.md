@@ -87,7 +87,7 @@ Nếu bạn thấy ở đâu đó quảng cáo trà QHUB có công dụng như t
 - **Phối vị cân bằng:** có vị ấm, vị mát, vị điều hòa – dễ uống hằng ngày.
 - **Không đường, không caffeine.**
 - **Tiện:** túi lọc pha 5 phút, mang theo đi làm, đi xa.
-- **Giá vừa phải**, đang có ưu đãi mua 2 tặng 1.
+- **Giá vừa phải**, đang có ưu đãi mua 2 tặng 1 khi đặt tại website.
 
 ## Hạn chế – nói cho thật lòng
 

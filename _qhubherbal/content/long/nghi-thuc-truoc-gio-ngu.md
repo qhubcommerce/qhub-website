@@ -151,7 +151,7 @@ Một tách trà là một phần nhỏ của nghi thức, không phải phần 
 
 [[buy:xau-ho-tim-tam-sen]]
 
-Giá bán 105.000đ (niêm yết 140.000đ), mua 2 tặng 1, miễn phí giao hàng toàn quốc, đổi trả 7 ngày, thanh toán khi nhận hàng. Lưu ý: người dị ứng họ Cúc không nên dùng; theo quan niệm phương Đông tâm sen tính hàn, vị đắng nên người huyết áp thấp hoặc hay lạnh bụng chỉ nên pha loãng, uống ấm. Phụ nữ có thai, cho con bú, trẻ em và người đang dùng thuốc ngủ, thuốc an thần hay thuốc cho bệnh mạn tính nên hỏi bác sĩ trước khi uống. Uống xong trước giờ lên giường 30–60 phút để tránh phải dậy đi tiểu đêm.
+Giá bán 105.000đ (niêm yết 140.000đ), mua 2 tặng 1 khi đặt tại website, miễn phí giao hàng toàn quốc, đổi trả 7 ngày, thanh toán khi nhận hàng. Lưu ý: người dị ứng họ Cúc không nên dùng; theo quan niệm phương Đông tâm sen tính hàn, vị đắng nên người huyết áp thấp hoặc hay lạnh bụng chỉ nên pha loãng, uống ấm. Phụ nữ có thai, cho con bú, trẻ em và người đang dùng thuốc ngủ, thuốc an thần hay thuốc cho bệnh mạn tính nên hỏi bác sĩ trước khi uống. Uống xong trước giờ lên giường 30–60 phút để tránh phải dậy đi tiểu đêm.
 
 ## Lời kết
 

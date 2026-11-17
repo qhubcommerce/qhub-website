@@ -184,7 +184,7 @@ Khi bỏ bớt ly đồ uống ngọt buổi chiều, nhiều người thấy "t
 
 Cần nói rõ: cỏ ngọt (stevia) là một loại chất tạo ngọt không đường, và như WHO khuyên, mục tiêu lâu dài vẫn là **giảm độ ngọt chung**. Hãy xem tách trà như một lựa chọn thay cho ly đồ uống có đường, bên cạnh nước lọc là thức uống chính.
 
-Giá niêm yết 140.000đ, giá bán 105.000đ/hộp; khuyến mại mua 2 tặng 1, miễn phí giao hàng toàn quốc, đổi trả trong 7 ngày, thanh toán khi nhận hàng.
+Giá niêm yết 140.000đ, giá bán 105.000đ/hộp; khuyến mại mua 2 tặng 1 khi đặt tại website, miễn phí giao hàng toàn quốc, đổi trả trong 7 ngày, thanh toán khi nhận hàng.
 
 [[buy:duong-nhan]]
 

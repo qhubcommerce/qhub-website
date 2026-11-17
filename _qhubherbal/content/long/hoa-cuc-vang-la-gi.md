@@ -163,7 +163,7 @@ Pha 1 túi với khoảng 200 ml nước sôi, ủ 5 phút, uống ấm. Các v�
 
 [[buy:duong-tam-an]]
 
-Giá niêm yết 140.000đ, giá bán 105.000đ/hộp; đang có khuyến mại mua 2 tặng 1, miễn phí giao hàng toàn quốc, đổi trả trong 7 ngày và thanh toán khi nhận hàng.
+Giá niêm yết 140.000đ, giá bán 105.000đ/hộp; đang có khuyến mại mua 2 tặng 1 khi đặt tại website, miễn phí giao hàng toàn quốc, đổi trả trong 7 ngày và thanh toán khi nhận hàng.
 
 ## Lời kết
 

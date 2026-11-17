@@ -165,7 +165,7 @@ Atiso đỏ và hoa đậu biếc ở Việt Nam chủ yếu được dùng theo
 
 Ngoài 7 loại trà hoa đơn lẻ ở trên, nếu bạn thích **nhiều hương hoa trong một tách** và tiện túi lọc, có thể tham khảo **Trà Dưỡng Nhan** của QHUB HERBAL. Trà này không thuộc danh sách 7 loại ở trên, mà là một lựa chọn phối vị khác. Công thức gồm 9 vị: **hoa hồng, kỷ tử** (Quân), **táo đỏ, đông trùng hạ thảo** *Cordyceps militaris* nuôi trồng (Thần), **hoa nhài, tía tô, lá sen, hoa cúc** (Tá), **cỏ ngọt** (Sứ). Trà có hoa nhài khô chứ không có trà xanh, có lá sen chứ không phải hoa sen, và **không có** atiso đỏ, đậu biếc hay kim ngân hoa.
 
-Trà **không thêm đường, không caffeine**; hương hồng và nhài lên trước, hậu ngọt dịu của táo đỏ, kỷ tử. Hộp 30 túi lọc × 3 g; pha 1 túi với khoảng 200 ml nước 95–100 °C, ủ 5 phút. Giá niêm yết 140.000đ, giá bán 105.000đ/hộp; khuyến mại mua 2 tặng 1, miễn phí giao hàng toàn quốc, đổi trả trong 7 ngày, thanh toán khi nhận hàng.
+Trà **không thêm đường, không caffeine**; hương hồng và nhài lên trước, hậu ngọt dịu của táo đỏ, kỷ tử. Hộp 30 túi lọc × 3 g; pha 1 túi với khoảng 200 ml nước 95–100 °C, ủ 5 phút. Giá niêm yết 140.000đ, giá bán 105.000đ/hộp; khuyến mại mua 2 tặng 1 khi đặt tại website, miễn phí giao hàng toàn quốc, đổi trả trong 7 ngày, thanh toán khi nhận hàng.
 
 [[buy:duong-nhan]]
 

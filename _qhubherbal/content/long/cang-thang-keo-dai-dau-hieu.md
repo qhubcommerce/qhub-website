@@ -169,7 +169,7 @@ Một trong những thay đổi dễ làm nhất là **đổi ly cà phê thứ 
 
 **Trà Dưỡng Tâm An** của QHUB HERBAL là trà thảo mộc túi lọc gồm **lạc tiên, tâm sen, đinh lăng, hoa cúc** – không caffeine, không thêm đường, vị thanh hơi đắng nhẹ với hương hoa cúc. Công thức phối các vị mà theo quan niệm phương Đông thường dùng để thanh tâm. Một tách trà ấm buổi chiều là nghi thức thư giãn nhẹ nhàng; còn giấc ngủ, vận động, chia sẻ và sự hỗ trợ chuyên môn mới là những việc cần làm khi căng thẳng kéo dài. Trà là thực phẩm thông thường, không phải giải pháp cho các vấn đề sức khỏe tâm thần.
 
-Giá niêm yết 140.000đ, giá bán 105.000đ; mua 2 tặng 1; miễn phí giao hàng toàn quốc, COD, đổi trả 7 ngày.
+Giá niêm yết 140.000đ, giá bán 105.000đ; mua 2 tặng 1 khi đặt tại website; miễn phí giao hàng toàn quốc, COD, đổi trả 7 ngày.
 
 [[buy:duong-tam-an]]
 

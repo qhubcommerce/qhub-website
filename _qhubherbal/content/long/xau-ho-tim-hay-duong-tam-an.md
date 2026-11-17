@@ -180,7 +180,7 @@ Nếu bạn thích vị thanh, nhẹ, không ngọt, Trà Dưỡng Tâm An với
 
 [[buy:duong-tam-an]]
 
-Cả hai đều là trà túi lọc, không caffeine, giá bán 105.000đ (niêm yết 140.000đ), đang có khuyến mại mua 2 tặng 1, miễn phí giao hàng toàn quốc, đổi trả trong 7 ngày và thanh toán khi nhận hàng. Lưu ý: người dị ứng họ Cúc không nên dùng; phụ nữ có thai, cho con bú, trẻ em, người huyết áp thấp và người đang dùng thuốc ngủ, thuốc an thần hay thuốc điều hòa huyết áp nên hỏi bác sĩ trước khi uống.
+Cả hai đều là trà túi lọc, không caffeine, giá bán 105.000đ (niêm yết 140.000đ), đang có khuyến mại mua 2 tặng 1 khi đặt tại website, miễn phí giao hàng toàn quốc, đổi trả trong 7 ngày và thanh toán khi nhận hàng. Lưu ý: người dị ứng họ Cúc không nên dùng; phụ nữ có thai, cho con bú, trẻ em, người huyết áp thấp và người đang dùng thuốc ngủ, thuốc an thần hay thuốc điều hòa huyết áp nên hỏi bác sĩ trước khi uống.
 
 ## Lời kết
 

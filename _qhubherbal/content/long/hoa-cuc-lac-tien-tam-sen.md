@@ -165,7 +165,7 @@ Hãy đi khám hoặc gặp chuyên gia tâm lý khi:
 
 Một tách Trà Dưỡng Tâm An ấm vào buổi chiều là một nghi thức thư giãn nhẹ nhàng: rời màn hình, đợi 5 phút cho trà ngấm, ngửi hương hoa cúc rồi uống chậm. Trà là thực phẩm thông thường, không thay thế việc ngủ đủ, vận động, chia sẻ với người thân hay đi khám khi cần.
 
-Giá niêm yết 140.000đ, giá bán 105.000đ mỗi hộp; mua 2 tặng 1; miễn phí giao hàng toàn quốc, thanh toán khi nhận hàng (COD), đổi trả trong 7 ngày.
+Giá niêm yết 140.000đ, giá bán 105.000đ mỗi hộp; mua 2 tặng 1 khi đặt tại website; miễn phí giao hàng toàn quốc, thanh toán khi nhận hàng (COD), đổi trả trong 7 ngày.
 
 [[buy:duong-tam-an]]
 

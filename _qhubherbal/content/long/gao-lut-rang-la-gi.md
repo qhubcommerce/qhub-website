@@ -155,7 +155,7 @@ Gạo lứt rang là thực phẩm, không thay thế việc theo dõi sức kh�
 
 Gạo lứt rang **có mặt** trong công thức **Trà Lá Ổi Mix Lá Sen** của QHUB HERBAL, gồm: **lá ổi 50% (Quân), lá sen 20% (Thần), giảo cổ lam và gạo lứt rang (Tá), cỏ ngọt (Sứ)**. Trong công thức này, gạo lứt rang mang đến hương ngũ cốc thơm bùi, làm mềm vị chát của lá ổi (câu chuyện về chiếc lá này có trong bài [Lá ổi là gì?](/kien-thuc/la-oi-la-gi/)) và vị đắng nhẹ của lá sen, giảo cổ lam.
 
-Trà dạng túi lọc tiện pha: 1 túi với khoảng 200 ml nước sôi, ủ 5 phút. Trà không thêm đường, không có lá trà nên không caffeine, vị ngọt nhẹ đến từ cỏ ngọt – một thức uống thanh mát sau bữa cơm gia đình, có thể thay cho ly trà sữa buổi chiều. Giá bán 105.000đ/hộp (niêm yết 140.000đ), đang có ưu đãi mua 2 tặng 1, miễn phí giao hàng toàn quốc, thanh toán khi nhận hàng.
+Trà dạng túi lọc tiện pha: 1 túi với khoảng 200 ml nước sôi, ủ 5 phút. Trà không thêm đường, không có lá trà nên không caffeine, vị ngọt nhẹ đến từ cỏ ngọt – một thức uống thanh mát sau bữa cơm gia đình, có thể thay cho ly trà sữa buổi chiều. Giá bán 105.000đ/hộp (niêm yết 140.000đ), đang có ưu đãi mua 2 tặng 1 khi đặt tại website, miễn phí giao hàng toàn quốc, thanh toán khi nhận hàng.
 
 [[buy:la-oi-mix-la-sen]]
 

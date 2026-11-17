@@ -170,7 +170,7 @@ Cần nói rõ: trà là thực phẩm thông thường, không chứa melatonin
 
 [[buy:xau-ho-tim-tam-sen]]
 
-Giá bán 105.000đ (niêm yết 140.000đ), mua 2 tặng 1, miễn phí giao hàng toàn quốc, đổi trả 7 ngày, thanh toán khi nhận hàng. Người dị ứng họ Cúc không nên dùng. Phụ nữ có thai, cho con bú, trẻ em, người huyết áp thấp và người đang dùng thuốc (đặc biệt thuốc ngủ, thuốc an thần) nên hỏi bác sĩ trước khi uống. Chỉ nên uống một tách nhỏ 150–200 ml, xong trước giờ ngủ 30–60 phút để tránh tiểu đêm.
+Giá bán 105.000đ (niêm yết 140.000đ), mua 2 tặng 1 khi đặt tại website, miễn phí giao hàng toàn quốc, đổi trả 7 ngày, thanh toán khi nhận hàng. Người dị ứng họ Cúc không nên dùng. Phụ nữ có thai, cho con bú, trẻ em, người huyết áp thấp và người đang dùng thuốc (đặc biệt thuốc ngủ, thuốc an thần) nên hỏi bác sĩ trước khi uống. Chỉ nên uống một tách nhỏ 150–200 ml, xong trước giờ ngủ 30–60 phút để tránh tiểu đêm.
 
 ## Lời kết
 

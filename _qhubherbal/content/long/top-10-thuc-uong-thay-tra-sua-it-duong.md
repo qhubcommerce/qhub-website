@@ -166,7 +166,7 @@ Kinh nghiệm dân gian cũng khuyên tránh uống quá nhiều đồ lạnh, n
 
 Ở nhóm số 8 – trà hoa và trà thảo mộc không đường – Khánh có thử **Trà Dưỡng Nhan** của QHUB HERBAL. Đây là một trong nhiều lựa chọn của nhóm này, không phải lựa chọn duy nhất. Công thức gồm chín vị: **hoa hồng và kỷ tử** (Quân), **táo đỏ và đông trùng hạ thảo** (*Cordyceps militaris* nuôi trồng, Thần), **hoa nhài, tía tô, lá sen, hoa cúc** (Tá) và **cỏ ngọt** (Sứ). Trà không có lá trà nên không chứa caffeine, không thêm đường; hương chủ đạo là hoa hồng và hoa nhài, hậu ngọt nhẹ từ táo đỏ, kỷ tử và cỏ ngọt.
 
-So theo bốn tiêu chí của bài: **đường tự do 0, caffeine 0**, chi phí cao hơn trà xanh túi lọc phổ thông nhưng thấp hơn nhiều so với một ly trà sữa mỗi ngày, và tiện pha ở văn phòng – mỗi túi lọc hãm với khoảng 200 ml nước 95–100 °C trong 5 phút, uống ấm hoặc để nguội. Tên "Dưỡng Nhan" là tên thương mại; sản phẩm là thực phẩm đã tự công bố (số 39/ANH KHOI/2026), không có tác dụng làm đẹp da hay chống lão hóa. Giá niêm yết 140.000đ, giá bán 105.000đ/hộp; mua 2 tặng 1, miễn phí giao hàng toàn quốc, đổi trả trong 7 ngày, thanh toán khi nhận hàng.
+So theo bốn tiêu chí của bài: **đường tự do 0, caffeine 0**, chi phí cao hơn trà xanh túi lọc phổ thông nhưng thấp hơn nhiều so với một ly trà sữa mỗi ngày, và tiện pha ở văn phòng – mỗi túi lọc hãm với khoảng 200 ml nước 95–100 °C trong 5 phút, uống ấm hoặc để nguội. Tên "Dưỡng Nhan" là tên thương mại; sản phẩm là thực phẩm đã tự công bố (số 39/ANH KHOI/2026), không có tác dụng làm đẹp da hay chống lão hóa. Giá niêm yết 140.000đ, giá bán 105.000đ/hộp; mua 2 tặng 1 khi đặt tại website, miễn phí giao hàng toàn quốc, đổi trả trong 7 ngày, thanh toán khi nhận hàng.
 
 [[buy:duong-nhan]]
 

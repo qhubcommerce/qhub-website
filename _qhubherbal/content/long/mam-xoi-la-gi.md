@@ -140,7 +140,7 @@ Theo kinh nghiệm thảo mộc truyền thống, mâm xôi là vị tính bình
 
 [[buy:ngay-dau-ve]]
 
-**Lưu ý khi dùng:** Trà Ngày Dâu Về **không dùng khi mang thai, nghi có thai hoặc đang cho con bú** – vì vậy, chị em đang mang bầu như chị Hoài không nên dùng. Người ra kinh nhiều hoặc đang dùng thuốc chống đông phải hỏi ý kiến bác sĩ trước khi dùng. Công thức có cam thảo, nên người tăng huyết áp, bệnh tim, bệnh gan, bệnh thận cũng cần hỏi bác sĩ. Ngưng dùng nếu có biểu hiện bất thường. Giá niêm yết 140.000đ, giá bán 105.000đ mỗi hộp; mua 2 tặng 1, miễn phí giao hàng, đổi trả trong 7 ngày, thanh toán khi nhận hàng.
+**Lưu ý khi dùng:** Trà Ngày Dâu Về **không dùng khi mang thai, nghi có thai hoặc đang cho con bú** – vì vậy, chị em đang mang bầu như chị Hoài không nên dùng. Người ra kinh nhiều hoặc đang dùng thuốc chống đông phải hỏi ý kiến bác sĩ trước khi dùng. Công thức có cam thảo, nên người tăng huyết áp, bệnh tim, bệnh gan, bệnh thận cũng cần hỏi bác sĩ. Ngưng dùng nếu có biểu hiện bất thường. Giá niêm yết 140.000đ, giá bán 105.000đ mỗi hộp; mua 2 tặng 1 khi đặt tại website, miễn phí giao hàng, đổi trả trong 7 ngày, thanh toán khi nhận hàng.
 
 ## Lời kết
 

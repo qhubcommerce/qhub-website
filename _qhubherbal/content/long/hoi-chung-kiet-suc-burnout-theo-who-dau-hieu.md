@@ -184,7 +184,7 @@ Trong số những bước phục hồi ở trên, "nghỉ ngơi có chủ đíc
 
 [[buy:duong-tam-an]]
 
-Giá niêm yết 140.000đ, giá bán 105.000đ/hộp; khuyến mại mua 2 tặng 1, miễn phí giao hàng toàn quốc, đổi trả trong 7 ngày, thanh toán khi nhận hàng.
+Giá niêm yết 140.000đ, giá bán 105.000đ/hộp; khuyến mại mua 2 tặng 1 khi đặt tại website, miễn phí giao hàng toàn quốc, đổi trả trong 7 ngày, thanh toán khi nhận hàng.
 
 ## Lời kết
 

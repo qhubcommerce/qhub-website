@@ -140,7 +140,7 @@ Trà Ngày Dâu Về là trà túi lọc, thực phẩm thông thường đã t�
 
 [[buy:ngay-dau-ve]]
 
-**Lưu ý:** không dùng cho phụ nữ mang thai, người có thể đang mang thai và phụ nữ cho con bú. Người ra kinh nhiều, người đang dùng thuốc chống đông hoặc chống kết tập tiểu cầu, người có rối loạn đông máu phải hỏi ý kiến bác sĩ trước khi dùng. Người có bệnh mạn tính hoặc đang dùng thuốc khác cũng nên hỏi bác sĩ, dược sĩ. Giá bán 105.000đ (giá niêm yết 140.000đ), mua 2 tặng 1, miễn phí giao hàng toàn quốc, thanh toán khi nhận hàng và đổi trả trong 7 ngày.
+**Lưu ý:** không dùng cho phụ nữ mang thai, người có thể đang mang thai và phụ nữ cho con bú. Người ra kinh nhiều, người đang dùng thuốc chống đông hoặc chống kết tập tiểu cầu, người có rối loạn đông máu phải hỏi ý kiến bác sĩ trước khi dùng. Người có bệnh mạn tính hoặc đang dùng thuốc khác cũng nên hỏi bác sĩ, dược sĩ. Giá bán 105.000đ (giá niêm yết 140.000đ), mua 2 tặng 1 khi đặt tại website, miễn phí giao hàng toàn quốc, thanh toán khi nhận hàng và đổi trả trong 7 ngày.
 
 ## Lời kết
 

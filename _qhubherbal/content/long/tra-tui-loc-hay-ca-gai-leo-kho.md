@@ -159,7 +159,7 @@ Nếu bạn thuộc nhóm "bận rộn, cần mang đi làm, muốn mỗi lần 
 
 Trà được sản xuất tại nhà máy Anh Khôi, có hồ sơ tự công bố sản phẩm; bao bì ghi rõ thành phần, ngày sản xuất và hạn dùng. Cách pha đơn giản: một túi với 150–200 ml nước sôi, đậy nắp 5–7 phút. Bạn có thể xem thành phần và hương vị chi tiết trong bài [Review Trà Cà Gai – Diệp Hạ Châu](/kien-thuc/review-tra-ca-gai-diep-ha-chau/).
 
-Cần nói rõ: Trà Cà Gai – Diệp Hạ Châu là thực phẩm thông thường, không phải thuốc, không có tác dụng thay thế nước sắc theo thang của thầy thuốc hay thay thế việc khám và theo dõi bệnh gan. Điểm khác biệt của trà so với dược liệu tự sắc chỉ là **sự tiện lợi và lượng dùng ổn định** mỗi lần pha. Giá niêm yết 140.000đ, giá bán 105.000đ mỗi hộp; mua 2 tặng 1, miễn phí giao hàng toàn quốc, đổi trả trong 7 ngày, thanh toán khi nhận hàng.
+Cần nói rõ: Trà Cà Gai – Diệp Hạ Châu là thực phẩm thông thường, không phải thuốc, không có tác dụng thay thế nước sắc theo thang của thầy thuốc hay thay thế việc khám và theo dõi bệnh gan. Điểm khác biệt của trà so với dược liệu tự sắc chỉ là **sự tiện lợi và lượng dùng ổn định** mỗi lần pha. Giá niêm yết 140.000đ, giá bán 105.000đ mỗi hộp; mua 2 tặng 1 khi đặt tại website, miễn phí giao hàng toàn quốc, đổi trả trong 7 ngày, thanh toán khi nhận hàng.
 
 [[buy:ca-gai-diep-ha-chau]]
 

@@ -85,8 +85,9 @@ prep.py, group.py, og.py                 # script dựng ảnh từ PDF trong Pr
 ## Cập nhật 11/11/2026 (chiều) – audit giao diện v3/v4
 - **Màu sắc:** dùng xanh lá ổi (hộp Lá Ổi Mix Lá Sen): nút nền #d4e799→#b6d268, chữ #1d4224. Nền kem-xanh có họa tiết lá vẽ nét (`site/assets/img/leaf-line.svg`); họa tiết trang trí `deco-oi.svg`, `deco-sen.svg`, `deco-cuc.svg`.
 - **Cách gọi:** không dùng chữ "Đông y" trên toàn site, thay bằng "quan niệm/thảo mộc phương Đông", "người xưa".
-- **Mua 2 tặng 1:**
-  - đợt theo tuần, đồng hồ đếm ngược thật đến 23:59:59 Chủ nhật (giờ VN), code ở cuối `site.js`;
+- **Mua 2 tặng 1 (chỉ khi đặt tại website; cập nhật 17/11/2026):**
+  - giá mọi kênh 140.000đ niêm yết / 105.000đ bán; website mua 2 tặng 1 (tổng ưu đãi đúng 50%, không chồng mã giảm giá); TikTok Shop, Shopee mua 3 tặng 1; mọi kênh được chọn hộp tặng khác vị;
+  - không còn đồng hồ đếm ngược (đã bỏ 12/11/2026);
   - nút treo `.fpromo` chỉ hiện khi đã cuộn quá 500px và ẩn khi đang ở form đặt hàng;
   - form tự tính số hộp tặng; dòng sản phẩm trong Sheet ghi "| TẶNG (mua 2 tặng 1): …".
 - **Ảnh:**

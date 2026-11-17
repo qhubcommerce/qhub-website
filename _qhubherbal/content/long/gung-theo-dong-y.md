@@ -153,7 +153,7 @@ Theo quan niệm phương Đông, gừng là vị cay ấm, thường được p
 
 [[buy:ngay-dau-ve]]
 
-**Lưu ý khi dùng:** **không dùng khi mang thai, nghi có thai hoặc đang cho con bú**. Người ra kinh nhiều, người đang dùng thuốc chống đông hoặc thuốc chống kết tập tiểu cầu cần hỏi ý kiến bác sĩ trước khi dùng – công thức có gừng, ích mẫu, cỏ máu là những vị cần cân nhắc với nhóm này. Công thức có cam thảo, nên người tăng huyết áp, bệnh tim, bệnh gan, bệnh thận hoặc đang dùng thuốc điều trị bệnh mạn tính cũng nên hỏi bác sĩ trước. Ngưng dùng nếu thấy bất thường. Giá niêm yết 140.000đ, giá bán 105.000đ mỗi hộp; mua 2 tặng 1, miễn phí giao hàng, đổi trả trong 7 ngày, thanh toán khi nhận hàng.
+**Lưu ý khi dùng:** **không dùng khi mang thai, nghi có thai hoặc đang cho con bú**. Người ra kinh nhiều, người đang dùng thuốc chống đông hoặc thuốc chống kết tập tiểu cầu cần hỏi ý kiến bác sĩ trước khi dùng – công thức có gừng, ích mẫu, cỏ máu là những vị cần cân nhắc với nhóm này. Công thức có cam thảo, nên người tăng huyết áp, bệnh tim, bệnh gan, bệnh thận hoặc đang dùng thuốc điều trị bệnh mạn tính cũng nên hỏi bác sĩ trước. Ngưng dùng nếu thấy bất thường. Giá niêm yết 140.000đ, giá bán 105.000đ mỗi hộp; mua 2 tặng 1 khi đặt tại website, miễn phí giao hàng, đổi trả trong 7 ngày, thanh toán khi nhận hàng.
 
 ## Lời kết
 

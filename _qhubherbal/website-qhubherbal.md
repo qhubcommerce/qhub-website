@@ -30,6 +30,7 @@ Mã nguồn **không nằm trên máy tính của anh Quang**. Nó nằm trong k
   - Sheet: https://docs.google.com/spreadsheets/d/1jcy5gCytXa80Y938WqIVChEDOe6O8wR5z1bN57E7a4k/edit
   - Endpoint & mã trường trong `form_config.json`. Không đổi tên/thứ tự câu hỏi trong Google Form.
 - **Hotline/Zalo:** 0941 255 055 · Email hiển thị: qhubherbal@qhub.com.vn
+- **Ưu đãi theo kênh (17/11/2026):** website mua 2 tặng 1 (không chồng mã giảm giá); TikTok Shop, Shopee mua 3 tặng 1; mọi kênh cùng giá, được chọn hộp tặng khác vị.
 - **Giá:** niêm yết 140.000đ (đổi từ 160.000đ ngày 11/11/2026 để mua 2 tặng 1 = đúng 50%, trần khuyến mại theo NĐ 81/2018 sửa bởi NĐ 128/2024), ưu đãi 105.000đ/hộp. Sửa ở `data.py` → `SITE`. KHÔNG để tổng ưu đãi vượt 50%.
 - **Vận chuyển / đổi trả (đã chốt 11/11/2026):** miễn phí giao hàng toàn quốc, 2–5 ngày (xử lý 0–1 ngày + vận chuyển 1–4 ngày). Đổi trả 7 ngày kể cả không lỗi: hàng lỗi QHUB chịu phí; đổi ý thì hộp phải còn nguyên tem, khách chịu phí gửi trả. Khai báo trong `data.py` (`ship_*`, `return_days`).
 - **Kênh:** YouTube https://www.youtube.com/@QHUBHERBAL đã gắn ở footer và `sameAs`.

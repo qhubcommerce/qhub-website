@@ -155,7 +155,7 @@ Tách trà chỉ là một lựa chọn đồ uống không đường trong thó
 
 [[buy:ca-gai-diep-ha-chau]]
 
-Giá niêm yết 140.000đ, giá bán 105.000đ/hộp; khuyến mại mua 2 tặng 1, miễn phí giao hàng toàn quốc, đổi trả trong 7 ngày, thanh toán khi nhận hàng (COD).
+Giá niêm yết 140.000đ, giá bán 105.000đ/hộp; khuyến mại mua 2 tặng 1 khi đặt tại website, miễn phí giao hàng toàn quốc, đổi trả trong 7 ngày, thanh toán khi nhận hàng (COD).
 
 **Lưu ý khi dùng:** Phụ nữ mang thai, cho con bú, trẻ nhỏ, người huyết áp thấp, người hay lạnh bụng, tiêu chảy, người đang dùng thuốc (thuốc tiểu đường, thuốc huyết áp, thuốc chống đông, thuốc cho bệnh gan) nên hỏi ý kiến bác sĩ trước khi dùng bất kỳ loại trà thảo mộc nào. Ngưng dùng nếu thấy bất thường.
 

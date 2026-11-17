@@ -165,7 +165,7 @@ Nếu muốn so sánh với một dòng trà khác của QHUB HERBAL về thành
 
 **Trà Dưỡng Nhan** của QHUB HERBAL gồm chín vị: hai vị Quân là **hoa hồng và kỷ tử**; hai vị Thần là **táo đỏ và đông trùng hạ thảo** (*Cordyceps militaris* nuôi trồng); bốn vị Tá là **hoa nhài, tía tô, lá sen, hoa cúc**; và **cỏ ngọt** làm Sứ. Trà không có lá trà nên không chứa caffeine, không thêm đường; hương chủ đạo là hương hoa hồng, hoa nhài, hậu ngọt dịu, uống nóng hay để mát đều thơm. Hộp 30 túi lọc × 3 g. Sản phẩm là thực phẩm đã tự công bố (số 39/ANH KHOI/2026).
 
-Giá niêm yết 140.000đ, giá bán 105.000đ; mua 2 hộp tặng 1 hộp; miễn phí giao hàng toàn quốc; đổi trả trong 7 ngày; thanh toán khi nhận hàng.
+Giá niêm yết 140.000đ, giá bán 105.000đ; mua 2 hộp tặng 1 hộp khi đặt tại website; miễn phí giao hàng toàn quốc; đổi trả trong 7 ngày; thanh toán khi nhận hàng.
 
 [[buy:duong-nhan]]
 

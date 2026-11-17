@@ -163,7 +163,7 @@ Cách pha: 1 túi lọc với khoảng 200 ml nước sôi, ủ 5 phút. Bạn c
 
 [[buy:duong-tam-an]]
 
-Giá niêm yết 140.000đ, giá bán 105.000đ/hộp 30 túi lọc; khuyến mại mua 2 tặng 1, miễn phí giao hàng toàn quốc, đổi trả trong 7 ngày, thanh toán khi nhận hàng (COD).
+Giá niêm yết 140.000đ, giá bán 105.000đ/hộp 30 túi lọc; khuyến mại mua 2 tặng 1 khi đặt tại website, miễn phí giao hàng toàn quốc, đổi trả trong 7 ngày, thanh toán khi nhận hàng (COD).
 
 ## Lời kết
 

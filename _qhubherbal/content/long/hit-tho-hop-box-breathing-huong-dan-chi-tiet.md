@@ -163,7 +163,7 @@ Bài thở dễ duy trì hơn khi gắn với một thói quen cố định. M�
 
 **Trà Dưỡng Tâm An** của QHUB HERBAL là trà thảo mộc túi lọc gồm lạc tiên, tâm sen, đinh lăng, hoa cúc – không caffeine, không thêm đường, vị thanh hơi đắng nhẹ với hương hoa cúc. Pha 1 túi với khoảng 200 ml nước sôi, đợi 5 phút. Một tách trà ấm là nghi thức thư giãn nhẹ nhàng đi cùng bài thở, còn chính bài thở và nhịp sinh hoạt mới là phần bạn cần luyện. Trà là thực phẩm thông thường, không thay thế tư vấn y khoa.
 
-Giá niêm yết 140.000đ, giá bán 105.000đ; mua 2 tặng 1; miễn phí giao hàng toàn quốc, COD, đổi trả 7 ngày.
+Giá niêm yết 140.000đ, giá bán 105.000đ; mua 2 tặng 1 khi đặt tại website; miễn phí giao hàng toàn quốc, COD, đổi trả 7 ngày.
 
 [[buy:duong-tam-an]]
 

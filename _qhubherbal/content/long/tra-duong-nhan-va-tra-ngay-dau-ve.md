@@ -183,7 +183,7 @@ Cả hai sản phẩm đều là trà túi lọc của QHUB HERBAL, thực phẩ
 
 ## Lời kết
 
-Cuối cùng, chị Phương đặt cả hai loại theo chương trình mua 2 tặng 1: hai hộp trà hương hoa cho mình, một hộp trà vị ấm cho Vy. Nhưng món quà chị thấy ý nghĩa nhất lại là một cuộc hẹn: chị đưa em gái đi khám phụ khoa. Bác sĩ hỏi kỹ, cho Vy siêu âm, giải thích đây nhiều khả năng là đau bụng kinh nguyên phát và hướng dẫn cách dùng thuốc giảm đau đúng lúc, chườm ấm, vận động nhẹ, hẹn tái khám nếu đau nặng lên. Hai tháng sau, Vy đi học đều hơn trong những ngày đầu kỳ – nhờ làm theo hướng dẫn của bác sĩ, ngủ đủ và đi bơi mỗi tuần hai buổi; tách trà ấm buổi tối chỉ là thói quen dễ chịu cô thích giữ lại.
+Cuối cùng, chị Phương đặt cả hai loại theo chương trình mua 2 tặng 1 khi đặt tại website: hai hộp trà hương hoa cho mình, một hộp trà vị ấm cho Vy. Nhưng món quà chị thấy ý nghĩa nhất lại là một cuộc hẹn: chị đưa em gái đi khám phụ khoa. Bác sĩ hỏi kỹ, cho Vy siêu âm, giải thích đây nhiều khả năng là đau bụng kinh nguyên phát và hướng dẫn cách dùng thuốc giảm đau đúng lúc, chườm ấm, vận động nhẹ, hẹn tái khám nếu đau nặng lên. Hai tháng sau, Vy đi học đều hơn trong những ngày đầu kỳ – nhờ làm theo hướng dẫn của bác sĩ, ngủ đủ và đi bơi mỗi tuần hai buổi; tách trà ấm buổi tối chỉ là thói quen dễ chịu cô thích giữ lại.
 
 Còn Phương giảm trà sữa từ mỗi ngày xuống mỗi tuần một lần, đặt chai nước 1 lít trên bàn làm việc và đi bộ sau giờ tan ca. Chị không mong một tách trà thay đổi gương mặt mình; chị chỉ vui vì buổi chiều đã có một lựa chọn không đường mà vẫn thơm.
 

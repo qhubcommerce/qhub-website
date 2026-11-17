@@ -53,7 +53,7 @@ Mã nguồn **không nằm trên máy tính của anh Quang**. Nó nằm trong k
   - xác minh website qua Search Console cùng tài khoản;
   - shipping: VN, 0đ, 2–5 ngày;
   - return policy 7 ngày;
-  - nguồn dữ liệu: file `https://qhubherbal.com/google-merchant-feed.xml` (6 sản phẩm, gtin, `price` 160000 VND, `sale_price` 105000 VND, `google_product_category` 2073).
+  - nguồn dữ liệu: file `https://qhubherbal.com/google-merchant-feed.xml` (6 sản phẩm, gtin, `price` 140000 VND, `sale_price` 105000 VND, `google_product_category` 2073).
 - **Trang chính sách:** `/chinh-sach-van-chuyen/`, `/chinh-sach-doi-tra/`, `/dieu-khoan/`, `/chinh-sach-bao-mat/`. Mỗi trang sản phẩm có schema `shippingDetails` + `hasMerchantReturnPolicy`.
 
 ## Cấu trúc

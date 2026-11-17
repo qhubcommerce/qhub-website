@@ -329,7 +329,7 @@ products: ca-gai-diep-ha-chau
 | Chợ, tiệm thuốc nam | Rẻ, đa dạng | Khó kiểm soát chất lượng |
 | Mạng xã hội | Tiện | Dễ gặp hàng trôi nổi |
 
-Mua QHUB HERBAL: qhubherbal.com · Zalo 0941 255 055.
+Mua QHUB HERBAL: qhubherbal.com · Zalo 0941 255 055. Giá như nhau ở mọi kênh; ưu đãi tặng hộp khác nhau theo kênh: đặt tại website mua 2 tặng 1, gian hàng QHUB HERBAL trên TikTok Shop và Shopee mua 3 tặng 1.
 
 [[buy:ca-gai-diep-ha-chau]]
 

@@ -48,7 +48,7 @@ Bài viết này đặt bảy dòng trà cạnh nhau, so sánh từng khía cạ
 
 Đọc thêm: [bài viết đầy đủ về Trà Nam Vương](/kien-thuc/review-tra-nam-vuong/).
 
-## 3. Trà Xấu Hổ Tím – Tâm Sen: "Để mỗi giấc ngủ là một lần tái tạo"
+## 3. Trà Xấu Hổ Tím – Tâm Sen: hương cúc thanh, đắng dịu của tâm sen
 
 **Thành phần:** xấu hổ tím 30%, tâm sen 10%, đinh lăng, lạc tiên, hoa cúc vàng, cỏ ngọt.
 

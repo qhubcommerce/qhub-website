@@ -1,0 +1,330 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<!-- GA4 QHUB Commerce -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-NYQMD1XPP6"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-NYQMD1XPP6');
+document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('a,button');if(!a)return;var h=a.getAttribute('href')||'';
+if(/zalo\.me/.test(h))gtag('event','click_zalo',{link_url:h});else if(/^tel:/.test(h))gtag('event','click_call',{link_url:h});
+else if(/^mailto:/.test(h))gtag('event','click_email',{link_url:h});else if(/qhubherbal\.com/.test(h))gtag('event','click_qhubherbal',{link_url:h});},true);</script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Tốc độ website và Core Web Vitals | QHUB Commerce</title>
+<meta name="description" content="Core Web Vitals gồm LCP, INP, CLS: ngưỡng đạt, cách đo bằng PageSpeed Insights và Search Console, nguyên nhân web bán hàng chậm và thứ tự sửa.">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<link rel="canonical" href="https://qhub.com.vn/kien-thuc/toc-do-website-va-core-web-vitals/">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="QHUB Commerce">
+<meta property="og:locale" content="vi_VN">
+<meta property="og:title" content="Tốc độ website và Core Web Vitals | QHUB Commerce">
+<meta property="og:description" content="Core Web Vitals gồm LCP, INP, CLS: ngưỡng đạt, cách đo bằng PageSpeed Insights và Search Console, nguyên nhân web bán hàng chậm và thứ tự sửa.">
+<meta property="og:url" content="https://qhub.com.vn/kien-thuc/toc-do-website-va-core-web-vitals/">
+<meta property="og:image" content="https://qhub.com.vn/og-qhub.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#0B1220">
+<link rel="icon" href="/favicon.ico" sizes="48x48">
+<link rel="icon" href="/favicon-96x96.png" type="image/png" sizes="96x96">
+<link rel="icon" href="/favicon-192x192.png" type="image/png" sizes="192x192">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="alternate" type="application/rss+xml" title="Kiến thức QHUB Commerce" href="/feed.xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/styles.css?v=20261113f">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BlogPosting", "headline": "Tốc độ website và Core Web Vitals", "description": "Core Web Vitals gồm LCP, INP, CLS: ngưỡng đạt, cách đo bằng PageSpeed Insights và Search Console, nguyên nhân web bán hàng chậm và thứ tự sửa.", "inLanguage": "vi", "mainEntityOfPage": "https://qhub.com.vn/kien-thuc/toc-do-website-va-core-web-vitals/", "url": "https://qhub.com.vn/kien-thuc/toc-do-website-va-core-web-vitals/", "image": "https://qhub.com.vn/og-qhub.png", "datePublished": "2026-11-19", "dateModified": "2026-11-19", "author": {"@type": "Person", "@id": "https://qhub.com.vn/tac-gia/nguyen-van-quang/#person", "name": "Nguyễn Văn Quang", "url": "https://qhub.com.vn/tac-gia/nguyen-van-quang/", "jobTitle": "Founder & CEO", "image": "https://qhub.com.vn/quang-avatar.jpg", "worksFor": {"@id": "https://qhub.com.vn/#organization"}}, "publisher": {"@type": "Organization", "@id": "https://qhub.com.vn/#organization", "name": "CÔNG TY TNHH QHUB COMMERCE", "alternateName": "QHUB Commerce", "url": "https://qhub.com.vn/", "logo": {"@type": "ImageObject", "url": "https://qhub.com.vn/logo-qhub.png", "width": 512, "height": 512}}, "articleSection": "Website chuẩn SEO", "keywords": "core web vitals, tốc độ website, lcp inp cls là gì, pagespeed insights, tăng tốc website bán hàng", "wordCount": 2631}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Trang chủ", "item": "https://qhub.com.vn/"}, {"@type": "ListItem", "position": 2, "name": "Kiến thức", "item": "https://qhub.com.vn/kien-thuc/"}, {"@type": "ListItem", "position": 3, "name": "Website chuẩn SEO", "item": "https://qhub.com.vn/kien-thuc/chu-de/website-seo/"}, {"@type": "ListItem", "position": 4, "name": "Tốc độ website và Core Web Vitals", "item": "https://qhub.com.vn/kien-thuc/toc-do-website-va-core-web-vitals/"}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Core Web Vitals là gì?", "acceptedAnswer": {"@type": "Answer", "text": "Là bộ ba chỉ số của Google đo trải nghiệm thật khi người dùng mở trang: LCP đo phần nội dung lớn nhất hiện ra nhanh hay chậm, INP đo trang phản hồi nhanh hay chậm khi bấm, CLS đo bố cục có bị xô lệch khi đang tải không. Dữ liệu lấy từ người dùng Chrome thật qua bộ dữ liệu CrUX."}}, {"@type": "Question", "name": "Ngưỡng Core Web Vitals đạt chuẩn là bao nhiêu?", "acceptedAnswer": {"@type": "Answer", "text": "Theo web.dev, mức tốt là LCP từ 2,5 giây trở xuống, INP từ 200 mili giây trở xuống và CLS từ 0,1 trở xuống. Mức kém là LCP trên 4 giây, INP trên 500 mili giây, CLS trên 0,25. Một trang được tính là đạt khi 75% lượt truy cập nằm trong mức tốt."}}, {"@type": "Question", "name": "Điểm PageSpeed Insights thấp thì có bị tụt hạng không?", "acceptedAnswer": {"@type": "Answer", "text": "Điểm số 0–100 trong PageSpeed Insights là điểm phòng thí nghiệm, dùng để tìm lỗi, không phải thứ Google dùng để xếp hạng. Google Search Central nói hệ thống xếp hạng có dùng Core Web Vitals dựa trên dữ liệu người dùng thật, nhưng nội dung phù hợp vẫn quan trọng hơn. Anh chị nên nhìn phần dữ liệu thực tế ở đầu báo cáo và báo cáo Core Web Vitals trong Search Console."}}, {"@type": "Question", "name": "Website mới, ít người vào thì đo Core Web Vitals thế nào?", "acceptedAnswer": {"@type": "Answer", "text": "Trang ít lượt truy cập thường chưa có dữ liệu CrUX, nên Search Console và PageSpeed Insights sẽ báo không đủ dữ liệu. Lúc này anh chị dùng phần đo phòng thí nghiệm (Lighthouse) để sửa trước các lỗi lớn như ảnh nặng, script chặn tải, ảnh không khai kích thước. Khi lượng truy cập tăng, dữ liệu thực tế sẽ xuất hiện."}}, {"@type": "Question", "name": "INP khác FID thế nào?", "acceptedAnswer": {"@type": "Answer", "text": "FID chỉ đo độ trễ của lần bấm đầu tiên. INP xét gần như mọi lần bấm, chạm, gõ phím trong suốt lượt xem và lấy một lần phản hồi chậm tiêu biểu. Vì vậy INP khó đạt hơn, nhất là với trang có nhiều script. INP chính thức thay FID từ 12/3/2024."}}]}</script>
+<meta property="article:published_time" content="2026-11-19">
+<meta property="article:modified_time" content="2026-11-19">
+<meta property="article:section" content="Website chuẩn SEO">
+</head>
+<body class="kt-body">
+<a class="skip" href="#main">Bỏ qua tới nội dung</a>
+<header class="site-header" id="top">
+  <div class="wrap">
+    <a class="brand" href="/" aria-label="QHUB Commerce — trang chủ">
+      <img src="/logo-qhub-white.png" alt="" width="45" height="48">
+      <span>QHUB<small>COMMERCE</small></span>
+    </a>
+    <nav class="nav" id="nav" aria-label="Điều hướng chính">
+      <a href="/gioi-thieu/">Giới thiệu</a>
+      <a href="/dich-vu/">Dịch vụ</a>
+      <a href="/kien-thuc/">Kiến thức</a>
+      <a href="/#doi-ngu">Đội ngũ</a>
+      <a href="/qhub-herbal.html">QHUB HERBAL</a>
+      <a class="nav-cta" href="/#dat-lich">Đặt lịch chẩn đoán</a>
+    </nav>
+    <a class="btn btn-primary btn-sm" href="/#dat-lich">Đặt lịch chẩn đoán</a>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="nav" aria-label="Mở menu">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+  </div>
+</header>
+<main id="main" class="kt-main">
+<div class="wrap kt-narrow">
+<nav class="kt-crumb" aria-label="Đường dẫn"><a href="/">Trang chủ</a><span aria-hidden="true">/</span><a href="/kien-thuc/">Kiến thức</a><span aria-hidden="true">/</span><a href="/kien-thuc/chu-de/website-seo/">Website chuẩn SEO</a><span aria-hidden="true">/</span><span aria-current="page">Tốc độ website và Core Web Vitals</span></nav>
+<article class="kt-article">
+<header class="kt-head">
+  <a class="kt-tag" href="/kien-thuc/chu-de/website-seo/">Website chuẩn SEO</a>
+  <h1>Tốc độ website và Core Web Vitals</h1>
+  <p class="kt-lead">Core Web Vitals gồm LCP, INP, CLS: ngưỡng đạt, cách đo bằng PageSpeed Insights và Search Console, nguyên nhân web bán hàng chậm và thứ tự sửa.</p>
+  <p class="kt-meta">Bởi <a href="/tac-gia/nguyen-van-quang/">Nguyễn Văn Quang</a> · Đăng 19/11/2026 · 12 phút đọc</p>
+</header>
+<div class="kt-sum"><h2>Tóm tắt nhanh</h2><ul><li>Core Web Vitals là ba chỉ số Google dùng để đo trải nghiệm thật của người dùng: LCP (tốc độ tải phần chính), INP (độ nhạy khi bấm) và CLS (độ ổn định bố cục).</li><li>Ngưỡng tốt theo web.dev: LCP từ 2,5 giây trở xuống, INP từ 200 mili giây trở xuống, CLS từ 0,1 trở xuống, tính ở phân vị 75 của lượt truy cập, xét riêng điện thoại và máy tính.</li><li>INP thay thế FID trong bộ Core Web Vitals từ ngày 12/3/2024, nên các bài hướng dẫn cũ còn nói FID cần đọc lại.</li><li>Với web bán hàng, thủ phạm hay gặp nhất là ảnh nặng, quá nhiều plugin, font tải chậm và script quảng cáo, chat, theo dõi; nên sửa theo thứ tự ảnh, script, font, bố cục, rồi mới tới máy chủ.</li></ul></div>
+<nav class="kt-toc" aria-label="Mục lục"><h2>Trong bài này</h2><ol><li><a href="#core-web-vitals-la-gi-va-vi-sao-chu-shop-nen-quan-tam">Core Web Vitals là gì và vì sao chủ shop nên quan tâm?</a></li><li><a href="#ba-chi-so-lcp-inp-cls-o-cai-gi">Ba chỉ số LCP, INP, CLS đo cái gì?</a></li><li><a href="#nguong-core-web-vitals-hien-hanh-va-cach-sua-tung-chi-so">Ngưỡng Core Web Vitals hiện hành và cách sửa từng chỉ số</a></li><li><a href="#o-toc-o-website-o-au-pagespeed-insights-search-console-crux">Đo tốc độ website ở đâu: PageSpeed Insights, Search Console, CrUX</a></li><li><a href="#vi-sao-website-ban-hang-hay-cham">Vì sao website bán hàng hay chậm?</a></li><li><a href="#sua-theo-thu-tu-nao-e-o-ton-cong">Sửa theo thứ tự nào để đỡ tốn công?</a></li><li><a href="#loi-hay-gap-khi-toi-uu-core-web-vitals">Lỗi hay gặp khi tối ưu Core Web Vitals</a></li><li><a href="#viec-anh-chi-nen-lam-ngay-tuan-nay">Việc anh chị nên làm ngay tuần này</a></li></ol></nav>
+<div class="kt-body-text">
+<p><strong>Core Web Vitals là bộ ba chỉ số Google dùng để đo trải nghiệm thật khi người dùng mở một trang web: LCP đo tốc độ hiện phần nội dung chính, INP đo độ nhạy khi bấm, CLS đo độ ổn định của bố cục.</strong> Theo web.dev, một trang đạt chuẩn khi LCP từ 2,5 giây trở xuống, INP từ 200 mili giây trở xuống và CLS từ 0,1 trở xuống, tính ở phân vị 75 của lượt truy cập. Với web bán hàng, ba con số này gắn thẳng với việc khách ở lại xem hay bấm quay lại.</p>
+<p>Bài này đội QHUB viết cho chủ doanh nghiệp có website bán hàng, không cần biết lập trình: đo ở đâu, vì sao web hay chậm, sửa theo thứ tự nào và checklist để giao cho người làm web. Nếu anh chị đang dựng web từ đầu, nên đọc trước bài <a href="/kien-thuc/website-ban-hang-chuan-seo-nam-2026-huong-dan-tu-a-den-z/">website bán hàng chuẩn SEO năm 2026</a>.</p>
+<h2 id="core-web-vitals-la-gi-va-vi-sao-chu-shop-nen-quan-tam">Core Web Vitals là gì và vì sao chủ shop nên quan tâm?</h2>
+<p>Hãy hình dung một khách thấy bài quảng cáo, bấm vào trang sản phẩm trên điện thoại. Ba điều xảy ra trong vài giây đầu quyết định họ có mua không:</p>
+<ol>
+<li><strong>Ảnh sản phẩm và tên sản phẩm có hiện ra nhanh không?</strong> Đây là LCP.</li>
+<li><strong>Bấm nút "Thêm vào giỏ" có phản hồi ngay không, hay đứng im một nhịp?</strong> Đây là INP.</li>
+<li><strong>Đang định bấm thì trang bị xô xuống vì một khung quảng cáo chèn vào, làm bấm nhầm?</strong> Đây là CLS.</li>
+</ol>
+<p>Ba chỉ số này mô tả đúng cảm giác của người mua. Trang chậm, giật, bấm không ăn thì khách vào từ quảng cáo chỉ cần một cú vuốt là quay về.</p>
+<p>Về SEO, Google Search Central nói rõ hệ thống xếp hạng có dùng Core Web Vitals. Nhưng Google cũng nói nội dung phù hợp, hữu ích vẫn là yếu tố lớn hơn. Nói gọn: web nhanh không tự kéo anh chị lên top, nhưng web quá chậm là điểm trừ và trực tiếp làm mất đơn.</p>
+<h2 id="ba-chi-so-lcp-inp-cls-o-cai-gi">Ba chỉ số LCP, INP, CLS đo cái gì?</h2>
+<h3 id="lcp-phan-lon-nhat-hien-ra-sau-bao-lau">LCP: phần lớn nhất hiện ra sau bao lâu</h3>
+<p>LCP (Largest Contentful Paint, thời điểm vẽ nội dung lớn nhất) đo thời gian từ lúc bấm vào đến khi khối nội dung lớn nhất trong màn hình đầu tiên hiện xong. Trên trang sản phẩm, khối đó thường là ảnh sản phẩm chính. Trên trang chủ, thường là ảnh banner lớn.</p>
+<p>Vì thế LCP gần như là "chỉ số của ảnh".</p>
+<h3 id="inp-bam-vao-thi-bao-lau-trang-moi-phan-hoi">INP: bấm vào thì bao lâu trang mới phản hồi</h3>
+<p>INP (Interaction to Next Paint, thời gian từ tương tác đến lần vẽ kế tiếp) đo độ trễ khi người dùng bấm, chạm hoặc gõ phím. Nó xét các lần tương tác trong suốt lượt xem và lấy một lần chậm tiêu biểu.</p>
+<p>INP chính thức thay thế FID (First Input Delay, độ trễ lần bấm đầu tiên) trong bộ Core Web Vitals từ ngày 12/3/2024, theo thông báo trên web.dev. INP khó đạt hơn FID, vì mỗi script chạy ngầm trên trang đều có thể làm nút bấm "đơ" một nhịp. Tài liệu cũ còn nhắc FID thì cần đọc lại.</p>
+<h3 id="cls-bo-cuc-co-bi-xo-lech-khong">CLS: bố cục có bị xô lệch không</h3>
+<p>CLS (Cumulative Layout Shift, tổng độ xô lệch bố cục) đo mức độ các phần tử trên trang tự dịch chuyển khi đang tải. CLS không tính bằng giây mà là một con số không có đơn vị. Càng gần 0 càng tốt.</p>
+<p>Lỗi CLS điển hình: ảnh không khai chiều rộng, chiều cao nên khi ảnh tải xong thì đẩy chữ bên dưới xuống; thanh thông báo khuyến mãi chèn lên đầu trang sau vài giây; font chữ đổi kiểu làm dòng chữ nhảy.</p>
+<h2 id="nguong-core-web-vitals-hien-hanh-va-cach-sua-tung-chi-so">Ngưỡng Core Web Vitals hiện hành và cách sửa từng chỉ số</h2>
+<p>Bảng dưới tổng hợp ngưỡng theo web.dev và Google Search Central, kèm nguyên nhân hay gặp và cách sửa cho web bán hàng.</p>
+<div class="kt-table"><table>
+<thead>
+<tr>
+<th>Chỉ số</th>
+<th>Đo cái gì</th>
+<th>Tốt</th>
+<th>Cần cải thiện</th>
+<th>Kém</th>
+<th>Nguyên nhân hay gặp</th>
+<th>Sửa gì trước</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>LCP</td>
+<td>Tốc độ hiện nội dung chính</td>
+<td>≤ 2,5 giây</td>
+<td>2,5–4 giây</td>
+<td>&gt; 4 giây</td>
+<td>Banner, ảnh sản phẩm nặng; máy chủ phản hồi chậm; CSS, JS chặn tải</td>
+<td>Nén ảnh, dùng WebP/AVIF, đúng kích thước; không lazy-load ảnh đầu trang; bật bộ nhớ đệm và CDN</td>
+</tr>
+<tr>
+<td>INP</td>
+<td>Độ nhạy khi bấm, chạm</td>
+<td>≤ 200 ms</td>
+<td>200–500 ms</td>
+<td>&gt; 500 ms</td>
+<td>Script quảng cáo, chat, pixel theo dõi; plugin nặng; giao diện nhiều hiệu ứng</td>
+<td>Gỡ script thừa; trì hoãn chat, pixel; bớt plugin; tránh slider, hiệu ứng chạy liên tục</td>
+</tr>
+<tr>
+<td>CLS</td>
+<td>Độ ổn định bố cục</td>
+<td>≤ 0,1</td>
+<td>0,1–0,25</td>
+<td>&gt; 0,25</td>
+<td>Ảnh, video, iframe không khai kích thước; banner chèn muộn; font đổi kiểu</td>
+<td>Khai width/height cho mọi ảnh; giữ chỗ trước cho banner; dùng font-display hợp lý</td>
+</tr>
+</tbody>
+</table></div>
+<p>Có ba điểm anh chị cần nhớ khi đọc bảng này:</p>
+<ul>
+<li><strong>Đánh giá ở phân vị 75.</strong> Nghĩa là xếp tất cả lượt truy cập từ nhanh đến chậm, lấy mốc ở vị trí 75%. Trang chỉ "đạt" khi ít nhất 75% lượt truy cập có trải nghiệm tốt. Một lần đo nhanh trên máy văn phòng không nói lên điều gì.</li>
+<li><strong>Điện thoại và máy tính xét riêng.</strong> Khách mua hàng online ở Việt Nam phần lớn dùng điện thoại, nên hãy ưu tiên kết quả trên điện thoại.</li>
+<li><strong>Một trang chỉ đạt khi cả ba chỉ số cùng tốt.</strong> LCP đẹp mà CLS kém thì vẫn bị xếp vào nhóm cần cải thiện.</li>
+</ul>
+<h2 id="o-toc-o-website-o-au-pagespeed-insights-search-console-crux">Đo tốc độ website ở đâu: PageSpeed Insights, Search Console, CrUX</h2>
+<p><strong>CrUX (Chrome User Experience Report, báo cáo trải nghiệm người dùng Chrome)</strong> là bộ dữ liệu Google thu thập ẩn danh từ người dùng Chrome thật, theo khung 28 ngày gần nhất. Đây là "nguồn sự thật" mà các công cụ khác đọc lại. Trang quá ít người vào sẽ chưa có dữ liệu CrUX.</p>
+<p><strong>PageSpeed Insights</strong> (pagespeed.web.dev) là nơi kiểm tra từng đường dẫn cụ thể. Báo cáo có hai phần:</p>
+<ul>
+<li>Phần trên là <strong>dữ liệu thực tế</strong> lấy từ CrUX. Đây mới là thứ phản ánh trải nghiệm của khách.</li>
+<li>Phần dưới là <strong>dữ liệu phòng thí nghiệm</strong> do Lighthouse chạy một lần trên máy giả lập, kèm điểm 0–100 và danh sách gợi ý sửa. Điểm này dao động giữa các lần chạy và chỉ dùng để tìm lỗi.</li>
+</ul>
+<p><strong>Báo cáo Core Web Vitals trong Google Search Console</strong> nhìn toàn website. Nó gom các trang giống nhau thành nhóm, chia ba mức Tốt, Cần cải thiện, Kém cho điện thoại và máy tính. Đây là chỗ anh chị nên xem mỗi tháng để biết nhóm trang nào đang có vấn đề, rồi mới mở PageSpeed Insights để soi từng trang.</p>
+<p>Cách làm đội mình hay dùng: mở Search Console trước để biết <strong>nhóm trang nào</strong> kém, lấy một đường dẫn mẫu của nhóm đó dán vào PageSpeed Insights, đọc phần gợi ý để biết <strong>vì sao</strong> kém, sửa xong thì bấm "Xác thực bản sửa lỗi" trong Search Console. Quá trình xác thực theo dõi dữ liệu trong khoảng 28 ngày, nên đừng sốt ruột khi chưa thấy đổi màu ngay.</p>
+<h2 id="vi-sao-website-ban-hang-hay-cham">Vì sao website bán hàng hay chậm?</h2>
+<p>Qua nhiều website doanh nghiệp đội QHUB từng rà soát, nguyên nhân thường không nằm ở máy chủ, mà ở những thứ được gắn thêm dần theo thời gian.</p>
+<p><strong>Ảnh quá nặng.</strong> Ảnh sản phẩm chụp bằng máy ảnh hoặc điện thoại đời mới thường vài MB mỗi tấm. Tải nguyên lên web là cách nhanh nhất làm hỏng LCP.</p>
+<p><strong>Quá nhiều plugin, tiện ích.</strong> Web làm bằng WordPress hay các nền tảng có kho tiện ích rất dễ bị "cài cho có". Mỗi plugin thêm một ít CSS, JavaScript chạy trên mọi trang, kể cả trang không dùng tới.</p>
+<p><strong>Font chữ tải chậm.</strong> Dùng 3–4 họ font, mỗi họ nhiều độ đậm, lại tải từ máy chủ bên ngoài. Trình duyệt phải chờ font về mới hiện chữ, hoặc hiện chữ tạm rồi đổi, làm bố cục nhảy.</p>
+<p><strong>Script quảng cáo, chat, theo dõi.</strong> Pixel quảng cáo của nhiều nền tảng, công cụ đo lường, khung chat, nút gọi nổi, cửa sổ bật lên thu thập số điện thoại. Mỗi thứ một ít, nhưng chúng tranh nhau chạy đúng lúc khách đang muốn bấm. Đây là thủ phạm số một của INP kém.</p>
+<p><strong>Hosting và bộ nhớ đệm chưa được cấu hình.</strong> Máy chủ ở xa, không bật nén, không bật bộ nhớ đệm, không dùng CDN (Content Delivery Network, mạng phân phối nội dung đặt máy chủ gần người xem).</p>
+<h2 id="sua-theo-thu-tu-nao-e-o-ton-cong">Sửa theo thứ tự nào để đỡ tốn công?</h2>
+<p>Đội mình khuyên sửa theo thứ tự "rẻ trước, đắt sau". Không cần làm hết một lúc.</p>
+<h3 id="buoc-1-xu-ly-anh">Bước 1: Xử lý ảnh</h3>
+<ul>
+<li>Xuất ảnh đúng kích thước hiển thị. Ảnh chỉ hiện rộng 800 điểm ảnh thì không cần tải ảnh rộng 4.000.</li>
+<li>Chuyển sang định dạng WebP hoặc AVIF, nén ở mức mắt thường không thấy khác biệt.</li>
+<li>Dùng thuộc tính srcset để điện thoại tải ảnh nhỏ, máy tính tải ảnh lớn.</li>
+<li>Bật lazy-load (tải chậm, chỉ tải khi cuộn tới) cho ảnh bên dưới, nhưng <strong>không</strong> lazy-load ảnh chính ở đầu trang. Ảnh đầu trang nên được ưu tiên tải.</li>
+<li>Banner trang chủ: một ảnh tĩnh tốt hơn slider năm ảnh.</li>
+</ul>
+<p>Ví dụ ngay ở nhà mình: website bán hàng <a href="https://qhubherbal.com/">qhubherbal.com</a> của thương hiệu trà QHUB HERBAL có nhiều ảnh hộp trà, ảnh nguyên liệu, ảnh gói lọc. Nguyên tắc đội mình đặt ra khi chuẩn bị ảnh cho web là xuất riêng một bộ ảnh nhẹ cho web, đúng khung hiển thị, thay vì dùng lại file gốc chụp studio hay file in bao bì. Trang tổng các sản phẩm ở <a href="/qhub-herbal.html">QHUB HERBAL</a> cũng theo cách đó. Mình không đưa số đo tốc độ ở đây vì nó thay đổi theo từng lần cập nhật; anh chị cứ tự dán đường dẫn web của mình vào PageSpeed Insights để xem.</p>
+<h3 id="buoc-2-don-script-ben-thu-ba">Bước 2: Dọn script bên thứ ba</h3>
+<ul>
+<li>Liệt kê mọi pixel, công cụ đo lường, chat, popup đang gắn trên web. Cái nào không còn dùng thì gỡ.</li>
+<li>Gom các thẻ theo dõi về một chỗ quản lý, tránh gắn trùng một pixel hai lần.</li>
+<li>Cho khung chat, nút gọi nổi tải sau khi trang đã hiện xong, hoặc chỉ tải khi khách bấm vào biểu tượng.</li>
+</ul>
+<h3 id="buoc-3-ra-plugin-va-giao-dien">Bước 3: Rà plugin và giao diện</h3>
+<ul>
+<li>Tắt thử từng plugin trên bản sao của web để xem plugin nào nặng nhất.</li>
+<li>Thay plugin "làm mọi thứ" bằng plugin nhỏ làm đúng một việc, hoặc bỏ hẳn nếu không cần.</li>
+<li>Bớt hiệu ứng chuyển động, nhất là trên điện thoại.</li>
+</ul>
+<h3 id="buoc-4-font-chu-va-bo-cuc">Bước 4: Font chữ và bố cục</h3>
+<ul>
+<li>Dùng tối đa 2 họ font, chỉ tải các độ đậm thật sự dùng.</li>
+<li>Ưu tiên tự lưu font trên máy chủ của web, khai font-display: swap để chữ hiện ngay.</li>
+<li>Khai chiều rộng, chiều cao cho mọi ảnh, video, khung nhúng.</li>
+<li>Thanh khuyến mãi, banner cookie phải có chỗ giữ sẵn, không chèn đẩy nội dung.</li>
+</ul>
+<h3 id="buoc-5-may-chu-bo-nho-em-cdn">Bước 5: Máy chủ, bộ nhớ đệm, CDN</h3>
+<p>Khi bốn bước trên đã làm mà LCP vẫn chậm, lúc đó mới xem tới hosting: bật nén, bật bộ nhớ đệm trang, dùng CDN, nâng gói máy chủ nếu thật cần.</p>
+<p>Song song, nhớ rằng tốc độ chỉ là một phần của nền kỹ thuật. Cấu trúc trang, <a href="/kien-thuc/du-lieu-co-cau-truc-schema-cho-website-ban-hang/">dữ liệu có cấu trúc schema</a> và <a href="/kien-thuc/tieu-de-va-mo-ta-trang-title-meta-description-chuan/">tiêu đề, mô tả trang</a> cũng cần làm cùng lúc thì web mới có sức cạnh tranh trên kết quả tìm kiếm.</p>
+<h3 id="checklist-e-giao-cho-nguoi-lam-web">Checklist để giao cho người làm web</h3>
+<p>Anh chị có thể chép nguyên bảng này gửi cho đơn vị làm web:</p>
+<div class="kt-table"><table>
+<thead>
+<tr>
+<th>Hạng mục</th>
+<th>Việc cần kiểm tra</th>
+<th>Đạt khi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Đo lường</td>
+<td>Có báo cáo Core Web Vitals trong Search Console, kiểm tra mỗi tháng</td>
+<td>Biết rõ nhóm trang nào Tốt, Cần cải thiện, Kém</td>
+</tr>
+<tr>
+<td>Ảnh</td>
+<td>Ảnh đúng kích thước, WebP/AVIF, có srcset</td>
+<td>Không còn ảnh nặng vài MB trên trang</td>
+</tr>
+<tr>
+<td>Ảnh đầu trang</td>
+<td>Ảnh chính không bị lazy-load, được ưu tiên tải</td>
+<td>LCP trên điện thoại ≤ 2,5 giây</td>
+</tr>
+<tr>
+<td>Script</td>
+<td>Danh sách pixel, chat, popup đã rà, gỡ cái thừa</td>
+<td>Không có thẻ trùng, chat tải sau</td>
+</tr>
+<tr>
+<td>Plugin</td>
+<td>Chỉ giữ plugin thật sự dùng</td>
+<td>Đã thử tắt từng cái trên bản sao</td>
+</tr>
+<tr>
+<td>Font</td>
+<td>Tối đa 2 họ font, tự lưu, có font-display</td>
+<td>Chữ hiện ngay, không nhảy dòng</td>
+</tr>
+<tr>
+<td>Bố cục</td>
+<td>Ảnh, video, khung nhúng có kích thước; banner có chỗ giữ sẵn</td>
+<td>CLS ≤ 0,1</td>
+</tr>
+<tr>
+<td>Phản hồi</td>
+<td>Nút mua, giỏ hàng bấm là có phản hồi</td>
+<td>INP ≤ 200 ms</td>
+</tr>
+<tr>
+<td>Máy chủ</td>
+<td>Bật nén, bộ nhớ đệm, cân nhắc CDN</td>
+<td>Phản hồi đầu tiên của máy chủ ổn định</td>
+</tr>
+<tr>
+<td>Sau mỗi thay đổi</td>
+<td>Đo lại trang sản phẩm chính bằng PageSpeed Insights</td>
+<td>Không chỉ số nào tụt mức</td>
+</tr>
+</tbody>
+</table></div>
+<p>Nếu website của anh chị còn đang lộn xộn về cấu trúc danh mục, nên xem thêm bài <a href="/kien-thuc/cau-truc-website-chuan-seo-danh-muc-trang-tru-cot-cum-bai/">cấu trúc website chuẩn SEO</a>, vì trang gọn và ít tầng cũng thường dễ làm nhanh hơn. Các bài khác về chủ đề này nằm trong mục <a href="/kien-thuc/chu-de/website-seo/">website và SEO</a>.</p>
+<h2 id="loi-hay-gap-khi-toi-uu-core-web-vitals">Lỗi hay gặp khi tối ưu Core Web Vitals</h2>
+<ul>
+<li><strong>Chạy theo điểm 100 trong PageSpeed Insights.</strong> Điểm phòng thí nghiệm chỉ là công cụ chẩn đoán. Có trang điểm 70 mà dữ liệu thực tế vẫn đạt cả ba chỉ số. Cái cần đạt là dữ liệu thực tế ở phân vị 75.</li>
+<li><strong>Chỉ kiểm tra trang chủ.</strong> Khách từ quảng cáo và tìm kiếm thường vào thẳng trang sản phẩm, trang danh mục. Hãy kiểm tra cả các mẫu trang đó.</li>
+<li><strong>Lazy-load luôn cả ảnh đầu trang.</strong> Plugin tăng tốc bật lazy-load cho mọi ảnh, kể cả ảnh sản phẩm chính, khiến LCP chậm hơn.</li>
+<li><strong>Gắn thêm script mới mà không kiểm tra lại.</strong> Mỗi lần thêm pixel, chat, popup, hãy đo lại trang sản phẩm chính. Tốc độ thường hỏng dần theo từng lần "gắn thêm một chút".</li>
+<li><strong>Sửa xong không bấm xác thực trong Search Console.</strong> Báo cáo sẽ cập nhật chậm và anh chị không biết bản sửa đã có tác dụng chưa.</li>
+</ul>
+<h2 id="viec-anh-chi-nen-lam-ngay-tuan-nay">Việc anh chị nên làm ngay tuần này</h2>
+<ol>
+<li>Mở Google Search Console, vào báo cáo Core Web Vitals, chụp lại tình trạng hiện tại trên điện thoại để làm mốc so sánh.</li>
+<li>Chọn ba đường dẫn quan trọng nhất: trang chủ, một trang danh mục, một trang sản phẩm bán chạy. Dán từng cái vào PageSpeed Insights, ghi lại LCP, INP, CLS ở phần dữ liệu thực tế (nếu có).</li>
+<li>Liệt kê toàn bộ script quảng cáo, chat, popup đang gắn trên web. Gỡ ngay những cái không còn dùng.</li>
+<li>Nhờ người làm web nén lại ảnh banner và ảnh sản phẩm chính, khai kích thước cho ảnh, bỏ lazy-load ở ảnh đầu trang.</li>
+<li>Hẹn lịch kiểm tra lại sau 28 ngày, khi dữ liệu thực tế đã kịp cập nhật.</li>
+</ol>
+<p>Tốc độ website không phải việc làm một lần là xong. Giữ thói quen đo lại sau mỗi thay đổi, anh chị sẽ giữ được trải nghiệm tốt cho khách mà không phải làm lại từ đầu.</p>
+</div>
+<section class="kt-faq" id="cau-hoi-thuong-gap"><h2>Câu hỏi thường gặp</h2><details><summary>Core Web Vitals là gì?</summary><p>Là bộ ba chỉ số của Google đo trải nghiệm thật khi người dùng mở trang: LCP đo phần nội dung lớn nhất hiện ra nhanh hay chậm, INP đo trang phản hồi nhanh hay chậm khi bấm, CLS đo bố cục có bị xô lệch khi đang tải không. Dữ liệu lấy từ người dùng Chrome thật qua bộ dữ liệu CrUX.</p></details><details><summary>Ngưỡng Core Web Vitals đạt chuẩn là bao nhiêu?</summary><p>Theo web.dev, mức tốt là LCP từ 2,5 giây trở xuống, INP từ 200 mili giây trở xuống và CLS từ 0,1 trở xuống. Mức kém là LCP trên 4 giây, INP trên 500 mili giây, CLS trên 0,25. Một trang được tính là đạt khi 75% lượt truy cập nằm trong mức tốt.</p></details><details><summary>Điểm PageSpeed Insights thấp thì có bị tụt hạng không?</summary><p>Điểm số 0–100 trong PageSpeed Insights là điểm phòng thí nghiệm, dùng để tìm lỗi, không phải thứ Google dùng để xếp hạng. Google Search Central nói hệ thống xếp hạng có dùng Core Web Vitals dựa trên dữ liệu người dùng thật, nhưng nội dung phù hợp vẫn quan trọng hơn. Anh chị nên nhìn phần dữ liệu thực tế ở đầu báo cáo và báo cáo Core Web Vitals trong Search Console.</p></details><details><summary>Website mới, ít người vào thì đo Core Web Vitals thế nào?</summary><p>Trang ít lượt truy cập thường chưa có dữ liệu CrUX, nên Search Console và PageSpeed Insights sẽ báo không đủ dữ liệu. Lúc này anh chị dùng phần đo phòng thí nghiệm (Lighthouse) để sửa trước các lỗi lớn như ảnh nặng, script chặn tải, ảnh không khai kích thước. Khi lượng truy cập tăng, dữ liệu thực tế sẽ xuất hiện.</p></details><details><summary>INP khác FID thế nào?</summary><p>FID chỉ đo độ trễ của lần bấm đầu tiên. INP xét gần như mọi lần bấm, chạm, gõ phím trong suốt lượt xem và lấy một lần phản hồi chậm tiêu biểu. Vì vậy INP khó đạt hơn, nhất là với trang có nhiều script. INP chính thức thay FID từ 12/3/2024.</p></details></section>
+<section class="kt-src"><h2>Nguồn tham khảo</h2><ul><li><a href="https://web.dev/articles/vitals" target="_blank" rel="noopener nofollow">Web Vitals – web.dev</a></li><li><a href="https://web.dev/blog/inp-cwv-march-12" target="_blank" rel="noopener nofollow">Interaction to Next Paint becomes a Core Web Vital on March 12 – web.dev</a></li><li><a href="https://developers.google.com/search/docs/appearance/core-web-vitals" target="_blank" rel="noopener nofollow">Understanding Core Web Vitals and Google search results – Google Search Central</a></li><li><a href="https://support.google.com/webmasters/answer/9205520" target="_blank" rel="noopener nofollow">Core Web Vitals report – Search Console Help</a></li><li><a href="https://developers.google.com/speed/docs/insights/v5/about" target="_blank" rel="noopener nofollow">About PageSpeed Insights – Google for Developers</a></li><li><a href="https://web.dev/articles/defining-core-web-vitals-thresholds" target="_blank" rel="noopener nofollow">How the Core Web Vitals metrics thresholds were defined – web.dev</a></li></ul></section>
+<aside class="kt-author">
+  <img class="kt-av" src="/quang-avatar-240.jpg" alt="Nguyễn Văn Quang" width="56" height="56" loading="lazy">
+  <div>
+    <p class="kt-by">Người viết</p>
+    <h2><a href="/tac-gia/nguyen-van-quang/">Nguyễn Văn Quang</a></h2>
+    <p class="kt-role">Founder &amp; CEO, QHUB Commerce</p>
+    <p>Đi lên từ bán hàng thị trường, qua trade marketing, brand marketing đến vận hành thương mại điện tử cho các doanh nghiệp đồ uống, thực phẩm và hàng tiêu dùng. Trực tiếp vận hành gian hàng trên Shopee, TikTok Shop, Facebook, Lazada, Tiki và Website.</p>
+  </div>
+</aside>
+<aside class="kt-cta">
+  <img src="/logo-qhub.png" alt="" width="64" height="64">
+  <div>
+    <h2>Cần người ngồi vào vận hành cùng anh chị?</h2>
+    <p>QHUB Commerce là Phòng Tăng Trưởng Thuê Ngoài cho doanh nghiệp bán hàng đa sàn. Đội QHUB trực tiếp vận hành TikTok Shop, Shopee, Facebook và Website: nội dung, livestream, affiliate, quảng cáo, dữ liệu. Buổi chẩn đoán đầu tiên 60 phút, miễn phí.</p>
+    <a class="btn btn-primary" href="/#dat-lich">Đặt lịch chẩn đoán miễn phí</a>
+    <a class="kt-cta-link" href="https://zalo.me/0856510113" target="_blank" rel="noopener">Hoặc nhắn Zalo 0856 510 113</a>
+  </div>
+</aside>
+</article>
+<section class="kt-rel"><h2>Đọc tiếp</h2><div class="kt-grid"><article class="kt-card"><a href="/kien-thuc/tieu-de-va-mo-ta-trang-title-meta-description-chuan/"><span class="kt-tag">Website chuẩn SEO</span><h3>Tiêu đề và mô tả trang (title, meta description) viết sao cho chuẩn</h3><p>Cách viết title meta description chuẩn: Google hiển thị và viết lại thế nào, độ dài theo pixel, công thức cho từng loại trang, lỗi hay gặp và cách đo CTR.</p><span class="kt-meta">18/11/2026 · 13 phút đọc</span></a></article><article class="kt-card"><a href="/kien-thuc/du-lieu-co-cau-truc-schema-cho-website-ban-hang/"><span class="kt-tag">Website chuẩn SEO</span><h3>Dữ liệu có cấu trúc (schema) cho website bán hàng</h3><p>Schema website bán hàng cần những loại nào, viết JSON-LD ra sao, kiểm tra ở đâu. Kèm mẫu Product, Organization, Breadcrumb và lỗi hay gặp năm 2026.</p><span class="kt-meta">18/11/2026 · 9 phút đọc</span></a></article><article class="kt-card"><a href="/kien-thuc/viet-bai-chuan-seo-ma-nguoi-doc-van-thich/"><span class="kt-tag">Website chuẩn SEO</span><h3>Viết bài chuẩn SEO mà người đọc vẫn thích</h3><p>Viết bài chuẩn SEO năm 2026 theo hướng dẫn nội dung hữu ích của Google: quy trình 7 bước, đặt từ khóa đúng chỗ, E-E-A-T, AI Overviews và ví dụ thật.</p><span class="kt-meta">17/11/2026 · 12 phút đọc</span></a></article><article class="kt-card"><a href="/kien-thuc/nghien-cuu-tu-khoa-cho-website-doanh-nghiep/"><span class="kt-tag">Website chuẩn SEO</span><h3>Nghiên cứu từ khóa cho website doanh nghiệp</h3><p>Nghiên cứu từ khóa cho website doanh nghiệp: quy trình 7 bước, công cụ miễn phí và trả phí, phân loại ý định tìm kiếm, gom cụm chủ đề và bảng mẫu dùng ngay.</p><span class="kt-meta">16/11/2026 · 13 phút đọc</span></a></article></div></section>
+</div>
+</main>
+<footer class="footer">
+  <div class="wrap">
+    <div>
+      <h4>CÔNG TY TNHH QHUB COMMERCE</h4>
+      <p class="legal-info">Giấy CN ĐKDN số 5400570349 do Phòng Đăng ký kinh doanh – Sở Tài chính tỉnh Phú Thọ cấp lần đầu ngày 13/04/2026</p>
+      <p>Người đại diện theo pháp luật: Nguyễn Văn Quang</p>
+      <p>Trụ sở: Khu Vai, Xã An Nghĩa, Tỉnh Phú Thọ, Việt Nam</p>
+      <p>Hotline/Zalo: <a href="tel:0856510113">0856 510 113</a></p>
+      <p>Email: <a href="mailto:qhubcommerce@gmail.com">qhubcommerce@gmail.com</a></p>
+    </div>
+    <div>
+      <h4>Kiến thức</h4>
+      <ul><li><a href="/kien-thuc/chu-de/tiktok/">Xây kênh TikTok</a></li><li><a href="/kien-thuc/chu-de/content-tiktok/">Content TikTok</a></li><li><a href="/kien-thuc/chu-de/tiktok-shop/">TikTok Shop căn bản</a></li><li><a href="/kien-thuc/chu-de/van-hanh-tiktok-shop/">Vận hành TikTok Shop</a></li><li><a href="/kien-thuc/chu-de/quang-cao-tiktok/">Quảng cáo TikTok &amp; GMV Max</a></li><li><a href="/kien-thuc/chu-de/phi-san-tiktok-shop/">Phí sàn TikTok Shop</a></li><li><a href="/kien-thuc/chu-de/van-hanh-shopee/">Vận hành Shopee</a></li><li><a href="/kien-thuc/chu-de/quang-cao-shopee/">Quảng cáo Shopee</a></li></ul>
+    </div>
+    <div>
+      <h4>&nbsp;</h4>
+      <ul><li><a href="/kien-thuc/chu-de/phi-san-shopee/">Phí sàn Shopee</a></li><li><a href="/kien-thuc/chu-de/ban-hang-facebook/">Bán hàng Facebook</a></li><li><a href="/kien-thuc/chu-de/youtube/">Xây kênh YouTube</a></li><li><a href="/kien-thuc/chu-de/instagram/">Phát triển Instagram</a></li><li><a href="/kien-thuc/chu-de/threads/">Phát triển Threads</a></li><li><a href="/kien-thuc/chu-de/website-seo/">Website chuẩn SEO</a></li><li><a href="/kien-thuc/chu-de/lich-sale/">Lịch sale &amp; chiến dịch</a></li><li><a href="/gioi-thieu/">Giới thiệu QHUB</a></li><li><a href="/dich-vu/">Dịch vụ</a></li><li><a href="/chinh-sach.html">Chính sách</a></li></ul>
+    </div>
+    <div class="legal"><span>© 2026 QHUB Commerce.</span><span>qhub.com.vn</span></div>
+  </div>
+</footer>
+<div class="float" aria-label="Liên hệ nhanh">
+  <a class="zalo" href="https://zalo.me/0856510113" target="_blank" rel="noopener" aria-label="Nhắn Zalo cho QHUB">Zalo</a>
+  <a class="call" href="tel:0856510113" aria-label="Gọi hotline QHUB"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 005 5L15 13l5 2v4a2 2 0 01-2 2A16 16 0 013 6a2 2 0 012-2"/></svg></a>
+</div>
+<script src="/kien-thuc.js?v=20261113f" defer></script>
+</body>
+</html>

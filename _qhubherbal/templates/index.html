@@ -1,42 +1,40 @@
 {% extends "base.html" %}
 {% from "_order.html" import order_section, card, price, vnd, post_card, promo_strip %}
 {% block main %}
-<section class="hero">
-  <img class="leafblur leaf--hero leaf--tl" src="/assets/img/leaf-p-ngay-dau-ve-1.webp" alt="" aria-hidden="true" style="left:-215px;top:-175px;width:360px">
-  <img class="leafblur leaf--hero" src="/assets/img/leaf-p-la-oi-mix-la-sen-1.webp" alt="" aria-hidden="true" style="right:-120px;top:-90px;width:380px">
-  <img class="leafblur leaf--hero" src="/assets/img/leaf-p-xau-ho-tim-tam-sen-1.webp" alt="" aria-hidden="true" style="right:-140px;bottom:120px;width:360px">
-  <img class="leafblur leaf--hero" src="/assets/img/leaf-p-ca-gai-diep-ha-chau-1.webp" alt="" aria-hidden="true" style="left:-170px;bottom:-150px;width:320px">
-  <span class="dew" style="width:22px;height:22px;left:7%;top:58%"></span>
-  <span class="dew" style="width:14px;height:14px;left:46%;top:12%;animation-delay:-2s"></span>
-  <span class="dew" style="width:26px;height:26px;right:9%;top:22%;animation-delay:-4s"></span>
-  <span class="dew" style="width:12px;height:12px;right:14%;top:72%;animation-delay:-1s"></span>
-  <div class="wrap hero__grid">
-    <div class="hero__copy">
-      <p class="eyebrow">100% thảo mộc tự nhiên · Công thức phương Đông</p>
-      <p class="hero__script">Thương mình một chút mỗi ngày</p>
-      <h1>Chăm sóc từ bên trong, <em>bằng tinh túy thảo mộc phương Đông.</em></h1>
-      <p class="hero__lead">Một tách trà ấm năm phút mỗi ngày – để cơ thể được nghỉ ngơi, để lòng được nhẹ đi, và để bạn thương mình nhiều hơn một chút. {{ products|length }} công thức phối theo nguyên tắc Quân – Thần – Tá – Sứ của thảo mộc phương Đông, cho {{ products|length }} nỗi niềm rất đời thường.</p>
-      <div class="hero__price">
-        <span class="hero__pricelabel">Giá ưu đãi mỗi hộp<br>100% thảo mộc tự nhiên</span>
-        {{ price(site, True) }}
+<section class="hero hero--garden">
+  <div class="hg__stage">
+    <picture class="hg__pic">
+      <source media="(max-width: 760px)" srcset="/assets/img/hero-garden-m-720.webp?v=1 720w, /assets/img/hero-garden-m-1080.webp?v=1 1080w" sizes="100vw" width="1080" height="1350">
+      <img class="hg__img" src="/assets/img/hero-garden-1600.webp?v=1" srcset="/assets/img/hero-garden-800.webp?v=1 800w, /assets/img/hero-garden-1200.webp?v=1 1200w, /assets/img/hero-garden-1600.webp?v=1 1600w, /assets/img/hero-garden-2000.webp?v=1 2000w" sizes="100vw" width="2000" height="1117" alt="{{ products|length }} hộp trà thảo mộc túi lọc QHUB HERBAL đặt trên các bục đá ngà giữa hoa sen, hoa hồng, hoa cúc và lá ổi; Trà Dưỡng Nhan ở giữa hàng trước, bên tách trà màu hổ phách" fetchpriority="high">
+    </picture>
+    <div class="wrap hg__inner">
+      <div class="hg__head">
+        <p class="eyebrow hg__eyebrow">QHUB HERBAL · Trà thảo mộc túi lọc</p>
+        <h1 class="hg__title">{{ products|length }} sắc trà, <em>{{ products|length }} cách thương mình.</em></h1>
+        <p class="hg__script hg__script--d">Mỗi ngày, thương mình một chút.</p>
       </div>
-      <div class="hero__promo"><span class="promo-tag">Mua 2 tặng 1</span> <span>Mua 2 hộp bất kỳ, tặng 1 hộp tự chọn – chỉ <b>{{ vnd(site.promo_unit) }}/hộp</b></span>
-        <span class="hero__cd">Ưu đãi <b>chỉ có khi đặt tại website</b></span></div>
-      <div class="hero__cta">
-        <a class="btn btn--lg btn--buy btn--wiggle" href="#dat-hang" data-scroll-order>Đặt hàng · Mua 2 tặng 1</a>
-        <a class="btn btn--lg btn--ghost" href="#chon-tra">Tìm trà hợp với tôi</a>
+      <div class="hg__body">
+        <p class="hg__script hg__script--m">Mỗi ngày, thương mình một chút.</p>
+        <p class="hg__lead">Khám phá những công thức trà thảo mộc dành cho từng khoảnh khắc của bạn.</p>
+        <div class="hero__price">
+          <span class="hero__pricelabel">Giá ưu đãi mỗi hộp<br>Miễn phí giao hàng</span>
+          {{ price(site, True) }}
+        </div>
+        <div class="hero__promo"><span class="promo-tag">Mua 2 tặng 1</span> <span>Mua 2 hộp bất kỳ, tặng 1 hộp tự chọn – chỉ <b>{{ vnd(site.promo_unit) }}/hộp</b></span>
+          <span class="hero__cd">Ưu đãi <b>chỉ có khi đặt tại website</b></span></div>
+        <div class="hero__cta">
+          <a class="btn btn--lg btn--buy btn--wiggle" href="#dat-hang" data-scroll-order>Đặt hàng · Mua 2 tặng 1</a>
+          <a class="btn btn--lg btn--ghost" href="#chon-tra">Tìm trà hợp với tôi</a>
+        </div>
       </div>
-      <ul class="usp" aria-label="Cam kết trong từng túi trà">
-        <li><b>100% thảo mộc tự nhiên</b><span>Biết rõ mình uống gì – tỷ lệ in trên hộp</span></li>
-        <li><b>Không thêm đường</b><span>Ngọt dịu vừa phải, không lo nạp thêm đường</span></li>
-        <li><b>Không caffeine</b><span>Uống buổi tối không lo thao thức vì caffeine</span></li>
-        <li><b>Túi lọc, pha 5 phút</b><span>Bận mấy cũng chăm được mình – không ấm, không bã</span></li>
-      </ul>
-    </div>
-    <div class="hero__art">
-      <img class="hero__img" src="/assets/img/hero-organic-800.webp?v=7" srcset="/assets/img/hero-organic-480.webp?v=7 480w, /assets/img/hero-organic-800.webp?v=7 800w, /assets/img/hero-organic-1200.webp?v=7 1200w, /assets/img/hero-organic.webp?v=7 1500w" sizes="(max-width: 900px) 92vw, 640px" alt="Bộ {{ products|length }} hộp trà thảo mộc túi lọc QHUB HERBAL, Trà Dưỡng Nhan mới ở giữa, bên cành xấu hổ, lá sen, lá ổi, hoa cúc và gừng" width="1500" height="1160" fetchpriority="high">
     </div>
   </div>
+  <ul class="wrap usp hg__usp" aria-label="Cam kết trong từng túi trà">
+    <li><b>Thảo mộc phương Đông</b><span>Thành phần, tỷ lệ in rõ trên hộp</span></li>
+    <li><b>Không thêm đường</b><span>Ngọt dịu vừa phải, không lo nạp thêm đường</span></li>
+    <li><b>Không caffeine</b><span>Uống buổi tối không lo thao thức vì caffeine</span></li>
+    <li><b>Túi lọc, pha 5 phút</b><span>Bận mấy cũng chăm được mình – không ấm, không bã</span></li>
+  </ul>
   <ul class="wrap trustbar" aria-label="Điểm nổi bật">
     <li><i>{{ icons[0]|safe }}</i><div><b>ISO 22000:2018</b><span>Nhà máy đạt chứng nhận</span></div></li>
     <li><i>{{ icons[1]|safe }}</i><div><b>{{ products|length }} sản phẩm tự công bố</b><span>Số hồ sơ in trên hộp</span></div></li>

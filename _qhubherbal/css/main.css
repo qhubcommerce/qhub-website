@@ -1172,3 +1172,57 @@ main,.ftr{position:relative;z-index:0}
 @media (min-width:901px){.day>.day__item:last-child:nth-child(3n+1){grid-column:2}}
 /* hero 7 hộp (ảnh thấp hơn bản 6 hộp): canh lên đầu cột trên màn hình rộng */
 @media (min-width:901px){.hero__art{align-self:start;margin-top:64px}}
+/* ===== HERO "The Living Botanical Garden" (18/11): ảnh ghép 7 hộp gốc, chữ là HTML ===== */
+.hero--garden{padding:0 0 28px;background:linear-gradient(180deg,#F4F0E3 0,#fbf9f2 70%,#fff 100%);overflow:hidden}
+.hero--garden::before,.hero--garden::after{content:none}
+.hg__stage{position:relative}
+.hg__pic{display:block}
+.hg__img{display:block;width:100%;height:auto}
+.hg__title{font-family:var(--serif);font-weight:600;color:#205640;letter-spacing:-.02em;line-height:1.12;margin:0 0 14px;text-wrap:balance}
+.hg__title em{display:block;font-style:italic;font-weight:500;color:#205640;background:none;padding:0}
+.hg__eyebrow{color:#a8823c;margin-bottom:14px}
+.hg__eyebrow::before{content:"";width:34px;height:1px;background:#D8B470}
+.hg__script{font-family:var(--serif);font-style:italic;font-size:19px;color:#8a6a2c;margin:0 0 12px;display:flex;align-items:center;gap:10px}
+.hg__script::after{content:"";width:46px;height:1px;background:linear-gradient(90deg,#D8B470,rgba(216,180,112,0))}
+.hg__lead{font-size:17.5px;color:#3d4a40;max-width:430px;margin:0 0 4px}
+.hero--garden .hero__price{background:rgba(255,255,255,.78);border-color:rgba(216,180,112,.45);margin:18px 0 18px}
+.hero--garden .hero__promo{background:rgba(255,255,255,.82)}
+.hero--garden .btn--ghost{background:rgba(255,255,255,.75);border-color:#205640;color:#205640}
+.hg__usp{max-width:none;grid-template-columns:repeat(4,minmax(0,1fr));margin:26px auto 0}
+/* desktop: chữ nằm trên vùng tường trống bên trái ảnh */
+.hero--garden .hg__title{color:#205640}
+.hero--garden .hg__title em{color:#2e7a4c;font-style:normal;font-weight:inherit;display:inline;background:none;padding:0}
+@media (min-width:1200px){
+  .hg__stage{min-height:clamp(640px,55.85vw,880px);display:flex;align-items:center}
+  .hg__pic,.hg__pic img{position:absolute;inset:0;width:100%;height:100%}
+  .hg__pic img{object-fit:cover;object-position:66% 50%}
+  .hg__stage::after{content:"";position:absolute;inset:0;pointer-events:none;background:linear-gradient(90deg,rgba(244,240,227,.9) 0,rgba(244,240,227,.72) 22%,rgba(244,240,227,0) 40%)}
+  .hg__inner{position:relative;z-index:2;padding-top:36px;padding-bottom:36px}
+  .hg__head,.hg__body{max-width:min(36vw,520px)}
+  .hg__title{font-size:clamp(44px,3.9vw,64px)}
+  .hg__title em{display:block}
+  .hg__script--m{display:none}
+}
+/* tablet & laptop nhỏ: ảnh ngang nguyên khung, chữ bên dưới */
+@media (min-width:761px) and (max-width:1199px){
+  .hg__inner{padding-top:26px}
+  .hg__title{font-size:clamp(40px,4.6vw,50px)}
+  .hg__head,.hg__body{max-width:720px}
+  .hg__script--m{display:none}
+  .hg__usp{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+/* mobile: ảnh dọc 4:5 riêng, tiêu đề nằm trên vùng tường trống phía trên ảnh */
+@media (max-width:760px){
+  .hero--garden{padding-bottom:18px}
+  .hg__stage{display:flex;flex-direction:column}
+  .hg__inner{display:contents}
+  .hg__head{position:absolute;left:0;right:0;top:0;padding:18px 20px 0;z-index:2}
+  .hg__title{font-size:clamp(27px,8vw,34px);margin-bottom:0}
+  .hg__eyebrow{font-size:11px;letter-spacing:.12em;margin-bottom:8px}
+  .hg__script--d{display:none}
+  .hg__script{font-size:17px}
+  .hg__script::after{content:none}
+  .hg__body{padding:14px 20px 0}
+  .hg__lead{font-size:16px}
+  .hg__usp{grid-template-columns:repeat(2,minmax(0,1fr));margin-top:20px}
+}

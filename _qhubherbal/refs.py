@@ -856,6 +856,194 @@ SRC['xht7_lactien'] = [
 NEW_RULES.append(('xht7_lactien', ['passionflower', 'cyanid', 'chanh dây', 'nccih', 'akhondzadeh'], 18))
 RULES[:0] = NEW_RULES
 
+# Đêm 8 (19/11/2026): cụm đặc thù đặt lên đầu RULES (URL lấy từ kết quả WebSearch)
+NEW_RULES8 = []
+
+# --- dhc8 ---
+SRC['dhc8_cgl_nghiencuu'] = [
+    ('Hue University Journal of Science: Agriculture and Rural Development – Solanum procumbens Lour.: nguồn gốc, phân loại, đặc điểm thực vật, thành phần hóa học, chọn giống, trồng trọt, thu hái và sơ chế (bài tổng quan)', 'https://jos.hueuni.edu.vn/index.php/hujos-ard/article/view/7727'),
+    ('Asian Pacific Journal of Tropical Biomedicine (2023) – Tác dụng chống viêm của Solanum procumbens trên mô hình chuột viêm khớp gây bằng tá chất Freund toàn phần liều thấp', 'https://journal.hep.com.cn/apjtb/EN/10.4103/2221-1691.377408'),
+    ('Frontiers in Pharmacology (2022) – Hoạt tính kháng ung thư của glycoalkaloid từ các cây chi Solanum: bài tổng quan (chủ yếu dữ liệu ống nghiệm, động vật)', 'https://www.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2022.979451/pdf'),
+    ('EFSA – Schrenk và cộng sự (2020) – Đánh giá rủi ro glycoalkaloid trong thức ăn chăn nuôi và thực phẩm, đặc biệt là khoai tây, EFSA Journal 18:e06222', 'https://pmc.ncbi.nlm.nih.gov/articles/PMC7417869'),
+    ('NCCIH/NIH – Know the Science: Cách đọc hiểu một bài báo khoa học – Các loại nghiên cứu', 'https://www.nccih.nih.gov/health/know-science/how-to-make-sense-of-a-scientific-journal-article/methods/types-of-research'),
+]
+NEW_RULES8.append(('dhc8_cgl_nghiencuu', ['glycoalkaloid', 'solasodine', 'ống nghiệm', 'bằng chứng', 'solanum'], 30))
+
+SRC['dhc8_nongtrong'] = [
+    ('HealthHub – Bộ Y tế Singapore – Heaty and cooling (giải thích khái niệm thực phẩm "nóng" và "mát")', 'https://www.healthhub.sg/live-healthy/heaty-and-cooling-09nov2015-nhg'),
+    ('Mayo Clinic – Water: How much should you drink every day? (Mỗi ngày nên uống bao nhiêu nước?)', 'https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/water/art-20044256'),
+    ('NHS (Anh) – Dehydration: Symptoms (Dấu hiệu mất nước)', 'https://www.nhs.uk/conditions/dehydration/symptoms'),
+    ('NHS (Anh) – Mouth ulcers (Loét miệng: khi nào cần đi khám)', 'https://www.nhs.uk/conditions/Mouth-ulcer'),
+    ('NHS (Anh) – Type 2 diabetes: Symptoms (Dấu hiệu tiểu đường type 2)', 'https://www.nhs.uk/conditions/type-2-diabetes/symptoms/'),
+]
+NEW_RULES8.append(('dhc8_nongtrong', ['nóng trong', 'hư nhiệt', 'thực nhiệt', 'nhiệt miệng', 'nước tiểu', 'loét', 'mất nước'], 32))
+
+SRC['dhc8_cgl_tacdung'] = [
+    ('Vinmec – Cà gai leo: công dụng và cách sử dụng đúng', 'https://www.vinmec.com/vi/tin-tuc/thong-tin-suc-khoe/song-khoe/ca-gai-leo-cong-dung-va-cach-su-dung-dung/'),
+    ('Báo Sức khỏe & Đời sống (Bộ Y tế) – Cà gai leo: Đồn thổi và sự thực?', 'https://suckhoedoisong.vn/ca-gai-leo-don-thoi-va-su-thuc-16964771.htm'),
+    ('ScienceDirect (2025) – Định danh cây thuốc Solanum procumbens Lour. bằng mã vạch DNA và hình thái học', 'https://www.sciencedirect.com/science/article/abs/pii/S2352407325000289'),
+    ('PMC – Datura Poisoning in Trinidad: A Case Report (Báo cáo ca ngộ độc cà độc dược)', 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9624438/'),
+    ('PubMed – Herbal and dietary supplement hepatotoxicity (Tổng quan tổn thương gan do sản phẩm thảo dược và thực phẩm bổ sung)', 'https://pubmed.ncbi.nlm.nih.gov/19826971/'),
+]
+NEW_RULES8.append(('dhc8_cgl_tacdung', ['khu phong', 'trừ thấp', 'tán ứ', 'tiêu độc', 'cà độc dược', 'họ cà', 'tính ấm'], 17))
+
+# --- dn8 ---
+SRC['dn8_svthithuc'] = [
+    ('Yoo S.S., Hu P.T., Gujar N., Jolesz F.A., Walker M.P. (2007) – A deficit in the ability to form new human memories without sleep (Thức trắng một đêm làm suy giảm khả năng hình thành trí nhớ mới), Nature Neuroscience', 'https://pubmed.ncbi.nlm.nih.gov/17293859/'),
+    ('Okano K. và cộng sự (2019) – Sleep quality, duration, and consistency are associated with better academic performance in college students (Chất lượng, thời lượng và sự đều đặn của giấc ngủ liên quan đến kết quả học tập của sinh viên), npj Science of Learning', 'https://pmc.ncbi.nlm.nih.gov/articles/PMC6773696'),
+    ('Dunlosky J., Rawson K.A., Marsh E.J., Nathan M.J., Willingham D.T. (2013) – Improving Students\' Learning With Effective Learning Techniques (Đánh giá 10 kỹ thuật học: tự kiểm tra và ôn giãn cách có tính ứng dụng cao), Psychological Science in the Public Interest', 'https://pubmed.ncbi.nlm.nih.gov/26173288/'),
+    ('NCCIH (Trung tâm Sức khỏe Bổ sung và Tích hợp Quốc gia, NIH Hoa Kỳ) – Energy Drinks (Nước tăng lực: caffeine, đường và các lo ngại an toàn)', 'https://www.nccih.nih.gov/health/energy-drinks'),
+    ('NHS (Dịch vụ Y tế Quốc gia Anh) – Student stress (Căng thẳng ở sinh viên: cách tự chăm sóc và khi nào cần tìm hỗ trợ)', 'https://www.nhs.uk/mental-health/children-and-young-adults/help-for-teenagers-young-adults-and-students/student-stress-self-help-tips/'),
+]
+NEW_RULES8.append(('dn8_svthithuc', ['thức trắng', 'nước tăng lực', 'giãn cách', 'dunlosky', 'okano', 'yoo', 'tự kiểm tra', 'minh thư'], 20))   # bài này 31, bài khác cao nhất 12
+
+SRC['dn8_kytucachdung'] = [
+    ('Lam A.Y. và cộng sự (2001) – Possible interaction between warfarin and Lycium barbarum L. (Ca nghi tương tác warfarin – kỷ tử, INR tăng sau khi uống trà kỷ tử), Annals of Pharmacotherapy', 'https://pubmed.ncbi.nlm.nih.gov/11675844/'),
+    ('Leung H. và cộng sự (2008) – Warfarin overdose due to the possible effects of Lycium barbarum L. (Quá liều warfarin có thể do kỷ tử), Food and Chemical Toxicology', 'https://pubmed.ncbi.nlm.nih.gov/18281140/?dopt=Abstract'),
+    ('Benzie I.F. và cộng sự (2006) – Enhanced bioavailability of zeaxanthin in a milk-based formulation of wolfberry (Kỷ tử chế biến với sữa nóng tăng hấp thu zeaxanthin), British Journal of Nutrition', 'https://www.cambridge.org/core/journals/british-journal-of-nutrition/article/enhanced-bioavailability-of-zeaxanthin-in-a-milkbased-formulation-of-wolfberry-gou-qi-zifructus-barbarum-l/D57839D1627A5BEDF10CE47FBFC0E6B8'),
+    ('Larramendi C.H. và cộng sự (2012) – Goji berries (Lycium barbarum): risk of allergic reactions in individuals with food allergy (Nguy cơ dị ứng kỷ tử ở người dị ứng thức ăn, vai trò protein vận chuyển lipid), Journal of Investigational Allergology and Clinical Immunology', 'https://pubmed.ncbi.nlm.nih.gov/23101309/'),
+    ('Văn phòng Quản lý Dược liệu Trung Hoa (CMRO), Sở Y tế Hồng Kông – Herbal Medicines and Sulphur Dioxide (Dược liệu xông lưu huỳnh và lời khuyên cho người tiêu dùng)', 'https://cmro.gov.hk/html/eng/useful_information/public_health/pamphlet/Herbal_Medicines_and_Sulphur_Dioxide.html'),
+]
+NEW_RULES8.append(('dn8_kytucachdung', ['ăn trực tiếp', 'lưu huỳnh', 'benzie', 'larramendi', 'leung', 'nấu chín', 'ăn sống', 'sulfite'], 20))   # bài này 31, bài khác cao nhất 7
+
+SRC['dn8_cheduongnhan'] = [
+    ('WHO (2015) – Guideline: sugars intake for adults and children (Hướng dẫn lượng đường: đường tự do dưới 10% năng lượng, lý tưởng dưới 5% – khoảng 25 g/ngày), Tổ chức Y tế Thế giới', 'https://iris.who.int/items/00ba199c-9435-4e0c-804c-04c95b7b261d'),
+    ('WHO/FAO JECFA – Karaya gum (Gôm karaya từ cây chi Sterculia – bản chất của "tuyết yến": đánh giá an toàn phụ gia thực phẩm)', 'https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/1'),
+    ('Tổng quan – A review on peach gum polysaccharide: Hydrolysis, structure, properties and applications (Polysaccharide nhựa đào: cấu trúc, tính chất, ứng dụng)', 'https://aminer.org/pub/61d5774c5244ab9dcb3c436d/a-review-on-peach-gum-polysaccharide-hydrolysis-structure-properties-and-applications'),
+    ('Tổng quan (2022) – A comprehensive review on lotus seeds (Nelumbo nucifera Gaertn.): thành phần dinh dưỡng, hoạt tính sinh học và ứng dụng của hạt sen, Journal of Functional Foods (DOAJ)', 'https://doaj.org/article/18cea6bbfbb2434bbd2fe58493941d3d'),
+    ('Harvard T.H. Chan School of Public Health – The Nutrition Source: Chia Seeds (Hạt chia: chất xơ, omega-3 thực vật ALA)', 'https://www.hsph.harvard.edu/nutritionsource/food-features/chia-seeds/'),
+]
+NEW_RULES8.append(('dn8_cheduongnhan', ['chè dưỡng nhan', 'tuyết yến', 'nhựa đào', 'bồ mễ', 'long nhãn', 'hạt chia', 'đường phèn', 'karaya'], 65))   # bài này 102, bài khác cao nhất 4
+
+# --- dta8 ---
+# Đêm 8 (19/11/2026) – Trà Dưỡng Tâm An (prefix dta8_). Mọi URL lấy từ kết quả WebSearch (không mở bằng WebFetch/curl).
+
+# 1. cang-thang-va-he-tieu-hoa-truc-nao-ruot
+SRC['dta8_trucnaoruot'] = [
+    ('Cryan JF và cộng sự (2019) – The Microbiota-Gut-Brain Axis (Tổng quan trục vi sinh – ruột – não: dây phế vị, trục HPA, miễn dịch, căng thẳng), Physiological Reviews', 'https://cora.ucc.ie/handle/10468/10506'),
+    ('Sperber AD và cộng sự (2021) – Worldwide Prevalence and Burden of Functional Gastrointestinal Disorders, Results of Rome Foundation Global Study (Hơn 40% người lớn có rối loạn tiêu hóa chức năng; IBS theo Rome IV), Gastroenterology', 'https://scientiasalut.gencat.cat/handle/11351/7651'),
+    ('Black CJ, Thakur ER, Houghton LA, Quigley EMM, Moayyedi P, Ford AC (2020) – Efficacy of psychological therapies for irritable bowel syndrome: systematic review and network meta-analysis (CBT, thôi miên hướng ruột cho hội chứng ruột kích thích), Gut', 'https://gut.bmj.com/content/69/8/1441.full'),
+    ('NIDDK (NIH) – Irritable Bowel Syndrome (IBS) (Hội chứng ruột kích thích: triệu chứng, nguyên nhân, chẩn đoán)', 'https://www.niddk.nih.gov/health-information/digestive-diseases/irritable-bowel-syndrome'),
+    ('Johns Hopkins Medicine – The Brain-Gut Connection (Kết nối não – ruột, hệ thần kinh ruột hơn 100 triệu tế bào thần kinh)', 'https://www.hopkinsmedicine.org/health/wellness-and-prevention/the-brain-gut-connection'),
+]
+NEW_RULES8.append(('dta8_trucnaoruot', ['trục não – ruột', 'phế vị', 'ibs', 'thôi miên', 'hệ thần kinh ruột', 'rome'], 28))   # bài này 45, bài khác cao nhất 3
+
+# 2. bon-chon-lo-au-khong-ro-ly-do
+SRC['dta8_bonchon'] = [
+    ('WHO – Anxiety disorders: Fact sheet (Rối loạn lo âu: khoảng 359 triệu người, nhóm rối loạn tâm thần phổ biến nhất), Tổ chức Y tế Thế giới', 'https://www.who.int/news-room/fact-sheets/detail/anxiety-disorders'),
+    ('WHO (02/09/2025) – Over a billion people living with mental health conditions – services require urgent scale-up (Hơn một tỷ người sống với tình trạng sức khỏe tâm thần; lo âu, trầm cảm phổ biến nhất)', 'https://www.who.int/news/item/02-09-2025-over-a-billion-people-living-with-mental-health-conditions-services-require-urgent-scale-up'),
+    ('Mayo Clinic – Hyperthyroidism (overactive thyroid): Symptoms and causes (Cường giáp: hồi hộp, lo âu, run tay, sụt cân)', 'https://www.mayoclinic.org/diseases-conditions/hyperthyroidism/symptoms-causes/syc-20373659'),
+    ('FDA – Spilling the Beans: How Much Caffeine is Too Much? (400 mg caffeine/ngày ở người lớn khỏe mạnh; dấu hiệu dùng quá nhiều)', 'https://www.fda.gov/consumers/consumer-updates/spilling-beans-how-much-caffeine-too-much'),
+    ('NHS – Generalised anxiety disorder: self-help (Tự chăm sóc khi lo âu lan tỏa)', 'https://www.nhs.uk/conditions/generalised-anxiety-disorder/self-help'),
+]
+NEW_RULES8.append(('dta8_bonchon', ['bồn chồn', 'cường giáp', 'tuyến giáp', 'giờ lo lắng', 'không rõ lý do', 'fda'], 22))   # bài này 35, bài khác cao nhất 11
+
+# 3. burnout-kiet-suc-nghe-nghiep
+SRC['dta8_kietsuc'] = [
+    ('Maslach C, Leiter MP (2016) – Understanding the burnout experience: recent research and its implications for psychiatry (Hiểu trải nghiệm kiệt sức nghề nghiệp), World Psychiatry (PubMed)', 'https://pubmed.ncbi.nlm.nih.gov/27265691/'),
+    ('Koutsimani P, Montgomery A, Georganta K (2019) – The Relationship Between Burnout, Depression, and Anxiety: A Systematic Review and Meta-Analysis (Burnout, trầm cảm và lo âu: liên quan nhưng riêng biệt), Frontiers in Psychology', 'https://www.frontiersin.org/articles/10.3389/fpsyg.2019.00284/full'),
+    ('West CP, Dyrbye LN, Erwin PJ, Shanafelt TD (2016) – Interventions to prevent and reduce physician burnout: a systematic review and meta-analysis (Can thiệp cá nhân và tổ chức giảm burnout), The Lancet (PubMed)', 'https://pubmed.ncbi.nlm.nih.gov/27692469/'),
+    ('Sonnentag S, Fritz C (2007) – The Recovery Experience Questionnaire: development and validation of a measure for assessing recuperation and unwinding from work (Bốn trải nghiệm phục hồi sau giờ làm), Journal of Occupational Health Psychology (PubMed)', 'https://pubmed.ncbi.nlm.nih.gov/17638488/'),
+    ('WHO/ILO (28/09/2022) – WHO and ILO call for new measures to tackle mental health issues at work (12 tỷ ngày làm việc mất mỗi năm do trầm cảm, lo âu; hướng dẫn sức khỏe tâm thần tại nơi làm việc)', 'https://www.who.int/europe/news/item/28-09-2022-who-and-ilo-call-for-new-measures-to-tackle-mental-health-issues-at-work'),
+]
+NEW_RULES8.append(('dta8_kietsuc', ['lĩnh vực', 'koutsimani', 'sonnentag', 'trải nghiệm phục hồi', 'gắn kết', 'hồ sơ'], 13))   # bài này 21, bài khác cao nhất 5
+
+# --- loi8 ---
+SRC['loi8_polyphenol'] = [
+    ('Manach C. và cs. (2004) – Polyphenols: food sources and bioavailability (Polyphenol: nguồn thực phẩm và sinh khả dụng), American Journal of Clinical Nutrition', 'https://pubmed.ncbi.nlm.nih.gov/15113710/'),
+    ('Pandey K.B., Rizvi S.I. (2009) – Plant polyphenols as dietary antioxidants in human health and disease (Polyphenol thực vật – chất chống oxy hóa trong khẩu phần, sức khỏe và bệnh tật), Oxidative Medicine and Cellular Longevity', 'https://pmc.ncbi.nlm.nih.gov/articles/PMC2835915'),
+    ('NCCIH – NIH – Antioxidant Supplements: What You Need To Know (Viên bổ sung chất chống oxy hóa: những điều cần biết)', 'https://www.nccih.nih.gov/health/antioxidant-supplements-what-you-need-to-know'),
+    ('British Journal of Nutrition (1999) – Inhibition of non-haem iron absorption in man by polyphenolic-containing beverages (Đồ uống chứa polyphenol ức chế hấp thu sắt non-heme ở người)', 'https://pubmed.ncbi.nlm.nih.gov/10999016/'),
+    ('American Journal of Clinical Nutrition (2022) – Effect of cocoa flavanol supplementation for the prevention of cardiovascular disease events: the COSMOS randomized clinical trial (Thử nghiệm COSMOS về viên flavanol ca cao và biến cố tim mạch)', 'https://pubmed.ncbi.nlm.nih.gov/35294962/'),
+]
+NEW_RULES8.append(('loi8_polyphenol', ['polyphenol', 'sinh khả dụng', 'anthocyanin', 'isoflavone', 'flavanol'], 40))
+
+SRC['loi8_giudang'] = [
+    ('CDC – Steps for Losing Weight (Các bước xuống cân an toàn, từ từ và đều đặn)', 'https://www.cdc.gov/healthy-weight-growth/losing-weight'),
+    ('WHO – Physical activity, fact sheet (Hoạt động thể lực – khuyến nghị cho người trưởng thành)', 'https://www.who.int/europe/news-room/fact-sheets/item/physical-activity'),
+    ('WHO (2015) – WHO calls on countries to reduce sugars intake among adults and children (Khuyến nghị hạn chế đường tự do)', 'https://who.int/news/item/04-03-2015-who-calls-on-countries-to-reduce-sugars-intake-among-adults-and-children'),
+    ('Tasali E. và cs. (2022) – Getting more sleep reduces caloric intake (Ngủ thêm giúp giảm năng lượng nạp vào), JAMA Internal Medicine – UChicago Medicine', 'https://www.uchicagomedicine.org/forefront/research-and-discoveries-articles/2022/february/getting-more-sleep-reduces-caloric-intake'),
+    ('NIDDK – NIH – Dieting & Gallstones (Ăn kiêng, xuống cân nhanh và sỏi mật)', 'https://www.niddk.nih.gov/health-information/digestive-diseases/gallstones/dieting'),
+]
+NEW_RULES8.append(('loi8_giudang', ['nhịn ăn', 'xuống cân', 'giữ dáng', 'hạ cân', 'sibutramine'], 15))
+
+# --- nv8 ---
+# Đề xuất nguồn – đêm 8 – Trà Nam Vương (prefix nv8_)
+# Mọi URL lấy từ kết quả WebSearch (không mở bằng WebFetch/curl).
+
+# 1. ba-kich-tim-va-ba-kich-trang-khac-nhau
+SRC['nv8_bakichtimtrang'] = [
+    ('Zhang J.H. và cộng sự (2018) – Morinda officinalis How. – A comprehensive review of traditional uses, phytochemistry and pharmacology (Tổng quan về ba kích: công dụng truyền thống, hóa học, dược lý), Journal of Ethnopharmacology', 'https://pubmed.ncbi.nlm.nih.gov/29126988/'),
+    ('Du Y. và cộng sự (2020) – Efficacy and safety of Morinda officinalis oligosaccharide capsules for depressive disorder: a systematic review and meta-analysis (Viên nang oligosaccharide ba kích và trầm cảm: phân tích gộp), Brazilian Journal of Psychiatry', 'https://pmc.ncbi.nlm.nih.gov/articles/PMC8136385'),
+    ('Tạp chí Dược học – Ứng dụng DNA barcoding trong định danh ba kích (Radix Morindae officinalis) ở Việt Nam', 'https://vjol.info.vn/tcdh/article/view/38002'),
+    ('Government Chinese Medicines Testing Institute (Hồng Kông) – Factsheet Morinda officinalis (Trình tự ADN tham chiếu để định danh ba kích)', 'https://www.cmro.gov.hk/files/gcmti/research/btc/dna_sequences/Factsheet_Morinda_officinalis_SC.pdf'),
+    ('WHO (2023) – No level of alcohol consumption is safe for our health (Không có mức uống rượu nào an toàn cho sức khỏe)', 'https://www.who.int/azerbaijan/news/item/04-01-2023-no-level-of-alcohol-consumption-is-safe-for-our-health'),
+]
+NEW_RULES8.append(('nv8_bakichtimtrang', ['ba kích trắng', 'ba kích tím', 'màu ruột', 'nhuộm', 'rút lõi', 'morinda', 'gcmti', 'dna'], 26))   # bài này 40, bài khác cao nhất 14 (ba-kich-la-gi)
+
+# 2. qua-tang-suc-khoe-cho-bo-cho-chong
+SRC['nv8_quatang'] = [
+    ('USPSTF (2021) – Colorectal Cancer: Screening, final recommendation bulletin (Tầm soát ung thư đại trực tràng từ 45 đến 75 tuổi)', 'https://www.USPreventiveServicesTaskForce.org/uspstf/sites/default/files/file/supporting_documents/colorectal-cancer-screening-final-rec-bulletin.pdf'),
+    ('USPSTF (2018) – Prostate Cancer: Screening, clinical summary (Tầm soát ung thư tuyến tiền liệt 55–69 tuổi: quyết định cá nhân sau khi trao đổi với bác sĩ)', 'https://www.uspreventiveservicestaskforce.org/uspstf/document/clinical-summary/prostate-cancer-screening'),
+    ('AAFP (2021) – USPSTF Lowers Screening Age for Prediabetes, Type 2 Diabetes (USPSTF hạ tuổi tầm soát tiền tiểu đường, tiểu đường type 2 xuống 35)', 'https://www.aafp.org/news/health-of-the-public/20210908uspstfdiabetes.html'),
+    ('Paluch A.E. và cộng sự (2022) – Daily steps and all-cause mortality: a meta-analysis of 15 international cohorts (Số bước mỗi ngày và tử vong do mọi nguyên nhân), The Lancet Public Health', 'https://doaj.org/article/c3639c468b4348958202e52793ab979d'),
+    ('American Heart Association (2022) – Monitoring blood pressure at home can be tricky. Here\'s how to do it right (Đo huyết áp tại nhà đúng cách)', 'https://www.heart.org/en/news/2022/05/23/monitoring-blood-pressure-at-home-can-be-tricky-heres-how-to-do-it-right'),
+]
+NEW_RULES8.append(('nv8_quatang', ['quà', 'gói khám', 'tầm soát', 'máy đo huyết áp', 'uspstf', 'đếm bước', 'ngân sách', 'paluch'], 36))   # bài này 55, bài khác cao nhất 10 (tuyen-tien-liet-kien-thuc-co-ban-cho-dan)
+
+# 3. uong-tra-nam-vuong-luc-nao
+SRC['nv8_uongtranv'] = [
+    ('BfR (Viện Đánh giá Rủi ro Liên bang Đức) – Boiling water a must for herbal teas (Trà thảo mộc nên pha bằng nước sôi)', 'https://www.bfr.bund.de/en/press-release/boiling-water-a-must-for-herbal-teas/'),
+    ('Continence Foundation of Australia – Caring for your bladder at night (Tiểu đêm: phân bổ lượng nước uống trong ngày)', 'https://www.continence.org.au/about-incontinence/urinary-incontinence/nocturia/caring-for-your-bladder-at-night-nocturia/'),
+    ('AASM & SRS (2015) – Seven or more hours of sleep per night: a health necessity for adults (Người trưởng thành nên ngủ từ 7 giờ mỗi đêm)', 'https://aasm.org/seven-or-more-hours-of-sleep-per-night-a-health-necessity-for-adults/'),
+    ('WHO – Physical activity fact sheet (Khuyến nghị vận động 150–300 phút mỗi tuần cho người trưởng thành)', 'https://www.who.int/europe/news-room/fact-sheets/item/physical-activity'),
+    ('WHO (2023) – No level of alcohol consumption is safe for our health (Không có mức uống rượu nào an toàn cho sức khỏe)', 'https://www.who.int/azerbaijan/news/item/04-01-2023-no-level-of-alcohol-consumption-is-safe-for-our-health'),
+]
+NEW_RULES8.append(('nv8_uongtranv', ['trà nam vương', 'hãm lần hai', 'ủ 5–7 phút', 'bình giữ nhiệt', 'bfr', 'sau bữa sáng', 'đầu giờ chiều'], 24))   # bài này 36, bài khác cao nhất 13 (tra-duong-nhan-uong-luc-nao-tot-nhat-trong)
+
+# --- ndv8 ---
+# Đêm 8 – sản phẩm ngay-dau-ve (prefix ndv8_). URL lấy từ kết quả WebSearch, không mở bằng WebFetch.
+
+# Bài: ra-mau-giua-chu-ky-nguyen-nhan-va-khi
+SRC['ndv8_ramau'] = [
+    ('NHS – Vaginal bleeding between periods or after sex (Ra máu giữa kỳ kinh hoặc sau quan hệ: nguyên nhân, khi nào gặp bác sĩ)', 'https://www.nhs.uk/symptoms/vaginal-bleeding-between-periods-or-after-sex/'),
+    ('American Family Physician (2012) – Evaluation and Management of Abnormal Uterine Bleeding in Premenopausal Women (Đánh giá và xử trí chảy máu tử cung bất thường ở phụ nữ chưa mãn kinh)', 'https://www.aafp.org/pubs/afp/issues/2012/0101/p35.html'),
+    ('NHS – Ectopic pregnancy (Thai ngoài tử cung: triệu chứng, đau đầu vai, khi nào cấp cứu)', 'https://www.nhs.uk/conditions/ectopic-pregnancy/'),
+    ('Mayo Clinic – Uterine polyps (Polyp tử cung: ra máu giữa kỳ, kinh nhiều, ra máu sau mãn kinh)', 'https://www.mayoclinic.org/health/uterine-polyps/DS00699/DSECTION=1'),
+    ('Clarke MA và cộng sự (2018) – Association of Endometrial Cancer Risk With Postmenopausal Bleeding in Women: A Systematic Review and Meta-analysis (Ra máu sau mãn kinh và nguy cơ ung thư nội mạc tử cung), JAMA Internal Medicine', 'https://mayoclinic.elsevierpure.com/en/publications/association-of-endometrial-cancer-risk-with-postmenopausal-bleedi/'),
+    ('WHO (2021) – WHO recommends DNA testing as a first-choice screening method for cervical cancer prevention (Xét nghiệm HPV DNA là phương pháp sàng lọc ung thư cổ tử cung ưu tiên)', 'https://www.who.int/europe/news/item/11-09-2021-who-recommends-dna-testing-as-a-first-choice-screening-method-for-cervical-cancer-prevention'),
+]
+NEW_RULES8.append(('ndv8_ramau', ['ra máu giữa', 'giữa kỳ', 'sau quan hệ', 'lộ tuyến', 'chlamydia', 'thai ngoài tử cung'], 37))
+
+# Bài: tay-chan-lanh-theo-dong-y
+SRC['ndv8_taychanlanh'] = [
+    ('Cold hands, warm heart (Tay lạnh, tim ấm – nhiệt độ bàn tay ở phụ nữ và nam giới), The Lancet', 'https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(05)78875-9/abstract'),
+    ('Mayo Clinic – Raynaud\'s disease: Symptoms and causes (Hội chứng Raynaud: đổi màu ngón tay khi gặp lạnh)', 'https://www.mayoclinic.org/diseases-conditions/raynauds-disease/symptoms-causes/syc-20363571'),
+    ('Mayo Clinic – Iron deficiency anemia: Symptoms and causes (Thiếu máu thiếu sắt: mệt, da xanh, tay chân lạnh)', 'https://www.mayoclinic.org/diseases-conditions/iron-deficiency-anemia/symptoms-causes/syc-20355034'),
+    ('NIDDK (NIH) – Hypothyroidism (Underactive Thyroid) (Suy giáp: sợ lạnh, mệt mỏi, kinh nguyệt thay đổi)', 'https://www.niddk.nih.gov/health-information/endocrine-diseases/hypothyroidism'),
+    ('Cold responses and hormonal echoes: a comprehensive view of Raynaud\'s vascular dysfunction (Phản ứng với lạnh và vai trò nội tiết trong rối loạn mạch máu Raynaud), PMC', 'https://pmc.ncbi.nlm.nih.gov/articles/PMC12354549/'),
+]
+NEW_RULES8.append(('ndv8_taychanlanh', ['tay chân lạnh', 'raynaud', 'lạnh tay', 'co mạch', 'sinh nhiệt', 'dương hư'], 31))
+
+# --- xht8 ---
+SRC['xht8_ngutrua'] = [
+    ('Mayo Clinic – Napping: Do\'s and don\'ts for healthy adults (Ngủ trưa: nên và không nên ở người trưởng thành)', 'https://www.mayoclinic.org/healthy-lifestyle/adult-health/in-depth/napping/art-20048319'),
+    ('Brooks A, Lack L (2006) – A brief afternoon nap following nocturnal sleep restriction: which nap duration is most recuperative? (Giấc trưa ngắn bao lâu phục hồi tốt nhất sau đêm ngủ thiếu), Sleep', 'https://pubmed.ncbi.nlm.nih.gov/16796222/'),
+    ('European Society of Cardiology (2020) – Long naps may be bad for health (Ngủ trưa trên 60 phút và nguy cơ tim mạch, tử vong – nghiên cứu quan sát)', 'https://escardio.org/The-ESC/Press-Office/Press-releases/Long-naps-may-be-bad-for-health'),
+    ('Yamada T và cộng sự (2016) – J-curve relation between daytime nap duration and type 2 diabetes or metabolic syndrome: a dose-response meta-analysis (Đường cong chữ J giữa thời lượng ngủ trưa và tiểu đường típ 2, hội chứng chuyển hóa), Scientific Reports', 'https://pmc.ncbi.nlm.nih.gov/articles/PMC5133463/'),
+    ('Sleep Foundation – The NASA Nap (Nghiên cứu ngủ trưa của NASA trên phi công)', 'https://www.sleepfoundation.org/sleep-hygiene/nasa-nap'),
+]
+NEW_RULES8.append(('xht8_ngutrua', ['giấc trưa', 'quán tính giấc ngủ', 'coffee nap', 'buồn ngủ ban ngày'], 25))
+
+SRC['xht8_dinhlang2'] = [
+    ('Đỗ Tất Lợi – Đinh lăng, trong "Những cây thuốc và vị thuốc Việt Nam" (Chuyên mục dược liệu đinh lăng)', 'https://vnras.com/dinh-lang-nhung-cay-thuoc-va-vi-thuoc-viet-nam-do-tat-loi/'),
+    ('(2018) – Hypoglycemic property of triterpenoid saponin PFS isolated from Polyscias fruticosa leaves (Saponin PFS từ lá đinh lăng và đường huyết – nghiên cứu trên động vật), Anais da Academia Brasileira de Ciências', 'https://scielo.br/j/aabc/a/H9WKVtHZ3wCLMmzx4rVLYNR/abstract/?lang=en'),
+    ('(2020) – Study on psbA-trnH DNA barcoding characteristics in some species of Polyscias genus (Mã vạch DNA phân biệt một số loài đinh lăng), Tạp chí Môi trường', 'https://tapchimoitruong.vn/edition-2020-93/study-on-psba-trnh-dna-barcoding-characteristics-in-some-species-of-polyscias-genus-25305'),
+    ('Study on macroscopy and microscopy of "Đinh lăng lá nhuyễn" (Polyscias sp.) (Đặc điểm hình thái và vi học đinh lăng lá nhuyễn), TNU Journal of Science and Technology', 'https://vjol.info.vn/tnu/article/view/80464'),
+]
+NEW_RULES8.append(('xht8_dinhlang2', ['say đinh lăng', 'đinh lăng lá nhỏ', 'pfs', 'viền bạc', 'psba', 'đinh lăng lá nhuyễn'], 9))
+RULES[:0] = NEW_RULES8
+
 
 def refs_for(body):
     low = body.lower(); out = []

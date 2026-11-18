@@ -857,3 +857,111 @@ products: ngay-dau-ve
 Màu sắc máu kinh thay đổi trong kỳ là bình thường ở nhiều người. Bài viết giải thích ý nghĩa và dấu hiệu cần đi khám.
 
 [[buy:ngay-dau-ve]]
+
++++
+slug: ca-gai-leo-trong-cac-nghien-cuu-khoa-hoc
+title: Cà gai leo trong các nghiên cứu khoa học: những gì đã biết và chưa biết
+desc: Cà gai leo đã được nghiên cứu những gì? Tổng hợp nghiên cứu trên tế bào, động vật và người, hoạt chất glycoalkaloid, giới hạn bằng chứng và cách đọc tin đúng.
+cat: cam-nang
+date: 2026-11-19
+products: ca-gai-diep-ha-chau
++++
+Cà gai leo được nhắc nhiều trong các nghiên cứu ở Việt Nam. Bài viết tổng hợp những gì đã biết, chưa biết và cách đọc thông tin cho đúng.
+
+[[buy:ca-gai-diep-ha-chau]]
+
++++
+slug: co-sinh-vien-nam-ba-va-mua-thi-thuc
+title: Cô sinh viên năm ba và mùa thi thức trắng
+desc: Câu chuyện mùa thi của một cô sinh viên năm ba: thức trắng ôn bài, trà sữa thay bữa, và cách cô học lại nhịp ngủ, ăn uống, nghỉ ngơi để đi qua kỳ thi nhẹ nhàng hơn.
+cat: cau-chuyen
+date: 2026-11-19
+products: duong-nhan
++++
+Mùa thi, thức trắng và những ly trà sữa. Câu chuyện về cách một cô sinh viên học lại nhịp sống lành mạnh hơn.
+
+[[buy:duong-nhan]]
+
++++
+slug: ky-tu-an-song-hay-nau-chin
+title: Kỷ tử ăn sống hay nấu chín? Cách dùng kỷ tử mỗi ngày
+desc: Kỷ tử ăn sống hay nấu chín? Cách chọn, rửa, ăn trực tiếp, hãm trà, nấu cháo; lượng dùng hằng ngày, người cần thận trọng và tương tác với thuốc chống đông warfarin.
+cat: thao-moc
+date: 2026-11-19
+products: duong-nhan
++++
+Kỷ tử có thể ăn trực tiếp, hãm nước hay nấu món. Bài viết hướng dẫn cách dùng hằng ngày và những lưu ý an toàn.
+
+[[buy:duong-nhan]]
+
++++
+slug: top-8-vi-thao-moc-trong-che-duong-nhan
+title: Top 8 vị thảo mộc trong chè dưỡng nhan truyền thống
+desc: Chè dưỡng nhan truyền thống gồm những vị nào? 8 vị thảo mộc quen thuộc: tuyết yến, nhựa đào, táo đỏ, kỷ tử, long nhãn, hạt sen… cách nấu và lưu ý khi ăn chè ngọt.
+cat: top
+date: 2026-11-19
+products: duong-nhan
++++
+Chè dưỡng nhan là món ngọt quen thuộc. Bài viết giới thiệu 8 vị thảo mộc thường gặp và cách thưởng thức vừa phải.
+
+[[buy:duong-nhan]]
+
++++
+slug: cang-thang-va-he-tieu-hoa-truc-nao-ruot
+title: Căng thẳng và hệ tiêu hóa: trục não – ruột
+desc: Trục não – ruột là gì và vì sao căng thẳng làm bạn đau bụng, đầy hơi, rối loạn tiêu hóa? Cơ chế khoa học, hội chứng ruột kích thích, cách chăm sóc và khi nào đi khám.
+cat: cam-nang
+date: 2026-11-19
+products: duong-tam-an
++++
+Căng thẳng có thể ảnh hưởng đến bụng dạ qua trục não – ruột. Bài viết giải thích cơ chế và cách chăm sóc.
+
+[[buy:duong-tam-an]]
+
++++
+slug: polyphenol-flavonoid-la-gi-va-co-trong-dau
+title: Polyphenol, flavonoid là gì và có trong đâu
+desc: Polyphenol, flavonoid là gì, có trong thực phẩm nào? Phân loại, nguồn trong rau quả, trà, ca cao; bằng chứng khoa học, hiểu đúng nhãn 'chống oxy hóa' và cách ăn đa dạng.
+cat: cam-nang
+date: 2026-11-19
+products: la-oi-mix-la-sen
++++
+Polyphenol và flavonoid có trong rau quả, trà, ca cao. Bài viết giải thích khái niệm và cách ăn đa dạng.
+
+[[buy:la-oi-mix-la-sen]]
+
++++
+slug: ba-kich-tim-va-ba-kich-trang-khac-nhau
+title: Ba kích tím và ba kích trắng khác nhau thế nào
+desc: Ba kích tím và ba kích trắng khác nhau thế nào? Cách phân biệt hình dáng, màu ruột, vùng trồng, cách sơ chế bỏ lõi, ngâm và lưu ý mua ba kích tránh hàng nhuộm màu.
+cat: cam-nang
+date: 2026-11-19
+products: nam-vuong
++++
+Ba kích tím và ba kích trắng khác nhau ở hình dáng, màu ruột và cách dùng. Bài viết giúp phân biệt và chọn mua đúng.
+
+[[buy:nam-vuong]]
+
++++
+slug: ra-mau-giua-chu-ky-nguyen-nhan-va-khi
+title: Ra máu giữa chu kỳ: nguyên nhân và khi nào đi khám
+desc: Ra máu giữa chu kỳ kinh là gì? Nguyên nhân thường gặp như rụng trứng, thuốc tránh thai, polyp, viêm nhiễm; dấu hiệu cảnh báo và khi nào cần đi khám phụ khoa.
+cat: cam-nang
+date: 2026-11-19
+products: ngay-dau-ve
++++
+Ra máu giữa hai kỳ kinh có nhiều nguyên nhân. Bài viết giải thích và chỉ ra khi nào cần đi khám.
+
+[[buy:ngay-dau-ve]]
+
++++
+slug: ngu-trua-bao-lau-la-tot
+title: Ngủ trưa bao lâu là tốt
+desc: Ngủ trưa bao lâu là tốt? Nghiên cứu về giấc ngủ ngắn 10–30 phút, quán tính giấc ngủ, ngủ trưa dài và sức khỏe, cách ngủ trưa ở văn phòng mà không ảnh hưởng giấc đêm.
+cat: cam-nang
+date: 2026-11-19
+products: xau-ho-tim-tam-sen
++++
+Ngủ trưa ngắn giúp tỉnh táo buổi chiều. Bài viết tổng hợp nghiên cứu về thời lượng ngủ trưa hợp lý.
+
+[[buy:xau-ho-tim-tam-sen]]

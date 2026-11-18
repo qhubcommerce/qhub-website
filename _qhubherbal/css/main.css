@@ -1226,3 +1226,16 @@ main,.ftr{position:relative;z-index:0}
   .hg__lead{font-size:16px}
   .hg__usp{grid-template-columns:repeat(2,minmax(0,1fr));margin-top:20px}
 }
+/* ===== v11 · SƯƠNG SỚM (19/11): nền trắng mát, sương mint, giọt sương – thay tông kem/nâu ===== */
+html{background:#f3f8f6}
+body{background:
+  url("/assets/img/dew.svg") 0 0/260px repeat,
+  radial-gradient(1100px 760px at -6% -10%,rgba(255,255,255,.95) 0,rgba(255,255,255,0) 60%),
+  radial-gradient(1000px 760px at 106% 0,rgba(196,230,214,.55) 0,rgba(214,238,226,.22) 42%,rgba(214,238,226,0) 68%),
+  radial-gradient(900px 700px at -8% 64%,rgba(206,236,222,.40) 0,rgba(206,236,222,0) 64%),
+  radial-gradient(900px 700px at 108% 92%,rgba(222,240,232,.50) 0,rgba(222,240,232,0) 62%),
+  linear-gradient(180deg,#f9fcfb 0,#f1f7f4 50%,#f6faf8 100%) fixed}
+body::before{background:repeating-conic-gradient(from 104deg at -6% -12%,rgba(255,255,255,0) 0deg 4deg,rgba(255,255,255,.75) 5.5deg 7deg,rgba(255,255,255,0) 8.5deg 13deg)}
+.sec--mint,.sec--forest,.order{background:linear-gradient(180deg,rgba(255,255,255,0) 0,rgba(226,242,235,.62) 18%,rgba(226,242,235,.62) 82%,rgba(255,255,255,0) 100%)}
+.hero--garden{background:linear-gradient(180deg,#eef3f1 0,#f5f9f7 72%,rgba(246,250,248,0) 100%)}
+@media (min-width:1200px){.hg__stage::after{background:linear-gradient(90deg,rgba(244,248,246,.9) 0,rgba(244,248,246,.7) 22%,rgba(244,248,246,0) 40%)}}

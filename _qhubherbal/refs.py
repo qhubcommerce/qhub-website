@@ -1224,6 +1224,154 @@ NEW_RULES9.append(('n9_matngu_tramcam', ['trầm cảm', 'cbt-i', 'baglioni', 'h
 RULES[:0] = NEW_RULES9
 
 
+# Đêm 10 (21/11/2026): cụm đặc thù cho 18 bài mới, URL lấy từ kết quả WebSearch
+NEW_RULES10 = []
+SRC['n10_cagaikygi'] = [
+    ('EFSA CONTAM Panel (2020) – Risk assessment of glycoalkaloids in feed and food, in particular in potatoes and potato-derived products (Đánh giá rủi ro glycoalkaloid trong thực phẩm và thức ăn chăn nuôi, đặc biệt ở khoai tây), EFSA Journal', 'https://pmc.ncbi.nlm.nih.gov/articles/PMC7417869'),
+    ("Asian Pacific Journal of Tropical Biomedicine (2023) – Anti-inflammatory effects of Solanum procumbens on a low dose complete Freund's adjuvant-induced arthritis rat model (Tác dụng chống viêm của cà gai leo trên mô hình chuột cống viêm khớp)", 'https://journal.hep.com.cn/apjtb/EN/10.4103/2221-1691.377408'),
+    ('NCCIH (Trung tâm Quốc gia về Sức khỏe Bổ sung và Tích hợp Hoa Kỳ) – Herb-Drug Interactions: What the Science Says (Tương tác giữa thảo mộc và thuốc: khoa học nói gì)', 'https://www.nccih.nih.gov/health/providers/digest/herb-drug-interactions-science'),
+    ('Pittler MH và cộng sự (2005) – Interventions for preventing or treating alcohol hangover: systematic review of randomised controlled trials (Các biện pháp phòng ngừa, xử lý tình trạng say rượu: tổng quan hệ thống thử nghiệm ngẫu nhiên có đối chứng), BMJ', 'https://pmc.ncbi.nlm.nih.gov/articles/PMC1322250'),
+    ("King's College London (2022) – No convincing scientific evidence that hangover cures work (Chưa có bằng chứng khoa học thuyết phục về các biện pháp giải rượu; tổng quan đăng trên tạp chí Addiction)", 'https://www.kcl.ac.uk/news/no-convincing-scientific-evidence-that-hangover-cures-work'),
+]
+NEW_RULES10.append(('n10_cagaikygi', ['cà gai leo kỵ gì', 'kỵ', 'rượu bia', 'cho con bú', 'mang thai', 'huyết áp thấp', 'họ cà', 'tương tác'], 43))
+SRC['n10_xadenmuong'] = [
+    ('Vietnam Journal of Biology (Tạp chí Sinh học) – Indigenous knowledge of medicinal plants among Dao and Muong ethnic minority groups in Ba Vi National Park, Hanoi (Tri thức bản địa về cây thuốc của người Dao và người Mường ở Vườn quốc gia Ba Vì)', 'https://vjs.ac.vn/index.php/vjbio/article/view/673'),
+    ('Vietnam Journal of Science, Technology and Engineering (2017) – Evaluating the systematic position of Ehretia asperula Zoll. & Moritzi based on ITS1, matK and trnL-trnF DNA sequences (Đánh giá vị trí phân loại của Ehretia asperula dựa trên trình tự DNA)', 'https://vietnamscience.vjst.vn/index.php/vjste/article/view/274'),
+    ('Bùi Thị Thanh Duyên, Vũ Mạnh Hùng, Bùi Thanh Tùng (2020) – Cytotoxicity and Antioxidant Effects of Celastrus hindsii Benth. Leaf Extract (Độc tính tế bào và hoạt tính chống oxy hóa của chiết xuất lá xạ đen), VNU Journal of Science: Medical and Pharmaceutical Sciences', 'https://js.vnu.edu.vn/MPS/article/view/4203'),
+    ('Johnson và cộng sự (2018) – Use of Alternative Medicine for Cancer and Its Impact on Survival (Sử dụng liệu pháp thay thế cho bệnh ung thư và ảnh hưởng đến tỷ lệ sống), Journal of the National Cancer Institute', 'https://academic.oup.com/jnci/article/110/1/121/4064136'),
+    ('Johnson và cộng sự (2018) – Complementary Medicine, Refusal of Conventional Cancer Therapy, and Survival Among Patients With Curable Cancers (Liệu pháp bổ sung, việc từ chối phương pháp điều trị chuẩn và tỷ lệ sống ở người bệnh ung thư giai đoạn còn nhiều cơ hội), JAMA Oncology', 'https://jamanetwork.com/journals/jamaoncology/fullarticle/2687972'),
+]
+NEW_RULES10.append(('n10_xadenmuong', ['xạ đen', 'người mường', 'mường', 'dân gian', 'ung thư', 'tri thức', 'hòa bình', 'ống nghiệm'], 73))
+SRC['n10_mediam'] = [
+    ('CDC (Trung tâm Kiểm soát và Phòng ngừa Dịch bệnh Hoa Kỳ) – Breastfeeding and Returning to Your Workplace (Nuôi con bằng sữa mẹ khi quay lại nơi làm việc)', 'https://www.cdc.gov/infant-toddler-nutrition/breastfeeding/returning-to-your-workplace.html'),
+    ('CDC – Breast Milk Storage and Preparation (Bảo quản và chuẩn bị sữa mẹ: 4 giờ ở nhiệt độ phòng, 4 ngày ngăn mát, 6–12 tháng ngăn đá)', 'https://www.cdc.gov/breastfeeding/breast-milk-preparation-and-storage/handling-breastmilk.html'),
+    ('Thư Viện Pháp Luật – Chế độ cho người lao động nữ nuôi con dưới 12 tháng tuổi (Bộ luật Lao động 2019: nghỉ 60 phút mỗi ngày, hưởng đủ lương)', 'https://thuvienphapluat.vn/lao-dong-tien-luong/che-do-cho-nguoi-lao-dong-nu-nuoi-con-duoi-12-thang-tuoi-3232.html'),
+    ('LuatVietnam – Doanh nghiệp trên 1.000 lao động nữ phải có phòng vắt sữa mẹ (Nghị định 145/2020/NĐ-CP)', 'https://luatvietnam.vn/tin-van-ban-moi/doanh-nghiep-phai-co-phong-vat-sua-me-186-28091-article.html'),
+    ('NIMH (Viện Sức khỏe Tâm thần Quốc gia Hoa Kỳ) – Perinatal Depression (Trầm cảm chu sinh: phân biệt với baby blues, dấu hiệu và khi nào tìm trợ giúp)', 'https://nimh.nih.gov/sites/default/files/documents/perinatal-depression.pdf'),
+]
+NEW_RULES10.append(('n10_mediam', ['đi làm lại', 'hút sữa', 'trữ sữa', '60 phút', 'trầm cảm sau sinh', 'baby blues', 'bú bình', 'người chăm'], 39))
+SRC['n10_bobatdkt'] = [
+    ('Gao Q.H. và cộng sự (2013) – The Jujube (Ziziphus jujuba Mill.) Fruit: A Review of Current Knowledge of Fruit Composition and Health Benefits (Quả táo tàu: tổng quan về thành phần và lợi ích sức khỏe), Journal of Agricultural and Food Chemistry', 'https://katalog.lib.cas.cz/KNAV/EdsRecord/edsair,edsair.doi.dedup.....26e3b1fa5f71cfaf03c7dcc8d2da847c'),
+    ('Amagase H., Nance D.M. (2008) – Thử nghiệm ngẫu nhiên, mù đôi, có giả dược về nước ép kỷ tử chuẩn hóa (GoChi) trên cảm nhận sức khỏe chung, Journal of Alternative and Complementary Medicine', 'https://pubmed.ncbi.nlm.nih.gov/18447631/'),
+    ('Li X. và cộng sự (2021) – Goji Berry Intake Increases Macular Pigment Optical Density in Healthy Adults: A Randomized Pilot Trial (Ăn kỷ tử làm tăng mật độ sắc tố hoàng điểm: thử nghiệm thí điểm), Nutrients', 'https://pubmed.ncbi.nlm.nih.gov/34959963/'),
+    ('Boskabady M.H. và cộng sự (2011) – Pharmacological effects of Rosa damascena (Tác dụng dược lý của hồng Damask), Iranian Journal of Basic Medical Sciences', 'https://pubmed.ncbi.nlm.nih.gov/23493250/'),
+    ('Carnés J. và cộng sự (2013) – Goji berries (Lycium barbarum): risk of allergic reactions in individuals with food allergy (Nguy cơ dị ứng với kỷ tử ở người dị ứng thực phẩm), Journal of Investigational Allergology and Clinical Immunology', 'https://pubmed.ncbi.nlm.nih.gov/23101309/'),
+]
+NEW_RULES10.append(('n10_bobatdkt', ['táo đỏ, kỷ tử', 'kỷ tử, hoa hồng', 'bộ ba', 'boskabady', 'amagase', 'quán chè', 'mai khôi hoa'], 18))
+SRC['n10_dncaffeine'] = [
+    ('Mayo Clinic – Caffeine content for coffee, tea, soda and more (Hàm lượng caffeine: cà phê pha khoảng 96 mg, trà đen khoảng 47 mg, trà xanh khoảng 28 mg mỗi 237 ml)', 'https://mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/caffeine/art-20049372'),
+    ('FDA – Spilling the Beans: How Much Caffeine is Too Much? (400 mg caffeine/ngày ở người lớn khỏe mạnh)', 'https://www.fda.gov/consumers/consumer-updates/spilling-beans-how-much-caffeine-too-much'),
+    ('Drake C. và cộng sự (2013) – Caffeine effects on sleep taken 0, 3, or 6 hours before going to bed (Ảnh hưởng của caffeine lên giấc ngủ khi dùng 0, 3 hoặc 6 giờ trước khi ngủ), Journal of Clinical Sleep Medicine', 'https://pmc.ncbi.nlm.nih.gov/articles/PMC3805807'),
+    ('ACOG (2010) – Committee Opinion No. 462: Moderate caffeine consumption during pregnancy (Tiêu thụ caffeine vừa phải khi mang thai: dưới 200 mg/ngày)', 'https://pubmed.ncbi.nlm.nih.gov/20664420/'),
+    ('Centre for Food Safety Hồng Kông – Caffeine Content in Coffee and Milk Tea Prepared in Local Food Premises (Hàm lượng caffeine trong cà phê và trà sữa pha tại quán)', 'https://www.cfs.gov.hk/english/programme/programme_rafs/programme_rafs_fci_01_04_Caffeine_Content_in_Coffee_and_Milk_Tea_Prepared_in_Local_Food_Premises.html'),
+]
+NEW_RULES10.append(('n10_dncaffeine', ['có caffeine không', 'không chứa caffeine', 'bán thải', 'adenosine', 'lúc 21', 'drake', 'mg/ngày', 'decaf'], 18))
+SRC['n10_cangthang_huyetap'] = [
+    ("Mayo Clinic – Căng thẳng và huyết áp cao: mối liên hệ là gì? (Stress and high blood pressure: What's the connection?)", 'https://www.mayoclinic.org/diseases-conditions/high-blood-pressure/in-depth/stress-and-high-blood-pressure/art-20044190'),
+    ('Tổng quan hệ thống và phân tích gộp (2017) – Mối liên quan giữa căng thẳng tâm lý – xã hội và tăng huyết áp (Association between psychosocial stress and hypertension), PubMed', 'https://pubmed.ncbi.nlm.nih.gov/28415916/'),
+    ('Trường môn Tim mạch Hoa Kỳ (ACC) (2025) – Hướng dẫn mới về huyết áp cao nhấn mạnh phòng ngừa và can thiệp sớm để giảm nguy cơ bệnh tim mạch (thông cáo về Hướng dẫn ACC/AHA 2025)', 'https://www.acc.org/about-acc/press-releases/2025/08/13/20/03/new-high-blood-pressure-guideline-emphasizes-prevention-early-treatment-to-reduce-cvd-risk'),
+    ('Hội Tim mạch Hoa Kỳ (AHA) (2022) – Đo huyết áp tại nhà có thể khó, đây là cách làm đúng, AHA News', 'https://www.heart.org/en/news/2022/05/23/monitoring-blood-pressure-at-home-can-be-tricky-heres-how-to-do-it-right'),
+    ('Tổng quan hệ thống và phân tích gộp (2019) – Thở chậm có và không có thiết bị hướng dẫn để giảm huyết áp (Device and non-device-guided slow breathing to reduce blood pressure), PubMed', 'https://pubmed.ncbi.nlm.nih.gov/31331557/'),
+]
+NEW_RULES10.append(('n10_cangthang_huyetap', ['căng thẳng và huyết áp', 'áo choàng trắng', 'tăng huyết áp ẩn giấu', 'đo huyết áp tại nhà', 'adrenaline', 'acc/aha', '180/120', 'thở chậm'], 18))
+SRC['n10_phunu30'] = [
+    ('Tổ chức Y tế Thế giới (WHO) (2019) – Burn-out, một "hiện tượng nghề nghiệp": Bảng phân loại bệnh tật quốc tế (ICD-11)', 'https://www.who.int/news-room/detail/28-05-2019-burn-out-an-occupational-phenomenon-international-classification-of-diseases'),
+    ('Daminger A. (2019) – Khía cạnh nhận thức của việc nhà (The Cognitive Dimension of Household Labor), American Sociological Review – Harvard Kennedy School', 'https://inequality.hks.harvard.edu/publications/cognitive-dimension-household-labor'),
+    ('Tổng quan hệ thống (2023) – Lao động trí óc theo giới: khía cạnh nhận thức của việc nhà và chăm sóc con (Gendered Mental Labor), PMC', 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10148620/'),
+    ('Hochschild A. R. (1983) – Trái tim được quản lý: thương mại hóa cảm xúc con người (The Managed Heart), University of California Press', 'https://www.ucpress.edu/flier/books/the-managed-heart/paper'),
+    ('UN Women – Câu hỏi thường gặp: Công việc chăm sóc không được trả công là gì và nó vận hành nền kinh tế ra sao?', 'https://www.unwomen.org/en/articles/faqs/faqs-what-is-unpaid-care-work-and-how-does-it-power-the-economy'),
+]
+NEW_RULES10.append(('n10_phunu30', ['phụ nữ tuổi 30', 'áp lực vô hình', 'gánh nặng tinh thần', 'gánh nặng kép', 'lao động cảm xúc', 'daminger', 'giao trọn gói', 'việc vô hình'], 14))
+SRC['n10_xuongcan'] = [
+    ('CDC – Các bước để xuống cân (Steps for Losing Weight), Trung tâm Kiểm soát và Phòng ngừa Bệnh tật Hoa Kỳ', 'https://www.cdc.gov/healthy-weight-growth/losing-weight'),
+    ('NHS – Béo phì: các phương pháp xử trí (Obesity – Treatment), Dịch vụ Y tế Quốc gia Anh', 'https://www.nhs.uk/conditions/obesity/treatment'),
+    ('WHO Expert Consultation (2004) – Chỉ số khối cơ thể phù hợp cho người châu Á và hàm ý chính sách (Appropriate body-mass index for Asian populations and its implications for policy and intervention strategies), The Lancet', 'https://pubmed.ncbi.nlm.nih.gov/14726171/'),
+    ('NIDDK – Ăn kiêng và sỏi mật (Dieting & Gallstones), Viện Quốc gia về Đái tháo đường, Tiêu hóa và Bệnh thận Hoa Kỳ', 'https://niddk.nih.gov/health-information/digestive-diseases/gallstones/dieting'),
+    ('WHO – Hoạt động thể lực (Physical activity, fact sheet), Tổ chức Y tế Thế giới', 'https://www.who.int/News-Room/Fact-Sheets/Detail/Physical-Activity'),
+]
+NEW_RULES10.append(('n10_xuongcan', ['xuống cân', 'mỗi tháng', 'mỗi tuần', 'bmi', 'vòng eo', 'thâm hụt', 'sỏi mật', 'chững cân'], 34))
+SRC['n10_nuocbuaan'] = [
+    ('Mayo Clinic – Uống nước trong hoặc sau bữa ăn có ảnh hưởng tiêu hóa không? (Water after meals: Does it disturb digestion?)', 'https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/expert-answers/digestion/faq-20058348'),
+    ('Dennis EA và cộng sự (2010) – Uống nước làm tăng mức xuống cân trong chế độ ăn ít năng lượng ở người trung niên và cao tuổi (Water consumption increases weight loss during a hypocaloric diet intervention in middle-aged and older adults), Obesity', 'https://pubmed.ncbi.nlm.nih.gov/19661958/'),
+    ('Disler PB và cộng sự (1975) – Ảnh hưởng của trà đến hấp thu sắt (The effect of tea on iron absorption), Gut', 'https://pubmed.ncbi.nlm.nih.gov/1168162/'),
+    ('EFSA (2010) – EFSA thiết lập giá trị tham chiếu dinh dưỡng châu Âu, gồm nhu cầu nước (EFSA sets European dietary reference values for nutrient intakes), Cơ quan An toàn Thực phẩm châu Âu', 'https://www.efsa.europa.eu/en/press/news/nda100326'),
+    ('NIDDK – Ăn uống và dinh dưỡng cho người trào ngược dạ dày – thực quản (Eating, Diet, & Nutrition for GER & GERD), Viện Quốc gia về Đái tháo đường, Tiêu hóa và Bệnh thận Hoa Kỳ', 'https://niddk.nih.gov/health-information/digestive-diseases/acid-reflux-ger-gerd-adults/eating-diet-nutrition'),
+]
+NEW_RULES10.append(('n10_nuocbuaan', ['uống nước', 'trong bữa', 'sau bữa', 'dịch vị', 'hấp thu sắt', 'tanin', 'trào ngược'], 43))
+SRC['n10_nhucthungtd'] = [
+    ('Gu, Yang & Huang (2016) – Nhục thung dung: tổng quan dược lý thần kinh (Cistanches Herba: A Neuropharmacology Review), Frontiers in Pharmacology', 'https://pmc.ncbi.nlm.nih.gov/articles/PMC4771771'),
+    ('World Journal of Gastroenterology (2021) – Tác dụng của Cistanche deserticola lên đại tiện ở mô hình chuột táo bón tuổi già qua con đường SCF/C-kit', 'https://www.wjgnet.com/1007-9327/full/v27/i32/5392.htm'),
+    ('Nutrients (2026) – Cistanche deserticola: vị thuốc "dược thực đồng nguyên" với tác dụng nhuận tràng (Cistanche deserticola: A Homology-of-Medicine-and-Food Herb with Intestinal-Moistening and Laxative Effects)', 'https://doi.org/10.3390/nu18213645'),
+    ('(2019) – Khác biệt thành phần hóa học và hoạt tính sinh học giữa lát Cistanche deserticola sống và sản phẩm chưng rượu', 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6441511/'),
+    ('(2015) – Tác dụng bảo vệ thần kinh của nhục thung dung ở người bệnh Alzheimer mức độ vừa (Neuroprotective Effects of Cistanches Herba Therapy on Patients with Moderate Alzheimer’s Disease)', 'https://search.emarefa.net/en/detail/BIM-1061142-neuroprotective-effects-of-cistanches-herba-therapy-on-patie'),
+]
+NEW_RULES10.append(('n10_nhucthungtd', ['nhục thung dung', 'nhân sâm sa mạc', 'nhuận tràng', 'thận dương', 'táo bón', 'ôn bổ', 'deserticola'], 54))
+SRC['n10_ngoccaudacsan'] = [
+    ('Đại học Kobe (2024) – Vai trò kép của côn trùng trong thụ phấn và phát tán hạt của cây ký sinh Balanophora (nhóm Kenji Suetsugu)', 'https://www.kobe-u.ac.jp/en/news/article/20241205-66119/'),
+    ('Popular Science (2025) – Những cây ký sinh sinh sản vô tính "phá luật" sinh học (Asexual parasitic plants break biology’s rules)', 'https://www.popsci.com/environment/asexual-parasitic-plants/'),
+    ('Annales Botanici Fennici (2020) – Balanophora aphylla, loài ký sinh toàn phần mới từ Việt Nam', 'https://bioone.org/journals/Annales-Botanici-Fennici/volume-57/issue-1-3/085.057.0109/Balanophora-aphylla-Balanophoraceae-a-New-Holoparasitic-Species-from-Vietnam/10.5735/085.057.0109.full'),
+    ('Báo Dân trí (2017) – Vào rừng săn lùng nấm ngọc cẩu', 'https://dantri.com.vn/doi-song/vao-rung-san-lung-nam-ngoc-cau-de-giu-lua-phong-the-20171029071649701.htm'),
+    ('Tổ chức Y tế Thế giới – WHO (2023) – Không có mức uống rượu nào an toàn cho sức khỏe (No level of alcohol consumption is safe for our health)', 'https://www.who.int/europe/fr/news/item/04-01-2023-no-level-of-alcohol-consumption-is-safe-for-our-health'),
+]
+NEW_RULES10.append(('n10_ngoccaudacsan', ['thụ phấn', 'quần thể', 'cụm hoa', 'thu hái', 'suetsugu', 'kobe', 'vô tính'], 22))
+SRC['n10_ngoccautacdung'] = [
+    ('Wang và cs. (2012) – Hóa thực vật và nghiên cứu sinh học các loài chi Balanophora (Phytochemicals and biological studies of plants from the genus Balanophora), Chemistry Central Journal', 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3475005/'),
+    ('Viện Hàn lâm Khoa học Trung Quốc (2023) – Tổng quan công dụng truyền thống, hóa học thực vật và dược lý chi Balanophora, Journal of Ethnopharmacology', 'https://english.cas.cn/newsroom/news--archives/2023/research-news/202311/t20231114_1128613.shtml'),
+    ('Heliyon (2022) – Tác dụng kháng viêm của một triterpenoid từ Balanophora laxiflora: kết quả phân lập theo hoạt tính', 'https://pmc.ncbi.nlm.nih.gov/articles/PMC8917289'),
+    ('Hereditas (2024) – So sánh đặc điểm dược liệu và chất chuyển hóa thứ cấp của dược liệu Balanophorae từ các nguồn khác nhau', 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11191205/'),
+    ('Hurrell và cs. (1999) – Đồ uống chứa polyphenol ức chế hấp thu sắt không phải hem ở người, British Journal of Nutrition', 'https://pubmed.ncbi.nlm.nih.gov/10999016/'),
+]
+NEW_RULES10.append(('n10_ngoccautacdung', ['tanin', 'triterpenoid', 'mới ốm dậy', 'tỏa dương', 'hấp thu sắt', 'tiền lâm sàng'], 22))
+SRC['n10_migrainekinh'] = [
+    ('The Journal of Headache and Pain (2023) – Menstrual migraine is caused by estrogen withdrawal: revisiting the evidence (Migraine kinh nguyệt do rút estrogen: xem lại bằng chứng)', 'https://link.springer.com/10.1186/s10194-023-01664-4'),
+    ('International Headache Society – ICHD-3, Phụ lục A1.1.1: Migraine kinh nguyệt thuần túy không có aura (tiêu chuẩn chẩn đoán)', 'https://ichd-3.org/appendix/a1-migraine/a1-1-migraine-without-aura/a1-1-1-pure-menstrual-migraine-without-aura/'),
+    ('The Migraine Trust – Menstrual migraine (Migraine kinh nguyệt)', 'https://www.migrainetrust.org/about-migraine/types-of-migraine/menstrual-migraine/'),
+    ('NHS – Hormone headaches (Đau đầu do nội tiết)', 'https://www.nhs.uk/conditions/hormone-headaches'),
+    ('Calhoun AH (2017) – Combined hormonal contraceptives and migraine: An update on the evidence (Thuốc tránh thai nội tiết phối hợp và migraine: cập nhật bằng chứng), Cleveland Clinic Journal of Medicine', 'https://www.ccjm.org/content/84/8/631.abstract'),
+]
+NEW_RULES10.append(('n10_migrainekinh', ['migraine kinh nguyệt', 'đau đầu kỳ kinh', 'estrogen', 'aura', 'nhật ký', 'thuốc tránh thai'], 49))
+SRC['n10_gungtaongai'] = [
+    ('Daily JW và cs. (2015) – Hiệu quả của gừng với đau bụng kinh nguyên phát: tổng quan hệ thống và phân tích gộp các thử nghiệm lâm sàng ngẫu nhiên, Pain Medicine', 'https://academic.oup.com/painmedicine/article/16/12/2243/2460294'),
+    ('Journal of Integrative and Complementary Medicine (2024) – Ginger for Pain Management in Primary Dysmenorrhea: A Systematic Review and Meta-Analysis (Gừng trong kiểm soát đau ở đau bụng kinh nguyên phát: tổng quan hệ thống và phân tích gộp)', 'https://pubmed.ncbi.nlm.nih.gov/38770631/'),
+    ('NCCIH (NIH, Hoa Kỳ) – Ginger (Gừng: công dụng và an toàn)', 'https://www.nccih.nih.gov/health/ginger'),
+    ('PubMed Central – Effects of Oral Ginger Supplementation on the INR (Ảnh hưởng của gừng bổ sung đường uống lên chỉ số INR)', 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6594244/'),
+    ('Molecules (2024) – Functional Nutrients and Jujube-Based Processed Products in Ziziphus jujuba (Dưỡng chất chức năng và sản phẩm chế biến từ táo tàu)', 'https://mdpi.com/1420-3049/29/14/3437'),
+]
+NEW_RULES10.append(('n10_gungtaongai', ['gừng, táo đỏ', 'gừng – táo đỏ', 'táo đỏ, ngải cứu', 'tán hàn', 'daily', 'thujone', 'cần tây', 'bộ ba'], 21))
+SRC['n10_daybungphune'] = [
+    ("Office on Women's Health (womenshealth.gov, Hoa Kỳ) – Premenstrual syndrome (Hội chứng tiền kinh nguyệt)", 'https://www.womenshealth.gov/menstrual-cycle/premenstrual-syndrome'),
+    ('Mayo Clinic – Premenstrual syndrome (PMS): Symptoms and causes (Hội chứng tiền kinh nguyệt: triệu chứng và nguyên nhân)', 'https://www.mayoclinic.org/diseases-conditions/premenstrual-syndrome/symptoms-causes/syc-20376783'),
+    ('WHO (2013) – WHO issues new guidance on dietary salt and potassium (Hướng dẫn mới về muối và kali trong chế độ ăn)', 'https://www.who.int/news-room/detail/31-01-2013-who-issues-new-guidance-on-dietary-salt-and-potassium'),
+    ('PubMed – Hormonal and volume dysregulation in women with premenstrual syndrome (Rối loạn điều hòa nội tiết và thể tích dịch ở phụ nữ có hội chứng tiền kinh nguyệt)', 'https://pubmed.ncbi.nlm.nih.gov/18259015/'),
+    ('NHS – Ovarian cancer: symptoms (Ung thư buồng trứng: triệu chứng)', 'https://www.nhs.uk/conditions/ovarian-cancer/symptoms/'),
+]
+NEW_RULES10.append(('n10_daybungphune', ['đầy bụng', 'phù', 'giữ nước', 'muối', 'kali', 'progesterone', 'chất xơ'], 42))
+SRC['n10_phatamsen'] = [
+    ('Tổng quan (2021) – Plumula Nelumbinis: tổng quan về cách dùng truyền thống, hóa thực vật, dược lý, dược động học và an toàn của tâm sen, Journal of Ethnopharmacology', 'https://pubmed.ncbi.nlm.nih.gov/33011369/'),
+    ('Tổng quan – Tiềm năng dược lý và cơ chế của các alkaloid bisbenzylisoquinoline từ mầm hạt sen (liensinine, isoliensinine, neferine), PubMed Central', 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12562030/'),
+    ('Tổng quan cập nhật về đặc tính dược lý của neferine – alkaloid bisbenzylisoquinoline từ cây sen Nelumbo nucifera, AGRIS (FAO)', 'https://agris.fao.org/search/fr/records/65dec6697c7033e84bebcd8d'),
+    ('Đỗ Tất Lợi – Cây Sen, Những cây thuốc và vị thuốc Việt Nam', 'https://vnras.com/cay-sen-nhung-cay-thuoc-va-vi-thuoc-viet-nam-do-tat-loi/'),
+]
+NEW_RULES10.append(('n10_phatamsen', ['tâm sen', 'pha trà tâm sen', 'vị đắng', 'sao vàng', 'hãm', 'táo đỏ', 'neferine'], 89))
+SRC['n10_loaudem'] = [
+    ('WHO (Tổ chức Y tế Thế giới) – Rối loạn lo âu (Anxiety disorders), tờ thông tin', 'https://www.who.int/news-room/fact-sheets/detail/anxiety-disorders'),
+    ('Yoo SS, Walker MP và cộng sự (2007) – Não cảm xúc khi thiếu ngủ: sự đứt kết nối giữa vỏ não trước trán và hạch hạnh nhân, Current Biology', 'https://pubmed.ncbi.nlm.nih.gov/17956744'),
+    ('Ben Simon E, Walker MP và cộng sự (2019) – Lo âu quá mức và thiếu ngủ (Overanxious and underslept), Nature Human Behaviour', 'https://pubmed.ncbi.nlm.nih.gov/31685950/'),
+    ('Tubbs AS và cộng sự (2022) – Giả thuyết "Tâm trí sau nửa đêm": thức khuya và nguy cơ hành vi tiêu cực, Frontiers in Network Physiology', 'https://frontiersin.org/journals/network-physiology/articles/10.3389/fnetp.2021.830338/full'),
+    ('Scullin MK và cộng sự (2018) – Tác động của việc viết trước giờ ngủ lên thời gian vào giấc: viết danh sách việc cần làm so với việc đã làm, Journal of Experimental Psychology: General', 'https://pubmed.ncbi.nlm.nih.gov/29058942/'),
+]
+NEW_RULES10.append(('n10_loaudem', ['lo âu về đêm', 'lo âu', 'nghiền ngẫm', 'giờ lo âu', 'hạch hạnh nhân', 'mất ngủ', 'nửa đêm'], 47))
+SRC['n10_laxauho'] = [
+    ('Ahmad H và cộng sự (2012) – Cây xấu hổ Mimosa pudica L. (Laajvanti): tổng quan, Pharmacognosy Reviews', 'https://pubmed.ncbi.nlm.nih.gov/23055637/'),
+    ('Tổng quan (2023) – Cách dùng dân gian, hóa thực vật, hoạt tính dược lý và độc tính của cây xấu hổ Mimosa pudica, Pharmacological Research – Modern Chinese Medicine', 'https://doaj.org/article/ddc094ec01b24207bc35dcc5d7df380a'),
+    ('Nghiên cứu (2016) – Tác động của dịch chiết lá xấu hổ lên lo âu, trầm cảm và trí nhớ, Avicenna Journal of Phytomedicine', 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5206927/'),
+    ('Đại học Cornell – Mimosine: độc chất axit amin trong cây (Poisonous Plants Informational Database)', 'https://poisonousplants.ansci.cornell.edu/toxicagents/aminoacid/mimosine.html'),
+    ('Đỗ Tất Lợi – Cây Xấu Hổ (Trinh Nữ), Những cây thuốc và vị thuốc Việt Nam', 'https://vnras.com/cay-xau-ho-trinh-nu-nhung-cay-thuoc-va-vi-thuoc-viet-nam-do-tat-loi/'),
+]
+NEW_RULES10.append(('n10_laxauho', ['lá xấu hổ', 'xấu hổ', 'sao vàng', 'mimosine', 'mimosa pudica', 'kinh nghiệm dân gian', 'thuốc ngủ'], 70))
+RULES[:0] = NEW_RULES10
+
+
 def refs_for(body):
     low = body.lower(); out = []
     for key, kws, n in RULES:

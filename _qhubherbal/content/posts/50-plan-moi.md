@@ -1109,3 +1109,123 @@ products: duong-tam-an
 Giải thích cơ chế căng thẳng gây rụng tóc và các bước chăm sóc, khi nào cần đi khám.
 
 [[buy:duong-tam-an]]
+
++++
+slug: xa-den-trong-y-hoc-dan-gian-muong-va
+title: Xạ đen trong y học dân gian Mường và các nghiên cứu hiện nay
+desc: Xạ đen trong y học dân gian Mường: cách đồng bào Hòa Bình dùng cây xạ đen, thành phần hóa học, các nghiên cứu hiện có, giới hạn bằng chứng và lưu ý an toàn khi dùng.
+cat: cam-nang
+date: 2026-11-21
+products: ca-gai-diep-ha-chau
++++
+Câu chuyện cây xạ đen trong kinh nghiệm dân gian người Mường và những gì khoa học hiện nay thực sự biết.
+
+[[buy:ca-gai-diep-ha-chau]]
+
++++
+slug: nguoi-me-tre-di-lam-lai-sau-sinh
+title: Người mẹ trẻ đi làm lại sau sinh
+desc: Người mẹ trẻ đi làm lại sau sinh: chuẩn bị tâm lý, hút và trữ sữa ở công sở, giấc ngủ, dinh dưỡng, dấu hiệu trầm cảm sau sinh và khi nào cần đi khám.
+cat: cau-chuyen
+date: 2026-11-21
+products: duong-nhan
++++
+Câu chuyện một người mẹ trẻ quay lại công việc sau kỳ nghỉ thai sản và những điều giúp quãng chuyển tiếp nhẹ nhàng hơn.
+
+[[buy:duong-nhan]]
+
++++
+slug: tao-do-ky-tu-hoa-hong
+title: Táo đỏ, kỷ tử, hoa hồng: bộ ba quen thuộc của chè dưỡng nhan
+desc: Táo đỏ, kỷ tử, hoa hồng là bộ ba quen thuộc trong chè dưỡng nhan: thành phần dinh dưỡng, quan niệm phương Đông, nghiên cứu hiện có và lưu ý an toàn khi dùng.
+cat: thao-moc
+date: 2026-11-21
+products: duong-nhan
++++
+Tìm hiểu ba vị táo đỏ, kỷ tử, hoa hồng trong ẩm thực và quan niệm phương Đông, kèm lưu ý an toàn.
+
+[[buy:duong-nhan]]
+
++++
+slug: tra-duong-nhan-co-caffeine-khong
+title: Trà Dưỡng Nhan có caffeine không? Uống buổi tối được không
+desc: Trà Dưỡng Nhan có caffeine không? Giải thích vì sao trà không có lá trà nên không chứa caffeine, so sánh với trà xanh, cà phê, trà sữa và cách uống buổi tối hợp lý.
+cat: san-pham
+date: 2026-11-21
+products: duong-nhan
++++
+Giải đáp chuyện caffeine trong Trà Dưỡng Nhan và gợi ý thời điểm uống hợp lý.
+
+[[buy:duong-nhan]]
+
++++
+slug: nam-ngoc-cau-dac-san-nui-rung-va-nhung
+title: Nấm ngọc cẩu: đặc sản núi rừng và những điều cần biết
+desc: Nấm ngọc cẩu (tỏa dương) là loài thực vật ký sinh vùng núi cao: đặc điểm sinh học, mùa thu hái, nguy cơ khai thác cạn kiệt, cách nhận biết hàng giả và lưu ý khi dùng.
+cat: cam-nang
+date: 2026-11-21
+products: nam-vuong
++++
+Những điều cần biết về nấm ngọc cẩu, từ sinh học, khai thác đến cách chọn mua và dùng thận trọng.
+
+[[buy:nam-vuong]]
+
++++
+slug: lo-au-ve-dem-vi-sao-cang-toi-cang
+title: Lo âu về đêm: vì sao càng tối càng lo
+desc: Lo âu về đêm vì sao càng tối càng lo? Cơ chế cortisol, nhịp sinh học, vòng xoáy suy nghĩ khi nằm trên giường, kỹ thuật giảm lo âu tại nhà và khi nào cần gặp bác sĩ.
+cat: cam-nang
+date: 2026-11-21
+products: xau-ho-tim-tam-sen
++++
+Giải thích vì sao nỗi lo thường lớn hơn vào ban đêm và những cách làm dịu đã được khuyến nghị.
+
+[[buy:xau-ho-tim-tam-sen]]
+
++++
+slug: dau-dau-ky-kinh-migraine-kinh-nguyet
+title: Đau đầu kỳ kinh (migraine kinh nguyệt)
+desc: Đau đầu kỳ kinh (migraine kinh nguyệt) do sụt estrogen: dấu hiệu nhận biết, nhật ký đau đầu, cách giảm nhẹ tại nhà, dấu hiệu nguy hiểm và khi nào cần đi khám thần kinh.
+cat: cam-nang
+date: 2026-11-21
+products: ngay-dau-ve
++++
+Hiểu về migraine kinh nguyệt và những bước chăm sóc, theo dõi, khi nào cần gặp bác sĩ.
+
+[[buy:ngay-dau-ve]]
+
++++
+slug: day-bung-phu-ne-truoc-ky-kinh-cach-giam
+title: Đầy bụng, phù nề trước kỳ kinh: cách giảm
+desc: Đầy bụng, phù nề trước kỳ kinh vì sao xảy ra? Vai trò progesterone, giữ nước, muối, cách giảm nhẹ bằng ăn uống, vận động và khi nào chướng bụng cần đi khám.
+cat: cam-nang
+date: 2026-11-21
+products: ngay-dau-ve
++++
+Giải thích hiện tượng đầy bụng, phù nề trước kỳ kinh và các cách giảm nhẹ hằng ngày.
+
+[[buy:ngay-dau-ve]]
+
++++
+slug: giam-can-an-toan-bao-nhieu-kg-moi-thang
+title: Xuống cân an toàn: bao nhiêu kg mỗi tháng là hợp lý
+desc: Xuống cân an toàn bao nhiêu kg mỗi tháng là hợp lý? Mức 0,5–1 kg mỗi tuần theo khuyến nghị, cách tính năng lượng, nguy cơ khi sụt cân nhanh và khi nào cần gặp bác sĩ.
+cat: cam-nang
+date: 2026-11-21
+products: la-oi-mix-la-sen
++++
+Mức xuống cân hợp lý mỗi tháng theo các khuyến nghị y khoa và cách làm bền vững.
+
+[[buy:la-oi-mix-la-sen]]
+
++++
+slug: cang-thang-va-huyet-ap
+title: Căng thẳng và huyết áp
+desc: Căng thẳng và huyết áp liên quan thế nào? Tăng huyết áp tức thời và lâu dài, hội chứng áo choàng trắng, cách đo huyết áp tại nhà, giảm căng thẳng và khi nào cần đi khám.
+cat: cam-nang
+date: 2026-11-21
+products: duong-tam-an
++++
+Giải thích mối liên hệ giữa căng thẳng và huyết áp, cách theo dõi và khi nào cần gặp bác sĩ.
+
+[[buy:duong-tam-an]]

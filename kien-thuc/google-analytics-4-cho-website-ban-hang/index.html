@@ -1,0 +1,394 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<!-- GA4 QHUB Commerce -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-NYQMD1XPP6"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-NYQMD1XPP6');
+document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('a,button');if(!a)return;var h=a.getAttribute('href')||'';
+if(/zalo\.me/.test(h))gtag('event','click_zalo',{link_url:h});else if(/^tel:/.test(h))gtag('event','click_call',{link_url:h});
+else if(/^mailto:/.test(h))gtag('event','click_email',{link_url:h});else if(/qhubherbal\.com/.test(h))gtag('event','click_qhubherbal',{link_url:h});},true);</script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Google Analytics 4 cho website bán hàng | QHUB Commerce</title>
+<meta name="description" content="Google Analytics 4 cho website bán hàng: tạo thuộc tính, gắn thẻ, cài sự kiện mua hàng, đánh dấu key events, gắn UTM và các báo cáo nên xem mỗi tuần.">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<link rel="canonical" href="https://qhub.com.vn/kien-thuc/google-analytics-4-cho-website-ban-hang/">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="QHUB Commerce">
+<meta property="og:locale" content="vi_VN">
+<meta property="og:title" content="Google Analytics 4 cho website bán hàng | QHUB Commerce">
+<meta property="og:description" content="Google Analytics 4 cho website bán hàng: tạo thuộc tính, gắn thẻ, cài sự kiện mua hàng, đánh dấu key events, gắn UTM và các báo cáo nên xem mỗi tuần.">
+<meta property="og:url" content="https://qhub.com.vn/kien-thuc/google-analytics-4-cho-website-ban-hang/">
+<meta property="og:image" content="https://qhub.com.vn/og-qhub.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#0B1220">
+<link rel="icon" href="/favicon.ico" sizes="48x48">
+<link rel="icon" href="/favicon-96x96.png" type="image/png" sizes="96x96">
+<link rel="icon" href="/favicon-192x192.png" type="image/png" sizes="192x192">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="alternate" type="application/rss+xml" title="Kiến thức QHUB Commerce" href="/feed.xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/styles.css?v=20261113f">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BlogPosting", "headline": "Google Analytics 4 cho website bán hàng", "description": "Google Analytics 4 cho website bán hàng: tạo thuộc tính, gắn thẻ, cài sự kiện mua hàng, đánh dấu key events, gắn UTM và các báo cáo nên xem mỗi tuần.", "inLanguage": "vi", "mainEntityOfPage": "https://qhub.com.vn/kien-thuc/google-analytics-4-cho-website-ban-hang/", "url": "https://qhub.com.vn/kien-thuc/google-analytics-4-cho-website-ban-hang/", "image": "https://qhub.com.vn/og-qhub.png", "datePublished": "2026-11-21", "dateModified": "2026-11-21", "author": {"@type": "Person", "@id": "https://qhub.com.vn/tac-gia/nguyen-van-quang/#person", "name": "Nguyễn Văn Quang", "url": "https://qhub.com.vn/tac-gia/nguyen-van-quang/", "jobTitle": "Founder & CEO", "image": "https://qhub.com.vn/quang-avatar.jpg", "worksFor": {"@id": "https://qhub.com.vn/#organization"}}, "publisher": {"@type": "Organization", "@id": "https://qhub.com.vn/#organization", "name": "CÔNG TY TNHH QHUB COMMERCE", "alternateName": "QHUB Commerce", "url": "https://qhub.com.vn/", "logo": {"@type": "ImageObject", "url": "https://qhub.com.vn/logo-qhub.png", "width": 512, "height": 512}}, "articleSection": "Website chuẩn SEO", "keywords": "google analytics 4, cài đặt ga4, sự kiện thương mại điện tử ga4, key events ga4, utm cho facebook tiktok zalo, consent mode", "wordCount": 2739}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Trang chủ", "item": "https://qhub.com.vn/"}, {"@type": "ListItem", "position": 2, "name": "Kiến thức", "item": "https://qhub.com.vn/kien-thuc/"}, {"@type": "ListItem", "position": 3, "name": "Website chuẩn SEO", "item": "https://qhub.com.vn/kien-thuc/chu-de/website-seo/"}, {"@type": "ListItem", "position": 4, "name": "Google Analytics 4 cho website bán hàng", "item": "https://qhub.com.vn/kien-thuc/google-analytics-4-cho-website-ban-hang/"}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Google Analytics 4 có mất phí không?", "acceptedAnswer": {"@type": "Answer", "text": "Bản tiêu chuẩn của Google Analytics 4 miễn phí và đủ dùng cho hầu hết website bán hàng vừa và nhỏ. Bản trả phí Analytics 360 dành cho doanh nghiệp rất lớn, cần giới hạn dữ liệu cao hơn và thời gian lưu dữ liệu dài hơn."}}, {"@type": "Question", "name": "Nên gắn GA4 bằng gtag hay Google Tag Manager?", "acceptedAnswer": {"@type": "Answer", "text": "Website chỉ cần đo cơ bản và có nền tảng hỗ trợ sẵn thì dán thẻ Google (gtag.js) hoặc dùng mục kết nối có sẵn là đủ. Nếu website còn gắn Pixel Meta, TikTok Pixel và nhiều sự kiện riêng, Google Tag Manager giúp quản lý tập trung, ít phải sửa mã nguồn. Điều quan trọng là chỉ chọn một cách, không gắn cả hai cùng lúc."}}, {"@type": "Question", "name": "Key events khác conversions thế nào?", "acceptedAnswer": {"@type": "Answer", "text": "Key events là tên mới Google dùng trong GA4 từ tháng 3/2024 cho những sự kiện quan trọng với doanh nghiệp, ví dụ purchase hay gửi form. Conversions nay là chuyển đổi được dùng trong Google Ads để đo và tối ưu quảng cáo. Muốn Google Ads dùng một key event, anh chị nhập sự kiện đó từ GA4 vào Google Ads."}}, {"@type": "Question", "name": "Vì sao số đơn trong GA4 ít hơn số đơn thật?", "acceptedAnswer": {"@type": "Answer", "text": "GA4 chạy trên trình duyệt nên có thể hụt dữ liệu khi khách chặn cookie, dùng trình chặn quảng cáo, từ chối đồng ý theo dõi hoặc tắt trang trước khi mã kịp chạy. Ngoài ra đơn chốt qua điện thoại, Zalo không đi qua trang cảm ơn thì GA4 không ghi được. Lệch vài phần trăm đến vài chục phần trăm là bình thường; lệch lớn hơn thì nên kiểm tra lại cách cài sự kiện purchase."}}, {"@type": "Question", "name": "Có bắt buộc phải có thông báo cookie khi dùng GA4 ở Việt Nam không?", "acceptedAnswer": {"@type": "Answer", "text": "GA4 thu thập mã định danh trình duyệt và dữ liệu hành vi, nên việc này thuộc phạm vi xử lý dữ liệu cá nhân. Từ 01/01/2026, Luật Bảo vệ dữ liệu cá nhân 91/2025/QH15 có hiệu lực, yêu cầu thông báo và có sự đồng ý phù hợp. Cách an toàn là có chính sách quyền riêng tư, banner cookie cho khách chọn và hỏi luật sư cho mô hình cụ thể của mình."}}]}</script>
+<meta property="article:published_time" content="2026-11-21">
+<meta property="article:modified_time" content="2026-11-21">
+<meta property="article:section" content="Website chuẩn SEO">
+</head>
+<body class="kt-body">
+<a class="skip" href="#main">Bỏ qua tới nội dung</a>
+<header class="site-header" id="top">
+  <div class="wrap">
+    <a class="brand" href="/" aria-label="QHUB Commerce — trang chủ">
+      <img src="/logo-qhub-white.png" alt="" width="45" height="48">
+      <span>QHUB<small>COMMERCE</small></span>
+    </a>
+    <nav class="nav" id="nav" aria-label="Điều hướng chính">
+      <a href="/gioi-thieu/">Giới thiệu</a>
+      <a href="/dich-vu/">Dịch vụ</a>
+      <a href="/kien-thuc/">Kiến thức</a>
+      <a href="/#doi-ngu">Đội ngũ</a>
+      <a href="/qhub-herbal.html">QHUB HERBAL</a>
+      <a class="nav-cta" href="/#dat-lich">Đặt lịch chẩn đoán</a>
+    </nav>
+    <a class="btn btn-primary btn-sm" href="/#dat-lich">Đặt lịch chẩn đoán</a>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="nav" aria-label="Mở menu">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+  </div>
+</header>
+<main id="main" class="kt-main">
+<div class="wrap kt-narrow">
+<nav class="kt-crumb" aria-label="Đường dẫn"><a href="/">Trang chủ</a><span aria-hidden="true">/</span><a href="/kien-thuc/">Kiến thức</a><span aria-hidden="true">/</span><a href="/kien-thuc/chu-de/website-seo/">Website chuẩn SEO</a><span aria-hidden="true">/</span><span aria-current="page">Google Analytics 4 cho website bán hàng</span></nav>
+<article class="kt-article">
+<header class="kt-head">
+  <a class="kt-tag" href="/kien-thuc/chu-de/website-seo/">Website chuẩn SEO</a>
+  <h1>Google Analytics 4 cho website bán hàng</h1>
+  <p class="kt-lead">Google Analytics 4 cho website bán hàng: tạo thuộc tính, gắn thẻ, cài sự kiện mua hàng, đánh dấu key events, gắn UTM và các báo cáo nên xem mỗi tuần.</p>
+  <p class="kt-meta">Bởi <a href="/tac-gia/nguyen-van-quang/">Nguyễn Văn Quang</a> · Đăng 21/11/2026 · 12 phút đọc</p>
+</header>
+<div class="kt-sum"><h2>Tóm tắt nhanh</h2><ul><li>Google Analytics 4 (GA4) đo mọi hành động trên website dưới dạng sự kiện; website bán hàng cần tối thiểu bốn sự kiện view_item, add_to_cart, begin_checkout và purchase kèm giá trị đơn.</li><li>Từ tháng 3/2024, Google đổi tên &quot;conversions&quot; trong GA4 thành &quot;key events&quot; (sự kiện chính); chữ &quot;conversions&quot; nay dùng cho chuyển đổi trong Google Ads.</li><li>Thời gian lưu dữ liệu chi tiết mặc định chỉ 2 tháng; nên chỉnh lên 14 tháng ngay khi tạo thuộc tính để còn so sánh cùng kỳ năm trước.</li><li>Mọi link đặt trên TikTok, Facebook, Zalo nên gắn UTM, và website cần có thông báo đồng ý cookie phù hợp Luật Bảo vệ dữ liệu cá nhân 91/2025/QH15, hiệu lực từ 01/01/2026.</li></ul></div>
+<nav class="kt-toc" aria-label="Mục lục"><h2>Trong bài này</h2><ol><li><a href="#google-analytics-4-la-gi-khac-ban-cu-o-au">Google Analytics 4 là gì, khác bản cũ ở đâu?</a></li><li><a href="#cai-at-ga4-tung-buoc-nhu-the-nao">Cài đặt GA4 từng bước như thế nào?</a></li><li><a href="#cai-su-kien-ban-hang-key-events-va-lien-ket-cong-cu-google">Cài sự kiện bán hàng, key events và liên kết công cụ Google</a></li><li><a href="#gan-utm-cho-link-tu-tiktok-facebook-zalo-the-nao">Gắn UTM cho link từ TikTok, Facebook, Zalo thế nào?</a></li><li><a href="#cac-bao-cao-nen-xem-moi-tuan">Các báo cáo nên xem mỗi tuần</a></li><li><a href="#ong-y-cookie-consent-mode-va-luat-du-lieu-ca-nhan">Đồng ý cookie, Consent Mode và luật dữ liệu cá nhân</a></li><li><a href="#loi-hay-gap-khi-cai-google-analytics-4">Lỗi hay gặp khi cài Google Analytics 4</a></li><li><a href="#viec-nen-lam-ngay-tuan-nay">Việc nên làm ngay tuần này</a></li></ol></nav>
+<div class="kt-body-text">
+<p><strong>Google Analytics 4 (GA4) là công cụ đo lường miễn phí của Google, cho anh chị biết khách đến website từ đâu, xem sản phẩm nào, bỏ giỏ ở bước nào và mua bao nhiêu tiền.</strong> Với website bán hàng, cài cho có thì chưa đủ: phải cài đúng bốn sự kiện thương mại điện tử, đánh dấu sự kiện mua hàng là sự kiện chính, gắn UTM cho mọi link và có cơ chế đồng ý cookie. Làm đủ, anh chị biết tiền quảng cáo và công làm nội dung đang mang về đơn ở kênh nào.</p>
+<p>Bài này đội QHUB đi từng bước, từ tạo tài khoản tới lịch xem báo cáo mỗi tuần. Thông tin được đối chiếu với trang trợ giúp của Google Analytics ngày 21/11/2026; tên nút trong giao diện có thể đổi theo thời gian.</p>
+<h2 id="google-analytics-4-la-gi-khac-ban-cu-o-au">Google Analytics 4 là gì, khác bản cũ ở đâu?</h2>
+<p>GA4 là thế hệ Google Analytics hiện hành, thay cho Universal Analytics đã ngừng xử lý dữ liệu từ năm 2023. Điểm khác lớn nhất là <strong>mô hình sự kiện</strong> (event-based): mọi thứ trên website đều là một sự kiện, ví dụ xem trang là <code>page_view</code>, thêm vào giỏ là <code>add_to_cart</code>, đơn thành công là <code>purchase</code>.</p>
+<p>Mỗi sự kiện mang theo <strong>tham số</strong> (parameter), tức thông tin đi kèm. Ví dụ <code>purchase</code> mang mã đơn, giá trị đơn, đơn vị tiền và danh sách sản phẩm. Nhờ vậy GA4 tính được doanh thu và sản phẩm bán chạy.</p>
+<p>Cấu trúc gồm ba tầng: <strong>tài khoản</strong> (account, thường đặt theo tên doanh nghiệp), <strong>thuộc tính</strong> (property, nơi chứa dữ liệu và báo cáo của một website) và <strong>luồng dữ liệu</strong> (data stream, nguồn đổ dữ liệu vào thuộc tính). Một chỉ số mới cần biết là <strong>tỷ lệ tương tác</strong> (engagement rate): phần trăm phiên kéo dài hơn 10 giây, hoặc có sự kiện chính, hoặc xem từ 2 trang trở lên. Chỉ số này thay cho "tỷ lệ thoát" ở bản cũ.</p>
+<p>Search Console cho biết chuyện xảy ra trên trang kết quả Google, còn GA4 đo chuyện xảy ra sau khi khách vào website. Nếu chưa cài Search Console, anh chị xem bài <a href="/kien-thuc/google-search-console-cai-dat-va-doc-bao-cao/">Google Search Console: cài đặt và đọc báo cáo</a> trước, lát nữa mình sẽ nối hai công cụ.</p>
+<h2 id="cai-at-ga4-tung-buoc-nhu-the-nao">Cài đặt GA4 từng bước như thế nào?</h2>
+<h3 id="tao-tai-khoan-thuoc-tinh-va-luong-du-lieu-web">Tạo tài khoản, thuộc tính và luồng dữ liệu web</h3>
+<p>Phần này mất khoảng 15 phút. Dùng email Google của doanh nghiệp, không dùng email cá nhân của nhân viên hay của bên làm web.</p>
+<ol>
+<li>Vào analytics.google.com, chọn <strong>Bắt đầu đo lường</strong>.</li>
+<li><strong>Tạo tài khoản:</strong> đặt tên doanh nghiệp, giữ các tùy chọn chia sẻ dữ liệu theo nhu cầu.</li>
+<li><strong>Tạo thuộc tính:</strong> đặt tên thương hiệu, chọn <strong>múi giờ Việt Nam (GMT+7)</strong> và <strong>đơn vị tiền tệ Đồng Việt Nam (VND)</strong>. Hai thông số này chọn sai thì báo cáo doanh thu và báo cáo theo ngày đều lệch.</li>
+<li>Điền thông tin doanh nghiệp, chọn mục tiêu bán hàng trực tuyến.</li>
+<li><strong>Tạo luồng dữ liệu Web:</strong> nhập tên miền. GA4 cấp <strong>mã đo lường</strong> (Measurement ID) dạng <code>G-XXXXXXXXXX</code> để gắn lên website.</li>
+<li>Trong phần cài đặt luồng, kiểm tra <strong>Đo lường nâng cao</strong> (Enhanced measurement) đang bật.</li>
+</ol>
+<p>Ngay sau đó, làm thêm ba việc nhiều người bỏ quên:</p>
+<ul>
+<li><strong>Chỉnh thời gian lưu dữ liệu lên 14 tháng.</strong> Vào Quản trị, mục Thu thập và sửa đổi dữ liệu, chọn Lưu giữ dữ liệu. Theo trang trợ giúp của Google, thuộc tính tiêu chuẩn chỉ có hai lựa chọn là 2 tháng hoặc 14 tháng, và mặc định là 2 tháng. Mốc này ảnh hưởng tới báo cáo Khám phá (Explorations), không ảnh hưởng báo cáo tổng hợp tiêu chuẩn, nhưng để 2 tháng thì năm sau không còn dữ liệu chi tiết để so cùng kỳ.</li>
+<li><strong>Khai báo nguồn giới thiệu không mong muốn.</strong> Khách thanh toán qua VNPAY, MoMo, ngân hàng rồi quay về trang cảm ơn thì GA4 có thể ghi nguồn đơn là cổng thanh toán. Thêm tên miền các cổng này vào danh sách nguồn giới thiệu không mong muốn trong cấu hình thẻ của luồng dữ liệu.</li>
+<li><strong>Lọc lưu lượng nội bộ</strong> bằng địa chỉ IP văn phòng.</li>
+</ul>
+<h3 id="gan-the-dung-gtag-hay-google-tag-manager">Gắn thẻ: dùng gtag hay Google Tag Manager?</h3>
+<p>Có ba cách đưa mã GA4 lên website.</p>
+<div class="kt-table"><table>
+<thead>
+<tr>
+<th>Cách gắn</th>
+<th>Làm thế nào</th>
+<th>Hợp với</th>
+<th>Lưu ý</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Tích hợp sẵn của nền tảng</td>
+<td>Dán Measurement ID vào mục cài đặt của nền tảng làm web</td>
+<td>Shop nhỏ, web dựng trên nền tảng phổ biến</td>
+<td>Kiểm tra nền tảng có gửi sẵn sự kiện thương mại điện tử không</td>
+</tr>
+<tr>
+<td>Thẻ Google (gtag.js)</td>
+<td>Dán đoạn mã GA4 cấp vào phần <code>&lt;head&gt;</code> của mọi trang</td>
+<td>Web tự viết, ít công cụ đo</td>
+<td>Sự kiện mua hàng phải nhờ lập trình viên viết thêm</td>
+</tr>
+<tr>
+<td>Google Tag Manager (GTM)</td>
+<td>Cài một container GTM, quản lý mọi thẻ trong giao diện GTM</td>
+<td>Web gắn nhiều công cụ: GA4, Pixel Meta, TikTok Pixel</td>
+<td>Cần người hiểu cách đẩy dữ liệu qua dataLayer</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Google Tag Manager</strong> là công cụ miễn phí của Google để quản lý các mã đo lường ở một chỗ. Lập trình viên gắn GTM một lần và đẩy dữ liệu đơn hàng vào <strong>dataLayer</strong> (lớp dữ liệu); sau đó người làm marketing tự thêm, sửa thẻ mà không đụng mã nguồn. Website chạy quảng cáo Meta, TikTok, Google cùng lúc nên chọn GTM từ đầu và dùng chung một dataLayer với Pixel, như bài <a href="/kien-thuc/pixel-meta-va-conversions-api-cho-website-ban-hang/">Pixel Meta và Conversions API cho website bán hàng</a> hướng dẫn.</p>
+<p>Điều cấm kỵ nhất là <strong>gắn hai lần</strong>, ví dụ vừa dán gtag tay vừa bật tích hợp của nền tảng. Mọi số liệu bị đếm đôi.</p>
+<h3 id="o-luong-nang-cao-a-o-san-nhung-gi">Đo lường nâng cao đã đo sẵn những gì?</h3>
+<p><strong>Đo lường nâng cao</strong> (Enhanced measurement) là nhóm sự kiện GA4 tự ghi nhận khi được bật, không cần viết mã. Theo trang trợ giúp của Google Analytics, nhóm này gồm:</p>
+<ul>
+<li>Lượt xem trang (<code>page_view</code>).</li>
+<li>Cuộn trang tới khoảng 90% chiều dài (<code>scroll</code>).</li>
+<li>Lượt nhấp ra ngoài website (<code>click</code>), ví dụ bấm sang Shopee, TikTok Shop.</li>
+<li>Tìm kiếm trên website (<code>view_search_results</code>).</li>
+<li>Tương tác với video YouTube nhúng.</li>
+<li>Tải tệp (<code>file_download</code>), ví dụ tải catalogue PDF.</li>
+<li>Tương tác với biểu mẫu (<code>form_start</code>, <code>form_submit</code>).</li>
+</ul>
+<p>Với doanh nghiệp vừa bán trên sàn vừa có website, sự kiện nhấp ra ngoài cho biết bao nhiêu người đọc web rồi bấm sang gian hàng, tức trả lời câu hỏi "website có đỡ cho sàn không" trong bài <a href="/kien-thuc/doanh-nghiep-ban-tren-san-co-can-website-rieng-khong/">doanh nghiệp bán trên sàn có cần website riêng không</a>. Nhưng đo lường nâng cao <strong>không đo</strong> xem sản phẩm, thêm giỏ hay mua hàng; những sự kiện đó phải cài riêng.</p>
+<h2 id="cai-su-kien-ban-hang-key-events-va-lien-ket-cong-cu-google">Cài sự kiện bán hàng, key events và liên kết công cụ Google</h2>
+<h3 id="website-ban-hang-phai-co-nhung-su-kien-nao">Website bán hàng phải có những sự kiện nào?</h3>
+<p>Google có danh sách <strong>sự kiện đề xuất</strong> (recommended events) cho thương mại điện tử. Đặt đúng tên thì GA4 tự đổ dữ liệu vào báo cáo bán hàng; đặt tên tự chế như <code>them_gio</code> thì báo cáo trống trơn.</p>
+<div class="kt-table"><table>
+<thead>
+<tr>
+<th>Sự kiện</th>
+<th>Khi nào gửi</th>
+<th>Tham số cần có</th>
+<th>Mức độ</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>view_item_list</code></td>
+<td>Xem trang danh mục, danh sách sản phẩm</td>
+<td><code>item_list_name</code>, <code>items</code></td>
+<td>Nên có</td>
+</tr>
+<tr>
+<td><code>view_item</code></td>
+<td>Mở trang chi tiết sản phẩm</td>
+<td><code>currency</code>, <code>value</code>, <code>items</code></td>
+<td>Bắt buộc</td>
+</tr>
+<tr>
+<td><code>add_to_cart</code></td>
+<td>Bấm thêm vào giỏ</td>
+<td><code>currency</code>, <code>value</code>, <code>items</code></td>
+<td>Bắt buộc</td>
+</tr>
+<tr>
+<td><code>begin_checkout</code></td>
+<td>Bắt đầu bước thanh toán</td>
+<td><code>currency</code>, <code>value</code>, <code>items</code></td>
+<td>Bắt buộc</td>
+</tr>
+<tr>
+<td><code>add_shipping_info</code></td>
+<td>Điền xong thông tin giao hàng</td>
+<td><code>shipping_tier</code>, <code>items</code></td>
+<td>Nên có</td>
+</tr>
+<tr>
+<td><code>purchase</code></td>
+<td>Đơn tạo thành công, ở trang cảm ơn</td>
+<td><code>transaction_id</code>, <code>currency</code>, <code>value</code>, <code>items</code></td>
+<td>Bắt buộc</td>
+</tr>
+<tr>
+<td><code>generate_lead</code></td>
+<td>Gửi form tư vấn, đăng ký nhận tin</td>
+<td><code>currency</code>, <code>value</code> (nếu có)</td>
+<td>Nên có nếu có form</td>
+</tr>
+</tbody>
+</table></div>
+<p><code>items</code> là danh sách sản phẩm, mỗi sản phẩm có <code>item_id</code>, <code>item_name</code>, <code>price</code>, <code>quantity</code>. <code>currency</code> luôn là <code>VND</code>, <code>value</code> ghi số nguyên, không có dấu chấm ngăn cách.</p>
+<p>Lấy ví dụ một website bán hàng riêng của thương hiệu như <a href="https://qhubherbal.com/">qhubherbal.com</a>, web của thương hiệu trà <a href="/qhub-herbal.html">QHUB HERBAL</a> do chính QHUB xây. Khi khách mua theo ưu đãi mua 2 tặng 1 trên website, trả 210.000 đồng nhận 3 hộp, sự kiện <code>purchase</code> nên ghi <code>value</code> là 210000, <code>currency</code> là VND, mã đơn là <code>transaction_id</code>, và trong <code>items</code> ghi rõ hộp tặng có giá 0. Đây là cách nghĩ để minh họa, không phải mô tả cấu hình thực tế của website đó.</p>
+<p>Ba lưu ý với sự kiện <code>purchase</code>:</p>
+<ul>
+<li><strong>Luôn gửi <code>transaction_id</code>.</strong> GA4 dùng mã này để loại bớt đơn trùng khi khách tải lại trang cảm ơn.</li>
+<li><strong>Gửi giá trị thật</strong> sau giảm giá, không gửi giá niêm yết, không gửi một con số cố định cho mọi đơn.</li>
+<li><strong>Đơn chốt ngoài website</strong> (điện thoại, Zalo) không có trong GA4, nên số đơn GA4 thường thấp hơn hệ thống bán hàng.</li>
+</ul>
+<h3 id="key-events-la-gi">Key events là gì?</h3>
+<p><strong>Key event (sự kiện chính)</strong> là sự kiện anh chị đánh dấu là quan trọng nhất với doanh nghiệp. Từ tháng 3/2024, Google đổi tên "conversions" trong GA4 thành "key events". Theo Google Blog, chữ "conversions" từ đó dùng cho chuyển đổi trong Google Ads, để số liệu hai nơi bớt vênh. Tài liệu cũ ghi "đánh dấu là chuyển đổi" chính là bước này.</p>
+<p>Cách làm: vào Quản trị, mục Hiển thị dữ liệu, chọn Sự kiện, bật dấu sao "Đánh dấu là sự kiện chính" cho <code>purchase</code>. Nếu website có form tư vấn thì đánh dấu thêm <code>generate_lead</code>. Không nên đánh dấu quá nhiều, kiểu cả <code>scroll</code> hay <code>page_view</code>, vì báo cáo sẽ mất ý nghĩa.</p>
+<h3 id="lien-ket-search-console">Liên kết Search Console</h3>
+<p>Vào Quản trị, mục Liên kết sản phẩm, chọn Liên kết Search Console, chọn tài sản và luồng web. Sau đó vào Thư viện báo cáo để xuất bản nhóm báo cáo Search Console, anh chị sẽ thấy truy vấn tìm kiếm cạnh dữ liệu doanh thu. Việc này đi đôi với nền móng trong bài <a href="/kien-thuc/website-ban-hang-chuan-seo-nam-2026-huong-dan-tu-a-den-z/">website bán hàng chuẩn SEO năm 2026</a>.</p>
+<h3 id="lien-ket-google-ads">Liên kết Google Ads</h3>
+<p>Cũng trong Liên kết sản phẩm, chọn Liên kết Google Ads. Sau khi liên kết, nhập key event <code>purchase</code> từ GA4 vào Google Ads để làm chuyển đổi tối ưu. Lưu ý: nếu Google Ads đã có thẻ chuyển đổi riêng cho cùng hành động mua hàng, chỉ để một nguồn làm chuyển đổi chính, tránh đếm hai lần.</p>
+<h2 id="gan-utm-cho-link-tu-tiktok-facebook-zalo-the-nao">Gắn UTM cho link từ TikTok, Facebook, Zalo thế nào?</h2>
+<p><strong>UTM</strong> là các tham số gắn thêm vào cuối đường link để GA4 biết khách đến từ đâu, qua kênh nào, thuộc chiến dịch nào. Không gắn UTM, rất nhiều lượt truy cập từ ứng dụng như Zalo, TikTok bị GA4 xếp vào nhóm "Direct" (truy cập trực tiếp), vì ứng dụng không gửi kèm thông tin nguồn.</p>
+<p>Theo trang trợ giúp của Google Analytics, ba tham số nên có là <code>utm_source</code> (nguồn), <code>utm_medium</code> (phương tiện) và <code>utm_campaign</code> (chiến dịch); thêm <code>utm_content</code> nếu muốn phân biệt từng video.</p>
+<div class="kt-table"><table>
+<thead>
+<tr>
+<th>Vị trí đặt link</th>
+<th>utm_source</th>
+<th>utm_medium</th>
+<th>Ví dụ utm_campaign</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Link bio TikTok</td>
+<td>tiktok</td>
+<td>social</td>
+<td>bio</td>
+</tr>
+<tr>
+<td>Bài đăng Fanpage Facebook</td>
+<td>facebook</td>
+<td>social</td>
+<td>sale-12-12</td>
+</tr>
+<tr>
+<td>Quảng cáo Meta trỏ về web</td>
+<td>facebook</td>
+<td>paid_social</td>
+<td>sale-12-12</td>
+</tr>
+<tr>
+<td>Tin nhắn Zalo OA gửi khách cũ</td>
+<td>zalo</td>
+<td>message</td>
+<td>khach-cu-thang-12</td>
+</tr>
+</tbody>
+</table></div>
+<p>Quy tắc đội mình luôn giữ:</p>
+<ul>
+<li><strong>Viết thường toàn bộ</strong>, không dấu, dùng gạch ngang. GA4 phân biệt chữ hoa chữ thường, <code>Facebook</code> và <code>facebook</code> thành hai nguồn khác nhau.</li>
+<li><strong>Thống nhất bảng quy ước</strong> trong một file chung.</li>
+<li><strong>Không gắn UTM cho link nội bộ</strong> giữa các trang trên chính website. Làm vậy GA4 cắt phiên và ghi đè nguồn gốc thật.</li>
+</ul>
+<h2 id="cac-bao-cao-nen-xem-moi-tuan">Các báo cáo nên xem mỗi tuần</h2>
+<p>Chủ shop chỉ cần nhìn vài báo cáo cố định, mỗi tuần khoảng 20 phút, luôn so với tuần trước.</p>
+<div class="kt-table"><table>
+<thead>
+<tr>
+<th>Báo cáo (trong mục Báo cáo)</th>
+<th>Câu hỏi cần trả lời</th>
+<th>Hành động gợi ý</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Thu nạp người dùng → Thu nạp lưu lượng truy cập</td>
+<td>Kênh nào mang khách, kênh nào mang đơn?</td>
+<td>Dồn công vào kênh có doanh thu, không chỉ kênh nhiều lượt xem</td>
+</tr>
+<tr>
+<td>Tương tác → Trang và màn hình</td>
+<td>Trang sản phẩm nào được xem nhiều mà ít người thêm giỏ?</td>
+<td>Sửa ảnh, giá, mô tả của trang đó</td>
+</tr>
+<tr>
+<td>Tương tác → Sự kiện</td>
+<td>Số <code>add_to_cart</code>, <code>begin_checkout</code>, <code>purchase</code> tăng hay giảm?</td>
+<td>Một bước giảm đột ngột thường là lỗi kỹ thuật</td>
+</tr>
+<tr>
+<td>Kiếm tiền → Mua hàng thương mại điện tử</td>
+<td>Sản phẩm nào bán chạy, doanh thu bao nhiêu?</td>
+<td>Ưu tiên sản phẩm đó trên trang chủ và quảng cáo</td>
+</tr>
+<tr>
+<td>Hành trình mua hàng / thanh toán</td>
+<td>Khách rơi rụng ở bước nào?</td>
+<td>Rơi nhiều ở thanh toán thì kiểm tra phí ship, phương thức thanh toán</td>
+</tr>
+<tr>
+<td>Search Console → Truy vấn</td>
+<td>Khách gõ từ gì để vào web?</td>
+<td>Viết thêm bài, sửa tiêu đề trang cho truy vấn đang lên</td>
+</tr>
+</tbody>
+</table></div>
+<p>GA4 dùng để đọc xu hướng, không phải sổ kế toán. Sổ đơn thật nằm trong hệ thống bán hàng.</p>
+<h2 id="ong-y-cookie-consent-mode-va-luat-du-lieu-ca-nhan">Đồng ý cookie, Consent Mode và luật dữ liệu cá nhân</h2>
+<p>GA4 dùng cookie và mã định danh trình duyệt để nhận ra người dùng quay lại, tức là xử lý dữ liệu cá nhân. Trước đây khung pháp lý chính là Nghị định 13/2023/NĐ-CP. Từ <strong>01/01/2026, Luật Bảo vệ dữ liệu cá nhân số 91/2025/QH15 có hiệu lực</strong>, kèm Nghị định 356/2025/NĐ-CP hướng dẫn chi tiết, yêu cầu người dùng được thông báo và đồng ý phù hợp.</p>
+<p><strong>Consent Mode</strong> (chế độ đồng ý) là cơ chế giúp thẻ Google điều chỉnh theo lựa chọn của khách trên banner cookie. Bản v2 có bốn tín hiệu: <code>analytics_storage</code>, <code>ad_storage</code>, <code>ad_user_data</code>, <code>ad_personalization</code>, với hai cách triển khai:</p>
+<ul>
+<li><strong>Cơ bản (basic):</strong> thẻ Google chỉ chạy sau khi khách bấm đồng ý.</li>
+<li><strong>Nâng cao (advanced):</strong> khách từ chối thì thẻ chỉ gửi tín hiệu không kèm cookie để Google ước tính phần dữ liệu thiếu.</li>
+</ul>
+<p>Việc tối thiểu nên làm:</p>
+<ul>
+<li>Có trang chính sách quyền riêng tư, ghi rõ dùng Google Analytics, Pixel quảng cáo để làm gì.</li>
+<li>Có banner cookie cho khách chọn đồng ý hoặc từ chối, nối với Consent Mode qua công cụ quản lý đồng ý hoặc qua GTM.</li>
+<li>Không gửi email, số điện thoại, tên khách vào GA4; chính sách của Google Analytics cũng cấm việc này.</li>
+</ul>
+<p>Phần pháp lý mình chỉ nêu tổng quát, doanh nghiệp nên hỏi luật sư cho mô hình cụ thể.</p>
+<h2 id="loi-hay-gap-khi-cai-google-analytics-4">Lỗi hay gặp khi cài Google Analytics 4</h2>
+<p>Những lỗi đội mình gặp lại nhiều nhất khi nhận website để vận hành:</p>
+<ul>
+<li><strong>Tài khoản GA4 nằm trong email của bên làm web.</strong> Hết hợp đồng là doanh nghiệp mất dữ liệu.</li>
+<li><strong>Gắn mã hai lần</strong>, doanh thu và lượt xem nhân đôi.</li>
+<li><strong>Thuộc tính để tiền tệ USD hoặc sự kiện thiếu <code>currency</code></strong>, doanh thu bị quy đổi lệch hoặc bỏ trống.</li>
+<li><strong>Sự kiện <code>purchase</code> gửi ở bước bấm nút "Đặt hàng"</strong> chứ không phải khi đơn đã tạo thành công, nên đơn lỗi, đơn hủy cũng bị tính.</li>
+<li><strong>Không gắn UTM</strong>, lượt truy cập từ Zalo, TikTok lẫn vào "Direct".</li>
+<li><strong>Cài xong rồi để đó</strong>, lỗi đo lường tồn tại hàng tháng không ai hay.</li>
+</ul>
+<h2 id="viec-nen-lam-ngay-tuan-nay">Việc nên làm ngay tuần này</h2>
+<ol>
+<li>Kiểm tra tài khoản GA4 thuộc email doanh nghiệp, múi giờ GMT+7, tiền tệ VND.</li>
+<li>Chỉnh lưu dữ liệu lên 14 tháng.</li>
+<li>Đặt một đơn thử, mở báo cáo Thời gian thực xem đủ <code>view_item</code>, <code>add_to_cart</code>, <code>begin_checkout</code>, <code>purchase</code> chưa, giá trị đơn có đúng không.</li>
+<li>Đánh dấu <code>purchase</code> là key event, liên kết Search Console và Google Ads.</li>
+<li>Lập bảng quy ước UTM, gắn lại link bio TikTok, Fanpage, Zalo OA.</li>
+<li>Rà banner cookie và chính sách quyền riêng tư theo Luật 91/2025/QH15.</li>
+</ol>
+<p>QHUB Commerce là đội vận hành gian hàng đa sàn, có đội media, đội vận hành sàn, đội KOC và đội host livestream, nên tụi mình đọc số liệu website song song với số liệu sàn mỗi tuần. Các bài khác về website và SEO nằm trong chủ đề <a href="/kien-thuc/chu-de/website-seo/">website và SEO</a>.</p>
+</div>
+<section class="kt-faq" id="cau-hoi-thuong-gap"><h2>Câu hỏi thường gặp</h2><details><summary>Google Analytics 4 có mất phí không?</summary><p>Bản tiêu chuẩn của Google Analytics 4 miễn phí và đủ dùng cho hầu hết website bán hàng vừa và nhỏ. Bản trả phí Analytics 360 dành cho doanh nghiệp rất lớn, cần giới hạn dữ liệu cao hơn và thời gian lưu dữ liệu dài hơn.</p></details><details><summary>Nên gắn GA4 bằng gtag hay Google Tag Manager?</summary><p>Website chỉ cần đo cơ bản và có nền tảng hỗ trợ sẵn thì dán thẻ Google (gtag.js) hoặc dùng mục kết nối có sẵn là đủ. Nếu website còn gắn Pixel Meta, TikTok Pixel và nhiều sự kiện riêng, Google Tag Manager giúp quản lý tập trung, ít phải sửa mã nguồn. Điều quan trọng là chỉ chọn một cách, không gắn cả hai cùng lúc.</p></details><details><summary>Key events khác conversions thế nào?</summary><p>Key events là tên mới Google dùng trong GA4 từ tháng 3/2024 cho những sự kiện quan trọng với doanh nghiệp, ví dụ purchase hay gửi form. Conversions nay là chuyển đổi được dùng trong Google Ads để đo và tối ưu quảng cáo. Muốn Google Ads dùng một key event, anh chị nhập sự kiện đó từ GA4 vào Google Ads.</p></details><details><summary>Vì sao số đơn trong GA4 ít hơn số đơn thật?</summary><p>GA4 chạy trên trình duyệt nên có thể hụt dữ liệu khi khách chặn cookie, dùng trình chặn quảng cáo, từ chối đồng ý theo dõi hoặc tắt trang trước khi mã kịp chạy. Ngoài ra đơn chốt qua điện thoại, Zalo không đi qua trang cảm ơn thì GA4 không ghi được. Lệch vài phần trăm đến vài chục phần trăm là bình thường; lệch lớn hơn thì nên kiểm tra lại cách cài sự kiện purchase.</p></details><details><summary>Có bắt buộc phải có thông báo cookie khi dùng GA4 ở Việt Nam không?</summary><p>GA4 thu thập mã định danh trình duyệt và dữ liệu hành vi, nên việc này thuộc phạm vi xử lý dữ liệu cá nhân. Từ 01/01/2026, Luật Bảo vệ dữ liệu cá nhân 91/2025/QH15 có hiệu lực, yêu cầu thông báo và có sự đồng ý phù hợp. Cách an toàn là có chính sách quyền riêng tư, banner cookie cho khách chọn và hỏi luật sư cho mô hình cụ thể của mình.</p></details></section>
+<section class="kt-src"><h2>Nguồn tham khảo</h2><ul><li><a href="https://blog.google/products/marketingplatform/analytics/evolving-google-analytics-for-more-insightful-measurement/" target="_blank" rel="noopener nofollow">Evolving Google Analytics for more insightful measurement – Google Blog (03/2024)</a></li><li><a href="https://searchengineland.com/google-analytics-4-ads-report-conversion-key-events-438613" target="_blank" rel="noopener nofollow">Google Analytics 4 addresses Google Ads report discrepancies with conversion update – Search Engine Land</a></li><li><a href="https://support.google.com/analytics/answer/9267735" target="_blank" rel="noopener nofollow">[GA4] Recommended events – Analytics Help</a></li><li><a href="https://developers.google.com/analytics/devguides/collection/ga4/ecommerce" target="_blank" rel="noopener nofollow">Measure ecommerce – Google Analytics for Developers</a></li><li><a href="https://support.google.com/analytics/answer/9216061" target="_blank" rel="noopener nofollow">Enhanced measurement events – Analytics Help</a></li><li><a href="https://support.google.com/analytics/answer/7667196" target="_blank" rel="noopener nofollow">Data retention – Analytics Help</a></li><li><a href="https://support.google.com/analytics/answer/10917952" target="_blank" rel="noopener nofollow">URL builders: Collect campaign data with custom URLs – Analytics Help</a></li><li><a href="https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Luat-Bao-ve-du-lieu-ca-nhan-2025-so-91-2025-QH15-625628.aspx" target="_blank" rel="noopener nofollow">Luật Bảo vệ dữ liệu cá nhân 2025 số 91/2025/QH15 – Thư viện Pháp luật</a></li><li><a href="https://luatvietnam.vn/tin-van-ban-moi/da-co-luat-bao-ve-du-lieu-ca-nhan-2025-so-91-2025-qh15-186-102925-article.html" target="_blank" rel="noopener nofollow">Đã có Luật Bảo vệ dữ liệu cá nhân 2025, số 91/2025/QH15 – LuatVietnam</a></li></ul></section>
+<aside class="kt-author">
+  <img class="kt-av" src="/quang-avatar-240.jpg" alt="Nguyễn Văn Quang" width="56" height="56" loading="lazy">
+  <div>
+    <p class="kt-by">Người viết</p>
+    <h2><a href="/tac-gia/nguyen-van-quang/">Nguyễn Văn Quang</a></h2>
+    <p class="kt-role">Founder &amp; CEO, QHUB Commerce</p>
+    <p>Đi lên từ bán hàng thị trường, qua trade marketing, brand marketing đến vận hành thương mại điện tử cho các doanh nghiệp đồ uống, thực phẩm và hàng tiêu dùng. Trực tiếp vận hành gian hàng trên Shopee, TikTok Shop, Facebook, Lazada, Tiki và Website.</p>
+  </div>
+</aside>
+<aside class="kt-cta">
+  <img src="/logo-qhub.png" alt="" width="64" height="64">
+  <div>
+    <h2>Cần người ngồi vào vận hành cùng anh chị?</h2>
+    <p>QHUB Commerce là Phòng Tăng Trưởng Thuê Ngoài cho doanh nghiệp bán hàng đa sàn. Đội QHUB trực tiếp vận hành TikTok Shop, Shopee, Facebook và Website: nội dung, livestream, affiliate, quảng cáo, dữ liệu. Buổi chẩn đoán đầu tiên 60 phút, miễn phí.</p>
+    <a class="btn btn-primary" href="/#dat-lich">Đặt lịch chẩn đoán miễn phí</a>
+    <a class="kt-cta-link" href="https://zalo.me/0856510113" target="_blank" rel="noopener">Hoặc nhắn Zalo 0856 510 113</a>
+  </div>
+</aside>
+</article>
+<section class="kt-rel"><h2>Đọc tiếp</h2><div class="kt-grid"><article class="kt-card"><a href="/kien-thuc/google-search-console-cai-dat-va-doc-bao-cao/"><span class="kt-tag">Website chuẩn SEO</span><h3>Google Search Console: cài đặt và đọc báo cáo cho website bán hàng</h3><p>Hướng dẫn cài Google Search Console từ đầu: xác minh website, gửi sitemap, đọc báo cáo hiệu suất, lập chỉ mục và báo cáo AI mới cho doanh nghiệp nhỏ.</p><span class="kt-meta">21/11/2026 · 12 phút đọc</span></a></article><article class="kt-card"><a href="/kien-thuc/website-tren-dien-thoai-chuan-mobile-first/"><span class="kt-tag">Website chuẩn SEO</span><h3>Website trên điện thoại: chuẩn mobile-first</h3><p>Website mobile chuẩn mobile-first: Google lập chỉ mục bản điện thoại, cách làm viewport, cỡ chữ, vùng chạm, nút mua cố định, form, checkout và cách tự kiểm tra.</p><span class="kt-meta">19/11/2026 · 13 phút đọc</span></a></article><article class="kt-card"><a href="/kien-thuc/toc-do-website-va-core-web-vitals/"><span class="kt-tag">Website chuẩn SEO</span><h3>Tốc độ website và Core Web Vitals</h3><p>Core Web Vitals gồm LCP, INP, CLS: ngưỡng đạt, cách đo bằng PageSpeed Insights và Search Console, nguyên nhân web bán hàng chậm và thứ tự sửa.</p><span class="kt-meta">19/11/2026 · 12 phút đọc</span></a></article><article class="kt-card"><a href="/kien-thuc/tieu-de-va-mo-ta-trang-title-meta-description-chuan/"><span class="kt-tag">Website chuẩn SEO</span><h3>Tiêu đề và mô tả trang (title, meta description) viết sao cho chuẩn</h3><p>Cách viết title meta description chuẩn: Google hiển thị và viết lại thế nào, độ dài theo pixel, công thức cho từng loại trang, lỗi hay gặp và cách đo CTR.</p><span class="kt-meta">18/11/2026 · 13 phút đọc</span></a></article></div></section>
+</div>
+</main>
+<footer class="footer">
+  <div class="wrap">
+    <div>
+      <h4>CÔNG TY TNHH QHUB COMMERCE</h4>
+      <p class="legal-info">Giấy CN ĐKDN số 5400570349 do Phòng Đăng ký kinh doanh – Sở Tài chính tỉnh Phú Thọ cấp lần đầu ngày 13/04/2026</p>
+      <p>Người đại diện theo pháp luật: Nguyễn Văn Quang</p>
+      <p>Trụ sở: Khu Vai, Xã An Nghĩa, Tỉnh Phú Thọ, Việt Nam</p>
+      <p>Hotline/Zalo: <a href="tel:0856510113">0856 510 113</a></p>
+      <p>Email: <a href="mailto:qhubcommerce@gmail.com">qhubcommerce@gmail.com</a></p>
+    </div>
+    <div>
+      <h4>Kiến thức</h4>
+      <ul><li><a href="/kien-thuc/chu-de/tiktok/">Xây kênh TikTok</a></li><li><a href="/kien-thuc/chu-de/content-tiktok/">Content TikTok</a></li><li><a href="/kien-thuc/chu-de/tiktok-shop/">TikTok Shop căn bản</a></li><li><a href="/kien-thuc/chu-de/van-hanh-tiktok-shop/">Vận hành TikTok Shop</a></li><li><a href="/kien-thuc/chu-de/quang-cao-tiktok/">Quảng cáo TikTok &amp; GMV Max</a></li><li><a href="/kien-thuc/chu-de/phi-san-tiktok-shop/">Phí sàn TikTok Shop</a></li><li><a href="/kien-thuc/chu-de/van-hanh-shopee/">Vận hành Shopee</a></li><li><a href="/kien-thuc/chu-de/quang-cao-shopee/">Quảng cáo Shopee</a></li></ul>
+    </div>
+    <div>
+      <h4>&nbsp;</h4>
+      <ul><li><a href="/kien-thuc/chu-de/phi-san-shopee/">Phí sàn Shopee</a></li><li><a href="/kien-thuc/chu-de/ban-hang-facebook/">Bán hàng Facebook</a></li><li><a href="/kien-thuc/chu-de/youtube/">Xây kênh YouTube</a></li><li><a href="/kien-thuc/chu-de/instagram/">Phát triển Instagram</a></li><li><a href="/kien-thuc/chu-de/threads/">Phát triển Threads</a></li><li><a href="/kien-thuc/chu-de/website-seo/">Website chuẩn SEO</a></li><li><a href="/kien-thuc/chu-de/lich-sale/">Lịch sale &amp; chiến dịch</a></li><li><a href="/gioi-thieu/">Giới thiệu QHUB</a></li><li><a href="/dich-vu/">Dịch vụ</a></li><li><a href="/chinh-sach.html">Chính sách</a></li></ul>
+    </div>
+    <div class="legal"><span>© 2026 QHUB Commerce.</span><span>qhub.com.vn</span></div>
+  </div>
+</footer>
+<div class="float" aria-label="Liên hệ nhanh">
+  <a class="zalo" href="https://zalo.me/0856510113" target="_blank" rel="noopener" aria-label="Nhắn Zalo cho QHUB">Zalo</a>
+  <a class="call" href="tel:0856510113" aria-label="Gọi hotline QHUB"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 005 5L15 13l5 2v4a2 2 0 01-2 2A16 16 0 013 6a2 2 0 012-2"/></svg></a>
+</div>
+<script src="/kien-thuc.js?v=20261113f" defer></script>
+</body>
+</html>

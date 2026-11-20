@@ -1,0 +1,310 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<!-- GA4 QHUB Commerce -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-NYQMD1XPP6"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-NYQMD1XPP6');
+document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('a,button');if(!a)return;var h=a.getAttribute('href')||'';
+if(/zalo\.me/.test(h))gtag('event','click_zalo',{link_url:h});else if(/^tel:/.test(h))gtag('event','click_call',{link_url:h});
+else if(/^mailto:/.test(h))gtag('event','click_email',{link_url:h});else if(/qhubherbal\.com/.test(h))gtag('event','click_qhubherbal',{link_url:h});},true);</script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Pixel Meta và Conversions API cho website bán hàng: cài đúng từ đầu</title>
+<meta name="description" content="Pixel Facebook và Conversions API là gì, khác nhau ra sao, website bán hàng cần đo sự kiện nào, cách cài, chống đếm trùng bằng event_id và kiểm tra dữ liệu.">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<link rel="canonical" href="https://qhub.com.vn/kien-thuc/pixel-meta-va-conversions-api-cho-website-ban-hang/">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="QHUB Commerce">
+<meta property="og:locale" content="vi_VN">
+<meta property="og:title" content="Pixel Meta và Conversions API cho website bán hàng: cài đúng từ đầu">
+<meta property="og:description" content="Pixel Facebook và Conversions API là gì, khác nhau ra sao, website bán hàng cần đo sự kiện nào, cách cài, chống đếm trùng bằng event_id và kiểm tra dữ liệu.">
+<meta property="og:url" content="https://qhub.com.vn/kien-thuc/pixel-meta-va-conversions-api-cho-website-ban-hang/">
+<meta property="og:image" content="https://qhub.com.vn/og-qhub.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#0B1220">
+<link rel="icon" href="/favicon.ico" sizes="48x48">
+<link rel="icon" href="/favicon-96x96.png" type="image/png" sizes="96x96">
+<link rel="icon" href="/favicon-192x192.png" type="image/png" sizes="192x192">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="alternate" type="application/rss+xml" title="Kiến thức QHUB Commerce" href="/feed.xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/styles.css?v=20261113f">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BlogPosting", "headline": "Pixel Meta và Conversions API cho website bán hàng: cài đúng từ đầu", "description": "Pixel Facebook và Conversions API là gì, khác nhau ra sao, website bán hàng cần đo sự kiện nào, cách cài, chống đếm trùng bằng event_id và kiểm tra dữ liệu.", "inLanguage": "vi", "mainEntityOfPage": "https://qhub.com.vn/kien-thuc/pixel-meta-va-conversions-api-cho-website-ban-hang/", "url": "https://qhub.com.vn/kien-thuc/pixel-meta-va-conversions-api-cho-website-ban-hang/", "image": "https://qhub.com.vn/og-qhub.png", "datePublished": "2026-11-20", "dateModified": "2026-11-20", "author": {"@type": "Person", "@id": "https://qhub.com.vn/tac-gia/nguyen-van-quang/#person", "name": "Nguyễn Văn Quang", "url": "https://qhub.com.vn/tac-gia/nguyen-van-quang/", "jobTitle": "Founder & CEO", "image": "https://qhub.com.vn/quang-avatar.jpg", "worksFor": {"@id": "https://qhub.com.vn/#organization"}}, "publisher": {"@type": "Organization", "@id": "https://qhub.com.vn/#organization", "name": "CÔNG TY TNHH QHUB COMMERCE", "alternateName": "QHUB Commerce", "url": "https://qhub.com.vn/", "logo": {"@type": "ImageObject", "url": "https://qhub.com.vn/logo-qhub.png", "width": 512, "height": 512}}, "articleSection": "Bán hàng Facebook", "keywords": "pixel facebook, pixel meta, conversions api là gì, cài pixel facebook cho website, sự kiện purchase facebook, event match quality", "wordCount": 1812}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Trang chủ", "item": "https://qhub.com.vn/"}, {"@type": "ListItem", "position": 2, "name": "Kiến thức", "item": "https://qhub.com.vn/kien-thuc/"}, {"@type": "ListItem", "position": 3, "name": "Bán hàng Facebook", "item": "https://qhub.com.vn/kien-thuc/chu-de/ban-hang-facebook/"}, {"@type": "ListItem", "position": 4, "name": "Pixel Meta và Conversions API cho website bán hàng: cài đúng từ đầu", "item": "https://qhub.com.vn/kien-thuc/pixel-meta-va-conversions-api-cho-website-ban-hang/"}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Pixel Facebook là gì?", "acceptedAnswer": {"@type": "Answer", "text": "Pixel Facebook, nay gọi là Meta Pixel, là đoạn mã gắn vào website để ghi nhận hành động của người xem như xem sản phẩm, thêm vào giỏ, mua hàng. Dữ liệu này giúp Meta đo hiệu quả quảng cáo, tối ưu quảng cáo theo đơn hàng và tạo tệp khách để quảng cáo lại."}}, {"@type": "Question", "name": "Conversions API khác Pixel thế nào?", "acceptedAnswer": {"@type": "Answer", "text": "Pixel chạy trên trình duyệt của khách, nên có thể bị chặn bởi trình chặn quảng cáo, cài đặt quyền riêng tư hoặc mạng chậm. Conversions API gửi dữ liệu từ máy chủ của website tới Meta, không phụ thuộc trình duyệt. Dùng cả hai giúp dữ liệu đầy đủ hơn, với điều kiện phải chống đếm trùng."}}, {"@type": "Question", "name": "Website nhỏ có cần Conversions API không?", "acceptedAnswer": {"@type": "Answer", "text": "Nếu website có chạy quảng cáo Meta và muốn tối ưu theo đơn hàng thì nên có. Nhiều nền tảng làm web bán hàng đã có tích hợp sẵn, chỉ cần kết nối trong phần cài đặt. Website ít đơn, chưa chạy quảng cáo có thể bắt đầu bằng Pixel, rồi thêm Conversions API khi tăng ngân sách."}}, {"@type": "Question", "name": "Làm sao để không bị đếm trùng đơn khi dùng cả Pixel và Conversions API?", "acceptedAnswer": {"@type": "Answer", "text": "Mỗi sự kiện gửi từ trình duyệt và từ máy chủ phải có cùng tên sự kiện, ví dụ Purchase, và cùng mã event_id, thường dùng mã đơn hàng. Meta dựa vào hai thông tin này để nhận ra đây là một sự kiện và chỉ tính một lần."}}, {"@type": "Question", "name": "Event Match Quality là gì?", "acceptedAnswer": {"@type": "Answer", "text": "Event Match Quality là điểm từ 0 đến 10 trong Trình quản lý sự kiện, cho biết dữ liệu khách hàng gửi kèm sự kiện giúp Meta nhận ra người dùng tốt tới đâu. Gửi thêm thông tin đã mã hóa như email, số điện thoại, cùng mã nhận diện trình duyệt thường giúp điểm này tăng."}}]}</script>
+<meta property="article:published_time" content="2026-11-20">
+<meta property="article:modified_time" content="2026-11-20">
+<meta property="article:section" content="Bán hàng Facebook">
+</head>
+<body class="kt-body">
+<a class="skip" href="#main">Bỏ qua tới nội dung</a>
+<header class="site-header" id="top">
+  <div class="wrap">
+    <a class="brand" href="/" aria-label="QHUB Commerce — trang chủ">
+      <img src="/logo-qhub-white.png" alt="" width="45" height="48">
+      <span>QHUB<small>COMMERCE</small></span>
+    </a>
+    <nav class="nav" id="nav" aria-label="Điều hướng chính">
+      <a href="/gioi-thieu/">Giới thiệu</a>
+      <a href="/dich-vu/">Dịch vụ</a>
+      <a href="/kien-thuc/">Kiến thức</a>
+      <a href="/#doi-ngu">Đội ngũ</a>
+      <a href="/qhub-herbal.html">QHUB HERBAL</a>
+      <a class="nav-cta" href="/#dat-lich">Đặt lịch chẩn đoán</a>
+    </nav>
+    <a class="btn btn-primary btn-sm" href="/#dat-lich">Đặt lịch chẩn đoán</a>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="nav" aria-label="Mở menu">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+  </div>
+</header>
+<main id="main" class="kt-main">
+<div class="wrap kt-narrow">
+<nav class="kt-crumb" aria-label="Đường dẫn"><a href="/">Trang chủ</a><span aria-hidden="true">/</span><a href="/kien-thuc/">Kiến thức</a><span aria-hidden="true">/</span><a href="/kien-thuc/chu-de/ban-hang-facebook/">Bán hàng Facebook</a><span aria-hidden="true">/</span><span aria-current="page">Pixel Meta và Conversions API cho website bán hàng: cài đúng từ đầu</span></nav>
+<article class="kt-article">
+<header class="kt-head">
+  <a class="kt-tag" href="/kien-thuc/chu-de/ban-hang-facebook/">Bán hàng Facebook</a>
+  <h1>Pixel Meta và Conversions API cho website bán hàng: cài đúng từ đầu</h1>
+  <p class="kt-lead">Pixel Facebook và Conversions API là gì, khác nhau ra sao, website bán hàng cần đo sự kiện nào, cách cài, chống đếm trùng bằng event_id và kiểm tra dữ liệu.</p>
+  <p class="kt-meta">Bởi <a href="/tac-gia/nguyen-van-quang/">Nguyễn Văn Quang</a> · Đăng 20/11/2026 · 8 phút đọc</p>
+</header>
+<div class="kt-sum"><h2>Tóm tắt nhanh</h2><ul><li>Pixel Facebook (Meta Pixel) là đoạn mã chạy trên trình duyệt để ghi nhận hành động của khách trên website; Conversions API gửi cùng dữ liệu đó từ máy chủ của website thẳng tới Meta.</li><li>Meta khuyên dùng cả hai cùng lúc; để không bị đếm trùng, mỗi sự kiện gửi từ hai đường phải có cùng tên sự kiện và cùng mã event_id.</li><li>Website bán hàng tối thiểu cần đo 5 sự kiện: xem trang, xem sản phẩm, thêm vào giỏ, bắt đầu thanh toán và mua hàng có kèm giá trị đơn.</li><li>Dữ liệu khách hàng gửi cho Meta phải được mã hóa và thu thập đúng Luật Bảo vệ dữ liệu cá nhân số 91/2025/QH15, có hiệu lực từ 01/01/2026.</li></ul></div>
+<nav class="kt-toc" aria-label="Mục lục"><h2>Trong bài này</h2><ol><li><a href="#pixel-facebook-la-gi-va-e-lam-gi">Pixel Facebook là gì và để làm gì?</a></li><li><a href="#conversions-api-la-gi-vi-sao-can-them">Conversions API là gì, vì sao cần thêm?</a></li><li><a href="#website-ban-hang-can-o-nhung-su-kien-nao">Website bán hàng cần đo những sự kiện nào?</a></li><li><a href="#cac-cach-cai-pixel-va-conversions-api">Các cách cài Pixel và Conversions API</a></li><li><a href="#chong-em-trung-event_id-la-gi">Chống đếm trùng: event_id là gì?</a></li><li><a href="#kiem-tra-du-lieu-sau-khi-cai">Kiểm tra dữ liệu sau khi cài</a></li><li><a href="#du-lieu-khach-hang-va-luat-bao-ve-du-lieu-ca-nhan">Dữ liệu khách hàng và luật bảo vệ dữ liệu cá nhân</a></li><li><a href="#loi-hay-gap-khi-cai-pixel-va-conversions-api">Lỗi hay gặp khi cài Pixel và Conversions API</a></li><li><a href="#viec-nen-lam-ngay-tuan-nay">Việc nên làm ngay tuần này</a></li></ol></nav>
+<div class="kt-body-text">
+<p><strong>Pixel Facebook (nay gọi là Meta Pixel) là đoạn mã chạy trên trình duyệt để ghi nhận hành động của khách trên website, còn Conversions API gửi cùng dữ liệu đó từ máy chủ của website thẳng tới Meta.</strong> Meta khuyên dùng cả hai cùng lúc. Pixel dễ cài nhưng có thể bị chặn bởi trình duyệt và trình chặn quảng cáo. Conversions API bù vào phần bị mất. Để không đếm trùng một đơn thành hai, mỗi sự kiện phải mang cùng tên và cùng mã event_id ở cả hai đường.</p>
+<p>Bài này đội QHUB giải thích hai công cụ bằng lời dễ hiểu, những sự kiện website bán hàng cần đo, các cách cài từ dễ tới khó, cách kiểm tra dữ liệu và những lỗi đội mình hay gặp khi nhận lại tài khoản quảng cáo của khách. Thông tin kỹ thuật được kiểm tra qua tài liệu Meta for Developers ngày 20/11/2026. Giao diện Trình quản lý sự kiện có thể đổi tên nút theo thời gian.</p>
+<h2 id="pixel-facebook-la-gi-va-e-lam-gi">Pixel Facebook là gì và để làm gì?</h2>
+<p>Hãy hình dung website như một cửa hàng. Quảng cáo Facebook đưa khách tới cửa. Pixel là người đứng trong cửa hàng ghi sổ: khách nào xem kệ nào, bỏ gì vào giỏ, có ra quầy thanh toán không.</p>
+<p>Dữ liệu Pixel ghi lại được dùng cho ba việc:</p>
+<ol>
+<li><strong>Đo hiệu quả quảng cáo.</strong> Biết quảng cáo nào mang lại đơn hàng thật, không chỉ lượt nhấp.</li>
+<li><strong>Tối ưu quảng cáo theo mục tiêu.</strong> Khi chọn mục tiêu "mua hàng", Meta cần dữ liệu sự kiện mua hàng để tìm người có khả năng mua.</li>
+<li><strong>Tạo tệp khách hàng.</strong> Ví dụ người đã thêm vào giỏ nhưng chưa mua trong 7 ngày, để quảng cáo nhắc lại.</li>
+</ol>
+<p>Không có Pixel, quảng cáo website giống như phát tờ rơi rồi không biết ai đã tới cửa hàng.</p>
+<h2 id="conversions-api-la-gi-vi-sao-can-them">Conversions API là gì, vì sao cần thêm?</h2>
+<p>Conversions API (viết tắt CAPI) là cách gửi sự kiện từ máy chủ của website tới Meta. Thay vì nhờ trình duyệt của khách gửi, máy chủ tự gửi khi có sự kiện, ví dụ khi đơn hàng được tạo trong hệ thống.</p>
+<p>Vì sao cần? Vì Pixel phụ thuộc trình duyệt, và trình duyệt ngày càng chặn nhiều:</p>
+<div class="kt-table"><table>
+<thead>
+<tr>
+<th>Tình huống</th>
+<th>Pixel</th>
+<th>Conversions API</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Khách dùng trình chặn quảng cáo</td>
+<td>Có thể bị chặn</td>
+<td>Vẫn gửi được</td>
+</tr>
+<tr>
+<td>Trình duyệt hạn chế theo dõi</td>
+<td>Có thể mất dữ liệu</td>
+<td>Không phụ thuộc trình duyệt</td>
+</tr>
+<tr>
+<td>Khách tắt trang trước khi mã chạy xong</td>
+<td>Có thể mất sự kiện</td>
+<td>Máy chủ vẫn ghi nhận đơn</td>
+</tr>
+<tr>
+<td>Sự kiện xảy ra ngoài website (xác nhận đơn qua điện thoại)</td>
+<td>Không ghi được</td>
+<td>Gửi được từ hệ thống</td>
+</tr>
+<tr>
+<td>Độ khó cài đặt</td>
+<td>Dễ</td>
+<td>Trung bình đến khó</td>
+</tr>
+</tbody>
+</table></div>
+<p>Meta khuyến nghị dùng cả hai theo kiểu "dự phòng": Pixel bắt sự kiện trên trình duyệt, CAPI gửi lại từ máy chủ. Sự kiện nào cả hai cùng bắt được thì Meta gộp làm một.</p>
+<h2 id="website-ban-hang-can-o-nhung-su-kien-nao">Website bán hàng cần đo những sự kiện nào?</h2>
+<p>Meta có danh sách sự kiện chuẩn. Với website bán hàng, đội mình luôn cài tối thiểu 5 sự kiện:</p>
+<div class="kt-table"><table>
+<thead>
+<tr>
+<th>Sự kiện chuẩn</th>
+<th>Khi nào bắn</th>
+<th>Thông tin nên gửi kèm</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>PageView</td>
+<td>Mỗi lần tải trang</td>
+<td>Tự động</td>
+</tr>
+<tr>
+<td>ViewContent</td>
+<td>Xem trang sản phẩm</td>
+<td>Mã sản phẩm, tên, giá</td>
+</tr>
+<tr>
+<td>AddToCart</td>
+<td>Bấm thêm vào giỏ</td>
+<td>Mã sản phẩm, số lượng, giá trị</td>
+</tr>
+<tr>
+<td>InitiateCheckout</td>
+<td>Bắt đầu trang thanh toán</td>
+<td>Giá trị giỏ, số sản phẩm</td>
+</tr>
+<tr>
+<td>Purchase</td>
+<td>Đơn hàng tạo thành công</td>
+<td>Mã đơn, giá trị đơn, đơn vị tiền VND</td>
+</tr>
+</tbody>
+</table></div>
+<p>Nếu website có form tư vấn, thêm sự kiện <strong>Lead</strong> khi gửi form thành công. Nếu có nút gọi điện hoặc nhắn tin, có thể thêm <strong>Contact</strong>.</p>
+<p>Ví dụ với một web bán hàng riêng như qhubherbal.com của thương hiệu trà <a href="/qhub-herbal.html">QHUB HERBAL</a>, danh sách sự kiện mẫu sẽ gồm xem từng sản phẩm trà, thêm hộp vào giỏ, bắt đầu thanh toán và mua hàng với giá trị đơn (ví dụ đơn mua 2 tặng 1 trên website là 210.000 đồng nhận 3 hộp). Đây là danh sách mẫu để minh họa cách nghĩ, không phải mô tả cấu hình thực tế của website đó.</p>
+<p>Hai lưu ý quan trọng với sự kiện Purchase:</p>
+<ul>
+<li><strong>Chỉ bắn một lần cho mỗi đơn.</strong> Lỗi hay gặp là trang cảm ơn bị tải lại, Pixel bắn Purchase lần nữa.</li>
+<li><strong>Gửi giá trị đơn thật</strong>, đúng đơn vị VND, không gửi giá cố định cho mọi đơn. Meta cần giá trị để tối ưu theo doanh thu.</li>
+</ul>
+<h2 id="cac-cach-cai-pixel-va-conversions-api">Các cách cài Pixel và Conversions API</h2>
+<p>Từ dễ tới khó:</p>
+<h3 id="cach-1-tich-hop-san-cua-nen-tang-lam-web">Cách 1: tích hợp sẵn của nền tảng làm web</h3>
+<p>Nhiều nền tảng làm web bán hàng có mục kết nối Meta trong phần cài đặt. Anh chị đăng nhập Business Manager, chọn tập dữ liệu (Pixel), bật Conversions API nếu nền tảng hỗ trợ. Cách này nhanh nhất, ít lỗi nhất, phù hợp phần lớn shop nhỏ. Trước khi cài, Business Manager cần được thiết lập đúng như hướng dẫn trong bài <a href="/kien-thuc/business-manager-meta-business-suite-thiet-lap-dung-ngay-tu-dau/">Business Manager và Meta Business Suite</a>.</p>
+<h3 id="cach-2-conversions-api-gateway">Cách 2: Conversions API Gateway</h3>
+<p>Meta có giải pháp Conversions API Gateway, chạy trên hạ tầng đám mây, nhận sự kiện từ Pixel rồi gửi lại từ máy chủ. Hợp với website không có tích hợp sẵn mà đội không có lập trình viên. Có chi phí hạ tầng hằng tháng tùy nhà cung cấp.</p>
+<h3 id="cach-3-google-tag-manager-phia-may-chu">Cách 3: Google Tag Manager phía máy chủ</h3>
+<p>Dùng Google Tag Manager bản máy chủ (server-side) để gửi sự kiện tới Meta, đồng thời tới các nền tảng khác như TikTok, Google. Linh hoạt, nhưng cần người hiểu kỹ thuật và có chi phí máy chủ.</p>
+<h3 id="cach-4-lap-trinh-truc-tiep">Cách 4: lập trình trực tiếp</h3>
+<p>Lập trình viên gọi Conversions API từ hệ thống đặt hàng. Kiểm soát tốt nhất, hợp với website tự viết, có hệ thống đơn riêng.</p>
+<div class="kt-table"><table>
+<thead>
+<tr>
+<th>Cách cài</th>
+<th>Độ khó</th>
+<th>Chi phí</th>
+<th>Hợp với</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Tích hợp sẵn</td>
+<td>Dễ</td>
+<td>Thường miễn phí</td>
+<td>Web làm trên nền tảng phổ biến</td>
+</tr>
+<tr>
+<td>Conversions API Gateway</td>
+<td>Trung bình</td>
+<td>Phí hạ tầng</td>
+<td>Web không có tích hợp, không có lập trình viên</td>
+</tr>
+<tr>
+<td>Tag Manager phía máy chủ</td>
+<td>Khó</td>
+<td>Phí máy chủ</td>
+<td>Đội có người kỹ thuật, chạy nhiều nền tảng</td>
+</tr>
+<tr>
+<td>Lập trình trực tiếp</td>
+<td>Khó</td>
+<td>Công lập trình</td>
+<td>Web tự viết</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="chong-em-trung-event_id-la-gi">Chống đếm trùng: event_id là gì?</h2>
+<p>Khi Pixel và CAPI cùng gửi sự kiện Purchase cho một đơn, Meta phải biết đó là một đơn, không phải hai. Theo tài liệu Meta for Developers, Meta gộp hai sự kiện khi chúng có <strong>cùng tên sự kiện</strong> và <strong>cùng event_id</strong>.</p>
+<p>Cách làm đơn giản nhất: dùng mã đơn hàng làm event_id cho sự kiện Purchase. Pixel trên trang cảm ơn gửi Purchase với event_id = mã đơn. Máy chủ gửi Purchase qua CAPI với cùng event_id = mã đơn. Meta nhận hai, tính một.</p>
+<p>Với các sự kiện khác như AddToCart, website tạo một mã ngẫu nhiên khi khách bấm nút, rồi dùng cùng mã đó cho cả hai đường.</p>
+<p>Thiếu bước này, báo cáo sẽ đếm đơn gấp đôi, ROAS trông đẹp gấp đôi thực tế, và anh chị ra quyết định tăng ngân sách dựa trên số ảo.</p>
+<h2 id="kiem-tra-du-lieu-sau-khi-cai">Kiểm tra dữ liệu sau khi cài</h2>
+<p>Sau khi cài, đội mình kiểm tra theo thứ tự:</p>
+<ol>
+<li><strong>Công cụ kiểm tra sự kiện</strong> trong Trình quản lý sự kiện: tự đặt một đơn thử, xem sự kiện có hiện từ cả trình duyệt và máy chủ không.</li>
+<li><strong>Trạng thái gộp sự kiện</strong>: Trình quản lý sự kiện cho biết sự kiện đã được gộp đúng chưa.</li>
+<li><strong>Event Match Quality</strong>: điểm từ 0 đến 10 cho biết thông tin gửi kèm giúp Meta nhận ra người dùng tốt tới đâu. Gửi thêm email, số điện thoại đã mã hóa SHA-256, cùng các mã nhận diện trình duyệt như fbp, fbc thường giúp điểm tăng.</li>
+<li><strong>Đối chiếu với đơn thật</strong>: so số Purchase Meta ghi nhận trong 7 ngày với số đơn trong hệ thống. Chênh lệch nhỏ là bình thường do cách quy đơn khác nhau. Chênh lớn, hoặc Meta ghi nhiều đơn hơn thực tế, là dấu hiệu đếm trùng.</li>
+</ol>
+<h2 id="du-lieu-khach-hang-va-luat-bao-ve-du-lieu-ca-nhan">Dữ liệu khách hàng và luật bảo vệ dữ liệu cá nhân</h2>
+<p>Gửi email, số điện thoại của khách cho Meta là xử lý dữ liệu cá nhân. Luật Bảo vệ dữ liệu cá nhân số 91/2025/QH15 có hiệu lực từ 01/01/2026, cùng Nghị định 356/2025/NĐ-CP quy định chi tiết. Những việc tối thiểu nên làm:</p>
+<ul>
+<li>Có chính sách quyền riêng tư trên website, nói rõ thu thập dữ liệu gì, để làm gì, chia sẻ cho ai (trong đó có nền tảng quảng cáo).</li>
+<li>Có thông báo và cơ chế đồng ý phù hợp khi thu thập dữ liệu.</li>
+<li>Mã hóa thông tin trước khi gửi. Pixel và CAPI đều hỗ trợ mã hóa SHA-256.</li>
+<li>Chỉ gửi dữ liệu cần thiết.</li>
+</ul>
+<p>Phần này mình chỉ nêu ở mức tổng quát. Doanh nghiệp nên hỏi luật sư hoặc bộ phận pháp chế để có chính sách phù hợp với mô hình của mình.</p>
+<h2 id="loi-hay-gap-khi-cai-pixel-va-conversions-api">Lỗi hay gặp khi cài Pixel và Conversions API</h2>
+<ul>
+<li><strong>Cài Pixel hai lần</strong>, một lần qua plugin, một lần dán mã tay. Mọi sự kiện bị đếm đôi.</li>
+<li><strong>Purchase bắn ở trang thanh toán</strong> thay vì sau khi đơn tạo thành công.</li>
+<li><strong>Không có event_id</strong> khi dùng cả Pixel và CAPI.</li>
+<li><strong>Giá trị đơn sai đơn vị tiền</strong> hoặc gửi giá trị cố định.</li>
+<li><strong>Pixel nằm trong tài khoản cá nhân của người làm web</strong>, khi họ nghỉ thì doanh nghiệp mất quyền. Pixel phải thuộc Business Manager của doanh nghiệp.</li>
+<li><strong>Tối ưu theo Purchase khi mỗi tuần chỉ có vài đơn.</strong> Quá ít dữ liệu, Meta khó tối ưu. Giai đoạn đầu có thể tối ưu theo AddToCart hoặc InitiateCheckout, như mình chia sẻ trong bài <a href="/kien-thuc/quang-cao-facebook-meta-ads-cho-nguoi-moi/">quảng cáo Facebook Meta Ads cho người mới</a>.</li>
+</ul>
+<h2 id="viec-nen-lam-ngay-tuan-nay">Việc nên làm ngay tuần này</h2>
+<ul>
+<li>Mở Trình quản lý sự kiện, kiểm tra Pixel thuộc Business Manager của doanh nghiệp.</li>
+<li>Đặt một đơn thử, xem đủ 5 sự kiện chuẩn chưa, Purchase có giá trị đúng không.</li>
+<li>Nếu đã có CAPI, kiểm tra trạng thái gộp sự kiện và điểm Event Match Quality.</li>
+<li>Rà lại chính sách quyền riêng tư trên website.</li>
+</ul>
+<p>Nếu anh chị muốn có đội cùng thiết lập đo lường và chạy quảng cáo cho website, có thể tham khảo <a href="/dich-vu/quang-cao-tiktok-shopee/">dịch vụ quảng cáo</a> của đội QHUB. Các bài khác về bán hàng qua Facebook nằm trong chủ đề <a href="/kien-thuc/chu-de/ban-hang-facebook/">bán hàng Facebook</a>.</p>
+</div>
+<section class="kt-faq" id="cau-hoi-thuong-gap"><h2>Câu hỏi thường gặp</h2><details><summary>Pixel Facebook là gì?</summary><p>Pixel Facebook, nay gọi là Meta Pixel, là đoạn mã gắn vào website để ghi nhận hành động của người xem như xem sản phẩm, thêm vào giỏ, mua hàng. Dữ liệu này giúp Meta đo hiệu quả quảng cáo, tối ưu quảng cáo theo đơn hàng và tạo tệp khách để quảng cáo lại.</p></details><details><summary>Conversions API khác Pixel thế nào?</summary><p>Pixel chạy trên trình duyệt của khách, nên có thể bị chặn bởi trình chặn quảng cáo, cài đặt quyền riêng tư hoặc mạng chậm. Conversions API gửi dữ liệu từ máy chủ của website tới Meta, không phụ thuộc trình duyệt. Dùng cả hai giúp dữ liệu đầy đủ hơn, với điều kiện phải chống đếm trùng.</p></details><details><summary>Website nhỏ có cần Conversions API không?</summary><p>Nếu website có chạy quảng cáo Meta và muốn tối ưu theo đơn hàng thì nên có. Nhiều nền tảng làm web bán hàng đã có tích hợp sẵn, chỉ cần kết nối trong phần cài đặt. Website ít đơn, chưa chạy quảng cáo có thể bắt đầu bằng Pixel, rồi thêm Conversions API khi tăng ngân sách.</p></details><details><summary>Làm sao để không bị đếm trùng đơn khi dùng cả Pixel và Conversions API?</summary><p>Mỗi sự kiện gửi từ trình duyệt và từ máy chủ phải có cùng tên sự kiện, ví dụ Purchase, và cùng mã event_id, thường dùng mã đơn hàng. Meta dựa vào hai thông tin này để nhận ra đây là một sự kiện và chỉ tính một lần.</p></details><details><summary>Event Match Quality là gì?</summary><p>Event Match Quality là điểm từ 0 đến 10 trong Trình quản lý sự kiện, cho biết dữ liệu khách hàng gửi kèm sự kiện giúp Meta nhận ra người dùng tốt tới đâu. Gửi thêm thông tin đã mã hóa như email, số điện thoại, cùng mã nhận diện trình duyệt thường giúp điểm này tăng.</p></details></section>
+<section class="kt-src"><h2>Nguồn tham khảo</h2><ul><li><a href="https://developers.facebook.com/documentation/ads-commerce/conversions-api" target="_blank" rel="noopener nofollow">Conversions API – Meta for Developers</a></li><li><a href="https://developers.facebook.com/docs/marketing-api/conversions-api/deduplicate-pixel-and-server-events" target="_blank" rel="noopener nofollow">Handling duplicate Pixel and Conversions API events – Meta for Developers</a></li><li><a href="https://developers.facebook.com/documentation/meta-pixel/implementation/conversion-tracking" target="_blank" rel="noopener nofollow">Conversion tracking – Meta Pixel – Meta for Developers</a></li><li><a href="https://developers.facebook.com/docs/marketing-api/conversions-api/best-practices" target="_blank" rel="noopener nofollow">Conversions API best practices – Meta for Developers</a></li><li><a href="https://thuvienphapluat.vn/van-ban/Cong-nghe-thong-tin/Luat-Bao-ve-du-lieu-ca-nhan-2025-91-2025-QH15-625628.aspx" target="_blank" rel="noopener nofollow">Luật Bảo vệ dữ liệu cá nhân 2025 số 91/2025/QH15 – Thư viện Pháp luật</a></li><li><a href="https://luatvietnam.vn/dan-su/nghi-dinh-356-2025-nd-cp-quy-dinh-chi-tiet-luat-bao-ve-du-lieu-ca-nhan-422896-d1.html" target="_blank" rel="noopener nofollow">Nghị định 356/2025/NĐ-CP quy định chi tiết Luật Bảo vệ dữ liệu cá nhân – LuatVietnam</a></li><li><a href="https://luatvietnam.vn/dan-su/luat-bao-ve-du-lieu-ca-nhan-2025-co-hieu-luc-khi-nao-568-103652-article.html" target="_blank" rel="noopener nofollow">Luật Bảo vệ dữ liệu cá nhân 2025 có hiệu lực khi nào – LuatVietnam</a></li></ul></section>
+<aside class="kt-author">
+  <img class="kt-av" src="/quang-avatar-240.jpg" alt="Nguyễn Văn Quang" width="56" height="56" loading="lazy">
+  <div>
+    <p class="kt-by">Người viết</p>
+    <h2><a href="/tac-gia/nguyen-van-quang/">Nguyễn Văn Quang</a></h2>
+    <p class="kt-role">Founder &amp; CEO, QHUB Commerce</p>
+    <p>Đi lên từ bán hàng thị trường, qua trade marketing, brand marketing đến vận hành thương mại điện tử cho các doanh nghiệp đồ uống, thực phẩm và hàng tiêu dùng. Trực tiếp vận hành gian hàng trên Shopee, TikTok Shop, Facebook, Lazada, Tiki và Website.</p>
+  </div>
+</aside>
+<aside class="kt-cta">
+  <img src="/logo-qhub.png" alt="" width="64" height="64">
+  <div>
+    <h2>Cần người ngồi vào vận hành cùng anh chị?</h2>
+    <p>QHUB Commerce là Phòng Tăng Trưởng Thuê Ngoài cho doanh nghiệp bán hàng đa sàn. Đội QHUB trực tiếp vận hành TikTok Shop, Shopee, Facebook và Website: nội dung, livestream, affiliate, quảng cáo, dữ liệu. Buổi chẩn đoán đầu tiên 60 phút, miễn phí.</p>
+    <a class="btn btn-primary" href="/#dat-lich">Đặt lịch chẩn đoán miễn phí</a>
+    <a class="kt-cta-link" href="https://zalo.me/0856510113" target="_blank" rel="noopener">Hoặc nhắn Zalo 0856 510 113</a>
+  </div>
+</aside>
+</article>
+<section class="kt-rel"><h2>Đọc tiếp</h2><div class="kt-grid"><article class="kt-card"><a href="/kien-thuc/business-manager-meta-business-suite-thiet-lap-dung-ngay-tu-dau/"><span class="kt-tag">Bán hàng Facebook</span><h3>Business Manager (Meta Business Suite): thiết lập đúng ngay từ đầu</h3><p>Thiết lập Meta Business Suite đúng từ đầu: phân biệt Business Manager và Business Portfolio, phân quyền, xác minh doanh nghiệp, 2FA, Pixel, tài khoản quảng cáo.</p><span class="kt-meta">19/11/2026 · 13 phút đọc</span></a></article><article class="kt-card"><a href="/kien-thuc/tai-khoan-quang-cao-facebook-bi-han-che-cach-xu-ly/"><span class="kt-tag">Bán hàng Facebook</span><h3>Tài khoản quảng cáo bị hạn chế trên Facebook: nguyên nhân, cách xử lý</h3><p>Tài khoản quảng cáo bị hạn chế: phân biệt 6 dạng hạn chế của Meta, nguyên nhân hay gặp, cách gửi yêu cầu xem xét trong Chất lượng tài khoản và cách phòng lại.</p><span class="kt-meta">18/11/2026 · 13 phút đọc</span></a></article><article class="kt-card"><a href="/kien-thuc/chi-phi-quang-cao-facebook-2026-theo-nganh/"><span class="kt-tag">Bán hàng Facebook</span><h3>Chi phí quảng cáo Facebook 2026 theo ngành: cách tính và lập ngân sách</h3><p>Chi phí quảng cáo Facebook 2026 phụ thuộc đấu giá, ngành, mùa vụ. Bài giải thích CPM, CPC, CPA, thuế Meta từ 12/10/2026 và bảng mẫu lập ngân sách thử.</p><span class="kt-meta">18/11/2026 · 13 phút đọc</span></a></article><article class="kt-card"><a href="/kien-thuc/quang-cao-tin-nhan-facebook-chay-va-chot-don-qua-inbox/"><span class="kt-tag">Bán hàng Facebook</span><h3>Quảng cáo tin nhắn Facebook: chạy và chốt đơn qua inbox</h3><p>Quảng cáo tin nhắn Facebook: chọn mục tiêu, cài mẫu chào hỏi, quy tắc 24 giờ, kịch bản inbox chốt đơn và bảng chỉ số chi phí mỗi cuộc trò chuyện, tỷ lệ chốt.</p><span class="kt-meta">17/11/2026 · 13 phút đọc</span></a></article></div></section>
+</div>
+</main>
+<footer class="footer">
+  <div class="wrap">
+    <div>
+      <h4>CÔNG TY TNHH QHUB COMMERCE</h4>
+      <p class="legal-info">Giấy CN ĐKDN số 5400570349 do Phòng Đăng ký kinh doanh – Sở Tài chính tỉnh Phú Thọ cấp lần đầu ngày 13/04/2026</p>
+      <p>Người đại diện theo pháp luật: Nguyễn Văn Quang</p>
+      <p>Trụ sở: Khu Vai, Xã An Nghĩa, Tỉnh Phú Thọ, Việt Nam</p>
+      <p>Hotline/Zalo: <a href="tel:0856510113">0856 510 113</a></p>
+      <p>Email: <a href="mailto:qhubcommerce@gmail.com">qhubcommerce@gmail.com</a></p>
+    </div>
+    <div>
+      <h4>Kiến thức</h4>
+      <ul><li><a href="/kien-thuc/chu-de/tiktok/">Xây kênh TikTok</a></li><li><a href="/kien-thuc/chu-de/content-tiktok/">Content TikTok</a></li><li><a href="/kien-thuc/chu-de/tiktok-shop/">TikTok Shop căn bản</a></li><li><a href="/kien-thuc/chu-de/van-hanh-tiktok-shop/">Vận hành TikTok Shop</a></li><li><a href="/kien-thuc/chu-de/quang-cao-tiktok/">Quảng cáo TikTok &amp; GMV Max</a></li><li><a href="/kien-thuc/chu-de/phi-san-tiktok-shop/">Phí sàn TikTok Shop</a></li><li><a href="/kien-thuc/chu-de/van-hanh-shopee/">Vận hành Shopee</a></li><li><a href="/kien-thuc/chu-de/quang-cao-shopee/">Quảng cáo Shopee</a></li></ul>
+    </div>
+    <div>
+      <h4>&nbsp;</h4>
+      <ul><li><a href="/kien-thuc/chu-de/phi-san-shopee/">Phí sàn Shopee</a></li><li><a href="/kien-thuc/chu-de/ban-hang-facebook/">Bán hàng Facebook</a></li><li><a href="/kien-thuc/chu-de/youtube/">Xây kênh YouTube</a></li><li><a href="/kien-thuc/chu-de/instagram/">Phát triển Instagram</a></li><li><a href="/kien-thuc/chu-de/threads/">Phát triển Threads</a></li><li><a href="/kien-thuc/chu-de/website-seo/">Website chuẩn SEO</a></li><li><a href="/kien-thuc/chu-de/lich-sale/">Lịch sale &amp; chiến dịch</a></li><li><a href="/gioi-thieu/">Giới thiệu QHUB</a></li><li><a href="/dich-vu/">Dịch vụ</a></li><li><a href="/chinh-sach.html">Chính sách</a></li></ul>
+    </div>
+    <div class="legal"><span>© 2026 QHUB Commerce.</span><span>qhub.com.vn</span></div>
+  </div>
+</footer>
+<div class="float" aria-label="Liên hệ nhanh">
+  <a class="zalo" href="https://zalo.me/0856510113" target="_blank" rel="noopener" aria-label="Nhắn Zalo cho QHUB">Zalo</a>
+  <a class="call" href="tel:0856510113" aria-label="Gọi hotline QHUB"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 005 5L15 13l5 2v4a2 2 0 01-2 2A16 16 0 013 6a2 2 0 012-2"/></svg></a>
+</div>
+<script src="/kien-thuc.js?v=20261113f" defer></script>
+</body>
+</html>

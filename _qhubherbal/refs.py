@@ -1045,6 +1045,185 @@ NEW_RULES8.append(('xht8_dinhlang2', ['say đinh lăng', 'đinh lăng lá nhỏ'
 RULES[:0] = NEW_RULES8
 
 
+# Đêm 9 (20/11/2026): cụm đặc thù đặt lên đầu RULES (URL lấy từ kết quả WebSearch)
+NEW_RULES9 = []
+
+# --- dhc ---
+# --- dhc (đêm 9, 20/11/2026) ---
+SRC['n9_dhc_nghiencuu'] = [
+    ('Liu J, Lin H, McIntosh H (2001) – Genus Phyllanthus for chronic hepatitis B virus infection: a systematic review (Tổng quan hệ thống về chi Phyllanthus và viêm gan B mạn tính), Journal of Viral Hepatitis', 'https://pubmed.ncbi.nlm.nih.gov/11555193/'),
+    ('Xia Y, Luo H, Liu JP, Gluud C (2011) – Phyllanthus species for chronic hepatitis B virus infection (Tổng quan Cochrane về Phyllanthus và viêm gan B mạn tính), Cochrane Database of Systematic Reviews', 'https://www.cochrane.org/evidence/CD008960_phyllanthus-species-chronic-hepatitis-b-virus-infection'),
+    ('Nishiura JL và cộng sự (2004) – Phyllanthus niruri normalizes elevated urinary calcium levels in calcium stone forming (CSF) patients (Thử nghiệm Phyllanthus niruri ở người có sỏi calci), Urological Research', 'https://pubmed.ncbi.nlm.nih.gov/15221244/'),
+    ('Boim MA và cộng sự (2010) – Phyllanthus niruri as a promising alternative treatment for nephrolithiasis (Tổng quan về Phyllanthus niruri và sỏi thận), International Braz J Urol', 'https://pubmed.ncbi.nlm.nih.gov/21176271/'),
+    ('RxList – Chanca Piedra (Phyllanthus niruri): công dụng được nghiên cứu, tác dụng phụ, tương tác thuốc', 'https://www.rxlist.com/supplements/chanca_piedra.htm'),
+]
+NEW_RULES9.append(('n9_dhc_nghiencuu', ['phyllanthus', 'cochrane', 'chanca piedra', 'calci niệu', 'nishiura', 'tổng quan hệ thống'], 32))
+
+SRC['n9_cgl_totkhong'] = [
+    ('Nhà thuốc Long Châu – Tác dụng phụ của cà gai leo là gì? Cẩn trọng khi sử dụng', 'https://nhathuoclongchau.com.vn/bai-viet/tac-dung-phu-cua-ca-gai-leo-la-gi-can-trong-khi-su-dung-68761.html'),
+    ('Hello Bacsi – Những ai không nên uống cà gai leo', 'https://hellobacsi.com/an-uong-lanh-manh/bi-quyet-an-uong-lanh-manh/nhung-ai-khong-nen-uong-ca-gai-leo/'),
+    ('VTC News (2026) – Ai không nên uống cà gai leo', 'https://vtcnews.vn/ai-khong-nen-uong-ca-gai-leo-ar1007959.html'),
+    ('Natural Products and Bioprospecting (2019) – The Genus Solanum: An Ethnopharmacological, Phytochemical and Biological Properties Review (Tổng quan về chi Solanum: dân tộc dược học, hóa thực vật, hoạt tính sinh học)', 'https://pubmed.ncbi.nlm.nih.gov/30868423/'),
+    ('EFSA (2020) – Glycoalkaloids in potatoes: public health risks assessed (Đánh giá rủi ro glycoalkaloid trong khoai tây), Cơ quan An toàn Thực phẩm châu Âu', 'https://www.efsa.europa.eu/en/news/glycoalkaloids-potatoes-public-health-risks-assessed'),
+]
+NEW_RULES9.append(('n9_cgl_totkhong', ['uống cà gai leo', 'hại thận', 'tụt huyết áp', 'nghỉ quãng', 'sắc đặc'], 24))
+
+SRC['n9_glycoalkaloid'] = [
+    ('EFSA – Schrenk và cộng sự (2020) – Risk assessment of glycoalkaloids in feed and food, in particular in potatoes and potato-derived products (Đánh giá rủi ro glycoalkaloid trong thực phẩm, đặc biệt là khoai tây), EFSA Journal 18:e06222', 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7417869/'),
+    ('BfR – Frequently asked questions about solanine (glycoalkaloids) in potatoes (Hỏi đáp về solanine trong khoai tây), Viện Đánh giá Rủi ro Liên bang Đức', 'https://www.bfr.bund.de/cm/349/frequently-asked-questions-about-solanine-glycoalkaloids-in-potatoes.pdf'),
+    ('Toxicology of solanine: an overview (Tổng quan độc chất học của solanine), PubMed', 'https://pubmed.ncbi.nlm.nih.gov/6338654/'),
+    ('Frontiers in Pharmacology (2022) – Anticancer activity of glycoalkaloids from Solanum plants: A review (Hoạt tính của glycoalkaloid chi Solanum trên tế bào ung thư, chủ yếu dữ liệu ống nghiệm, động vật)', 'https://www.frontiersin.org/articles/10.3389/fphar.2022.979451'),
+    ('Trung tâm An toàn Thực phẩm Hồng Kông (CFS) – Glycoalkaloids in potatoes (Glycoalkaloid trong khoai tây)', 'https://www.cfs.gov.hk/english/multimedia/multimedia_pub/multimedia_pub_fsf_112_01.html'),
+]
+NEW_RULES9.append(('n9_glycoalkaloid', ['glycoalkaloid', 'solanine', 'solasodine', 'efsa', 'khoai tây', 'solamargine'], 70))
+
+# --- dn ---
+# --- đêm 9 (20/11/2026): agent dn – duong-nhan
+# Bài: ai-khong-nen-uong-tra-duong-nhan
+SRC['n9_khongnenduongnhan'] = [
+    ('Leung và cộng sự (2008) – Quá liều warfarin có thể do tác động của kỷ tử (Warfarin overdose due to the possible effects of Lycium barbarum L.), báo cáo ca', 'https://katalog.lib.cas.cz/KNAV/EdsRecord/edsair,edsair.doi.dedup.....7b61b01af8e7d0d92474664976b8b13e'),
+    ('Segal R, Pilote L (2006) – Tương tác warfarin với cúc La Mã (Matricaria chamomilla), CMAJ', 'https://www.cmaj.ca/content/174/9/1281'),
+    ('Memorial Sloan Kettering Cancer Center – Cordyceps (đông trùng hạ thảo): tương tác thuốc và lưu ý', 'https://www.mskcc.org/cancer-care/integrative-medicine/herbs/cordyceps'),
+    ('LactMed, Thư viện Y khoa Quốc gia Hoa Kỳ – Hoa nhài (Jasmine) và sữa mẹ', 'https://ncbi.nlm.nih.gov/books/n/lactmed/LM928/'),
+    ('ISMP (ConsumerMedSafety) – Ngưng thuốc thảo dược 1–2 tuần trước phẫu thuật', 'https://consumermedsafety.org/over-the-counter-medicines/herbals-vitamins-homeopathic-medicines/stop-taking-herbal-medicines-1-to-2-weeks-before-surgery'),
+]
+NEW_RULES9.append(('n9_khongnenduongnhan', ['ai không nên uống', 'warfarin', 'họ cúc', 'ức chế miễn dịch', 'tự miễn', 'cho con bú', 'phẫu thuật', 'lactmed', 'segal', 'inr', 'ismp'], 56))   # bài này 87, bài khác cao nhất 25
+
+# Bài: uong-du-nuoc-co-lam-da-dep-hon-khong
+SRC['n9_nuocvada'] = [
+    ('Palma L và cộng sự (2015) – Nước uống ảnh hưởng đến độ ẩm và cơ sinh học của da (Dietary water affects human skin hydration and biomechanics), Clinical, Cosmetic and Investigational Dermatology', 'https://pubmed.ncbi.nlm.nih.gov/26345226/'),
+    ('Akdeniz M và cộng sự (2018) – Lượng nước uống có ảnh hưởng đến độ ẩm da ở người khỏe mạnh? Tổng quan hệ thống, Skin Research and Technology', 'https://pubmed.ncbi.nlm.nih.gov/29392767/'),
+    ('EFSA (2010) – Giá trị tham chiếu dinh dưỡng châu Âu, gồm nhu cầu nước', 'https://www.efsa.europa.eu/en/press/news/nda100326'),
+    ('National Academies (2004) – Báo cáo mức khuyến nghị nước, muối và kali', 'https://www.nationalacademies.org/news/report-sets-dietary-intake-levels-for-water-salt-and-potassium-to-maintain-health-and-reduce-chronic-disease-risk'),
+    ('American Academy of Dermatology – Lời khuyên của bác sĩ da liễu để giảm da khô', 'https://www.aad.org/public/everyday-care/skin-care-basics/dry/dermatologists-tips-relieve-dry-skin'),
+]
+NEW_RULES9.append(('n9_nuocvada', ['palma', 'akdeniz', 'lớp sừng', 'độ ẩm', 'efsa', 'viện hàn lâm', 'thiếu nước', 'dưỡng ẩm', 'tewl', 'uống thêm nước'], 38))   # bài này 60, bài khác cao nhất 10
+
+# Bài: tra-hoa-hong-tra-hoa-cuc-tra-hoa-nhai
+SRC['n9_trahoasosanh'] = [
+    ('Mayo Clinic – Hàm lượng caffeine trong cà phê, trà, nước ngọt', 'https://mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/caffeine/art-20049372'),
+    ('Chin JM và cộng sự (2008) – Hàm lượng caffeine của các loại trà pha (Caffeine content of brewed teas), Journal of Analytical Toxicology', 'https://pubmed.ncbi.nlm.nih.gov/19007524/'),
+    ('ACOG (2010) – Ý kiến Ủy ban số 462: Tiêu thụ caffeine vừa phải khi mang thai', 'https://pubmed.ncbi.nlm.nih.gov/20664420/'),
+    ('NCCIH – Chamomile (cúc La Mã): an toàn và dị ứng', 'https://www.nccih.nih.gov/health/chamomile'),
+    ('Phản vệ với cúc La Mã: đặc điểm lâm sàng và phản ứng chéo dị nguyên (Anaphylaxis to camomile: clinical features and allergen cross-reactivity)', 'https://pubmed.ncbi.nlm.nih.gov/10998021/'),
+]
+NEW_RULES9.append(('n9_trahoasosanh', ['trà hoa cúc', 'trà hoa nhài', 'nhài thuần', 'ướp nhài', 'cúc la mã', 'dị ứng họ cúc', 'ba loại hoa', 'hoa cúc thuần'], 42))   # bài này 66, bài khác cao nhất ~19 (hoa-cuc-vang-la-gi)
+
+# --- dta ---
+SRC['n9_rung_toc_cang_thang'] = [
+    ('Cleveland Clinic – Telogen effluvium: triệu chứng, nguyên nhân và quá trình mọc lại tóc', 'https://my.clevelandclinic.org/health/diseases/24486-telogen-effluvium'),
+    ('Viện Da liễu Hoa Kỳ (AAD) – Rụng tóc nhiều (hair shedding) hay mất tóc (hair loss)?', 'https://www.aad.org/alopecia-care'),
+    ('Đại học Harvard (2021) – Corticosterone ức chế GAS6 để điều khiển trạng thái nghỉ của tế bào gốc nang tóc (nghiên cứu trên chuột), Nature', 'https://www.nature.com/articles/s41586-021-03417-2'),
+    ('(2015) – Dịch tễ học và gánh nặng của rụng tóc từng mảng (alopecia areata): tổng quan hệ thống, Clinical, Cosmetic and Investigational Dermatology', 'https://pubmed.ncbi.nlm.nih.gov/26244028/'),
+    ('Cẩm nang MSD – Rối loạn giật tóc (trichotillomania)', 'https://www.msdmanuals.com/home/mental-health-disorders/obsessive-compulsive-and-related-disorders/hair-pulling-disorder-trichotillomania'),
+]
+NEW_RULES9.append(('n9_rung_toc_cang_thang', ['telogen effluvium', 'nang tóc', 'alopecia areata', 'trichotillomania', 'giật tóc', 'ferritin', 'gas6', 'rụng tóc từng mảng'], 35))
+
+SRC['n9_dau_dau_cang_thang'] = [
+    ('Tổ chức Y tế Thế giới (WHO) – Migraine và các rối loạn đau đầu (bảng thông tin)', 'https://www.who.int/news-room/fact-sheets/detail/headache-disorders'),
+    ('Hiệp hội Đau đầu Quốc tế – ICHD-3: Đau đầu dạng căng thẳng từng đợt thường xuyên (tiêu chuẩn chẩn đoán)', 'https://www.ichd-3.org/2-2-frequent-episodic-tension-type-headache/'),
+    ('NICE (Anh) – Thuốc giảm đau có thể là nguyên nhân gây đau đầu của bạn? (đau đầu do lạm dụng thuốc, hướng dẫn CG150)', 'https://www.nice.org.uk/guidance/cg150/resources/could-painkillers-be-causing-your-headaches'),
+    ('Mayo Clinic – Đau đầu dạng căng thẳng: các biện pháp tự chăm sóc', 'https://www.mayoclinic.org/headaches/art-20047631'),
+    ('AAFP (2022) – Đau đầu cấp ở người lớn: tiếp cận chẩn đoán và dấu hiệu cảnh báo, American Family Physician', 'https://www.aafp.org/afp/2022/0900/acute-headache-adults'),
+]
+NEW_RULES9.append(('n9_dau_dau_cang_thang', ['đau đầu dạng căng thẳng', 'migraine', 'lạm dụng thuốc', 'ichd-3', 'cờ đỏ', 'snnoop10', '20-20-20', 'đau đầu căng cơ'], 19))
+
+# --- loi ---
+SRC['n9_foshu_la_oi'] = [
+    ('Bộ Y tế, Lao động và Phúc lợi Nhật Bản (MHLW) – Thực phẩm cho mục đích sức khỏe đặc biệt (FOSHU) và hệ thống phê duyệt riêng lẻ', 'https://www.mhlw.go.jp/english/topics/foodsafety/fhc/02.html'),
+    ('Ủy ban An toàn Thực phẩm Nhật Bản (FSCJ) – Cách tiếp cận cơ bản trong đánh giá an toàn FOSHU', 'https://www.fsc.go.jp/hyouka/index.data/basic_approach_of_foshu.pdf'),
+    ('Deguchi Y., Miyazaki K. (2010) – Tác dụng chống tăng đường huyết và mỡ máu của chiết xuất lá ổi (tổng quan), Nutrition & Metabolism', 'https://pmc.ncbi.nlm.nih.gov/articles/PMC2831039/'),
+    ('Nutrition Research Reviews (2003) – Công bố sức khỏe trên thực phẩm chức năng: quy định của Nhật Bản và so sánh quốc tế', 'https://doi.org/10.1079/NRR200363'),
+    ('USDA FAS (2015) – Hệ thống ghi nhãn công bố sức khỏe mới của Nhật Bản (Foods with Function Claims)', 'https://www.fas.usda.gov/data/japan-japan-s-new-health-claims-labeling-system-creates-opportunities'),
+]
+NEW_RULES9.append(('n9_foshu_la_oi', ['foshu', 'tokuho', 'bansoureicha', 'phê duyệt riêng lẻ', 'thực phẩm có công bố chức năng'], 38))
+
+SRC['n9_mo_bung'] = [
+    ('Harvard Health Publishing – Mỡ bụng và cách cải thiện (mỡ dưới da và mỡ nội tạng)', 'https://www.health.harvard.edu/staying-healthy/abdominal-fat-and-what-to-do-about-it'),
+    ('WHO (2020) – Hướng dẫn về hoạt động thể lực và hành vi tĩnh tại, Bull và cộng sự, British Journal of Sports Medicine', 'https://bjsm.bmj.com/content/54/24/1451'),
+    ('Dunstan D.W. và cộng sự (2012) – Ngắt quãng thời gian ngồi làm giảm đường huyết và insulin sau ăn, Diabetes Care', 'https://pubmed.ncbi.nlm.nih.gov/22374636/'),
+    ('Ma J. và cộng sự (2016) – Đồ uống có đường và thay đổi mỡ nội tạng trong đoàn hệ Framingham, Circulation', 'https://pubmed.ncbi.nlm.nih.gov/26755505/'),
+    ('Mayo Clinic (2022) – Thiếu ngủ làm tăng mỡ bụng không lành mạnh', 'https://newsnetwork.mayoclinic.org/discussion/lack-of-sleep-increases-unhealthy-abdominal-fat/'),
+]
+NEW_RULES9.append(('n9_mo_bung', ['mỡ nội tạng', 'vòng eo', 'mỡ bụng', 'ngồi liên tục', 'đồ uống có đường'], 46))
+
+# --- ndv ---
+SRC['n9_daulungkinh'] = [
+    ('Mayo Clinic – Menstrual cramps: Symptoms and causes (Đau bụng kinh: triệu chứng, nguyên nhân; đau lan lưng dưới và đùi)', 'https://mayoclinic.org/diseases-conditions/menstrual-cramps/symptoms-causes/syc-20374938'),
+    ('NHS – Period pain (Đau kỳ kinh: chườm ấm, ibuprofen, TENS và khi nào cần gặp bác sĩ), Hệ thống Y tế Quốc gia Anh', 'https://www.nhs.uk/conditions/period-pain/'),
+    ('ACOG (2018) – Committee Opinion No. 760: Dysmenorrhea and Endometriosis in the Adolescent (Đau bụng kinh và lạc nội mạc tử cung ở thanh thiếu niên), Obstetrics & Gynecology', 'https://pubmed.ncbi.nlm.nih.gov/30461694/'),
+    ('Jo J, Lee SH (2018) – Heat therapy for primary dysmenorrhea: systematic review and meta-analysis (Liệu pháp nhiệt cho đau bụng kinh nguyên phát), Scientific Reports', 'https://www.nature.com/articles/s41598-018-34303-z'),
+    ('WHO – Endometriosis fact sheet (Lạc nội mạc tử cung: khoảng 10% phụ nữ độ tuổi sinh sản), Tổ chức Y tế Thế giới', 'https://www.who.int/news-room/fact-sheets/detail/endometriosis'),
+]
+NEW_RULES9.append(('n9_daulungkinh', ['đau lưng khi đến tháng', 'đau quy chiếu', 'đau lưng kỳ kinh', 'adenomyosis', 'đau lưng'], 23))
+
+SRC['n9_nguoithuong'] = [
+    ('Itani R et al. (2022) – Primary Dysmenorrhea: Pathophysiology, Diagnosis, and Treatment Updates (Đau bụng kinh nguyên phát: cơ chế, chẩn đoán, cập nhật xử trí), Korean Journal of Family Medicine', 'https://pmc.ncbi.nlm.nih.gov/articles/PMC8943241/'),
+    ('womenshealth.gov – Premenstrual syndrome (PMS) fact sheet (Hội chứng tiền kinh nguyệt), Văn phòng Sức khỏe Phụ nữ Hoa Kỳ', 'https://webarchive.library.unt.edu/web/20121017194841/http:/www.womenshealth.gov/publications/our-publications/fact-sheet/premenstrual-syndrome.pdf'),
+    ('AAFP (2025) – Premenstrual Syndrome and Premenstrual Dysphoric Disorder: Common Questions and Answers (PMS và PMDD: hỏi đáp thường gặp), American Family Physician', 'https://www.aafp.org/pubs/afp/issues/2025/0400/premenstrual-syndrome-premenstrual-dysphoric-disorder.html'),
+    ('Armour M et al. (2019) – Exercise for dysmenorrhoea (Tập luyện cho đau bụng kinh), Cochrane Database of Systematic Reviews', 'https://www.cochrane.org/CD004142'),
+    ('NHS – Period pain (Đau kỳ kinh: chườm ấm, thuốc giảm đau, khi nào cần gặp bác sĩ), Hệ thống Y tế Quốc gia Anh', 'https://www.nhs.uk/conditions/period-pain/'),
+]
+NEW_RULES9.append(('n9_nguoithuong', ['người yêu', 'vợ đến tháng', 'pmdd', 'hội chứng tiền kinh', 'túi chườm', 'đỡ việc nhà', 'việc nhà'], 20))
+
+# --- nv ---
+SRC['n9_bakichkh'] = [
+    ('Zhang và cs. (2018) – Ba kích (Morinda officinalis How.): tổng quan toàn diện về cách dùng truyền thống, hóa học thực vật và dược lý, Journal of Ethnopharmacology', 'https://pubmed.ncbi.nlm.nih.gov/29126988/'),
+    ('Du và cs. (2020) – Hiệu quả và an toàn của viên nang oligosaccharide ba kích cho rối loạn trầm cảm: tổng quan hệ thống và phân tích gộp, Brazilian Journal of Psychiatry', 'https://scielo.br/j/rbp/a/f4pzkDLqFXcD3fkvhkHXrNy/?lang=en'),
+    ('(2022) – Oligosaccharide ba kích tăng serotonin não qua thúc đẩy vi khuẩn đường ruột tạo 5-HTP (nghiên cứu động vật), Acta Pharmaceutica Sinica B', 'https://pmc.ncbi.nlm.nih.gov/articles/PMC9366226'),
+    ('(2009) – Hoạt tính chống loãng xương của anthraquinone từ ba kích trên tế bào tạo xương và hủy xương, Molecules', 'https://pubmed.ncbi.nlm.nih.gov/19169204/'),
+    ('(2009) – Chiết xuất ba kích ức chế mất xương ở chuột cống cắt buồng trứng, Molecules', 'https://pubmed.ncbi.nlm.nih.gov/19513005/'),
+]
+NEW_RULES9.append(('n9_bakichkh', ['oligosaccharide', 'anthraquinone', 'cắt buồng trứng', 'sinh tinh', 'monotropein', '5-htp'], 25))
+
+SRC['n9_bakichdung'] = [
+    ('Đỗ Tất Lợi – Cây ba kích (ba kích thiên, cây ruột gà), trong "Những cây thuốc và vị thuốc Việt Nam"', 'https://vnras.com/cay-ba-kich-ba-kich-thien-cay-ruot-ga-nhung-cay-thuoc-va-vi-thuoc-viet-nam-do-tat-loi'),
+    ('TCVN 11776-1:2017 – Dược liệu sau chế biến – Phần 1: Ba kích chế', 'https://thuvienphapluat.vn/TCVN/Linh-vuc-khac/TCVN-11776-1-2017-Duoc-lieu-sau-che-bien-Phan-1-Ba-kich-che-918596.aspx'),
+    ('Thông tư 30/2017/TT-BYT – Hướng dẫn phương pháp chế biến các vị thuốc cổ truyền', 'https://caselaw.vn/van-ban-phap-luat/312694-thong-tu-30-2017-tt-byt-ve-huong-dan-phuong-phap-che-bien-cac-vi-thuoc-co-truyen-do-bo-truong-bo-y-te-ban-hanh'),
+    ('Hong Kong Chinese Materia Medica Standards, tập 5 – Chuyên luận Morindae Officinalis Radix (ba kích)', 'https://www.cmro.gov.hk/hkcmms/vol5/pdf_e/Morindae_Officinalis_Radix_v5_e.pdf'),
+    ('Zhang và cs. (2018) – Ba kích: tổng quan cách dùng truyền thống, hóa học thực vật và dược lý, Journal of Ethnopharmacology', 'https://pubmed.ncbi.nlm.nih.gov/29126988/'),
+]
+NEW_RULES9.append(('n9_bakichdung', ['sơ chế', 'quy kinh', 'chế muối', 'thận dương', 'tính vị', 'thể trạng'], 21))
+
+SRC['n9_cistanche'] = [
+    ('Gu, Yang, Huang (2016) – Nhục thung dung (Cistanches Herba): tổng quan dược lý thần kinh, Frontiers in Pharmacology', 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5028387/'),
+    ('(2021) – Chiết xuất Cistanche tubulosa với hội chứng suy giảm vận động: thử nghiệm ngẫu nhiên mù đôi có giả dược, Nutrients', 'https://www.mdpi.com/2072-6643/13/1/264'),
+    ('Thực phẩm chứa chiết xuất Cistanche deserticola với chất lượng sống và an toàn ở người cao tuổi: nghiên cứu mở thí điểm 12 tuần, Anti-Aging Medicine (Nhật Bản)', 'https://www.jstage.jst.go.jp/article/jaam/8/2/8_2_7/_article'),
+    ('Kan, Cheng và cs. (2021) – Sản phẩm phối chiết xuất cistanche và bạch quả ở người lớn có triệu chứng mệt mỏi mạn tính: thử nghiệm ngẫu nhiên mù đôi, Frontiers in Nutrition', 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8662561/'),
+    ('CITES CoP11 (2000) – Đề xuất Prop. 11.59 đưa Cistanche deserticola vào Phụ lục II', 'https://cites.org/sites/default/files/eng/cop/11/prop/59.pdf'),
+]
+NEW_RULES9.append(('n9_cistanche', ['echinacoside', 'acteoside', 'tubulosa', 'locomotive', 'cistanche', 'bạch quả'], 33))
+
+# --- xht ---
+SRC['n9_rem'] = [
+    ('NINDS/NIH – Brain Basics: Understanding Sleep (Kiến thức cơ bản về giấc ngủ: các giai đoạn NREM và REM)', 'https://www.ninds.nih.gov/Disorders/Patient-Caregiver-Education/Understanding-Sleep'),
+    ('Sleep Foundation – Stages of Sleep: What Happens in a Normal Sleep Cycle? (Các giai đoạn của một chu kỳ giấc ngủ)', 'https://www.sleepfoundation.org/stages-of-sleep'),
+    ('Xie L. và cs. (2013) – Sleep drives metabolite clearance from the adult brain (Giấc ngủ thúc đẩy đào thải chất chuyển hóa khỏi não), Science', 'https://pubmed.ncbi.nlm.nih.gov/24136970/'),
+    ('Ohayon M.M. và cs. (2004) – Phân tích gộp các thông số giấc ngủ khách quan từ trẻ em đến người cao tuổi, Sleep', 'https://pubmed.ncbi.nlm.nih.gov/15586779/'),
+    ('Stickgold R., Walker M.P. – The whats and whens of sleep-dependent memory consolidation (Củng cố trí nhớ phụ thuộc giấc ngủ), Sleep Medicine Reviews', 'https://pubmed.ncbi.nlm.nih.gov/19251443/'),
+]
+NEW_RULES9.append(('n9_rem', ['giấc ngủ sâu', 'rem', 'sóng chậm', 'glymphatic', 'chu kỳ giấc ngủ', 'n3'], 68))
+
+SRC['n9_thaomoc_toi'] = [
+    ('NCCIH/NIH – Chamomile: Usefulness and Safety (Hoa cúc chamomile: công dụng và an toàn)', 'https://www.nccih.nih.gov/health/chamomile'),
+    ('NCCIH/NIH – Passionflower (Lạc tiên Passiflora incarnata: bằng chứng và an toàn)', 'https://nccih.nih.gov/health/passionflower'),
+    ('Ngan A., Conduit R. (2011) – Thử nghiệm mù đôi có giả dược về trà passionflower và chất lượng giấc ngủ tự đánh giá, Phytotherapy Research', 'https://pubmed.ncbi.nlm.nih.gov/21294203/'),
+    ('Bent S. và cs. (2006) – Valerian for sleep: a systematic review and meta-analysis (Valerian và giấc ngủ: tổng quan hệ thống, phân tích gộp), The American Journal of Medicine', 'https://pubmed.ncbi.nlm.nih.gov/17145239/'),
+    ('Frontiers in Pharmacology (2018) – Suanzaoren Formulae for Insomnia: Updated Clinical Evidence and Possible Mechanisms (Bài thuốc toan táo nhân: bằng chứng lâm sàng và cơ chế)', 'https://www.frontiersin.org/articles/10.3389/fphar.2018.00076/full'),
+]
+NEW_RULES9.append(('n9_thaomoc_toi', ['chamomile', 'valerian', 'passionflower', 'lá vông', 'toan táo nhân', 'oải hương'], 45))
+
+SRC['n9_matngu_tramcam'] = [
+    ('Baglioni C. và cs. (2011) – Insomnia as a predictor of depression: a meta-analytic evaluation of longitudinal epidemiological studies (Mất ngủ dự báo trầm cảm: phân tích gộp), Journal of Affective Disorders', 'https://www.qxmd.com/r/21300408'),
+    ('American College of Physicians (2016) – Management of Chronic Insomnia Disorder in Adults (Hướng dẫn xử trí mất ngủ mạn tính ở người lớn – CBT-I đầu tay), Annals of Internal Medicine', 'https://pubmed.ncbi.nlm.nih.gov/27136449/'),
+    ('Manber R. và cs. (2008) – CBT-I bổ sung cho thuốc chống trầm cảm ở người trầm cảm kèm mất ngủ, Sleep', 'https://pmc.ncbi.nlm.nih.gov/articles/PMC2279754'),
+    ('UCLA Health (2021) – CBT cho mất ngủ có thể giúp phòng trầm cảm ở người cao tuổi (Irwin và cs., JAMA Psychiatry 2022)', 'https://www.uclahealth.org/news/new-study-shows-treating-insomnia-with-cognitive-behavioral'),
+    ('NIMH/NIH – Depression (Trầm cảm: dấu hiệu, triệu chứng và cách tìm trợ giúp)', 'https://www.nimh.nih.gov/health/publications/depression'),
+]
+NEW_RULES9.append(('n9_matngu_tramcam', ['trầm cảm', 'cbt-i', 'baglioni', 'hai chiều', 'tâm thần'], 49))
+RULES[:0] = NEW_RULES9
+
+
 def refs_for(body):
     low = body.lower(); out = []
     for key, kws, n in RULES:

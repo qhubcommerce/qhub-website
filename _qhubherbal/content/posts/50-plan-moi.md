@@ -965,3 +965,147 @@ products: xau-ho-tim-tam-sen
 Ngủ trưa ngắn giúp tỉnh táo buổi chiều. Bài viết tổng hợp nghiên cứu về thời lượng ngủ trưa hợp lý.
 
 [[buy:xau-ho-tim-tam-sen]]
+
++++
+slug: ai-khong-nen-uong-tra-duong-nhan
+title: Ai không nên uống Trà Dưỡng Nhan? Những lưu ý an toàn
+desc: Ai không nên uống Trà Dưỡng Nhan? Lưu ý cho phụ nữ mang thai, cho con bú, trẻ em, người dùng thuốc chống đông, dị ứng phấn hoa họ Cúc và cách uống hợp lý mỗi ngày.
+cat: san-pham
+date: 2026-11-20
+products: duong-nhan
++++
+Những nhóm người cần thận trọng hoặc hỏi bác sĩ trước khi uống Trà Dưỡng Nhan, giải thích theo từng vị trong công thức.
+
+[[buy:duong-nhan]]
+
++++
+slug: uong-du-nuoc-co-lam-da-dep-hon-khong
+title: Uống đủ nước có làm da đẹp hơn không? Bằng chứng khoa học
+desc: Uống đủ nước có làm da đẹp hơn không? Nghiên cứu nói gì về nước và độ ẩm da, nhu cầu nước mỗi ngày, dấu hiệu thiếu nước và thói quen chăm da thực tế.
+cat: cam-nang
+date: 2026-11-20
+products: duong-nhan
++++
+Tổng hợp bằng chứng khoa học về nước uống và làn da, tách bạch điều đã chứng minh và lời đồn.
+
+[[buy:duong-nhan]]
+
++++
+slug: tra-hoa-hong-tra-hoa-cuc-tra-hoa-nhai
+title: Trà hoa hồng, trà hoa cúc, trà hoa nhài: so sánh hương vị và cách dùng
+desc: So sánh trà hoa hồng, trà hoa cúc, trà hoa nhài: hương vị, cách pha, caffeine, thời điểm uống, ai cần lưu ý và cách chọn loại trà hoa hợp khẩu vị.
+cat: top
+date: 2026-11-20
+products: duong-nhan
++++
+So sánh ba loại trà hoa phổ biến theo tiêu chí khách quan: hương vị, cách pha, caffeine và lưu ý an toàn.
+
+[[buy:duong-nhan]]
+
++++
+slug: diep-ha-chau-trong-nghien-cuu-hien-dai-bang
+title: Diệp hạ châu trong nghiên cứu hiện đại: bằng chứng và giới hạn
+desc: Diệp hạ châu trong nghiên cứu hiện đại: các thử nghiệm về viêm gan B, sỏi thận, gan nhiễm mỡ, chất lượng bằng chứng, giới hạn và lưu ý an toàn khi dùng.
+cat: cam-nang
+date: 2026-11-20
+products: ca-gai-diep-ha-chau
++++
+Nhìn lại các nghiên cứu về diệp hạ châu (Phyllanthus) và những giới hạn của bằng chứng hiện có.
+
+[[buy:ca-gai-diep-ha-chau]]
+
++++
+slug: glycoalkaloid-trong-ca-gai-leo-la-gi
+title: Glycoalkaloid trong cà gai leo là gì
+desc: Glycoalkaloid trong cà gai leo là gì? Giải thích nhóm hợp chất của họ Cà, solasodine, solanine, nghiên cứu hiện có, độc tính khi dùng quá liều và lưu ý an toàn.
+cat: cam-nang
+date: 2026-11-20
+products: ca-gai-diep-ha-chau
++++
+Giải thích nhóm hợp chất glycoalkaloid trong cà gai leo và họ Cà, kèm lưu ý an toàn.
+
+[[buy:ca-gai-diep-ha-chau]]
+
++++
+slug: ba-kich-trong-nghien-cuu-khoa-hoc-hien-dai
+title: Ba kích trong nghiên cứu khoa học hiện đại
+desc: Ba kích trong nghiên cứu khoa học hiện đại: oligosaccharide, anthraquinone, các nghiên cứu trên động vật và người, chất lượng bằng chứng và lưu ý khi dùng.
+cat: cam-nang
+date: 2026-11-20
+products: nam-vuong
++++
+Tổng hợp các hướng nghiên cứu hiện đại về ba kích (Morinda officinalis) và giới hạn của bằng chứng.
+
+[[buy:nam-vuong]]
+
++++
+slug: nhuc-thung-dung-cistanche-trong-cac-nghien-cuu-chau
+title: Nhục thung dung (cistanche) trong các nghiên cứu châu Á
+desc: Nhục thung dung (cistanche) trong các nghiên cứu châu Á: echinacoside, acteoside, nghiên cứu ở Trung Quốc, Nhật Bản, Hàn Quốc, giới hạn bằng chứng và lưu ý.
+cat: cam-nang
+date: 2026-11-20
+products: nam-vuong
++++
+Nhìn lại các nghiên cứu về nhục thung dung tại châu Á và những điều khoa học chưa khẳng định.
+
+[[buy:nam-vuong]]
+
++++
+slug: giac-ngu-rem-va-giac-ngu-sau-vai-tro
+title: Giấc ngủ REM và giấc ngủ sâu: vai trò của từng giai đoạn
+desc: Giấc ngủ REM và giấc ngủ sâu khác nhau thế nào? Chu kỳ giấc ngủ 90 phút, vai trò từng giai đoạn với trí nhớ, cơ thể, thay đổi theo tuổi và cách ngủ đủ.
+cat: cam-nang
+date: 2026-11-20
+products: xau-ho-tim-tam-sen
++++
+Giải thích các giai đoạn giấc ngủ, vai trò của giấc ngủ sâu và giấc ngủ REM.
+
+[[buy:xau-ho-tim-tam-sen]]
+
++++
+slug: mat-ngu-va-tram-cam-con-ga-va-qua
+title: Mất ngủ và trầm cảm: con gà và quả trứng
+desc: Mất ngủ và trầm cảm liên quan thế nào? Nghiên cứu về mối quan hệ hai chiều, dấu hiệu cần đi khám, CBT-I và những việc nên làm khi mất ngủ kéo dài.
+cat: cam-nang
+date: 2026-11-20
+products: xau-ho-tim-tam-sen
++++
+Mối quan hệ hai chiều giữa mất ngủ và trầm cảm, và khi nào cần tìm đến bác sĩ.
+
+[[buy:xau-ho-tim-tam-sen]]
+
++++
+slug: dau-lung-khi-den-thang-vi-sao-va-cach
+title: Đau lưng khi đến tháng: vì sao và cách giảm
+desc: Đau lưng khi đến tháng vì sao? Vai trò prostaglandin, dấu hiệu lạc nội mạc tử cung, cách giảm đau lưng kỳ kinh tại nhà và khi nào cần đi khám phụ khoa.
+cat: cam-nang
+date: 2026-11-20
+products: ngay-dau-ve
++++
+Giải thích nguyên nhân đau lưng trong kỳ kinh và các cách giảm nhẹ đã được khuyến nghị.
+
+[[buy:ngay-dau-ve]]
+
++++
+slug: vi-sao-nhat-ban-co-tra-la-oi-duoc
+title: Vì sao Nhật Bản có trà lá ổi được công nhận
+desc: Vì sao Nhật Bản có trà lá ổi được công nhận FOSHU? Câu chuyện polyphenol lá ổi, hệ thống FOSHU, nghiên cứu hiện có và khác biệt với trà lá ổi thông thường.
+cat: cam-nang
+date: 2026-11-20
+products: la-oi-mix-la-sen
++++
+Câu chuyện trà lá ổi trong hệ thống FOSHU của Nhật Bản và điều đó có ý nghĩa gì với người tiêu dùng.
+
+[[buy:la-oi-mix-la-sen]]
+
++++
+slug: cang-thang-va-rung-toc
+title: Căng thẳng và rụng tóc
+desc: Căng thẳng và rụng tóc liên quan thế nào? Rụng tóc telogen effluvium, rụng tóc từng mảng, thời gian hồi phục, cách giảm căng thẳng và khi nào cần đi khám da liễu.
+cat: cam-nang
+date: 2026-11-20
+products: duong-tam-an
++++
+Giải thích cơ chế căng thẳng gây rụng tóc và các bước chăm sóc, khi nào cần đi khám.
+
+[[buy:duong-tam-an]]

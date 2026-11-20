@@ -137,24 +137,24 @@ night	product	kind	cat	slug	title	status
 8	ngay-dau-ve	viet-lai	san-pham	tay-chan-lanh-theo-dong-y	Tay chân lạnh, bụng dưới lạnh theo quan niệm phương Đông: vì sao và chăm sóc thế nào?	done 2026-11-19
 8	la-oi-mix-la-sen	moi	cam-nang	polyphenol-flavonoid-la-gi-va-co-trong-dau	Polyphenol, flavonoid là gì và có trong đâu	done 2026-11-19
 8	la-oi-mix-la-sen	viet-lai	cam-nang	giam-can-an-toan-khong-nhin-an	Giữ dáng an toàn không cần nhịn ăn: 10 thói quen bền vững	done 2026-11-19
-9	duong-nhan	moi	san-pham	ai-khong-nen-uong-tra-duong-nhan	Ai không nên uống Trà Dưỡng Nhan? Những lưu ý an toàn	todo
-9	duong-nhan	moi	cam-nang	uong-du-nuoc-co-lam-da-dep-hon-khong	Uống đủ nước có làm da đẹp hơn không? Bằng chứng khoa học	todo
-9	duong-nhan	moi	top	tra-hoa-hong-tra-hoa-cuc-tra-hoa-nhai	Trà hoa hồng, trà hoa cúc, trà hoa nhài: so sánh hương vị và cách dùng	todo
-9	ca-gai-diep-ha-chau	moi	cam-nang	diep-ha-chau-trong-nghien-cuu-hien-dai-bang	Diệp hạ châu trong nghiên cứu hiện đại: bằng chứng và giới hạn	todo
-9	ca-gai-diep-ha-chau	viet-lai	thao-moc	uong-ca-gai-leo-co-tot-khong	Uống cà gai leo có tốt không? Những điều cần biết trước khi dùng	todo
-9	ca-gai-diep-ha-chau	moi	cam-nang	glycoalkaloid-trong-ca-gai-leo-la-gi	Glycoalkaloid trong cà gai leo là gì	todo
-9	nam-vuong	moi	cam-nang	ba-kich-trong-nghien-cuu-khoa-hoc-hien-dai	Ba kích trong nghiên cứu khoa học hiện đại	todo
-9	nam-vuong	viet-lai	thao-moc	ba-kich-co-tac-dung-gi	Ba kích có tác dụng gì? Cách dùng ba kích đúng theo quan niệm phương Đông	todo
-9	nam-vuong	moi	cam-nang	nhuc-thung-dung-cistanche-trong-cac-nghien-cuu-chau	Nhục thung dung (cistanche) trong các nghiên cứu châu Á	todo
-9	xau-ho-tim-tam-sen	moi	cam-nang	giac-ngu-rem-va-giac-ngu-sau-vai-tro	Giấc ngủ REM và giấc ngủ sâu: vai trò của từng giai đoạn	todo
-9	xau-ho-tim-tam-sen	viet-lai	thao-moc	8-thao-moc-giup-ngu-ngon	8 loại thảo mộc quen dùng buổi tối theo kinh nghiệm dân gian	todo
-9	xau-ho-tim-tam-sen	moi	cam-nang	mat-ngu-va-tram-cam-con-ga-va-qua	Mất ngủ và trầm cảm: con gà và quả trứng	todo
-9	ngay-dau-ve	moi	cam-nang	dau-lung-khi-den-thang-vi-sao-va-cach	Đau lưng khi đến tháng: vì sao và cách giảm	todo
-9	ngay-dau-ve	viet-lai	san-pham	nguoi-thuong-nen-lam-gi-nhung-ngay-ay	Người yêu, vợ đến tháng: anh nên làm gì để cô ấy thấy được thương?	todo
-9	la-oi-mix-la-sen	moi	cam-nang	vi-sao-nhat-ban-co-tra-la-oi-duoc	Vì sao Nhật Bản có trà lá ổi được công nhận	todo
-9	la-oi-mix-la-sen	viet-lai	cam-nang	mo-bung-dan-van-phong	Mỡ bụng dân văn phòng: vì sao tích tụ và cách giảm từ thói quen	todo
-9	duong-tam-an	moi	cam-nang	cang-thang-va-rung-toc	Căng thẳng và rụng tóc	todo
-9	duong-tam-an	viet-lai	cam-nang	dau-dau-do-cang-thang	Đau đầu do căng thẳng: nhận biết và cách giảm nhẹ	todo
+9	duong-nhan	moi	san-pham	ai-khong-nen-uong-tra-duong-nhan	Ai không nên uống Trà Dưỡng Nhan? Những lưu ý an toàn	done 2026-11-20
+9	duong-nhan	moi	cam-nang	uong-du-nuoc-co-lam-da-dep-hon-khong	Uống đủ nước có làm da đẹp hơn không? Bằng chứng khoa học	done 2026-11-20
+9	duong-nhan	moi	top	tra-hoa-hong-tra-hoa-cuc-tra-hoa-nhai	Trà hoa hồng, trà hoa cúc, trà hoa nhài: so sánh hương vị và cách dùng	done 2026-11-20
+9	ca-gai-diep-ha-chau	moi	cam-nang	diep-ha-chau-trong-nghien-cuu-hien-dai-bang	Diệp hạ châu trong nghiên cứu hiện đại: bằng chứng và giới hạn	done 2026-11-20
+9	ca-gai-diep-ha-chau	viet-lai	thao-moc	uong-ca-gai-leo-co-tot-khong	Uống cà gai leo có tốt không? Những điều cần biết trước khi dùng	done 2026-11-20
+9	ca-gai-diep-ha-chau	moi	cam-nang	glycoalkaloid-trong-ca-gai-leo-la-gi	Glycoalkaloid trong cà gai leo là gì	done 2026-11-20
+9	nam-vuong	moi	cam-nang	ba-kich-trong-nghien-cuu-khoa-hoc-hien-dai	Ba kích trong nghiên cứu khoa học hiện đại	done 2026-11-20
+9	nam-vuong	viet-lai	thao-moc	ba-kich-co-tac-dung-gi	Ba kích có tác dụng gì? Cách dùng ba kích đúng theo quan niệm phương Đông	done 2026-11-20
+9	nam-vuong	moi	cam-nang	nhuc-thung-dung-cistanche-trong-cac-nghien-cuu-chau	Nhục thung dung (cistanche) trong các nghiên cứu châu Á	done 2026-11-20
+9	xau-ho-tim-tam-sen	moi	cam-nang	giac-ngu-rem-va-giac-ngu-sau-vai-tro	Giấc ngủ REM và giấc ngủ sâu: vai trò của từng giai đoạn	done 2026-11-20
+9	xau-ho-tim-tam-sen	viet-lai	thao-moc	8-thao-moc-giup-ngu-ngon	8 loại thảo mộc quen dùng buổi tối theo kinh nghiệm dân gian	done 2026-11-20
+9	xau-ho-tim-tam-sen	moi	cam-nang	mat-ngu-va-tram-cam-con-ga-va-qua	Mất ngủ và trầm cảm: con gà và quả trứng	done 2026-11-20
+9	ngay-dau-ve	moi	cam-nang	dau-lung-khi-den-thang-vi-sao-va-cach	Đau lưng khi đến tháng: vì sao và cách giảm	done 2026-11-20
+9	ngay-dau-ve	viet-lai	san-pham	nguoi-thuong-nen-lam-gi-nhung-ngay-ay	Người yêu, vợ đến tháng: anh nên làm gì để cô ấy thấy được thương?	done 2026-11-20
+9	la-oi-mix-la-sen	moi	cam-nang	vi-sao-nhat-ban-co-tra-la-oi-duoc	Vì sao Nhật Bản có trà lá ổi được công nhận	done 2026-11-20
+9	la-oi-mix-la-sen	viet-lai	cam-nang	mo-bung-dan-van-phong	Mỡ bụng dân văn phòng: vì sao tích tụ và cách giảm từ thói quen	done 2026-11-20
+9	duong-tam-an	moi	cam-nang	cang-thang-va-rung-toc	Căng thẳng và rụng tóc	done 2026-11-20
+9	duong-tam-an	viet-lai	cam-nang	dau-dau-do-cang-thang	Đau đầu do căng thẳng: nhận biết và cách giảm nhẹ	done 2026-11-20
 10	duong-nhan	moi	cau-chuyen	nguoi-me-tre-di-lam-lai-sau-sinh	Người mẹ trẻ đi làm lại sau sinh	todo
 10	duong-nhan	moi	thao-moc	tao-do-ky-tu-hoa-hong	Táo đỏ, kỷ tử, hoa hồng: bộ ba quen thuộc của chè dưỡng nhan	todo
 10	duong-nhan	moi	san-pham	tra-duong-nhan-co-caffeine-khong	Trà Dưỡng Nhan có caffeine không? Uống buổi tối được không	todo

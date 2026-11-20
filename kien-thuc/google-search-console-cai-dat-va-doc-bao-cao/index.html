@@ -1,0 +1,358 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<!-- GA4 QHUB Commerce -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-NYQMD1XPP6"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-NYQMD1XPP6');
+document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('a,button');if(!a)return;var h=a.getAttribute('href')||'';
+if(/zalo\.me/.test(h))gtag('event','click_zalo',{link_url:h});else if(/^tel:/.test(h))gtag('event','click_call',{link_url:h});
+else if(/^mailto:/.test(h))gtag('event','click_email',{link_url:h});else if(/qhubherbal\.com/.test(h))gtag('event','click_qhubherbal',{link_url:h});},true);</script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Google Search Console: cài đặt và đọc báo cáo cho website bán hàng</title>
+<meta name="description" content="Hướng dẫn cài Google Search Console từ đầu: xác minh website, gửi sitemap, đọc báo cáo hiệu suất, lập chỉ mục và báo cáo AI mới cho doanh nghiệp nhỏ.">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<link rel="canonical" href="https://qhub.com.vn/kien-thuc/google-search-console-cai-dat-va-doc-bao-cao/">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="QHUB Commerce">
+<meta property="og:locale" content="vi_VN">
+<meta property="og:title" content="Google Search Console: cài đặt và đọc báo cáo cho website bán hàng">
+<meta property="og:description" content="Hướng dẫn cài Google Search Console từ đầu: xác minh website, gửi sitemap, đọc báo cáo hiệu suất, lập chỉ mục và báo cáo AI mới cho doanh nghiệp nhỏ.">
+<meta property="og:url" content="https://qhub.com.vn/kien-thuc/google-search-console-cai-dat-va-doc-bao-cao/">
+<meta property="og:image" content="https://qhub.com.vn/og-qhub.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#0B1220">
+<link rel="icon" href="/favicon.ico" sizes="48x48">
+<link rel="icon" href="/favicon-96x96.png" type="image/png" sizes="96x96">
+<link rel="icon" href="/favicon-192x192.png" type="image/png" sizes="192x192">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="alternate" type="application/rss+xml" title="Kiến thức QHUB Commerce" href="/feed.xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/styles.css?v=20261113f">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BlogPosting", "headline": "Google Search Console: cài đặt và đọc báo cáo cho website bán hàng", "description": "Hướng dẫn cài Google Search Console từ đầu: xác minh website, gửi sitemap, đọc báo cáo hiệu suất, lập chỉ mục và báo cáo AI mới cho doanh nghiệp nhỏ.", "inLanguage": "vi", "mainEntityOfPage": "https://qhub.com.vn/kien-thuc/google-search-console-cai-dat-va-doc-bao-cao/", "url": "https://qhub.com.vn/kien-thuc/google-search-console-cai-dat-va-doc-bao-cao/", "image": "https://qhub.com.vn/og-qhub.png", "datePublished": "2026-11-21", "dateModified": "2026-11-21", "author": {"@type": "Person", "@id": "https://qhub.com.vn/tac-gia/nguyen-van-quang/#person", "name": "Nguyễn Văn Quang", "url": "https://qhub.com.vn/tac-gia/nguyen-van-quang/", "jobTitle": "Founder & CEO", "image": "https://qhub.com.vn/quang-avatar.jpg", "worksFor": {"@id": "https://qhub.com.vn/#organization"}}, "publisher": {"@type": "Organization", "@id": "https://qhub.com.vn/#organization", "name": "CÔNG TY TNHH QHUB COMMERCE", "alternateName": "QHUB Commerce", "url": "https://qhub.com.vn/", "logo": {"@type": "ImageObject", "url": "https://qhub.com.vn/logo-qhub.png", "width": 512, "height": 512}}, "articleSection": "Website chuẩn SEO", "keywords": "google search console, cài đặt google search console, cách dùng search console, báo cáo hiệu suất search console, xác minh website với google, gửi sitemap lên google", "wordCount": 2551}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Trang chủ", "item": "https://qhub.com.vn/"}, {"@type": "ListItem", "position": 2, "name": "Kiến thức", "item": "https://qhub.com.vn/kien-thuc/"}, {"@type": "ListItem", "position": 3, "name": "Website chuẩn SEO", "item": "https://qhub.com.vn/kien-thuc/chu-de/website-seo/"}, {"@type": "ListItem", "position": 4, "name": "Google Search Console: cài đặt và đọc báo cáo cho website bán hàng", "item": "https://qhub.com.vn/kien-thuc/google-search-console-cai-dat-va-doc-bao-cao/"}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Google Search Console có mất phí không?", "acceptedAnswer": {"@type": "Answer", "text": "Không. Search Console là công cụ miễn phí của Google. Anh chị chỉ cần một tài khoản Google và quyền chỉnh tên miền hoặc website để xác minh quyền sở hữu."}}, {"@type": "Question", "name": "Nên chọn tài sản loại Miền hay Tiền tố URL?", "acceptedAnswer": {"@type": "Answer", "text": "Nên chọn loại Miền nếu anh chị quản lý được DNS của tên miền. Loại này gom cả http, https, có www và không www, cùng mọi tên miền phụ vào một chỗ. Tiền tố URL chỉ hợp khi không vào được DNS, ví dụ website thuê trên nền tảng có sẵn."}}, {"@type": "Question", "name": "Gửi sitemap xong bao lâu thì Google lập chỉ mục?", "acceptedAnswer": {"@type": "Answer", "text": "Không có mốc cố định. Trang mới có thể được lập chỉ mục sau vài ngày đến vài tuần, tùy chất lượng trang, liên kết nội bộ và mức độ website được Google tin. Gửi sitemap chỉ giúp Google biết có trang mới, không bảo đảm trang được đưa vào kết quả."}}, {"@type": "Question", "name": "Vì sao số lượt nhấp trong Search Console khác Google Analytics?", "acceptedAnswer": {"@type": "Answer", "text": "Hai công cụ đo khác nhau. Search Console đếm lượt nhấp từ trang kết quả Google, còn Google Analytics đếm phiên truy cập trên website và phụ thuộc vào việc mã đo có chạy, người dùng có đồng ý cookie hay không. Lệch vài chục phần trăm là bình thường."}}, {"@type": "Question", "name": "Trang bị báo 'Đã thu thập dữ liệu – hiện chưa được lập chỉ mục' thì làm gì?", "acceptedAnswer": {"@type": "Answer", "text": "Đây thường là dấu hiệu Google thấy trang chưa đủ giá trị hoặc trùng lặp với trang khác. Anh chị nên làm nội dung sâu hơn, thêm liên kết nội bộ từ các trang mạnh, gộp các trang na ná nhau, rồi mới yêu cầu lập chỉ mục lại."}}]}</script>
+<meta property="article:published_time" content="2026-11-21">
+<meta property="article:modified_time" content="2026-11-21">
+<meta property="article:section" content="Website chuẩn SEO">
+</head>
+<body class="kt-body">
+<a class="skip" href="#main">Bỏ qua tới nội dung</a>
+<header class="site-header" id="top">
+  <div class="wrap">
+    <a class="brand" href="/" aria-label="QHUB Commerce — trang chủ">
+      <img src="/logo-qhub-white.png" alt="" width="45" height="48">
+      <span>QHUB<small>COMMERCE</small></span>
+    </a>
+    <nav class="nav" id="nav" aria-label="Điều hướng chính">
+      <a href="/gioi-thieu/">Giới thiệu</a>
+      <a href="/dich-vu/">Dịch vụ</a>
+      <a href="/kien-thuc/">Kiến thức</a>
+      <a href="/#doi-ngu">Đội ngũ</a>
+      <a href="/qhub-herbal.html">QHUB HERBAL</a>
+      <a class="nav-cta" href="/#dat-lich">Đặt lịch chẩn đoán</a>
+    </nav>
+    <a class="btn btn-primary btn-sm" href="/#dat-lich">Đặt lịch chẩn đoán</a>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="nav" aria-label="Mở menu">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+  </div>
+</header>
+<main id="main" class="kt-main">
+<div class="wrap kt-narrow">
+<nav class="kt-crumb" aria-label="Đường dẫn"><a href="/">Trang chủ</a><span aria-hidden="true">/</span><a href="/kien-thuc/">Kiến thức</a><span aria-hidden="true">/</span><a href="/kien-thuc/chu-de/website-seo/">Website chuẩn SEO</a><span aria-hidden="true">/</span><span aria-current="page">Google Search Console: cài đặt và đọc báo cáo cho website bán hàng</span></nav>
+<article class="kt-article">
+<header class="kt-head">
+  <a class="kt-tag" href="/kien-thuc/chu-de/website-seo/">Website chuẩn SEO</a>
+  <h1>Google Search Console: cài đặt và đọc báo cáo cho website bán hàng</h1>
+  <p class="kt-lead">Hướng dẫn cài Google Search Console từ đầu: xác minh website, gửi sitemap, đọc báo cáo hiệu suất, lập chỉ mục và báo cáo AI mới cho doanh nghiệp nhỏ.</p>
+  <p class="kt-meta">Bởi <a href="/tac-gia/nguyen-van-quang/">Nguyễn Văn Quang</a> · Đăng 21/11/2026 · 12 phút đọc</p>
+</header>
+<div class="kt-sum"><h2>Tóm tắt nhanh</h2><ul><li>Google Search Console là công cụ miễn phí của Google cho biết website hiện ra ở đâu trên Google, được bấm bao nhiêu lần và trang nào đang bị lỗi lập chỉ mục.</li><li>Cài đặt gồm ba bước: thêm tài sản (nên chọn loại Miền), xác minh bằng bản ghi DNS, rồi gửi sitemap.xml.</li><li>Bốn chỉ số cần đọc trong báo cáo Hiệu suất là lượt nhấp, lượt hiển thị, CTR và vị trí trung bình; luôn so cùng kỳ và lọc theo trang, truy vấn.</li><li>Từ 2025–2026 Search Console có thêm chế độ xem theo tuần, theo tháng, chú thích trên biểu đồ, báo cáo Insights mới và báo cáo hiệu suất AI tạo sinh.</li></ul></div>
+<nav class="kt-toc" aria-label="Mục lục"><h2>Trong bài này</h2><ol><li><a href="#google-search-console-la-gi-va-khac-google-analytics-the-nao">Google Search Console là gì và khác Google Analytics thế nào?</a></li><li><a href="#cai-at-google-search-console-tung-buoc">Cài đặt Google Search Console từng bước</a></li><li><a href="#bao-cao-hieu-suat-bon-chi-so-phai-hieu">Báo cáo Hiệu suất: bốn chỉ số phải hiểu</a></li><li><a href="#lap-chi-muc-trang-cua-minh-co-len-google-khong">Lập chỉ mục: trang của mình có lên Google không?</a></li><li><a href="#nhung-bao-cao-moi-google-them-trong-nam-20252026">Những báo cáo mới Google thêm trong năm 2025–2026</a></li><li><a href="#trai-nghiem-trang-du-lieu-co-cau-truc-va-bao-mat">Trải nghiệm trang, dữ liệu có cấu trúc và bảo mật</a></li><li><a href="#loi-hay-gap-khi-dung-search-console">Lỗi hay gặp khi dùng Search Console</a></li><li><a href="#lich-kiem-tra-search-console-15-phut-moi-tuan">Lịch kiểm tra Search Console 15 phút mỗi tuần</a></li><li><a href="#viec-nen-lam-ngay-tuan-nay">Việc nên làm ngay tuần này</a></li></ol></nav>
+<div class="kt-body-text">
+<p><strong>Google Search Console là công cụ miễn phí của Google cho anh chị biết website đang hiện ra ở đâu trên Google, được bấm bao nhiêu lần, khách gõ từ gì để tìm thấy mình và trang nào đang gặp lỗi.</strong> Cài đặt chỉ mất khoảng 15 phút: thêm website, xác minh quyền sở hữu, gửi sitemap. Phần khó hơn là đọc báo cáo đúng cách để biết tuần này nên sửa trang nào, viết thêm bài gì.</p>
+<p>Bài này đội QHUB viết theo đúng cách tụi mình đang dùng Search Console cho chính qhub.com.vn và các website bán hàng của doanh nghiệp: cài đặt từng bước, bốn chỉ số cần nhìn, những báo cáo mới Google bổ sung trong năm 2025–2026, và một lịch kiểm tra 15 phút mỗi tuần.</p>
+<h2 id="google-search-console-la-gi-va-khac-google-analytics-the-nao">Google Search Console là gì và khác Google Analytics thế nào?</h2>
+<p>Search Console (trước đây gọi là Google Webmaster Tools) là "bảng điều khiển" giữa website và Google Tìm kiếm. Nó trả lời những câu hỏi mà chỉ Google mới biết: trang của mình có được lập chỉ mục không, xuất hiện cho những truy vấn nào, đứng vị trí bao nhiêu, được hiển thị bao nhiêu lần.</p>
+<p>Google Analytics thì đo chuyện xảy ra <strong>sau khi</strong> khách đã vào website: họ xem trang nào, ở lại bao lâu, có mua hàng không. Hai công cụ bổ sung cho nhau chứ không thay thế nhau.</p>
+<div class="kt-table"><table>
+<thead>
+<tr>
+<th>Câu hỏi</th>
+<th>Search Console</th>
+<th>Google Analytics</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Khách gõ từ gì trên Google để thấy mình?</td>
+<td>Có</td>
+<td>Gần như không</td>
+</tr>
+<tr>
+<td>Trang có được Google lập chỉ mục không?</td>
+<td>Có</td>
+<td>Không</td>
+</tr>
+<tr>
+<td>Vị trí trung bình trên Google</td>
+<td>Có</td>
+<td>Không</td>
+</tr>
+<tr>
+<td>Khách làm gì sau khi vào website</td>
+<td>Không</td>
+<td>Có</td>
+</tr>
+<tr>
+<td>Nguồn truy cập ngoài Google (Facebook, Zalo, sàn)</td>
+<td>Không</td>
+<td>Có</td>
+</tr>
+<tr>
+<td>Đơn hàng, doanh thu</td>
+<td>Không</td>
+<td>Có (nếu cài sự kiện)</td>
+</tr>
+</tbody>
+</table></div>
+<p>Với doanh nghiệp đang bán chủ yếu trên TikTok Shop và Shopee, website thường là nơi để khách tìm hiểu thương hiệu và để Google, ChatGPT, Gemini biết đến mình. Vì thế Search Console gần như là công cụ duy nhất cho thấy website có đang "làm việc" hay không. Nếu anh chị còn phân vân có nên làm website riêng, bài <a href="/kien-thuc/doanh-nghiep-ban-tren-san-co-can-website-rieng-khong/">doanh nghiệp bán trên sàn có cần website riêng không</a> có phân tích chi tiết.</p>
+<h2 id="cai-at-google-search-console-tung-buoc">Cài đặt Google Search Console từng bước</h2>
+<h3 id="buoc-1-them-tai-san">Bước 1: Thêm tài sản</h3>
+<p>Vào search.google.com/search-console, đăng nhập bằng tài khoản Google của doanh nghiệp (nên dùng email công ty, không dùng email cá nhân của nhân viên). Bấm "Thêm tài sản" và chọn một trong hai loại:</p>
+<ul>
+<li><strong>Miền (Domain):</strong> nhập tên miền trần, ví dụ <code>qhub.com.vn</code>. Loại này gom hết http, https, có www, không www và mọi tên miền phụ. Đây là lựa chọn nên dùng.</li>
+<li><strong>Tiền tố URL (URL prefix):</strong> nhập đầy đủ, ví dụ <code>https://qhub.com.vn/</code>. Chỉ theo dõi đúng phần địa chỉ bắt đầu bằng tiền tố đó.</li>
+</ul>
+<h3 id="buoc-2-xac-minh-quyen-so-huu">Bước 2: Xác minh quyền sở hữu</h3>
+<p>Với loại Miền, Google đưa một bản ghi TXT dạng <code>google-site-verification=...</code>. Anh chị vào trang quản lý tên miền (nơi mua tên miền hoặc Cloudflare), thêm bản ghi TXT này vào DNS rồi quay lại bấm "Xác minh". Bản ghi có thể cần vài phút đến vài giờ mới có hiệu lực.</p>
+<p>Với loại Tiền tố URL, có thêm các cách: tải file HTML lên thư mục gốc, chèn thẻ meta vào trang chủ, dùng Google Analytics hoặc Google Tag Manager đã cài sẵn. Cách tải file HTML rất tiện cho website tĩnh.</p>
+<p><strong>Lưu ý:</strong> đừng xóa bản ghi hoặc file xác minh sau khi xong. Google kiểm tra lại định kỳ, mất bản ghi là mất quyền truy cập.</p>
+<h3 id="buoc-3-gui-sitemap">Bước 3: Gửi sitemap</h3>
+<p>Sitemap là file liệt kê các trang anh chị muốn Google biết, thường nằm ở <code>/sitemap.xml</code>. WordPress, Haravan, Sapo đều tự tạo sitemap. Vào mục <strong>Sơ đồ trang web</strong>, nhập <code>sitemap.xml</code> và gửi. Trạng thái "Thành công" kèm số URL đã phát hiện là ổn.</p>
+<h3 id="buoc-4-them-nguoi-dung-va-ket-noi-cong-cu-khac">Bước 4: Thêm người dùng và kết nối công cụ khác</h3>
+<p>Vào <strong>Cài đặt → Người dùng và quyền</strong> để cấp quyền cho người phụ trách SEO hoặc đơn vị bên ngoài. Nên cấp quyền "Toàn bộ" hoặc "Hạn chế", giữ quyền "Chủ sở hữu" cho doanh nghiệp. Khi chấm dứt hợp tác với ai, nhớ thu hồi quyền.</p>
+<p>Nếu đã có Google Analytics 4, anh chị liên kết hai công cụ để xem dữ liệu tìm kiếm ngay trong Analytics.</p>
+<h2 id="bao-cao-hieu-suat-bon-chi-so-phai-hieu">Báo cáo Hiệu suất: bốn chỉ số phải hiểu</h2>
+<p>Báo cáo <strong>Hiệu suất → Kết quả tìm kiếm</strong> là nơi anh chị sẽ dành 80% thời gian. Nó có bốn chỉ số:</p>
+<div class="kt-table"><table>
+<thead>
+<tr>
+<th>Chỉ số</th>
+<th>Nghĩa</th>
+<th>Đọc thế nào</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Lượt nhấp (Clicks)</td>
+<td>Số lần người dùng bấm vào website từ kết quả Google</td>
+<td>Chỉ số gần doanh thu nhất</td>
+</tr>
+<tr>
+<td>Lượt hiển thị (Impressions)</td>
+<td>Số lần website xuất hiện trong kết quả người dùng nhìn thấy</td>
+<td>Tăng nghĩa là Google đang thử website cho nhiều truy vấn hơn</td>
+</tr>
+<tr>
+<td>CTR</td>
+<td>Tỷ lệ nhấp = Lượt nhấp ÷ Lượt hiển thị</td>
+<td>Thấp bất thường thì xem lại tiêu đề, mô tả</td>
+</tr>
+<tr>
+<td>Vị trí trung bình</td>
+<td>Thứ hạng trung bình của website cho truy vấn đó</td>
+<td>Số càng nhỏ càng tốt; vị trí 1–3 nhận phần lớn lượt nhấp</td>
+</tr>
+</tbody>
+</table></div>
+<p>CTR (click-through rate) là tỷ lệ phần trăm người thấy kết quả rồi bấm vào. Vị trí trung bình là một con số bình quân, nên một trang có thể đứng hạng 3 cho từ khóa này và hạng 40 cho từ khóa khác, trung bình ra hạng 20.</p>
+<h3 id="cach-oc-bao-cao-cho-ra-viec">Cách đọc báo cáo cho ra việc</h3>
+<p>Đừng nhìn tổng số rồi vui hay buồn. Hãy dùng các bộ lọc và tab bên dưới biểu đồ:</p>
+<ol>
+<li><strong>Tab Truy vấn:</strong> xem khách thật sự gõ gì. Rất nhiều lần đội mình phát hiện từ khóa đem khách về khác hẳn từ khóa mình định nhắm.</li>
+<li><strong>Tab Trang:</strong> xem trang nào kéo khách nhiều nhất, trang nào có hiển thị cao nhưng nhấp thấp.</li>
+<li><strong>So sánh thời gian:</strong> bấm vào ngày, chọn "So sánh", đặt 28 ngày gần nhất với 28 ngày trước đó hoặc cùng kỳ năm trước. Ngành có mùa vụ như quà Tết thì phải so cùng kỳ.</li>
+<li><strong>Lọc theo thiết bị và quốc gia:</strong> website bán hàng ở Việt Nam thường có phần lớn lượt tìm từ điện thoại, nên trang di động phải chuẩn.</li>
+</ol>
+<h3 id="ba-mo-vang-nen-tim-moi-thang">Ba "mỏ vàng" nên tìm mỗi tháng</h3>
+<ul>
+<li><strong>Truy vấn vị trí 5–15, hiển thị cao:</strong> trang đã gần top. Bổ sung nội dung, thêm mục hỏi đáp, gắn thêm liên kết nội bộ là có thể lên trang một.</li>
+<li><strong>Trang hiển thị cao, CTR thấp:</strong> viết lại tiêu đề và mô tả cho rõ lợi ích, đúng ý người tìm. Bài <a href="/kien-thuc/tieu-de-va-mo-ta-trang-title-meta-description-chuan/">tiêu đề và mô tả trang chuẩn</a> có công thức cụ thể.</li>
+<li><strong>Truy vấn chưa có bài riêng:</strong> khách đang hỏi điều mình chưa trả lời. Đây là danh sách chủ đề viết bài tiếp theo, đáng tin hơn mọi công cụ đoán từ khóa.</li>
+</ul>
+<h2 id="lap-chi-muc-trang-cua-minh-co-len-google-khong">Lập chỉ mục: trang của mình có lên Google không?</h2>
+<p>Báo cáo <strong>Lập chỉ mục → Trang</strong> chia trang thành hai nhóm: đã lập chỉ mục và chưa lập chỉ mục, kèm lý do. Lập chỉ mục là việc Google lưu trang vào kho dữ liệu để có thể hiển thị khi có người tìm.</p>
+<p>Những lý do hay gặp và cách xử lý:</p>
+<div class="kt-table"><table>
+<thead>
+<tr>
+<th>Trạng thái</th>
+<th>Ý nghĩa</th>
+<th>Nên làm</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Trang có lệnh chuyển hướng</td>
+<td>Trang cũ đã chuyển sang địa chỉ khác</td>
+<td>Bình thường nếu chủ động chuyển</td>
+</tr>
+<tr>
+<td>Đã loại trừ bởi thẻ noindex</td>
+<td>Trang tự chặn Google</td>
+<td>Kiểm tra có chặn nhầm trang quan trọng không</td>
+</tr>
+<tr>
+<td>Không tìm thấy (404)</td>
+<td>Địa chỉ không còn tồn tại</td>
+<td>Chuyển hướng 301 về trang thay thế nếu trang từng có khách</td>
+</tr>
+<tr>
+<td>Trang trùng lặp, Google chọn trang chính tắc khác</td>
+<td>Google thấy hai trang na ná nhau</td>
+<td>Gộp nội dung hoặc đặt thẻ canonical rõ ràng</td>
+</tr>
+<tr>
+<td>Đã thu thập dữ liệu – hiện chưa được lập chỉ mục</td>
+<td>Google đã đọc nhưng chưa thấy đáng đưa vào</td>
+<td>Làm nội dung sâu hơn, thêm liên kết nội bộ</td>
+</tr>
+<tr>
+<td>Đã phát hiện – hiện chưa được lập chỉ mục</td>
+<td>Google biết trang nhưng chưa ghé đọc</td>
+<td>Kiểm tra tốc độ máy chủ, thêm liên kết từ trang mạnh</td>
+</tr>
+</tbody>
+</table></div>
+<p>Không cần trang nào cũng được lập chỉ mục. Trang giỏ hàng, trang tìm kiếm nội bộ, trang lọc sản phẩm nên để ngoài. Điều quan trọng là <strong>trang sản phẩm, trang danh mục và bài viết chính</strong> phải nằm trong nhóm đã lập chỉ mục.</p>
+<h3 id="cong-cu-kiem-tra-url">Công cụ Kiểm tra URL</h3>
+<p>Dán một địa chỉ vào ô tìm kiếm trên cùng để xem Google thấy trang đó thế nào: đã lập chỉ mục chưa, lần thu thập gần nhất, trang có thân thiện di động không. Khi vừa sửa xong một trang quan trọng, bấm "Yêu cầu lập chỉ mục". Đừng bấm hàng loạt cho cả trăm trang, Google giới hạn số lần và việc này không thay được nội dung tốt.</p>
+<h2 id="nhung-bao-cao-moi-google-them-trong-nam-20252026">Những báo cáo mới Google thêm trong năm 2025–2026</h2>
+<p>Search Console thay đổi khá nhiều trong hai năm qua. Theo blog chính thức của Google Search Central:</p>
+<ul>
+<li><strong>Search Console Insights mới (6/2025):</strong> báo cáo tóm tắt dễ đọc hơn, nằm ngay trong Search Console, cho thấy trang và truy vấn đang tăng, trang mới đang thu hút khách.</li>
+<li><strong>Chú thích tùy chỉnh trên biểu đồ (11/2025):</strong> anh chị ghi chú ngày đổi giao diện, ngày đăng loạt bài, ngày chạy chiến dịch ngay trên biểu đồ để sau này đọc số không bị nhầm nguyên nhân.</li>
+<li><strong>Chế độ xem theo tuần và theo tháng (12/2025):</strong> gom dữ liệu theo tuần, tháng giúp thấy xu hướng rõ hơn, không bị nhiễu bởi chênh lệch ngày thường với cuối tuần.</li>
+<li><strong>Cấu hình dựa trên AI (12/2025):</strong> gõ yêu cầu bằng ngôn ngữ tự nhiên để Search Console tự đặt bộ lọc, so sánh trong báo cáo Hiệu suất. Tính năng triển khai dần, có thể chưa có trong mọi tài khoản và ngôn ngữ.</li>
+<li><strong>Kênh mạng xã hội trong Search Console (12/2025):</strong> Google bắt đầu cho xem hiệu suất của các kênh mạng xã hội gắn với website trong Search Console.</li>
+<li><strong>Báo cáo hiệu suất AI tạo sinh (6/2026):</strong> Google giới thiệu báo cáo riêng cho sự xuất hiện của website trong các trải nghiệm AI của Google Tìm kiếm như AI Overviews và AI Mode, sau đó mở rộng ra nhiều quốc gia. Theo các bài tin công nghệ, báo cáo hiện thiên về số lượt hiển thị, dữ liệu lượt nhấp còn hạn chế.</li>
+</ul>
+<p>Tên gọi và vị trí từng mục có thể khác nhau giữa các tài khoản vì Google triển khai dần. Nếu chưa thấy, anh chị cứ dùng báo cáo Hiệu suất truyền thống trước. Muốn hiểu rộng hơn về việc được AI nhắc tới, xem bài <a href="/kien-thuc/geo-la-gi-toi-uu-de-chatgpt-gemini-nhac-toi-thuong-hieu/">GEO là gì</a>.</p>
+<h2 id="trai-nghiem-trang-du-lieu-co-cau-truc-va-bao-mat">Trải nghiệm trang, dữ liệu có cấu trúc và bảo mật</h2>
+<p>Ngoài Hiệu suất và Lập chỉ mục, có ba nhóm báo cáo anh chị nên mở ít nhất mỗi tháng một lần:</p>
+<ul>
+<li><strong>Chỉ số Core Web Vitals:</strong> đánh giá tốc độ tải và độ ổn định của trang theo dữ liệu người dùng thật, chia theo điện thoại và máy tính. Trang bị xếp "Kém" nên được sửa trước. Bài <a href="/kien-thuc/toc-do-website-va-core-web-vitals/">tốc độ website và Core Web Vitals</a> giải thích từng chỉ số.</li>
+<li><strong>Nâng cao (dữ liệu có cấu trúc):</strong> nếu website có schema Sản phẩm, Câu hỏi thường gặp, Đường dẫn (breadcrumb), Search Console báo trang nào hợp lệ, trang nào lỗi. Lỗi ở đây làm mất cơ hội hiển thị giá, đánh giá trên kết quả tìm kiếm.</li>
+<li><strong>Bảo mật và thao tác thủ công:</strong> nếu website bị hack hoặc bị Google phạt thủ công, thông báo sẽ nằm ở đây. Mục này trống là tốt.</li>
+</ul>
+<p>Search Console cũng gửi email khi có lỗi mới. Hãy để email về hộp thư có người đọc thật, đừng để về một địa chỉ không ai mở.</p>
+<h2 id="loi-hay-gap-khi-dung-search-console">Lỗi hay gặp khi dùng Search Console</h2>
+<p>Từ kinh nghiệm hỗ trợ website cho doanh nghiệp, đội QHUB hay gặp những lỗi sau:</p>
+<ul>
+<li><strong>Xác minh bằng tài khoản của nhân viên hoặc đơn vị làm web.</strong> Khi người đó nghỉ, doanh nghiệp mất quyền truy cập và mất cả lịch sử dữ liệu. Chủ sở hữu luôn phải là tài khoản doanh nghiệp.</li>
+<li><strong>Chỉ thêm loại Tiền tố URL bản có www</strong> trong khi website chạy bản không www. Báo cáo trống trơn và tưởng website không có khách.</li>
+<li><strong>Chỉ nhìn vị trí trung bình.</strong> Vị trí trung bình tụt có khi là tin tốt: website bắt đầu xuất hiện cho nhiều truy vấn mới ở vị trí thấp, kéo số trung bình xuống nhưng tổng lượt nhấp lại tăng.</li>
+<li><strong>Hoảng khi thấy nhiều trang "chưa lập chỉ mục".</strong> Phần lớn là trang lọc, trang phân trang, trang chuyển hướng. Chỉ lo khi trang sản phẩm, bài viết chính nằm trong nhóm này.</li>
+<li><strong>Đổi đường dẫn hàng loạt mà không chuyển hướng 301.</strong> Lượt nhấp rơi mạnh sau vài tuần. Khi đổi cấu trúc, luôn lập bảng ánh xạ địa chỉ cũ sang mới.</li>
+<li><strong>Gửi sitemap chứa trang lỗi.</strong> Sitemap chỉ nên có trang trả về mã 200, không chuyển hướng, không noindex.</li>
+</ul>
+<h2 id="lich-kiem-tra-search-console-15-phut-moi-tuan">Lịch kiểm tra Search Console 15 phút mỗi tuần</h2>
+<p>Không cần ngồi cả buổi. Đội mình dùng khung sau cho mỗi website:</p>
+<div class="kt-table"><table>
+<thead>
+<tr>
+<th>Tần suất</th>
+<th>Việc</th>
+<th>Thời gian</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Hằng tuần</td>
+<td>Xem Hiệu suất 7 ngày so với 7 ngày trước; ghi 3 truy vấn tăng, 3 truy vấn giảm</td>
+<td>5 phút</td>
+</tr>
+<tr>
+<td>Hằng tuần</td>
+<td>Mở Lập chỉ mục → Trang, kiểm tra có lỗi mới với trang quan trọng không</td>
+<td>5 phút</td>
+</tr>
+<tr>
+<td>Hằng tuần</td>
+<td>Kiểm tra URL các bài, trang sản phẩm mới đăng</td>
+<td>5 phút</td>
+</tr>
+<tr>
+<td>Hằng tháng</td>
+<td>Lọc truy vấn vị trí 5–15 để chọn bài cần nâng cấp; xem Core Web Vitals</td>
+<td>30 phút</td>
+</tr>
+<tr>
+<td>Hằng quý</td>
+<td>So cùng kỳ năm trước, rà sitemap, rà người dùng có quyền</td>
+<td>1 giờ</td>
+</tr>
+</tbody>
+</table></div>
+<p>Ghi kết quả vào một bảng tính đơn giản. Sau ba tháng, anh chị sẽ có bức tranh rất rõ: chủ đề nào Google thích, trang nào đáng đầu tư tiếp.</p>
+<h2 id="viec-nen-lam-ngay-tuan-nay">Việc nên làm ngay tuần này</h2>
+<p>Nếu website chưa có Search Console, hãy cài ngay hôm nay theo bốn bước ở trên: thêm tài sản loại Miền, xác minh bằng DNS, gửi sitemap, cấp quyền cho người phụ trách. Nếu đã có, mở báo cáo Hiệu suất 3 tháng gần nhất, lọc ra 10 truy vấn có vị trí từ 5 đến 15 và chọn 3 trang để nâng cấp nội dung trong tháng này. Các bài khác trong chủ đề <a href="/kien-thuc/chu-de/website-seo/">website và SEO</a> sẽ giúp anh chị đi tiếp từng bước.</p>
+<p>Search Console không làm website lên top. Nhưng nó cho anh chị biết chính xác chỗ cần sửa, thay vì đoán.</p>
+</div>
+<section class="kt-faq" id="cau-hoi-thuong-gap"><h2>Câu hỏi thường gặp</h2><details><summary>Google Search Console có mất phí không?</summary><p>Không. Search Console là công cụ miễn phí của Google. Anh chị chỉ cần một tài khoản Google và quyền chỉnh tên miền hoặc website để xác minh quyền sở hữu.</p></details><details><summary>Nên chọn tài sản loại Miền hay Tiền tố URL?</summary><p>Nên chọn loại Miền nếu anh chị quản lý được DNS của tên miền. Loại này gom cả http, https, có www và không www, cùng mọi tên miền phụ vào một chỗ. Tiền tố URL chỉ hợp khi không vào được DNS, ví dụ website thuê trên nền tảng có sẵn.</p></details><details><summary>Gửi sitemap xong bao lâu thì Google lập chỉ mục?</summary><p>Không có mốc cố định. Trang mới có thể được lập chỉ mục sau vài ngày đến vài tuần, tùy chất lượng trang, liên kết nội bộ và mức độ website được Google tin. Gửi sitemap chỉ giúp Google biết có trang mới, không bảo đảm trang được đưa vào kết quả.</p></details><details><summary>Vì sao số lượt nhấp trong Search Console khác Google Analytics?</summary><p>Hai công cụ đo khác nhau. Search Console đếm lượt nhấp từ trang kết quả Google, còn Google Analytics đếm phiên truy cập trên website và phụ thuộc vào việc mã đo có chạy, người dùng có đồng ý cookie hay không. Lệch vài chục phần trăm là bình thường.</p></details><details><summary>Trang bị báo &#x27;Đã thu thập dữ liệu – hiện chưa được lập chỉ mục&#x27; thì làm gì?</summary><p>Đây thường là dấu hiệu Google thấy trang chưa đủ giá trị hoặc trùng lặp với trang khác. Anh chị nên làm nội dung sâu hơn, thêm liên kết nội bộ từ các trang mạnh, gộp các trang na ná nhau, rồi mới yêu cầu lập chỉ mục lại.</p></details></section>
+<section class="kt-src"><h2>Nguồn tham khảo</h2><ul><li><a href="https://developers.google.com/search/blog/2025/12/weekly-monthly-views-search-console?hl=vi" target="_blank" rel="noopener nofollow">Ra mắt chế độ xem theo tuần và theo tháng trong Search Console – Google Search Central (12/2025)</a></li><li><a href="https://developers.google.com/search/blog/2025/11/custom-chart-annotations?hl=vi" target="_blank" rel="noopener nofollow">Bổ sung thông tin bối cảnh cho dữ liệu Search Console bằng chú thích tuỳ chỉnh – Google Search Central (11/2025)</a></li><li><a href="https://developers.google.com/search/blog/2025/06/search-console-insights?hl=vi" target="_blank" rel="noopener nofollow">Báo cáo Search Console Insights mới đã ra mắt – Google Search Central (06/2025)</a></li><li><a href="https://developers.google.com/search/blog/2025/12/ai-powered-configuration?hl=vi" target="_blank" rel="noopener nofollow">Đơn giản hoá số liệu phân tích Search Console bằng tính năng Cấu hình dựa trên AI – Google Search Central (12/2025)</a></li><li><a href="https://developers.google.com/search/blog/2026/06/gen-ai-performance-reports" target="_blank" rel="noopener nofollow">Introducing Search Generative AI performance reports in Search Console – Google Search Central (06/2026)</a></li><li><a href="https://searchengineland.com/google-search-console-ai-performance-reports-and-search-generative-ai-control-rolling-out-globally-486269" target="_blank" rel="noopener nofollow">Google Search Console AI performance reports rolling out globally – Search Engine Land</a></li></ul></section>
+<aside class="kt-author">
+  <img class="kt-av" src="/quang-avatar-240.jpg" alt="Nguyễn Văn Quang" width="56" height="56" loading="lazy">
+  <div>
+    <p class="kt-by">Người viết</p>
+    <h2><a href="/tac-gia/nguyen-van-quang/">Nguyễn Văn Quang</a></h2>
+    <p class="kt-role">Founder &amp; CEO, QHUB Commerce</p>
+    <p>Đi lên từ bán hàng thị trường, qua trade marketing, brand marketing đến vận hành thương mại điện tử cho các doanh nghiệp đồ uống, thực phẩm và hàng tiêu dùng. Trực tiếp vận hành gian hàng trên Shopee, TikTok Shop, Facebook, Lazada, Tiki và Website.</p>
+  </div>
+</aside>
+<aside class="kt-cta">
+  <img src="/logo-qhub.png" alt="" width="64" height="64">
+  <div>
+    <h2>Cần người ngồi vào vận hành cùng anh chị?</h2>
+    <p>QHUB Commerce là Phòng Tăng Trưởng Thuê Ngoài cho doanh nghiệp bán hàng đa sàn. Đội QHUB trực tiếp vận hành TikTok Shop, Shopee, Facebook và Website: nội dung, livestream, affiliate, quảng cáo, dữ liệu. Buổi chẩn đoán đầu tiên 60 phút, miễn phí.</p>
+    <a class="btn btn-primary" href="/#dat-lich">Đặt lịch chẩn đoán miễn phí</a>
+    <a class="kt-cta-link" href="https://zalo.me/0856510113" target="_blank" rel="noopener">Hoặc nhắn Zalo 0856 510 113</a>
+  </div>
+</aside>
+</article>
+<section class="kt-rel"><h2>Đọc tiếp</h2><div class="kt-grid"><article class="kt-card"><a href="/kien-thuc/website-tren-dien-thoai-chuan-mobile-first/"><span class="kt-tag">Website chuẩn SEO</span><h3>Website trên điện thoại: chuẩn mobile-first</h3><p>Website mobile chuẩn mobile-first: Google lập chỉ mục bản điện thoại, cách làm viewport, cỡ chữ, vùng chạm, nút mua cố định, form, checkout và cách tự kiểm tra.</p><span class="kt-meta">19/11/2026 · 13 phút đọc</span></a></article><article class="kt-card"><a href="/kien-thuc/toc-do-website-va-core-web-vitals/"><span class="kt-tag">Website chuẩn SEO</span><h3>Tốc độ website và Core Web Vitals</h3><p>Core Web Vitals gồm LCP, INP, CLS: ngưỡng đạt, cách đo bằng PageSpeed Insights và Search Console, nguyên nhân web bán hàng chậm và thứ tự sửa.</p><span class="kt-meta">19/11/2026 · 12 phút đọc</span></a></article><article class="kt-card"><a href="/kien-thuc/tieu-de-va-mo-ta-trang-title-meta-description-chuan/"><span class="kt-tag">Website chuẩn SEO</span><h3>Tiêu đề và mô tả trang (title, meta description) viết sao cho chuẩn</h3><p>Cách viết title meta description chuẩn: Google hiển thị và viết lại thế nào, độ dài theo pixel, công thức cho từng loại trang, lỗi hay gặp và cách đo CTR.</p><span class="kt-meta">18/11/2026 · 13 phút đọc</span></a></article><article class="kt-card"><a href="/kien-thuc/du-lieu-co-cau-truc-schema-cho-website-ban-hang/"><span class="kt-tag">Website chuẩn SEO</span><h3>Dữ liệu có cấu trúc (schema) cho website bán hàng</h3><p>Schema website bán hàng cần những loại nào, viết JSON-LD ra sao, kiểm tra ở đâu. Kèm mẫu Product, Organization, Breadcrumb và lỗi hay gặp năm 2026.</p><span class="kt-meta">18/11/2026 · 9 phút đọc</span></a></article></div></section>
+</div>
+</main>
+<footer class="footer">
+  <div class="wrap">
+    <div>
+      <h4>CÔNG TY TNHH QHUB COMMERCE</h4>
+      <p class="legal-info">Giấy CN ĐKDN số 5400570349 do Phòng Đăng ký kinh doanh – Sở Tài chính tỉnh Phú Thọ cấp lần đầu ngày 13/04/2026</p>
+      <p>Người đại diện theo pháp luật: Nguyễn Văn Quang</p>
+      <p>Trụ sở: Khu Vai, Xã An Nghĩa, Tỉnh Phú Thọ, Việt Nam</p>
+      <p>Hotline/Zalo: <a href="tel:0856510113">0856 510 113</a></p>
+      <p>Email: <a href="mailto:qhubcommerce@gmail.com">qhubcommerce@gmail.com</a></p>
+    </div>
+    <div>
+      <h4>Kiến thức</h4>
+      <ul><li><a href="/kien-thuc/chu-de/tiktok/">Xây kênh TikTok</a></li><li><a href="/kien-thuc/chu-de/content-tiktok/">Content TikTok</a></li><li><a href="/kien-thuc/chu-de/tiktok-shop/">TikTok Shop căn bản</a></li><li><a href="/kien-thuc/chu-de/van-hanh-tiktok-shop/">Vận hành TikTok Shop</a></li><li><a href="/kien-thuc/chu-de/quang-cao-tiktok/">Quảng cáo TikTok &amp; GMV Max</a></li><li><a href="/kien-thuc/chu-de/phi-san-tiktok-shop/">Phí sàn TikTok Shop</a></li><li><a href="/kien-thuc/chu-de/van-hanh-shopee/">Vận hành Shopee</a></li><li><a href="/kien-thuc/chu-de/quang-cao-shopee/">Quảng cáo Shopee</a></li></ul>
+    </div>
+    <div>
+      <h4>&nbsp;</h4>
+      <ul><li><a href="/kien-thuc/chu-de/phi-san-shopee/">Phí sàn Shopee</a></li><li><a href="/kien-thuc/chu-de/ban-hang-facebook/">Bán hàng Facebook</a></li><li><a href="/kien-thuc/chu-de/youtube/">Xây kênh YouTube</a></li><li><a href="/kien-thuc/chu-de/instagram/">Phát triển Instagram</a></li><li><a href="/kien-thuc/chu-de/threads/">Phát triển Threads</a></li><li><a href="/kien-thuc/chu-de/website-seo/">Website chuẩn SEO</a></li><li><a href="/kien-thuc/chu-de/lich-sale/">Lịch sale &amp; chiến dịch</a></li><li><a href="/gioi-thieu/">Giới thiệu QHUB</a></li><li><a href="/dich-vu/">Dịch vụ</a></li><li><a href="/chinh-sach.html">Chính sách</a></li></ul>
+    </div>
+    <div class="legal"><span>© 2026 QHUB Commerce.</span><span>qhub.com.vn</span></div>
+  </div>
+</footer>
+<div class="float" aria-label="Liên hệ nhanh">
+  <a class="zalo" href="https://zalo.me/0856510113" target="_blank" rel="noopener" aria-label="Nhắn Zalo cho QHUB">Zalo</a>
+  <a class="call" href="tel:0856510113" aria-label="Gọi hotline QHUB"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 005 5L15 13l5 2v4a2 2 0 01-2 2A16 16 0 013 6a2 2 0 012-2"/></svg></a>
+</div>
+<script src="/kien-thuc.js?v=20261113f" defer></script>
+</body>
+</html>

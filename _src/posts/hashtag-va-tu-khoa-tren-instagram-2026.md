@@ -141,7 +141,7 @@ Ví dụ chú thích cho một bài băng chuyền về quà tặng:
 > Trà Dưỡng Nhan có 9 vị gồm lá sen, tía tô, hoa hồng, hoa nhài, hoa cúc, táo đỏ, kỷ tử, đông trùng hạ thảo, cỏ ngọt. Không thêm đường, không caffeine.
 > Hộp 30 gói, mỗi gói 3 g. Đang mua 2 tặng 1 trên website qhubherbal.com, mua 3 tặng 1 trên TikTok Shop và Shopee.
 > Lưu lại để dành khi cần chọn quà nhé.
-> #QHUBHERBAL #tràhoa #quàtặngchịem"
+> \#QHUBHERBAL #tràhoa #quàtặngchịem"
 
 Ngoài chú thích, còn ba chỗ chứa chữ hay bị bỏ quên:
 

@@ -27,6 +27,8 @@ STORY={
 'dn':["Nét tươi tắn không đến từ một lớp phấn, mà từ những ngày ngủ đủ, ăn lành và lòng nhẹ nhõm. Giữa lịch làm việc kín, màn hình từ sáng đến tối và những ly trà sữa thay bữa phụ, người phụ nữ hiếm khi có vài phút cho riêng mình.",
       "Trà Dưỡng Nhan gói chín vị hoa và thảo mộc: hoa hồng, kỷ tử, táo đỏ, đông trùng hạ thảo, cùng hoa nhài, tía tô, lá sen, hoa cúc và cỏ ngọt. Hương hoa dịu ngọt, hậu ngọt thanh mà không thêm đường, không caffeine — năm phút mỗi ngày để nâng niu chính mình, và cũng là món quà tinh tế cho mẹ, vợ, bạn gái."],
 }
+# Mã vạch EAN-13 in trên hộp (theo hồ sơ tự công bố)
+GTIN={'dhc':'8936244311522','nv':'8936244311553','xht':'8936244311539','ndv':'8936244311560','loi':'8936244311546','dta':'8936244311577','dn':'8936244311836'}
 vnd=lambda n:f"{n:,}".replace(',','.')+'đ'
 pct=round((1-H['price']/H['priceOld'])*100)
 
@@ -68,7 +70,7 @@ def page(p):
     ings=''.join((lambda m:f'<li><span>{e(m.group(1))}</span>'+(f'<b>{m.group(2)}</b>' if m.group(2) else '')+'</li>')(re.match(r'(.+?)(?: (\d+%))?$',x)) for x in p['ing'])
     ing_plain=', '.join(p['ing'])
     others=''.join(f'''<a class="mini" href="{o['slug']}" style="--pc:{o['color']};--pt:{o['tint']}"><span class="mi"><img src="g-{o['id']}-2.jpg" alt="" loading="lazy" decoding="async"></span><b>{e(o['name'])}</b><small>{e(o['tagline'])}</small></a>''' for o in P if o['id']!=i)
-    ld={"@context":"https://schema.org","@type":"Product","name":p['name'],"sku":"QHH-"+i.upper(),
+    ld={"@context":"https://schema.org","@type":"Product","name":p['name'],"sku":"QHH-"+i.upper(),"gtin13":GTIN[i],
         "image":['https://qhub.com.vn/'+g[0] for g in gal],"description":p['desc'],
         "brand":{"@type":"Brand","name":"QHUB HERBAL","logo":"https://qhub.com.vn/herbal-symbol-forest.png"},"category":"Trà thảo mộc túi lọc",
         "manufacturer":{"@type":"Organization","name":"CÔNG TY TNHH QHUB COMMERCE","url":"https://qhub.com.vn/"},

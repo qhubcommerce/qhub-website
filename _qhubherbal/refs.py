@@ -1371,6 +1371,177 @@ SRC['n10_laxauho'] = [
 NEW_RULES10.append(('n10_laxauho', ['lá xấu hổ', 'xấu hổ', 'sao vàng', 'mimosine', 'mimosa pudica', 'kinh nghiệm dân gian', 'thuốc ngủ'], 70))
 RULES[:0] = NEW_RULES10
 
+NEW_RULES11 = []
+SRC['n11_chongnang'] = [
+    ('WHO – Radiation: The ultraviolet (UV) index (Hỏi đáp về chỉ số tia cực tím và mức bảo vệ khuyến nghị)', 'https://www.who.int/news-room/q-a-detail/radiation-the-ultraviolet-(uv)-index'),
+    ('Green AC và cộng sự (2011) – Reduced melanoma after regular sunscreen use: randomized trial follow-up (Giảm melanoma sau khi dùng kem chống nắng đều đặn), Journal of Clinical Oncology', 'https://pubmed.ncbi.nlm.nih.gov/21135266/'),
+    ('Teaspoon rule revisited: proper amount of sunscreen application (Xem lại quy tắc thìa cà phê: lượng kem chống nắng cần thoa), PubMed', 'https://pubmed.ncbi.nlm.nih.gov/23281699/'),
+    ('Neale RE và cộng sự (2019) – Sunscreen photoprotection and vitamin D status (Kem chống nắng và tình trạng vitamin D), British Journal of Dermatology', 'https://pubmed.ncbi.nlm.nih.gov/31069788/'),
+    ('Viện Da liễu Hoa Kỳ (AAD) – What to look for: ABCDEs of melanoma (Quy tắc ABCDE nhận biết nốt ruồi đáng ngờ)', 'https://www.aad.org/public/diseases/skin-cancer/find/at-risk/abcdes'),
+]
+NEW_RULES11.append(('n11_chongnang', ['kem chống nắng', 'chỉ số uv', 'spf', 'uva', 'uvb', 'thoa lại', 'nốt ruồi', 'melanoma'], 65))
+
+SRC['n11_top6chieu'] = [
+    ('WHO (2015) – Guideline: Sugars intake for adults and children (Hướng dẫn lượng đường cho người lớn và trẻ em)', 'https://www.who.int/news/item/04-03-2015-who-calls-on-countries-to-reduce-sugars-intake-among-adults-and-children'),
+    ('Mayo Clinic – Caffeine content for coffee, tea, soda and more (Hàm lượng caffeine trong cà phê, trà, nước ngọt)', 'https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/caffeine/art-20049372'),
+    ('Drake C và cộng sự (2013) – Caffeine effects on sleep taken 0, 3, or 6 hours before going to bed (Ảnh hưởng của caffeine lên giấc ngủ khi dùng 0, 3 hoặc 6 giờ trước khi ngủ), Journal of Clinical Sleep Medicine', 'https://pmc.ncbi.nlm.nih.gov/articles/PMC3805807'),
+    ('Hội đồng Người tiêu dùng Hồng Kông (2013) – Khảo sát hàm lượng caffeine, đường trong trà sữa trân châu (Consumer Council press release)', 'https://www.consumer.org.hk/en/press-release/20131015-1'),
+    ('Chin JM và cộng sự (2008) – Caffeine content of brewed teas (Hàm lượng caffeine của các loại trà pha), Journal of Analytical Toxicology', 'https://pubmed.ncbi.nlm.nih.gov/19007524/'),
+]
+NEW_RULES11.append(('n11_top6chieu', ['buổi chiều', '3 giờ chiều', 'không caffeine', 'ngũ cốc rang', 'nước dừa', 'sữa hạt', 'văn phòng', 'caffeine ẩn'], 30))
+
+SRC['n11_cogiaovungcao'] = [
+    ('Báo Pháp luật Việt Nam – Khuyến cáo của Bộ Y tế khi rét đậm, rét hại: không đốt than trong phòng kín, không tắm sau 22h', 'https://baophapluat.vn/khuyen-cao-khi-ret-dam-ret-hai-khong-dot-than-trong-phong-kin-khong-tam-sau-22h-post502610.html'),
+    ('CDC – Carbon Monoxide Poisoning Basics (Kiến thức cơ bản về ngộ độc khí CO)', 'https://www.cdc.gov/carbon-monoxide/about/index.html'),
+    ('CDC – Preventing Hypothermia (Phòng ngừa hạ thân nhiệt)', 'https://cdc.gov/winter-weather/prevention/index.html'),
+    ('Viện Da liễu Hoa Kỳ (AAD) – Dermatologists\' tips for relieving dry skin (Lời khuyên của bác sĩ da liễu cho da khô)', 'https://www.aad.org/public/everyday-care/skin-care-basics/dry/dermatologists-tips-relieve-dry-skin'),
+    ('Watson NF và cộng sự (2015) – Recommended amount of sleep for a healthy adult: joint consensus statement of AASM and SRS (Thời lượng ngủ khuyến nghị cho người trưởng thành), Sleep / J Clin Sleep Med', 'https://pmc.ncbi.nlm.nih.gov/articles/PMC4434546/'),
+]
+NEW_RULES11.append(('n11_cogiaovungcao', ['vùng cao', 'hạ thân nhiệt', 'than sưởi', 'ngộ độc co', 'nứt nẻ', 'rét đậm', 'điểm trường', 'giữ ấm'], 26))
+SRC['n11_chankhongyen'] = [
+    ('Winkelman và cộng sự (2024) – Treatment of restless legs syndrome and periodic limb movement disorder: an AASM clinical practice guideline (Hướng dẫn của Viện Hàn lâm Y học Giấc ngủ Hoa Kỳ về hội chứng chân không yên: xét nghiệm sắt, ngưỡng ferritin, hạn chế thuốc đồng vận dopamine), Journal of Clinical Sleep Medicine', 'https://jcsm.aasm.org/doi/10.5664/jcsm.11390'),
+    ('NINDS – Restless Legs Syndrome Fact Sheet (Viện Quốc gia về Rối loạn Thần kinh và Đột quỵ Hoa Kỳ: tổng quan, nguyên nhân, yếu tố liên quan)', 'https://www.ninds.nih.gov/disorders/patient-caregiver-education/fact-sheets/restless-legs-syndrome-fact-sheet'),
+    ('Mayo Clinic – Restless legs syndrome: Diagnosis and treatment (Chẩn đoán, hướng xử trí và biện pháp sinh hoạt)', 'https://www.mayoclinic.org/diseases-conditions/restless-legs-syndrome/diagnosis-treatment/drc-20377174'),
+    ('Tổng quan hệ thống (2020) – The prevalence of Restless Legs Syndrome/Willis-Ekbom disease in the third trimester of pregnancy (Tỷ lệ hội chứng chân không yên ở 3 tháng cuối thai kỳ), BMC Neurology', 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7153235/'),
+    ('Better Health Channel, Chính phủ bang Victoria (Úc) – Restless legs syndrome (RLS) (Yếu tố làm nặng: caffeine, rượu, thuốc lá, thiếu ngủ)', 'https://betterhealth.vic.gov.au/health/conditionsandtreatments/restless-legs-syndrome-rls'),
+]
+NEW_RULES11.append(('n11_chankhongyen', ['chân không yên', 'ferritin', 'bứt rứt', 'urge', 'transferrin', 'irlssg', 'kiến bò', 'thiếu sắt'], 33))
+
+SRC['n11_phuthuocthuocngu'] = [
+    ('FDA (2020) – FDA requiring Boxed Warning updated to improve safe use of benzodiazepine drug class (Cảnh báo đóng khung về lạm dụng, phụ thuộc thể chất và phản ứng cai của nhóm benzodiazepine)', 'https://www.fda.gov/drugs/drug-safety-and-availability/fda-requiring-boxed-warning-updated-improve-safe-use-benzodiazepine-drug-class'),
+    ('FDA (2019) – FDA adds Boxed Warning for risk of serious injuries caused by sleepwalking with certain prescription insomnia medicines (Cảnh báo hành vi phức tạp khi ngủ với eszopiclone, zaleplon, zolpidem)', 'https://www.fda.gov/drugs/drug-safety-and-availability/fda-adds-boxed-warning-risk-serious-injuries-caused-sleepwalking-certain-prescription-insomnia'),
+    ('Qaseem và cộng sự, ACP (2016) – Management of Chronic Insomnia Disorder in Adults: A Clinical Practice Guideline From the American College of Physicians (CBT-I là lựa chọn đầu tay cho mất ngủ mạn tính), Annals of Internal Medicine', 'https://pubmed.ncbi.nlm.nih.gov/27136449/'),
+    ('NCCIH – Kava (Trung tâm Quốc gia về Sức khỏe Bổ sung và Tích hợp Hoa Kỳ: nguy cơ tổn thương gan)', 'https://www.nccih.nih.gov/health/kava'),
+    ('NCCIH – Valerian (Bằng chứng và an toàn của valerian)', 'https://nccih.nih.gov/health/valerian'),
+    ('NICE TA77 – Guidance on the use of zaleplon, zolpidem and zopiclone for the short-term management of insomnia: Clinical need and practice (Thuốc ngủ chỉ nên dùng ngắn hạn)', 'https://www.nice.org.uk/guidance/ta77/chapter/2-Clinical-need-and-practice'),
+]
+NEW_RULES11.append(('n11_phuthuocthuocngu', ['phụ thuộc', 'dung nạp', 'hội chứng cai', 'benzodiazepine', 'z-drug', 'kava', 'valerian', 'nghi thức'], 34))
+
+SRC['n11_ngungtho'] = [
+    ('Benjafield và cộng sự (2019) – Estimation of the global prevalence and burden of obstructive sleep apnoea: a literature-based analysis (Ước tính tỷ lệ ngưng thở khi ngủ do tắc nghẽn toàn cầu), The Lancet Respiratory Medicine', 'https://pubmed.ncbi.nlm.nih.gov/31300334/'),
+    ('Chung, Abdullah, Liao (2016) – STOP-Bang Questionnaire: A Practical Approach to Screen for Obstructive Sleep Apnea (Thang sàng lọc STOP-BANG), Chest', 'https://pubmed.ncbi.nlm.nih.gov/26378880/'),
+    ('Yeghiazarians và cộng sự, AHA (2021) – Obstructive Sleep Apnea and Cardiovascular Disease: A Scientific Statement from the American Heart Association (Ngưng thở khi ngủ và bệnh tim mạch), Circulation', 'https://newsroom.heart.org/news/sleep-apnea-worsens-heart-disease-yet-often-untreated'),
+    ('Tregear và cộng sự (2009) – Obstructive sleep apnea and risk of motor vehicle crash: systematic review and meta-analysis (Ngưng thở khi ngủ và nguy cơ tai nạn xe), Journal of Clinical Sleep Medicine', 'https://pmc.ncbi.nlm.nih.gov/articles/PMC2792976/'),
+    ('Simou, Britton, Leonardi-Bee (2018) – Alcohol and the risk of sleep apnoea: a systematic review and meta-analysis (Rượu và nguy cơ ngưng thở khi ngủ), Sleep Medicine', 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5840512/'),
+    ('NHLBI – Sleep Apnea (Viện Tim, Phổi và Máu Hoa Kỳ: triệu chứng, chẩn đoán, CPAP và các hướng xử trí)', 'https://www.nhlbi.nih.gov/health/sleep-apnea'),
+]
+NEW_RULES11.append(('n11_ngungtho', ['ngưng thở', 'ngáy', 'ahi', 'stop-bang', 'cpap', 'đa ký', 'đường thở'], 62))
+SRC['n11_dieuhoabunglanh'] = [
+    ('Kingma B, van Marken Lichtenbelt W (2015) – Energy consumption in buildings and female thermal demand (Tiêu thụ năng lượng trong tòa nhà và nhu cầu nhiệt của phụ nữ), Nature Climate Change', 'https://www.nature.com/articles/nclimate2741'),
+    ('Tạp chí Công Thương – "Hà Nội 26+": Thay đổi nhỏ, góp phần giảm áp lực hệ thống điện mùa nắng nóng (chiến dịch khuyến khích đặt điều hòa từ 26°C của EVNHANOI)', 'https://tapchicongthuong.vn/ha-noi-26--thay-doi-nho--gop-phan-giam-ap-luc-he-thong-dien-mua-nang-nong-520763.htm'),
+    ('Jo J, Lee SH (2018) – Heat therapy for primary dysmenorrhea: a systematic review and meta-analysis of its effects on pain relief and quality of life (Liệu pháp nhiệt cho đau bụng kinh nguyên phát), Scientific Reports', 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6214933/'),
+    ('ACOG – Dysmenorrhea: Painful Periods (Đau bụng kinh: câu hỏi thường gặp)', 'https://www.acog.org/womens-health/faqs/dysmenorrhea-painful-periods'),
+    ('MedlinePlus (NIH) – Cold intolerance (Nhạy cảm bất thường với lạnh)', 'https://medlineplus.gov/ency/article/003095.htm'),
+]
+NEW_RULES11.append(('n11_dieuhoabunglanh', ['điều hòa', 'văn phòng', 'cửa gió', '26°c', 'nhiều lớp', 'kingma', 'miếng dán giữ nhiệt'], 23))
+SRC['n11_themngotkinh'] = [
+    ('ACOG – Premenstrual Syndrome (PMS) (Hội chứng tiền kinh nguyệt: câu hỏi thường gặp)', 'https://www.acog.org/womens-health/faqs/premenstrual-syndrome'),
+    ('Thys-Jacobs S và cộng sự (1998) – Calcium carbonate and the premenstrual syndrome: Effects on premenstrual and menstrual symptoms (Canxi carbonate và hội chứng tiền kinh nguyệt), American Journal of Obstetrics and Gynecology', 'https://pubmed.ncbi.nlm.nih.gov/9731851/'),
+    ('Late Luteal Subphase Food Craving Is Enhanced in Women with Obesity and Premenstrual Dysphoric Disorder (Thèm ăn cuối pha hoàng thể tăng ở phụ nữ béo phì có PMDD), PMC', 'https://pmc.ncbi.nlm.nih.gov/articles/PMC10707764/'),
+    ('Acute Sleep Curtailment Increases Sweet Taste Preference, Appetite and Food Intake in Healthy Young Adults: A Randomized Crossover Trial (Cắt ngắn giấc ngủ làm tăng sở thích vị ngọt và lượng ăn), PMC', 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7071396/'),
+    ('WHO (2015) – Guideline: Sugars intake for adults and children (Hướng dẫn lượng đường cho người lớn và trẻ em: đường tự do dưới 10% năng lượng)', 'https://www.ncbi.nlm.nih.gov/books/NBK285538/'),
+]
+NEW_RULES11.append(('n11_themngotkinh', ['thèm ngọt', 'pha hoàng thể', 'serotonin', 'progesterone', 'bữa phụ', 'pmdd', 'canxi', 'wurtman'], 38))
+SRC['n11_vesinhkinh'] = [
+    ('FDA – Tampons: Menstrual Product Options, Facts, and Safe Use (Tampon: sử dụng an toàn, thay mỗi 4–8 giờ, hội chứng sốc nhiễm độc)', 'https://www.fda.gov/medical-devices/menstrual-product-options-facts-and-safe-use/tampons'),
+    ('van Eijk AM và cộng sự (2019) – Menstrual cup use, leakage, acceptability, safety, and availability: a systematic review and meta-analysis (Cốc nguyệt san: rò rỉ, mức chấp nhận, an toàn), The Lancet Public Health', 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6669309/'),
+    ('ACOG – Vulvovaginal Health (Chăm sóc sức khỏe vùng âm hộ – âm đạo: không thụt rửa, quần lót cotton)', 'https://www.acog.org/womens-health/faqs/vulvovaginal-health'),
+    ('Office on Women\'s Health (HHS) – Douching (Thụt rửa âm đạo và các nguy cơ)', 'https://womenshealth.gov/a-z-topics/douching'),
+    ('CDC – Menstrual Hygiene (Vệ sinh kinh nguyệt)', 'https://www.cdc.gov/hygiene/about/menstrual-hygiene.html'),
+]
+NEW_RULES11.append(('n11_vesinhkinh', ['tampon', 'cốc nguyệt san', 'thụt rửa', 'băng vệ sinh', 'quần lót kinh nguyệt', 'dung dịch vệ sinh', 'sốc nhiễm độc', 'vùng kín'], 53))
+# Đêm 11 (22/11/2026) – Trà Lá Ổi Mix Lá Sen – 3 bài kiến thức
+
+# calo-la-gi-co-can-dem-calo-khong
+SRC['n11_calo'] = [
+    ('FAO (2003) – Food energy: methods of analysis and conversion factors (Năng lượng thực phẩm: phương pháp phân tích và hệ số quy đổi Atwater), FAO Food and Nutrition Paper 77', 'https://www.fao.org/4/y5022e/y5022e04.htm'),
+    ('Viện Ung thư Quốc gia Hoa Kỳ (NCI) – REE-Mifflin St.Jeor equation, Total EE, Physical Activity Level (Phương trình Mifflin-St Jeor ước tính năng lượng lúc nghỉ và tổng năng lượng tiêu hao; gốc: Mifflin và cộng sự, 1990, American Journal of Clinical Nutrition)', 'https://cancercontrol.cancer.gov/brp/research/group-evaluated-measures/adopt/ree-pal'),
+    ('FDA Hoa Kỳ – 21 CFR 101.9 Nutrition labeling of food (Quy định ghi nhãn dinh dưỡng, gồm dung sai giá trị calo trên nhãn)', 'https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-101/subpart-A/section-101.9'),
+    ('Hall KD và cộng sự (2011) – Quantification of the effect of energy imbalance on bodyweight (Định lượng ảnh hưởng của mất cân bằng năng lượng lên cân nặng), The Lancet', 'https://pubmed.ncbi.nlm.nih.gov/21872751/'),
+    ('Simpson CC, Mazzeo SE (2017) – Calorie counting and fitness tracking technology: Associations with eating disorder symptomatology (Công nghệ đếm calo, theo dõi thể chất và triệu chứng rối loạn ăn uống), Eating Behaviors', 'https://pubmed.ncbi.nlm.nih.gov/28214452/'),
+]
+NEW_RULES11.append(('n11_calo', ['kcal', 'mifflin', 'tdee', 'bmr', 'atwater', 'đếm calo', 'kj', 'nhãn'], 44))   # bài này 63, bài khác cao nhất 23
+
+# an-cham-nhai-ky-loi-ich
+SRC['n11_ancham'] = [
+    ('Hurst Y, Fukuda H (2018) – Effects of changes in eating speed on obesity in patients with diabetes (Thay đổi tốc độ ăn và béo phì ở người bệnh tiểu đường: phân tích dữ liệu khám sức khỏe tại Nhật Bản), BMJ Open', 'https://bmjopen.bmj.com/content/8/1/e019589.abstract'),
+    ('Li J và cộng sự (2011) – Improvement in chewing activity reduces energy intake in one meal and modulates plasma gut hormone concentrations in obese and lean young Chinese men (Nhai nhiều lần hơn giảm năng lượng nạp vào và thay đổi hormone ruột), American Journal of Clinical Nutrition', 'https://www.pubmed.gov/21775556/'),
+    ('Andrade AM, Greene GW, Melanson KJ (2008) – Eating slowly led to decreases in energy intake within meals in healthy women (Ăn chậm làm giảm năng lượng nạp vào trong bữa ở phụ nữ khỏe mạnh), Journal of the American Dietetic Association', 'https://digitalcommons.uri.edu/nfs_facpubs/141'),
+    ('Robinson E và cộng sự (2014) – A systematic review and meta-analysis examining the effect of eating rate on energy intake and hunger (Tổng quan hệ thống và phân tích gộp về tốc độ ăn, năng lượng nạp vào và cảm giác đói), American Journal of Clinical Nutrition', 'https://www.pubmed.gov/24847856/'),
+    ('NHS (Anh) – Swallowing problems (dysphagia) (Chứng khó nuốt: dấu hiệu và khi nào cần đi khám)', 'https://www.nhs.uk/symptoms/swallowing-problems-dysphagia/'),
+]
+NEW_RULES11.append(('n11_ancham', ['ăn chậm', 'nhai', 'ghrelin', 'glp-1', 'pyy', 'tốc độ ăn', 'răng giả', 'nuốt'], 53))   # bài này 76, bài khác cao nhất 18
+
+# an-toi-the-nao-de-khong-tang-can
+SRC['n11_antoi'] = [
+    ('Garaulet M và cộng sự (2013) – Timing of food intake predicts weight loss effectiveness (Giờ ăn dự báo hiệu quả xuống cân), International Journal of Obesity', 'https://read.qxmd.com/read/23357955/timing-of-food-intake-predicts-weight-loss-effectiveness'),
+    ('Vujović N và cộng sự (2022) – Late isocaloric eating increases hunger, decreases energy expenditure, and modifies metabolic pathways in adults with overweight and obesity (Ăn muộn cùng lượng năng lượng làm tăng đói, giảm năng lượng tiêu hao), Cell Metabolism', 'https://pubmed.ncbi.nlm.nih.gov/36198293/'),
+    ('Al Khatib HK và cộng sự (2017) – The effects of partial sleep deprivation on energy balance: a systematic review and meta-analysis (Thiếu ngủ một phần và cân bằng năng lượng: phân tích gộp), European Journal of Clinical Nutrition', 'https://www.nature.com/articles/ejcn2016201.pdf'),
+    ('Trường Y tế Công cộng Harvard – Healthy Eating Plate (Đĩa ăn lành mạnh: tỷ lệ rau, ngũ cốc nguyên hạt, đạm), The Nutrition Source', 'https://nutritionsource.hsph.harvard.edu/healthy-eating-plate/'),
+]
+NEW_RULES11.append(('n11_antoi', ['ăn khuya', 'ăn muộn', 'garaulet', 'vujović', 'đĩa ăn', 'ăn bù', 'tăng cân', 'ăn tối'], 20))   # bài này 29, bài khác cao nhất 8
+# Đề xuất nguồn – đêm 11 (22/11/2026) – sản phẩm duong-tam-an (prefix n11_)
+# URL lấy từ kết quả WebSearch, không mở thử.
+
+# Bài: cang-thang-o-tre-vi-thanh-nien-cha-me
+SRC['n11_cangthangteen'] = [
+    ('WHO – Mental health of adolescents (Sức khỏe tâm thần vị thành niên: 1/7 trẻ 10–19 tuổi gặp rối loạn tâm thần), Fact sheet', 'https://www.who.int/news-room/fact-sheets/detail/adolescent-mental-health'),
+    ('AASM – Teen Sleep Duration Health Advisory (Khuyến cáo thời lượng ngủ tuổi teen: 13–18 tuổi ngủ 8–10 giờ), American Academy of Sleep Medicine', 'https://aasm.org/advocacy/position-statements/teen-sleep-duration-health-advisory/'),
+    ('Wheaton AG và cộng sự (2018) – Short Sleep Duration Among Middle School and High School Students — United States, 2015 (Ngủ thiếu ở học sinh trung học Hoa Kỳ), CDC MMWR', 'https://www.cdc.gov/mmwr/volumes/67/wr/mm6703a1.htm'),
+    ('U.S. Surgeon General (2023) – Social Media and Youth Mental Health (Mạng xã hội và sức khỏe tâm thần thanh thiếu niên), HHS Advisory', 'https://www.hhs.gov/surgeongeneral/reports-and-publications/youth-mental-health/social-media/index.html'),
+    ('VietTimes – Tổng đài miễn phí bảo vệ trẻ em 111 hoạt động 24/7 (Tổng đài điện thoại quốc gia bảo vệ trẻ em)', 'https://viettimes.vn/tong-dai-mien-phi-bao-ve-tre-em-111-hoat-dong-247-post65407.html'),
+]
+NEW_RULES11.append(('n11_cangthangteen', ['vị thành niên', 'tuổi teen', 'tuổi dậy thì', 'mạng xã hội', 'tổng đài', 'bắt nạt', 'học thêm', 'surgeon general'], 21))   # bài này 30, bài khác cao nhất 6
+
+# Bài: mat-tap-trung-hay-quen
+SRC['n11_haquen'] = [
+    ('Arnsten AF (2009) – Stress signalling pathways that impair prefrontal cortex structure and function (Căng thẳng làm suy giảm chức năng vỏ não trước trán), Nature Reviews Neuroscience (PubMed)', 'https://pubmed.ncbi.nlm.nih.gov/19455173/'),
+    ('Lupien SJ, McEwen BS, Gunnar MR, Heim C (2009) – Effects of stress throughout the lifespan on the brain, behaviour and cognition (Ảnh hưởng của căng thẳng lên não, hành vi, nhận thức), Nature Reviews Neuroscience (PubMed)', 'https://pubmed.ncbi.nlm.nih.gov/19401723/'),
+    ('Ophir E, Nass C, Wagner AD (2009) – Cognitive control in media multitaskers (Kiểm soát nhận thức ở người đa nhiệm), PNAS (PMC)', 'https://pmc.ncbi.nlm.nih.gov/articles/PMC2747164'),
+    ('Erickson KI và cộng sự (2011) – Exercise training increases size of hippocampus and improves memory (Tập luyện làm tăng thể tích hồi hải mã, cải thiện trí nhớ), PNAS (PMC)', 'https://pmc.ncbi.nlm.nih.gov/articles/PMC3041121'),
+    ('Mayo Clinic – Memory loss: When to seek help (Mất trí nhớ: khi nào cần đi khám, các nguyên nhân có thể đảo ngược)', 'https://www.mayoclinic.org/diseases-conditions/alzheimers-disease/in-depth/memory-loss/art-20046326'),
+    ('Cowan N (2001) – The magical number 4 in short-term memory (Dung lượng trí nhớ ngắn hạn khoảng 4 khối), Behavioral and Brain Sciences (PubMed)', 'https://pubmed.ncbi.nlm.nih.gov/11515286/'),
+]
+NEW_RULES11.append(('n11_haquen', ['hồi hải mã', 'trí nhớ làm việc', 'pomodoro', 'đa nhiệm', 'vỏ não trước trán', 'hay quên', 'kiện vong', 'cowan'], 36))   # bài này 52, bài khác cao nhất 4
+SRC['n11_naucagai'] = [
+    ('Kaunda JS, Zhang YJ (2019) – The Genus Solanum: An Ethnopharmacological, Phytochemical and Biological Properties Review (Tổng quan chi Cà Solanum: dân tộc dược học, hóa thực vật và hoạt tính sinh học), Natural Products and Bioprospecting', 'https://pubmed.ncbi.nlm.nih.gov/30868423/'),
+    ('EFSA CONTAM Panel (2020) – Risk assessment of glycoalkaloids in feed and food, in particular in potatoes and potato-derived products (Đánh giá nguy cơ glycoalkaloid trong thực phẩm, nhất là khoai tây), EFSA Journal', 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7417869/'),
+    ('Tổ chức Y tế Thế giới (WHO) – Five Keys to Safer Food (Năm chìa khóa an toàn thực phẩm: không để thức ăn đã nấu ở nhiệt độ phòng quá 2 giờ)', 'https://www.afro.who.int/sites/default/files/2017-06/fan_5keys_en%20%282%29.pdf'),
+    ('Mycotoxins in botanicals and dried fruits: a review (Độc tố nấm mốc trong thảo dược và trái cây sấy khô: tổng quan), Food Additives & Contaminants, 2008', 'https://pubmed.ncbi.nlm.nih.gov/18286408/'),
+    ('NHS – Jaundice (Vàng da: dấu hiệu và khi nào cần đi khám)', 'https://www.nhs.uk/conditions/jaundice/'),
+]
+NEW_RULES11.append(('n11_naucagai', ['nấu nước cà gai leo', 'sao vàng', 'đun', 'qua đêm', 'cà độc dược', 'nấm mốc', 'bảo quản', 'nồi'], 36))
+
+SRC['n11_giaocolamcholes'] = [
+    ('Gynostemma pentaphyllum for dyslipidemia: A systematic review of randomized controlled trials (Giảo cổ lam và rối loạn lipid máu: tổng quan hệ thống các thử nghiệm ngẫu nhiên), Frontiers in Pharmacology, 2022', 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9459123/'),
+    ('Huyen VTT và cộng sự (2010) – Thử nghiệm ngẫu nhiên trà giảo cổ lam ở người đái tháo đường type 2 tại Hà Nội, Hormone and Metabolic Research 42(5):353-357', 'https://www.thieme-connect.com/products/all/doi/10.1055/s-0030-1248298'),
+    ('Cholesterol Treatment Trialists\' (CTT) Collaboration (2010) – Efficacy and safety of more intensive lowering of LDL cholesterol: a meta-analysis (Phân tích gộp 26 thử nghiệm statin), The Lancet', 'https://pmc.ncbi.nlm.nih.gov/articles/PMC2988224'),
+    ('ESC/EAS (2019) – European guidelines on lipid control advocate lower is better for cholesterol levels (Khuyến cáo 2019 về rối loạn lipid máu: mục tiêu LDL theo mức nguy cơ), European Society of Cardiology', 'https://www.escardio.org/The-ESC/Press-Office/Press-releases/european-guidelines-on-lipid-control-advocate-lower-is-better-for-cholesterol-levels'),
+    ('RxList – Jiaogulan: Health Benefits, Side Effects, Uses, Dose & Precautions (Giảo cổ lam: an toàn, tương tác thuốc, đối tượng thận trọng)', 'https://www.rxlist.com/supplements/jiaogulan.htm'),
+]
+NEW_RULES11.append(('n11_giaocolamcholes', ['cholesterol', 'ldl', 'statin', 'gypenoside', 'giảo cổ lam', 'mỡ máu', 'thử nghiệm', 'esc/eas'], 96))
+# --- mu-tun-vi-thuoc-cua-nguoi-dao-va-cach ---
+SRC['n11_mutunnguoidao'] = [
+    ('Báo Nghệ An (2024) – Người đàn ông dân tộc Thái đem cây mú từn từ rừng về ươm giống thành công ở vườn nhà', 'https://baonghean.vn/nguoi-dan-ong-dan-toc-thai-dem-cay-mu-tun-tu-rung-ve-uom-giong-thanh-cong-o-vuon-nha-10277597.html'),
+    ('Đinh Ngọc Thức, Đỗ Văn Dục, Lê Nguyễn Thành (2019) – Một số hợp chất phân lập từ lá cây dây lửa ít gân (Rourea oligophlebia Merr.), Tạp chí Y Dược học', 'https://vjol.info.vn/tcdh/article/view/43141'),
+    ('Báo Lào Cai – Độc đáo bài thuốc tắm của người Dao đỏ ở Tả Phìn', 'https://baolaocai.vn/doc-dao-bai-thuoc-tam-cua-nguoi-dao-do-o-ta-phin-post366204.html'),
+    ('VietNamNet – Dao woman in Ba Vi safeguards ancient herbal medicine against online fakes (Người phụ nữ Dao ở Ba Vì giữ bài thuốc cổ trước nạn làm giả trên mạng)', 'https://vietnamnet.vn/en/dao-woman-in-ba-vi-safeguards-ancient-herbal-medicine-against-online-fakes-2449685.html'),
+    ('Drug and Alcohol Review (2019) – Methanol content in homemade alcohol from a province in North Vietnam (Hàm lượng methanol trong rượu tự nấu ở một tỉnh miền Bắc Việt Nam)', 'https://read.qxmd.com/read/31095796/methanol-content-in-homemade-alcohol-from-a-province-in-north-vietnam'),
+]
+NEW_RULES11.append(('n11_mutunnguoidao', ['người dao', 'dao đỏ', 'ba vì', 'tắm lá', 'mú từn', 'methanol', 'thu hái', 'hàng giả'], 63))
+
+# --- mu-tun-co-tac-dung-gi ---
+SRC['n11_mutuntacdung'] = [
+    ('Đinh Ngọc Thức và cộng sự (2019) – Một số hợp chất phân lập từ lá cây dây lửa ít gân (Rourea oligophlebia Merr.), Tạp chí Y Dược học', 'https://vjol.info.vn/tcdh/article/view/43141'),
+    ('Journal of Chemistry (2021) – A New Pyrrolidone Alkaloid and Other Constituents from Rourea oligophlebia Stems (Alkaloid mới và các hợp chất từ thân cây mú từn)', 'https://doaj.org/article/71252bedfd2043a9af8297610ed2be8c'),
+    ('Journal of Natural Products (2006) – Rourinoside and rouremin, antimalarial constituents from Rourea minor (nghiên cứu trên loài Rourea minor, khác loài mú từn), PubMed', 'https://pubmed.ncbi.nlm.nih.gov/16762381'),
+    ('NCCIH/NIH – Herb-Drug Interactions: What the Science Says (Tương tác giữa thảo dược và thuốc: khoa học nói gì)', 'https://www.nccih.nih.gov/health/providers/digest/herb-drug-interactions-science'),
+    ('Mayo Clinic – Erectile dysfunction: A sign of heart disease? (Rối loạn cương có phải dấu hiệu bệnh tim?)', 'https://www.mayoclinic.org/diseases-conditions/erectile-dysfunction/in-depth/erectile-dysfunction/art-20045141'),
+    ('NHS – Back pain (Đau lưng: khi nào cần đi khám)', 'https://www.nhs.uk/conditions/back-pain/'),
+]
+NEW_RULES11.append(('n11_mutuntacdung', ['mức bằng chứng', 'emodin', 'rourea', 'ống nghiệm', 'nam khoa', 'phân lập', 'lời rao', 'chưa tìm thấy'], 23))
+RULES[:0] = NEW_RULES11
+
 
 def refs_for(body):
     low = body.lower(); out = []

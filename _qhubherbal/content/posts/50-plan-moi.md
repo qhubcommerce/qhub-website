@@ -1229,3 +1229,135 @@ products: duong-tam-an
 Giải thích mối liên hệ giữa căng thẳng và huyết áp, cách theo dõi và khi nào cần gặp bác sĩ.
 
 [[buy:duong-tam-an]]
+
++++
+slug: chong-nang-moi-ngay
+title: Chống nắng mỗi ngày: vì sao là bước quan trọng nhất cho da
+desc: Chống nắng mỗi ngày vì sao quan trọng? Tia UVA, UVB, chỉ số UV ở Việt Nam, cách chọn SPF, PA, lượng kem đủ dùng, thoa lại, che chắn và khi nào nốt ruồi cần đi khám.
+cat: cam-nang
+date: 2026-11-22
+products: duong-nhan
++++
+Hiểu tia UV và cách chống nắng mỗi ngày đúng lượng, đúng lúc, kết hợp che chắn.
+
+[[buy:duong-nhan]]
+
++++
+slug: top-6-thuc-uong-buoi-chieu-khong-caffeine-cho
+title: Top 6 thức uống buổi chiều không caffeine cho người làm văn phòng
+desc: Top 6 thức uống buổi chiều không caffeine cho dân văn phòng: tiêu chí chọn, lượng đường, caffeine ẩn trong trà sữa, nước ngọt và cách đổi thói quen ly 3 giờ chiều.
+cat: top
+date: 2026-11-22
+products: duong-nhan
++++
+Gợi ý thức uống buổi chiều không caffeine, ít đường cho người làm văn phòng.
+
+[[buy:duong-nhan]]
+
++++
+slug: co-giao-vung-cao-va-tach-tra-hoa-hong
+title: Cô giáo vùng cao và tách trà hoa hồng đầu đông
+desc: Câu chuyện cô giáo cắm bản vùng cao đón mùa đông đầu tiên: giữ ấm, ăn uống, ngủ đủ, chăm da nơi gió rét khô hanh và tách trà hoa hồng như một nghi thức tự chăm sóc.
+cat: cau-chuyen
+date: 2026-11-22
+products: duong-nhan
++++
+Câu chuyện về mùa đông vùng cao và những thói quen tự chăm sóc nhỏ.
+
+[[buy:duong-nhan]]
+
++++
+slug: hoi-chung-chan-khong-yen-nguyen-nhan-va-cach
+title: Hội chứng chân không yên: nguyên nhân và cách giảm
+desc: Hội chứng chân không yên là gì? Dấu hiệu khó chịu ở chân về đêm, liên quan thiếu sắt, thai kỳ, thuốc, cách giảm nhẹ bằng sinh hoạt và khi nào cần đi khám chuyên khoa.
+cat: cam-nang
+date: 2026-11-22
+products: xau-ho-tim-tam-sen
++++
+Nhận biết hội chứng chân không yên, các yếu tố liên quan và cách giảm khó chịu về đêm.
+
+[[buy:xau-ho-tim-tam-sen]]
+
++++
+slug: ngu-ngay-ngung-tho-khi-ngu-dau-hieu-can
+title: Ngủ ngáy, ngưng thở khi ngủ: dấu hiệu cần đi khám
+desc: Ngủ ngáy khi nào là dấu hiệu ngưng thở khi ngủ? Triệu chứng, thang STOP-BANG, nguy cơ tim mạch, đo đa ký giấc ngủ, các hướng xử trí và khi nào cần đi khám sớm.
+cat: cam-nang
+date: 2026-11-22
+products: xau-ho-tim-tam-sen
++++
+Phân biệt ngáy thông thường với ngưng thở khi ngủ và các dấu hiệu cần đi khám.
+
+[[buy:xau-ho-tim-tam-sen]]
+
++++
+slug: them-do-ngot-truoc-ky-kinh-ly-do-khoa
+title: Thèm đồ ngọt trước kỳ kinh: lý do khoa học
+desc: Vì sao thèm đồ ngọt trước kỳ kinh? Vai trò estrogen, progesterone, serotonin, giấc ngủ, căng thẳng, cách ăn để bớt thèm ngọt và khi nào triệu chứng tiền kinh cần đi khám.
+cat: cam-nang
+date: 2026-11-22
+products: ngay-dau-ve
++++
+Giải thích cơn thèm ngọt trước kỳ kinh và cách ăn uống hợp lý những ngày này.
+
+[[buy:ngay-dau-ve]]
+
++++
+slug: calo-la-gi-co-can-dem-calo-khong
+title: Calo là gì, có cần đếm calo không
+desc: Calo là gì, có cần đếm calo không? Cách tính nhu cầu năng lượng, nhãn dinh dưỡng, sai số khi đếm calo, ai nên đếm, ai không nên và cách ăn đủ mà không cần tính từng con số.
+cat: cam-nang
+date: 2026-11-22
+products: la-oi-mix-la-sen
++++
+Hiểu calo, nhu cầu năng lượng và khi nào việc đếm calo thật sự cần thiết.
+
+[[buy:la-oi-mix-la-sen]]
+
++++
+slug: an-toi-the-nao-de-khong-tang-can
+title: Ăn tối thế nào để không tăng cân
+desc: Ăn tối thế nào để không tăng cân? Giờ ăn, khẩu phần đĩa cân bằng, đạm, rau, tinh bột, ăn khuya, ngủ đủ, thực đơn tối mẫu cho người Việt và khi nào nên gặp bác sĩ dinh dưỡng.
+cat: cam-nang
+date: 2026-11-22
+products: la-oi-mix-la-sen
++++
+Gợi ý giờ ăn, khẩu phần và thực đơn bữa tối giúp kiểm soát cân nặng bền vững.
+
+[[buy:la-oi-mix-la-sen]]
+
++++
+slug: cang-thang-o-tre-vi-thanh-nien-cha-me
+title: Căng thẳng ở trẻ vị thành niên: cha mẹ nhận biết thế nào
+desc: Căng thẳng ở trẻ vị thành niên biểu hiện ra sao? Dấu hiệu cảm xúc, giấc ngủ, học tập, mạng xã hội, cách cha mẹ trò chuyện, hỗ trợ con và khi nào cần tìm chuyên gia tâm lý.
+cat: cam-nang
+date: 2026-11-22
+products: duong-tam-an
++++
+Giúp cha mẹ nhận biết căng thẳng ở con tuổi teen và cách đồng hành phù hợp.
+
+[[buy:duong-tam-an]]
+
++++
+slug: giao-co-lam-va-cholesterol-bang-chung-hien-co
+title: Giảo cổ lam và cholesterol: bằng chứng hiện có
+desc: Giảo cổ lam và cholesterol: nghiên cứu nói gì? Gypenoside, thử nghiệm trên người, mức độ bằng chứng, tương tác thuốc, lưu ý an toàn và vì sao không thay được thuốc mỡ máu.
+cat: cam-nang
+date: 2026-11-22
+products: ca-gai-diep-ha-chau
++++
+Tổng hợp bằng chứng khoa học về giảo cổ lam và mỡ máu cùng các lưu ý an toàn.
+
+[[buy:ca-gai-diep-ha-chau]]
+
++++
+slug: mu-tun-vi-thuoc-cua-nguoi-dao-va-cach
+title: Mú từn: vị thuốc của người Dao và cách dùng
+desc: Mú từn là cây gì trong kinh nghiệm của người Dao? Đặc điểm, vùng mọc, cách người Dao dùng, cách bảo quản, cảnh báo hàng giả, lưu ý an toàn và những điều khoa học chưa rõ.
+cat: cam-nang
+date: 2026-11-22
+products: nam-vuong
++++
+Tìm hiểu mú từn trong kinh nghiệm dân gian của người Dao và lưu ý khi dùng.
+
+[[buy:nam-vuong]]

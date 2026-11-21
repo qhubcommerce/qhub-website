@@ -468,41 +468,35 @@ def build_feeds(posts):
     open(os.path.join(ROOT, "feed.xml"), "w", encoding="utf-8").write(
         f'<?xml version="1.0" encoding="UTF-8"?>\n<rss version="2.0"><channel><title>Kiến thức QHUB Commerce</title><link>{SITE}/kien-thuc/</link>'
         f"<description>Kiến thức thương mại điện tử thực chiến từ QHUB Commerce</description><language>vi</language>{items}</channel></rss>\n")
-    robots = f"""# qhub.com.vn — cho phép công cụ tìm kiếm và trợ lý AI đọc toàn bộ nội dung công khai
+    robots = f"""# qhub.com.vn — cho phép công cụ tìm kiếm và trợ lý AI đọc toàn bộ nội dung công khai.
+# Mọi bot dùng chung MỘT nhóm quy tắc: theo chuẩn RFC 9309, bot chỉ làm theo nhóm khớp tên nó cụ thể nhất,
+# nên nếu tách nhóm riêng thì các dòng Disallow ở nhóm "*" sẽ không áp dụng cho bot đó.
+# CSS, JS, ảnh, sitemap, feed, llms.txt đều được mở; chỉ chặn thư mục mã nguồn nội bộ.
 User-agent: *
+User-agent: Googlebot
+User-agent: Googlebot-Image
+User-agent: Bingbot
+User-agent: coccocbot-web
+User-agent: coccocbot-image
+User-agent: Applebot
+User-agent: DuckDuckBot
+User-agent: YandexBot
+User-agent: Google-Extended
+User-agent: GPTBot
+User-agent: OAI-SearchBot
+User-agent: ChatGPT-User
+User-agent: ClaudeBot
+User-agent: Claude-SearchBot
+User-agent: Claude-User
+User-agent: PerplexityBot
+User-agent: Perplexity-User
+User-agent: Applebot-Extended
+User-agent: meta-externalagent
 Allow: /
 Disallow: /_src/
 Disallow: /_tools/
-
-User-agent: Googlebot
-Allow: /
-
-User-agent: Bingbot
-Allow: /
-
-User-agent: Google-Extended
-Allow: /
-
-User-agent: GPTBot
-Allow: /
-
-User-agent: OAI-SearchBot
-Allow: /
-
-User-agent: ChatGPT-User
-Allow: /
-
-User-agent: PerplexityBot
-Allow: /
-
-User-agent: ClaudeBot
-Allow: /
-
-User-agent: Claude-SearchBot
-Allow: /
-
-User-agent: Applebot-Extended
-Allow: /
+Disallow: /_qhubherbal/
+Disallow: /README
 
 Sitemap: {SITE}/sitemap.xml
 """

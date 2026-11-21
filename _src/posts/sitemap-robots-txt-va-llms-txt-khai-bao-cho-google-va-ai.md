@@ -155,24 +155,25 @@ User-agent: PerplexityBot
 Allow: /
 ```
 
-Còn qhub.com.vn chọn mở toàn bộ. Đây là robots.txt thật đang chạy (rút gọn phần giống nhau):
+Còn qhub.com.vn chọn mở toàn bộ. Đây là robots.txt thật đang chạy (rút gọn danh sách bot):
 
 ```txt
 User-agent: *
+User-agent: Googlebot
+User-agent: Bingbot
+User-agent: coccocbot-web
+User-agent: GPTBot
+User-agent: OAI-SearchBot
+User-agent: ClaudeBot
+User-agent: PerplexityBot
 Allow: /
 Disallow: /_src/
 Disallow: /_tools/
 
-User-agent: Googlebot
-Allow: /
-
-User-agent: OAI-SearchBot
-Allow: /
-
 Sitemap: https://qhub.com.vn/sitemap.xml
 ```
 
-File thật còn các nhóm `Allow: /` tương tự cho Bingbot, Google-Extended, GPTBot, ChatGPT-User, PerplexityBot, ClaudeBot, Claude-SearchBot và Applebot-Extended. Lý do: QHUB muốn khi ai đó hỏi AI về đơn vị vận hành TikTok Shop, AI có đủ thông tin đúng để trả lời. Cách tối ưu cho việc được AI nhắc tới có trong bài [GEO là gì: tối ưu để ChatGPT, Gemini nhắc tới thương hiệu](/kien-thuc/geo-la-gi-toi-uu-de-chatgpt-gemini-nhac-toi-thuong-hieu/).
+File thật liệt kê thêm Googlebot-Image, Applebot, DuckDuckBot, YandexBot, Google-Extended, ChatGPT-User, Claude-SearchBot, Claude-User, Perplexity-User, Applebot-Extended. Tất cả dùng chung một nhóm quy tắc, nên dòng chặn thư mục mã nguồn áp dụng cho mọi bot, còn trang, ảnh, CSS, JavaScript đều mở. Lý do: QHUB muốn khi ai đó hỏi AI về đơn vị vận hành TikTok Shop, AI có đủ thông tin đúng để trả lời. Cách tối ưu cho việc được AI nhắc tới có trong bài [GEO là gì: tối ưu để ChatGPT, Gemini nhắc tới thương hiệu](/kien-thuc/geo-la-gi-toi-uu-de-chatgpt-gemini-nhac-toi-thuong-hieu/).
 
 ## llms.txt là gì, có nên làm không?
 

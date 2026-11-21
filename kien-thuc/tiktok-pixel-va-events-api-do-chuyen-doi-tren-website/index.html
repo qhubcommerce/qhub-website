@@ -1,0 +1,323 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<!-- GA4 QHUB Commerce -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-NYQMD1XPP6"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-NYQMD1XPP6');
+document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('a,button');if(!a)return;var h=a.getAttribute('href')||'';
+if(/zalo\.me/.test(h))gtag('event','click_zalo',{link_url:h});else if(/^tel:/.test(h))gtag('event','click_call',{link_url:h});
+else if(/^mailto:/.test(h))gtag('event','click_email',{link_url:h});else if(/qhubherbal\.com/.test(h))gtag('event','click_qhubherbal',{link_url:h});},true);</script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>TikTok Pixel và Events API: đo chuyển đổi trên website | QHUB Commerce</title>
+<meta name="description" content="TikTok Pixel và Events API là gì, khác nhau ra sao, website bán hàng cần đo sự kiện nào, cách cài, chống đếm trùng bằng event_id và kiểm tra dữ liệu.">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<link rel="canonical" href="https://qhub.com.vn/kien-thuc/tiktok-pixel-va-events-api-do-chuyen-doi-tren-website/">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="QHUB Commerce">
+<meta property="og:locale" content="vi_VN">
+<meta property="og:title" content="TikTok Pixel và Events API: đo chuyển đổi trên website | QHUB Commerce">
+<meta property="og:description" content="TikTok Pixel và Events API là gì, khác nhau ra sao, website bán hàng cần đo sự kiện nào, cách cài, chống đếm trùng bằng event_id và kiểm tra dữ liệu.">
+<meta property="og:url" content="https://qhub.com.vn/kien-thuc/tiktok-pixel-va-events-api-do-chuyen-doi-tren-website/">
+<meta property="og:image" content="https://qhub.com.vn/og-qhub.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#0B1220">
+<link rel="icon" href="/favicon.ico" sizes="48x48">
+<link rel="icon" href="/favicon-96x96.png" type="image/png" sizes="96x96">
+<link rel="icon" href="/favicon-192x192.png" type="image/png" sizes="192x192">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="alternate" type="application/rss+xml" title="Kiến thức QHUB Commerce" href="/feed.xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/styles.css?v=20261113f">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BlogPosting", "headline": "TikTok Pixel và Events API: đo chuyển đổi trên website", "description": "TikTok Pixel và Events API là gì, khác nhau ra sao, website bán hàng cần đo sự kiện nào, cách cài, chống đếm trùng bằng event_id và kiểm tra dữ liệu.", "inLanguage": "vi", "mainEntityOfPage": "https://qhub.com.vn/kien-thuc/tiktok-pixel-va-events-api-do-chuyen-doi-tren-website/", "url": "https://qhub.com.vn/kien-thuc/tiktok-pixel-va-events-api-do-chuyen-doi-tren-website/", "image": "https://qhub.com.vn/og-qhub.png", "datePublished": "2026-11-22", "dateModified": "2026-11-22", "author": {"@type": "Person", "@id": "https://qhub.com.vn/tac-gia/nguyen-van-quang/#person", "name": "Nguyễn Văn Quang", "url": "https://qhub.com.vn/tac-gia/nguyen-van-quang/", "jobTitle": "Founder & CEO", "image": "https://qhub.com.vn/quang-avatar.jpg", "worksFor": {"@id": "https://qhub.com.vn/#organization"}}, "publisher": {"@type": "Organization", "@id": "https://qhub.com.vn/#organization", "name": "CÔNG TY TNHH QHUB COMMERCE", "alternateName": "QHUB Commerce", "url": "https://qhub.com.vn/", "logo": {"@type": "ImageObject", "url": "https://qhub.com.vn/logo-qhub.png", "width": 512, "height": 512}}, "articleSection": "Quảng cáo TikTok & GMV Max", "keywords": "tiktok pixel, tiktok events api, cài tiktok pixel cho website, sự kiện chuẩn tiktok, tiktok pixel helper, event_id tiktok", "wordCount": 2702}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Trang chủ", "item": "https://qhub.com.vn/"}, {"@type": "ListItem", "position": 2, "name": "Kiến thức", "item": "https://qhub.com.vn/kien-thuc/"}, {"@type": "ListItem", "position": 3, "name": "Quảng cáo TikTok & GMV Max", "item": "https://qhub.com.vn/kien-thuc/chu-de/quang-cao-tiktok/"}, {"@type": "ListItem", "position": 4, "name": "TikTok Pixel và Events API: đo chuyển đổi trên website", "item": "https://qhub.com.vn/kien-thuc/tiktok-pixel-va-events-api-do-chuyen-doi-tren-website/"}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "TikTok Pixel là gì?", "acceptedAnswer": {"@type": "Answer", "text": "TikTok Pixel là đoạn mã gắn vào website để ghi nhận hành động của người xem đến từ quảng cáo TikTok, như xem sản phẩm, thêm vào giỏ, thanh toán. Dữ liệu này giúp TikTok đo hiệu quả quảng cáo, tối ưu theo đơn hàng và tạo tệp khách để quảng cáo lại."}}, {"@type": "Question", "name": "Events API của TikTok khác Pixel thế nào?", "acceptedAnswer": {"@type": "Answer", "text": "Pixel chạy trên trình duyệt của khách nên có thể bị chặn bởi trình chặn quảng cáo, cài đặt quyền riêng tư hoặc mạng chậm. Events API gửi sự kiện từ máy chủ của website tới TikTok, không phụ thuộc trình duyệt. Dùng cả hai giúp dữ liệu đầy đủ hơn, với điều kiện phải chống đếm trùng bằng event_id."}}, {"@type": "Question", "name": "Làm sao kiểm tra TikTok Pixel đã chạy đúng chưa?", "acceptedAnswer": {"@type": "Answer", "text": "Cài tiện ích TikTok Pixel Helper trên Chrome, mở website và xem Pixel có bắn đúng sự kiện ở từng trang không. Sau đó dùng mục Kiểm tra sự kiện trong TikTok Events Manager, tự đặt một đơn thử và xem sự kiện có về từ cả trình duyệt lẫn máy chủ không."}}, {"@type": "Question", "name": "Website nhỏ có cần Events API không?", "acceptedAnswer": {"@type": "Answer", "text": "Nếu website có chạy quảng cáo TikTok với mục tiêu chuyển đổi thì nên có, vì phần sự kiện bị trình duyệt chặn sẽ được bù lại. Nhiều nền tảng làm web như Shopify, WooCommerce có tích hợp đối tác nên bật Events API khá nhanh. Web chưa chạy quảng cáo có thể bắt đầu với Pixel trước."}}, {"@type": "Question", "name": "Cửa sổ phân bổ trên TikTok Ads Manager là gì?", "acceptedAnswer": {"@type": "Answer", "text": "Là khoảng thời gian sau khi khách bấm hoặc xem quảng cáo mà một chuyển đổi vẫn được tính cho quảng cáo đó. TikTok cho phép chọn cửa sổ sau nhấp và sau xem trong phần cài đặt phân bổ. Khi so số liệu giữa TikTok, Meta và Google Analytics, anh chị phải nhớ mỗi bên tính theo cửa sổ khác nhau."}}]}</script>
+<meta property="article:published_time" content="2026-11-22">
+<meta property="article:modified_time" content="2026-11-22">
+<meta property="article:section" content="Quảng cáo TikTok &amp; GMV Max">
+</head>
+<body class="kt-body">
+<a class="skip" href="#main">Bỏ qua tới nội dung</a>
+<header class="site-header" id="top">
+  <div class="wrap">
+    <a class="brand" href="/" aria-label="QHUB Commerce — trang chủ">
+      <img src="/logo-qhub-white.png" alt="" width="45" height="48">
+      <span>QHUB<small>COMMERCE</small></span>
+    </a>
+    <nav class="nav" id="nav" aria-label="Điều hướng chính">
+      <a href="/gioi-thieu/">Giới thiệu</a>
+      <a href="/dich-vu/">Dịch vụ</a>
+      <a href="/kien-thuc/">Kiến thức</a>
+      <a href="/#doi-ngu">Đội ngũ</a>
+      <a href="/qhub-herbal.html">QHUB HERBAL</a>
+      <a class="nav-cta" href="/#dat-lich">Đặt lịch chẩn đoán</a>
+    </nav>
+    <a class="btn btn-primary btn-sm" href="/#dat-lich">Đặt lịch chẩn đoán</a>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="nav" aria-label="Mở menu">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+  </div>
+</header>
+<main id="main" class="kt-main">
+<div class="wrap kt-narrow">
+<nav class="kt-crumb" aria-label="Đường dẫn"><a href="/">Trang chủ</a><span aria-hidden="true">/</span><a href="/kien-thuc/">Kiến thức</a><span aria-hidden="true">/</span><a href="/kien-thuc/chu-de/quang-cao-tiktok/">Quảng cáo TikTok &amp; GMV Max</a><span aria-hidden="true">/</span><span aria-current="page">TikTok Pixel và Events API: đo chuyển đổi trên website</span></nav>
+<article class="kt-article">
+<header class="kt-head">
+  <a class="kt-tag" href="/kien-thuc/chu-de/quang-cao-tiktok/">Quảng cáo TikTok &amp; GMV Max</a>
+  <h1>TikTok Pixel và Events API: đo chuyển đổi trên website</h1>
+  <p class="kt-lead">TikTok Pixel và Events API là gì, khác nhau ra sao, website bán hàng cần đo sự kiện nào, cách cài, chống đếm trùng bằng event_id và kiểm tra dữ liệu.</p>
+  <p class="kt-meta">Bởi <a href="/tac-gia/nguyen-van-quang/">Nguyễn Văn Quang</a> · Đăng 22/11/2026 · 12 phút đọc</p>
+</header>
+<div class="kt-sum"><h2>Tóm tắt nhanh</h2><ul><li>TikTok Pixel là đoạn mã chạy trên trình duyệt để ghi nhận hành động của khách trên website; Events API gửi cùng dữ liệu đó từ máy chủ của website thẳng tới TikTok.</li><li>TikTok khuyên dùng cả hai; để không đếm trùng, sự kiện gửi từ hai đường phải có cùng tên sự kiện và cùng mã event_id.</li><li>Website bán hàng tối thiểu nên đo xem sản phẩm, thêm vào giỏ, bắt đầu thanh toán và hoàn tất thanh toán có kèm giá trị đơn bằng VND.</li><li>Gửi email, số điện thoại đã mã hóa cho TikTok là xử lý dữ liệu cá nhân, phải tuân theo Luật Bảo vệ dữ liệu cá nhân số 91/2025/QH15 có hiệu lực từ 01/01/2026.</li></ul></div>
+<nav class="kt-toc" aria-label="Mục lục"><h2>Trong bài này</h2><ol><li><a href="#tiktok-pixel-la-gi-va-e-lam-gi">TikTok Pixel là gì và để làm gì?</a></li><li><a href="#events-api-la-gi-vi-sao-nen-dung-cung-pixel">Events API là gì, vì sao nên dùng cùng Pixel?</a></li><li><a href="#tiktok-pixel-can-o-nhung-su-kien-chuan-nao">TikTok Pixel cần đo những sự kiện chuẩn nào?</a></li><li><a href="#cai-tiktok-pixel-va-events-api-theo-cach-nao">Cài TikTok Pixel và Events API theo cách nào?</a></li><li><a href="#advanced-matching-va-chat-luong-khop-su-kien">Advanced Matching và chất lượng khớp sự kiện</a></li><li><a href="#kiem-tra-du-lieu-va-oc-so-the-nao-cho-ung">Kiểm tra dữ liệu và đọc số thế nào cho đúng?</a></li><li><a href="#du-lieu-khach-hang-va-luat-bao-ve-du-lieu-ca-nhan">Dữ liệu khách hàng và luật bảo vệ dữ liệu cá nhân</a></li><li><a href="#loi-hay-gap-khi-cai-tiktok-pixel">Lỗi hay gặp khi cài TikTok Pixel</a></li><li><a href="#viec-nen-lam-ngay-tuan-nay">Việc nên làm ngay tuần này</a></li></ol></nav>
+<div class="kt-body-text">
+<p><strong>TikTok Pixel là đoạn mã gắn trên website để ghi nhận hành động của khách đến từ quảng cáo TikTok, còn Events API gửi cùng dữ liệu đó từ máy chủ của website thẳng tới TikTok.</strong> TikTok khuyên dùng cả hai. Pixel dễ cài nhưng có thể bị trình duyệt hoặc trình chặn quảng cáo cắt mất. Events API bù vào phần bị mất. Để một đơn không bị đếm thành hai, mỗi sự kiện phải mang cùng tên và cùng mã event_id ở cả hai đường.</p>
+<p>Bài này đội QHUB viết cho chủ shop và người chạy quảng cáo muốn kéo khách từ TikTok về website riêng. Mình đi lần lượt: Pixel và Events API là gì, cần đo sự kiện nào, cài theo cách nào, kiểm tra ra sao, đọc số thế nào cho đúng, và phần dữ liệu cá nhân theo luật Việt Nam. Thông tin được đối chiếu với Trung tâm trợ giúp TikTok Ads ngày 22/11/2026. Giao diện Events Manager thay đổi khá thường xuyên, nên tên nút có thể khác đôi chút khi anh chị đọc bài.</p>
+<h2 id="tiktok-pixel-la-gi-va-e-lam-gi">TikTok Pixel là gì và để làm gì?</h2>
+<p>Hãy hình dung quảng cáo TikTok là người phát tờ rơi ngoài phố. Website là cửa hàng. TikTok Pixel là người đứng trong cửa hàng ghi sổ: khách nào vào, xem món gì, bỏ gì vào giỏ, có ra quầy trả tiền không.</p>
+<p>Dữ liệu Pixel ghi được dùng cho ba việc:</p>
+<ol>
+<li><strong>Đo hiệu quả.</strong> Biết quảng cáo nào mang về đơn hàng thật, không chỉ lượt bấm.</li>
+<li><strong>Tối ưu quảng cáo.</strong> Khi chọn mục tiêu chuyển đổi trên website, hệ thống TikTok cần dữ liệu sự kiện để tìm người dễ mua.</li>
+<li><strong>Tạo tệp khách.</strong> Ví dụ người đã thêm vào giỏ trong 7 ngày nhưng chưa mua, để quảng cáo nhắc lại.</li>
+</ol>
+<p>Không có Pixel, chạy quảng cáo TikTok về website gần như chạy mù. Anh chị chỉ thấy lượt bấm, còn bao nhiêu đơn, đơn bao nhiêu tiền thì không rõ. Nếu đang phân vân nên kéo khách về website, Zalo hay form, bài <a href="/kien-thuc/quang-cao-tiktok-ngoai-tiktok-shop-keo-ve-website-zalo-form/">quảng cáo TikTok ngoài TikTok Shop</a> so sánh ba hướng này khá kỹ.</p>
+<h2 id="events-api-la-gi-vi-sao-nen-dung-cung-pixel">Events API là gì, vì sao nên dùng cùng Pixel?</h2>
+<p><strong>Events API</strong> là cách gửi sự kiện từ máy chủ (server-side, tức phía máy chủ) của website tới TikTok. Thay vì nhờ trình duyệt của khách gửi, chính hệ thống đơn hàng gửi khi có sự kiện, ví dụ lúc đơn được tạo hoặc lúc thanh toán thành công.</p>
+<p>Vì sao cần thêm? Vì Pixel phụ thuộc trình duyệt, mà trình duyệt ngày càng chặn nhiều.</p>
+<div class="kt-table"><table>
+<thead>
+<tr>
+<th>Tình huống</th>
+<th>TikTok Pixel</th>
+<th>Events API</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Khách dùng trình chặn quảng cáo</td>
+<td>Có thể bị chặn</td>
+<td>Vẫn gửi được</td>
+</tr>
+<tr>
+<td>Trình duyệt hạn chế cookie, theo dõi</td>
+<td>Có thể mất dữ liệu</td>
+<td>Không phụ thuộc trình duyệt</td>
+</tr>
+<tr>
+<td>Khách tắt trang trước khi mã chạy xong</td>
+<td>Có thể mất sự kiện</td>
+<td>Máy chủ vẫn ghi nhận đơn</td>
+</tr>
+<tr>
+<td>Đơn xác nhận qua điện thoại, ngoài website</td>
+<td>Không ghi được</td>
+<td>Gửi được từ hệ thống</td>
+</tr>
+<tr>
+<td>Độ khó cài đặt</td>
+<td>Dễ</td>
+<td>Trung bình đến khó</td>
+</tr>
+</tbody>
+</table></div>
+<p>Cách TikTok khuyến nghị là chạy song song. Pixel bắt sự kiện trên trình duyệt. Events API gửi lại từ máy chủ. Sự kiện nào cả hai cùng bắt được thì TikTok gộp làm một. Cách nghĩ này giống hệt Meta, đội mình đã giải thích trong bài <a href="/kien-thuc/pixel-meta-va-conversions-api-cho-website-ban-hang/">Pixel Meta và Conversions API cho website bán hàng</a>. Website đang làm cho Meta rồi thì thêm TikTok thường nhẹ hơn nhiều.</p>
+<h3 id="chong-em-trung-bang-event_id">Chống đếm trùng bằng event_id</h3>
+<p>Theo bài "About event deduplication" trên Trung tâm trợ giúp TikTok Ads, TikTok nhận ra hai bản ghi là một sự kiện khi chúng có <strong>cùng tên sự kiện</strong> và <strong>cùng event_id</strong>. Cách đơn giản nhất cho sự kiện mua hàng là lấy mã đơn hàng làm event_id. Pixel trên trang cảm ơn gửi sự kiện với event_id là mã đơn. Máy chủ gửi qua Events API với đúng mã đơn đó. TikTok nhận hai, tính một.</p>
+<p>Với sự kiện như thêm vào giỏ, website tạo một mã ngẫu nhiên khi khách bấm nút, rồi dùng chung mã đó cho cả hai đường. Thiếu bước này, báo cáo sẽ đếm đơn gấp đôi. ROAS (doanh thu chia chi phí quảng cáo) trông đẹp gấp đôi thực tế, và anh chị dễ quyết định tăng ngân sách dựa trên số ảo. TikTok còn có giới hạn thời gian giữa hai bản ghi để được gộp, anh chị xem chi tiết trong bài trợ giúp nói trên.</p>
+<h2 id="tiktok-pixel-can-o-nhung-su-kien-chuan-nao">TikTok Pixel cần đo những sự kiện chuẩn nào?</h2>
+<p>TikTok có danh sách <strong>sự kiện chuẩn</strong> (standard events), tức các sự kiện có tên định sẵn mà hệ thống hiểu và tối ưu được. Với website bán hàng, đội mình luôn cài tối thiểu các sự kiện dưới đây.</p>
+<div class="kt-table"><table>
+<thead>
+<tr>
+<th>Sự kiện chuẩn</th>
+<th>Khi nào bắn</th>
+<th>Thông tin nên gửi kèm</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ViewContent</td>
+<td>Khách xem trang sản phẩm</td>
+<td>content_id (mã sản phẩm), tên, giá</td>
+</tr>
+<tr>
+<td>AddToCart</td>
+<td>Bấm thêm vào giỏ</td>
+<td>content_id, số lượng, value (giá trị)</td>
+</tr>
+<tr>
+<td>InitiateCheckout</td>
+<td>Vào trang thanh toán</td>
+<td>Giá trị giỏ, số sản phẩm</td>
+</tr>
+<tr>
+<td>AddPaymentInfo</td>
+<td>Chọn hoặc nhập phương thức thanh toán</td>
+<td>Giá trị giỏ</td>
+</tr>
+<tr>
+<td>CompletePayment</td>
+<td>Đơn tạo thành công</td>
+<td>Mã đơn làm event_id, value, currency = VND</td>
+</tr>
+</tbody>
+</table></div>
+<p>Website có form tư vấn thì thêm sự kiện gửi form. Website có nút gọi hoặc nhắn Zalo thì thêm sự kiện liên hệ.</p>
+<p>Một điểm cần để ý: TikTok có bài hướng dẫn "How to Adopt TikTok's Updated Standard Events", nghĩa là bộ sự kiện chuẩn đã được cập nhật và một số tên có thể thay đổi. Ví dụ có tài liệu mới gọi sự kiện mua hàng là Purchase thay vì CompletePayment. Anh chị đừng chép tên sự kiện từ bài cũ trên mạng. Hãy mở Events Manager của chính tài khoản mình, chọn đúng tên đang được đề xuất ở đó.</p>
+<p>Hai lưu ý với sự kiện mua hàng:</p>
+<ul>
+<li><strong>Chỉ bắn một lần cho mỗi đơn.</strong> Lỗi hay gặp là trang cảm ơn bị tải lại, Pixel bắn thêm một lần.</li>
+<li><strong>Gửi giá trị đơn thật</strong>, đúng đơn vị VND. Không gửi một giá trị cố định cho mọi đơn.</li>
+</ul>
+<p>Lấy ví dụ website bán hàng riêng qhubherbal.com của thương hiệu trà <a href="/qhub-herbal.html">QHUB HERBAL</a>. Nếu gắn Pixel, các sự kiện mẫu sẽ là xem từng trang trà, thêm hộp vào giỏ, vào trang thanh toán và hoàn tất đơn. Với ưu đãi trên website là trả 210.000đ nhận 3 hộp, sự kiện mua hàng của đơn đó nên mang giá trị 210.000 và đơn vị VND, không phải giá niêm yết của 3 hộp. Đây là danh sách minh họa cách nghĩ, không phải mô tả cấu hình thực tế của website đó.</p>
+<h2 id="cai-tiktok-pixel-va-events-api-theo-cach-nao">Cài TikTok Pixel và Events API theo cách nào?</h2>
+<p>Mọi việc bắt đầu trong <strong>TikTok Events Manager</strong> (Trình quản lý sự kiện), nằm trong TikTok Ads Manager. Anh chị tạo một nguồn dữ liệu web, đặt tên, rồi chọn cách kết nối. Có ba hướng chính, từ dễ tới khó.</p>
+<h3 id="cach-1-tich-hop-oi-tac">Cách 1: tích hợp đối tác</h3>
+<p>TikTok có danh sách tích hợp đối tác cho sự kiện web, gồm các nền tảng như Shopify, WooCommerce, BigCommerce, Shopline. Với nhóm này, anh chị cài ứng dụng hoặc plugin TikTok, đăng nhập tài khoản doanh nghiệp, chọn Pixel. Nhiều tích hợp đã tự bắn sẵn sự kiện chuẩn và có lựa chọn bật Events API. Đây là cách nhanh nhất, ít lỗi nhất, hợp phần lớn shop nhỏ.</p>
+<h3 id="cach-2-google-tag-manager">Cách 2: Google Tag Manager</h3>
+<p>TikTok có hướng dẫn cài Pixel qua <strong>Google Tag Manager</strong> (GTM, công cụ miễn phí của Google để quản lý mã đo lường ở một chỗ) và có mẫu thẻ chính thức. Lập trình viên gắn GTM một lần, đẩy dữ liệu đơn hàng vào dataLayer (lớp dữ liệu). Sau đó người chạy quảng cáo tự cấu hình thẻ TikTok, Meta, Google trên cùng một dữ liệu. Website gắn nhiều công cụ nên đi theo hướng này, giống cách bài <a href="/kien-thuc/google-analytics-4-cho-website-ban-hang/">Google Analytics 4 cho website bán hàng</a> gợi ý. Muốn có Events API thì dùng GTM bản máy chủ, cần người hiểu kỹ thuật và có chi phí máy chủ.</p>
+<h3 id="cach-3-tu-lap-trinh">Cách 3: tự lập trình</h3>
+<p>Dán mã Pixel thủ công vào phần đầu trang, tự viết lệnh bắn sự kiện ở từng bước. Events API được gọi trực tiếp từ hệ thống đặt hàng. Kiểm soát tốt nhất, hợp với website tự viết.</p>
+<div class="kt-table"><table>
+<thead>
+<tr>
+<th>Cách cài</th>
+<th>Độ khó</th>
+<th>Chi phí</th>
+<th>Hợp với</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Tích hợp đối tác</td>
+<td>Dễ</td>
+<td>Thường miễn phí</td>
+<td>Web làm trên Shopify, WooCommerce và nền tảng có sẵn kết nối</td>
+</tr>
+<tr>
+<td>Google Tag Manager</td>
+<td>Trung bình</td>
+<td>Miễn phí, thêm phí máy chủ nếu làm Events API</td>
+<td>Web gắn nhiều công cụ đo</td>
+</tr>
+<tr>
+<td>Tự lập trình</td>
+<td>Khó</td>
+<td>Công lập trình</td>
+<td>Web tự viết, có hệ thống đơn riêng</td>
+</tr>
+</tbody>
+</table></div>
+<p>Dù chọn cách nào, chỉ chọn <strong>một</strong> cách cho mỗi sự kiện. Cài plugin rồi dán thêm mã tay là con đường ngắn nhất tới dữ liệu đếm đôi.</p>
+<h2 id="advanced-matching-va-chat-luong-khop-su-kien">Advanced Matching và chất lượng khớp sự kiện</h2>
+<p><strong>Advanced Matching</strong> (khớp nâng cao) là việc gửi kèm thông tin nhận diện khách như email, số điện thoại, đã được mã hóa SHA-256 (biến thông tin thành một chuỗi ký tự không đọc ngược được), để TikTok nhận ra người đó là tài khoản nào. Khớp được càng nhiều, TikTok càng gắn đúng đơn với quảng cáo và tối ưu càng tốt.</p>
+<p>Theo Trung tâm trợ giúp TikTok Ads, có hai kiểu:</p>
+<ul>
+<li><strong>Tự động:</strong> bật trong phần cài đặt Pixel, Pixel tự nhận thông tin khách điền trong form trên trang.</li>
+<li><strong>Thủ công:</strong> lập trình viên tự gửi thông tin đã mã hóa kèm sự kiện.</li>
+</ul>
+<p>Với Events API, ngoài email và số điện thoại đã mã hóa, nên gửi thêm mã nhấp chuột ttclid (TikTok gắn vào đường dẫn khi khách bấm quảng cáo) và cookie _ttp của Pixel nếu có. Các mã này giúp TikTok nối sự kiện từ máy chủ với lượt bấm quảng cáo.</p>
+<p>Trong Events Manager có phần chẩn đoán và theo dõi chất lượng sự kiện. Ở đó anh chị xem được tỷ lệ sự kiện có thông tin khớp, cảnh báo thiếu tham số, cảnh báo event_id không trùng nhau giữa Pixel và Events API. Tên và cách chấm điểm có thể thay đổi theo thời gian, nên mình không nêu con số chuẩn ở đây. Nguyên tắc chung: cảnh báo nào hiện màu đỏ thì sửa trước khi tăng ngân sách.</p>
+<h2 id="kiem-tra-du-lieu-va-oc-so-the-nao-cho-ung">Kiểm tra dữ liệu và đọc số thế nào cho đúng?</h2>
+<h3 id="kiem-tra-sau-khi-cai">Kiểm tra sau khi cài</h3>
+<p>Đội mình kiểm theo thứ tự:</p>
+<ol>
+<li><strong>TikTok Pixel Helper.</strong> Đây là tiện ích miễn phí trên Chrome. Mở từng trang của website, tiện ích sẽ cho biết Pixel có chạy không, bắn sự kiện gì, có lỗi tham số không.</li>
+<li><strong>Kiểm tra sự kiện trong Events Manager.</strong> Tự đặt một đơn thử, xem sự kiện có về từ cả trình duyệt và máy chủ không, giá trị đơn có đúng không.</li>
+<li><strong>Trạng thái gộp sự kiện.</strong> Xem TikTok có báo event_id không khớp không.</li>
+<li><strong>Đối chiếu với đơn thật.</strong> So số đơn TikTok ghi nhận trong 7 ngày với số đơn trong hệ thống. Chênh nhỏ là bình thường. TikTok ghi nhiều đơn hơn thực tế là dấu hiệu đếm trùng.</li>
+</ol>
+<h3 id="cua-so-phan-bo">Cửa sổ phân bổ</h3>
+<p><strong>Cửa sổ phân bổ</strong> (attribution window) là khoảng thời gian sau khi khách bấm hoặc xem quảng cáo mà một đơn vẫn được tính cho quảng cáo đó. Theo Trung tâm trợ giúp TikTok Ads, anh chị có thể đặt cửa sổ sau nhấp và sau xem trong phần cài đặt phân bổ. Nhiều tài liệu nói mặc định thường là 7 ngày sau nhấp và 1 ngày sau xem, nhưng anh chị nên kiểm tra lại đúng cài đặt trong tài khoản của mình.</p>
+<p>Điều này giải thích vì sao số đơn trên TikTok, trên Meta và trên Google Analytics không bao giờ khớp nhau. Mỗi bên dùng cửa sổ và cách quy đơn riêng. Một khách xem video TikTok, hai hôm sau bấm quảng cáo Facebook rồi mua, có thể được cả hai nền tảng cùng nhận công. Đội mình luôn lấy số đơn trong hệ thống bán hàng làm gốc, rồi dùng thêm UTM trong Google Analytics để xem kênh nào đưa khách tới.</p>
+<h2 id="du-lieu-khach-hang-va-luat-bao-ve-du-lieu-ca-nhan">Dữ liệu khách hàng và luật bảo vệ dữ liệu cá nhân</h2>
+<p>Gửi email, số điện thoại của khách cho TikTok, dù đã mã hóa, vẫn là xử lý dữ liệu cá nhân. Về khung pháp lý tại Việt Nam:</p>
+<ul>
+<li><strong>Nghị định 13/2023/NĐ-CP</strong> về bảo vệ dữ liệu cá nhân có hiệu lực từ 01/07/2023, là văn bản đầu tiên quy định khá đầy đủ việc này.</li>
+<li><strong>Luật Bảo vệ dữ liệu cá nhân số 91/2025/QH15</strong> có hiệu lực từ 01/01/2026, kèm <strong>Nghị định 356/2025/NĐ-CP</strong> quy định chi tiết. Theo các bài so sánh của các công ty luật, Nghị định 356/2025 thay cho Nghị định 13/2023 từ thời điểm luật có hiệu lực.</li>
+</ul>
+<p>Những việc tối thiểu website nên làm:</p>
+<ul>
+<li>Có trang chính sách quyền riêng tư, nói rõ thu thập dữ liệu gì, để làm gì, chia sẻ cho ai, trong đó có các nền tảng quảng cáo như TikTok, Meta, Google.</li>
+<li>Có thông báo và cơ chế đồng ý phù hợp khi thu thập dữ liệu, ví dụ ô đồng ý cookie.</li>
+<li>Mã hóa thông tin trước khi gửi, chỉ gửi thông tin cần thiết.</li>
+<li>Không gửi dữ liệu nhạy cảm, ví dụ thông tin sức khỏe, vào tên sự kiện hay đường dẫn.</li>
+</ul>
+<p>Phần này mình chỉ nêu ở mức tổng quát. Doanh nghiệp nên hỏi luật sư hoặc bộ phận pháp chế để có chính sách phù hợp mô hình của mình.</p>
+<h2 id="loi-hay-gap-khi-cai-tiktok-pixel">Lỗi hay gặp khi cài TikTok Pixel</h2>
+<p>Nhiều tài khoản đội mình nhận lại để chạy tiếp thường mắc các lỗi giống nhau:</p>
+<ul>
+<li><strong>Cài Pixel hai lần</strong>, một lần qua plugin, một lần dán tay. Mọi sự kiện bị đếm đôi.</li>
+<li><strong>Sự kiện mua hàng bắn ở trang thanh toán</strong> thay vì sau khi đơn tạo thành công.</li>
+<li><strong>Dùng cả Pixel và Events API nhưng không có event_id.</strong></li>
+<li><strong>Giá trị đơn sai đơn vị tiền</strong>, hoặc gửi giá trị cố định cho mọi đơn.</li>
+<li><strong>Pixel nằm trong tài khoản của người làm web.</strong> Họ nghỉ thì doanh nghiệp mất quyền. Pixel phải thuộc tài khoản doanh nghiệp của chính chủ shop.</li>
+<li><strong>Chạy mục tiêu chuyển đổi khi Pixel chưa ghi nhận đủ sự kiện.</strong> Hệ thống không có gì để học. Giai đoạn đầu có thể tối ưu theo thêm vào giỏ hoặc bắt đầu thanh toán, đủ dữ liệu rồi mới chuyển sang mua hàng.</li>
+<li><strong>Sửa giao diện website mà quên kiểm lại Pixel.</strong> Đổi nút, đổi trang thanh toán là sự kiện có thể ngừng bắn mà không ai hay.</li>
+</ul>
+<h2 id="viec-nen-lam-ngay-tuan-nay">Việc nên làm ngay tuần này</h2>
+<ul>
+<li>Mở TikTok Events Manager, kiểm tra Pixel thuộc tài khoản doanh nghiệp của mình.</li>
+<li>Cài TikTok Pixel Helper, đi một vòng website và đặt một đơn thử. Xem đủ các sự kiện chuẩn chưa, sự kiện mua hàng có đúng giá trị VND không.</li>
+<li>Nếu đã bật Events API, xem phần chẩn đoán có cảnh báo event_id không khớp không.</li>
+<li>Ghi lại cửa sổ phân bổ đang dùng để đọc báo cáo cho đúng.</li>
+<li>Rà lại trang chính sách quyền riêng tư theo Luật 91/2025/QH15.</li>
+</ul>
+<p>Nếu anh chị muốn có đội cùng thiết lập đo lường và chạy quảng cáo TikTok về website, QHUB Commerce (qhub.com.vn) có <a href="/dich-vu/quang-cao-tiktok-shopee/">dịch vụ quảng cáo TikTok và Shopee</a>, bên cạnh đội media, đội vận hành sàn, đội KOC và đội host livestream. Các bài khác về quảng cáo nằm trong chủ đề <a href="/kien-thuc/chu-de/quang-cao-tiktok/">quảng cáo TikTok</a>.</p>
+</div>
+<section class="kt-faq" id="cau-hoi-thuong-gap"><h2>Câu hỏi thường gặp</h2><details><summary>TikTok Pixel là gì?</summary><p>TikTok Pixel là đoạn mã gắn vào website để ghi nhận hành động của người xem đến từ quảng cáo TikTok, như xem sản phẩm, thêm vào giỏ, thanh toán. Dữ liệu này giúp TikTok đo hiệu quả quảng cáo, tối ưu theo đơn hàng và tạo tệp khách để quảng cáo lại.</p></details><details><summary>Events API của TikTok khác Pixel thế nào?</summary><p>Pixel chạy trên trình duyệt của khách nên có thể bị chặn bởi trình chặn quảng cáo, cài đặt quyền riêng tư hoặc mạng chậm. Events API gửi sự kiện từ máy chủ của website tới TikTok, không phụ thuộc trình duyệt. Dùng cả hai giúp dữ liệu đầy đủ hơn, với điều kiện phải chống đếm trùng bằng event_id.</p></details><details><summary>Làm sao kiểm tra TikTok Pixel đã chạy đúng chưa?</summary><p>Cài tiện ích TikTok Pixel Helper trên Chrome, mở website và xem Pixel có bắn đúng sự kiện ở từng trang không. Sau đó dùng mục Kiểm tra sự kiện trong TikTok Events Manager, tự đặt một đơn thử và xem sự kiện có về từ cả trình duyệt lẫn máy chủ không.</p></details><details><summary>Website nhỏ có cần Events API không?</summary><p>Nếu website có chạy quảng cáo TikTok với mục tiêu chuyển đổi thì nên có, vì phần sự kiện bị trình duyệt chặn sẽ được bù lại. Nhiều nền tảng làm web như Shopify, WooCommerce có tích hợp đối tác nên bật Events API khá nhanh. Web chưa chạy quảng cáo có thể bắt đầu với Pixel trước.</p></details><details><summary>Cửa sổ phân bổ trên TikTok Ads Manager là gì?</summary><p>Là khoảng thời gian sau khi khách bấm hoặc xem quảng cáo mà một chuyển đổi vẫn được tính cho quảng cáo đó. TikTok cho phép chọn cửa sổ sau nhấp và sau xem trong phần cài đặt phân bổ. Khi so số liệu giữa TikTok, Meta và Google Analytics, anh chị phải nhớ mỗi bên tính theo cửa sổ khác nhau.</p></details></section>
+<section class="kt-src"><h2>Nguồn tham khảo</h2><ul><li><a href="https://ads.tiktok.com/help/article/event-deduplication" target="_blank" rel="noopener nofollow">About event deduplication – TikTok Ads Manager Help</a></li><li><a href="https://ads.tiktok.com/help/article/supported-standard-events" target="_blank" rel="noopener nofollow">About Standard Events in TikTok Ads Manager</a></li><li><a href="https://ads.tiktok.com/help/article/how-to-adopt-tiktoks-updated-standard-events?lang=en" target="_blank" rel="noopener nofollow">How to Adopt TikTok’s Updated Standard Events</a></li><li><a href="https://ads.tiktok.com/help/article/advanced-matching-web" target="_blank" rel="noopener nofollow">About Advanced Matching for Web – TikTok Ads Manager Help</a></li><li><a href="https://ads.tiktok.com/help/article/partner-integrations-for-web-tracking" target="_blank" rel="noopener nofollow">Partner Integrations for Web Events – TikTok Ads Manager Help</a></li><li><a href="https://ads.tiktok.com/help/article/get-started-google-tag-manager?lang=en" target="_blank" rel="noopener nofollow">How to set up TikTok Pixel with Google Tag Manager in TikTok Events Manager</a></li><li><a href="https://ads.tiktok.com/help/article/pixel-downloadable-guides" target="_blank" rel="noopener nofollow">Troubleshoot with Pixel Helper – TikTok Ads Manager Help</a></li><li><a href="https://ads.tiktok.com/help/article/about-the-attribution-window-on-tiktok-ads-manager" target="_blank" rel="noopener nofollow">About the attribution window on TikTok Ads Manager</a></li><li><a href="https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Luat-Bao-ve-du-lieu-ca-nhan-2025-so-91-2025-QH15-625628.aspx" target="_blank" rel="noopener nofollow">Luật Bảo vệ dữ liệu cá nhân 2025 số 91/2025/QH15 – Thư viện Pháp luật</a></li><li><a href="https://luatvietan.vn/diem-moi-cua-nghi-dinh-356-2025-so-voi-nghi-dinh-13-2023-ve-huong-dan-bao-ve-du-lieu-ca-nhan.html" target="_blank" rel="noopener nofollow">Điểm mới của Nghị định 356/2025 so với Nghị định 13/2023 về bảo vệ dữ liệu cá nhân – Luật Việt An</a></li></ul></section>
+<aside class="kt-author">
+  <img class="kt-av" src="/quang-avatar-240.jpg" alt="Nguyễn Văn Quang" width="56" height="56" loading="lazy">
+  <div>
+    <p class="kt-by">Người viết</p>
+    <h2><a href="/tac-gia/nguyen-van-quang/">Nguyễn Văn Quang</a></h2>
+    <p class="kt-role">Founder &amp; CEO, QHUB Commerce</p>
+    <p>Đi lên từ bán hàng thị trường, qua trade marketing, brand marketing đến vận hành thương mại điện tử cho các doanh nghiệp đồ uống, thực phẩm và hàng tiêu dùng. Trực tiếp vận hành gian hàng trên Shopee, TikTok Shop, Facebook, Lazada, Tiki và Website.</p>
+  </div>
+</aside>
+<aside class="kt-cta">
+  <img src="/logo-qhub.png" alt="" width="64" height="64">
+  <div>
+    <h2>Cần người ngồi vào vận hành cùng anh chị?</h2>
+    <p>QHUB Commerce là Phòng Tăng Trưởng Thuê Ngoài cho doanh nghiệp bán hàng đa sàn. Đội QHUB trực tiếp vận hành TikTok Shop, Shopee, Facebook và Website: nội dung, livestream, affiliate, quảng cáo, dữ liệu. Buổi chẩn đoán đầu tiên 60 phút, miễn phí.</p>
+    <a class="btn btn-primary" href="/#dat-lich">Đặt lịch chẩn đoán miễn phí</a>
+    <a class="kt-cta-link" href="https://zalo.me/0856510113" target="_blank" rel="noopener">Hoặc nhắn Zalo 0856 510 113</a>
+  </div>
+</aside>
+</article>
+<section class="kt-rel"><h2>Đọc tiếp</h2><div class="kt-grid"><article class="kt-card"><a href="/kien-thuc/spark-ads-dung-video-cua-koc-va-kenh-de-quang-cao/"><span class="kt-tag">Quảng cáo TikTok &amp; GMV Max</span><h3>Spark Ads TikTok: dùng video của KOC và kênh để quảng cáo</h3><p>Spark Ads TikTok là gì, khác quảng cáo thường ra sao, cách lấy mã ủy quyền video KOC, chọn thời hạn, dùng trong GMV Max và thỏa thuận phí ủy quyền với KOC.</p><span class="kt-meta">21/11/2026 · 12 phút đọc</span></a></article><article class="kt-card"><a href="/kien-thuc/quang-cao-tiktok-cho-muc-tieu-nhan-dien-thuong-hieu/"><span class="kt-tag">Quảng cáo TikTok &amp; GMV Max</span><h3>Quảng cáo TikTok cho mục tiêu nhận diện thương hiệu</h3><p>Quảng cáo TikTok nhận diện thương hiệu: chọn Phạm vi tiếp cận, Lượt xem video hay Reach &amp; Frequency, đọc CPM, tần suất, tỷ lệ xem 6 giây và nối với GMV Max.</p><span class="kt-meta">21/11/2026 · 12 phút đọc</span></a></article><article class="kt-card"><a href="/kien-thuc/quang-cao-tiktok-ngoai-tiktok-shop-keo-ve-website-zalo-form/"><span class="kt-tag">Quảng cáo TikTok &amp; GMV Max</span><h3>Quảng cáo TikTok ngoài TikTok Shop: kéo về website, Zalo, form</h3><p>Quảng cáo TikTok về website, Zalo hoặc form: chọn mục tiêu, cài TikTok Pixel và Events API, biểu mẫu tức thì, quảng cáo nhắn tin Zalo, tính chi phí mỗi đơn.</p><span class="kt-meta">20/11/2026 · 9 phút đọc</span></a></article><article class="kt-card"><a href="/kien-thuc/tiktok-ads-manager-cho-nguoi-moi-tao-tai-khoan-nap-tien-hoa-don/"><span class="kt-tag">Quảng cáo TikTok &amp; GMV Max</span><h3>TikTok Ads Manager cho người mới: tạo tài khoản, nạp tiền, hóa đơn</h3><p>TikTok Ads Manager cho người mới: tạo tài khoản trong Business Center, chọn nạp tiền thủ công hay tự động, tải hóa đơn và lưu ý thuế khi chạy quảng cáo ở Việt Nam.</p><span class="kt-meta">19/11/2026 · 12 phút đọc</span></a></article></div></section>
+</div>
+</main>
+<footer class="footer">
+  <div class="wrap">
+    <div>
+      <h4>CÔNG TY TNHH QHUB COMMERCE</h4>
+      <p class="legal-info">Giấy CN ĐKDN số 5400570349 do Phòng Đăng ký kinh doanh – Sở Tài chính tỉnh Phú Thọ cấp lần đầu ngày 13/04/2026</p>
+      <p>Người đại diện theo pháp luật: Nguyễn Văn Quang</p>
+      <p>Trụ sở: Khu Vai, Xã An Nghĩa, Tỉnh Phú Thọ, Việt Nam</p>
+      <p>Hotline/Zalo: <a href="tel:0856510113">0856 510 113</a></p>
+      <p>Email: <a href="mailto:qhubcommerce@gmail.com">qhubcommerce@gmail.com</a></p>
+    </div>
+    <div>
+      <h4>Kiến thức</h4>
+      <ul><li><a href="/kien-thuc/chu-de/tiktok/">Xây kênh TikTok</a></li><li><a href="/kien-thuc/chu-de/content-tiktok/">Content TikTok</a></li><li><a href="/kien-thuc/chu-de/tiktok-shop/">TikTok Shop căn bản</a></li><li><a href="/kien-thuc/chu-de/van-hanh-tiktok-shop/">Vận hành TikTok Shop</a></li><li><a href="/kien-thuc/chu-de/quang-cao-tiktok/">Quảng cáo TikTok &amp; GMV Max</a></li><li><a href="/kien-thuc/chu-de/phi-san-tiktok-shop/">Phí sàn TikTok Shop</a></li><li><a href="/kien-thuc/chu-de/van-hanh-shopee/">Vận hành Shopee</a></li><li><a href="/kien-thuc/chu-de/quang-cao-shopee/">Quảng cáo Shopee</a></li></ul>
+    </div>
+    <div>
+      <h4>&nbsp;</h4>
+      <ul><li><a href="/kien-thuc/chu-de/phi-san-shopee/">Phí sàn Shopee</a></li><li><a href="/kien-thuc/chu-de/ban-hang-facebook/">Bán hàng Facebook</a></li><li><a href="/kien-thuc/chu-de/youtube/">Xây kênh YouTube</a></li><li><a href="/kien-thuc/chu-de/instagram/">Phát triển Instagram</a></li><li><a href="/kien-thuc/chu-de/threads/">Phát triển Threads</a></li><li><a href="/kien-thuc/chu-de/website-seo/">Website chuẩn SEO</a></li><li><a href="/kien-thuc/chu-de/lich-sale/">Lịch sale &amp; chiến dịch</a></li><li><a href="/gioi-thieu/">Giới thiệu QHUB</a></li><li><a href="/dich-vu/">Dịch vụ</a></li><li><a href="/chinh-sach.html">Chính sách</a></li></ul>
+    </div>
+    <div class="legal"><span>© 2026 QHUB Commerce.</span><span>qhub.com.vn</span></div>
+  </div>
+</footer>
+<div class="float" aria-label="Liên hệ nhanh">
+  <a class="zalo" href="https://zalo.me/0856510113" target="_blank" rel="noopener" aria-label="Nhắn Zalo cho QHUB">Zalo</a>
+  <a class="call" href="tel:0856510113" aria-label="Gọi hotline QHUB"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 005 5L15 13l5 2v4a2 2 0 01-2 2A16 16 0 013 6a2 2 0 012-2"/></svg></a>
+</div>
+<script src="/kien-thuc.js?v=20261113f" defer></script>
+</body>
+</html>

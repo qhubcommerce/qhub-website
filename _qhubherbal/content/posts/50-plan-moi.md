@@ -1361,3 +1361,135 @@ products: nam-vuong
 Tìm hiểu mú từn trong kinh nghiệm dân gian của người Dao và lưu ý khi dùng.
 
 [[buy:nam-vuong]]
+
++++
+slug: la-tia-to-pha-nuoc-uong
+title: Lá tía tô pha nước uống: cách làm, thời điểm và lưu ý
+desc: Lá tía tô pha nước uống thế nào cho thơm? Cách chọn lá, tỷ lệ hãm, thời điểm uống, công năng theo quan niệm phương Đông và những ai cần thận trọng khi dùng.
+cat: thao-moc
+date: 2026-11-23
+products: duong-nhan
++++
+Hướng dẫn pha nước lá tía tô tại nhà, thời điểm uống hợp lý và các lưu ý an toàn.
+
+[[buy:duong-nhan]]
+
++++
+slug: chon-nu-hong-say-the-nao
+title: Chọn nụ hồng sấy thế nào? Hồng Đà Lạt, hồng nhập và lưu ý
+desc: Chọn nụ hồng sấy thế nào cho thơm, sạch? Phân biệt hồng Đà Lạt và hồng nhập, dấu hiệu nụ hồng tẩm màu, hương liệu, cách bảo quản và lưu ý khi pha trà hoa hồng.
+cat: thao-moc
+date: 2026-11-23
+products: duong-nhan
++++
+Cách chọn, phân biệt và bảo quản nụ hồng sấy dùng pha trà tại nhà.
+
+[[buy:duong-nhan]]
+
++++
+slug: anh-sang-xanh-tu-man-hinh-co-hai-da
+title: Ánh sáng xanh từ màn hình có hại da không? Khoa học nói gì
+desc: Ánh sáng xanh từ màn hình có hại da không? So sánh với ánh nắng, nghiên cứu về sắc tố da, mức độ bằng chứng, cách bảo vệ da hợp lý cho dân văn phòng và khi nào cần khám.
+cat: cam-nang
+date: 2026-11-23
+products: duong-nhan
++++
+Tổng hợp bằng chứng khoa học về ánh sáng xanh từ màn hình và làn da.
+
+[[buy:duong-nhan]]
+
++++
+slug: noi-mun-truoc-ky-kinh-cham-soc-da-theo
+title: Nổi mụn trước kỳ kinh: chăm sóc da theo chu kỳ
+desc: Vì sao hay nổi mụn trước kỳ kinh? Vai trò hormone, cách chăm sóc da theo từng giai đoạn chu kỳ, thói quen ăn ngủ nên điều chỉnh và khi nào cần đi khám da liễu.
+cat: cam-nang
+date: 2026-11-23
+products: ngay-dau-ve
++++
+Giải thích mụn nội tiết trước kỳ kinh và cách chăm sóc da theo chu kỳ.
+
+[[buy:ngay-dau-ve]]
+
++++
+slug: sat-va-ky-kinh-bo-sung-the-nao-cho
+title: Sắt và kỳ kinh: bổ sung thế nào cho đúng
+desc: Sắt và kỳ kinh: phụ nữ mất bao nhiêu sắt mỗi tháng, nhu cầu khuyến nghị, thực phẩm giàu sắt, cách tăng hấp thu, khi nào cần xét nghiệm và uống viên sắt theo bác sĩ.
+cat: cam-nang
+date: 2026-11-23
+products: ngay-dau-ve
++++
+Hướng dẫn bổ sung sắt hợp lý cho phụ nữ trong độ tuổi có kinh nguyệt.
+
+[[buy:ngay-dau-ve]]
+
++++
+slug: an-vat-lanh-manh-cho-dan-van-phong
+title: Ăn vặt lành mạnh cho dân văn phòng
+desc: Ăn vặt lành mạnh cho dân văn phòng: chọn món gì, bao nhiêu là vừa, gợi ý 20 món ăn vặt dễ mang theo, cách đọc nhãn đường và muối, thói quen ăn vặt cần tránh.
+cat: cam-nang
+date: 2026-11-23
+products: la-oi-mix-la-sen
++++
+Gợi ý món ăn vặt lành mạnh và cách ăn vặt hợp lý cho người làm văn phòng.
+
+[[buy:la-oi-mix-la-sen]]
+
++++
+slug: ap-luc-dong-trang-lua-va-mang-xa-hoi
+title: Áp lực đồng trang lứa và mạng xã hội
+desc: Áp lực đồng trang lứa và mạng xã hội: vì sao so sánh trên mạng khiến ta mệt mỏi, nghiên cứu nói gì, dấu hiệu cần để ý và cách dùng mạng xã hội lành mạnh hơn.
+cat: cam-nang
+date: 2026-11-23
+products: duong-tam-an
++++
+Hiểu áp lực đồng trang lứa trên mạng xã hội và cách giữ tâm trạng cân bằng.
+
+[[buy:duong-tam-an]]
+
++++
+slug: tam-ly-mua-cuoi-nam-kpi-tet-tai-chinh
+title: Tâm lý mùa cuối năm: KPI, Tết, tài chính
+desc: Tâm lý mùa cuối năm: vì sao KPI, chuẩn bị Tết và chuyện tài chính dễ gây căng thẳng, cách lập kế hoạch, chia việc, quản lý chi tiêu và khi nào nên tìm hỗ trợ.
+cat: cam-nang
+date: 2026-11-23
+products: duong-tam-an
++++
+Cách nhận diện và xử lý căng thẳng mùa cuối năm vì công việc, Tết và tài chính.
+
+[[buy:duong-tam-an]]
+
++++
+slug: an-xoa-la-cay-gi-moc-o-dau-dung
+title: An xoa là cây gì, mọc ở đâu, dùng thế nào
+desc: An xoa mọc ở đâu, nhận biết ngoài tự nhiên ra sao, người dân thu hái và dùng thế nào, cách phân biệt hàng thật giả, bảo quản và những lưu ý an toàn khi dùng.
+cat: cam-nang
+date: 2026-11-23
+products: ca-gai-diep-ha-chau
++++
+Tìm hiểu nơi mọc, cách nhận biết và cách dùng an xoa trong dân gian.
+
+[[buy:ca-gai-diep-ha-chau]]
+
++++
+slug: kim-tien-thao-trong-dan-gian-va-luu-y
+title: Kim tiền thảo trong dân gian và lưu ý khi dùng
+desc: Kim tiền thảo trong dân gian được dùng thế nào, vùng trồng, cách nấu nước, nhầm lẫn thường gặp, ai không nên tự dùng và vì sao sỏi thận cần được bác sĩ theo dõi.
+cat: cam-nang
+date: 2026-11-23
+products: nam-vuong
++++
+Kinh nghiệm dân gian về kim tiền thảo và những lưu ý an toàn khi dùng.
+
+[[buy:nam-vuong]]
+
++++
+slug: do-mo-hoi-dem-nguyen-nhan-thuong-gap
+title: Đổ mồ hôi đêm: nguyên nhân thường gặp
+desc: Đổ mồ hôi đêm do đâu? Phân biệt do phòng nóng, tiền mãn kinh, thuốc, nhiễm trùng hay bệnh lý; dấu hiệu cảnh báo cần đi khám và cách điều chỉnh phòng ngủ.
+cat: cam-nang
+date: 2026-11-23
+products: xau-ho-tim-tam-sen
++++
+Các nguyên nhân thường gặp gây đổ mồ hôi đêm và khi nào cần đi khám.
+
+[[buy:xau-ho-tim-tam-sen]]

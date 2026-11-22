@@ -1542,6 +1542,202 @@ SRC['n11_mutuntacdung'] = [
 NEW_RULES11.append(('n11_mutuntacdung', ['mức bằng chứng', 'emodin', 'rourea', 'ống nghiệm', 'nam khoa', 'phân lập', 'lời rao', 'chưa tìm thấy'], 23))
 RULES[:0] = NEW_RULES11
 
+NEW_RULES12 = []
+
+# --- la-tia-to-pha-nuoc-uong ---
+SRC['n12_latiatophanuocuong'] = [
+    ('Ahmed HM (2018) – Ethnomedicinal, Phytochemical and Pharmacological Investigations of Perilla frutescens (L.) Britt. (Nghiên cứu dân tộc dược học, hóa thực vật và dược lý của tía tô), Molecules', 'https://pmc.ncbi.nlm.nih.gov/articles/PMC6337106/'),
+    ('Takano H và cộng sự (2004) – Extract of Perilla frutescens Enriched for Rosmarinic Acid, a Polyphenolic Phytochemical, Inhibits Seasonal Allergic Rhinoconjunctivitis in Humans (Chiết xuất tía tô giàu acid rosmarinic và viêm mũi kết mạc dị ứng theo mùa ở người), Experimental Biology and Medicine', 'https://pubmed.ncbi.nlm.nih.gov/14988517/'),
+    ('BfR – Viện Đánh giá Rủi ro Liên bang Đức (2005) – Boiling water a must for herbal teas (Pha trà thảo mộc phải dùng nước sôi)', 'https://www.bfr.bund.de/en/press-release/boiling-water-a-must-for-herbal-teas/'),
+    ('Merck Veterinary Manual – 4-Ipomeanol Toxicity (Moldy Sweet Potato) and Perilla Ketone Toxicity (Purple Mint Toxicity) in Cattle (Ngộ độc perilla ketone ở bò)', 'https://www.merckvetmanual.com/respiratory-system/respiratory-diseases-of-cattle/4-ipomeanol-toxicity-moldy-sweet-potato-and-perilla-ketone-toxicity-purple-mint-toxicity-in-cattle'),
+    ('Journal of the Japanese Association of Rural Medicine – A Study on the Dermatitis among the Perilla Workers (Khảo sát viêm da ở người trồng tía tô)', 'https://www.jstage.jst.go.jp/article/jjrm1952/31/2/31_2_51/_article/-char/en'),
+]
+NEW_RULES12.append(('n12_latiatophanuocuong', ['lá tía tô', 'nước lá tía tô', 'hãm', 'lá tươi', 'lá khô', 'acid rosmarinic', 'đậy nắp', 'dị ứng'], 53))
+
+# --- chon-nu-hong-say-the-nao ---
+SRC['n12_chonnuhongsaythenao'] = [
+    ('Toumi K và cộng sự (2016) – Pesticide Residues on Three Cut Flower Species and Potential Exposure of Florists in Belgium (Dư lượng thuốc bảo vệ thực vật trên ba loài hoa cắt cành và phơi nhiễm của người bán hoa tại Bỉ), IJERPH', 'https://pmc.ncbi.nlm.nih.gov/articles/PMC5086682'),
+    ('Colorado State University Extension – Edible Flowers (Hoa ăn được)', 'https://extension.colostate.edu/resource/edible-flowers'),
+    ('Antioxidants (2023) – Effect of the Drying Method and Optimization of Extraction on Antioxidant Activity and Phenolic of Rose Petals (Ảnh hưởng của phương pháp sấy đến hoạt tính chống oxy hóa và phenolic của cánh hoa hồng)', 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10045785/'),
+    ('UF/IFAS Extension – FY731: Sulfites (Sulfite trong thực phẩm và người nhạy cảm sulfite)', 'https://edis.ifas.ufl.edu/publication/FY731'),
+    ('Nghiên cứu đăng trên PMC/NIH – An investigation of fungal contamination on the surface of medicinal herbs in China (Khảo sát nhiễm nấm trên bề mặt dược liệu ở Trung Quốc)', 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5209813/'),
+    ('Chính phủ Việt Nam (2021) – Nghị định 111/2021/NĐ-CP sửa đổi Nghị định 43/2017/NĐ-CP về nhãn hàng hóa', 'https://thuvienphapluat.vn/van-ban/thuong-mai/Nghi-dinh-111-2021-ND-CP-sua-doi-Nghi-dinh-43-2017-ND-CP-497099.aspx'),
+]
+NEW_RULES12.append(('n12_chonnuhongsaythenao', ['nụ hồng sấy', 'nụ hồng', 'tẩm màu', 'hương liệu', 'lưu huỳnh', 'nấm mốc', 'sấy lạnh', 'hoa cắt cành'], 42))
+
+# --- anh-sang-xanh-tu-man-hinh-co-hai-da ---
+SRC['n12_anhsangxanhtumanhinhcoha'] = [
+    ('Mahmoud BH và cộng sự (2010) – Impact of Long-Wavelength UVA and Visible Light on Melanocompetent Skin (Tác động của UVA bước sóng dài và ánh sáng nhìn thấy lên da có khả năng tạo sắc tố), Journal of Investigative Dermatology', 'https://pubmed.ncbi.nlm.nih.gov/20410914/'),
+    ('Duteil L và cộng sự (2014) – Differences in visible light-induced pigmentation according to wavelengths (Khác biệt về sậm màu da do ánh sáng nhìn thấy theo bước sóng), Pigment Cell & Melanoma Research', 'https://www.pubmed.gov/24888214/'),
+    ('Duteil L và cộng sự (2020) – Short-term exposure to blue light emitted by electronic devices does not worsen melasma (Tiếp xúc ngắn hạn với ánh sáng xanh từ thiết bị điện tử không làm nám nặng thêm)', 'https://scispace.com/papers/short-term-exposure-to-blue-light-emitted-by-electronic-3s10jwcfgv'),
+    ('Lyons AB và cộng sự (2021) – Photoprotection beyond ultraviolet radiation: A review of tinted sunscreens (Bảo vệ da ngoài tia UV: tổng quan về kem chống nắng có màu), Journal of the American Academy of Dermatology', 'https://pubmed.ncbi.nlm.nih.gov/32335182/'),
+    ('Harvard Health Publishing (2020) – Tinted sunscreens: Benefits beyond an attractive glow (Kem chống nắng có màu: lợi ích không chỉ là vẻ ngoài)', 'https://www.health.harvard.edu/blog/tinted-sunscreens-benefits-beyond-an-attractive-glow-2020071320534'),
+    ('Henry Ford Health – The cutaneous effects of blue light from electronic devices: a systematic review with health hazard identification (Tác động lên da của ánh sáng xanh từ thiết bị điện tử: tổng quan hệ thống)', 'https://scholarlycommons.henryford.com/dermatology_articles/715'),
+]
+NEW_RULES12.append(('n12_anhsangxanhtumanhinhcoha', ['ánh sáng xanh', 'màn hình', 'ánh sáng nhìn thấy', 'sậm màu', 'nám', 'kem chống nắng có màu', 'oxit sắt', 'mặt trời'], 75))
+
+# --- noi-mun-truoc-ky-kinh-cham-soc-da-theo ---
+SRC['n12_noimuntruockykinhchamsoc'] = [
+    ('Journal of the American Academy of Dermatology (2001) – The effect of the menstrual cycle on acne (Ảnh hưởng của chu kỳ kinh nguyệt lên mụn trứng cá)', 'https://pubmed.ncbi.nlm.nih.gov/11712049/'),
+    ('Archives of Dermatology / JAMA Dermatology – Quantitative Documentation of a Premenstrual Flare of Facial Acne in Adult Women (Ghi nhận định lượng đợt bùng mụn mặt trước kỳ kinh ở phụ nữ trưởng thành)', 'https://jamanetwork.com/journals/jamadermatology/fullarticle/480456'),
+    ('Journal of Clinical and Aesthetic Dermatology – Perimenstrual Flare of Adult Acne (Đợt bùng mụn quanh kỳ kinh ở phụ nữ trưởng thành)', 'https://pmc.ncbi.nlm.nih.gov/articles/PMC4142818'),
+    ('American Academy of Dermatology – Is that stubborn acne really acne? (Mụn dai dẳng có thực sự là mụn trứng cá?)', 'https://www.aad.org/public/diseases/acne-and-rosacea/stubborn-acne/is-that-stubborn-acne-really-acne'),
+    ('Clinics in Dermatology – The menstrual cycle and the skin (Chu kỳ kinh nguyệt và làn da)', 'https://pubmed.ncbi.nlm.nih.gov/25683236/'),
+    ('Harvard Health Publishing (2019) – Adult acne: Understanding underlying causes and banishing breakouts (Mụn ở người trưởng thành: hiểu nguyên nhân và cách kiểm soát)', 'https://www.health.harvard.edu/blog/adult-acne-understanding-underlying-causes-and-banishing-breakouts-2019092117816'),
+]
+NEW_RULES12.append(('n12_noimuntruockykinhchamsoc', ['nổi mụn trước kỳ kinh', 'mụn tiền kinh nguyệt', 'giai đoạn hoàng thể', 'progesterone', 'androgen', 'bã nhờn', 'quai hàm', 'hoạt chất'], 26))
+
+# --- ich-mau-co-tac-dung-gi ---
+SRC['n12_ichmaucotacdunggi'] = [
+    ('Biomedicine & Pharmacotherapy (2019) – Leonurus japonicus (Chinese motherwort), an excellent traditional medicine for obstetrical and gynecological diseases (Ích mẫu – dược liệu truyền thống cho các bệnh sản phụ khoa)', 'https://pubmed.ncbi.nlm.nih.gov/31195353/'),
+    ('Frontiers in Pharmacology (2024) – Leonurine: a comprehensive review of pharmacokinetics, pharmacodynamics, and toxicology (Leonurine: tổng quan dược động học, dược lực học và độc tính)', 'https://www.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2024.1428406/full'),
+    ('Frontiers in Pharmacology (2022) – Motherwort Injection for Preventing Uterine Hemorrhage in Women With Induced Abortion: A Systematic Review and Meta-Analysis of Randomized Evidence (Thuốc tiêm ích mẫu phòng chảy máu tử cung: tổng quan hệ thống và phân tích gộp)', 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9349354/'),
+    ('Hospital Authority Hồng Kông – Leonurus japonicus, cơ sở dữ liệu cây độc (Toxic plant database)', 'https://www3.ha.org.hk/toxicplant/en/leonurus_japonicus.html'),
+    ('Đỗ Tất Lợi – Cây Ích Mẫu (Sung Úy), Những cây thuốc và vị thuốc Việt Nam', 'https://vnras.com/cay-ich-mau/'),
+    ('WebMD – Motherwort: uses, side effects, interactions (Ích mẫu châu Âu: công dụng, tác dụng phụ, tương tác)', 'https://www.webmd.com/vitamins-supplements/motherwort'),
+]
+NEW_RULES12.append(('n12_ichmaucotacdunggi', ['ích mẫu', 'leonurine', 'tử cung', 'hoạt huyết', 'mang thai', 'thuốc chống đông', 'ra kinh nhiều', 'thầy thuốc'], 73))
+
+# --- sat-va-ky-kinh-bo-sung-the-nao-cho ---
+SRC['n12_satvakykinhbosungthenaoc'] = [
+    ('NIH Office of Dietary Supplements – Iron: Fact Sheet for Health Professionals (Sắt: tài liệu cho nhân viên y tế)', 'https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/'),
+    ('Hurrell và cộng sự (1999), British Journal of Nutrition – Inhibition of non-haem iron absorption in man by polyphenolic-containing beverages (Đồ uống chứa polyphenol ức chế hấp thu sắt không heme)', 'https://pubmed.ncbi.nlm.nih.gov/10999016/'),
+    ('WHO (2020) – WHO guideline on use of ferritin concentrations to assess iron status in individuals and populations (Hướng dẫn dùng ferritin đánh giá tình trạng sắt)', 'https://www.who.int/publications-detail/9789240000124'),
+    ('Haematologica (2020) – Uống sắt cách ngày và hằng ngày ở phụ nữ thiếu máu thiếu sắt (alternate day vs consecutive day dosing)', 'https://haematologica.org/article/view/9379'),
+    ('FDA – Label Warning Statements: Iron-Containing Supplements and Drugs (Cảnh báo trên nhãn sản phẩm chứa sắt)', 'https://www.fda.gov/regulatory-information/search-fda-guidance-documents/small-entity-compliance-guide-label-warning-statements-iron-containing-supplements-and-drugs'),
+    ('Mayo Clinic – Iron deficiency anemia: Symptoms and causes (Thiếu máu thiếu sắt: triệu chứng và nguyên nhân)', 'https://www.mayoclinic.org/diseases-conditions/iron-deficiency-anemia/symptoms-causes/syc-20355034'),
+]
+NEW_RULES12.append(('n12_satvakykinhbosungthenaoc', ['viên sắt', 'sắt không heme', 'sắt heme', 'ferritin', 'thiếu máu thiếu sắt', 'vitamin c', 'kỳ kinh', 'hấp thu sắt'], 45))
+
+# --- thuc-pham-de-tieu-cho-nguoi-hay-day-bung ---
+SRC['n12_thucphamdetieuchonguoiha'] = [
+    ('NIDDK (NIH) – Symptoms & Causes of Indigestion (Triệu chứng và nguyên nhân khó tiêu)', 'https://www.niddk.nih.gov/health-information/digestive-diseases/indigestion-dyspepsia/symptoms-causes'),
+    ('NHS – Indigestion (Khó tiêu)', 'https://www.nhs.uk/conditions/indigestion/'),
+    ('Monash University – 3-step FODMAP Diet (Chế độ ăn FODMAP 3 bước)', 'https://monashfodmap.com/documents/203/3-step_FODMAP_Diet_2026_A4_info_sheet.pdf'),
+    ('MedlinePlus (NIH) – Bland diet (Chế độ ăn nhẹ, dễ tiêu)', 'https://medlineplus.gov/ency/patientinstructions/000068.htm'),
+    ('World Journal of Gastroenterology (2011) – Effect of ginger on gastric motility and symptoms of functional dyspepsia (Tác động của gừng lên nhu động dạ dày và triệu chứng khó tiêu chức năng)', 'https://pubmed.ncbi.nlm.nih.gov/21218090/'),
+    ('PubMed – The Impact of Tannin Consumption on Iron Bioavailability and Status: A Narrative Review (Ảnh hưởng của tanin đến hấp thu và tình trạng sắt)', 'https://pubmed.ncbi.nlm.nih.gov/29955693/'),
+]
+NEW_RULES12.append(('n12_thucphamdetieuchonguoiha', ['đầy bụng', 'khó tiêu', 'dễ tiêu', 'fodmap', 'cháo', 'dạ dày', 'sữa chua', 'nấu chín'], 57))
+
+# --- an-vat-lanh-manh-cho-dan-van-phong ---
+SRC['n12_anvatlanhmanhchodanvanph'] = [
+    ('WHO – Healthy diet fact sheet (Chế độ ăn lành mạnh)', 'https://www.who.int/news-room/fact-sheets/detail/healthy-diet'),
+    ('FDA – How to Understand and Use the Nutrition Facts Label (Cách đọc và sử dụng nhãn dinh dưỡng)', 'https://www.fda.gov/food/nutrition-facts-label/how-understand-and-use-nutrition-facts-label'),
+    ('Mayo Clinic – Weight loss: Gain control of emotional eating (Kiểm soát ăn uống theo cảm xúc)', 'https://www.mayoclinic.org/health/weight-loss/MH00025/METHOD=print'),
+    ('Cleveland Clinic – Healthy snacks for work (Đồ ăn vặt lành mạnh nơi làm việc)', 'https://health.clevelandclinic.org/healthy-snacks-for-work'),
+    ('PubMed – Sleep curtailment is accompanied by increased intake of calories from snacks (Rút ngắn giấc ngủ đi kèm tăng năng lượng từ đồ ăn vặt)', 'https://pubmed.ncbi.nlm.nih.gov/19056602/'),
+]
+NEW_RULES12.append(('n12_anvatlanhmanhchodanvanph', ['ăn vặt', 'văn phòng', 'khẩu phần', 'muối', 'bữa phụ', 'không đường', 'trà sữa', 'sữa chua'], 66))
+
+# --- an-tet-khong-tang-can ---
+SRC['n12_antetkhongtangcan'] = [
+    ('Yanovski JA và cộng sự (2000) – A Prospective Study of Holiday Weight Gain, New England Journal of Medicine (Nghiên cứu tiến cứu về tăng cân mùa lễ)', 'https://www.nejm.org/doi/full/10.1056/NEJM200003233421206'),
+    ('NIH/NICHD (2000) – Holiday Weight Gain Slight, But May Last a Lifetime (Tăng cân mùa lễ nhỏ nhưng có thể kéo dài suốt đời)', 'https://www.nichd.nih.gov/newsroom/releases/holidayweightgain'),
+    ('Harvard Health Publishing – Holiday weight gain is a worldwide phenomenon, study suggests (Tăng cân mùa lễ là hiện tượng toàn cầu)', 'https://www.health.harvard.edu/diet-and-weight-loss/holiday-weight-gain-is-a-worldwide-phenomenon-study-suggests'),
+    ('WHO châu Âu (2023) – No level of alcohol consumption is safe for our health (Không có mức uống rượu bia nào an toàn cho sức khỏe)', 'https://www.who.int/azerbaijan/news/item/04-01-2023-no-level-of-alcohol-consumption-is-safe-for-our-health'),
+    ('WHO – Physical activity fact sheet (Hoạt động thể lực)', 'https://www.who.int/news-room/fact-sheets/detail/physical-activity'),
+    ("VnExpress – 'Bẫy calo' trong mâm cỗ Tết", 'https://vnexpress.net/bay-calo-trong-mam-co-tet-4843949.html'),
+]
+NEW_RULES12.append(('n12_antetkhongtangcan', ['tết', 'tăng cân', 'bánh chưng', 'mứt', 'rượu bia', 'mùa lễ', 'đi bộ', 'năng lượng'], 77))
+
+# --- ap-luc-dong-trang-lua-va-mang-xa-hoi ---
+SRC['n12_aplucdongtrangluavamangx'] = [
+    ('Hunt MG và cộng sự (2018) – No More FOMO: Limiting Social Media Decreases Loneliness and Depression, Journal of Social and Clinical Psychology (Giới hạn mạng xã hội làm giảm cô đơn và trầm cảm) – thông cáo Penn Today', 'https://penntoday.upenn.edu/news/social-media-use-increases-depression-and-loneliness'),
+    ('U.S. Surgeon General (2023) – Social Media and Youth Mental Health (Mạng xã hội và sức khỏe tâm thần giới trẻ)', 'https://hhs.gov/sites/default/files/sg-youth-mental-health-social-media-advisory.pdf'),
+    ('Przybylski AK và cộng sự (2013) – Motivational, emotional, and behavioral correlates of fear of missing out, Computers in Human Behavior (Các tương quan động cơ, cảm xúc và hành vi của nỗi sợ bỏ lỡ)', 'https://selfdeterminationtheory.org/wp-content/uploads/2014/04/2013_PrzybylskiMurayamaDeHaanGladwell_CIHB.pdf'),
+    ('PubMed – Social comparisons: A potential mechanism linking problematic social media use with depression (So sánh xã hội: cơ chế tiềm năng nối việc dùng mạng xã hội có vấn đề với trầm cảm)', 'https://pubmed.ncbi.nlm.nih.gov/35895606/'),
+    ("PMC – The associations between social comparison on social media and young adults' mental health (Mối liên hệ giữa so sánh xã hội trên mạng và sức khỏe tâm thần người trẻ)", 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12370522/'),
+    ('Find A Helpline – Đường dây hỗ trợ tại Việt Nam (Danh sách đường dây hỗ trợ cảm xúc tại Việt Nam)', 'https://findahelpline.com/countries/vn'),
+]
+NEW_RULES12.append(('n12_aplucdongtrangluavamangx', ['mạng xã hội', 'áp lực đồng trang lứa', 'so sánh xã hội', 'so sánh hướng lên', 'fomo', 'lướt', 'bảng tin', 'trầm cảm'], 36))
+
+# --- an-gi-giam-cang-thang ---
+SRC['n12_angigiamcangthang'] = [
+    ("Jacka FN và cộng sự (2017) – A randomised controlled trial of dietary improvement for adults with major depression (the 'SMILES' trial), BMC Medicine (Thử nghiệm cải thiện chế độ ăn cho người trưởng thành trầm cảm)", 'https://pubmed.ncbi.nlm.nih.gov/28137247/'),
+    ('Liao Y và cộng sự (2019) – Efficacy of omega-3 PUFAs in depression: A meta-analysis, Translational Psychiatry (Hiệu quả của omega-3 trong trầm cảm: phân tích gộp)', 'https://pubmed.ncbi.nlm.nih.gov/31383846/'),
+    ('NIH Office of Dietary Supplements – Magnesium: Fact Sheet for Health Professionals (Magie: thông tin cho nhân viên y tế)', 'https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/'),
+    ('Stanford Medicine (2021) – Fermented-food diet increases microbiome diversity, lowers inflammation (Chế độ ăn thực phẩm lên men tăng đa dạng hệ vi sinh, giảm viêm – Wastyk và cộng sự, Cell)', 'https://med.stanford.edu/news/all-news/2021/07/fermented-food-diet-increases-microbiome-diversity-lowers-inflammation'),
+    ('Harvard Health Publishing – Nutritional psychiatry: Your brain on food (Dinh dưỡng tâm thần học: thức ăn và não bộ)', 'https://www.health.harvard.edu/blog/nutritional-psychiatry-your-brain-on-food-201511168626'),
+    ('U.S. FDA – Spilling the Beans: How Much Caffeine is Too Much? (Bao nhiêu caffeine là quá nhiều?)', 'https://www.fda.gov/consumers/consumer-updates/spilling-beans-how-much-caffeine-too-much'),
+]
+NEW_RULES12.append(('n12_angigiamcangthang', ['căng thẳng', 'thực phẩm', 'omega-3', 'magie', 'lên men', 'hệ vi sinh', 'đường huyết', 'caffeine'], 60))
+
+# --- tam-ly-mua-cuoi-nam-kpi-tet-tai-chinh ---
+SRC['n12_tamlymuacuoinamkpitettai'] = [
+    ('American Psychological Association (2023) – Even a joyous holiday season can cause stress for most Americans (Ngay cả mùa lễ vui vẻ cũng gây căng thẳng cho phần lớn người Mỹ)', 'https://www.apa.org/news/press/releases/2023/11/holiday-season-stress'),
+    ('American Psychological Association (2023) – 2023 Holiday Stress Survey Data Topline (Số liệu khảo sát căng thẳng mùa lễ 2023)', 'https://www.apa.org/news/press/releases/apa-holiday-stress-topline-report.pdf'),
+    ('American Psychological Association (2015) – Money stress, APA Monitor on Psychology (Căng thẳng vì tiền bạc)', 'https://www.apa.org/monitor/2015/04/money-stress'),
+    ('Mayo Clinic News Network – Tuesday Tips: Coping with stress, depression and the holidays (Mẹo đối phó căng thẳng, trầm cảm mùa lễ)', 'https://newsnetwork.mayoclinic.org/discussion/tuesday-tips-coping-with-stress-depression-and-the-holidays/'),
+    ('VietNamNet (2026) – Từ tháng 11, tổng đài 113 điều phối cấp cứu ngoại viện thay thế đầu số 115', 'https://vietnamnet.vn/tu-thang-11-tong-dai-113-dieu-phoi-cap-cuu-ngoai-vien-thay-the-dau-so-115-2570701.html'),
+]
+NEW_RULES12.append(('n12_tamlymuacuoinamkpitettai', ['cuối năm', 'kpi', 'tết', 'ngân sách', 'tài chính', 'ranh giới', 'giấc ngủ', 'căng thẳng'], 71))
+
+# --- diep-ha-chau-co-tac-dung-gi ---
+SRC['n12_diephachaucotacdunggi'] = [
+    ('Xia Y, Luo H, Liu JP, Gluud C (2011) – Phyllanthus species for chronic hepatitis B virus infection (Các loài Phyllanthus cho người nhiễm virus viêm gan B mạn tính), Cochrane Database of Systematic Reviews', 'https://cochranelibrary.com/cdsr/doi/10.1002/14651858.CD008960.pub2/information'),
+    ('Cochrane (2011) – Phyllanthus species versus antiviral drugs for chronic hepatitis B virus infection (Phyllanthus so với thuốc kháng virus ở người viêm gan B mạn tính)', 'https://cochranelibrary.com/cdsr/doi/10.1002/14651858.CD009004.pub2/information'),
+    ('Phytotherapy Research (2001) – The effect of Phyllanthus amarus aqueous extract on blood glucose in non-insulin dependent diabetic patients (Ảnh hưởng của dịch chiết nước Phyllanthus amarus lên đường huyết ở người đái tháo đường type 2)', 'https://pubmed.ncbi.nlm.nih.gov/11746836/'),
+    ('PubMed – Hypotensive effect of aqueous extract of the leaves of Phyllanthus amarus (Tác dụng hạ huyết áp của dịch chiết nước lá Phyllanthus amarus trên động vật)', 'https://pubmed.ncbi.nlm.nih.gov/18323250/'),
+    ('PMC – The acute diuretic effect of an ethanolic fraction of Phyllanthus amarus in rats involves prostaglandins (Tác dụng lợi tiểu cấp của phân đoạn chiết ethanol Phyllanthus amarus trên chuột)', 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5856278/'),
+    ('WebMD – Chanca piedra: uses, side effects, interactions (Chanca piedra: công dụng, tác dụng phụ, tương tác)', 'https://webmd.com/vitamins/ai/ingredientmono-441/chanca-piedra'),
+]
+NEW_RULES12.append(('n12_diephachaucotacdunggi', ['diệp hạ châu', 'thuốc kháng virus', 'thuốc tiểu đường', 'lợi tiểu', 'huyết áp thấp', 'nhầm loài', 'thận trọng', 'ẩm mốc'], 58))
+
+# --- an-xoa-la-cay-gi-moc-o-dau-dung ---
+SRC['n12_anxoalacaygimocodaudung'] = [
+    ('PROSEA – Helicteres hirsuta (Tài nguyên thực vật Đông Nam Á: cây an xoa Helicteres hirsuta)', 'https://uses.plantnet-project.org/en/Helicteres_hirsuta_(PROSEA)'),
+    ('Applied Sciences (2021) – Hepatoprotective effects of extract of Helicteres hirsuta Lour. (Tác dụng bảo vệ gan của chiết xuất an xoa trên chuột gây tổn thương gan bằng CCl4)', 'https://mdpi.com/2076-3417/11/18/8758'),
+    ('Tạp chí Dược học – Khảo sát hoạt tính chống oxy hóa và gây độc tế bào của cao chiết an xoa (Helicteres hirsuta Lour. Sterculiaceae)', 'https://vjol.info.vn/tcdh/article/view/43143'),
+    ('Acta Medica Iranica (2022) – The Presence of Aflatoxin B1 and Fungi in Traditional Drugs in Vietnam (Sự hiện diện của aflatoxin B1 và nấm trong thuốc cổ truyền tại Việt Nam)', 'https://acta.tums.ac.ir/index.php/acta/article/view/8906'),
+    ('Thương hiệu & Công luận – Trồng và phát triển sản phẩm cây an xoa: hướng đi tiềm năng cho dược liệu Lâm Đồng', 'https://thuonghieucongluan.com.vn/trong-va-phat-trien-san-pham-cay-an-xoa-huong-di-tiem-nang-cho-duoc-lieu-lam-dong-a313486.html'),
+]
+NEW_RULES12.append(('n12_anxoalacaygimocodaudung', ['an xoa', 'helicteres hirsuta', 'mọc ở đâu', 'thu hái', 'sơ chế', 'sao vàng', 'bảo quản', 'nấm mốc'], 52))
+
+# --- kim-tien-thao-trong-dan-gian-va-luu-y ---
+SRC['n12_kimtienthaotrongdangianv'] = [
+    ('Chinese Medicine Regulatory Office Hồng Kông – Lysimachiae Herba vs Desmodii Styracifolii Herba (Phân biệt kim tiền thảo Lysimachia và Quảng kim tiền thảo Desmodium)', 'https://www.cmro.gov.hk/files/gcmti/research/mmi/ech_search/005_HL_vs_HDS_en.pdf'),
+    ('Trung thảo dược (中草药) – Comparison on HPLC fingerprints of Lysimachia christinae and Desmodium styracifolium (So sánh dấu vân tay HPLC của hai loài cùng tên kim tiền thảo)', 'https://search.bvsalud.org/gim/resource/en/wpr-853683'),
+    ('Đỗ Tất Lợi – Cây kim tiền thảo (cây mắt trâu), Những cây thuốc và vị thuốc Việt Nam', 'https://vnras.com/cay-kim-tien-thao-mat-trau-nhung-cay-thuoc-va-vi-thuoc-viet-nam-do-tat-loi/'),
+    ('NIDDK – Symptoms & Causes of Kidney Stones (Triệu chứng và nguyên nhân sỏi thận)', 'https://niddk.nih.gov/health-information/urologic-diseases/kidney-stones/symptoms-causes'),
+    ('American Urological Association – Kidney Stones: Medical Management Guideline (Hướng dẫn quản lý nội khoa sỏi thận)', 'https://auanet.org/guidelines/guidelines/kidney-stones-medical-mangement-guideline'),
+    ('NCCIH – Herb-Drug Interactions (Tương tác giữa thảo dược và thuốc)', 'https://www.nccih.nih.gov/health/providers/digest/herb-drug-interactions/'),
+]
+NEW_RULES12.append(('n12_kimtienthaotrongdangianv', ['kim tiền thảo', 'mắt trâu', 'lysimachia christinae', 'nấu nước', 'phơi', 'tan sỏi', 'cấp cứu', 'nước lọc'], 41))
+
+# --- kim-tien-thao-co-tac-dung-gi ---
+SRC['n12_kimtienthaocotacdunggi'] = [
+    ('JAMA Network Open (2026) – Desmodium styracifolium Total Flavone Capsules for Urolithiasis: A Phase 3 Randomized Clinical Trial (Viên nang tổng flavon kim tiền thảo cho sỏi tiết niệu: thử nghiệm lâm sàng ngẫu nhiên pha 3)', 'https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2853853'),
+    ('PubMed Central (2024) – Desmodium styracifolium: botanical and ethnopharmacological insights, phytochemical investigations, and prospects in pharmacology and pharmacotherapy (Kim tiền thảo: thực vật học, dân tộc dược học, hóa học và triển vọng dược lý)', 'https://pmc.ncbi.nlm.nih.gov/articles/PMC10838797/'),
+    ('Frontiers in Surgery (2024) – Efficacy and cost-effectiveness analysis of flexible ureteroscopic lithotripsy with TFDS in the treatment of urolithiasis (Hiệu quả và chi phí khi phối hợp viên tổng flavon kim tiền thảo với tán sỏi nội soi ống mềm)', 'https://frontiersin.org/journals/surgery/articles/10.3389/fsurg.2024.1489397/full'),
+    ('NIDDK – Symptoms & Causes of Kidney Stones (Triệu chứng và nguyên nhân sỏi thận)', 'https://niddk.nih.gov/health-information/urologic-diseases/kidney-stones/symptoms-causes'),
+    ('American Urological Association – Kidney Stones: Medical Management Guideline (Hướng dẫn quản lý nội khoa sỏi thận)', 'https://auanet.org/guidelines/guidelines/kidney-stones-medical-mangement-guideline'),
+    ('InformedHealth.org – Treatment options for kidney stones (Các lựa chọn xử trí sỏi thận)', 'https://www.informedhealth.org/treatment-options-for-kidney-stones.html'),
+]
+NEW_RULES12.append(('n12_kimtienthaocotacdunggi', ['kim tiền thảo', 'sỏi niệu quản', 'canxi oxalat', 'chiết xuất', 'tổng flavon', 'bằng chứng', 'thử nghiệm', 'uống đủ nước'], 51))
+
+# --- tra-hoa-cuc-va-giac-ngu ---
+SRC['n12_trahoacucvagiacngu'] = [
+    ('Hieu và cộng sự (2019) – Therapeutic efficacy and safety of chamomile for state anxiety, generalized anxiety disorder, insomnia, and sleep quality: A systematic review and meta-analysis (Hiệu quả và an toàn của cúc La Mã với lo âu, mất ngủ và chất lượng giấc ngủ: tổng quan hệ thống và phân tích gộp), Phytotherapy Research', 'https://onlinelibrary.wiley.com/doi/10.1002/ptr.6349'),
+    ('Complementary Therapies in Medicine (2024) – Effects of chamomile (Matricaria chamomilla L.) on sleep: A systematic review and meta-analysis of clinical trials (Tác động của cúc La Mã lên giấc ngủ: tổng quan hệ thống và phân tích gộp)', 'https://pubmed.ncbi.nlm.nih.gov/39106912/'),
+    ('Chang và Chen (2016) – Effects of an intervention with drinking chamomile tea on sleep quality and depression in sleep disturbed postnatal women (Uống trà cúc La Mã và chất lượng giấc ngủ, trầm cảm ở phụ nữ sau sinh), Journal of Advanced Nursing', 'https://pubmed.ncbi.nlm.nih.gov/26483209/'),
+    ('Leach và Page (2015) – Herbal medicine for insomnia: A systematic review and meta-analysis (Thảo dược cho mất ngủ: tổng quan hệ thống và phân tích gộp), Sleep Medicine Reviews', 'https://pubmed.ncbi.nlm.nih.gov/25644982/'),
+    ('NCCIH – Chamomile (Cúc La Mã: khoa học và an toàn)', 'https://www.nccih.nih.gov/health/chamomile?form=MG0AV3'),
+    ('Segal và Pilote (2006) – Warfarin interaction with Matricaria chamomilla (Tương tác giữa warfarin và cúc La Mã), CMAJ', 'https://www.cmaj.ca/content/174/9/1281'),
+]
+NEW_RULES12.append(('n12_trahoacucvagiacngu', ['trà hoa cúc', 'chamomile', 'cúc vàng', 'giấc ngủ', 'mất ngủ', 'apigenin', 'họ cúc', 'buổi tối'], 76))
+
+# --- do-mo-hoi-dem-nguyen-nhan-thuong-gap ---
+SRC['n12_domohoidemnguyennhanthuo'] = [
+    ('Mayo Clinic – Night sweats (Đổ mồ hôi đêm: định nghĩa và nguyên nhân)', 'https://www.mayoclinic.org/symptoms/night-sweats/basics/definition/sym-20050768?p=1'),
+    ('Cleveland Clinic – Night Sweats (Đổ mồ hôi đêm)', 'https://my.clevelandclinic.org/health/diseases/16562-night-sweats'),
+    ('American Family Physician (2020) – Persistent Night Sweats: Diagnostic Evaluation (Đổ mồ hôi đêm kéo dài: hướng tiếp cận chẩn đoán)', 'https://www.aafp.org/pubs/afp/issues/2020/1001/p427.html'),
+    ('OKPRN và TAFP-Net (2002) – Prevalence of night sweats in primary care patients (Tỷ lệ đổ mồ hôi đêm ở bệnh nhân chăm sóc ban đầu)', 'https://pubmed.ncbi.nlm.nih.gov/12019054/'),
+    ('NHS – Non-Hodgkin lymphoma: Symptoms (Lymphoma không Hodgkin: triệu chứng)', 'https://www.nhs.uk/conditions/non-hodgkin-lymphoma/symptoms/'),
+]
+NEW_RULES12.append(('n12_domohoidemnguyennhanthuo', ['đổ mồ hôi đêm', 'mồ hôi', 'phòng ngủ', 'rượu', 'mãn kinh', 'ngưng thở khi ngủ', 'sụt cân', 'đi khám'], 80))
+RULES[:0] = NEW_RULES12
+
 
 def refs_for(body):
     low = body.lower(); out = []

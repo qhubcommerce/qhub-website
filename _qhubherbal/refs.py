@@ -1739,6 +1739,200 @@ NEW_RULES12.append(('n12_domohoidemnguyennhanthuo', ['đổ mồ hôi đêm', 'm
 RULES[:0] = NEW_RULES12
 
 
+# Đêm 13 (24/11/2026): cụm đặc thù đặt lên đầu RULES (URL lấy từ kết quả WebSearch)
+NEW_RULES13 = []
+
+# ===== duong-nhan =====
+# --- top-5-tra-thao-moc-cho-phu-nu-hay ---
+SRC['n13_top5trathaomocchophunuhay'] = [
+    ('Watson N.F. và cộng sự (2015) – Recommended Amount of Sleep for a Healthy Adult: A Joint Consensus Statement of the American Academy of Sleep Medicine and Sleep Research Society (Lượng ngủ khuyến nghị cho người trưởng thành khỏe mạnh: đồng thuận AASM và SRS), Sleep', 'https://pmc.ncbi.nlm.nih.gov/articles/PMC4434546/'),
+    ('CDC (2016) – 1 in 3 adults don’t get enough sleep (1/3 người trưởng thành không ngủ đủ giấc)', 'https://archive.cdc.gov/www_cdc_gov/media/releases/2016/p0215-enough-sleep.html'),
+    ('Spiegel K. và cộng sự (2004) – Sleep curtailment in healthy young men is associated with decreased leptin levels, elevated ghrelin levels, and increased hunger and appetite (Giới hạn giấc ngủ liên quan đến giảm leptin, tăng ghrelin, tăng cảm giác đói và thèm ăn), Annals of Internal Medicine', 'https://pubmed.ncbi.nlm.nih.gov/15583226/'),
+    ('Sundelin T. và cộng sự (2013) – Cues of fatigue: effects of sleep deprivation on facial appearance (Dấu hiệu mệt mỏi: ảnh hưởng của thiếu ngủ lên diện mạo khuôn mặt), Sleep', 'https://pubmed.ncbi.nlm.nih.gov/23997369/'),
+    ('NCCIH (NIH) – Chamomile (Hoa cúc La Mã: bằng chứng và an toàn)', 'https://www.nccih.nih.gov/health/chamomile?form=MG0AV3'),
+]
+NEW_RULES13.append(('n13_top5trathaomocchophunuhay', ['thức khuya', 'rooibos', 'bạc hà', 'gừng – táo đỏ', 'hoa hồng khô', 'leptin', 'sundelin', 'vệ sinh giấc ngủ'], 33))
+
+# --- hai-chi-em-va-thu-thach-30-ngay-khong ---
+SRC['n13_haichiemvathuthach30ngayk'] = [
+    ('WHO (2015) – WHO calls on countries to reduce sugars intake among adults and children (WHO kêu gọi giảm lượng đường ở người lớn và trẻ em)', 'https://who.int/news/item/04-03-2015-who-calls-on-countries-to-reduce-sugars-intake-among-adults-and-children'),
+    ('Wise P.M. và cộng sự (2016) – Reduced dietary intake of simple sugars alters perceived sweet taste intensity but not perceived pleasantness (Giảm đường đơn trong khẩu phần làm thay đổi cảm nhận cường độ vị ngọt), American Journal of Clinical Nutrition', 'https://pubmed.ncbi.nlm.nih.gov/26607941/'),
+    ('UCL (2009) – How long does it take to form a habit? (Mất bao lâu để hình thành thói quen – nghiên cứu của Lally và cộng sự, European Journal of Social Psychology)', 'https://www.ucl.ac.uk/news/2009/aug/how-long-does-it-take-form-habit'),
+    ('Harvard T.H. Chan School of Public Health – The Nutrition Source: Sugary Drinks (Đồ uống có đường)', 'https://nutritionsource.hsph.harvard.edu/healthy-drinks/drinks-to-consume-in-moderation/sugary-drinks/'),
+    ('South China Morning Post (2019) – Why a Singapore hospital is warning that bubble milk tea is bad for you (Vì sao một bệnh viện Singapore cảnh báo về trà sữa trân châu)', 'https://www.scmp.com/magazines/style/travel-food/article/3018985/why-singapore-hospital-warning-bubble-milk-tea-bad-your'),
+]
+NEW_RULES13.append(('n13_haichiemvathuthach30ngayk', ['thử thách', 'hai chị em', 'thèm ngọt', '30 ngày', 'lally', 'wise', 'mount alvernia', 'tờ lịch'], 23))
+
+# --- ky-tu-ninh-ha-la-gi ---
+SRC['n13_kytuninhhalagi'] = [
+    ('Viện Kiểm sát Nhân dân Tối cao Trung Quốc (2023) – 保护地理标志产品系列报道：宁夏中宁专项监督助力“中宁枸杞”全链条保护 (Bảo vệ sản phẩm chỉ dẫn địa lý: giám sát chuyên đề bảo vệ “Trung Ninh kỷ tử”)', 'https://www.spp.gov.cn/spp/zdgz/202305/t20230504_613030.shtml'),
+    ('Consumer Council Hong Kong (2023) – Goji Berries … All Samples Found with Heavy Metals, over 70% with Pesticides (Kiểm nghiệm 27 mẫu kỷ tử khô: tất cả có kim loại nặng, hơn 70% có dư lượng thuốc bảo vệ thực vật)', 'https://www.consumer.org.hk/en/press-release/p-558-goji-berries'),
+    ('Levels and health risk assessment of pesticides and metals in Lycium barbarum L. from different sources in Ningxia, China (2022) (Mức tồn dư và đánh giá rủi ro thuốc bảo vệ thực vật, kim loại trong kỷ tử Ninh Hạ), Scientific Reports', 'https://www.nature.com/articles/s41598-021-04599-5'),
+    ('Black Goji Berry (Lycium ruthenicum Murray): A Review of Its Pharmacological Activity (2023) (Kỷ tử đen: tổng quan hoạt tính dược lý), Nutrients', 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10574788/'),
+    ('Memorial Sloan Kettering Cancer Center – Lycium (Kỷ tử: tương tác thuốc, gồm warfarin, và lưu ý an toàn)', 'https://www.mskcc.org/cancer-care/integrative-medicine/herbs/lycium'),
+]
+NEW_RULES13.append(('n13_kytuninhhalagi', ['ninh hạ', 'trung ninh', 'kỷ tử đen', 'chỉ dẫn địa lý', 'ruthenicum', 'anthocyanin', 'consumer council', 'larramendi'], 43))
+
+# ===== la-oi-mix-la-sen =====
+# --- tra-sua-bao-nhieu-calo-va-cach-giam-dan ---
+SRC['n13_trasuabaonhieucalovacachg'] = [
+    ('Centre for Food Safety Hong Kong (2019) – Sugar and energy in tea-based beverages (Đường và năng lượng trong đồ uống pha từ trà), Risk Assessment Studies', 'https://www.cfs.gov.hk/english/programme/programme_rafs/files/Sugar_and_energy_in_tea_based_beverages.pdf'),
+    ('Liu và cộng sự (2023) – Sugar labeling information and online marketing strategies for hand-shaken tea drinks in northern Taiwan (Thông tin ghi nhãn đường của trà pha lắc ở miền Bắc Đài Loan), Frontiers in Nutrition', 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10682441/'),
+    ('WHO (2015) – Guideline: sugars intake for adults and children (Hướng dẫn về lượng đường cho người lớn và trẻ em)', 'https://www.who.int/publications/i/item/9789241549028'),
+    ('DiMeglio & Mattes (2000) – Liquid versus solid carbohydrate: effects on food intake and body weight (Carbohydrate dạng lỏng và rắn: ảnh hưởng lên lượng ăn và cân nặng), International Journal of Obesity', 'https://pubmed.ncbi.nlm.nih.gov/10878689/'),
+    ('Wise và cộng sự (2016) – Reduced dietary intake of simple sugars alters perceived sweet taste intensity but not perceived pleasantness (Giảm đường đơn làm thay đổi cảm nhận độ ngọt), American Journal of Clinical Nutrition', 'https://pubmed.ncbi.nlm.nih.gov/26607941/'),
+]
+NEW_RULES13.append(('n13_trasuabaonhieucalovacachg', ['nút vặn', 'topping', 'kem cheese', 'trân châu', 'calo', 'size l', 'size m', 'kcal'], 65))
+
+# --- che-do-an-cho-nguoi-hay-an-ngoai ---
+SRC['n13_chedoanchonguoihayanngoai'] = [
+    ('Auchincloss và cộng sự, Đại học Drexel (2014) – Nutritional value of meals at full-service restaurant chains (Giá trị dinh dưỡng bữa ăn tại chuỗi nhà hàng phục vụ bàn), American Journal of Preventive Medicine', 'https://pubmed.ncbi.nlm.nih.gov/24369812/'),
+    ('WHO – Salt reduction (Giảm muối: khuyến nghị dưới 5 g muối/ngày), Fact sheet', 'https://www.who.int/news-room/fact-sheets/detail/salt-reduction'),
+    ('WHO – Five keys to safer food manual (Cẩm nang 5 chìa khóa an toàn thực phẩm)', 'https://www.who.int/publications/i/item/five-keys-to-safer-food-manual'),
+    ('CDC – Tips for dining out (Lời khuyên an toàn thực phẩm khi ăn ngoài)', 'https://cdc.gov/restaurant-food-safety/communication-resources/tips-for-dining-out.html'),
+    ('WHO châu Âu (2023) – No level of alcohol consumption is safe for our health (Không có mức uống rượu bia nào an toàn cho sức khỏe)', 'https://www.who.int/azerbaijan/news/item/04-01-2023-no-level-of-alcohol-consumption-is-safe-for-our-health'),
+]
+NEW_RULES13.append(('n13_chedoanchonguoihayanngoai', ['ăn ngoài', 'gọi món', 'quán', 'nước chấm', 'khẩu phần', '5 chìa khóa', 'nước dùng', 'ít cơm'], 43))
+
+# --- nuoc-ngot-co-ga-va-suc-khoe ---
+SRC['n13_nuocngotcogavasuckhoe'] = [
+    ('Malik và cộng sự (2010) – Sugar-sweetened beverages and risk of metabolic syndrome and type 2 diabetes: a meta-analysis (Đồ uống có đường và nguy cơ hội chứng chuyển hóa, tiểu đường type 2: phân tích gộp), Diabetes Care', 'https://pubmed.ncbi.nlm.nih.gov/20693348/'),
+    ('Malik và cộng sự (2013) – Sugar-sweetened beverages and weight gain in children and adults: a systematic review and meta-analysis (Đồ uống có đường và tăng cân ở trẻ em, người lớn), American Journal of Clinical Nutrition', 'https://pubmed.ncbi.nlm.nih.gov/23966427/'),
+    ('WHO (2023) – WHO advises not to use non-sugar sweeteners for weight control in newly released guideline (WHO khuyến nghị không dùng chất tạo ngọt không đường để kiểm soát cân nặng)', 'https://www.who.int/news/item/15-05-2023-who-advises-not-to-use-non-sugar-sweeteners-for-weight-control-in-newly-released-guideline'),
+    ('IARC/WHO/JECFA (2023) – Aspartame hazard and risk assessment results released (Kết quả đánh giá mối nguy và rủi ro của aspartame)', 'https://www.iarc.who.int/news-events/aspartame-hazard-and-risk-assessment-results-released'),
+    ('WHO – Sugars and dental caries (Đường và sâu răng), Fact sheet', 'https://who.int/news-room/fact-sheets/detail/sugars-and-dental-caries'),
+]
+NEW_RULES13.append(('n13_nuocngotcogavasuckhoe', ['nước ngọt', 'lon', 'có ga', 'aspartame', 'chất tạo ngọt', 'men răng', 'acid', '330 ml'], 80))
+
+# ===== duong-tam-an =====
+# --- thien-5-phut-cho-nguoi-moi ---
+SRC['n13_thien5phutchonguoimoi'] = [
+    ('Goyal M. và cộng sự (2014) – Meditation programs for psychological stress and well-being: a systematic review and meta-analysis (Chương trình thiền cho căng thẳng tâm lý và sức khỏe tinh thần: tổng quan hệ thống và phân tích gộp), JAMA Internal Medicine', 'https://pubmed.ncbi.nlm.nih.gov/24395196/'),
+    ('NCCIH (NIH) – Meditation and Mindfulness: Effectiveness and Safety (Thiền và chánh niệm: hiệu quả và độ an toàn)', 'https://www.nccih.nih.gov/health/meditation-and-mindfulness-effectiveness-and-safety'),
+    ('Mayo Clinic – Meditation: A simple, fast way to reduce stress (Thiền: cách đơn giản, nhanh để giảm căng thẳng)', 'https://www.mayoclinic.org/tests-procedures/meditation/in-depth/meditation/art-20045858'),
+    ('Basso J.C. và cộng sự (2019) – Brief, daily meditation enhances attention, memory, mood, and emotional regulation in non-experienced meditators (Thiền ngắn hằng ngày ở người chưa có kinh nghiệm: chú ý, trí nhớ, tâm trạng, điều hòa cảm xúc), Behavioural Brain Research', 'https://pubmed.ncbi.nlm.nih.gov/30153464/'),
+    ('Farias M. và cộng sự (2020) – Adverse events in meditation practices and meditation-based therapies: a systematic review (Tác dụng không mong muốn của thiền: tổng quan hệ thống), Acta Psychiatrica Scandinavica', 'https://pubmed.ncbi.nlm.nih.gov/32820538/'),
+]
+NEW_RULES13.append(('n13_thien5phutchonguoimoi', ['thiền 5 phút', 'người mới', 'chánh niệm hơi thở', 'quét cơ thể', 'điều thân', 'điều tức', 'đếm', 'tư thế'], 30))   # bài này 43, bài khác cao nhất 17
+
+# --- quan-ly-thoi-gian-de-bot-cang-thang-phuong ---
+SRC['n13_quanlythoigiandebotcang'] = [
+    ('Albulescu P. và cộng sự (2022) – "Give me a break!" A systematic review and meta-analysis on the efficacy of micro-breaks for increasing well-being and performance (Hiệu quả của nghỉ ngắn với sức khỏe tinh thần và hiệu suất: tổng quan hệ thống và phân tích gộp), PLOS ONE', 'https://pmc.ncbi.nlm.nih.gov/articles/PMC9432722/'),
+    ('Biwer F. và cộng sự (2023) – Understanding effort regulation: Comparing \'Pomodoro\' breaks and self-regulated breaks (So sánh nghỉ kiểu Pomodoro và nghỉ tự điều chỉnh), British Journal of Educational Psychology', 'https://pubmed.ncbi.nlm.nih.gov/36859717/'),
+    ('Ariga A., Lleras A. (2011) – Brief and rare mental breaks keep you focused: deactivation and reactivation of task goals preempt vigilance decrements (Những quãng nghỉ ngắn giúp duy trì tập trung), Cognition', 'https://experts.illinois.edu/en/publications/brief-and-rare-mental-breaks-keep-you-focused-deactivation-and-re/'),
+    ('Hiệp hội Tâm lý học Hoa Kỳ (APA) – Multitasking: Switching costs (Đa nhiệm và chi phí chuyển đổi nhiệm vụ)', 'https://www.apa.org/topics/research/multitasking'),
+    ('Tổ chức Y tế Thế giới (WHO) – Stress: Questions and answers (Căng thẳng: hỏi đáp)', 'https://www.who.int/news-room/questions-and-answers/item/stress'),
+]
+NEW_RULES13.append(('n13_quanlythoigiandebotcang', ['pomodoro', 'eisenhower', 'cirillo', 'khối', 'quản lý thời gian', 'nghỉ dài', 'ô 1', 'ô 2'], 56))   # bài này 81, bài khác cao nhất 16
+
+# --- digital-detox-ngat-ket-noi ---
+SRC['n13_digitaldetoxngatketnoi'] = [
+    ('Hunt M.G. và cộng sự (2018), Đại học Pennsylvania – Social media use increases depression and loneliness (Giới hạn mạng xã hội khoảng 30 phút/ngày giảm cô đơn và trầm cảm), Journal of Social and Clinical Psychology', 'https://penntoday.upenn.edu/news/social-media-use-increases-depression-and-loneliness'),
+    ('Ward A.F. và cộng sự (2017) – Brain Drain: The Mere Presence of One\'s Own Smartphone Reduces Available Cognitive Capacity (Chỉ riêng sự hiện diện của điện thoại đã làm giảm khả năng nhận thức sẵn có), Journal of the Association for Consumer Research', 'https://journals.uchicago.edu/doi/10.1086/691462'),
+    ('Kushlev K., Proulx J., Dunn E. (2016), Đại học Virginia – Smartphone alerts increase inattention and hyperactivity (Thông báo điện thoại làm tăng thiếu chú ý và hiếu động), CHI 2016', 'https://archive.news.virginia.edu/content/study-smartphone-alerts-increase-inattention-and-hyperactivity/'),
+    ('Allcott H. và cộng sự (2020) – The Welfare Effects of Social Media (Tác động của mạng xã hội lên phúc lợi người dùng), American Economic Review', 'https://www.aeaweb.org/doi/10.1257/aer.20190658'),
+    ('DataReportal – Digital 2026: Vietnam (Báo cáo số liệu internet, mạng xã hội Việt Nam 2026)', 'https://datareportal.com/reports/digital-2026-vietnam'),
+]
+NEW_RULES13.append(('n13_digitaldetoxngatketnoi', ['digital detox', 'thang xám', 'thông báo', 'điện thoại', 'thời gian sử dụng', 'mạng xã hội', 'giới hạn ứng dụng', 'không màn hình'], 71))   # bài này 102, bài khác cao nhất 39
+
+# ===== ca-gai-diep-ha-chau =====
+# Đề xuất nguồn – đêm 13 – Trà Cà Gai – Diệp Hạ Châu (3 bài). URL lấy từ kết quả WebSearch, không mở bằng WebFetch.
+
+# --- uong-diep-ha-chau-lau-dai-co-sao-khong ---
+SRC['n13_uongdiephachaulaudai'] = [
+    ('NIDDK/NIH (2022) – LiverTox: online resource for information on drug-induced liver injury (LiverTox: nguồn thông tin trực tuyến về tổn thương gan do thuốc, thảo dược và thực phẩm bổ sung)', 'https://www.niddk.nih.gov/news/archive/2022/livertox-online-resource-information-drug-induced-liver-injury'),
+    ('Acute toxicity studies of aqueous leaf extract of Phyllanthus niruri (Nghiên cứu độc tính cấp của dịch chiết nước lá Phyllanthus niruri trên động vật)', 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3274729/'),
+    ('Rao MV, Alice KM – Contraceptive effects of Phyllanthus amarus extract in the male mouse (Tác dụng tránh thai của chiết xuất Phyllanthus amarus trên chuột đực)', 'https://indianmedicine.eldoc.ub.rug.nl/15150/'),
+    ('HelloPharmacist – Chanca Piedra – Lasix (Furosemide) Interaction (Tương tác giữa chanca piedra và thuốc lợi tiểu furosemide)', 'https://hellopharmacist.com/drug-herbal-interactions/chanca-piedra-with-furosemide'),
+    ('NHS – Lithium: cautions with other medicines and herbal supplements (Thận trọng khi dùng lithium cùng thuốc khác và thảo dược bổ sung)', 'https://www.nhs.uk/medicines/lithium/taking-lithium-with-other-medicines-and-herbal-supplements/'),
+]
+NEW_RULES13.append(('n13_uongdiephachaulaudai', ['lâu dài', 'lithium', 'chanca piedra', 'độc tính', 'theo đợt', 'thuốc lợi tiểu', 'hạ đường huyết', 'chuột'], 33))
+
+# --- cach-chon-ca-gai-leo-kho-chat-luong-tranh ---
+SRC['n13_cachchoncagaileokho'] = [
+    ('Acta Medica Iranica (2022) – The Presence of Aflatoxin B1 and Fungi in Traditional Drugs in Vietnam (Sự hiện diện của aflatoxin B1 và nấm trong thuốc cổ truyền tại Việt Nam)', 'https://publish.kne-publishing.com/index.php/ACTA/article/view/9268'),
+    ('Frontiers in Pharmacology (2025) – Sulfur fumigation of botanical drugs: impact on chemical composition and pharmacological properties, and advances in detection technologies (Xông lưu huỳnh dược liệu: ảnh hưởng tới thành phần hóa học, dược lý và kỹ thuật phát hiện)', 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12313704/'),
+    ('WHO (2003) – WHO guidelines on good agricultural and collection practices (GACP) for medicinal plants (Hướng dẫn thực hành tốt nuôi trồng và thu hái cây thuốc)', 'https://www.who.int/publications/i/item/9241546271'),
+    ('Heavy Metal Contaminations in Herbal Medicines: Determination, Comprehensive Risk Assessments, and Solutions (Ô nhiễm kim loại nặng trong dược liệu: xác định, đánh giá nguy cơ và giải pháp)', 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7883644/'),
+    ('Vietnam Journal of Biotechnology – Analyzing the plastid trnL-trnF sequences of Vietnamese Solanum procumbens Lour. plants (Phân tích trình tự gen lục lạp trnL-trnF của cây cà gai leo Việt Nam)', 'https://vjs.ac.vn/index.php/vjbt/article/view/15361'),
+]
+NEW_RULES13.append(('n13_cachchoncagaileokho', ['cà gai leo khô', 'lưu huỳnh', 'gacp', 'aflatoxin', 'tạp', 'hút ẩm', 'nhầm', 'mốc'], 36))
+
+# --- ca-gai-leo-va-diep-ha-chau-khac-nhau ---
+SRC['n13_cagaileovadiephachau'] = [
+    ('Kaunda JS, Zhang YJ (2019) – The Genus Solanum: An Ethnopharmacological, Phytochemical and Biological Properties Review (Tổng quan chi Cà Solanum: dân tộc dược học, hóa thực vật và hoạt tính sinh học), Natural Products and Bioprospecting', 'https://pubmed.ncbi.nlm.nih.gov/30868423/'),
+    ('The Therapeutic Value of Solanum Steroidal (Glyco)Alkaloids: A 10-Year Comprehensive Review (Giá trị của các glycoalkaloid steroid chi Solanum: tổng quan 10 năm)', 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10343844/'),
+    ('Frontiers in Pharmacology (2023) – Pharmacological activities and mechanisms of action of hypophyllanthin: A review (Hoạt tính dược lý và cơ chế tác động của hypophyllanthin – lignan đặc trưng của diệp hạ châu)', 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9868173/'),
+    ('Xia Y, Luo H, Liu JP, Gluud C (2011) – Phyllanthus species for chronic hepatitis B virus infection (Tổng quan Cochrane về các loài Phyllanthus ở người viêm gan B mạn tính), Cochrane Database of Systematic Reviews', 'https://www.cochrane.org/evidence/CD008960_phyllanthus-species-chronic-hepatitis-b-virus-infection'),
+    ('Frontiers in Plant Science (2022) – Application of chloroplast genome in the identification of Phyllanthus urinaria and its common adulterants (Ứng dụng hệ gen lục lạp định danh Phyllanthus urinaria và các loài hay bị trộn lẫn)', 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9853280/'),
+]
+NEW_RULES13.append(('n13_cagaileovadiephachau', ['lignan', 'phyllanthin', 'hypophyllanthin', 'kết hợp', 'một ấm', 'họ cà', 'tính ấm', 'thể trạng'], 32))
+
+# ===== nam-vuong =====
+# --- dua-dai-cay-quen-vung-ven-bien-va-cach ---
+SRC['n13_duadaicayquenvungvenbien'] = [
+    ('Tanaka N. và cộng sự (2007) – Coastal vegetation structures and their functions in tsunami protection: experience of the recent Indian Ocean tsunami (Cấu trúc thảm thực vật ven biển và chức năng bảo vệ khỏi sóng thần), Landscape and Ecological Engineering', 'https://link.springer.com/doi/10.1007/s11355-006-0013-9'),
+    ('FAO – Coastal protection in the aftermath of the Indian Ocean tsunami: What role for forests and trees? (Vai trò của rừng và cây trong bảo vệ bờ biển sau sóng thần Ấn Độ Dương)', 'https://www.fao.org/4/ai387e/AI387E08.htm'),
+    ('Adkar P. P., Bhaskar V. H. (2014) – Pandanus odoratissimus (Kewda): A Review on Ethnopharmacology, Phytochemistry, and Nutritional Aspects (Tổng quan về dứa dại: dược lý dân tộc học, hóa thực vật, dinh dưỡng), Advances in Pharmacological Sciences', 'https://pmc.ncbi.nlm.nih.gov/articles/PMC4408760/'),
+    ('Thomson L. A. J. và cộng sự – Species Profiles for Pacific Island Agroforestry: Pandanus tectorius (Hồ sơ loài dứa dại cho nông lâm kết hợp đảo Thái Bình Dương), Traditional Tree Initiative', 'https://webarchive.library.unt.edu/web/20090116105445/http:/www.agroforestry.net/tti/P.tectorius-pandanus.pdf'),
+    ('Down To Earth – Smells like a fortune: Rising demand for kewda oil a blessing for 200,000 people in Odisha’s Ganjam (Nhu cầu tinh dầu kewda tăng cao là sinh kế cho 200.000 người ở Ganjam, Ấn Độ)', 'https://www.downtoearth.org.in/news/agriculture/smells-like-a-fortune-rising-demand-for-kewda-oil-a-blessing-for-200-000-people-in-odisha-s-ganjam-87223'),
+]
+NEW_RULES13.append(('n13_duadaicayquenvungvenbien', ['sóng thần', 'giữ cát', 'bãi cát', 'rễ chống', 'kewra', 'ven biển', 'lá dứa thơm', 'cát bay'], 34))
+
+# --- ruou-ba-kich-hay-tra-ba-kich ---
+SRC['n13_ruoubakichhaytrabakich'] = [
+    ('WHO châu Âu (2023) – No level of alcohol consumption is safe for our health (Không có mức uống rượu nào an toàn cho sức khỏe)', 'https://www.who.int/azerbaijan/news/item/04-01-2023-no-level-of-alcohol-consumption-is-safe-for-our-health'),
+    ('WHO (2024) – Over 3 million annual deaths due to alcohol and drug use, majority among men (Hơn 3 triệu ca tử vong mỗi năm do rượu và ma túy, phần lớn ở nam giới)', 'https://www.who.int/news/item/25-06-2024-over-3-million-annual-deaths-due-to-alcohol-and-drug-use-majority-among-men'),
+    ('NIAAA – Harmful Interactions: Mixing Alcohol with Medicines (Tương tác có hại khi uống rượu cùng thuốc)', 'https://niaaa.nih.gov/publications/brochures-and-fact-sheets/harmful-interactions-mixing-alcohol-with-medicines'),
+    ('Zhang J. H. và cộng sự (2018) – Morinda officinalis How. – A comprehensive review of traditional uses, phytochemistry and pharmacology (Tổng quan toàn diện về ba kích), Journal of Ethnopharmacology', 'https://pubmed.ncbi.nlm.nih.gov/29126988/'),
+    ('MedlinePlus – Methanol poisoning (Ngộ độc methanol), Thư viện Y khoa Quốc gia Hoa Kỳ', 'https://medlineplus.gov/ency/article/002680.htm'),
+]
+NEW_RULES13.append(('n13_ruoubakichhaytrabakich', ['rượu ba kích', 'trà ba kích', 'methanol', 'rượu ngâm', 'dung môi', 'ethanol', 'tương tác', 'đơn vị cồn'], 34))
+
+# ===== xau-ho-tim-tam-sen =====
+# --- tra-ngu-ngon-loai-nao-tot ---
+SRC['n13_trangungonloainaotot'] = [
+    ('Mayo Clinic – Caffeine content for coffee, tea, soda and more (Hàm lượng caffeine trong cà phê, trà, nước ngọt)', 'https://mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/caffeine/art-20049372'),
+    ('Hieu và cộng sự (2019) – Therapeutic efficacy and safety of chamomile for state anxiety, generalized anxiety disorder, insomnia, and sleep quality (Hiệu quả và an toàn của hoa cúc La Mã với lo âu, mất ngủ và chất lượng giấc ngủ: tổng quan hệ thống và phân tích gộp), Phytotherapy Research', 'https://pubmed.ncbi.nlm.nih.gov/31006899/'),
+    ('Leach & Page (2015) – Herbal medicine for insomnia: A systematic review and meta-analysis (Thảo dược cho chứng mất ngủ: tổng quan hệ thống và phân tích gộp), Sleep Medicine Reviews', 'https://pubmed.ncbi.nlm.nih.gov/25644982/'),
+    ('AASM – Sateia và cộng sự (2017) – Clinical Practice Guideline for the Pharmacologic Treatment of Chronic Insomnia in Adults (Hướng dẫn dùng thuốc cho mất ngủ mạn tính ở người lớn), Journal of Clinical Sleep Medicine', 'https://pmc.ncbi.nlm.nih.gov/articles/PMC5263087/'),
+    ('American College of Physicians (2016) – Management of Chronic Insomnia Disorder in Adults (Quản lý rối loạn mất ngủ mạn tính ở người trưởng thành), Annals of Internal Medicine', 'https://pubmed.ncbi.nlm.nih.gov/27136449/'),
+]
+NEW_RULES13.append(('n13_trangungonloainaotot', ['kava', 'nữ lang', 'tự công bố', 'tiêu chí', 'hoa cúc la mã', 'valerian', 'camellia sinensis', 'quảng cáo'], 31))
+
+# --- thuc-day-met-moi-du-ngu-du-vi-sao ---
+SRC['n13_thucdaymetmoidunguduvisao'] = [
+    ('Hilditch & McHill (2019) – Sleep inertia: current insights (Quán tính giấc ngủ: hiểu biết hiện nay), Nature and Science of Sleep', 'https://pmc.ncbi.nlm.nih.gov/articles/PMC6710480'),
+    ('Ohayon (2005) – Prevalence and correlates of nonrestorative sleep complaints (Tỷ lệ và các yếu tố liên quan đến than phiền giấc ngủ không phục hồi), Archives of Internal Medicine', 'https://read.qxmd.com/read/15642872/prevalence-and-correlates-of-nonrestorative-sleep-complaints'),
+    ('Benjafield và cộng sự (2019) – Estimation of the global prevalence and burden of obstructive sleep apnoea (Ước tính tỷ lệ và gánh nặng ngưng thở khi ngủ do tắc nghẽn toàn cầu), The Lancet Respiratory Medicine', 'https://pubmed.ncbi.nlm.nih.gov/31300334/'),
+    ('Wittmann và cộng sự (2006) – Social jetlag: misalignment of biological and social time (Lệch múi giờ xã hội: sự lệch pha giữa giờ sinh học và giờ xã hội), Chronobiology International', 'https://pubmed.ncbi.nlm.nih.gov/16687322/'),
+    ('CDC – IOM 2015 Diagnostic Criteria for ME/CFS (Tiêu chí chẩn đoán hội chứng mệt mỏi mạn tính của Viện Y học Hoa Kỳ 2015)', 'https://www.cdc.gov/me-cfs/hcp/diagnosis/iom-2015-diagnostic-criteria-1.html'),
+]
+NEW_RULES13.append(('n13_thucdaymetmoidunguduvisao', ['quán tính giấc ngủ', 'không phục hồi', 'thiếu máu', 'suy giáp', 'mệt mỏi', 'nhật ký giấc ngủ', 'ngủ đủ', 'lệch'], 36))
+
+# ===== ngay-dau-ve =====
+# --- ngai-cuu-co-tac-dung-gi ---
+SRC['n13_ngaicuucotacdunggi'] = [
+    ('Ekiert H. và cộng sự (2020) – Significance of Artemisia vulgaris L. (Common Mugwort) in the History of Medicine and Its Possible Contemporary Applications Substantiated by Phytochemical and Pharmacological Studies (Ngải cứu trong lịch sử y học và ứng dụng hiện đại theo nghiên cứu hóa thực vật, dược lý), Molecules', 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7583039/'),
+    ('Coyle M.E., Smith C.A., Peat B. (2023) – Cephalic version by moxibustion for breech presentation (Xoay ngôi đầu bằng cứu ngải cho thai ngôi mông), Cochrane Database of Systematic Reviews', 'https://cochranelibrary.com/cdsr/doi/10.1002/14651858.CD003928.pub4/information'),
+    ('NCCIH (NIH) – Mugwort (Ngải cứu: thông tin an toàn và bằng chứng)', 'https://www.nccih.nih.gov/health/mugwort'),
+    ('EMA – Public statement on the use of herbal medicinal products containing thujone (Tuyên bố khoa học về sản phẩm thảo dược chứa thujone)', 'https://www.ema.europa.eu/en/use-herbal-medicinal-products-containing-thujone-scientific-guideline'),
+    ('Paul-Ehrlich-Institut (2024) – New light on an old syndrome: Role of Api g 7 in mugwort pollen–related celery allergy (Vai trò của Api g 7 trong dị ứng cần tây liên quan phấn ngải)', 'https://em-consulte.com/article/1673359/new-light-on-an-old-syndrome-role-of-api-g-7-in-mu'),
+]
+NEW_RULES13.append(('n13_ngaicuucotacdunggi', ['ngôi mông', 'phấn ngải', 'cố gắng có thai', 'ngải diệp', 'tiền thai', 'dị ứng chéo'], 15))
+
+# --- magie-canxi-vitamin-b6-va-trieu-chung-tien-kinh ---
+SRC['n13_magiecanxivitaminb6va'] = [
+    ('Thys-Jacobs S. và cộng sự (1998) – Calcium carbonate and the premenstrual syndrome: Effects on premenstrual and menstrual symptoms (Canxi carbonate và hội chứng tiền kinh nguyệt), American Journal of Obstetrics and Gynecology', 'https://pubmed.ncbi.nlm.nih.gov/9731851/'),
+    ('Wyatt K.M. và cộng sự (1999) – Efficacy of vitamin B-6 in the treatment of premenstrual syndrome: systematic review (Hiệu quả của vitamin B6 với hội chứng tiền kinh nguyệt: tổng quan hệ thống), BMJ', 'https://pmc.ncbi.nlm.nih.gov/articles/PMC27878'),
+    ('NIH Office of Dietary Supplements – Vitamin B6: Fact Sheet for Health Professionals (Vitamin B6: thông tin cho nhân viên y tế)', 'https://ods.od.nih.gov/factsheets/Vitaminb6-HealthProfessional'),
+    ('NIH Office of Dietary Supplements – Magnesium: Fact Sheet for Health Professionals (Magie: thông tin cho nhân viên y tế)', 'https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/'),
+    ('EFSA (2023) – Scientific opinion on the tolerable upper intake level for vitamin B6 (Ý kiến khoa học về giới hạn trên dung nạp được của vitamin B6), EFSA Journal', 'https://pmc.ncbi.nlm.nih.gov/articles/PMC10189633'),
+]
+NEW_RULES13.append(('n13_magiecanxivitaminb6va', ['magie', 'canxi', 'vitamin b6', 'thys-jacobs', 'giới hạn trên', 'thần kinh ngoại biên', 'efsa', 'bertone-johnson'], 76))
+RULES[:0] = NEW_RULES13
+
+
 def refs_for(body):
     low = body.lower(); out = []
     for key, kws, n in RULES:

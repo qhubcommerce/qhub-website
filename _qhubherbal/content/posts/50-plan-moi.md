@@ -1493,3 +1493,123 @@ products: xau-ho-tim-tam-sen
 Các nguyên nhân thường gặp gây đổ mồ hôi đêm và khi nào cần đi khám.
 
 [[buy:xau-ho-tim-tam-sen]]
+
++++
+slug: top-5-tra-thao-moc-cho-phu-nu-hay
+title: Top 5 trà thảo mộc cho phụ nữ hay thức khuya
+desc: Top 5 trà thảo mộc cho phụ nữ hay thức khuya: tiêu chí chọn không caffeine, không đường, hương vị dễ uống, lưu ý an toàn và thói quen ngủ nghỉ nên đi kèm.
+cat: top
+date: 2026-11-24
+products: duong-nhan
++++
+Tiêu chí khách quan để chọn trà thảo mộc buổi tối cho phụ nữ hay thức khuya.
+
+[[buy:duong-nhan]]
+
++++
+slug: hai-chi-em-va-thu-thach-30-ngay-khong
+title: Hai chị em và thử thách 30 ngày không trà sữa
+desc: Câu chuyện hai chị em thử 30 ngày không trà sữa: lượng đường trong một ly, cách vượt cơn thèm, đồ uống thay thế không đường và bài học giữ thói quen bền lâu.
+cat: cau-chuyen
+date: 2026-11-24
+products: duong-nhan
++++
+Hành trình 30 ngày bỏ trà sữa của hai chị em và những gì họ học được.
+
+[[buy:duong-nhan]]
+
++++
+slug: ky-tu-ninh-ha-la-gi
+title: Kỷ tử Ninh Hạ là gì? Vì sao nổi tiếng và cách chọn
+desc: Kỷ tử Ninh Hạ là gì, vì sao vùng Ninh Hạ nổi tiếng, cách phân biệt kỷ tử thật giả, nhuộm màu, lưu huỳnh, cách bảo quản và lưu ý tương tác thuốc chống đông.
+cat: thao-moc
+date: 2026-11-24
+products: duong-nhan
++++
+Nguồn gốc, đặc điểm và cách chọn kỷ tử Ninh Hạ chất lượng.
+
+[[buy:duong-nhan]]
+
++++
+slug: tra-sua-bao-nhieu-calo-va-cach-giam-dan
+title: Trà sữa bao nhiêu calo và cách giảm dần
+desc: Một ly trà sữa bao nhiêu calo, bao nhiêu gram đường, topping nào nặng nhất; so với khuyến nghị đường của WHO và cách giảm dần mà không thấy thiếu thốn.
+cat: san-pham
+date: 2026-11-24
+products: la-oi-mix-la-sen
++++
+Lượng calo, đường trong trà sữa và lộ trình giảm dần thực tế.
+
+[[buy:la-oi-mix-la-sen]]
+
++++
+slug: nuoc-ngot-co-ga-va-suc-khoe
+title: Nước ngọt có ga và sức khỏe
+desc: Nước ngọt có ga ảnh hưởng sức khỏe thế nào: lượng đường mỗi lon, liên quan đến cân nặng, răng, tiểu đường type 2, loại không đường và cách bớt dần mỗi ngày.
+cat: cam-nang
+date: 2026-11-24
+products: la-oi-mix-la-sen
++++
+Nước ngọt có ga và những điều nên biết về đường, răng, cân nặng.
+
+[[buy:la-oi-mix-la-sen]]
+
++++
+slug: quan-ly-thoi-gian-de-bot-cang-thang-phuong
+title: Quản lý thời gian để bớt căng thẳng: phương pháp Pomodoro
+desc: Phương pháp Pomodoro là gì, cách áp dụng 25 phút làm – 5 phút nghỉ để bớt căng thẳng, biến thể cho dân văn phòng, sinh viên, lỗi thường gặp và cách giữ nhịp.
+cat: cam-nang
+date: 2026-11-24
+products: duong-tam-an
++++
+Cách dùng phương pháp Pomodoro để làm việc tập trung và bớt căng thẳng.
+
+[[buy:duong-tam-an]]
+
++++
+slug: cach-chon-ca-gai-leo-kho-chat-luong-tranh
+title: Cách chọn cà gai leo khô chất lượng, tránh hàng nhiễm tạp
+desc: Cách chọn cà gai leo khô chất lượng: nhận biết thân, lá, rễ đúng loài, dấu hiệu ẩm mốc, lẫn tạp, tẩm hóa chất, đọc nhãn nguồn gốc và bảo quản đúng tại nhà.
+cat: cam-nang
+date: 2026-11-24
+products: ca-gai-diep-ha-chau
++++
+Kinh nghiệm chọn mua và bảo quản cà gai leo khô chất lượng.
+
+[[buy:ca-gai-diep-ha-chau]]
+
++++
+slug: dua-dai-cay-quen-vung-ven-bien-va-cach
+title: Dứa dại: cây quen vùng ven biển và cách dùng truyền thống
+desc: Dứa dại là cây gì, mọc ở đâu ven biển Việt Nam, bộ phận nào được dân gian dùng, cách phân biệt với lá dứa thơm, lưu ý an toàn và những gì nghiên cứu ghi nhận.
+cat: cam-nang
+date: 2026-11-24
+products: nam-vuong
++++
+Đặc điểm cây dứa dại và cách người dân ven biển dùng theo kinh nghiệm.
+
+[[buy:nam-vuong]]
+
++++
+slug: thuc-day-met-moi-du-ngu-du-vi-sao
+title: Thức dậy mệt mỏi dù ngủ đủ: vì sao
+desc: Thức dậy mệt mỏi dù ngủ đủ giờ: chất lượng giấc ngủ, ngưng thở khi ngủ, quán tính giấc ngủ, thiếu máu, tuyến giáp, trầm cảm và khi nào cần đi khám bác sĩ.
+cat: cam-nang
+date: 2026-11-24
+products: xau-ho-tim-tam-sen
++++
+Các nguyên nhân khiến bạn thức dậy vẫn mệt dù ngủ đủ giờ.
+
+[[buy:xau-ho-tim-tam-sen]]
+
++++
+slug: magie-canxi-vitamin-b6-va-trieu-chung-tien-kinh
+title: Magie, canxi, vitamin B6 và triệu chứng tiền kinh nguyệt
+desc: Magie, canxi, vitamin B6 có liên quan gì đến triệu chứng tiền kinh nguyệt: bằng chứng nghiên cứu, thực phẩm giàu dưỡng chất, giới hạn an toàn và khi nào cần đi khám.
+cat: cam-nang
+date: 2026-11-24
+products: ngay-dau-ve
++++
+Vai trò của magie, canxi, vitamin B6 với hội chứng tiền kinh nguyệt.
+
+[[buy:ngay-dau-ve]]

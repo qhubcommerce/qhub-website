@@ -1954,3 +1954,219 @@ def refs_md(body):
     else:
         return ''
     return '\n'.join(lines) + '\n'
+
+
+# Đêm 14 (25/11/2026): cụm đặc thù đặt lên đầu RULES (URL lấy từ kết quả WebSearch)
+NEW_RULES14 = []
+
+# ===== duong-nhan =====
+
+# --- tra-duong-nhan-va-tra-duong-tam-an-khac ---
+SRC['n14_duongnhanvaduongtaman'] = [
+    ('Memorial Sloan Kettering Cancer Center – Lycium (Goji) – About Herbs (Kỷ tử: tương tác với warfarin, tăng INR)', 'https://www.mskcc.org/cancer-care/integrative-medicine/herbs/lycium'),
+    ('Subiza J. và cộng sự (1989) – Anaphylactic reaction after the ingestion of chamomile tea: a study of cross-reactivity with other composite pollens (Phản ứng phản vệ sau khi uống trà cúc La Mã: phản ứng chéo với phấn hoa họ Cúc), J Allergy Clin Immunol', 'https://pubmed.ncbi.nlm.nih.gov/2674263/'),
+    ('DermNet – Compositae allergy (Dị ứng cây họ Cúc)', 'https://dermnetnz.org/compositae-allergy'),
+    ('WHO (2015) – WHO calls on countries to reduce sugars intake among adults and children (Khuyến nghị giảm đường tự do)', 'https://www.who.int/news/item/04-03-2015-who-calls-on-countries-to-reduce-sugars-intake-among-adults-and-children'),
+    ('EFSA (2010) – EFSA sets European dietary reference values for nutrient intakes (Giá trị tham chiếu về nước: 2,0 lít/nữ, 2,5 lít/nam)', 'https://www.efsa.europa.eu/en/press/news/nda100326'),
+]
+NEW_RULES14.append(('n14_duongnhanvaduongtaman', ['lan chi', 'công thức 4 vị', 'dưỡng nhan và', 'hoa hồng, hoa nhài'], 13))
+
+# --- vitamin-c-va-lan-da ---
+SRC['n14_vitamincvalanda'] = [
+    ('NIH Office of Dietary Supplements – Vitamin C: Fact Sheet for Consumers (Vitamin C: nhu cầu khuyến nghị, nguồn thực phẩm, mức tối đa)', 'https://ods.od.nih.gov/factsheets/VitaminC-Consumer/'),
+    ('Linus Pauling Institute, Oregon State University – Vitamin C and Skin Health (Vitamin C và sức khỏe làn da)', 'https://lpi.oregonstate.edu/mic/health-disease/skin-health/vitamin-C'),
+    ('Pullar J.M., Carr A.C., Vissers M.C.M. (2017) – The Roles of Vitamin C in Skin Health (Vai trò của vitamin C với sức khỏe làn da), Nutrients', 'https://pmc.ncbi.nlm.nih.gov/articles/PMC5579659'),
+    ('Cosgrove M.C. và cộng sự (2007) – Dietary nutrient intakes and skin-aging appearance among middle-aged American women (Dinh dưỡng và biểu hiện lão hóa da ở phụ nữ Mỹ trung niên), Am J Clin Nutr', 'https://pubmed.ncbi.nlm.nih.gov/17921406/'),
+    ('Lee S. và cộng sự (2018) – Effect of different cooking methods on the content of vitamins and true retention in selected vegetables (Ảnh hưởng của cách nấu đến vitamin trong rau), Food Sci Biotechnol', 'https://pmc.ncbi.nlm.nih.gov/articles/PMC6049644'),
+    ('Vinmec – Nhu cầu vitamin C ở người trưởng thành theo khuyến nghị của Viện Dinh dưỡng', 'https://www.vinmec.com/vie/bai-viet/nhu-cau-vitamin-c-o-nguoi-truong-thanh-theo-khuyen-nghi-cua-vien-dinh-duong-vi'),
+]
+NEW_RULES14.append(('n14_vitamincvalanda', ['vitamin c', 'collagen', 'axit ascorbic', 'scorbut', 'quả ổi', 'ớt chuông', 'serum', 'viện dinh dưỡng'], 30))
+
+# --- chi-truong-nhom-marketing-va-tuan-le-kin-lich ---
+SRC['n14_chitruongnhommarketing'] = [
+    ('Microsoft WorkLab (2021) – Research Proves Your Brain Needs Breaks (Nghiên cứu điện não: não cần quãng nghỉ giữa các cuộc họp)', 'https://www.microsoft.com/en-us/worklab/work-trend-index/brain-research'),
+    ('Bailenson J.N. (2021) – Nonverbal Overload: A Theoretical Argument for the Causes of Zoom Fatigue (Bốn nguyên nhân gây mệt mỏi khi họp trực tuyến), Technology, Mind, and Behavior', 'https://vhil.stanford.edu/publications/social-interaction/nonverbal-overload-theoretical-argument-causes-zoom-fatigue'),
+    ('Albulescu P. và cộng sự (2022) – "Give me a break!" A systematic review and meta-analysis on the efficacy of micro-breaks (Hiệu quả của quãng nghỉ ngắn), PLOS ONE', 'https://pmc.ncbi.nlm.nih.gov/articles/PMC9432722/'),
+    ('UConn Today (2012) – Even Mild Dehydration Can Alter Mood (Armstrong và cộng sự: mất nước nhẹ ảnh hưởng tâm trạng ở phụ nữ trẻ)', 'https://today.uconn.edu/2012/02/even-mild-dehydration-can-alter-mood/'),
+    ('Microsoft (2023) – Work Trend Index: Will AI Fix Work? (Họp kém hiệu quả là yếu tố cản trở năng suất hàng đầu)', 'https://www.microsoft.com/en-us/worklab/work-trend-index/will-ai-fix-work'),
+    ('WHO (2015) – WHO calls on countries to reduce sugars intake among adults and children (Khuyến nghị giảm đường tự do)', 'https://www.who.int/news/item/04-03-2015-who-calls-on-countries-to-reduce-sugars-intake-among-adults-and-children'),
+]
+NEW_RULES14.append(('n14_chitruongnhommarketing', ['cuộc họp', 'microsoft', 'sóng beta', 'họp liền nhau', 'họp nội bộ'], 25))
+
+
+# ===== duong-tam-an =====
+
+# --- lam-viec-tu-xa-va-cam-giac-co-don ---
+SRC['n14_lamviectuxacodon'] = [
+    ('U.S. Surgeon General (2023) – Our Epidemic of Loneliness and Isolation (Khuyến cáo về đại dịch cô đơn và cô lập xã hội)', 'https://www.hhs.gov/sites/default/files/surgeon-general-social-connection-advisory.pdf'),
+    ('WHO (2025) – Social connection linked to improved health and reduced risk of early death (Báo cáo Ủy ban Kết nối Xã hội của WHO)', 'https://www.who.int/news/item/30-06-2025-social-connection-linked-to-improved-heath-and-reduced-risk-of-early-death'),
+    ('Holt-Lunstad J. và cộng sự (2010) – Social Relationships and Mortality Risk: A Meta-analytic Review (Quan hệ xã hội và nguy cơ tử vong: phân tích tổng hợp), PLoS Medicine', 'https://journals.plos.org/plosmedicine/article/info:doi/10.1371/journal.pmed.1000316'),
+    ('Gallup (2024) – Remote workers are lonelier than their office peers (Người làm việc từ xa cô đơn hơn đồng nghiệp ở văn phòng)', 'https://www.gallup.com/workplace/645566/remote-workers-lonelier-office-peers.aspx'),
+    ('Buffer – A Guide To Conquering Remote Work Loneliness (Hướng dẫn vượt qua cô đơn khi làm việc từ xa)', 'https://buffer.com/resources/remote-work-loneliness/'),
+]
+NEW_RULES14.append(('n14_lamviectuxacodon', ['cô đơn', 'làm việc từ xa', 'làm việc tại nhà', 'kết nối xã hội', 'cô lập xã hội', 'co-working', 'cà phê ảo', 'lẻ loi'], 30))
+
+# --- ranh-gioi-cong-viec-cuoc-song ---
+SRC['n14_ranhgioicongvieccuocsong'] = [
+    ('WHO (2019) – Burn-out an "occupational phenomenon": International Classification of Diseases (Kiệt sức là "hiện tượng nghề nghiệp" trong ICD-11)', 'https://www.who.int/news-room/detail/28-05-2019-burn-out-an-occupational-phenomenon-international-classification-of-diseases'),
+    ('WHO, ILO (2021) – Long working hours increasing deaths from heart disease and stroke (Làm việc nhiều giờ làm tăng tử vong do bệnh tim và đột quỵ)', 'https://www.who.int/news/item/17-05-2021-long-working-hours-increasing-deaths-from-heart-disease-and-stroke-who-ilo'),
+    ('Wendsche J., Lohmann-Haislah A. (2017) – A Meta-Analysis on Antecedents and Outcomes of Detachment from Work (Phân tích tổng hợp về tách rời tâm lý khỏi công việc), Frontiers in Psychology', 'https://www.frontiersin.org/articles/10.3389/fpsyg.2016.02072/full'),
+    ('Sonnentag S., Fritz C. (2015) – Recovery from job stress: The stressor-detachment model as an integrative framework (Mô hình tác nhân căng thẳng – tách rời), Journal of Organizational Behavior', 'https://madoc.bib.uni-mannheim.de/48525/'),
+    ('NPR (2024) – Australia is the latest country to give workers the \'right to disconnect\' after hours (Úc trao quyền ngắt kết nối ngoài giờ)', 'https://www.npr.org/2024/08/26/nx-s1-5089792/australia-right-to-disconnect-workers-respond-after-work'),
+    ('King & Spalding – The Right to Disconnect: A Comparative Analysis (Quyền ngắt kết nối: phân tích so sánh giữa các quốc gia)', 'https://www.kslaw.com/insights/articles/the-right-to-disconnect-a-comparative-analysis'),
+]
+NEW_RULES14.append(('n14_ranhgioicongvieccuocsong', ['ranh giới', 'ngắt kết nối', 'ngoài giờ', 'tách rời tâm lý', 'giờ kết thúc', 'nghỉ phép', 'tin nhắn công việc', 'kiệt sức'], 30))
+
+# --- thien-nhien-chua-lanh-tam-rung-shinrin-yoku ---
+SRC['n14_tamrungshinrinyoku'] = [
+    ('White M.P. và cộng sự (2019) – Spending at least 120 minutes a week in nature is associated with good health and wellbeing (Ít nhất 120 phút/tuần ở thiên nhiên liên quan tới sức khỏe tốt), Scientific Reports', 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6565732/'),
+    ('Park B.J. và cộng sự (2010) – The physiological effects of Shinrin-yoku: evidence from field experiments in 24 forests across Japan (Tác động sinh lý của tắm rừng ở 24 khu rừng Nhật Bản), Environmental Health and Preventive Medicine', 'https://pmc.ncbi.nlm.nih.gov/articles/PMC2793346/'),
+    ('Li Q. (2010) – Effect of forest bathing trips on human immune function (Ảnh hưởng của chuyến đi tắm rừng lên chức năng miễn dịch), Environmental Health and Preventive Medicine', 'https://pmc.ncbi.nlm.nih.gov/articles/PMC2793341'),
+    ('Bratman G.N. và cộng sự (2015) – Nature experience reduces rumination and subgenual prefrontal cortex activation (Trải nghiệm thiên nhiên giảm nghiền ngẫm), PNAS', 'https://pmc.ncbi.nlm.nih.gov/articles/PMC4507237'),
+    ('Wen Y. và cộng sự (2019) – Medical empirical research on forest bathing (Shinrin-yoku): a systematic review (Tổng quan hệ thống nghiên cứu y học về tắm rừng), Environmental Health and Preventive Medicine', 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6886167/'),
+    ('Kotera Y. và cộng sự (2022) – Effects of Shinrin-Yoku (Forest Bathing) and Nature Therapy on Mental Health: a Systematic Review and Meta-analysis (Tắm rừng, liệu pháp thiên nhiên và sức khỏe tinh thần), International Journal of Mental Health and Addiction', 'https://link.springer.com/article/10.1007/s11469-020-00363-4'),
+]
+NEW_RULES14.append(('n14_tamrungshinrinyoku', ['tắm rừng', 'shinrin-yoku', 'thiên nhiên', 'phytoncide', '120 phút', 'công viên', 'năm giác quan', 'tán cây'], 25))
+
+
+# ===== ca-gai-diep-ha-chau =====
+# --- duoc-lieu-dat-chuan-gacp-who-nghia-la-gi ---
+SRC['n14_duoclieudatchuangacpwho'] = [
+    ('WHO (2003) – WHO guidelines on good agricultural and collection practices (GACP) for medicinal plants (Hướng dẫn thực hành tốt nuôi trồng và thu hái cây thuốc)', 'https://www.who.int/publications/i/item/9241546271'),
+    ('Bộ Y tế (2019) – Thông tư 19/2019/TT-BYT ngày 30/7/2019 quy định Thực hành tốt nuôi trồng, thu hái dược liệu và các nguyên tắc, tiêu chuẩn khai thác dược liệu tự nhiên', 'https://thuvienphapluat.vn/van-ban/The-thao-Y-te/Thong-tu-19-2019-TT-BYT-quy-dinh-ve-thuc-hanh-tot-nuoi-trong-thu-hai-duoc-lieu-422422.aspx'),
+    ('Chính phủ (2018) – Nghị định 15/2018/NĐ-CP quy định chi tiết thi hành một số điều của Luật An toàn thực phẩm (tự công bố sản phẩm)', 'https://thuvienphapluat.vn/van-ban/the-thao-y-te/Nghi-dinh-15-2018-ND-CP-huong-dan-Luat-an-toan-thuc-pham-341254.aspx'),
+    ('PharmOut – What is the difference between GACP and GMP? (Khác biệt giữa GACP và GMP)', 'https://www.pharmout.net/news/what-is-the-difference-between-gacp-and-gmp/'),
+    ('Báo Lào Cai – Định hướng phát triển dược liệu Việt đạt tiêu chuẩn GACP-WHO', 'https://baolaocai.vn/dinh-huong-phat-trien-duoc-lieu-viet-dat-tieu-chuan-gacp-who-post880181.html'),
+]
+NEW_RULES14.append(('n14_duoclieudatchuangacpwho', ['gacp', 'thông tư 19/2019', 'vùng trồng', 'thu hái', 'truy xuất', 'gmp', 'đạo địa', 'tự công bố'], 40))
+
+# --- xa-den-co-tac-dung-gi ---
+SRC['n14_xadencotacdunggi'] = [
+    ('Bùi Thị Thanh Duyên, Vũ Mạnh Hùng, Bùi Thanh Tùng (2020) – Cytotoxicity and Antioxidant Effects of Celastrus hindsii Benth. Leaf Extract (Độc tính tế bào và hoạt tính chống oxy hóa của chiết xuất lá xạ đen), VNU Journal of Science: Medical and Pharmaceutical Sciences', 'https://js.vnu.edu.vn/MPS/article/view/4203'),
+    ('Viet T.D. và cộng sự (2019) – Comprehensive Fractionation of Antioxidants and GC-MS and ESI-MS Fingerprints of Celastrus hindsii Leaves (Phân đoạn chất chống oxy hóa và dấu vân tay hóa học của lá xạ đen), Medicines (MDPI)', 'https://www.mdpi.com/2305-6320/6/2/64'),
+    ('(2006) – Isolation and Characterization of Rosmarinic Acid Oligomers in Celastrus hindsii Benth Leaves and Their Antioxidative Activity (Oligomer acid rosmarinic trong lá xạ đen và hoạt tính chống oxy hóa), Journal of Agricultural and Food Chemistry', 'https://pubs.acs.org/doi/10.1021/jf052743f'),
+    ('(2024) – Anti-Inflammatory Effects of Hydroethanolic Extract from Ehretia asperula on Lipopolysaccharide-Stimulated RAW264.7 Macrophages (Tác dụng kháng viêm của chiết xuất Ehretia asperula trên đại thực bào RAW264.7)', 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11239405/'),
+    ('(2020) – Evaluation of Acute Toxicity and Semi-chronic Toxicity of Extract from Celastrus hindsii Benth (Đánh giá độc tính cấp và bán trường diễn của chiết xuất xạ đen), Pakistan Journal of Biological Sciences', 'https://pubmed.ncbi.nlm.nih.gov/32700861/'),
+    ('(2025) – Ehretia genus: a comprehensive review of its botany, ethnomedicinal values, phytochemistry, pharmacology, toxicology and clinical studies (Tổng quan về chi Ehretia), Frontiers in Pharmacology', 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11885236/'),
+]
+NEW_RULES14.append(('n14_xadencotacdunggi', ['raw264.7', 'rosmarinic', 'bác sĩ ung bướu', 'ống nghiệm', 'diệt tế bào', 'thang bằng chứng', 'độc tính cấp', 'năm cân xạ đen'], 18))
+
+# --- thuoc-nam-va-tuong-tac-thuoc-dieu-nguoi-dung ---
+SRC['n14_thuocnamtuongtacthuoc'] = [
+    ('NCCIH – Herb-Drug Interactions: What the Science Says (Tương tác thảo mộc – thuốc: khoa học nói gì)', 'https://www.nccih.nih.gov/health/providers/digest/herb-drug-interactions-science'),
+    ('Navarro V.J. và cộng sự (2014) – Liver injury from herbals and dietary supplements in the U.S. Drug-Induced Liver Injury Network (Tổn thương gan do thảo dược và thực phẩm bổ sung trong mạng lưới DILIN), Hepatology', 'https://pubmed.ncbi.nlm.nih.gov/25043597/'),
+    ('FDA – Grapefruit Juice and Some Drugs Don\'t Mix (Nước bưởi chùm và một số thuốc không nên dùng chung)', 'https://www.fda.gov/consumers/consumer-updates/grapefruit-juice-and-some-drugs-dont-mix'),
+    ('Medsafe New Zealand (2019) – Liquorice: side effects and interactions (Cam thảo: tác dụng không mong muốn và tương tác thuốc)', 'https://medsafe.govt.nz/profs/PUArticles/December2019/Liquorice-side-effects-interactions.htm'),
+    ('Bone K.M. (2008) – Potential interaction of Ginkgo biloba leaf with antiplatelet or anticoagulant drugs: what is the evidence? (Tương tác tiềm ẩn của bạch quả với thuốc chống kết tập tiểu cầu, chống đông), Mol Nutr Food Res', 'https://pubmed.ncbi.nlm.nih.gov/18214851/'),
+    ('Foley H. và cộng sự (2019) – Disclosure of complementary medicine use to medical providers: a systematic review and meta-analysis (Việc người bệnh báo cho nhân viên y tế về sử dụng y học bổ sung), Scientific Reports', 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6367405/'),
+]
+NEW_RULES14.append(('n14_thuocnamtuongtacthuoc', ['tương tác', 'cỏ st. john', 'cyp3a4', 'bưởi chùm', 'warfarin', 'dilin', 'digoxin', 'p-glycoprotein'], 35))
+
+
+# ===== nam-vuong =====
+# --- ruou-ngam-duoc-lieu-rui-ro-methanol-va-nhung ---
+SRC['n14_ruoungamduoclieumethanol'] = [
+    ('Médecins Sans Frontières (MSF) – Methanol poisoning: fact sheet Q&A (Hỏi đáp về ngộ độc methanol: triệu chứng xuất hiện muộn 12–24 giờ, xử trí tại bệnh viện)', 'https://methanolpoisoning.msf.org/wp-content/themes/msf/pdf/methanol_poisoning_fact_sheet_Q&A.pdf'),
+    ('Médecins Sans Frontières (MSF) – Methanol Poisoning Outbreaks Worldwide (Theo dõi các đợt ngộ độc methanol trên thế giới)', 'https://methanolpoisoning.msf.org/en/outbreaks-worldwide/'),
+    ('PAHO/WHO (07/10/2025) – Epidemiological Alert: Risk of Methanol Poisoning (Cảnh báo dịch tễ về nguy cơ ngộ độc methanol)', 'https://www.paho.org/en/documents/epidemiological-alert-risk-methanol-poisoning-7-october-2025'),
+    ('Báo Nhân Dân – Cảnh báo ngộ độc do uống rượu ngâm không rõ nguồn gốc', 'https://nhandan.vn/ocop/canh-bao-ngo-doc-do-uong-ruou-ngam-khong-ro-nguon-goc-post736436.html'),
+    ('CDC MMWR (2022) – Poisoning Associated with Consumption of a Homemade Medicinal Liquor — Chongqing, China, 2018 (Ngộ độc liên quan đến rượu thuốc tự ngâm tại Trùng Khánh, Trung Quốc)', 'https://pmc.ncbi.nlm.nih.gov/articles/PMC9042358/'),
+    ('Hospital Authority Hồng Kông – Toxic plant database: Gelsemium elegans (Lá ngón, cơ sở dữ liệu cây độc)', 'https://www3.ha.org.hk/toxicplant/en/gelsemium_elegans.html'),
+]
+NEW_RULES14.append(('n14_ruoungamduoclieumethanol', ['methanol', 'rượu ngâm', 'rượu nền', 'mã tiền', 'ấu tẩu', 'lá ngón', 'axit formic', 'cấp cứu'], 30))
+
+# --- 7-vi-thuoc-bo-than-trong-dong-y ---
+SRC['n14_7vionbothankhi'] = [
+    ('Zhang J.H. và cộng sự (2018) – Morinda officinalis How. – A comprehensive review of traditional uses, phytochemistry and pharmacology (Tổng quan về ba kích: công dụng truyền thống, hóa học, dược lý), Journal of Ethnopharmacology', 'https://pubmed.ncbi.nlm.nih.gov/29126988/'),
+    ('Gu C., Yang X., Huang L. (2016) – Cistanches Herba: A Neuropharmacology Review (Tổng quan dược lý thần kinh của nhục thung dung), Frontiers in Pharmacology', 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5028387/'),
+    ('Wang X. và cộng sự (2012) – Phytochemicals and biological studies of plants from the genus Balanophora (Hóa thực vật và hoạt tính sinh học chi Balanophora – nấm ngọc cẩu), Chemistry Central Journal', 'https://pmc.ncbi.nlm.nih.gov/articles/PMC3475005'),
+    ('(2021) – Traditional application and modern pharmacological research of Eucommia ulmoides Oliv. (Ứng dụng truyền thống và nghiên cứu dược lý hiện đại của đỗ trọng), Chinese Medicine', 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8349065/'),
+    ('Donnapee S. và cộng sự (2014) – Cuscuta chinensis Lam.: A systematic review on ethnopharmacology, phytochemistry and pharmacology (Tổng quan hệ thống về thỏ ty tử), Journal of Ethnopharmacology', 'https://pubmed.ncbi.nlm.nih.gov/25281912/'),
+    ('(2023) – Dipsacus and Scabiosa Species—The Source of Specialized Metabolites with High Biological Relevance: A Review (Tổng quan các loài Dipsacus – tục đoạn – và Scabiosa), Molecules', 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10180103/'),
+]
+NEW_RULES14.append(('n14_7vionbothankhi', ['đỗ trọng', 'tục đoạn', 'thỏ ty tử', 'eucommia', 'dipsacus', 'cuscuta', 'quy kinh'], 25))
+
+# --- ngu-du-giac-va-hormone-nam-moi-lien-he ---
+SRC['n14_ngudugiachormonenam'] = [
+    ('Leproult R., Van Cauter E. (2011) – Effect of 1 Week of Sleep Restriction on Testosterone Levels in Young Healthy Men (Một tuần ngủ 5 giờ làm giảm 10–15% testosterone ban ngày), JAMA', 'https://pmc.ncbi.nlm.nih.gov/articles/PMC4445839/'),
+    ('UChicago Medicine (2011) – Sleep loss lowers testosterone in healthy young men (Thiếu ngủ làm giảm testosterone ở nam giới trẻ khỏe)', 'https://www.uchicagomedicine.org/forefront/news/sleep-loss-lowers-testosterone-in-healthy-young-men'),
+    ('Luboshitzky R. và cộng sự (1999) – Relationship between rapid eye movement sleep and testosterone secretion in normal men (Giấc ngủ REM và sự tiết testosterone ở nam giới bình thường)', 'https://pubmed.ncbi.nlm.nih.gov/10591612/'),
+    ('Zhang X.B. và cộng sự (2014) – Efficacy of Continuous Positive Airway Pressure on Testosterone in Men with Obstructive Sleep Apnea: A Meta-Analysis (CPAP và testosterone ở nam giới ngưng thở khi ngủ: phân tích gộp)', 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4263732/'),
+    ('Bhasin S. và cộng sự (2018) – Testosterone Therapy in Men With Hypogonadism: An Endocrine Society Clinical Practice Guideline (Hướng dẫn của Hiệp hội Nội tiết Hoa Kỳ), J Clin Endocrinol Metab', 'https://pubmed.ncbi.nlm.nih.gov/29562364/'),
+    ('AASM & SRS (2015) – Seven or more hours of sleep per night: a health necessity for adults (Người trưởng thành cần ngủ từ 7 giờ trở lên mỗi đêm)', 'https://aasm.org/seven-or-more-hours-of-sleep-per-night-a-health-necessity-for-adults/'),
+]
+NEW_RULES14.append(('n14_ngudugiachormonenam', ['leproult', 'luboshitzky', 'cpap', 'endocrine society', 'đa ký giấc ngủ', 'ngủ hạn chế', '10–15%', 'testosterone ban'], 14))
+
+
+# ===== xau-ho-tim-tam-sen =====
+
+# --- tra-xau-ho-tim-tam-sen-uong-luc-nao ---
+SRC['n14_traxauhotimtamsenuongluc'] = [
+    ('AASM – Edinger và cộng sự (2021) – Behavioral and psychological treatments for chronic insomnia disorder in adults: an AASM clinical practice guideline (Hướng dẫn thực hành lâm sàng về liệu pháp hành vi, tâm lý cho mất ngủ mạn tính), Journal of Clinical Sleep Medicine', 'https://pmc.ncbi.nlm.nih.gov/articles/PMC7853203'),
+    ('Haghayegh và cộng sự (2019) – Before-bedtime passive body heating by warm shower or bath to improve sleep (Tắm ấm trước giờ ngủ và giấc ngủ: tổng quan hệ thống, phân tích gộp), Sleep Medicine Reviews', 'https://pubmed.ncbi.nlm.nih.gov/31102877/'),
+    ('Yen và cộng sự (2020) – Potential Risk of Higenamine Misuse in Sports: Evaluation of Lotus Plumule Extract Products and a Human Study (Nguy cơ higenamine trong thể thao: đánh giá sản phẩm tâm sen và nghiên cứu trên người), Nutrients', 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7070534/'),
+    ('Cleveland Clinic – Stop a full bladder from killing your sleep (Hạn chế tiểu đêm để giấc ngủ không bị gián đoạn)', 'https://health.clevelandclinic.org/stop-full-bladder-killing-sleep/'),
+    ('European Association of Urology (EAU) – Self-management of nocturia symptoms (Tự chăm sóc khi bị tiểu đêm)', 'https://patients.uroweb.org/condition/nocturia/treatment-options-nocturia/self-management-of-nocturia-symptoms'),
+]
+NEW_RULES14.append(('n14_traxauhotimtamsenuongluc', ['150–200 ml', 'uống lúc nào', 'đậy nắp', '1–2 tiếng trước', 'túi/tối', 'tối đa 2 túi', 'trước giờ ngủ 1–2'], 14))
+
+# --- tre-vi-thanh-nien-thuc-khuya-cha-me-nen ---
+SRC['n14_trevithanhnienthuckhuya'] = [
+    ('AASM – Paruthi và cộng sự (2016) – Recommended amount of sleep for pediatric populations: consensus statement (Khuyến nghị đồng thuận về thời lượng ngủ cho trẻ em, thanh thiếu niên), Journal of Clinical Sleep Medicine', 'https://pmc.ncbi.nlm.nih.gov/articles/PMC4877308'),
+    ('CDC – Wheaton và cộng sự (2018) – Short Sleep Duration Among Middle School and High School Students — United States, 2015 (Tình trạng ngủ thiếu ở học sinh trung học Mỹ), MMWR', 'https://www.cdc.gov/mmwr/volumes/67/wr/mm6703a1.htm'),
+    ('AAP – Adolescent Sleep Working Group (2014) – School start times for adolescents (Tuyên bố chính sách về giờ vào học của học sinh vị thành niên), Pediatrics', 'https://pmc.ncbi.nlm.nih.gov/articles/PMC8194457'),
+    ('Owens và AAP Adolescent Sleep Working Group (2014) – Insufficient sleep in adolescents and young adults: an update on causes and consequences (Ngủ không đủ ở vị thành niên và người trẻ: nguyên nhân và hậu quả), Pediatrics', 'https://www.pubmed.gov/25157012/'),
+    ('Hale & Guan (2015) – Screen time and sleep among school-aged children and adolescents: a systematic literature review (Thời gian màn hình và giấc ngủ ở trẻ tuổi đi học, vị thành niên), Sleep Medicine Reviews', 'https://pubmed.ncbi.nlm.nih.gov/25193149/'),
+    ('Chang và cộng sự (2015) – Evening use of light-emitting eReaders negatively affects sleep, circadian timing, and next-morning alertness (Đọc trên thiết bị phát sáng buổi tối ảnh hưởng giấc ngủ, nhịp sinh học), PNAS', 'https://pubmed.ncbi.nlm.nih.gov/25535358/'),
+]
+NEW_RULES14.append(('n14_trevithanhnienthuckhuya', ['tuổi teen', 'lùi pha', 'giờ vào học', 'vị thành niên', 'bắt con', 'thu điện thoại'], 20))
+
+
+# ===== ngay-dau-ve =====
+
+# --- uong-nuoc-ngai-cuu-co-tot-khong ---
+SRC['n14_uongnuocngaicuu'] = [
+    ('EMA/HMPC – Public statement on the use of herbal medicinal products containing thujone, Rev. 1 (Tuyên bố khoa học về sản phẩm thảo dược chứa thujone)', 'https://www.ema.europa.eu/en/use-herbal-medicinal-products-containing-thujone-scientific-guideline'),
+    ('Ekiert H. và cộng sự (2020) – Significance of Artemisia vulgaris L. (Common Mugwort) in the History of Medicine and Its Possible Contemporary Applications (Vai trò của ngải cứu trong lịch sử y học và ứng dụng hiện nay), Molecules', 'https://pubmed.ncbi.nlm.nih.gov/32992959/'),
+    ('Similar Allergenicity to Different Artemisia Species Is a Consequence of Highly Cross-Reactive Art v 1-Like Molecules (Dị ứng chéo giữa các loài Artemisia do phân tử giống Art v 1)', 'https://pmc.ncbi.nlm.nih.gov/articles/PMC6723817'),
+    ('WebMD – Mugwort: Uses, Side Effects, and More (Ngải cứu: công dụng, tác dụng phụ, thận trọng khi mang thai)', 'https://www.webmd.com/vitamins-supplements/mugwort'),
+    ('Đỗ Tất Lợi – Cây ngải cứu (ngải diệp), Những cây thuốc và vị thuốc Việt Nam', 'https://vnras.com/cay-ngai-cuu/'),
+]
+NEW_RULES14.append(('n14_uongnuocngaicuu', ['thujone', 'nước ngải', 'thay nước lọc', 'nấu loãng', 'art v 1', 'theo đợt', 'sắc đặc', 'tinh dầu ngải'], 40))
+
+# --- thuoc-giam-dau-bung-kinh-dung-dung-cach-va ---
+SRC['n14_thuocgiamdaubungkinh'] = [
+    ('Marjoribanks J. và cộng sự (2015) – Nonsteroidal anti-inflammatory drugs for dysmenorrhoea (NSAID cho đau bụng kinh), Cochrane Database of Systematic Reviews', 'https://cochranelibrary.com/cdsr/doi/10.1002/14651858.CD001751.pub3/information'),
+    ('ACOG – Dysmenorrhea: Painful Periods (Đau bụng kinh – hỏi đáp cho người bệnh)', 'https://www.acog.org/womens-health/faqs/dysmenorrhea-painful-periods'),
+    ('NHS – Period pain (Đau bụng kinh)', 'https://www.nhs.uk/conditions/period-pain/'),
+    ('McKenna K.A., Fogleman C.D. (2021) – Dysmenorrhea (Đau bụng kinh: tổng quan nhanh bằng chứng), American Family Physician', 'https://www.aafp.org/pubs/afp/issues/2021/0800/p164.html'),
+    ('FDA (2020) – FDA recommends avoiding use of NSAIDs in pregnancy at 20 weeks or later because they can result in low amniotic fluid (Tránh NSAID từ tuần thai 20 vì nguy cơ thiểu ối)', 'https://www.fda.gov/drugs/drug-safety-and-availability/fda-recommends-avoiding-use-nsaids-pregnancy-20-weeks-or-later-because-they-can-result-low-amniotic'),
+    ('FDA – Don\'t Double Up on Acetaminophen (Đừng dùng trùng paracetamol)', 'https://www.fda.gov/consumers/consumer-updates/dont-double-acetaminophen'),
+]
+NEW_RULES14.append(('n14_thuocgiamdaubungkinh', ['nsaid', 'ibuprofen', 'paracetamol', 'naproxen', 'acid mefenamic', 'thiểu ối', 'acetaminophen', 'cyclooxygenase'], 35))
+
+
+# ===== la-oi-mix-la-sen =====
+
+# --- an-toi-muon-co-hai-gi ---
+SRC['n14_antoimuoncohaigi'] = [
+    ('Gu C. và cộng sự (2020) – Metabolic Effects of Late Dinner in Healthy Volunteers: A Randomized Crossover Clinical Trial (Tác động chuyển hóa của bữa tối muộn ở người khỏe mạnh), J Clin Endocrinol Metab', 'https://pubmed.ncbi.nlm.nih.gov/32525525/'),
+    ('Vujović N. và cộng sự (2022) – Late isocaloric eating increases hunger, decreases energy expenditure, and modifies metabolic pathways in adults with overweight and obesity (Ăn muộn cùng lượng năng lượng làm tăng cảm giác đói, giảm tiêu hao năng lượng), Cell Metabolism', 'https://pubmed.ncbi.nlm.nih.gov/36198293/'),
+    ('Fujiwara Y. và cộng sự (2005) – Association between dinner-to-bed time and gastro-esophageal reflux disease (Khoảng cách từ bữa tối đến giờ ngủ và bệnh trào ngược dạ dày – thực quản), Am J Gastroenterol', 'https://pubmed.ncbi.nlm.nih.gov/16393212/'),
+    ('NIDDK – Eating, Diet, & Nutrition for GER & GERD (Ăn uống và dinh dưỡng cho người bị trào ngược dạ dày – thực quản)', 'https://www.niddk.nih.gov/health-information/digestive-diseases/acid-reflux-ger-gerd-adults/eating-diet-nutrition'),
+    ('Katz P.O. và cộng sự (2022) – ACG Clinical Guideline for the Diagnosis and Management of Gastroesophageal Reflux Disease (Hướng dẫn lâm sàng của Hội Tiêu hóa Hoa Kỳ về chẩn đoán và xử trí trào ngược), Am J Gastroenterol', 'https://pmc.ncbi.nlm.nih.gov/articles/8754510'),
+]
+NEW_RULES14.append(('n14_antoimuoncohaigi', ['ăn muộn', 'bữa muộn', 'tan làm', 'đói dồn', 'nửa khẩu phần'], 20))
+
+# --- ruou-bia-va-vong-eo ---
+SRC['n14_ruoubiavavongeo'] = [
+    ('WHO châu Âu (2023) – No level of alcohol consumption is safe for our health (Không có mức uống rượu bia nào an toàn cho sức khỏe), The Lancet Public Health', 'https://www.who.int/azerbaijan/news/item/04-01-2023-no-level-of-alcohol-consumption-is-safe-for-our-health'),
+    ('Bendsen N.T. và cộng sự (2013) – Is beer consumption related to measures of abdominal and general obesity? A systematic review and meta-analysis (Uống bia có liên quan đến béo bụng và béo phì không? Tổng quan hệ thống và phân tích gộp), Nutrition Reviews', 'https://www.pubmed.gov/23356635/'),
+    ('Suter P.M. và cộng sự (1992) – The effect of ethanol on fat storage in healthy subjects (Ảnh hưởng của cồn lên sự tích trữ mỡ ở người khỏe mạnh), N Engl J Med', 'https://pubmed.ncbi.nlm.nih.gov/1545851/'),
+    ('Alberti K.G., Zimmet P., Shaw J. (2005) – Mainstreaming the metabolic syndrome: a definitive definition (Tiêu chí IDF về hội chứng chuyển hóa và ngưỡng vòng eo theo chủng tộc), Med J Aust', 'https://www.mja.com.au/journal/2005/183/4/mainstreaming-metabolic-syndrome-definitive-definition'),
+    ('NHS – Calories in alcohol (Năng lượng trong rượu bia)', 'https://www.nhs.uk/live-well/alcohol-advice/calories-in-alcohol/'),
+    ('Quốc hội Việt Nam (2019) – Luật Phòng, chống tác hại của rượu, bia (Luật số 44/2019/QH14)', 'https://thuvienphapluat.vn/van-ban/The-thao-Y-te/Luat-Phong-chong-tac-hai-cua-ruou-bia-336620.aspx'),
+]
+NEW_RULES14.append(('n14_ruoubiavavongeo', ['bàn nhậu', 'bụng bia', '7 kcal', 'kcal mỗi gram', 'cơm rang', 'đồ nhắm', 'rượu bia và vòng eo'], 14))
+
+RULES[:0] = NEW_RULES14

@@ -1613,3 +1613,147 @@ products: ngay-dau-ve
 Vai trò của magie, canxi, vitamin B6 với hội chứng tiền kinh nguyệt.
 
 [[buy:ngay-dau-ve]]
+
++++
+slug: tra-duong-nhan-va-tra-duong-tam-an-khac
+title: Trà Dưỡng Nhan và Trà Dưỡng Tâm An khác nhau thế nào
+desc: Trà Dưỡng Nhan và Trà Dưỡng Tâm An khác nhau thế nào: so sánh thành phần, vai trò từng vị, hương vị, thời điểm uống, người cần lưu ý và cách chọn loại hợp với bạn.
+cat: san-pham
+date: 2026-11-25
+products: duong-nhan
++++
+So sánh khách quan hai dòng trà hương hoa và trà buổi tối của QHUB HERBAL.
+
+[[buy:duong-nhan]]
+
++++
+slug: vitamin-c-va-lan-da
+title: Vitamin C và làn da: ăn gì cho đủ mỗi ngày
+desc: Vitamin C và làn da: vai trò với collagen, nhu cầu mỗi ngày theo khuyến nghị, thực phẩm giàu vitamin C, cách chế biến giữ vitamin và khi nào cần hỏi bác sĩ.
+cat: cam-nang
+date: 2026-11-25
+products: duong-nhan
++++
+Vitamin C liên quan gì đến làn da và cách ăn đủ từ thực phẩm hằng ngày.
+
+[[buy:duong-nhan]]
+
++++
+slug: chi-truong-nhom-marketing-va-tuan-le-kin-lich
+title: Chị trưởng nhóm marketing và tuần lễ kín lịch họp
+desc: Câu chuyện một chị trưởng nhóm marketing giữa tuần lễ kín lịch họp: quản lý năng lượng, nghỉ giữa giờ, uống đủ nước, bỏ bớt trà sữa và nghi thức tách trà buổi chiều.
+cat: cau-chuyen
+date: 2026-11-25
+products: duong-nhan
++++
+Một tuần làm việc dày đặc và những thói quen nhỏ giúp giữ nhịp sống.
+
+[[buy:duong-nhan]]
+
++++
+slug: lam-viec-tu-xa-va-cam-giac-co-don
+title: Làm việc từ xa và cảm giác cô đơn
+desc: Làm việc từ xa và cảm giác cô đơn: vì sao người làm việc tại nhà dễ thấy lẻ loi, ảnh hưởng tới sức khỏe, cách giữ kết nối, nhịp sinh hoạt và khi nào cần tìm hỗ trợ.
+cat: cam-nang
+date: 2026-11-25
+products: duong-tam-an
++++
+Hiểu về cô đơn khi làm việc từ xa và cách giữ kết nối.
+
+[[buy:duong-tam-an]]
+
++++
+slug: thien-nhien-chua-lanh-tam-rung-shinrin-yoku
+title: Tắm rừng (shinrin-yoku): thiên nhiên và tâm trí thư thái
+desc: Tắm rừng (shinrin-yoku) là gì: nguồn gốc Nhật Bản, nghiên cứu về thời gian ở thiên nhiên và tâm trạng, cách thực hành ở công viên đô thị Việt Nam và lưu ý an toàn.
+cat: cam-nang
+date: 2026-11-25
+products: duong-tam-an
++++
+Thực hành tắm rừng và dành thời gian với thiên nhiên giữa đời sống đô thị.
+
+[[buy:duong-tam-an]]
+
++++
+slug: duoc-lieu-dat-chuan-gacp-who-nghia-la-gi
+title: Dược liệu đạt chuẩn GACP-WHO nghĩa là gì
+desc: Dược liệu đạt chuẩn GACP-WHO nghĩa là gì: nguyên tắc thực hành tốt trồng trọt và thu hái của WHO, quy định tại Việt Nam, khác gì GMP và cách người mua đọc nhãn.
+cat: cam-nang
+date: 2026-11-25
+products: ca-gai-diep-ha-chau
++++
+Giải thích tiêu chuẩn GACP-WHO cho dược liệu và cách người tiêu dùng hiểu đúng.
+
+[[buy:ca-gai-diep-ha-chau]]
+
++++
+slug: thuoc-nam-va-tuong-tac-thuoc-dieu-nguoi-dung
+title: Thuốc nam và tương tác thuốc: điều người dùng thuốc tây cần biết
+desc: Thuốc nam và tương tác thuốc: thảo mộc có thể ảnh hưởng thuốc chống đông, thuốc tiểu đường, huyết áp ra sao, nhóm người cần thận trọng và cách hỏi bác sĩ, dược sĩ.
+cat: cam-nang
+date: 2026-11-25
+products: ca-gai-diep-ha-chau
++++
+Những điều cần biết khi dùng thảo mộc cùng thuốc tây.
+
+[[buy:ca-gai-diep-ha-chau]]
+
++++
+slug: ruou-ngam-duoc-lieu-rui-ro-methanol-va-nhung
+title: Rượu ngâm dược liệu: rủi ro methanol và những điều cần biết
+desc: Rượu ngâm dược liệu có an toàn không: rủi ro ngộ độc methanol, rượu không rõ nguồn gốc, vị thuốc có độc khi ngâm, dấu hiệu ngộ độc cần cấp cứu và lưu ý khi uống.
+cat: cam-nang
+date: 2026-11-25
+products: nam-vuong
++++
+Rủi ro của rượu ngâm dược liệu và dấu hiệu ngộ độc methanol cần biết.
+
+[[buy:nam-vuong]]
+
++++
+slug: ngu-du-giac-va-hormone-nam-moi-lien-he
+title: Ngủ đủ giấc và hormone nam: mối liên hệ khoa học
+desc: Ngủ đủ giấc và hormone nam liên quan thế nào: testosterone tiết theo nhịp ngủ, nghiên cứu về thiếu ngủ, ngưng thở khi ngủ, cách cải thiện giấc ngủ và khi nào đi khám.
+cat: cam-nang
+date: 2026-11-25
+products: nam-vuong
++++
+Mối liên hệ giữa giấc ngủ và testosterone ở nam giới.
+
+[[buy:nam-vuong]]
+
++++
+slug: tre-vi-thanh-nien-thuc-khuya-cha-me-nen
+title: Trẻ vị thành niên thức khuya: cha mẹ nên làm gì
+desc: Trẻ vị thành niên thức khuya: vì sao nhịp sinh học tuổi teen lùi muộn, trẻ cần ngủ bao nhiêu, ảnh hưởng của điện thoại, cách cha mẹ đồng hành và khi nào cần đi khám.
+cat: cam-nang
+date: 2026-11-25
+products: xau-ho-tim-tam-sen
++++
+Hiểu nhịp ngủ tuổi teen và cách cha mẹ đồng hành cùng con.
+
+[[buy:xau-ho-tim-tam-sen]]
+
++++
+slug: thuoc-giam-dau-bung-kinh-dung-dung-cach-va
+title: Thuốc giảm đau bụng kinh: dùng đúng cách và lưu ý
+desc: Thuốc giảm đau bụng kinh: nhóm NSAID và paracetamol hoạt động thế nào, thời điểm uống hợp lý, liều an toàn, ai không nên dùng và khi nào đau bụng kinh cần đi khám.
+cat: cam-nang
+date: 2026-11-25
+products: ngay-dau-ve
++++
+Hiểu về thuốc giảm đau bụng kinh và cách dùng an toàn theo hướng dẫn.
+
+[[buy:ngay-dau-ve]]
+
++++
+slug: ruou-bia-va-vong-eo
+title: Rượu bia và vòng eo
+desc: Rượu bia và vòng eo: năng lượng trong rượu bia, ảnh hưởng tới mỡ bụng và chuyển hóa, vì sao vòng eo là chỉ số sức khỏe, cách giảm uống và khi nào nên đi khám.
+cat: cam-nang
+date: 2026-11-25
+products: la-oi-mix-la-sen
++++
+Rượu bia ảnh hưởng thế nào tới mỡ bụng và vòng eo.
+
+[[buy:la-oi-mix-la-sen]]

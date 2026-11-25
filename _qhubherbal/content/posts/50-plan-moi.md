@@ -1757,3 +1757,111 @@ products: la-oi-mix-la-sen
 Rượu bia ảnh hưởng thế nào tới mỡ bụng và vòng eo.
 
 [[buy:la-oi-mix-la-sen]]
+
++++
+slug: bao-quan-hoa-kho-lam-tra-the-nao-de
+title: Bảo quản hoa khô làm trà thế nào để không ẩm mốc
+desc: Bảo quản hoa khô làm trà: độ ẩm an toàn, lọ kín, hút ẩm, tránh nắng, cách nhận biết hoa bị mốc, mọt và vì sao nấm mốc trong thảo mộc khô cần được quan tâm.
+cat: thao-moc
+date: 2026-11-26
+products: duong-nhan
++++
+Cách giữ hoa khô làm trà luôn khô thơm, không ẩm mốc.
+
+[[buy:duong-nhan]]
+
++++
+slug: nguoi-tieu-duong-uong-tra-duong-nhan-duoc-khong
+title: Người tiểu đường uống Trà Dưỡng Nhan được không
+desc: Người tiểu đường uống Trà Dưỡng Nhan được không: thành phần, cỏ ngọt và táo đỏ, kỷ tử với thuốc, lưu ý khi đang dùng thuốc hạ đường huyết và vì sao cần hỏi bác sĩ.
+cat: san-pham
+date: 2026-11-26
+products: duong-nhan
++++
+Những điều người tiểu đường nên biết trước khi chọn một loại trà hoa.
+
+[[buy:duong-nhan]]
+
++++
+slug: collagen-uong-co-tac-dung-khong
+title: Collagen uống có tác dụng không? Nhìn từ bằng chứng
+desc: Collagen uống có tác dụng không: collagen được tiêu hóa thế nào, các phân tích gộp nói gì về da, chất lượng bằng chứng, an toàn và những điều quan trọng hơn cho làn da.
+cat: cam-nang
+date: 2026-11-26
+products: duong-nhan
++++
+Nhìn collagen uống qua lăng kính bằng chứng khoa học.
+
+[[buy:duong-nhan]]
+
++++
+slug: uong-nhieu-tra-thao-moc-co-hai-gan-khong
+title: Uống nhiều trà thảo mộc có hại gan không
+desc: Uống nhiều trà thảo mộc có hại gan không: tổn thương gan do thảo dược và thực phẩm bổ sung, vị cần thận trọng, dấu hiệu cảnh báo, cách uống hợp lý và khi nào cần đi khám.
+cat: cam-nang
+date: 2026-11-26
+products: ca-gai-diep-ha-chau
++++
+Hiểu đúng về trà thảo mộc và nguy cơ tổn thương gan.
+
+[[buy:ca-gai-diep-ha-chau]]
+
++++
+slug: tap-ta-chay-bo-hay-di-bo-chon-bai
+title: Tập tạ, chạy bộ hay đi bộ: chọn bài tập cho nam tuổi trung niên
+desc: Tập tạ, chạy bộ hay đi bộ cho nam trung niên: khuyến nghị WHO, lợi ích của sức mạnh cơ bắp và tim mạch, cách bắt đầu an toàn, lịch tập mẫu và khi nào cần khám trước.
+cat: cam-nang
+date: 2026-11-26
+products: nam-vuong
++++
+So sánh ba hình thức vận động phổ biến cho nam giới tuổi trung niên.
+
+[[buy:nam-vuong]]
+
++++
+slug: mat-ngu-sau-sinh-me-bim-can-biet-gi
+title: Mất ngủ sau sinh: mẹ bỉm cần biết gì
+desc: Mất ngủ sau sinh: vì sao mẹ bỉm khó ngủ dù rất mệt, khác gì thiếu ngủ do chăm con, liên quan trầm cảm sau sinh, cách chia ca đêm và khi nào cần đi khám.
+cat: cam-nang
+date: 2026-11-26
+products: xau-ho-tim-tam-sen
++++
+Hiểu về mất ngủ sau sinh và cách mẹ bỉm tìm lại giấc ngủ.
+
+[[buy:xau-ho-tim-tam-sen]]
+
++++
+slug: thuoc-tranh-thai-va-kinh-nguyet-nhung-thay-doi
+title: Thuốc tránh thai và kinh nguyệt: những thay đổi thường gặp
+desc: Thuốc tránh thai và kinh nguyệt: ra máu giữa kỳ, kinh ít hoặc mất kinh, chảy máu khi ngưng thuốc, thay đổi theo từng loại thuốc và khi nào cần đi khám phụ khoa.
+cat: cam-nang
+date: 2026-11-26
+products: ngay-dau-ve
++++
+Những thay đổi kinh nguyệt thường gặp khi dùng thuốc tránh thai.
+
+[[buy:ngay-dau-ve]]
+
++++
+slug: mo-noi-tang-la-gi-va-vi-sao-nguy
+title: Mỡ nội tạng là gì và vì sao nguy hiểm hơn mỡ dưới da
+desc: Mỡ nội tạng là gì, khác mỡ dưới da thế nào, vì sao liên quan tiểu đường, tim mạch, gan nhiễm mỡ, cách đo vòng eo và các thay đổi lối sống giúp giảm mỡ nội tạng.
+cat: cam-nang
+date: 2026-11-26
+products: la-oi-mix-la-sen
++++
+Hiểu về mỡ nội tạng và vì sao vòng eo là chỉ số đáng theo dõi.
+
+[[buy:la-oi-mix-la-sen]]
+
++++
+slug: am-nhac-va-thu-gian-khoa-hoc-noi-gi
+title: Âm nhạc và thư giãn: khoa học nói gì
+desc: Âm nhạc và thư giãn: nghiên cứu nói gì về nhạc với căng thẳng, nhịp tim, giấc ngủ; chọn nhạc thế nào, nghe bao lâu, nhạc trị liệu là gì và khi nào cần tìm hỗ trợ.
+cat: cam-nang
+date: 2026-11-26
+products: duong-tam-an
++++
+Khoa học về âm nhạc và cảm giác thư giãn.
+
+[[buy:duong-tam-an]]

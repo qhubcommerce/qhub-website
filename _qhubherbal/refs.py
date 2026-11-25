@@ -2170,3 +2170,218 @@ SRC['n14_ruoubiavavongeo'] = [
 NEW_RULES14.append(('n14_ruoubiavavongeo', ['bàn nhậu', 'bụng bia', '7 kcal', 'kcal mỗi gram', 'cơm rang', 'đồ nhắm', 'rượu bia và vòng eo'], 14))
 
 RULES[:0] = NEW_RULES14
+
+
+# Đêm 15 (26/11/2026): cụm đặc thù đặt lên đầu RULES (URL lấy từ kết quả WebSearch)
+NEW_RULES15 = []
+
+# ===== duong-nhan =====
+# --- bao-quan-hoa-kho-lam-tra-the-nao-de ---
+SRC['n15_baoquanhoakho'] = [
+    ('WHO – Tờ thông tin về độc tố vi nấm (Mycotoxins)', 'https://www.who.int/news-room/fact-sheets/detail/mycotoxins'),
+    ('Trucksess & Scott (2008) – Độc tố vi nấm trong thực vật làm thảo dược và quả khô: tổng quan, Food Additives & Contaminants', 'https://pubmed.ncbi.nlm.nih.gov/18286408/'),
+    ('WHO – Hướng dẫn thực hành tốt trồng trọt và thu hái cây thuốc (GACP)', 'https://www.who.int/publications/i/item/9241546271'),
+    ('Bộ Nông nghiệp tỉnh Manitoba (Canada) – Hàm ẩm và hoạt độ nước: hai yếu tố ảnh hưởng an toàn thực phẩm', 'https://gov.mb.ca/agriculture/food-safety/education-resources/water-content-water-activity.html'),
+    ('Texas A&M AgriLife Extension – Bảo quản thảo mộc và gia vị khô', 'https://agrilifeextension.tamu.edu/wp-content/uploads/2025/04/Storing-Dried-Herbs-Spices.pdf'),
+    ('Penn State Extension – Mọt thuốc lá (Lasioderma serricorne)', 'https://extension.psu.edu/cigarette-beetle'),
+]
+NEW_RULES15.append(('n15_baoquanhoakho', ['hoa khô', 'nấm mốc', 'độc tố vi nấm', 'hoạt độ nước', 'gói hút ẩm', 'lọ kín', 'aflatoxin', 'mọt'], 44))
+
+# --- nguoi-tieu-duong-uong-tra-duong-nhan-duoc-khong ---
+SRC['n15_tieuduongduongnhan'] = [
+    ('EFSA (2010) – EFSA đánh giá an toàn của steviol glycoside (ADI 4 mg/kg cân nặng/ngày)', 'https://www.efsa.europa.eu/en/press/news/ans100414'),
+    ('Mayo Clinic – Chất tạo ngọt nhân tạo có ảnh hưởng đến đường huyết không?', 'https://www.mayoclinic.org/diseases-conditions/diabetes/expert-answers/artificial-sweeteners/faq-20058038'),
+    ('WHO (2023) – Khuyến cáo không dùng chất tạo ngọt không đường để kiểm soát cân nặng', 'https://www.who.int/news/item/15-05-2023-who-advises-not-to-use-non-sugar-sweeteners-for-weight-control-in-newly-released-guideline'),
+    ('Memorial Sloan Kettering Cancer Center – Thông tin thảo dược: Cordyceps', 'https://www.mskcc.org/cancer-care/integrative-medicine/herbs/cordyceps'),
+    ('CDC – Xử trí hạ đường huyết (quy tắc 15–15)', 'https://www.cdc.gov/diabetes/treatment/treatment-low-blood-sugar-hypoglycemia.html'),
+]
+NEW_RULES15.append(('n15_tieuduongduongnhan', ['steviol', 'warfarin', 'dưỡng nhan', 'hạ đường huyết', 'đường huyết'], 50))
+
+# --- collagen-uong-co-tac-dung-khong ---
+SRC['n15_collagenuong'] = [
+    ('Phân tích gộp (2025) – Tác dụng của collagen bổ sung lên lão hóa da: tổng quan hệ thống và phân tích gộp thử nghiệm ngẫu nhiên, The American Journal of Medicine', 'https://www.amjmed.com/article/S0002-9343(25)00283-9/abstract'),
+    ('Pu và cộng sự (2023) – Tác dụng của collagen uống chống lão hóa da: tổng quan hệ thống và phân tích gộp, Nutrients', 'https://pmc.ncbi.nlm.nih.gov/articles/PMC10180699/'),
+    ('de Miranda và cộng sự (2021) – Tác dụng của collagen thủy phân lên lão hóa da: tổng quan hệ thống và phân tích gộp, International Journal of Dermatology', 'https://www.pubmed.gov/33742704/'),
+    ('Iwai và cộng sự (2005) – Xác định peptide collagen từ thực phẩm trong máu người sau khi uống gelatin thủy phân, Journal of Agricultural and Food Chemistry', 'https://pubmed.ncbi.nlm.nih.gov/16076145/'),
+    ('Hội Bác sĩ Nội khoa Hoa Kỳ (ACP) – Dùng kem chống nắng hằng ngày làm chậm lão hóa da, kể cả ở tuổi trung niên (Hughes và cộng sự, 2013)', 'https://www.acponline.org/acp-newsroom/daily-sunscreen-use-slows-skin-aging-even-in-middle-age'),
+    ('NIH Office of Dietary Supplements – Vitamin C: tờ thông tin cho nhân viên y tế', 'https://ods.od.nih.gov/factsheets/vitaminC-HealthProfessional/'),
+]
+NEW_RULES15.append(('n15_collagenuong', ['collagen', 'phân tích gộp', 'kem chống nắng', 'độ đàn hồi', 'nguồn tài trợ', 'peptide', 'thủy phân'], 62))
+
+
+# ===== ca-gai-diep-ha-chau =====
+# --- giao-co-lam-co-tac-dung-gi ---
+SRC['n15_giaocolamtacdung'] = [
+    ('Huyen VTT và cộng sự (2010) – Thử nghiệm trà giảo cổ lam ở người đái tháo đường type 2 mới chẩn đoán tại Hà Nội, Hormone and Metabolic Research 42(5):353-357', 'https://www.thieme-connect.com/products/all/doi/10.1055/s-0030-1248298'),
+    ('Huyen VTT và cộng sự (2013) – Trà giảo cổ lam cải thiện độ nhạy insulin ở người đái tháo đường type 2, Journal of Nutrition and Metabolism', 'https://doaj.org/article/e5fc18d83871490b8acda0fd878f6c6e'),
+    ('Park SH và cộng sự (2014) – Chiết xuất giảo cổ lam (actiponin) ở người béo phì: thử nghiệm ngẫu nhiên, mù đôi, có đối chứng giả dược, Obesity (PubMed)', 'https://pubmed.ncbi.nlm.nih.gov/23804546/'),
+    ('Tổng quan (2021) – Giá trị dược liệu, hoạt chất và tác dụng dược lý của Gynostemma pentaphyllum, Molecules (PMC)', 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8540791/'),
+    ('Tổng quan (2025) – Gypenoside: tiến bộ nghiên cứu về hoạt tính dược lý và cơ chế (PMC)', 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12571879/'),
+    ('RxList – Jiaogulan (giảo cổ lam): công dụng, tác dụng phụ, tương tác thuốc', 'https://www.rxlist.com/supplements/jiaogulan.htm'),
+]
+NEW_RULES15.append(('n15_giaocolamtacdung', ['actiponin', 'thuốc tiểu đường', 'sắp phẫu thuật', 'béo phì', 'run tay', 'giảo cổ lam có tác dụng', 'ức chế miễn dịch', 'gypenoside'], 21))
+
+# --- uong-nhieu-tra-thao-moc-co-hai-gan-khong ---
+SRC['n15_trathaomochaigan'] = [
+    ('Navarro VJ và cộng sự (2014) – Tổn thương gan do thảo dược và thực phẩm bổ sung trong mạng lưới DILIN Hoa Kỳ, Hepatology (PubMed)', 'https://pubmed.ncbi.nlm.nih.gov/25043597/'),
+    ('EFSA (2018) – Đánh giá an toàn của catechin trà xanh (thông cáo báo chí)', 'https://www.efsa.europa.eu/en/press/news/180418'),
+    ('NCCIH – NIH – Kava: thông tin sức khỏe và cảnh báo tổn thương gan', 'https://www.nccih.nih.gov/health/kava'),
+    ('Halegoua-DeMarzio D và cộng sự (2022) – Tổn thương gan liên quan đến nghệ: 10 ca từ mạng lưới DILIN, American Journal of Medicine (PubMed)', 'https://pubmed.ncbi.nlm.nih.gov/36252717/'),
+    ('Posadzki P, Watson L, Ernst E (2013) – Nhiễm bẩn và pha trộn trong sản phẩm thảo dược: tổng quan các tổng quan hệ thống, European Journal of Clinical Pharmacology (PubMed)', 'https://pubmed.ncbi.nlm.nih.gov/22843016/'),
+    ('Mayo Clinic – Viêm gan nhiễm độc (toxic hepatitis): triệu chứng và nguyên nhân', 'https://www.mayoclinic.org/diseases-conditions/toxic-hepatitis/symptoms-causes/syc-20352202'),
+]
+NEW_RULES15.append(('n15_trathaomochaigan', ['tổn thương gan', 'dilin', 'livertox', 'thực phẩm bổ sung', 'egcg', 'hại gan', 'kava', 'comfrey'], 34))
+
+# --- ba-bau-uong-ca-gai-leo-duoc-khong ---
+SRC['n15_babaucagaileo'] = [
+    ('MotherToBaby – Sản phẩm thảo dược trong thai kỳ (tờ thông tin)', 'https://mothertobaby.org/fact-sheets/herbal-products-pregnancy/'),
+    ('Tổng quan tường thuật (2018) – Mang thai và thảo dược: một rủi ro không cần thiết cho sức khỏe phụ nữ, Phytotherapy Research (PubMed)', 'https://pubmed.ncbi.nlm.nih.gov/29417644/'),
+    ('WebMD – Chanca piedra (Phyllanthus niruri): lợi ích và lưu ý an toàn', 'https://www.webmd.com/diet/health-benefits-chanca-piedra'),
+    ('WHO (29/3/2024) – WHO công bố hướng dẫn cập nhật về viêm gan B', 'https://www.who.int/news/item/29-03-2024-who-publishes-updated-guidelines-on-hepatitis-b'),
+    ('NHS – Ngứa và ứ mật trong gan thai kỳ (intrahepatic cholestasis of pregnancy)', 'https://www.nhs.uk/pregnancy/related-conditions/complications/itching-and-intrahepatic-cholestasis/'),
+    ('Healthline – Chanca piedra: công dụng, tác dụng phụ và đối tượng nên tránh', 'https://healthline.com/nutrition/chanca-piedra'),
+]
+NEW_RULES15.append(('n15_babaucagaileo', ['mang thai', 'thai kỳ', 'mẹ bầu', 'cho con bú', 'phyllanthus', 'ứ mật', 'chanca piedra'], 51))
+
+
+# ===== nam-vuong =====
+
+# --- dua-dai-co-tac-dung-gi ---
+SRC['n15_duadaitacdung'] = [
+    ('Adkar P. P., Bhaskar V. H. (2014) – Pandanus odoratissimus (Kewda): A Review on Ethnopharmacology, Phytochemistry, and Nutritional Aspects (Tổng quan về dứa dại: dược lý dân tộc học, hóa thực vật, dinh dưỡng), Advances in Pharmacological Sciences', 'https://pmc.ncbi.nlm.nih.gov/articles/PMC4408760/'),
+    ('Setiani L. A. và cộng sự (2025) – Phytochemical Profile and Pharmacological Mechanisms of Pandanus tectorius Fruit: A Comprehensive Review (Tổng quan hóa thực vật và dược lý quả dứa dại), Jurnal Jamu Indonesia', 'https://jamu-journal.ipb.ac.id/index.php/JJI/article/view/374'),
+    ('Englberger L. và cộng sự (2006) – Carotenoid content of pandanus fruit cultivars and other foods of the Republic of Kiribati (Hàm lượng carotenoid của các giống quả Pandanus ở Kiribati), Public Health Nutrition', 'https://core-prod.cambridgecore.org/core/journals/public-health-nutrition/article/carotenoid-content-of-pandanus-fruit-cultivars-and-other-foods-of-the-republic-of-kiribati/5218473E89962CA7559232DDA817901E'),
+    ('Thomson L. A. J. và cộng sự – Species Profiles for Pacific Island Agroforestry: Pandanus tectorius (Hồ sơ loài dứa dại cho nông lâm kết hợp đảo Thái Bình Dương), Traditional Tree Initiative', 'https://webarchive.library.unt.edu/web/20090116105445/http:/www.agroforestry.net/tti/P.tectorius-pandanus.pdf'),
+    ('Laksanalamai V., Ilangantileke S. (1993) – Comparison of aroma compound (2-acetyl-1-pyrroline) in leaves from pandan (Pandanus amaryllifolius) and Thai fragrant rice (So sánh chất thơm 2-acetyl-1-pyrroline ở lá dứa thơm và gạo thơm Thái Lan), Cereal Chemistry', 'https://cerealsgrains.org/publications/cc/backissues/1993/Documents/CC1993a80.html'),
+    ('Pyevich D., Bogenschutz M. P. (2001) – Herbal Diuretics and Lithium Toxicity (Thảo dược lợi tiểu và ngộ độc lithium), American Journal of Psychiatry', 'https://psychiatryonline.org/doi/10.1176/appi.ajp.158.8.1329'),
+]
+NEW_RULES15.append(('n15_duadaitacdung', ['pandanus', 'calci oxalat', 'kiribati', 'carotenoid', 'lá dứa thơm', 'rễ chống', 'lợi tiểu'], 32))
+
+# --- tap-ta-chay-bo-hay-di-bo-chon-bai ---
+SRC['n15_taptachaybo'] = [
+    ('Bull F. C. và cộng sự (2020) – World Health Organization 2020 guidelines on physical activity and sedentary behaviour (Hướng dẫn của WHO 2020 về vận động thể lực và hành vi tĩnh tại), British Journal of Sports Medicine', 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7719906/'),
+    ('Paluch A. E. và cộng sự (2022) – Daily steps and all-cause mortality: a meta-analysis of 15 international cohorts (Số bước mỗi ngày và tử vong: phân tích gộp 15 nhóm nghiên cứu), The Lancet Public Health', 'https://pubmed.ncbi.nlm.nih.gov/35247352/'),
+    ('Momma H. và cộng sự (2022) – Muscle-strengthening activities are associated with lower risk and mortality in major non-communicable diseases (Tập sức mạnh cơ bắp và nguy cơ tử vong, bệnh không lây nhiễm: phân tích gộp), British Journal of Sports Medicine', 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9209691/'),
+    ('Fragala M. S. và cộng sự (2019) – Resistance Training for Older Adults: Position Statement From the National Strength and Conditioning Association (Tuyên bố quan điểm của NSCA về tập sức mạnh cho người cao tuổi), Journal of Strength and Conditioning Research', 'https://pubmed.ncbi.nlm.nih.gov/31343601/'),
+    ('Harvard Health Publishing – Preserve your muscle mass (Giữ gìn khối cơ khi có tuổi)', 'https://www.health.harvard.edu/staying-healthy/preserve-your-muscle-mass'),
+    ('Lopes A. D. và cộng sự (2012) – What are the main running-related musculoskeletal injuries? A Systematic Review (Các chấn thương cơ xương chính ở người chạy bộ: tổng quan hệ thống), Sports Medicine', 'https://pubmed.ncbi.nlm.nih.gov/22827721/'),
+]
+NEW_RULES15.append(('n15_taptachaybo', ['tập sức mạnh', 'đi bộ nhanh', 'chạy bộ', 'tập tạ', 'bước/ngày', 'cường độ vừa', 'sarcopenia', 'khởi động'], 45))
+
+# --- vi-sao-cong-thuc-bo-can-vi-mat ---
+SRC['n15_bocanvimat'] = [
+    ('Frontiers in Pharmacology (2021) – A Song of Ice and Fire: Cold and Hot Properties of Traditional Chinese Medicines (Tính hàn và tính nhiệt của vị thuốc cổ truyền: tổng quan)', 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7851091/'),
+    ('(2024) – Desmodium styracifolium: botanical and ethnopharmacological insights, phytochemical investigations, and prospects in pharmacology and pharmacotherapy (Tổng quan về kim tiền thảo)', 'https://pmc.ncbi.nlm.nih.gov/articles/PMC10838797/'),
+    ('Pyevich D., Bogenschutz M. P. (2001) – Herbal Diuretics and Lithium Toxicity (Thảo dược lợi tiểu và ngộ độc lithium), American Journal of Psychiatry', 'https://psychiatryonline.org/doi/10.1176/appi.ajp.158.8.1329'),
+]
+NEW_RULES15.append(('n15_bocanvimat', ['phối ngũ', 'tứ khí', 'ngũ vị', 'tam bổ', 'tá chế', 'nóng trong', 'lục vị', 'phối vị'], 19))
+
+
+# ===== xau-ho-tim-tam-sen =====
+# --- gia-tra-xau-ho-tim-tam-sen ---
+SRC['n15_giaxht'] = [
+    ('Chính phủ (2017) – Nghị định 43/2017/NĐ-CP về nhãn hàng hóa', 'https://caselaw.vn/van-ban-phap-luat/316295-nghi-dinh-so-43-2017-nd-cp-ngay-14-04-2017-cua-chinh-phu-ve-nhan-hang-hoa'),
+    ('Chính phủ (2021) – Nghị định 111/2021/NĐ-CP sửa đổi, bổ sung Nghị định 43/2017/NĐ-CP về nhãn hàng hóa', 'https://thuvienphapluat.vn/van-ban/thuong-mai/Nghi-dinh-111-2021-ND-CP-sua-doi-Nghi-dinh-43-2017-ND-CP-497099.aspx'),
+    ('Quốc hội (2023) – Luật Bảo vệ quyền lợi người tiêu dùng số 19/2023/QH15', 'https://luatvietnam.vn/thuong-mai/luat-bao-ve-quyen-loi-nguoi-tieu-dung-2023-so-19-2023-qh15-259732-d1.html'),
+    ('Bộ Công Thương (2024) – Luật Bảo vệ quyền lợi người tiêu dùng năm 2023 chính thức có hiệu lực từ ngày 1/7/2024', 'https://moit.gov.vn/tin-tuc/thong-bao/luat-bao-ve-quyen-loi-nguoi-tieu-dung-nam-2023-chinh-thuc-co-hieu-luc-tu-ngay-1-7-2024.html'),
+]
+NEW_RULES15.append(('n15_giaxht', ['chính hãng', 'đọc nhãn', 'hạn sử dụng', 'nhãn hàng hóa', 'người tiêu dùng', 'đổi trả', 'mỗi gói', 'trôi nổi'], 19))
+
+# --- mat-ngu-sau-sinh-me-bim-can-biet-gi ---
+SRC['n15_matngusausinh'] = [
+    ('WHO – Sức khỏe tâm thần chu sinh (Perinatal mental health)', 'https://www.who.int/teams/mental-health-and-substance-use/promotion-prevention/perinatal-mental-health'),
+    ('Cox JL, Holden JM, Sagovsky R (1987) – Phát hiện trầm cảm sau sinh: thang EPDS 10 câu, British Journal of Psychiatry', 'https://resolve.cambridge.org/core/journals/the-british-journal-of-psychiatry/article/abs/detection-of-postnatal-depression/E18BC62858DBF2640C33DCC8B572F02A'),
+    ('Moon RY và cộng sự, AAP (2022) – Tử vong trẻ sơ sinh liên quan giấc ngủ: khuyến nghị cập nhật 2022, Pediatrics', 'https://pubmed.ncbi.nlm.nih.gov/35726558/'),
+    ('NHS – Loạn thần sau sinh (Postpartum psychosis)', 'https://www.nhs.uk/mental-health/conditions/post-partum-psychosis/'),
+    ('Office on Women\'s Health (womenshealth.gov) – Trầm cảm sau sinh', 'https://www.womenshealth.gov/mental-health/mental-health-conditions/postpartum-depression'),
+    ('UCSF (2021) – Liệu pháp kỹ thuật số cho mất ngủ khi mang thai có thể giúp phòng trầm cảm sau sinh', 'https://www.ucsf.edu/news/2021/12/421921/digital-therapy-prenatal-insomnia-may-prevent-postpartum-depression'),
+]
+NEW_RULES15.append(('n15_matngusausinh', ['sau sinh', 'mẹ bỉm', 'cho con bú', 'epds', 'chia ca', 'ngủ chung', 'loạn thần'], 35))
+
+# --- tra-thao-moc-co-thay-duoc-thuoc-ngu-khong ---
+SRC['n15_trathaythuocngu'] = [
+    ('Qaseem A và cộng sự, ACP (2016) – Quản lý rối loạn mất ngủ mạn tính ở người lớn: hướng dẫn thực hành lâm sàng, Annals of Internal Medicine', 'https://pubmed.ncbi.nlm.nih.gov/27136449/'),
+    ('Sateia MJ và cộng sự, AASM (2017) – Hướng dẫn dùng thuốc cho mất ngủ mạn tính ở người lớn, Journal of Clinical Sleep Medicine', 'https://pmc.ncbi.nlm.nih.gov/articles/PMC5263087/'),
+    ('FDA (2019) – Cảnh báo đóng khung cho một số thuốc mất ngủ (eszopiclone, zaleplon, zolpidem) vì hành vi phức tạp khi ngủ', 'https://www.fda.gov/drugs/drug-safety-and-availability/fda-adds-boxed-warning-risk-serious-injuries-caused-sleepwalking-certain-prescription-insomnia'),
+    ('American Family Physician (2019) – Giảm dần thuốc chủ vận thụ thể benzodiazepine cho mất ngủ ở người lớn', 'https://www.aafp.org/pubs/afp/issues/2019/0101/p57.html'),
+    ('NCCIH – Valerian: những điều cần biết', 'https://nccih.nih.gov/health/valerian'),
+    ('NCCIH – Hoa cúc chamomile: khoa học và an toàn', 'https://www.nccih.nih.gov/health/chamomile/ataglance.htm?nav=gsa'),
+]
+NEW_RULES15.append(('n15_trathaythuocngu', ['thuốc ngủ', 'valerian', 'chamomile', 'z-drug', 'benzodiazepine', 'giảm liều', 'cai thuốc'], 47))
+
+
+# ===== ngay-dau-ve =====
+# --- tra-gung-cho-phu-nu ---
+SRC['n15_tragungphunu'] = [
+    ('NCCIH/NIH – Gừng: khoa học và an toàn (Ginger: Usefulness and Safety)', 'https://www.nccih.nih.gov/health/ginger'),
+    ('Daily JW và cs. (2015) – Hiệu quả của gừng với đau bụng kinh nguyên phát: tổng quan hệ thống và phân tích gộp, Pain Medicine', 'https://pubmed.ncbi.nlm.nih.gov/26177393/'),
+    ('Chen CX và cs. (2016) – Hiệu quả của gừng đường uống (Zingiber officinale) với đau bụng kinh: tổng quan hệ thống và phân tích gộp, Evidence-Based Complementary and Alternative Medicine', 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4871956/'),
+    ('Cochrane (2016) – Thực phẩm bổ sung cho đau bụng kinh (Dietary supplements for dysmenorrhoea)', 'https://pubmed.ncbi.nlm.nih.gov/27000311/'),
+    ('ACOG (2018) – Hướng dẫn thực hành số 189: Buồn nôn và nôn thai kỳ, Obstetrics & Gynecology', 'https://pubmed.ncbi.nlm.nih.gov/29266076/'),
+    ('Memorial Sloan Kettering Cancer Center – Gừng: thông tin thảo dược, tương tác và lưu ý', 'https://www.mskcc.org/cancer-care/integrative-medicine/herbs/ginger'),
+]
+NEW_RULES15.append(('n15_tragungphunu', ['trà gừng', 'nghén', 'gừng tươi', 'pha trà gừng', 'buồn nôn', 'bột gừng'], 38))
+
+# --- thuoc-tranh-thai-va-kinh-nguyet-nhung-thay-doi ---
+SRC['n15_thuoctranhthaikinh'] = [
+    ('NHS – Thuốc tránh thai kết hợp: tác dụng phụ (Combined pill: side effects)', 'https://www.nhs.uk/contraception/methods-of-contraception/combined-pill/side-effects/'),
+    ('NHS – Thuốc tránh thai chỉ có progestogen: tác dụng phụ và rủi ro', 'https://www.nhs.uk/contraception/methods-of-contraception/progestogen-only-pill/side-effects-and-risks'),
+    ('ACOG – Điều cần biết về ra máu bất thường khi dùng biện pháp tránh thai (Breakthrough Bleeding With Birth Control)', 'https://www.acog.org/womens-health/experts-and-stories/the-latest/what-you-should-know-about-breakthrough-bleeding-with-birth-control'),
+    ('CDC (2024) – Khuyến nghị thực hành chọn lọc về sử dụng biện pháp tránh thai của Hoa Kỳ (U.S. SPR), MMWR', 'https://www.cdc.gov/mmwr/volumes/73/rr/rr7303a1.htm'),
+    ('CDC (2024) – U.S. MEC: phân loại cho biện pháp tránh thai nội tiết kết hợp (gồm tương tác thuốc)', 'https://www.cdc.gov/contraception/hcp/usmec/combined-hormonal-contraceptives.html'),
+    ('WHO – Kế hoạch hóa gia đình/các biện pháp tránh thai (Family planning/contraception methods)', 'https://www.who.int/news-room/fact-sheets/detail/family-planning-contraception'),
+]
+NEW_RULES15.append(('n15_thuoctranhthaikinh', ['thuốc tránh thai', 'ngưng thuốc', 'quên thuốc', 'giả dược', 'progestin', 'tuần nghỉ', 'thử thai', 'thuốc khẩn cấp'], 57))
+
+
+# ===== la-oi-mix-la-sen =====
+
+# --- an-uong-mua-tiec-cuoi-nam ---
+SRC['n15_tieccuoinam'] = [
+    ('NIDDK – Ăn uống, chế độ dinh dưỡng với trào ngược dạ dày thực quản (Eating, Diet, & Nutrition for GER & GERD)', 'https://niddk.nih.gov/health-information/digestive-diseases/acid-reflux-ger-gerd-adults/eating-diet-nutrition'),
+    ('WHO (2023) – Không có mức tiêu thụ rượu nào an toàn cho sức khỏe (No level of alcohol consumption is safe for our health)', 'https://www.who.int/azerbaijan/news/item/04-01-2023-no-level-of-alcohol-consumption-is-safe-for-our-health'),
+    ('Quốc hội (2019) – Luật Phòng, chống tác hại của rượu, bia số 44/2019/QH14, Công báo Chính phủ', 'https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2019/6/29251/27285-1-2019559-56044-2019-qh14.pdf'),
+    ('Shukla và cộng sự (2015) – Thứ tự ăn ảnh hưởng đáng kể đến đường huyết và insulin sau ăn (Food Order Has a Significant Impact on Postprandial Glucose and Insulin Levels), Diabetes Care', 'https://www.ovid.com/journals/dcar/pdf/10.2337/dc15-0429~food-order-has-a-significant-impact-on-postprandial-glucose'),
+    ('Reynolds và cộng sự (2016) – Đi bộ sau bữa ăn và đường huyết ở người đái tháo đường type 2, Diabetologia', 'https://link.springer.com/article/10.1007/s00125-016-4085-2'),
+    ('NHS – Triệu chứng viêm tụy cấp (Acute pancreatitis – Symptoms)', 'https://www.nhs.uk/conditions/acute-pancreatitis/symptoms'),
+]
+NEW_RULES15.append(('n15_tieccuoinam', ['mùa tiệc', 'dạ dày', 'trào ngược', 'ợ nóng', 'sau tiệc', 'bữa tiệc', 'trước tiệc'], 45))
+
+# --- mo-noi-tang-la-gi-va-vi-sao-nguy ---
+SRC['n15_monoitang'] = [
+    ('Alberti, Zimmet, Shaw – IDF (2005) – Định nghĩa hội chứng chuyển hóa của Liên đoàn Đái tháo đường Quốc tế (Mainstreaming the metabolic syndrome: a definitive definition), Medical Journal of Australia', 'https://www.mja.com.au/journal/2005/183/4/mainstreaming-metabolic-syndrome-definitive-definition'),
+    ('NICE (2022) – Giữ vòng eo dưới một nửa chiều cao (Keep the size of your waist to less than half of your height)', 'https://nice.org.uk/news/articles/keep-the-size-of-your-waist-to-less-than-half-of-your-height-nice--recommends'),
+    ('WHO Expert Consultation (2004) – Chỉ số BMI phù hợp cho người châu Á (Appropriate body-mass index for Asian populations), The Lancet', 'https://pubmed.ncbi.nlm.nih.gov:443/14726171'),
+    ('Vissers và cộng sự (2013) – Tác động của tập luyện lên mỡ nội tạng ở người thừa cân: tổng quan hệ thống và phân tích gộp, PLoS One', 'https://pubmed.ncbi.nlm.nih.gov/23409182/'),
+    ('Ma và cộng sự (2016) – Đồ uống có đường và thay đổi mỡ nội tạng (Framingham), Circulation', 'https://pubmed.ncbi.nlm.nih.gov/26755505/'),
+    ('Mayo Clinic (2022) – Thiếu ngủ làm tăng mỡ bụng có hại (Lack of sleep increases unhealthy abdominal fat)', 'https://newsnetwork.mayoclinic.org/discussion/lack-of-sleep-increases-unhealthy-abdominal-fat/'),
+]
+NEW_RULES15.append(('n15_monoitang', ['mỡ nội tạng', 'mỡ dưới da', 'vòng eo', 'eo/chiều cao', 'kháng insulin', 'tĩnh mạch cửa'], 46))
+
+
+# ===== duong-tam-an =====
+
+# --- cang-thang-anh-huong-lan-da ---
+SRC['n15_cangthangda'] = [
+    ('American Academy of Dermatology (AAD) – 6 bệnh da và tóc liên quan đến căng thẳng', 'https://www.aad.org/public/diseases/a-z/stress-skin-conditions'),
+    ('Garg A. và cộng sự (2001) – Căng thẳng tâm lý làm rối loạn cân bằng hàng rào thấm của biểu bì, Archives of Dermatology', 'https://jamanetwork.com/journals/jamadermatology/article-abstract/478156'),
+    ('Altemus M. và cộng sự (2001) – Thay đổi chức năng hàng rào da do căng thẳng ở phụ nữ khỏe mạnh, Journal of Investigative Dermatology', 'https://pubmed.ncbi.nlm.nih.gov/11511309/'),
+    ('Chiu A., Chon S.Y., Kimball A.B. (2003) – Mức độ mụn trứng cá thay đổi theo căng thẳng mùa thi, Archives of Dermatology', 'https://pubmed.ncbi.nlm.nih.gov/12873885/'),
+    ('Psychosocial Stress and Mechanisms of Skin Health: A Comprehensive Update (2021) – Căng thẳng tâm lý – xã hội và cơ chế sức khỏe làn da', 'https://pubmed.ncbi.nlm.nih.gov/33400410/'),
+    ('WHO (2020) – Doing What Matters in Times of Stress: cẩm nang minh họa ứng phó căng thẳng', 'https://www.who.int/publications/i/item/9789240003927'),
+]
+NEW_RULES15.append(('n15_cangthangda', ['hàng rào da', 'vảy nến', 'viêm da cơ địa', 'rụng tóc', 'trục não', 'chăm da', 'chàm', 'telogen effluvium'], 40))
+
+# --- am-nhac-va-thu-gian-khoa-hoc-noi-gi ---
+SRC['n15_amnhacthugian'] = [
+    ('de Witte M. và cộng sự (2020) – Tác động của can thiệp âm nhạc lên các chỉ số căng thẳng: tổng quan hệ thống và hai phân tích gộp, Health Psychology Review', 'https://pubmed.ncbi.nlm.nih.gov/31167611/'),
+    ('Jespersen K.V. và cộng sự (2022) – Nghe nhạc cho người lớn bị mất ngủ, Cochrane Database of Systematic Reviews', 'https://pubmed.ncbi.nlm.nih.gov/36000763/'),
+    ('Thoma M.V. và cộng sự (2013) – Tác động của âm nhạc lên phản ứng căng thẳng ở người, PLoS ONE', 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3734071/'),
+    ('Finn S., Fancourt D. (2018) – Tác động sinh học của nghe nhạc trong bối cảnh lâm sàng và đời sống: tổng quan hệ thống', 'https://pubmed.ncbi.nlm.nih.gov/29779734/'),
+    ('WHO – ITU (2019) – Thiết bị và hệ thống nghe an toàn: chuẩn WHO-ITU', 'https://who.int/publications/i/item/9789241515276'),
+    ('American Music Therapy Association – Nhạc trị liệu là gì?', 'https://www.musictherapy.org/about/musictherapy/'),
+]
+NEW_RULES15.append(('n15_amnhacthugian', ['âm nhạc', 'nghe nhạc', 'nhạc trị liệu', 'âm lượng', 'nhịp chậm', 'tai nghe', 'bản nhạc'], 57))
+
+
+RULES[:0] = NEW_RULES15

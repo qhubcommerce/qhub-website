@@ -16,7 +16,7 @@ Mô hình hợp tác: 2–4% doanh thu cho vận hành hệ thống; 7–15% ng�
 - [Dịch vụ livestream bán hàng TikTok, Shopee, Facebook](https://qhub.com.vn/dich-vu/livestream-ban-hang/): Dịch vụ livestream bán hàng của QHUB: kịch bản, host, điều phối, ưu đãi và quy trình chốt đơn cho TikTok Shop, Shopee Live và Facebook.
 - [Dịch vụ booking KOC và affiliate TikTok Shop](https://qhub.com.vn/dich-vu/koc-affiliate/): QHUB kết nối và quản lý KOC affiliate cho TikTok Shop, Shopee: chọn đúng tệp, gửi mẫu, brief, theo dõi video, hoa hồng và hiệu quả đơn hàng.
 - [Dịch vụ chạy quảng cáo GMV Max, Shopee Ads, Meta Ads](https://qhub.com.vn/dich-vu/quang-cao-tiktok-shopee/): QHUB vận hành quảng cáo TikTok GMV Max, Shopee Ads và Meta Ads cho doanh nghiệp, tối ưu theo lợi nhuận, phí 7–15% ngân sách thực chạy.
-- [Kiến thức thương mại điện tử](https://qhub.com.vn/kien-thuc/): 352 bài viết thực chiến
+- [Kiến thức thương mại điện tử](https://qhub.com.vn/kien-thuc/): 362 bài viết thực chiến
 - [Tác giả Nguyễn Văn Quang](https://qhub.com.vn/tac-gia/nguyen-van-quang/): Founder & CEO
 - [QHUB HERBAL](https://qhub.com.vn/qhub-herbal.html): thương hiệu trà thảo mộc do QHUB xây dựng
 - [Chính sách](https://qhub.com.vn/chinh-sach.html)
@@ -52,6 +52,7 @@ Xây kênh TikTok bán hàng từ con số 0: định vị, thuật toán, lịc
 ## Content TikTok
 Lên ý tưởng, viết kịch bản, quay dựng video ngắn bán hàng; hook, nhịp, CTA và cách nhân bản nội dung thắng.
 - Trang chủ đề: https://qhub.com.vn/kien-thuc/chu-de/content-tiktok/
+- [Viết caption TikTok: ngắn, có từ khóa, có câu hỏi](https://qhub.com.vn/kien-thuc/viet-caption-tiktok-ngan-co-tu-khoa-co-cau-hoi/): Cách viết caption TikTok bán hàng: công thức 3 dòng, đặt từ khóa đúng chỗ, tối đa 5 hashtag, câu hỏi kéo bình luận và 18 mẫu caption theo ngành.
 - [Làm content TikTok không lộ mặt: 9 định dạng cho người ngại lên hình](https://qhub.com.vn/kien-thuc/lam-content-khi-khong-muon-lo-mat/): Content TikTok không lộ mặt: 9 định dạng (quay tay, POV, giọng đọc, chữ, slideshow…), bảng thiết bị và độ khó, chính sách nội dung không nguyên bản và nhãn AI.
 - [Video người thật hay video sản phẩm: chọn cách nào](https://qhub.com.vn/kien-thuc/video-nguoi-that-hay-video-san-pham-chon-cach/): Video người thật TikTok hay video chỉ có sản phẩm: so sánh ưu nhược, chi phí, chính sách slideshow và video AI, tỷ lệ phối kho video GMV Max, kịch bản mẫu.
 - [Đọc dữ liệu từng video để biết vì sao nó ra đơn](https://qhub.com.vn/kien-thuc/doc-du-lieu-tung-video-de-biet-vi-sao-no-ra-don/): Phân tích video TikTok theo phễu 5 tầng: lượt xem, giữ chân, bấm giỏ, đặt hàng, GMV. Lấy số ở TikTok Studio, Seller Center, kèm bảng chẩn đoán thấp đâu sửa đó.
@@ -112,6 +113,7 @@ Mở gian hàng, chính sách, điểm hiệu quả, liên kết affiliate và m
 ## Vận hành TikTok Shop
 Vận hành gian hàng TikTok Shop hằng ngày: sản phẩm, giá, kho, livestream, affiliate KOC, chăm sóc đơn và đội ngũ.
 - Trang chủ đề: https://qhub.com.vn/kien-thuc/chu-de/van-hanh-tiktok-shop/
+- [Tăng doanh số TikTok Shop từ 0 lên 500 triệu/tháng: các giai đoạn](https://qhub.com.vn/kien-thuc/tang-truong-tu-0-len-500-trieu-thang-tren-tiktok-shop-cac-giai-doan/): Lộ trình tăng doanh số TikTok Shop qua 4 giai đoạn đến 500 triệu/tháng: kênh chính, nhân sự, chỉ số, nút thắt và bảng tính ngược số đơn mỗi ngày.
 - [P&L gian hàng: tính lãi lỗ TikTok Shop thật sau mọi chi phí](https://qhub.com.vn/kien-thuc/p-l-gian-hang-tiktok-shop-tinh-lai-lo-that-sau-moi-chi-phi/): Cách tính lãi lỗ TikTok Shop theo tháng bằng P&L: mẫu 18 dòng từ doanh thu gộp tới lợi nhuận ròng, phí sàn 11/2026, ví dụ số giả định và cách đối soát quyết toán.
 - [Quản lý tồn kho đa kênh khi bán cả TikTok Shop và Shopee](https://qhub.com.vn/kien-thuc/quan-ly-ton-kho-da-kenh-khi-ban-ca-tiktok-shop-va-shopee/): Quản lý tồn kho đa kênh cho shop bán cả TikTok Shop và Shopee: mã SKU thống nhất, phần mềm đồng bộ, tồn kho an toàn, trừ tồn combo, chia hàng ngày sale.
 - [Báo cáo vận hành tuần: mẫu và cách đọc](https://qhub.com.vn/kien-thuc/bao-cao-van-hanh-tuan-mau-va-cach-doc/): Mẫu báo cáo vận hành tuần cho gian hàng TikTok Shop, Shopee: 8 khối chỉ số, bảng số giả định, lợi nhuận sau phí 2026 và cách đọc để chốt 3 việc cho tuần sau.
@@ -147,6 +149,7 @@ Vận hành gian hàng TikTok Shop hằng ngày: sản phẩm, giá, kho, livest
 ## Quảng cáo TikTok & GMV Max
 Chạy GMV Max cho sản phẩm và LIVE, ROI mục tiêu, sáng tạo quảng cáo, đọc báo cáo và tối ưu ngân sách.
 - Trang chủ đề: https://qhub.com.vn/kien-thuc/chu-de/quang-cao-tiktok/
+- [Thuê chạy quảng cáo TikTok: phí quản lý, cách đánh giá đơn vị](https://qhub.com.vn/kien-thuc/thue-chay-quang-cao-tiktok-phi-quan-ly-cach-danh-gia-don-vi/): Dịch vụ chạy quảng cáo TikTok tính phí quản lý ra sao, thuế khi nạp tiền, tài khoản agency hay chính chủ, GMV Max đổi gì, tiêu chí và câu hỏi chọn đơn vị.
 - [Quảng cáo trong ngày mega sale trên TikTok Shop: vận hành từ 0h đến 24h](https://qhub.com.vn/kien-thuc/quang-cao-trong-ngay-mega-sale-tren-tiktok-shop/): Quảng cáo ngày sale TikTok: checklist trước 0h, nhịp theo dõi GMV Max theo giờ, bảng xử lý sự cố giữa ngày và cách đưa chiến dịch về ngày thường sau 24h.
 - [Quảng cáo livestream: khung giờ, ngân sách, phối hợp với host](https://qhub.com.vn/kien-thuc/quang-cao-livestream-khung-gio-ngan-sach-phoi-hop-voi-host/): Quảng cáo livestream TikTok bằng LIVE GMV Max: chọn khung giờ, chia ngân sách theo phiên, khi nào tăng giảm và cách host phối hợp với người chạy quảng cáo.
 - [Scale quảng cáo TikTok: tăng ngân sách mà không vỡ ROI](https://qhub.com.vn/kien-thuc/scale-quang-cao-tiktok-tang-ngan-sach-ma-khong-vo-roi/): Scale quảng cáo TikTok không vỡ ROI: tăng ngân sách 20–30% mỗi lần, đo ROI biên so với hòa vốn, scale ngang bằng sản phẩm và video, có bảng tăng, giữ, giảm.
@@ -176,6 +179,7 @@ Chạy GMV Max cho sản phẩm và LIVE, ROI mục tiêu, sáng tạo quảng c
 ## Phí sàn TikTok Shop
 Các loại phí TikTok Shop, cách tính trên từng đơn, cách định giá để vẫn có lãi khi phí thay đổi.
 - Trang chủ đề: https://qhub.com.vn/kien-thuc/chu-de/phi-san-tiktok-shop/
+- [Phí hoàn hàng TikTok Shop: đơn trả hàng và đơn giao thất bại ai chịu](https://qhub.com.vn/kien-thuc/phi-hoan-hang-va-don-that-bai-tren-tiktok-shop/): Phí hoàn hàng TikTok Shop: ai chịu ship hai chiều khi giao thất bại, khách trả hàng hay đổi ý, phí sàn có được hoàn không, kèm bảng tình huống và ví dụ tính lỗ.
 - [Hóa đơn phí sàn TikTok Shop cho doanh nghiệp: lấy ở đâu, hạch toán sao](https://qhub.com.vn/kien-thuc/hoa-don-phi-san-tiktok-shop-cho-doanh-nghiep/): Hóa đơn phí TikTok Shop cho doanh nghiệp: khai mã số thuế, tìm chứng từ phí, tách thuế GTGT, phân biệt với hóa đơn TikTok Ads và đối soát với quyết toán mỗi tháng.
 - [Đối soát doanh thu TikTok Shop: kiểm tra phí từng đơn](https://qhub.com.vn/kien-thuc/doi-soat-doanh-thu-tiktok-shop-kiem-tra-phi-tung-don/): Đối soát TikTok Shop từng đơn: xem quyết toán ở đâu, đọc từng dòng phí, xuất Excel, công thức kiểm tra, chênh lệch hay gặp và cách khiếu nại khi bị trừ sai.
 - [Thuế khấu trừ TikTok Shop và phí bị trừ: tiền về thực nhận bao nhiêu](https://qhub.com.vn/kien-thuc/thue-va-phi-khau-tru-khi-ban-tren-tiktok-shop/): Thuế khấu trừ TikTok Shop 1,5% và các phí bị trừ trên mỗi đơn: ví dụ tính tiền thực nhận, cách đọc chi tiết quyết toán, đối soát thuế và giữ hóa đơn, chứng từ.
@@ -197,6 +201,7 @@ Các loại phí TikTok Shop, cách tính trên từng đơn, cách định giá
 Vận hành gian hàng Shopee: SEO sản phẩm, chương trình, voucher, kho vận, đánh giá, chỉ số shop và Shopee Mall.
 - Trang chủ đề: https://qhub.com.vn/kien-thuc/chu-de/van-hanh-shopee/
 - [Phân tích bán hàng trong Kênh Người Bán Shopee: đọc số thế nào](https://qhub.com.vn/kien-thuc/phan-tich-ban-hang-trong-kenh-nguoi-ban-shopee/): Phân tích bán hàng Shopee: các mục chính trong Kênh Người Bán, bảng chỉ số, ngưỡng cần lưu tâm, quy trình đọc số 30 phút mỗi tuần và lỗi hay gặp.
+- [Phân tích đối thủ Shopee: theo dõi giá, chương trình, đánh giá](https://qhub.com.vn/kien-thuc/doi-thu-tren-shopee-theo-doi-gia-chuong-trinh-danh-gia/): Phân tích đối thủ Shopee: cách chọn 5–10 đối thủ, bảng theo dõi tuần về giá, voucher, Flash Sale, đánh giá, và chi phí tự làm, dùng công cụ hay thuê ngoài.
 - [Tăng tỷ lệ chuyển đổi trên Shopee](https://qhub.com.vn/kien-thuc/tang-ty-le-chuyen-doi-tren-shopee/): Tỷ lệ chuyển đổi Shopee là gì, xem ở đâu, bao nhiêu là ổn và 10 đòn bẩy để tăng: ảnh bìa, video, giá, đánh giá thật, phí ship. Kèm bảng chẩn đoán sửa gì trước.
 - [Shopee và luật thương mại điện tử mới: người bán cần chuẩn bị gì](https://qhub.com.vn/kien-thuc/shopee-va-luat-thuong-mai-dien-tu-moi-nguoi-ban-can-chuan-bi/): Luật thương mại điện tử Shopee: Luật 122/2025/QH15, Nghị định 248/2026, xác thực người bán, thông tin sản phẩm, Shopee Live, KOC, thuế và checklist chuẩn bị.
 - [Quản lý danh mục sản phẩm Shopee theo vai trò](https://qhub.com.vn/kien-thuc/quan-ly-danh-muc-san-pham-shopee-theo-vai-tro/): Quản lý danh mục sản phẩm Shopee theo 5 vai: kéo traffic, chủ lực, combo, sản phẩm mới, hàng tồn. Cách định giá, chạy quảng cáo, chỉ số và ma trận quyết định.
@@ -229,6 +234,7 @@ Vận hành gian hàng Shopee: SEO sản phẩm, chương trình, voucher, kho v
 ## Quảng cáo Shopee
 Shopee Ads: quảng cáo tìm kiếm, khám phá, Shop+ Ads, GMV Max, giá thầu, từ khóa và cách đọc ROAS.
 - Trang chủ đề: https://qhub.com.vn/kien-thuc/chu-de/quang-cao-shopee/
+- [Dịch vụ quảng cáo Shopee: phí thuê chạy và cách đánh giá](https://qhub.com.vn/kien-thuc/thue-chay-quang-cao-shopee-phi-va-cach-danh-gia/): Dịch vụ quảng cáo Shopee tính phí theo những mô hình nào, cách quy phí về ROAS thật, tiêu chí chọn đơn vị, cách đọc báo cáo và dấu hiệu nên dừng hợp tác.
 - [Shopee Ads cho ngành mỹ phẩm: hồ sơ, từ khóa và ROAS hòa vốn](https://qhub.com.vn/kien-thuc/shopee-ads-cho-nganh-my-pham/): Quảng cáo Shopee mỹ phẩm cần phiếu công bố hợp lệ, nội dung đúng công dụng đã công bố, từ khóa sạch và ROAS hòa vốn theo phí sàn 2026. Có bảng tính mẫu.
 - [Shopee Ads cho ngành thực phẩm](https://qhub.com.vn/kien-thuc/shopee-ads-cho-nganh-thuc-pham/): Quảng cáo Shopee thực phẩm cần tính ROAS hòa vốn theo đơn giá thấp, chọn từ khóa đúng ý định mua và viết nội dung không gán công dụng sức khỏe. Có bảng tính mẫu.
 - [Quảng cáo ngoài sàn kéo về Shopee: Facebook, TikTok, Google](https://qhub.com.vn/kien-thuc/quang-cao-ngoai-san-keo-ve-shopee-facebook-tiktok-google/): Quảng cáo ngoài sàn Shopee: chạy Facebook (CPAS), Google, TikTok kéo khách về gian hàng, cách đo bằng công cụ Traffic Ngoại sàn, tính hòa vốn và khi nào nên làm.
@@ -256,6 +262,7 @@ Shopee Ads: quảng cáo tìm kiếm, khám phá, Shop+ Ads, GMV Max, giá thầ
 Phí cố định, phí xử lý giao dịch, gói dịch vụ, Voucher Xtra và cách tính lợi nhuận thật trên Shopee.
 - Trang chủ đề: https://qhub.com.vn/kien-thuc/chu-de/phi-san-shopee/
 - [Phí hoàn hàng, đơn thất bại trên Shopee: ai chịu khoản nào](https://qhub.com.vn/kien-thuc/phi-hoan-hang-don-that-bai-tren-shopee/): Phí hoàn hàng Shopee: đơn giao thất bại ai chịu ship hai chiều, đơn hoàn tiền có được trả lại phí cố định, phí xử lý giao dịch không, kèm bảng tình huống, ví dụ.
+- [Phí affiliate Shopee: hoa hồng trả người tiếp thị tính thế nào](https://qhub.com.vn/kien-thuc/phi-affiliate-shopee-hoa-hong-tra-nguoi-tiep-thi/): Phí affiliate Shopee là hoa hồng shop tự đặt trả người tiếp thị, chỉ trừ trên đơn hoàn tất. Cách tính, bảng lãi khi đặt 5%, 10%, 15% với combo 315.000đ.
 - [Ưu đãi phí cố định cho người bán mới trên Shopee](https://qhub.com.vn/kien-thuc/uu-dai-phi-co-dinh-cho-nguoi-ban-moi-tren-shopee/): Ưu đãi phí người bán mới Shopee: miễn phí cố định 30 ngày đầu, khoản nào vẫn thu, cách tận dụng và bảng tính lãi trước, sau khi hết ưu đãi.
 - [Thuế GTGT trong phí Shopee và hóa đơn cho doanh nghiệp](https://qhub.com.vn/kien-thuc/thue-gtgt-trong-phi-shopee-va-hoa-don-cho-doanh-nghiep/): Hóa đơn phí Shopee cho doanh nghiệp: phí sàn đã gồm thuế GTGT bao nhiêu, cách tách thuế 8%, điều kiện khấu trừ đầu vào và cách đối soát hóa đơn cuối kỳ.
 - [Lịch sử thay đổi phí Shopee 2025–2026](https://qhub.com.vn/kien-thuc/lich-su-thay-doi-phi-shopee-2025-2026/): Thay đổi phí Shopee 2025–2026 theo mốc thời gian: phí hạ tầng, phí xử lý giao dịch 6%, phí cố định, Voucher Xtra, thuế, có ngày áp dụng, nguồn và ví dụ đơn 200.000đ.
@@ -276,6 +283,7 @@ Phí cố định, phí xử lý giao dịch, gói dịch vụ, Voucher Xtra và
 Bán hàng trên Facebook: fanpage, nhóm, livestream, quảng cáo Meta, inbox chốt đơn và chăm sóc khách cũ.
 - Trang chủ đề: https://qhub.com.vn/kien-thuc/chu-de/ban-hang-facebook/
 - [Bán hàng Facebook cho ngành thực phẩm: hồ sơ, nội dung, chốt đơn](https://qhub.com.vn/kien-thuc/ban-hang-facebook-cho-nganh-thuc-pham/): Bán hàng Facebook thực phẩm cần làm gì: hồ sơ tự công bố, chính sách Meta, luật quảng cáo từ 2026, nội dung fanpage, Reels, inbox, livestream và giữ khách cũ.
+- [Bán hàng Facebook cho ngành mỹ phẩm: hồ sơ, nội dung, chốt đơn](https://qhub.com.vn/kien-thuc/ban-hang-facebook-cho-nganh-my-pham/): Bán hàng Facebook mỹ phẩm cần gì: phiếu công bố, luật quảng cáo 2026, chính sách Meta, fanpage, Reels, livestream, tư vấn Messenger và giữ khách cũ.
 - [Kéo khách từ Facebook về website và sàn](https://qhub.com.vn/kien-thuc/keo-khach-tu-facebook-ve-website-va-san/): Kéo khách Facebook về shop: khi nào về website, khi nào về Shopee hay TikTok Shop, gắn UTM, đo bằng GA4, Pixel, Conversions API, CPAS và lỗi hay gặp.
 - [Facebook và Zalo: phối hợp để giữ khách](https://qhub.com.vn/kien-thuc/facebook-va-zalo-phoi-hop-de-giu-khach/): Phối hợp Facebook Zalo bán hàng: Facebook tìm khách, Zalo OA giữ khách đã đồng ý; luật 24 giờ Messenger, gói Zalo OA, ZNS, Nghị định 91 và kịch bản mẫu.
 - [Fanpage bị khóa, bị hạn chế: phòng tránh và khôi phục](https://qhub.com.vn/kien-thuc/fanpage-bi-khoa-bi-han-che-phong-tranh-va-khoi-phuc/): Fanpage bị khóa: phân biệt bị hạn chế, bị gỡ và bị chiếm quyền, cách xem Chất lượng Trang, gửi yêu cầu xem xét, lấy lại quyền và checklist phòng tránh.
@@ -303,6 +311,7 @@ Bán hàng trên Facebook: fanpage, nhóm, livestream, quảng cáo Meta, inbox 
 Xây kênh YouTube cho doanh nghiệp: Shorts, video dài, SEO YouTube, nhịp đăng và biến người xem thành khách.
 - Trang chủ đề: https://qhub.com.vn/kien-thuc/chu-de/youtube/
 - [YouTube cho ngành thực phẩm, đồ uống: làm nội dung gì để bán](https://qhub.com.vn/kien-thuc/youtube-cho-nganh-thuc-pham-do-uong/): YouTube ngành thực phẩm, đồ uống: 5 dạng nội dung nên làm, SEO video, nhịp đăng cho đội nhỏ, cách gắn sản phẩm và những câu không được nói theo luật 2026.
+- [YouTube cho ngành mỹ phẩm: nội dung, reviewer và luật quảng cáo 2026](https://qhub.com.vn/kien-thuc/youtube-cho-nganh-my-pham/): YouTube ngành mỹ phẩm: vai trò video dài, hướng dẫn skincare và Shorts, SEO video, gắn sản phẩm Shopee, hợp tác reviewer và luật quảng cáo mỹ phẩm 2026.
 - [Kịch bản video YouTube 8–12 phút giữ chân người xem](https://qhub.com.vn/kien-thuc/kich-ban-video-youtube-8-12-phut-giu-chan-nguoi-xem/): Kịch bản video YouTube 8–12 phút: khung theo phút, mẫu mở đầu 30 giây, cách mở vòng lặp, chia chương, đặt điểm quảng cáo giữa video và ví dụ cho chủ thương hiệu.
 - [Kênh YouTube của chủ doanh nghiệp: chia sẻ nghề, xây niềm tin](https://qhub.com.vn/kien-thuc/kenh-youtube-cua-chu-doanh-nghiep-chia-se-nghe-xay-niem-tin/): Kênh YouTube chủ doanh nghiệp nên làm gì: định vị chia sẻ nghề, chọn video dài, Shorts hay podcast, quay theo lô, 20 ý tưởng và cách đo niềm tin thay vì lượt xem.
 - [Thiết bị quay video YouTube cho doanh nghiệp: mua gì, theo thứ tự nào](https://qhub.com.vn/kien-thuc/thiet-bi-quay-video-youtube-cho-doanh-nghiep/): Thiết bị quay YouTube cho doanh nghiệp theo 3 mức: điện thoại, máy ảnh mirrorless, studio nhỏ. Mua micro trước, rồi đèn, rồi máy; kèm chân máy, phông và phần mềm.
@@ -399,6 +408,7 @@ Xây website bán hàng chuẩn SEO và dễ được AI như ChatGPT, Gemini nh
 Ngày sale đôi, sale giữa tháng, ngày lương, ngày thường: chuẩn bị gì, chạy gì, đo gì trên TikTok Shop và Shopee.
 - Trang chủ đề: https://qhub.com.vn/kien-thuc/chu-de/lich-sale/
 - [Ngày sale trên Facebook và website: kéo khách về kênh riêng](https://qhub.com.vn/kien-thuc/ngay-sale-tren-facebook-va-website-keo-khach-ve-kenh-rieng/): Chạy sale Facebook, website song song với sàn dịp 12/12: lịch chuẩn bị, quảng cáo Meta, Messenger, mã giảm giá và lưu ý khuyến mại theo Nghị định 239.
+- [Đọc báo cáo sau ngày sale: 10 chỉ số cần xem](https://qhub.com.vn/kien-thuc/doc-bao-cao-sau-ngay-sale-10-chi-so-can-xem/): Báo cáo sau ngày sale cần đọc 10 chỉ số: GMV, đơn thành công, hủy hoàn, AOV, chuyển đổi, ROAS, kênh, lãi thực, khách mới, vận hành. Có bảng mẫu và ví dụ.
 - [Cách giữ thứ hạng sản phẩm sau khi kết thúc đợt sale](https://qhub.com.vn/kien-thuc/cach-giu-thu-hang-san-pham-sau-khi-ket-thuc-dot-sale/): Cách giữ thứ hạng sau sale trên TikTok Shop và Shopee: đưa giá về theo bậc, giữ quảng cáo ở ROI vừa, nuôi đánh giá, video, affiliate và giữ chỉ số shop.
 - [Combo và quà tặng ngày sale: tăng giá trị đơn mà không giảm giá sâu](https://qhub.com.vn/kien-thuc/combo-va-qua-tang-ngay-sale-tang-gia-tri-don-ma-khong-giam-gia-sau/): Combo quà tặng ngày sale giữ biên tốt hơn giảm giá sâu thế nào: cách tính chi phí thật, bảng so sánh giảm 30%, mua 3 tặng 1, quà tặng và quy định 2026.
 - [Chuẩn bị nội dung video trước ngày sale: bao nhiêu video là đủ](https://qhub.com.vn/kien-thuc/chuan-bi-noi-dung-video-truoc-ngay-sale-bao-nhieu-video-la-du/): Video chuẩn bị ngày sale tính theo số SKU, số kênh, tần suất đăng, nhu cầu GMV Max và KOC. Công thức, ví dụ 3 cỡ shop và lịch sản xuất theo ngày cho 12.12.2026.

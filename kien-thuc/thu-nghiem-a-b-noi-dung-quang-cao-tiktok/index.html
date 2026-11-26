@@ -1,0 +1,365 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<!-- GA4 QHUB Commerce -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-NYQMD1XPP6"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-NYQMD1XPP6');
+document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('a,button');if(!a)return;var h=a.getAttribute('href')||'';
+if(/zalo\.me/.test(h))gtag('event','click_zalo',{link_url:h});else if(/^tel:/.test(h))gtag('event','click_call',{link_url:h});
+else if(/^mailto:/.test(h))gtag('event','click_email',{link_url:h});else if(/qhubherbal\.com/.test(h))gtag('event','click_qhubherbal',{link_url:h});},true);</script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Thử nghiệm A/B nội dung quảng cáo TikTok | QHUB Commerce</title>
+<meta name="description" content="AB test quảng cáo TikTok: dùng Thử nghiệm phân tách trong Ads Manager, thử video trong GMV Max, tính cỡ mẫu, thời gian chạy và đọc chỉ số để chọn bản thắng.">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<link rel="canonical" href="https://qhub.com.vn/kien-thuc/thu-nghiem-a-b-noi-dung-quang-cao-tiktok/">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="QHUB Commerce">
+<meta property="og:locale" content="vi_VN">
+<meta property="og:title" content="Thử nghiệm A/B nội dung quảng cáo TikTok | QHUB Commerce">
+<meta property="og:description" content="AB test quảng cáo TikTok: dùng Thử nghiệm phân tách trong Ads Manager, thử video trong GMV Max, tính cỡ mẫu, thời gian chạy và đọc chỉ số để chọn bản thắng.">
+<meta property="og:url" content="https://qhub.com.vn/kien-thuc/thu-nghiem-a-b-noi-dung-quang-cao-tiktok/">
+<meta property="og:image" content="https://qhub.com.vn/og-qhub.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#0B1220">
+<link rel="icon" href="/favicon.ico" sizes="48x48">
+<link rel="icon" href="/favicon-96x96.png" type="image/png" sizes="96x96">
+<link rel="icon" href="/favicon-192x192.png" type="image/png" sizes="192x192">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="alternate" type="application/rss+xml" title="Kiến thức QHUB Commerce" href="/feed.xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/styles.css?v=20261113f">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BlogPosting", "headline": "Thử nghiệm A/B nội dung quảng cáo TikTok", "description": "AB test quảng cáo TikTok: dùng Thử nghiệm phân tách trong Ads Manager, thử video trong GMV Max, tính cỡ mẫu, thời gian chạy và đọc chỉ số để chọn bản thắng.", "inLanguage": "vi", "mainEntityOfPage": "https://qhub.com.vn/kien-thuc/thu-nghiem-a-b-noi-dung-quang-cao-tiktok/", "url": "https://qhub.com.vn/kien-thuc/thu-nghiem-a-b-noi-dung-quang-cao-tiktok/", "image": "https://qhub.com.vn/og-qhub.png", "datePublished": "2026-11-27", "dateModified": "2026-11-27", "author": {"@type": "Person", "@id": "https://qhub.com.vn/tac-gia/nguyen-van-quang/#person", "name": "Nguyễn Văn Quang", "url": "https://qhub.com.vn/tac-gia/nguyen-van-quang/", "jobTitle": "Founder & CEO", "image": "https://qhub.com.vn/quang-avatar.jpg", "worksFor": {"@id": "https://qhub.com.vn/#organization"}}, "publisher": {"@type": "Organization", "@id": "https://qhub.com.vn/#organization", "name": "CÔNG TY TNHH QHUB COMMERCE", "alternateName": "QHUB Commerce", "url": "https://qhub.com.vn/", "logo": {"@type": "ImageObject", "url": "https://qhub.com.vn/logo-qhub.png", "width": 512, "height": 512}}, "articleSection": "Quảng cáo TikTok & GMV Max", "keywords": "ab test quảng cáo tiktok, split test tiktok ads, thử nghiệm phân tách tiktok, test video quảng cáo tiktok, test creative gmv max, cỡ mẫu ab test", "wordCount": 2555}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Trang chủ", "item": "https://qhub.com.vn/"}, {"@type": "ListItem", "position": 2, "name": "Kiến thức", "item": "https://qhub.com.vn/kien-thuc/"}, {"@type": "ListItem", "position": 3, "name": "Quảng cáo TikTok & GMV Max", "item": "https://qhub.com.vn/kien-thuc/chu-de/quang-cao-tiktok/"}, {"@type": "ListItem", "position": 4, "name": "Thử nghiệm A/B nội dung quảng cáo TikTok", "item": "https://qhub.com.vn/kien-thuc/thu-nghiem-a-b-noi-dung-quang-cao-tiktok/"}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "AB test quảng cáo TikTok nên chạy bao lâu?", "acceptedAnswer": {"@type": "Answer", "text": "Đội QHUB thường chạy tối thiểu 7 ngày để phủ đủ ngày thường và cuối tuần, và chỉ kết luận khi mỗi nhóm đã đạt cỡ mẫu tính trước. Khi tạo Thử nghiệm phân tách, Ads Manager hiển thị lịch chạy và mức ước tính độ tin cậy của thử nghiệm; mức tối thiểu hiện hành anh chị xem trong bài Split Test Best Practices của TikTok."}}, {"@type": "Question", "name": "GMV Max có chạy Split Test được không?", "acceptedAnswer": {"@type": "Answer", "text": "Qua tra cứu các trang hỗ trợ TikTok Ads, đội QHUB chưa thấy hướng dẫn dùng Thử nghiệm phân tách cho GMV Max. GMV Max tự chọn video và phân bổ ngân sách, nên cách thực tế là đưa vào các lô video chỉ khác một yếu tố, rồi so tỷ lệ nhấp, tỷ lệ chuyển đổi và chi phí mỗi đơn của từng video trong báo cáo."}}, {"@type": "Question", "name": "Nên thử yếu tố nào trước trong video quảng cáo TikTok?", "acceptedAnswer": {"@type": "Answer", "text": "Thử ba giây đầu (hook) trước, vì nó quyết định người xem có ở lại không và cần ít dữ liệu nhất để đọc. Sau đó mới đến góc nội dung, người xuất hiện, cách nói ưu đãi, lời kêu gọi hành động và độ dài video."}}, {"@type": "Question", "name": "Cần bao nhiêu tiền cho một AB test quảng cáo TikTok?", "acceptedAnswer": {"@type": "Answer", "text": "Lấy cỡ mẫu cần cho mỗi nhóm nhân với giá mỗi lượt hiển thị hoặc mỗi lượt nhấp. Ví dụ giả định với CPM 40.000 đồng, thử tỷ lệ nhấp cần khoảng 20.000 lượt hiển thị, tức khoảng 800.000 đồng mỗi nhóm. Thử tỷ lệ mua tốn hơn nhiều vì cần hàng nghìn lượt nhấp mỗi nhóm."}}, {"@type": "Question", "name": "Kết quả AB test có dùng được mãi không?", "acceptedAnswer": {"@type": "Answer", "text": "Không. Video nào cũng mỏi dần, người xem và mùa vụ cũng thay đổi. Bản thắng hôm nay là đối chứng cho lần thử sau. Đội QHUB ghi mọi thử nghiệm vào một bảng chung để biết điều gì đã đúng với sản phẩm và tệp khách nào."}}]}</script>
+<meta property="article:published_time" content="2026-11-27">
+<meta property="article:modified_time" content="2026-11-27">
+<meta property="article:section" content="Quảng cáo TikTok &amp; GMV Max">
+</head>
+<body class="kt-body">
+<a class="skip" href="#main">Bỏ qua tới nội dung</a>
+<header class="site-header" id="top">
+  <div class="wrap">
+    <a class="brand" href="/" aria-label="QHUB Commerce — trang chủ">
+      <img src="/logo-qhub-white.png" alt="" width="45" height="48">
+      <span>QHUB<small>COMMERCE</small></span>
+    </a>
+    <nav class="nav" id="nav" aria-label="Điều hướng chính">
+      <a href="/gioi-thieu/">Giới thiệu</a>
+      <a href="/dich-vu/">Dịch vụ</a>
+      <a href="/kien-thuc/">Kiến thức</a>
+      <a href="/#doi-ngu">Đội ngũ</a>
+      <a href="/qhub-herbal.html">QHUB HERBAL</a>
+      <a class="nav-cta" href="/#dat-lich">Đặt lịch chẩn đoán</a>
+    </nav>
+    <a class="btn btn-primary btn-sm" href="/#dat-lich">Đặt lịch chẩn đoán</a>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="nav" aria-label="Mở menu">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+  </div>
+</header>
+<main id="main" class="kt-main">
+<div class="wrap kt-narrow">
+<nav class="kt-crumb" aria-label="Đường dẫn"><a href="/">Trang chủ</a><span aria-hidden="true">/</span><a href="/kien-thuc/">Kiến thức</a><span aria-hidden="true">/</span><a href="/kien-thuc/chu-de/quang-cao-tiktok/">Quảng cáo TikTok &amp; GMV Max</a><span aria-hidden="true">/</span><span aria-current="page">Thử nghiệm A/B nội dung quảng cáo TikTok</span></nav>
+<article class="kt-article">
+<header class="kt-head">
+  <a class="kt-tag" href="/kien-thuc/chu-de/quang-cao-tiktok/">Quảng cáo TikTok &amp; GMV Max</a>
+  <h1>Thử nghiệm A/B nội dung quảng cáo TikTok</h1>
+  <p class="kt-lead">AB test quảng cáo TikTok: dùng Thử nghiệm phân tách trong Ads Manager, thử video trong GMV Max, tính cỡ mẫu, thời gian chạy và đọc chỉ số để chọn bản thắng.</p>
+  <p class="kt-meta">Bởi <a href="/tac-gia/nguyen-van-quang/">Nguyễn Văn Quang</a> · Đăng 27/11/2026 · 12 phút đọc</p>
+</header>
+<div class="kt-sum"><h2>Tóm tắt nhanh</h2><ul><li>AB test quảng cáo TikTok là chia người xem thành các nhóm không chồng lấn, mỗi nhóm thấy một phiên bản chỉ khác nhau một yếu tố, rồi so một chỉ số chọn trước để biết phiên bản nào tốt hơn.</li><li>TikTok Ads Manager có tính năng Thử nghiệm phân tách (Split Test) cho chiến dịch thủ công, thử được nhắm mục tiêu, đặt giá thầu và tối ưu hóa, hoặc nội dung sáng tạo.</li><li>GMV Max, loại chiến dịch mặc định cho quảng cáo TikTok Shop từ tháng 7/2025, tự phân bổ ngân sách giữa các video, nên thử nội dung ở đây là so sánh theo lô video và đọc chỉ số tỷ lệ, không phải A/B thuần.</li><li>Cỡ mẫu quyết định chi phí: phát hiện tỷ lệ nhấp tăng từ 1% lên 1,3% cần khoảng 20.000 lượt hiển thị mỗi nhóm, còn phát hiện tỷ lệ mua tăng từ 3% lên 4% cần khoảng 5.400 lượt nhấp mỗi nhóm.</li></ul></div>
+<nav class="kt-toc" aria-label="Mục lục"><h2>Trong bài này</h2><ol><li><a href="#ab-test-quang-cao-tiktok-khac-gi-bat-nhieu-video-xem-cai-nao-ngon">AB test quảng cáo TikTok khác gì "bật nhiều video xem cái nào ngon"?</a></li><li><a href="#thu-nghiem-phan-tach-split-test-trong-tiktok-ads-manager-hoat-ong-the-nao">Thử nghiệm phân tách (Split Test) trong TikTok Ads Manager hoạt động thế nào?</a></li><li><a href="#thu-nghiem-sang-tao-trong-gmv-max-hien-hanh-lam-the-nao">Thử nghiệm sáng tạo trong GMV Max hiện hành làm thế nào?</a></li><li><a href="#nen-thu-yeu-to-nao-truoc-trong-video-quang-cao-tiktok">Nên thử yếu tố nào trước trong video quảng cáo TikTok?</a></li><li><a href="#co-mau-va-thoi-gian-cho-ab-test-quang-cao-tiktok">Cỡ mẫu và thời gian cho AB test quảng cáo TikTok</a></li><li><a href="#chon-chi-so-nao-e-ket-luan-ban-thang">Chọn chỉ số nào để kết luận bản thắng?</a></li><li><a href="#loi-hay-gap-khi-ab-test-quang-cao-tiktok">Lỗi hay gặp khi AB test quảng cáo TikTok</a></li><li><a href="#viec-can-lam-ngay-tuan-nay">Việc cần làm ngay tuần này</a></li></ol></nav>
+<div class="kt-body-text">
+<p><strong>AB test quảng cáo TikTok là cách chia người xem thành hai hoặc nhiều nhóm không chồng lên nhau, mỗi nhóm thấy một phiên bản quảng cáo chỉ khác nhau đúng một yếu tố, rồi so một chỉ số đã chọn trước để biết phiên bản nào thật sự tốt hơn.</strong> Trong TikTok Ads Manager, tính năng làm việc này có tên Thử nghiệm phân tách (Split Test). Với quảng cáo TikTok Shop chạy bằng GMV Max, việc thử nội dung phải làm theo cách khác, vì hệ thống tự phân bổ ngân sách giữa các video.</p>
+<p>Nhiều shop nghĩ mình đang A/B test khi bật ba video rồi xem cái nào bán nhiều. Thực ra đó chỉ là so sánh lỏng: ba video có thể đến với ba nhóm người khác nhau, vào ba khung giờ khác nhau, với số tiền khác nhau. Bài này đi qua cách thử đúng, cỡ mẫu bao nhiêu là đủ, và chỉ số nào cần nhìn. Thông tin tính năng tra cứu đến cuối tháng 11/2026.</p>
+<h2 id="ab-test-quang-cao-tiktok-khac-gi-bat-nhieu-video-xem-cai-nao-ngon">AB test quảng cáo TikTok khác gì "bật nhiều video xem cái nào ngon"?</h2>
+<p>Một thử nghiệm A/B đúng nghĩa có bốn điều kiện:</p>
+<ol>
+<li><strong>Một biến.</strong> Hai phiên bản chỉ khác nhau một thứ, ví dụ ba giây đầu. Đổi cả hook lẫn người nói lẫn nhạc thì thắng cũng không biết nhờ đâu.</li>
+<li><strong>Nhóm người xem tách biệt.</strong> Một người chỉ thấy một phiên bản. Nếu cùng người thấy cả hai, kết quả bị pha lẫn.</li>
+<li><strong>Điều kiện giống nhau.</strong> Cùng ngân sách, cùng thời gian, cùng mục tiêu tối ưu, cùng sản phẩm và giá.</li>
+<li><strong>Chỉ số và cỡ mẫu chọn trước.</strong> Quyết định nhìn tỷ lệ nhấp hay chi phí mỗi đơn, và cần bao nhiêu dữ liệu, trước khi bấm chạy.</li>
+</ol>
+<p>Bật nhiều video trong một nhóm quảng cáo thì vi phạm điều kiện 2 và 3: hệ thống sẽ dồn tiền cho video nó đánh giá tốt sớm, video còn lại có khi chỉ được vài trăm lượt hiển thị. Cách này vẫn có ích để lọc nhanh, nhưng không nên gọi là A/B test và không nên dùng để rút ra kết luận lâu dài.</p>
+<h2 id="thu-nghiem-phan-tach-split-test-trong-tiktok-ads-manager-hoat-ong-the-nao">Thử nghiệm phân tách (Split Test) trong TikTok Ads Manager hoạt động thế nào?</h2>
+<p><strong>Thử nghiệm phân tách</strong> là tính năng trong TikTok Ads Manager chia đối tượng thành các nhóm riêng, chạy các phiên bản song song và báo phiên bản nào hiệu quả hơn theo chỉ số anh chị chọn. Trung tâm trợ giúp TikTok Ads có cả bộ bài về tính năng này: giới thiệu (có bản tiếng Việt), cách tạo, cách chỉnh sửa, các biến được thử, thực hành tốt nhất, và thử nghiệm phân tách tùy chỉnh (Custom Split Testing).</p>
+<p>Theo bài Split Testing Variables, các biến có thể thử gồm ba nhóm:</p>
+<div class="kt-table"><table>
+<thead>
+<tr>
+<th>Biến thử</th>
+<th>Ví dụ</th>
+<th>Khi nào nên thử</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Nhắm mục tiêu (targeting)</td>
+<td>Nhắm rộng so với nhắm theo sở thích</td>
+<td>Chưa biết tệp khách nào phản hồi tốt</td>
+</tr>
+<tr>
+<td>Đặt giá thầu và tối ưu hóa (bidding &amp; optimization)</td>
+<td>Chi phí thấp nhất so với giới hạn chi phí; tối ưu theo nhấp so với theo chuyển đổi</td>
+<td>Đã có nội dung ổn, muốn hạ chi phí mỗi kết quả</td>
+</tr>
+<tr>
+<td>Nội dung sáng tạo (creative)</td>
+<td>Video hook A so với hook B</td>
+<td>Hầu hết trường hợp, đặc biệt khi mới vào chiến dịch</td>
+</tr>
+</tbody>
+</table></div>
+<p>TikTok còn có bài blog về thử nghiệm phân tách ở cấp chiến dịch, cho phép so sánh hai chiến dịch có cấu trúc khác nhau. Giao diện và vị trí nút bật có thể thay đổi theo thời điểm, nên khi tạo lần đầu anh chị mở song song bài "How to create a split test".</p>
+<p>Hai điểm cần biết trước:</p>
+<ul>
+<li><strong>Split Test dùng cho chiến dịch thủ công</strong>, ví dụ chiến dịch kéo người về website, tạo khách hàng tiềm năng, tăng lượt theo dõi. Kiểu chiến dịch này đội mình đã viết trong bài <a href="/kien-thuc/quang-cao-tiktok-ngoai-tiktok-shop-keo-ve-website-zalo-form/">quảng cáo TikTok ngoài TikTok Shop</a>.</li>
+<li><strong>Thời gian và độ tin cậy.</strong> Khi thiết lập, Ads Manager hiển thị lịch chạy và ước tính khả năng thử nghiệm cho ra kết quả rõ ràng (thường gọi là testing power). Mức khuyến nghị cụ thể có trong bài Split Test Best Practices. Thực tế đội QHUB chạy tối thiểu 7 ngày, để thử nghiệm đi qua cả ngày thường lẫn cuối tuần, và không chỉnh sửa giữa chừng.</li>
+</ul>
+<h2 id="thu-nghiem-sang-tao-trong-gmv-max-hien-hanh-lam-the-nao">Thử nghiệm sáng tạo trong GMV Max hiện hành làm thế nào?</h2>
+<p>Theo trang hỗ trợ của TikTok Ads, từ tháng 7/2025 <strong>GMV Max</strong> là loại chiến dịch mặc định và duy nhất được hỗ trợ cho quảng cáo có điểm đến là TikTok Shop. GMV Max tự chọn video, tự tìm người xem, tự chia tiền để tối đa doanh thu theo ROI (doanh thu chia chi phí quảng cáo) mục tiêu. Qua tra cứu, đội mình chưa thấy hướng dẫn dùng Thử nghiệm phân tách cho GMV Max. Vì vậy với gian hàng TikTok Shop, việc thử nội dung là <strong>thử bán kiểm soát</strong>: mình kiểm soát cái gì được đưa vào, còn hệ thống quyết định chia tiền.</p>
+<p>Cách đội QHUB làm:</p>
+<ol>
+<li><strong>Chọn một biến cho mỗi lô.</strong> Ví dụ lô tuần này chỉ thử hook: quay một thân video, làm 3–4 biến thể ba giây đầu khác nhau.</li>
+<li><strong>Đưa cả lô vào cùng lúc</strong>, cùng sản phẩm, cùng chiến dịch, để chúng cạnh tranh trong cùng điều kiện.</li>
+<li><strong>Đọc chỉ số tỷ lệ, không đọc tổng.</strong> Hệ thống chia tiền không đều, nên video được nhiều tiền tất nhiên có nhiều đơn. Hãy so tỷ lệ nhấp, tỷ lệ chuyển đổi, chi phí mỗi đơn của từng video trong báo cáo theo video.</li>
+<li><strong>Bỏ qua video chưa đủ dữ liệu.</strong> Video chỉ có vài trăm lượt hiển thị chưa nói lên điều gì; đánh dấu "chưa kết luận", không đánh dấu "thua".</li>
+<li><strong>Nhân bản ý tưởng thắng</strong>, không chỉ nhân bản video thắng: hook thắng được dùng cho các thân video khác ở lô sau.</li>
+</ol>
+<p>TikTok có bài hướng dẫn cải thiện khả năng khám phá video trong Product GMV Max, và với LIVE GMV Max có tính năng Creative boost để dành thêm ngân sách cho vài video chọn sẵn. Hai tính năng này giúp video mới có cơ hội được hiển thị, nhưng vẫn không biến GMV Max thành A/B test thuần. Số lượng video, định dạng và nhịp làm mới cho GMV Max có trong bài <a href="/kien-thuc/video-sang-tao-cho-gmv-max-so-luong-dinh-dang-lam-moi/">video sáng tạo cho GMV Max</a>, còn cách đọc từng cột báo cáo có trong bài <a href="/kien-thuc/doc-bao-cao-gmv-max-chi-so-nao-quan-trong/">đọc báo cáo GMV Max</a>.</p>
+<p>Một cách bổ sung rẻ hơn: <strong>thử trên video tự nhiên trước</strong>. Đăng hai biến thể hook cách nhau vài ngày trên kênh, so tỷ lệ xem hết và tỷ lệ bấm giỏ hàng. Kết quả nhiễu hơn quảng cáo, nhưng đủ để loại các ý tưởng yếu trước khi tốn tiền.</p>
+<h2 id="nen-thu-yeu-to-nao-truoc-trong-video-quang-cao-tiktok">Nên thử yếu tố nào trước trong video quảng cáo TikTok?</h2>
+<p>Không phải yếu tố nào cũng đáng thử như nhau. Đội QHUB xếp theo thứ tự: tác động lớn và cần ít dữ liệu thì thử trước.</p>
+<div class="kt-table"><table>
+<thead>
+<tr>
+<th>Thứ tự</th>
+<th>Yếu tố</th>
+<th>Ví dụ biến thể</th>
+<th>Chỉ số đọc chính</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Ba giây đầu (hook)</td>
+<td>Câu hỏi so với cảnh sản phẩm cận</td>
+<td>Tỷ lệ xem 2 giây, 6 giây</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Góc nội dung</td>
+<td>Trải nghiệm cá nhân so với hướng dẫn sử dụng</td>
+<td>Tỷ lệ nhấp (CTR)</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Người xuất hiện</td>
+<td>Chủ shop so với KOC</td>
+<td>CTR, tỷ lệ chuyển đổi</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Cách nói ưu đãi</td>
+<td>Nói giá so với nói combo</td>
+<td>Tỷ lệ chuyển đổi (CVR)</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Lời kêu gọi hành động</td>
+<td>"Bấm giỏ vàng" so với "xem combo bên dưới"</td>
+<td>CTR</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Độ dài</td>
+<td>15 giây so với 30 giây</td>
+<td>Tỷ lệ xem hết, CVR</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Phụ đề, chữ trên màn hình</td>
+<td>Có so với không có chữ tiêu đề</td>
+<td>Tỷ lệ xem 2 giây</td>
+</tr>
+</tbody>
+</table></div>
+<p>Thuật ngữ trong bảng: <strong>CTR</strong> (click-through rate) là tỷ lệ nhấp, bằng số lượt nhấp chia số lượt hiển thị. <strong>CVR</strong> (conversion rate) là tỷ lệ chuyển đổi, ở đây hiểu là số đơn chia số lượt nhấp.</p>
+<p>Ví dụ với <a href="/tra-duong-nhan.html">Trà Dưỡng Nhan</a> của QHUB HERBAL, thương hiệu trà do chính đội mình xây: cùng một thân video pha trà, đội có thể thử hai hook. Hook A mở bằng cảnh "năm phút cho bản thân sau giờ làm", hook B mở bằng cảnh "món quà nhỏ cho bạn thân". Cả hai đều chỉ nói hương hoa, vị ngọt dịu từ cỏ ngọt, không thêm đường, không nói công dụng. Thử như vậy để biết khách nữ 18–40 phản hồi với khoảnh khắc riêng tư hay với dịp tặng quà, chứ không phải để tìm câu nói quá.</p>
+<h2 id="co-mau-va-thoi-gian-cho-ab-test-quang-cao-tiktok">Cỡ mẫu và thời gian cho AB test quảng cáo TikTok</h2>
+<p><strong>Cỡ mẫu</strong> là số lượt hiển thị hoặc lượt nhấp mỗi nhóm cần có để chênh lệch quan sát được không phải do may rủi. Đây là phần nhiều shop bỏ qua, và cũng là lý do nhiều "bản thắng" chạy tiếp thì không còn thắng.</p>
+<p>Công thức gần đúng mà đội QHUB dùng (độ tin cậy 95%, khả năng phát hiện 80%):</p>
+<blockquote>
+<p>Cỡ mẫu mỗi nhóm ≈ 16 × p × (1 − p) ÷ d²</p>
+</blockquote>
+<p>Trong đó p là tỷ lệ trung bình của hai nhóm, d là chênh lệch muốn phát hiện. Đây là công thức thống kê chung, không phải cách Ads Manager tính; công cụ của TikTok có thể cho số khác.</p>
+<div class="kt-table"><table>
+<thead>
+<tr>
+<th>Muốn phát hiện</th>
+<th>p trung bình</th>
+<th>Cỡ mẫu mỗi nhóm</th>
+<th>Đơn vị</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>CTR 1,0% lên 1,5%</td>
+<td>1,25%</td>
+<td>Khoảng 7.900</td>
+<td>Lượt hiển thị</td>
+</tr>
+<tr>
+<td>CTR 1,0% lên 1,3%</td>
+<td>1,15%</td>
+<td>Khoảng 20.200</td>
+<td>Lượt hiển thị</td>
+</tr>
+<tr>
+<td>CVR 2% lên 3%</td>
+<td>2,5%</td>
+<td>Khoảng 3.900</td>
+<td>Lượt nhấp</td>
+</tr>
+<tr>
+<td>CVR 3% lên 4%</td>
+<td>3,5%</td>
+<td>Khoảng 5.400</td>
+<td>Lượt nhấp</td>
+</tr>
+</tbody>
+</table></div>
+<p>Đổi ra tiền với giá giả định CPM (chi phí mỗi nghìn lượt hiển thị) 40.000 đồng và CPC (chi phí mỗi lượt nhấp) 1.500 đồng:</p>
+<ul>
+<li>Thử CTR 1,0% lên 1,3%: khoảng 20.200 lượt hiển thị × 40 đồng ≈ 810.000 đồng mỗi nhóm.</li>
+<li>Thử CVR 3% lên 4%: khoảng 5.400 lượt nhấp × 1.500 đồng ≈ 8.100.000 đồng mỗi nhóm.</li>
+</ul>
+<p>Bài học rút ra: <strong>thử phần đầu phễu rẻ hơn rất nhiều so với thử phần cuối phễu</strong>. Với ngân sách nhỏ, anh chị nên thử hook và CTR trước, chỉ thử CVR khi chênh lệch kỳ vọng đủ lớn hoặc sản phẩm đã có nhiều đơn. Mức CPM, CPC thật theo ngành anh chị lấy từ tài khoản của mình.</p>
+<p>Về thời gian, ba nguyên tắc đội mình giữ:</p>
+<ol>
+<li>Chạy ít nhất 7 ngày, kể cả khi đã đủ cỡ mẫu sớm, để tránh lệch theo ngày trong tuần.</li>
+<li>Không kéo quá 4 tuần, vì video bắt đầu mỏi và mùa vụ thay đổi.</li>
+<li>Không thử trong tuần có ngày sale đôi, trừ khi chính ngày sale là thứ anh chị muốn thử. Hành vi mua những ngày này khác hẳn ngày thường.</li>
+</ol>
+<h2 id="chon-chi-so-nao-e-ket-luan-ban-thang">Chọn chỉ số nào để kết luận bản thắng?</h2>
+<p>Chọn <strong>một chỉ số chính</strong> trước khi chạy, và vài chỉ số phụ để kiểm tra chéo. Chỉ số chính phải gần với mục tiêu kinh doanh nhất mà ngân sách vẫn đủ cỡ mẫu.</p>
+<div class="kt-table"><table>
+<thead>
+<tr>
+<th>Mục tiêu thử</th>
+<th>Chỉ số chính</th>
+<th>Chỉ số phụ để kiểm tra</th>
+<th>Cảnh báo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Giữ chân người xem</td>
+<td>Tỷ lệ xem 2 giây, 6 giây</td>
+<td>Thời gian xem trung bình</td>
+<td>Xem nhiều chưa chắc mua</td>
+</tr>
+<tr>
+<td>Thu hút nhấp</td>
+<td>CTR</td>
+<td>Tỷ lệ xem 6 giây</td>
+<td>Hook gây tò mò có thể kéo nhấp không mua</td>
+</tr>
+<tr>
+<td>Ra đơn</td>
+<td>CVR, chi phí mỗi đơn</td>
+<td>Giá trị đơn trung bình</td>
+<td>Cần nhiều dữ liệu nhất</td>
+</tr>
+<tr>
+<td>Lợi nhuận</td>
+<td>ROAS hoặc ROI</td>
+<td>Tỷ lệ hoàn, hủy</td>
+<td>Phải đối chiếu với ROI hòa vốn</td>
+</tr>
+</tbody>
+</table></div>
+<p>Khi đọc kết quả, có ba tình huống:</p>
+<ul>
+<li><strong>Một bên thắng rõ, đủ cỡ mẫu</strong>: chuyển ngân sách sang bản thắng, dùng nó làm đối chứng cho lần thử sau.</li>
+<li><strong>Chênh lệch nhỏ, chưa đủ cỡ mẫu</strong>: coi như hòa, chọn bản rẻ sản xuất hơn, chuyển sang thử biến khác có tác động lớn hơn.</li>
+<li><strong>Chỉ số chính và chỉ số phụ ngược chiều</strong>, ví dụ CTR tăng mà CVR giảm: hook đang hứa điều video không giữ được. Sửa lại cho khớp, không vội chọn.</li>
+</ul>
+<p>Bản thắng cũng không giữ mãi. Khi tăng ngân sách cho nó, anh chị nên tăng từng bước, như đội mình viết trong bài <a href="/kien-thuc/scale-quang-cao-tiktok-tang-ngan-sach-ma-khong-vo-roi/">scale quảng cáo TikTok</a>.</p>
+<h2 id="loi-hay-gap-khi-ab-test-quang-cao-tiktok">Lỗi hay gặp khi AB test quảng cáo TikTok</h2>
+<ul>
+<li><strong>Đổi nhiều thứ một lúc.</strong> Video B khác video A cả người nói, nhạc, độ dài. Thắng hay thua đều không học được gì.</li>
+<li><strong>Kết luận sau một ngày.</strong> Hôm đầu bản A dẫn, hôm thứ ba bản B vượt. Một ngày chưa bao giờ đủ.</li>
+<li><strong>Chỉnh sửa giữa chừng.</strong> Đổi ngân sách, đổi nhắm mục tiêu khi thử nghiệm đang chạy làm hỏng điều kiện so sánh.</li>
+<li><strong>Đọc tổng đơn trong GMV Max.</strong> Video được nhiều tiền thì nhiều đơn; phải so tỷ lệ.</li>
+<li><strong>Không ghi lại.</strong> Ba tháng sau đội thử lại đúng ý tưởng đã thua.</li>
+<li><strong>Thử những thứ quá nhỏ.</strong> Đổi màu chữ phụ đề với ngân sách vài trăm nghìn sẽ không bao giờ ra kết luận.</li>
+<li><strong>Thử bằng câu nói quá công dụng.</strong> Bản đó có thể có CTR cao, nhưng dễ bị từ chối quảng cáo hoặc vi phạm chính sách. Không đáng.</li>
+</ul>
+<p>Kinh nghiệm thực tế từ đội vận hành: ở nhiều gian hàng đội mình từng chạy, thứ mang lại khác biệt lớn nhất gần như luôn là ba giây đầu và góc nội dung, hiếm khi là nhạc hay hiệu ứng. Vì vậy đội giữ một bảng thử nghiệm chung với các cột: ngày, sản phẩm, biến thử, giả thuyết, chỉ số chính, cỡ mẫu cần, kết quả, quyết định. Người làm nội dung đọc bảng này trước mỗi buổi viết kịch bản.</p>
+<h2 id="viec-can-lam-ngay-tuan-nay">Việc cần làm ngay tuần này</h2>
+<ol>
+<li>Chọn một sản phẩm chủ lực và một biến duy nhất để thử, ưu tiên ba giây đầu.</li>
+<li>Quay một thân video, làm 3–4 biến thể hook; với chiến dịch thủ công thì dựng Thử nghiệm phân tách, với GMV Max thì đưa cả lô vào cùng lúc.</li>
+<li>Tính cỡ mẫu cần cho chỉ số chính bằng bảng trên, đổi ra ngân sách theo CPM, CPC thật của tài khoản.</li>
+<li>Đặt lịch chạy tối thiểu 7 ngày, tránh tuần sale 12.12.</li>
+<li>Lập bảng ghi thử nghiệm chung cho cả đội nội dung và quảng cáo.</li>
+</ol>
+<p>Nếu anh chị cần một đội vừa làm video vừa chạy và đọc thử nghiệm, mảng <a href="/dich-vu/quang-cao-tiktok-shopee/">quảng cáo TikTok và Shopee</a> của QHUB Commerce làm theo đúng quy trình này.</p>
+</div>
+<section class="kt-faq" id="cau-hoi-thuong-gap"><h2>Câu hỏi thường gặp</h2><details><summary>AB test quảng cáo TikTok nên chạy bao lâu?</summary><p>Đội QHUB thường chạy tối thiểu 7 ngày để phủ đủ ngày thường và cuối tuần, và chỉ kết luận khi mỗi nhóm đã đạt cỡ mẫu tính trước. Khi tạo Thử nghiệm phân tách, Ads Manager hiển thị lịch chạy và mức ước tính độ tin cậy của thử nghiệm; mức tối thiểu hiện hành anh chị xem trong bài Split Test Best Practices của TikTok.</p></details><details><summary>GMV Max có chạy Split Test được không?</summary><p>Qua tra cứu các trang hỗ trợ TikTok Ads, đội QHUB chưa thấy hướng dẫn dùng Thử nghiệm phân tách cho GMV Max. GMV Max tự chọn video và phân bổ ngân sách, nên cách thực tế là đưa vào các lô video chỉ khác một yếu tố, rồi so tỷ lệ nhấp, tỷ lệ chuyển đổi và chi phí mỗi đơn của từng video trong báo cáo.</p></details><details><summary>Nên thử yếu tố nào trước trong video quảng cáo TikTok?</summary><p>Thử ba giây đầu (hook) trước, vì nó quyết định người xem có ở lại không và cần ít dữ liệu nhất để đọc. Sau đó mới đến góc nội dung, người xuất hiện, cách nói ưu đãi, lời kêu gọi hành động và độ dài video.</p></details><details><summary>Cần bao nhiêu tiền cho một AB test quảng cáo TikTok?</summary><p>Lấy cỡ mẫu cần cho mỗi nhóm nhân với giá mỗi lượt hiển thị hoặc mỗi lượt nhấp. Ví dụ giả định với CPM 40.000 đồng, thử tỷ lệ nhấp cần khoảng 20.000 lượt hiển thị, tức khoảng 800.000 đồng mỗi nhóm. Thử tỷ lệ mua tốn hơn nhiều vì cần hàng nghìn lượt nhấp mỗi nhóm.</p></details><details><summary>Kết quả AB test có dùng được mãi không?</summary><p>Không. Video nào cũng mỏi dần, người xem và mùa vụ cũng thay đổi. Bản thắng hôm nay là đối chứng cho lần thử sau. Đội QHUB ghi mọi thử nghiệm vào một bảng chung để biết điều gì đã đúng với sản phẩm và tệp khách nào.</p></details></section>
+<section class="kt-src"><h2>Nguồn tham khảo</h2><ul><li><a href="https://ads.tiktok.com/help/article/split-testing?lang=vi" target="_blank" rel="noopener nofollow">Giới thiệu về Thử nghiệm phân tách – TikTok Ads</a></li><li><a href="https://ads.tiktok.com/help/article/create-split-test?lang=en" target="_blank" rel="noopener nofollow">How to create a split test – TikTok Ads</a></li><li><a href="https://ads.tiktok.com/help/article/split-testing-variables?redirected=1" target="_blank" rel="noopener nofollow">Split Testing Variables – TikTok Ads</a></li><li><a href="https://ads.tiktok.com/help/article/split-test-best-practices?lang=en" target="_blank" rel="noopener nofollow">Split Test Best Practices – TikTok Ads</a></li><li><a href="https://ads.tiktok.com/help/article/about-custom-split-testing" target="_blank" rel="noopener nofollow">Custom Split Testing – TikTok Ads</a></li><li><a href="https://ads.tiktok.com/resources/blog/split-testing-in-ttam?lang=en" target="_blank" rel="noopener nofollow">Campaign-Level Split Testing in TikTok Ads Manager – TikTok Ads</a></li><li><a href="https://ads.tiktok.com/resources/help/article/how-to-improve-creative-exploration-in-product-gmv-max" target="_blank" rel="noopener nofollow">How to improve creative exploration in Product GMV Max – TikTok Ads</a></li><li><a href="https://ads.tiktok.com/resources/help/article/how-to-set-up-live-gmv-max-creative-boost?lang=en" target="_blank" rel="noopener nofollow">How to set up LIVE GMV Max Creative boost – TikTok Ads</a></li><li><a href="https://ads.tiktok.com/help/article/how-to-see-reporting-for-your-product-gmv-max-campaign" target="_blank" rel="noopener nofollow">How to view reporting for your Product GMV Max campaign – TikTok Ads</a></li><li><a href="https://ads.tiktok.com/business/vi/guides/ad-testing-guide" target="_blank" rel="noopener nofollow">Hướng dẫn thử nghiệm quảng cáo – TikTok for Business</a></li></ul></section>
+<aside class="kt-author">
+  <img class="kt-av" src="/quang-avatar-240.jpg" alt="Nguyễn Văn Quang" width="56" height="56" loading="lazy">
+  <div>
+    <p class="kt-by">Người viết</p>
+    <h2><a href="/tac-gia/nguyen-van-quang/">Nguyễn Văn Quang</a></h2>
+    <p class="kt-role">Founder &amp; CEO, QHUB Commerce</p>
+    <p>Đi lên từ bán hàng thị trường, qua trade marketing, brand marketing đến vận hành thương mại điện tử cho các doanh nghiệp đồ uống, thực phẩm và hàng tiêu dùng. Trực tiếp vận hành gian hàng trên Shopee, TikTok Shop, Facebook, Lazada, Tiki và Website.</p>
+  </div>
+</aside>
+<aside class="kt-cta">
+  <img src="/logo-qhub.png" alt="" width="64" height="64">
+  <div>
+    <h2>Cần người ngồi vào vận hành cùng anh chị?</h2>
+    <p>QHUB Commerce là Phòng Tăng Trưởng Thuê Ngoài cho doanh nghiệp bán hàng đa sàn. Đội QHUB trực tiếp vận hành TikTok Shop, Shopee, Facebook và Website: nội dung, livestream, affiliate, quảng cáo, dữ liệu. Buổi chẩn đoán đầu tiên 60 phút, miễn phí.</p>
+    <a class="btn btn-primary" href="/#dat-lich">Đặt lịch chẩn đoán miễn phí</a>
+    <a class="kt-cta-link" href="https://zalo.me/0856510113" target="_blank" rel="noopener">Hoặc nhắn Zalo 0856 510 113</a>
+  </div>
+</aside>
+</article>
+<section class="kt-rel"><h2>Đọc tiếp</h2><div class="kt-grid"><article class="kt-card"><a href="/kien-thuc/kiem-soat-ngan-sach-khi-giao-quang-cao-cho-agency/"><span class="kt-tag">Quảng cáo TikTok &amp; GMV Max</span><h3>Kiểm soát ngân sách khi giao quảng cáo cho agency</h3><p>Kiểm soát ngân sách quảng cáo khi thuê agency: giữ quyền sở hữu tài khoản, đặt trần chi tiêu, quy tắc tăng ngân sách, báo cáo tuần và điều khoản hợp đồng cần có.</p><span class="kt-meta">27/11/2026 · 12 phút đọc</span></a></article><article class="kt-card"><a href="/kien-thuc/thue-chay-quang-cao-tiktok-phi-quan-ly-cach-danh-gia-don-vi/"><span class="kt-tag">Quảng cáo TikTok &amp; GMV Max</span><h3>Thuê chạy quảng cáo TikTok: phí quản lý, cách đánh giá đơn vị</h3><p>Dịch vụ chạy quảng cáo TikTok tính phí quản lý ra sao, thuế khi nạp tiền, tài khoản agency hay chính chủ, GMV Max đổi gì, tiêu chí và câu hỏi chọn đơn vị.</p><span class="kt-meta">26/11/2026 · 13 phút đọc</span></a></article><article class="kt-card"><a href="/kien-thuc/quang-cao-trong-ngay-mega-sale-tren-tiktok-shop/"><span class="kt-tag">Quảng cáo TikTok &amp; GMV Max</span><h3>Quảng cáo trong ngày mega sale trên TikTok Shop: vận hành từ 0h đến 24h</h3><p>Quảng cáo ngày sale TikTok: checklist trước 0h, nhịp theo dõi GMV Max theo giờ, bảng xử lý sự cố giữa ngày và cách đưa chiến dịch về ngày thường sau 24h.</p><span class="kt-meta">26/11/2026 · 13 phút đọc</span></a></article><article class="kt-card"><a href="/kien-thuc/quang-cao-livestream-khung-gio-ngan-sach-phoi-hop-voi-host/"><span class="kt-tag">Quảng cáo TikTok &amp; GMV Max</span><h3>Quảng cáo livestream: khung giờ, ngân sách, phối hợp với host</h3><p>Quảng cáo livestream TikTok bằng LIVE GMV Max: chọn khung giờ, chia ngân sách theo phiên, khi nào tăng giảm và cách host phối hợp với người chạy quảng cáo.</p><span class="kt-meta">26/11/2026 · 12 phút đọc</span></a></article></div></section>
+</div>
+</main>
+<footer class="footer">
+  <div class="wrap">
+    <div>
+      <h4>CÔNG TY TNHH QHUB COMMERCE</h4>
+      <p class="legal-info">Giấy CN ĐKDN số 5400570349 do Phòng Đăng ký kinh doanh – Sở Tài chính tỉnh Phú Thọ cấp lần đầu ngày 13/04/2026</p>
+      <p>Người đại diện theo pháp luật: Nguyễn Văn Quang</p>
+      <p>Trụ sở: Khu Vai, Xã An Nghĩa, Tỉnh Phú Thọ, Việt Nam</p>
+      <p>Hotline/Zalo: <a href="tel:0856510113">0856 510 113</a></p>
+      <p>Email: <a href="mailto:qhubcommerce@gmail.com">qhubcommerce@gmail.com</a></p>
+    </div>
+    <div>
+      <h4>Kiến thức</h4>
+      <ul><li><a href="/kien-thuc/chu-de/tiktok/">Xây kênh TikTok</a></li><li><a href="/kien-thuc/chu-de/content-tiktok/">Content TikTok</a></li><li><a href="/kien-thuc/chu-de/tiktok-shop/">TikTok Shop căn bản</a></li><li><a href="/kien-thuc/chu-de/van-hanh-tiktok-shop/">Vận hành TikTok Shop</a></li><li><a href="/kien-thuc/chu-de/quang-cao-tiktok/">Quảng cáo TikTok &amp; GMV Max</a></li><li><a href="/kien-thuc/chu-de/phi-san-tiktok-shop/">Phí sàn TikTok Shop</a></li><li><a href="/kien-thuc/chu-de/van-hanh-shopee/">Vận hành Shopee</a></li><li><a href="/kien-thuc/chu-de/quang-cao-shopee/">Quảng cáo Shopee</a></li></ul>
+    </div>
+    <div>
+      <h4>&nbsp;</h4>
+      <ul><li><a href="/kien-thuc/chu-de/phi-san-shopee/">Phí sàn Shopee</a></li><li><a href="/kien-thuc/chu-de/ban-hang-facebook/">Bán hàng Facebook</a></li><li><a href="/kien-thuc/chu-de/youtube/">Xây kênh YouTube</a></li><li><a href="/kien-thuc/chu-de/instagram/">Phát triển Instagram</a></li><li><a href="/kien-thuc/chu-de/threads/">Phát triển Threads</a></li><li><a href="/kien-thuc/chu-de/website-seo/">Website chuẩn SEO</a></li><li><a href="/kien-thuc/chu-de/lich-sale/">Lịch sale &amp; chiến dịch</a></li><li><a href="/gioi-thieu/">Giới thiệu QHUB</a></li><li><a href="/dich-vu/">Dịch vụ</a></li><li><a href="/chinh-sach.html">Chính sách</a></li></ul>
+    </div>
+    <div class="legal"><span>© 2026 QHUB Commerce.</span><span>qhub.com.vn</span></div>
+  </div>
+</footer>
+<div class="float" aria-label="Liên hệ nhanh">
+  <a class="zalo" href="https://zalo.me/0856510113" target="_blank" rel="noopener" aria-label="Nhắn Zalo cho QHUB">Zalo</a>
+  <a class="call" href="tel:0856510113" aria-label="Gọi hotline QHUB"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 005 5L15 13l5 2v4a2 2 0 01-2 2A16 16 0 013 6a2 2 0 012-2"/></svg></a>
+</div>
+<script src="/kien-thuc.js?v=20261113f" defer></script>
+</body>
+</html>

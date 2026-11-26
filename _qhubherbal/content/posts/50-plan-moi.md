@@ -1865,3 +1865,135 @@ products: duong-tam-an
 Khoa học về âm nhạc và cảm giác thư giãn.
 
 [[buy:duong-tam-an]]
+
++++
+slug: co-duoc-si-tre-va-cau-hoi-tra-co
+title: Cô nhân viên văn phòng và câu hỏi "trà có làm đẹp da không"
+desc: Câu chuyện một cô nhân viên văn phòng đi tìm câu trả lời: trà hoa có làm đẹp da không, khoa học nói gì, và điều gì thật sự quyết định làn da.
+cat: cau-chuyen
+date: 2026-11-27
+products: duong-nhan
++++
+Câu chuyện về kỳ vọng "uống trà để đẹp da" và những điều thật sự quyết định làn da.
+
+[[buy:duong-nhan]]
+
++++
+slug: tia-to-trong-bua-com-viet
+title: Tía tô trong bữa cơm Việt: kinh nghiệm dân gian khi ăn cua cá
+desc: Tía tô trong bữa cơm Việt: vì sao người xưa ăn tía tô với cua, cá, ốc; tính vị theo quan niệm phương Đông, nghiên cứu hiện đại và lưu ý an toàn.
+cat: thao-moc
+date: 2026-11-27
+products: duong-nhan
++++
+Tía tô – vị rau thơm quen thuộc đi cùng cua, cá trong bữa cơm Việt.
+
+[[buy:duong-nhan]]
+
++++
+slug: dang-dung-thuoc-chong-dong-co-uong-tra-duong
+title: Đang dùng thuốc chống đông có uống Trà Dưỡng Nhan được không
+desc: Đang dùng warfarin hay thuốc chống đông khác có uống Trà Dưỡng Nhan được không? Kỷ tử, tương tác thuốc – thảo mộc và những điều cần hỏi bác sĩ.
+cat: san-pham
+date: 2026-11-27
+products: duong-nhan
++++
+Người dùng thuốc chống đông cần biết gì trước khi uống trà thảo mộc.
+
+[[buy:duong-nhan]]
+
++++
+slug: bung-bia-o-nam-gioi-nguyen-nhan-va-cach
+title: Bụng bia ở nam giới: nguyên nhân và cách giảm an toàn
+desc: Bụng bia ở nam giới do đâu: rượu bia, ăn uống, ít vận động, thiếu ngủ, tuổi tác; rủi ro sức khỏe và cách giảm vòng bụng an toàn, bền vững.
+cat: cam-nang
+date: 2026-11-27
+products: nam-vuong
++++
+Vì sao đàn ông trung niên dễ có bụng bia và cách giảm vòng bụng an toàn.
+
+[[buy:nam-vuong]]
+
++++
+slug: kem-vitamin-d-va-suc-khoe-nam-gioi-an
+title: Kẽm, vitamin D và sức khỏe nam giới: ăn gì cho đủ
+desc: Kẽm và vitamin D quan trọng thế nào với nam giới, cần bao nhiêu mỗi ngày, thực phẩm giàu kẽm và vitamin D, khi nào nên xét nghiệm và rủi ro khi bổ sung quá liều.
+cat: cam-nang
+date: 2026-11-27
+products: nam-vuong
++++
+Ăn gì để đủ kẽm và vitamin D cho nam giới.
+
+[[buy:nam-vuong]]
+
++++
+slug: mat-ngu-o-nguoi-cao-tuoi-dung-nhieu-thuoc
+title: Mất ngủ ở người cao tuổi dùng nhiều thuốc
+desc: Mất ngủ ở người cao tuổi dùng nhiều thuốc: thuốc nào có thể gây khó ngủ, rủi ro của thuốc ngủ ở người già, cách rà soát thuốc cùng bác sĩ và vệ sinh giấc ngủ.
+cat: cam-nang
+date: 2026-11-27
+products: xau-ho-tim-tam-sen
++++
+Mất ngủ và đa thuốc ở người cao tuổi: rà soát thuốc cùng bác sĩ.
+
+[[buy:xau-ho-tim-tam-sen]]
+
++++
+slug: ca-phe-tra-dac-nuoc-tang-luc-lich-dung
+title: Cà phê, trà đặc, nước tăng lực: lịch dùng để không mất ngủ
+desc: Lượng caffeine trong cà phê, trà đặc, nước tăng lực; caffeine tồn tại bao lâu trong cơ thể, nên ngưng lúc mấy giờ và lịch dùng hợp lý để không ảnh hưởng giấc ngủ.
+cat: cam-nang
+date: 2026-11-27
+products: xau-ho-tim-tam-sen
++++
+Lịch dùng cà phê, trà đặc, nước tăng lực để không ảnh hưởng giấc ngủ.
+
+[[buy:xau-ho-tim-tam-sen]]
+
++++
+slug: kinh-nguyet-sau-sinh-bao-lau-thi-co-lai
+title: Kinh nguyệt sau sinh: bao lâu thì có lại
+desc: Kinh nguyệt sau sinh bao lâu thì có lại, khác nhau thế nào giữa mẹ cho con bú và không cho bú, sản dịch khác kinh nguyệt ra sao, tránh thai sau sinh và khi nào cần đi khám.
+cat: cam-nang
+date: 2026-11-27
+products: ngay-dau-ve
++++
+Kinh nguyệt quay lại sau sinh: mốc thời gian và dấu hiệu cần đi khám.
+
+[[buy:ngay-dau-ve]]
+
++++
+slug: vong-eo-bao-nhieu-la-co-nguy-co
+title: Vòng eo bao nhiêu là có nguy cơ
+desc: Vòng eo bao nhiêu là có nguy cơ với người Việt: ngưỡng cho nam và nữ, tỷ lệ eo/chiều cao, cách đo vòng eo đúng tại nhà và các bước giảm vòng eo bằng lối sống.
+cat: cam-nang
+date: 2026-11-27
+products: la-oi-mix-la-sen
++++
+Ngưỡng vòng eo nguy cơ và cách đo đúng tại nhà.
+
+[[buy:la-oi-mix-la-sen]]
+
++++
+slug: tra-va-nghi-thuc-thu-gian-cua-nguoi-nhat
+title: Trà và nghi thức thư giãn của người Nhật, người Việt
+desc: Trà đạo Nhật Bản và văn hóa trà Việt: tinh thần hòa – kính – thanh – tịch, ấm trà buổi sáng của người Việt, và cách tạo nghi thức trà thư giãn tại nhà.
+cat: san-pham
+date: 2026-11-27
+products: duong-tam-an
++++
+Nghi thức trà của người Nhật, người Việt và cách tạo khoảng lặng với tách trà.
+
+[[buy:duong-tam-an]]
+
++++
+slug: paracetamol-va-gan-lieu-an-toan-va-nhung-sai
+title: Paracetamol và gan: liều an toàn và những sai lầm thường gặp
+desc: Paracetamol và gan: liều tối đa mỗi ngày, vì sao quá liều gây tổn thương gan, những sai lầm thường gặp như uống trùng thuốc cảm, uống với rượu và khi nào cần cấp cứu.
+cat: cam-nang
+date: 2026-11-27
+products: ca-gai-diep-ha-chau
++++
+Dùng paracetamol an toàn cho gan: liều, khoảng cách và sai lầm cần tránh.
+
+[[buy:ca-gai-diep-ha-chau]]

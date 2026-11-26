@@ -2385,3 +2385,214 @@ NEW_RULES15.append(('n15_amnhacthugian', ['âm nhạc', 'nghe nhạc', 'nhạc t
 
 
 RULES[:0] = NEW_RULES15
+
+
+# Đêm 16 (27/11/2026): cụm đặc thù đặt lên đầu RULES (URL lấy từ kết quả WebSearch)
+NEW_RULES16 = []
+
+# ===== duong-nhan =====
+# --- co-duoc-si-tre-va-cau-hoi-tra-co ---
+SRC['n16_tra_dep_da'] = [
+    ('Hughes MCB và cộng sự (2013) – Kem chống nắng và phòng ngừa lão hóa da: thử nghiệm ngẫu nhiên tại Nambour, Annals of Internal Medicine', 'https://pubmed.ncbi.nlm.nih.gov/23732711/'),
+    ('Flament F và cộng sự (2013) – Ảnh hưởng của ánh nắng lên các dấu hiệu lão hóa nhìn thấy được ở da người da trắng, Clinical, Cosmetic and Investigational Dermatology', 'https://pubmed.ncbi.nlm.nih.gov/24101874/'),
+    ('Oyetakin-White P và cộng sự (2015) – Chất lượng giấc ngủ kém có ảnh hưởng đến lão hóa da không?, Clinical and Experimental Dermatology', 'https://pubmed.ncbi.nlm.nih.gov/25266053/'),
+    ('Janjua R và cộng sự (2009) – Thử nghiệm mù đôi có đối chứng giả dược với chiết xuất trà xanh trên da lão hóa do ánh nắng', 'https://research.bidmc.org/alexa-kimball/publications/double-blinded-placebo-controlled-trial-green-tea-extracts-clinical-and-histologic'),
+    ('Tổng quan "Sugar Sag: Glycation and the Role of Diet in Aging Skin" – Glycation và vai trò của chế độ ăn trong lão hóa da', 'https://pubmed.ncbi.nlm.nih.gov/27224842/'),
+    ('Học viện Da liễu Hoa Kỳ (AAD) – 11 cách giảm lão hóa da sớm', 'https://www.aad.org/public/everyday-care/skin-care-secrets/anti-aging/reduce-premature-aging-skin'),
+]
+NEW_RULES16.append(('n16_tra_dep_da', ['đẹp da', 'nambour', 'flament', 'oyetakin', 'janjua', 'kem trộn', 'sugar sag', 'tăng sắc tố', 'lão hóa da'], 17))
+
+# --- tia-to-trong-bua-com-viet ---
+SRC['n16_tiato_haisan'] = [
+    ('Tổng quan toàn diện về Perilla frutescens (2025) – Thành phần hóa học, cơ chế dược lý và ứng dụng trong thực phẩm, sản phẩm sức khỏe, PMC', 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11988686/'),
+    ('Takano H và cộng sự (2004) – Chiết xuất tía tô làm giàu axit rosmarinic ức chế viêm mũi – kết mạc dị ứng theo mùa ở người, Experimental Biology and Medicine', 'https://www.ebm-journal.org/journals/experimental-biology-and-medicine/articles/10.1177/153537020422900305/full'),
+    ('CMAJ (2012) – Ngộ độc scombroid (histamine) là dạng ngộ độc thực phẩm thường gặp liên quan đến ăn cá', 'https://pmc.ncbi.nlm.nih.gov/articles/PMC3314039'),
+    ('CDC – MMWR: Nhiễm Vibrio vulnificus liên quan đến ăn hàu sống', 'https://www.cdc.gov/mmwr/preview/mmwrhtml/00020736.htm'),
+    ('Hai ca phản vệ do hạt tía tô (báo cáo ca)', 'https://em-consulte.com/article/451680/two-cases-of-anaphylaxis-caused-by-perilla-seed'),
+    ('Mayway – Câu chuyện vị thuốc: tử tô diệp (lá tía tô) trong thảo mộc truyền thống', 'https://mayway.com/articles/herb-story-zi-su-ye'),
+]
+NEW_RULES16.append(('n16_tiato_haisan', ['tropomyosin', 'giải ngư', 'hải sản', 'ghẹ', 'scombroid', 'vibrio', 'canh cua', 'cá ươn', 'tanh'], 36))
+
+# --- dang-dung-thuoc-chong-dong-co-uong-tra-duong ---
+SRC['n16_chongdong_dn'] = [
+    ('Báo cáo ca (2001) – Khả năng tương tác giữa warfarin và kỷ tử (Lycium barbarum L.)', 'https://pubmed.ncbi.nlm.nih.gov/11675844/'),
+    ('Báo cáo ca (2015) – Chảy máu do tương tác có khả năng giữa warfarin và câu kỷ tử, Toxicology Reports', 'https://www.sciencedirect.com/science/article/pii/S2214750015300524'),
+    ('Tổng quan (2017) – Thuốc chống đông đường uống cũ và mới: tương tác với thức ăn, thảo dược và thuốc, Blood Reviews', 'https://pubmed.ncbi.nlm.nih.gov/28196633/'),
+    ('Trung tâm Ung thư Memorial Sloan Kettering (MSKCC) – Kỷ tử (Lycium): thông tin thảo mộc và tương tác', 'https://www.mskcc.org/cancer-care/integrative-medicine/herbs/lycium'),
+    ('Hội Tim mạch Hoa Kỳ (AHA) – Hướng dẫn người bệnh dùng warfarin', 'https://www.heart.org/en/health-topics/arrhythmia/prevention--treatment-of-arrhythmia/a-patients-guide-to-taking-warfarin'),
+    ('NHS – Thuốc chống đông: tác dụng phụ và dấu hiệu chảy máu cần cấp cứu', 'https://www.nhs.uk/medicines/anticoagulants/side-effects/'),
+]
+NEW_RULES16.append(('n16_chongdong_dn', ['warfarin', 'chống đông', 'inr', 'doac', 'chảy máu', 'lycium', 'apixaban', 'rivaroxaban'], 93))
+
+# ===== nam-vuong =====
+# --- bung-bia-o-nam-gioi-nguyen-nhan-va-cach ---
+SRC['n16_bungbia_nam'] = [
+    ('Mayo Clinic – Mỡ bụng ở nam giới: vì sao cần quan tâm (Belly fat in men: Why weight loss matters)', 'https://www.mayoclinic.org/healthy-lifestyle/weight-loss/in-depth/belly-fat/art-20045685'),
+    ('Harvard Health Publishing – Bụng bia (Beer belly)', 'https://www.health.harvard.edu/staying-healthy/beer-belly'),
+    ('Nghiên cứu SESSA (Shiga, Nhật Bản) – Mối liên quan giữa uống rượu và sự tích tụ mỡ ở nam giới cộng đồng Nhật Bản, PMC', 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6522392/'),
+    ('Leproult R, Van Cauter E (2011) – Ảnh hưởng của 1 tuần ngủ thiếu lên testosterone ở nam thanh niên khỏe mạnh, JAMA', 'https://pubmed.ncbi.nlm.nih.gov/21632481/'),
+    ('Corona G và cộng sự (2013) – Giảm khối lượng cơ thể giúp đảo ngược suy sinh dục liên quan béo phì: tổng quan hệ thống và phân tích gộp, European Journal of Endocrinology', 'https://pubmed.ncbi.nlm.nih.gov/23482592/'),
+    ('Liên đoàn Đái tháo đường Quốc tế (IDF) (2006) – Hội chứng chuyển hóa: định nghĩa toàn cầu mới, Diabetic Medicine', 'https://pubmed.ncbi.nlm.nih.gov/16681555/'),
+]
+NEW_RULES16.append(('n16_bungbia_nam', ['bụng bia', 'vòng bụng', 'bàn nhậu', 'sessa', 'corona', 'lon bia', 'vòng xoáy', 'giảm vòng bụng'], 19))
+
+# --- cach-phan-biet-ba-kich-that-gia ---
+SRC['n16_bakich_gia'] = [
+    ('Tổng quan (2017) – Morinda officinalis How.: tổng quan toàn diện về công dụng truyền thống, hóa thực vật và dược lý, Journal of Ethnopharmacology', 'https://pubmed.ncbi.nlm.nih.gov/29126988/'),
+    ('Tổng quan (2019) – Xác thực sản phẩm thảo dược thương mại bằng ADN cho thấy tình trạng trộn lẫn phổ biến toàn cầu, PMC', 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6822544/'),
+    ('Khảo sát tính xác thực của dược liệu tại các chợ Trung Quốc bằng mã vạch ADN, PMC', 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4703975/'),
+    ('Phát hiện rhodamine B (phẩm màu công nghiệp) trong gia vị bằng phương pháp UPLC-MS/MS', 'https://read.qxmd.com/read/30463493/rhodamine-b-in-spices-determined-by-a-sensitive-uplc-ms-ms-method'),
+    ('Tổng quan (2025) – Xông lưu huỳnh dược liệu: ảnh hưởng đến thành phần hóa học, đặc tính dược lý và tiến bộ trong kỹ thuật phát hiện, Frontiers in Pharmacology', 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12313704/'),
+]
+NEW_RULES16.append(('n16_bakich_gia', ['nhuộm', 'phẩm màu', 'lõi', 'khăn giấy', 'rhodamine', 'lưu huỳnh', 'thật – giả', 'đáng nghi'], 47))
+
+# --- kem-vitamin-d-va-suc-khoe-nam-gioi-an ---
+SRC['n16_kem_vitd_nam'] = [
+    ('Văn phòng Thực phẩm bổ sung, Viện Y tế Quốc gia Hoa Kỳ (NIH ODS) – Kẽm: thông tin cho chuyên gia y tế', 'https://ods.od.nih.gov/factsheets/Zinc-HealthProfessional/'),
+    ('Văn phòng Thực phẩm bổ sung, Viện Y tế Quốc gia Hoa Kỳ (NIH ODS) – Vitamin D: thông tin cho chuyên gia y tế', 'https://ods.od.nih.gov/factsheets/VitaminD-HealthProfessional/'),
+    ('NICHD/NIH (2020) – Bổ sung kẽm và axit folic không cải thiện khả năng sinh sản nam giới (thử nghiệm FAZST, JAMA)', 'https://www.nichd.nih.gov/newsroom/news/010720-male-fertility'),
+    ('Phân tích gộp (2019) – Các thử nghiệm lâm sàng không cho thấy bổ sung vitamin D làm tăng testosterone ở nam giới', 'https://pubmed.ncbi.nlm.nih.gov/31332821/'),
+    ('Healio (2017) – Bổ sung vitamin D không cải thiện chất lượng tinh dịch ở nam giới vô sinh (thử nghiệm tại Đan Mạch)', 'https://cm.healio.com/news/endocrinology/20171214/vitamin-d-supplementation-fails-to-improve-semen-quality-in-men-with-infertility'),
+    ('Báo cáo ca (2025) – Bệnh tủy – thần kinh do thiếu đồng gây bởi kẽm, PMC', 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12103893/'),
+]
+NEW_RULES16.append(('n16_kem_vitd_nam', ['kẽm', 'vitamin d', 'fazst', '25(oh)d', 'thiếu đồng', 'giới hạn trên', 'hàu', 'tinh dịch'], 92))
+
+# ===== xau-ho-tim-tam-sen =====
+# --- mat-ngu-o-nguoi-cao-tuoi-dung-nhieu-thuoc ---
+SRC['n16_dathuoc_nguoigia'] = [
+    ('American Geriatrics Society (2023) – 2023 Updated AGS Beers Criteria® for potentially inappropriate medication use in older adults (Tiêu chí Beers: thuốc nên tránh ở người cao tuổi, gồm benzodiazepine và thuốc ngủ nhóm Z), Journal of the American Geriatrics Society', 'https://pmc.ncbi.nlm.nih.gov/articles/PMC12478568/'),
+    ('Z-drugs and risk for falls and fractures in older adults – a systematic review and meta-analysis (Thuốc ngủ nhóm Z và nguy cơ té ngã, gãy xương ở người cao tuổi: tổng quan hệ thống và phân tích gộp)', 'https://cris.huji.ac.il/en/publications/z-drugs-and-risk-for-falls-and-fractures-in-older-adults-a-system/'),
+    ('Qaseem A. và cộng sự (2016) – Management of Chronic Insomnia Disorder in Adults: A Clinical Practice Guideline From the American College of Physicians (ACP khuyến nghị CBT-I là lựa chọn ban đầu cho mất ngủ mạn tính), Annals of Internal Medicine', 'https://pubmed.ncbi.nlm.nih.gov/27136449/'),
+    ('Vivid Dreams and Nightmares as an Adverse Effect of Beta-Blockers in the Treatment of Episodic Migraine (Mơ nhiều, ác mộng – tác dụng phụ của thuốc chẹn beta)', 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12771627/'),
+    ('AHRQ PSNet – Drug-related problem outcomes and program satisfaction from a comprehensive brown bag medication review (Rà soát "túi thuốc" ở người cao tuổi)', 'https://psnet.ahrq.gov/issue/drug-related-problem-outcomes-and-program-satisfaction-comprehensive-brown-bag-medication'),
+    ('ACP Internist Weekly (2025) – New guidance recommends tapering benzodiazepine use for most older adults (Hướng dẫn mới: giảm dần benzodiazepine ở phần lớn người cao tuổi)', 'https://immattersacp.org/weekly/archives/2025/06/24/2.htm'),
+]
+NEW_RULES16.append(('n16_dathuoc_nguoigia', ['đa thuốc', 'túi thuốc', 'beers', 'lợi tiểu', 'rà soát', 'người cao tuổi'], 29))
+
+# --- uong-tra-xau-ho-co-buon-ngu-ban-ngay-khong ---
+SRC['n16_xht_buonngu'] = [
+    ('FDA – Questions and Answers: Risk of next-morning impairment after use of insomnia drugs; FDA requires lower recommended doses for certain drugs containing zolpidem (Nguy cơ giảm tỉnh táo sáng hôm sau khi dùng thuốc ngủ)', 'https://fda.gov/drugs/drug-safety-and-availability/questions-and-answers-risk-next-morning-impairment-after-use-insomnia-drugs-fda-requires-lower'),
+    ('Hilditch C.J., McHill A.W. (2019) – Sleep inertia: current insights (Quán tính giấc ngủ: hiểu biết hiện nay), Nature and Science of Sleep', 'https://www.dovepress.com/sleep-inertia-current-insights-peer-reviewed-article-NSS'),
+    ('Ebrahim I.O. và cộng sự (2013) – Alcohol and sleep I: effects on normal sleep (Rượu và giấc ngủ: ảnh hưởng lên giấc ngủ bình thường), Alcoholism: Clinical and Experimental Research', 'https://pubmed.ncbi.nlm.nih.gov/23347102/'),
+    ('MSD Manual Professional – Obstructive Sleep Apnea (OSA) (Ngưng thở tắc nghẽn khi ngủ)', 'https://www.msdmanuals.com/professional/pulmonary-disorders/sleep-apnea/obstructive-sleep-apnea-osa'),
+    ('NCCIH – Passionflower (Lạc tiên: bằng chứng khoa học và an toàn)', 'https://nccih.nih.gov/health/passionflower?nav=govd'),
+    ('Potential Risk of Higenamine Misuse in Sports: Evaluation of Lotus Plumule Extract Products and a Human Study (Higenamine trong tâm sen và nguy cơ doping)', 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7070534/'),
+]
+NEW_RULES16.append(('n16_xht_buonngu', ['quán tính giấc ngủ', 'sáng dậy', 'lừ đừ', 'buồn ngủ ban ngày', 'sáng hôm sau', 'chị hà'], 19))
+
+# --- ca-phe-tra-dac-nuoc-tang-luc-lich-dung ---
+SRC['n16_lich_caffeine'] = [
+    ('FDA – Spilling the Beans: How Much Caffeine is Too Much? (400 mg caffeine/ngày ở người lớn khỏe mạnh)', 'https://www.fda.gov/consumers/consumer-updates/spilling-beans-how-much-caffeine-too-much'),
+    ('Mayo Clinic – Caffeine content for coffee, tea, soda and more (Hàm lượng caffeine: cà phê pha khoảng 96 mg, trà đen khoảng 47 mg, trà xanh khoảng 28 mg mỗi 237 ml)', 'https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/caffeine/art-20049372'),
+    ('Drake C. và cộng sự (2013) – Caffeine Effects on Sleep Taken 0, 3, or 6 Hours before Going to Bed (Caffeine uống 6 giờ trước khi ngủ vẫn làm giảm thời gian ngủ), Journal of Clinical Sleep Medicine', 'https://pmc.ncbi.nlm.nih.gov/articles/PMC3805807/'),
+    ('ACOG (2010) – Committee Opinion No. 462: Moderate caffeine consumption during pregnancy (Tiêu thụ caffeine vừa phải khi mang thai, dưới 200 mg/ngày), Obstetrics & Gynecology', 'https://pubmed.ncbi.nlm.nih.gov/20664420/'),
+    ('EFSA (2015) – Scientific Opinion on the safety of caffeine (Đánh giá an toàn caffeine: 400 mg/ngày, liều đơn 200 mg ở người lớn), EFSA Journal', 'https://efsa.europa.eu/en/efsajournal/pub/4102'),
+    ('A pilot study investigating the impact of a caffeine-nap on alertness during a simulated night shift (Giấc ngủ ngắn kèm caffeine trong ca đêm mô phỏng: nghiên cứu thử nghiệm)', 'https://pubmed.ncbi.nlm.nih.gov/32819191/'),
+]
+NEW_RULES16.append(('n16_lich_caffeine', ['giờ giới nghiêm', 'nước tăng lực', 'ca đêm', 'ca chiều', 'ca sáng', 'drake'], 31))
+
+# ===== ngay-dau-ve =====
+# --- tao-do-co-tac-dung-gi ---
+SRC['n16_taodotacdung'] = [
+    ('Literature Review (2024) – A Literature Review of the Pharmacological Effects of Jujube (Tổng quan các tác dụng dược lý của táo tàu), Foods', 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10814260/'),
+    ('Effects of jujube (Ziziphus jujuba Mill.) fruit extracts on oxidative stress: A systematic review and meta-analysis of rodent studies (Chiết xuất quả táo tàu và stress oxy hóa: tổng quan hệ thống, phân tích gộp các nghiên cứu trên loài gặm nhấm)', 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11317725/'),
+    ('A Review of Edible Jujube, the Ziziphus jujuba Fruit: A Heath Food Supplement for Anemia Prevalence (Tổng quan về quả táo tàu trong bối cảnh thiếu máu), Frontiers in Pharmacology (2020)', 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7726020/'),
+    ('Investigation the effect of jujube seed capsule on sleep quality of postmenopausal women: A double-blind randomized clinical trial (Viên nang hạt táo và chất lượng giấc ngủ ở phụ nữ sau mãn kinh – thử nghiệm dùng hạt, không phải quả)', 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7735973/'),
+    ('Cooking Increased the Postprandial Glycaemic Response but Enhanced the Preload Effect of Air-Dried Jujube (Nấu chín làm tăng đáp ứng đường huyết sau ăn của táo đỏ khô)', 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11988649/'),
+    ('Đỗ Tất Lợi – Đại táo (táo tàu, táo đen, táo đỏ), Những cây thuốc và vị thuốc Việt Nam (Tính vị, công năng theo kinh nghiệm truyền thống)', 'https://vnras.com/dai-tao-tao-tau-tao-den-tao-do-nhung-cay-thuoc-va-vi-thuoc-viet-nam-do-tat-loi/'),
+]
+NEW_RULES16.append(('n16_taodotacdung', ['táo đỏ', 'jujube', 'hạt táo', 'toan táo nhân', 'đường huyết', 'chiết xuất', 'táo khô', 'mức bằng chứng'], 76))
+
+# --- kinh-nguyet-sau-sinh-bao-lau-thi-co-lai ---
+SRC['n16_kinhsausinh'] = [
+    ('Jackson E., Glasier A. (2011) – Return of ovulation and menses in postpartum nonlactating women: a systematic review (Thời điểm rụng trứng và có kinh lại ở phụ nữ không cho con bú: tổng quan hệ thống), Obstetrics & Gynecology', 'https://pubmed.ncbi.nlm.nih.gov/21343770/'),
+    ('CDC – U.S. Medical Eligibility Criteria: Lactational Amenorrhea Method (Phương pháp cho con bú vô kinh – LAM)', 'https://www.cdc.gov/reproductivehealth/contraception/mmwr/mec/appendixg.html'),
+    ('WHO và cộng sự – Family Planning: A Global Handbook for Providers, chương 19: Lactational Amenorrhea Method (Cẩm nang kế hoạch hóa gia đình – phương pháp LAM)', 'https://fphandbook.org/sites/default/files/chap_19_eng.pdf'),
+    ('StatPearls – Physiology, Postpartum Changes (Sinh lý những thay đổi sau sinh, gồm sản dịch), NCBI Bookshelf', 'https://www.ncbi.nlm.nih.gov/sites/books/NBK555904/'),
+    ('CDC Hear Her – Urgent Maternal Warning Signs and Symptoms (Dấu hiệu cảnh báo khẩn cấp ở phụ nữ mang thai và sau sinh)', 'https://www.cdc.gov/hearher/maternal-warning-signs/'),
+    ('Cleveland Clinic – Can You Get Pregnant While Breastfeeding? (Có thể mang thai khi đang cho con bú không?)', 'https://health.clevelandclinic.org/can-you-get-pregnant-while-breastfeeding'),
+]
+NEW_RULES16.append(('n16_kinhsausinh', ['sau sinh', 'sản dịch', 'cho con bú', 'cho bú', 'rụng trứng', 'tránh thai', 'kỳ kinh đầu', 'vô kinh'], 81))
+
+# --- ke-huyet-dang-co-tac-dung-gi ---
+SRC['n16_kehuyetdangtacdung'] = [
+    ('Zhang F., Ganesan K., Liu Q., Chen J. (2022) – A Review of the Pharmacological Potential of Spatholobus suberectus Dunn on Cancer (Tổng quan thành phần, dược lý của kê huyết đằng; chưa có thử nghiệm lâm sàng thiết kế tốt), Cells', 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9497142/'),
+    ('Antiplatelet effects of Spatholobus suberectus via inhibition of the glycoprotein IIb/IIIa receptor (Tác dụng chống kết tập tiểu cầu của kê huyết đằng qua thụ thể glycoprotein IIb/IIIa – nghiên cứu thực nghiệm)', 'https://scholarworks.bwise.kr/erica/handle/2021.sw.erica/38199?mode=full'),
+    ('Effect of Spatholobus suberectus on the bone marrow cells and related cytokines of mice (Ảnh hưởng của kê huyết đằng lên tế bào tủy xương và cytokine ở chuột), 中国中药杂志 – Tạp chí Trung dược Trung Quốc', 'https://search.bvsalud.org/portal/resource/en/wpr-256355'),
+    ('Interaction Between Chinese Medicine and Warfarin: Clinical and Research Update (Tương tác giữa thảo dược Trung Quốc và warfarin), Frontiers in Pharmacology (2021)', 'https://pmc.ncbi.nlm.nih.gov/articles/PMC8489681'),
+    ('Hong Kong Chinese Materia Medica Standards, Vol. 5 – Spatholobi Caulis (Tiêu chuẩn dược liệu Hồng Kông: chuyên luận kê huyết đằng)', 'https://www.cmro.gov.hk/hkcmms/vol5/pdf_e/Spatholobi_Caulis_v5_e.pdf'),
+    ('Đỗ Tất Lợi – Cây hồng đằng (kê huyết đằng), Những cây thuốc và vị thuốc Việt Nam (Tên gọi và các loài mang tên kê huyết đằng)', 'https://vnras.com/cay-hong-dang-ke-huyet-dang-nhung-cay-thuoc-va-vi-thuoc-viet-nam-do-tat-loi/'),
+]
+NEW_RULES16.append(('n16_kehuyetdangtacdung', ['kê huyết đằng có tác dụng', 'tự dùng', 'glycoprotein', 'thầy thuốc', 'tủy xương', 'spatholobus', 'kết tập tiểu cầu', 'huyết hư'], 25))
+
+# ===== la-oi-mix-la-sen =====
+# --- la-oi-co-tac-dung-gi ---
+SRC['n16_laoi_tacdung'] = [
+    ('Kumar M và cộng sự (2021) – Guava (Psidium guajava L.) Leaves: Nutritional Composition, Phytochemical Profile, and Health-Promoting Bioactivities (Lá ổi: thành phần dinh dưỡng, hóa thực vật và hoạt tính sinh học), Foods', 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8066327/'),
+    ('Díaz-de-Cerio E và cộng sự (2017) – Health Effects of Psidium guajava L. Leaves: An Overview of the Last Decade (Tác động sức khỏe của lá ổi: tổng quan một thập kỷ nghiên cứu), International Journal of Molecular Sciences', 'https://doi.org/10.3390/ijms18040897'),
+    ('Deguchi Y, Miyazaki K (2010) – Anti-hyperglycemic and anti-hyperlipidemic effects of guava leaf extract (Tổng quan về chiết xuất lá ổi, đường huyết sau ăn và mỡ máu), Nutrition & Metabolism', 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2831039/'),
+    ('Intestinal anti-spasmodic effect of a phytodrug of Psidium guajava folia in the treatment of acute diarrheic disease (Thử nghiệm lâm sàng chế phẩm lá ổi chuẩn hóa theo quercetin ở người lớn tiêu chảy cấp), PubMed', 'https://pubmed.ncbi.nlm.nih.gov/12413703/'),
+    ('Ethnobotany, phytochemistry, and biological activities of Psidium guajava in the treatment of diarrhea: a review (2024) (Tổng quan dân tộc học, hóa thực vật và hoạt tính của lá ổi trong tiêu chảy), PMC', 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11377350/'),
+    ('Drugs.com – Guava: chuyên khảo thảo mộc (công dụng được nghiên cứu, tác dụng phụ, tương tác, thai kỳ)', 'https://Drugs.com/npp/guava.html'),
+]
+NEW_RULES16.append(('n16_laoi_tacdung', ['quercetin', 'tiêu chảy', 'chống co thắt', 'ống nghiệm', 'mức bằng chứng', 'chiết xuất'], 31))   # bài này 45, bài khác cao nhất 25
+
+# --- vong-eo-bao-nhieu-la-co-nguy-co ---
+SRC['n16_vongeo_nguong'] = [
+    ('WHO – Waist circumference and waist-hip ratio: report of a WHO expert consultation, Geneva, 12/2008 (Báo cáo chuyên gia WHO về vòng eo và tỷ lệ eo/hông)', 'https://who.int/publications/i/item/9789241501491'),
+    ('Harvard T.H. Chan School of Public Health – Waist circumference guidelines for different ethnic groups (Ngưỡng vòng eo theo nhóm dân tộc, gồm ngưỡng IDF cho người châu Á)', 'https://www.hsph.harvard.edu/obesity-prevention-source/waist-circumference-guidelines-for-different-ethnic-groups/'),
+    ('NICE (2022) – Keep the size of your waist to less than half of your height, NICE recommends (Giữ vòng eo dưới một nửa chiều cao)', 'https://nice.org.uk/news/articles/keep-the-size-of-your-waist-to-less-than-half-of-your-height-nice--recommends'),
+    ('Ross R và cộng sự (2020) – Waist circumference as a vital sign in clinical practice: a Consensus Statement from the IAS and ICCR Working Group on Visceral Obesity (Vòng eo như một dấu hiệu sinh tồn), Nature Reviews Endocrinology', 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7027970/'),
+    ('NHS – Check how to measure your waist correctly (Hướng dẫn đo vòng eo đúng cách)', 'https://www.nhs.uk/health-assessment-tools/calculate-your-waist-to-height-ratio/how-to-measure-your-waist'),
+    ('Nutrients (2022) – Anthropometric Cut-Off Values for Detecting the Presence of Metabolic Syndrome and Its Multiple Components among Adults in Vietnam (Điểm cắt nhân trắc phát hiện hội chứng chuyển hóa ở người trưởng thành Việt Nam)', 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9571833/'),
+]
+NEW_RULES16.append(('n16_vongeo_nguong', ['eo/hông', 'eo/chiều cao', 'thước dây', 'xương chậu', 'vòng hông', 'ngưỡng châu á'], 20))   # bài này 29, bài khác cao nhất 9 (mo-noi-tang-la-gi-va-vi-sao-nguy)
+
+# ===== duong-tam-an =====
+# --- lam-me-va-ap-luc ---
+SRC['n16_lam_me_hoan_hao'] = [
+    ('Encyclopedia.com – "Người mẹ đủ tốt" (Good-Enough Mother): khái niệm của Donald Winnicott', 'https://www.encyclopedia.com/psychology/dictionaries-thesauruses-pictures-and-press-releases/good-enough-mother'),
+    ('Mikolajczak M, Gross JJ, Roskam I (2019) – Kiệt sức làm cha mẹ: là gì và vì sao quan trọng (Parental Burnout: What Is It, and Why Does It Matter?), Clinical Psychological Science', 'https://www.psychologicalscience.org/journals/clinical/2167702619858430/'),
+    ('Roskam I và cộng sự – Kiệt sức làm cha mẹ trên toàn cầu: nghiên cứu tại 42 quốc gia (Parental Burnout Around the Globe: a 42-Country Study)', 'https://pubmed.ncbi.nlm.nih.gov/33758826/'),
+    ('Nghiên cứu (Úc) – Dùng mạng xã hội theo kiểu so sánh và sức khỏe tâm thần của những người mẹ có mức cầu toàn cao (Comparative social media use and the mental health of mothers with high levels of perfectionism)', 'https://opus.lib.uts.edu.au/handle/10453/127654'),
+    ('Mayo Clinic – Trầm cảm sau sinh: triệu chứng và nguyên nhân', 'https://www.mayoclinic.org/diseases-conditions/postpartum-depression/symptoms-causes/syc-20376617'),
+    ('Viện Sức khỏe Tâm thần Quốc gia Hoa Kỳ (NIMH) – Trầm cảm chu sinh (Perinatal Depression)', 'https://www.nimh.nih.gov/health/publications/perinatal-depression'),
+]
+NEW_RULES16.append(('n16_lam_me_hoan_hao', ['đủ tốt', 'winnicott', 'kiệt sức làm cha mẹ', 'roskam', 'mikolajczak', 'trầm cảm sau sinh', 'baby blues', 'hoàn hảo', 'mẹ bỉm'], 25))
+
+# --- tra-va-nghi-thuc-thu-gian-cua-nguoi-nhat ---
+SRC['n16_nghi_thuc_tra'] = [
+    ('Brooks AW và cộng sự (2016) – Nghi thức cải thiện hiệu suất nhờ giảm lo âu (Don\'t stop believing: Rituals improve performance by decreasing anxiety), Organizational Behavior and Human Decision Processes', 'https://ideas.repec.org/a/eee/jobhdp/v137y2016icp71-85.html'),
+    ('Norton MI, Gino F (2014) – Nghi thức làm vơi nỗi đau mất mát (Rituals alleviate grieving for loved ones, lovers, and lotteries)', 'https://pubmed.ncbi.nlm.nih.gov/23398180/'),
+    ('Hobson NM và cộng sự (2018) – Tâm lý học về nghi thức: tổng quan tích hợp và khung giải thích theo quá trình, Personality and Social Psychology Review', 'https://journals.sagepub.com/doi/10.1177/1088868317734944'),
+    ('Viện Hàn lâm Y học Giấc ngủ Hoa Kỳ (AASM, 2013) – Caffeine vào cuối chiều, đầu tối có thể làm xáo trộn giấc ngủ đêm', 'https://aasm.org/late-afternoon-and-early-evening-caffeine-can-disrupt-sleep-at-night/'),
+    ('Five Colleges – Con đường của trà (The Way of Tea): trà đạo Nhật Bản', 'https://www.fivecolleges.edu/japanese-tea-ceremony'),
+    ('Báo Nhân Dân – Tôn vinh nghề ướp trà sen Tây Hồ là Di sản văn hóa phi vật thể quốc gia', 'https://nhandan.vn/post-824097.html'),
+]
+NEW_RULES16.append(('n16_nghi_thuc_tra', ['trà đạo', 'rikyu', 'ichigo ichie', 'hòa – kính', 'nghi thức', 'matcha', 'tây hồ', 'chanoyu', 'wabi', 'brooks', 'norton'], 49))
+
+# ===== ca-gai-diep-ha-chau =====
+# --- paracetamol-va-gan-lieu-an-toan-va-nhung-sai ---
+SRC['n16_paracetamol_gan'] = [
+    ('FDA (Cục Quản lý Thực phẩm và Dược phẩm Hoa Kỳ) – Don\'t Double Up on Acetaminophen (Đừng dùng gấp đôi acetaminophen: cảnh báo dùng trùng nhiều thuốc cùng hoạt chất)', 'https://www.fda.gov/consumers/consumer-updates/dont-double-acetaminophen'),
+    ('NHS (Dịch vụ Y tế Quốc gia Anh) – Paracetamol for adults (Paracetamol cho người lớn: liều dùng, khoảng cách, lưu ý)', 'https://www.nhs.uk/medicines/paracetamol-for-adults/'),
+    ('StatPearls (Thư viện Y khoa Quốc gia Hoa Kỳ) – Acetaminophen Toxicity (Ngộ độc acetaminophen: cơ chế NAPQI, glutathione, N-acetylcysteine)', 'https://www.ncbi.nlm.nih.gov/books/NBK441917/'),
+    ('Nghiên cứu tiến cứu đa trung tâm tại Mỹ – Acetaminophen-induced acute liver failure: results of a United States multicenter, prospective study (Suy gan cấp do acetaminophen)', 'https://pubmed.ncbi.nlm.nih.gov/16317692/'),
+    ('UT Southwestern Medical Center – Unraveling the mysteries behind America\'s No. 1 cause of acute liver failure (Nguyên nhân số 1 gây suy gan cấp ở Mỹ: acetaminophen)', 'https://utsouthwestern.edu/newsroom/articles/year-2018/acute-liver-failure-cause.html'),
+    ('HSE (Cơ quan Y tế Ireland) – Paracetamol dosing for adult patients under 50 kg and those with additional risk factors for hepatotoxicity (Liều paracetamol cho người lớn dưới 50 kg và người có yếu tố nguy cơ độc gan)', 'https://www2.healthservice.hse.ie/organisation/nqpsd/pst/safety-supplements/paracetamol-dosing-for-adult-patients-under-50-kg-and-those-with-additional-risk-factors-for-hepatotoxicity/'),
+]
+NEW_RULES16.append(('n16_paracetamol_gan', ['paracetamol', 'acetaminophen', 'napqi', 'glutathione', 'n-acetylcysteine', 'quá liều', 'cấp cứu'], 62))
+
+# --- tra-ca-gai-leo-tui-loc-loai-nao-tot ---
+SRC['n16_chon_tra_cgl'] = [
+    ('Chính phủ (2017) – Nghị định 43/2017/NĐ-CP về nhãn hàng hóa (Thư viện Pháp luật)', 'https://thuvienphapluat.vn/van-ban/thuong-mai/nghi-dinh-43-2017-nd-cp-nhan-hang-hoa-346310.aspx'),
+    ('Chính phủ (2018) – Nghị định 15/2018/NĐ-CP quy định chi tiết thi hành một số điều của Luật An toàn thực phẩm (tự công bố sản phẩm) (Thư viện Pháp luật)', 'https://thuvienphapluat.vn/van-ban/the-thao-y-te/Nghi-dinh-15-2018-ND-CP-huong-dan-Luat-an-toan-thuc-pham-341254.aspx'),
+    ('Báo Sài Gòn Giải Phóng – Quản lý thực phẩm theo Nghị định 15/2018/NĐ-CP: Chuyển từ tiền kiểm sang hậu kiểm', 'https://www.sggp.org.vn/quan-ly-thuc-pham-theo-nghi-dinh-152018nd-cp-chuyen-tu-tien-kiem-sang-hau-kiem-post479541.html'),
+    ('Chính phủ (2025) – Decree 342/2025/ND-CP elaborating the Law on Advertising (Nghị định 342/2025/NĐ-CP hướng dẫn Luật Quảng cáo, bản tiếng Anh, Thư viện Pháp luật)', 'https://thuvienphapluat.vn/van-ban/EN/Thuong-mai/Decree-342-2025-ND-CP-elaborating-the-Law-on-Advertising/692487/tieng-anh.aspx'),
+    ('LawNet – Regulations on food advertising in Vietnam (Quy định về quảng cáo thực phẩm tại Việt Nam)', 'https://lawnet.vn/thong-tin-phap-luat/en/tu-van-luat/regulations-on-food-advertising-in-vietnam-113520.html'),
+    ('Natural Products and Bioprospecting (2019) – Công bố khoa học về cây cà gai leo (Solanum procumbens), Springer', 'https://link.springer.com/article/10.1007/s13659-019-0201-6'),
+]
+NEW_RULES16.append(('n16_chon_tra_cgl', ['tự công bố', 'nhãn', 'giá mỗi gram', 'quảng cáo', 'tiêu chí', 'định lượng', 'nghị định'], 48))
+
+
+RULES[:0] = NEW_RULES16

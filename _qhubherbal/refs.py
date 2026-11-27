@@ -2596,3 +2596,209 @@ NEW_RULES16.append(('n16_chon_tra_cgl', ['tự công bố', 'nhãn', 'giá mỗi
 
 
 RULES[:0] = NEW_RULES16
+
+
+# Đêm 17 (28/11/2026): cụm đặc thù đặt lên đầu RULES (URL lấy từ kết quả WebSearch)
+NEW_RULES17 = []
+
+# ===== duong-nhan =====
+# --- thuc-pham-giau-chat-chong-oxy-hoa-trong-bua ---
+SRC['n17_chongoxyhoa'] = [
+    ('Bjelakovic G. và cộng sự (2012) – Cochrane: Viên bổ sung chống oxy hóa để phòng tử vong ở người khỏe mạnh và người bệnh', 'https://cochranelibrary.com/cdsr/doi/10.1002/14651858.CD007176.pub2/information'),
+    ('Aune D. và cộng sự (2017) – Lượng rau quả ăn vào và nguy cơ bệnh tim mạch, ung thư, tử vong: phân tích gộp (International Journal of Epidemiology)', 'https://pmc.ncbi.nlm.nih.gov/articles/PMC5837313'),
+    ('WHO – Healthy diet (Chế độ ăn lành mạnh, khuyến nghị ít nhất 400 g rau quả/ngày)', 'https://www.who.int/news-room/fact-sheets/detail/healthy-diet'),
+    ('NCCIH (NIH) – Antioxidant Supplements: What You Need To Know (Viên bổ sung chống oxy hóa: điều cần biết)', 'https://www.nccih.nih.gov/health/antioxidant-supplements-what-you-need-to-know'),
+    ('Carlsen M.H. và cộng sự (2010) – Tổng hàm lượng chất chống oxy hóa của hơn 3.100 thực phẩm, đồ uống, gia vị, thảo mộc (Nutrition Journal)', 'https://pubmed.ncbi.nlm.nih.gov/20096093/'),
+    ('Gärtner C. và cộng sự (1997) – Lycopen từ cà chua cô đặc được hấp thu tốt hơn cà chua tươi (American Journal of Clinical Nutrition)', 'https://pubmed.ncbi.nlm.nih.gov/9209178/'),
+]
+NEW_RULES17.append(('n17_chongoxyhoa', ['chống oxy hóa', 'beta-caroten', 'orac', 'lycopen', 'rau quả', 'gốc tự do', 'carotenoid'], 40))
+
+# --- co-nang-sang-tao-noi-dung-va-12-tieng ---
+SRC['n17_manhinh'] = [
+    ('American Academy of Ophthalmology – Lời khuyên giảm mỏi mắt khi dùng màn hình, quy tắc 20-20-20', 'https://aao.org/newsroom/news-releases/detail/protect-your-eyes-in-home-office'),
+    ('American Academy of Ophthalmology – Are Blue Light-Blocking Glasses Worth It? (Kính lọc ánh sáng xanh có đáng không?)', 'https://aao.org/eye-health/tips-prevention/are-computer-glasses-worth-it'),
+    ('Chang A.M. và cộng sự (2015) – Đọc sách điện tử phát sáng buổi tối ảnh hưởng giấc ngủ, nhịp sinh học và độ tỉnh táo sáng hôm sau (PNAS)', 'https://pubmed.ncbi.nlm.nih.gov/25535358/'),
+    ('Bull F.C. và cộng sự (2020) – Hướng dẫn của WHO về hoạt động thể lực và hành vi tĩnh tại (British Journal of Sports Medicine)', 'https://pmc.ncbi.nlm.nih.gov/articles/PMC7719906/'),
+    ('Dunstan D.W. và cộng sự (2012) – Ngắt quãng thời gian ngồi giúp giảm đường huyết và insulin sau ăn (Diabetes Care)', 'https://pubmed.ncbi.nlm.nih.gov/22374636/'),
+    ('Malik V.S. và cộng sự (2010) – Đồ uống có đường và nguy cơ hội chứng chuyển hóa, tiểu đường type 2: phân tích gộp (Diabetes Care)', 'https://pubmed.ncbi.nlm.nih.gov/20693348/'),
+]
+NEW_RULES17.append(('n17_manhinh', ['20-20-20', 'mỏi mắt', 'khô mắt', 'ngồi liền', 'máy tính bảng', 'sáng tạo nội dung', 'dựng video', 'nheo mắt'], 24))
+
+# --- huong-thom-va-cam-xuc ---
+SRC['n17_huongthom'] = [
+    ('Herz R.S. và cộng sự (2004) – Bằng chứng hình ảnh não về sức mạnh cảm xúc của ký ức gợi bằng mùi (Neuropsychologia)', 'https://pubmed.ncbi.nlm.nih.gov/14670575/'),
+    ('Hongratanaworakit T. (2009) – Tác dụng thư giãn của tinh dầu hoa hồng trên người (Natural Product Communications)', 'https://pubmed.ncbi.nlm.nih.gov/19370942/'),
+    ('Hongratanaworakit T. (2010) – Tác dụng kích thích của xoa bóp với tinh dầu hoa nhài (Natural Product Communications)', 'https://pubmed.ncbi.nlm.nih.gov/20184043/'),
+    ('Kiecolt-Glaser J.K. và cộng sự (2008) – Ảnh hưởng của mùi hương lên tâm trạng và chức năng thần kinh tự chủ, nội tiết, miễn dịch (Psychoneuroendocrinology)', 'https://pubmed.ncbi.nlm.nih.gov/18178322/'),
+    ('Ball E.L. và cộng sự (2020) – Cochrane: Hương liệu pháp cho người sa sút trí tuệ', 'https://pubmed.ncbi.nlm.nih.gov/32813272/'),
+    ('Medical Journal of Australia (2020) – Phơi nhiễm tinh dầu ở Úc: phân tích ca báo về Trung tâm Thông tin Chống độc NSW', 'https://www.mja.com.au/journal/2020/212/3/essential-oil-exposures-australia-analysis-cases-reported-nsw-poisons'),
+]
+NEW_RULES17.append(('n17_huongthom', ['tinh dầu', 'hương liệu pháp', 'khứu giác', 'hạch hạnh nhân', 'mùi hương'], 45))
+
+# ===== xau-ho-tim-tam-sen =====
+
+# --- tra-xau-ho-tim-tam-sen-vi-the-nao ---
+SRC['n17_xhtvi'] = [
+    ('BfR – Viện Đánh giá Rủi ro Liên bang Đức (2005) – Boiling water a must for herbal teas (Pha trà thảo mộc bằng nước sôi)', 'https://www.bfr.bund.de/en/press-release/boiling-water-a-must-for-herbal-teas/'),
+    ('U.S. FDA – High-Intensity Sweeteners (Chất tạo ngọt cường độ cao, gồm steviol glycoside từ cỏ ngọt)', 'https://www.fda.gov/food/food-additives-petitions/high-intensity-sweeteners'),
+    ('Talavera K. và cộng sự (2005), Nature – Heat activation of TRPM5 underlies thermal sensitivity of sweet taste (Nhiệt độ và cảm nhận vị ngọt)', 'https://www.nature.com/nature/journal/v438/n7070/full/nature04248.html'),
+    ('Chemical and Pharmaceutical Bulletin (2011) – Nghiên cứu alkaloid từ sen (Nelumbo nucifera)', 'https://www.jstage.jst.go.jp/article/cpb/59/8/59_8_947/_article'),
+]
+NEW_RULES17.append(('n17_xhtvi', ['vị đắng', 'hậu ngọt', 'hãm', 'nước sôi', 'steviol', 'trpm5', 'kiểu pha', 'nhấc túi'], 46))
+
+# --- ruou-va-giac-ngu-vi-sao-nhau-xong-de ---
+SRC['n17_ruoungu'] = [
+    ('Ebrahim I.O., Shapiro C.M., Williams A.J., Fenwick P.B. (2013) – Alcohol and sleep I: effects on normal sleep (Rượu và giấc ngủ bình thường)', 'https://pubmed.ncbi.nlm.nih.gov/23347102/'),
+    ('Simou E., Britton J., Leonardi-Bee J. (2018) – Alcohol and the risk of sleep apnoea: a systematic review and meta-analysis (Rượu và nguy cơ ngưng thở khi ngủ)', 'https://pmc.ncbi.nlm.nih.gov/articles/PMC5840512'),
+    ('Pietilä J. và cộng sự (2018), JMIR Mental Health – Acute effect of alcohol intake on cardiovascular autonomic regulation during the first hours of sleep (Rượu và phục hồi sinh lý khi ngủ)', 'https://mental.jmir.org/2018/1/e23'),
+    ('Thakkar M.M., Sharma R., Sahota P. (2015) – Alcohol disrupts sleep homeostasis (Rượu làm rối loạn cân bằng giấc ngủ)', 'https://www.pubmed.gov/25499829/'),
+    ('Roehrs T., Roth T. (2001), Alcohol Research & Health – NIAAA – Sleep, sleepiness, and alcohol use (Giấc ngủ, buồn ngủ và rượu)', 'https://webarchive.library.unt.edu/web/20090131021811/http:/pubs.niaaa.nih.gov/publications/arh25-2/101-109.pdf'),
+    ('Sleep Foundation – Alcohol and Sleep (Rượu và giấc ngủ)', 'https://www.sleepfoundation.org/nutrition/alcohol-and-sleep'),
+]
+NEW_RULES17.append(('n17_ruoungu', ['adenosine', 'dội ngược', 'nhậu', 'nửa đêm sau', 'nửa sau', 'gaba', 'giấc rem', 'uống rượu'], 37))
+
+# --- qua-tang-cho-nguoi-hay-mat-ngu ---
+SRC['n17_quamatngu'] = [
+    ('Greenfield V.M. và cộng sự (2023), Sleep – Wearing an eye mask during overnight sleep improves episodic learning and alertness (Đeo bịt mắt khi ngủ)', 'https://pmc.ncbi.nlm.nih.gov/articles/PMC9995773'),
+    ('Locihová H. và cộng sự (2018), Journal of Sleep Research – Effect of the use of earplugs and eye mask on the quality of sleep in intensive care patients: a systematic review (Nút tai, bịt mắt và chất lượng giấc ngủ)', 'https://pubmed.ncbi.nlm.nih.gov/28944590/'),
+    ('Qaseem A. và cộng sự – American College of Physicians (2016) – Management of Chronic Insomnia Disorder in Adults (Khuyến cáo CBT-I cho mất ngủ mạn tính)', 'https://pubmed.ncbi.nlm.nih.gov/27136449/'),
+    ('American Academy of Sleep Medicine (2020) – Study shows weighted blankets can decrease insomnia severity (Ekholm và cộng sự, chăn trọng lực)', 'https://aasm.org/study-shows-weighted-blankets-can-decrease-insomnia-severity/'),
+    ('Sleep Foundation – Best Temperature for Sleep (Nhiệt độ phòng ngủ phù hợp)', 'https://www.sleepfoundation.org/bedroom-environment/best-temperature-for-sleep'),
+]
+NEW_RULES17.append(('n17_quamatngu', ['quà', 'tặng', 'bịt mắt', 'rèm cản sáng', 'nút tai', 'người nhận'], 58))
+
+# ===== ngay-dau-ve =====
+
+# --- tien-man-kinh-kinh-nguyet-thay-doi-the-nao ---
+SRC['n17_tienmankinh'] = [
+    ('Harlow SD và cs. (2012) – Executive summary of the Stages of Reproductive Aging Workshop + 10 (Tóm tắt tiêu chuẩn phân giai đoạn lão hóa sinh sản STRAW+10), ASRM', 'https://www.asrm.org/practice-guidance/practice-committee-documents/executive-summary-of-the-stages-of-reproductive-aging-workshopd10-addressing-the-unfinished-agenda-of-staging-reproductive-aging-2012/'),
+    ('Clarke MA và cs. (2018) – Association of Endometrial Cancer Risk With Postmenopausal Bleeding in Women (Ra máu sau mãn kinh và nguy cơ ung thư niêm mạc tử cung: tổng quan hệ thống, phân tích gộp), JAMA Internal Medicine', 'https://pubmed.ncbi.nlm.nih.gov/30083701/'),
+    ('University of Michigan (2014) – Prolonged and heavy bleeding during menopause is common (Nghiên cứu SWAN: ra kinh kéo dài và nhiều thường gặp ở giai đoạn chuyển tiếp mãn kinh)', 'https://news.umich.edu/prolonged-and-heavy-bleeding-during-menopause-is-common'),
+    ('The Menopause Society – Contraception: You need it longer than you may think (Tránh thai quanh tuổi mãn kinh: cần lâu hơn bạn nghĩ)', 'https://menopause.org/for-women/sexual-health-menopause-online/reminders-and-resources/contraception-you-need-it-longer-than-you-may-think'),
+    ('Office on Women\'s Health (Bộ Y tế Hoa Kỳ) – Menopause basics (Những điều cơ bản về mãn kinh)', 'https://www.womenshealth.gov/article/menopause-basics'),
+    ('Mayo Clinic – Vaginal bleeding: When to see a doctor (Ra máu âm đạo: khi nào cần đi khám)', 'https://www.mayoclinic.org/symptoms/vaginal-bleeding/basics/when-to-see-doctor/sym-20050756'),
+]
+NEW_RULES17.append(('n17_tienmankinh', ['tiền mãn kinh', 'mãn kinh', 'straw', 'chuyển tiếp', 'sau mãn kinh', 'niêm mạc tử cung', 'tránh thai'], 55))
+
+# --- mam-xoi-co-tac-dung-gi ---
+SRC['n17_mamxoitacdung'] = [
+    ('Burton-Freeman BM, Sandhu AK, Edirisinghe I (2016) – Red Raspberries and Their Bioactive Polyphenols: Cardiometabolic and Neuronal Health Links (Raspberry đỏ và polyphenol: liên hệ với sức khỏe tim mạch – chuyển hóa), Advances in Nutrition', 'https://pmc.ncbi.nlm.nih.gov/articles/PMC4717884'),
+    ('Simpson M và cs. (2001) – Raspberry leaf in pregnancy: its safety and efficacy in labor (Lá mâm xôi trong thai kỳ: an toàn và hiệu quả khi chuyển dạ), Journal of Midwifery & Women\'s Health', 'https://pubmed.ncbi.nlm.nih.gov/11370690/'),
+    ('Committee on Toxicity – UK (2024) – Statement on the potential health effects of raspberry leaf tea in the maternal diet (Tuyên bố về tác động tiềm ẩn của trà lá mâm xôi trong chế độ ăn của thai phụ)', 'https://www.gov.uk/government/publications/raspberry-leaf-tea/statement-on-the-potential-health-effects-of-raspberry-leaf-tea-in-the-maternal-diet'),
+]
+NEW_RULES17.append(('n17_mamxoitacdung', ['mâm xôi', 'raspberry', 'phúc bồn tử', 'rubus', 'lá mâm xôi', 'ellagitannin'], 90))
+
+# --- tuoi-day-thi-me-noi-gi-voi-con-gai ---
+SRC['n17_daythi'] = [
+    ('ACOG (2015) – Committee Opinion No. 651: Menstruation in Girls and Adolescents: Using the Menstrual Cycle as a Vital Sign (Kinh nguyệt ở trẻ em gái và vị thành niên: chu kỳ kinh như một dấu hiệu sinh tồn), Obstetrics & Gynecology', 'https://pubmed.ncbi.nlm.nih.gov/26595586/'),
+    ('NHS – Starting periods (Bắt đầu có kinh nguyệt)', 'https://www.nhs.uk/conditions/periods/starting-periods/'),
+    ('NHS – Delayed periods (Chậm có kinh)', 'https://www.nhs.uk/conditions/periods/delayed-periods/'),
+    ('Nemours KidsHealth – Talking to Your Child About Periods (Nói chuyện với con về kinh nguyệt)', 'https://kidshealth.org/en/parents/talk-about-menstruation.html'),
+]
+NEW_RULES17.append(('n17_daythi', ['dậy thì', 'kỳ kinh đầu', 'có kinh', 'băng vệ sinh', 'nụ vú', 'vị thành niên'], 34))
+
+# ===== la-oi-mix-la-sen =====
+
+# --- uong-tra-la-oi-moi-ngay-co-tot-khong ---
+SRC['n17_uonglaoi'] = [
+    ('Deguchi Y, Miyazaki K (2010) – Anti-hyperglycemic and anti-hyperlipidemic effects of guava leaf extract (Tác động của chiết xuất lá ổi lên đường huyết và mỡ máu), Nutrition & Metabolism', 'https://pmc.ncbi.nlm.nih.gov/articles/PMC2831039/'),
+    ('Díaz-de-Cerio E và cộng sự (2017) – Health Effects of Psidium guajava L. Leaves: An Overview of the Last Decade (Tác động sức khỏe của lá ổi: tổng quan một thập kỷ), Int J Mol Sci', 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5412476/'),
+    ('Gutiérrez RMP và cộng sự (2008) – Psidium guajava: A review of its traditional uses, phytochemistry and pharmacology (Tổng quan công dụng truyền thống, hóa học và dược lý của cây ổi), J Ethnopharmacol', 'https://ipn.elsevierpure.com/es/publications/psidium-guajava-a-review-of-its-traditional-uses-phytochemistry-a'),
+    ('Hurrell RF và cộng sự (1999) – Inhibition of non-haem iron absorption in man by polyphenolic-containing beverages (Đồ uống chứa polyphenol ức chế hấp thu sắt không heme ở người)', 'https://pubmed.ncbi.nlm.nih.gov/10999016/'),
+    ('Delimont NM và cộng sự (2017) – The Impact of Tannin Consumption on Iron Bioavailability and Status: A Narrative Review (Tanin và tình trạng sắt)', 'https://pubmed.ncbi.nlm.nih.gov/29955693/'),
+    ('WebMD – Guava: uses, side effects, interactions (Ổi: tác dụng phụ và tương tác thuốc)', 'https://www.webmd.com/vitamins/ai/ingredientmono-1133/guava'),
+]
+NEW_RULES17.append(('n17_uonglaoi', ['tanin', 'sulfonylurea', 'hạ đường huyết', 'sắt không heme', 'run tay', 'lozoya', 'gutiérrez', 'díaz-de-cerio', 'nước lá ổi', 'mỗi ngày'], 38))
+
+# --- an-cham-nhai-ky-giup-no-lau-the-nao ---
+SRC['n17_nholau'] = [
+    ('Kokkinos A và cộng sự (2010) – Eating slowly increases the postprandial response of the anorexigenic gut hormones, peptide YY and glucagon-like peptide-1 (Ăn chậm làm tăng PYY và GLP-1 sau ăn), J Clin Endocrinol Metab', 'https://academic.oup.com/jcem/article/95/1/333/2835331'),
+    ('Li J và cộng sự (2011) – Improvement in chewing activity reduces energy intake in one meal and modulates plasma gut hormone concentrations (Nhai nhiều hơn làm giảm năng lượng nạp vào trong bữa)', 'https://www.pubmed.gov/21775556/'),
+    ('Zhu Y, Hollis JH (2014) – Increasing the Number of Chews before Swallowing Reduces Meal Size in Normal-Weight, Overweight, and Obese Adults (Tăng số lần nhai làm khẩu phần nhỏ hơn)', 'https://www.Ncbi.Nlm.Nih.Gov/pubmed/24215801'),
+    ('Andrade AM, Greene GW, Melanson KJ (2008) – Eating Slowly Led to Decreases in Energy Intake within Meals in Healthy Women (Ăn chậm làm giảm năng lượng nạp vào trong bữa ở phụ nữ khỏe mạnh)', 'https://www.pubmed.gov/18589027/'),
+    ('Robinson E và cộng sự (2014) – A systematic review and meta-analysis examining the effect of eating rate on energy intake and hunger (Phân tích gộp về tốc độ ăn, năng lượng nạp vào và cảm giác đói)', 'https://www.pubmed.gov/24847856/'),
+    ('Hurst Y, Fukuda H (2018) – Effects of changes in eating speed on obesity in patients with diabetes (Thay đổi tốc độ ăn và béo phì ở người bệnh đái tháo đường), BMJ Open', 'https://bmjopen.bmj.com/content/8/1/e019589.abstract'),
+]
+NEW_RULES17.append(('n17_nholau', ['ăn chậm', 'lần nhai', 'ghrelin', 'glp-1', 'pyy', 'tín hiệu no', 'no lâu', 'tốc độ ăn', 'đặt đũa'], 56))
+
+# --- la-sen-co-tac-dung-gi ---
+SRC['n17_lasentdg'] = [
+    ('Mukherjee PK và cộng sự (2009) – The sacred lotus (Nelumbo nucifera): phytochemical and therapeutic profile (Hồ sơ hóa thực vật và tiềm năng của cây sen)', 'https://pubmed.ncbi.nlm.nih.gov/19298686/'),
+    ('Flavonoids from Nelumbo nucifera Gaertn., a Medicinal Plant: Uses in Traditional Medicine, Phytochemistry and Pharmacological Activities (Tổng quan flavonoid của cây sen), Medicines', 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6313397/'),
+    ('Research Advances in Lotus Leaf as Chinese Dietary Herbal Medicine (Tiến bộ nghiên cứu về lá sen như thảo dược ẩm thực)', 'https://pubmed.ncbi.nlm.nih.gov/35770727/'),
+    ('FDA (2010) – Drug Safety Communication: FDA recommends against continued use of Meridia (sibutramine) (Khuyến cáo ngừng dùng sibutramine)', 'https://www.fda.gov/drugs/drug-safety-and-availability/fda-drug-safety-communication-fda-recommends-against-continued-use-meridia-sibutramine'),
+    ('HSA Singapore – Characteristics of sibutramine-induced adverse events due to adulterated products (Biến cố bất lợi do sản phẩm trộn sibutramine)', 'https://www.hsa.gov.sg/announcements/characteristics-of-sibutramine-induced-adverse-events-due-to-adulterated-products/'),
+    ('Psychosis associated with usage of herbal slimming products adulterated with sibutramine: a case series (Loạt ca loạn thần liên quan sản phẩm thảo dược giảm béo trộn sibutramine)', 'https://pubmed.ncbi.nlm.nih.gov/20969504/'),
+]
+NEW_RULES17.append(('n17_lasentdg', ['sibutramine', 'phan tả diệp', 'senna', 'nuciferine', 'giảm béo', 'hà diệp', '3t3-l1', 'thanh thử', 'cơm sen', 'mukherjee'], 26))
+
+# ===== duong-tam-an =====
+
+# --- nghi-phep-dung-cach ---
+SRC['n17_nghiphep'] = [
+    ('de Bloom J. và cộng sự (2009) – Do we recover from vacation? Phân tích tổng hợp tác động của kỳ nghỉ lên sức khỏe và cảm nhận hạnh phúc, Journal of Occupational Health', 'https://pubmed.ncbi.nlm.nih.gov/19096200/'),
+    ('de Bloom J. và cộng sự (2010) – Effects of vacation from work on health and well-being: Lots of fun, quickly gone (Work & Stress)', 'https://research.rug.nl/en/publications/effects-of-vacation-from-work-on-health-and-well-being-lots-of-fu/'),
+    ('Journal of Applied Psychology (2025) – I need a vacation: Phân tích tổng hợp về kỳ nghỉ và sức khỏe tinh thần người lao động', 'https://psycnet.apa.org/doiLanding?doi=10.1037%2Fapl0001262'),
+    ('Wendsche J., Lohmann-Haislah A. (2017) – A Meta-Analysis on Antecedents and Outcomes of Detachment from Work (Frontiers in Psychology)', 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5233687/'),
+    ('Karabinski T. và cộng sự (2021) – Interventions for improving psychological detachment from work: A meta-analysis (Journal of Occupational Health Psychology)', 'https://pubmed.ncbi.nlm.nih.gov/34096763/'),
+    ('WHO (2019) – Burn-out an "occupational phenomenon": International Classification of Diseases', 'https://www.who.int/news-room/detail/28-05-2019-burn-out-an-occupational-phenomenon-international-classification-of-diseases'),
+]
+NEW_RULES17.append(('n17_nghiphep', ['kỳ nghỉ', 'tách rời', 'nghỉ phép'], 35))
+
+# --- hoa-cuc-va-giac-ngu-cac-nghien-cuu-lam ---
+SRC['n17_cucgiacngu'] = [
+    ('Zick S.M. và cộng sự (2011) – Chiết xuất chamomile chuẩn hóa cho mất ngủ nguyên phát mạn tính: thử nghiệm thí điểm ngẫu nhiên có giả dược (BMC Complementary and Alternative Medicine)', 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3198755/'),
+    ('Adib-Hajbaghery M., Mousavi S.N. (2017) – The effects of chamomile extract on sleep quality among elderly people: A clinical trial (Complementary Therapies in Medicine)', 'https://pubmed.ncbi.nlm.nih.gov/29154054/'),
+    ('Chang S.M., Chen C.H. (2016) – Trà chamomile với chất lượng giấc ngủ và trầm cảm ở phụ nữ sau sinh: thử nghiệm ngẫu nhiên (Journal of Advanced Nursing)', 'https://pubmed.ncbi.nlm.nih.gov/26483209/'),
+    ('Hieu T.H. và cộng sự (2019) – Chamomile cho lo âu và giấc ngủ: tổng quan hệ thống và phân tích gộp (Phytotherapy Research)', 'https://pubmed.ncbi.nlm.nih.gov/31006899/'),
+    ('Segal R., Pilote L. (2006) – Warfarin interaction with Matricaria chamomilla (CMAJ)', 'https://pmc.ncbi.nlm.nih.gov/articles/PMC1435958'),
+    ('Qaseem A. và cộng sự – ACP (2016) – Management of Chronic Insomnia Disorder in Adults: A Clinical Practice Guideline', 'https://pubmed.ncbi.nlm.nih.gov/27136449/'),
+]
+NEW_RULES17.append(('n17_cucgiacngu', ['chamomile', 'apigenin', 'giả dược', 'cbt-i', 'cúc la mã'], 38))
+
+# ===== ca-gai-diep-ha-chau =====
+# --- thuc-pham-chuc-nang-bo-gan-can-tinh-tao ---
+SRC['n17_tpcnbogan'] = [
+    ('NIH – LiverTox (cơ sở dữ liệu độc tính trên gan): Herbals and Dietary Supplements (Thảo dược và thực phẩm bổ sung)', 'https://livertox.nlm.nih.gov/Herbals_and_Dietary_Supplements.htm'),
+    ('Navarro VJ và cộng sự (2014) – Liver injury from herbals and dietary supplements in the U.S. Drug-Induced Liver Injury Network, Hepatology (Tổn thương gan do thảo dược và thực phẩm bổ sung trong mạng lưới DILIN)', 'https://pubmed.ncbi.nlm.nih.gov/25043597/'),
+    ('Likhitsup A và cộng sự (2024) – Estimated Exposure to 6 Potentially Hepatotoxic Botanicals in US Adults, JAMA Network Open (Ước tính phơi nhiễm 6 thảo dược có khả năng gây độc gan ở người trưởng thành Mỹ)', 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11301549/'),
+    ('Chính phủ (2018) – Nghị định 15/2018/NĐ-CP quy định chi tiết thi hành một số điều của Luật An toàn thực phẩm', 'https://thuvienphapluat.vn/van-ban/the-thao-y-te/nghi-dinh-15-2018-nd-cp-huong-dan-luat-an-toan-thuc-pham-341254.aspx'),
+    ('Quốc hội (2025) – Luật Quảng cáo sửa đổi, bổ sung số 75/2025/QH15', 'https://thuvienphapluat.vn/van-ban/Thuong-mai/Luat-Quang-cao-sua-doi-2025-so-75-2025-QH15-555035.aspx'),
+    ('NCCIH (NIH) – Milk Thistle (Cây kế sữa): bằng chứng và an toàn', 'https://nccih.nih.gov/health/milkthistle/ataglance.htm'),
+]
+NEW_RULES17.append(('n17_tpcnbogan', ['thực phẩm chức năng', 'thực phẩm bảo vệ sức khỏe', 'livertox', 'dilin', 'hds', 'thực phẩm bổ sung'], 23))
+
+# --- gia-tra-ca-gai-leo ---
+SRC['n17_giacagaileo'] = [
+    ('Chính phủ (2017) – Nghị định 43/2017/NĐ-CP về nhãn hàng hóa', 'https://caselaw.vn/van-ban-phap-luat/316295-nghi-dinh-43-2017-nd-cp-ve-nhan-hang-hoa'),
+    ('Chính phủ (2021) – Nghị định 111/2021/NĐ-CP sửa đổi, bổ sung Nghị định 43/2017/NĐ-CP về nhãn hàng hóa', 'https://thuvienphapluat.vn/van-ban/thuong-mai/Nghi-dinh-111-2021-ND-CP-sua-doi-Nghi-dinh-43-2017-ND-CP-497099.aspx'),
+    ('Chính phủ (2018) – Nghị định 15/2018/NĐ-CP quy định chi tiết thi hành một số điều của Luật An toàn thực phẩm (tự công bố sản phẩm)', 'https://thuvienphapluat.vn/van-ban/the-thao-y-te/nghi-dinh-15-2018-nd-cp-huong-dan-luat-an-toan-thuc-pham-341254.aspx'),
+    ('Quốc hội (2025) – Luật Quảng cáo sửa đổi, bổ sung số 75/2025/QH15', 'https://thuvienphapluat.vn/van-ban/Thuong-mai/Luat-Quang-cao-sua-doi-2025-so-75-2025-QH15-555035.aspx'),
+]
+NEW_RULES17.append(('n17_giacagaileo', ['giá mỗi gram', 'tỷ lệ cà gai leo', 'giá hộp', 'giá mỗi gói', 'số gram'], 23))
+
+# ===== nam-vuong =====
+
+# --- tra-thao-moc-cho-nam-gioi-loai-nao-tot ---
+SRC['n17_trachonam'] = [
+    ('FDA – Thông báo công khai: sản phẩm "tăng cường cho nam giới" chứa hoạt chất thuốc ẩn không ghi trên nhãn (Medication Health Fraud)', 'https://www.fda.gov/drugs/medication-health-fraud-notifications/erectus-plus-may-be-harmful-due-hidden-drug-ingredients'),
+    ('VOH – Phát hiện sildenafil và tadalafil trong nhiều thực phẩm bảo vệ sức khỏe nam giới', 'https://voh.com.vn/suc-khoe/phat-hien-sildenafil-va-tadalafil-trong-nhieu-thuc-pham-bao-ve-suc-khoe-nam-gioi-587858.html'),
+    ('Tuổi Trẻ (2023) – Bộ Y tế cảnh báo hàng loạt thực phẩm bảo vệ sức khỏe quảng cáo như thuốc chữa bệnh', 'https://tuoitre.vn/bo-y-te-canh-bao-hang-loat-thuc-pham-bao-ve-suc-khoe-quang-cao-nhu-thuoc-chua-benh-2023120808520505.htm'),
+    ('FDA – Spilling the Beans: How Much Caffeine is Too Much? (Bao nhiêu caffeine là quá nhiều)', 'https://www.fda.gov/consumers/consumer-updates/spilling-beans-how-much-caffeine-too-much'),
+    ('NCCIH – Herb-Drug Interactions: What the Science Says (Tương tác thảo dược – thuốc)', 'https://www.nccih.nih.gov/health/providers/digest/herb-drug-interactions-science'),
+]
+NEW_RULES17.append(('n17_trachonam', ['sildenafil', 'tadalafil', 'tiêu chí', 'số công bố', 'nitrat', 'tăng sinh lực'], 20))
+
+# --- hut-thuoc-la-anh-huong-suc-khoe-nam-gioi ---
+SRC['n17_hutthuoc'] = [
+    ('WHO (2020) – Tobacco fact sheet: thuốc lá giết chết tới một nửa số người sử dụng', 'https://www.who.int/docs/default-source/campaigns-and-initiatives/world-no-tobacco-day-2020/wntd-tobacco-fact-sheet.pdf'),
+    ('WHO – Tobacco: Health benefits of smoking cessation (Lợi ích sức khỏe khi bỏ thuốc lá)', 'https://www.who.int/news-room/q-a-detail/health-benefits-of-smoking-cessation'),
+    ('CDC – Health Effects of Cigarettes: Cardiovascular Disease (Thuốc lá và bệnh tim mạch)', 'https://www.cdc.gov/tobacco/about/cigarettes-and-cardiovascular-disease.html'),
+    ('PLoS One (2013) – Smoking and Risk of Erectile Dysfunction: Systematic Review of Observational Studies with Meta-Analysis', 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3616119/'),
+    ('BMC Public Health (2019) – Tobacco smoking and semen quality in infertile males: a systematic review and meta-analysis', 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6325781/'),
+    ('Báo Đại Đoàn Kết – Gần 40% nam giới trên 15 tuổi tại Việt Nam hút thuốc', 'https://daidoanket.vn/gan-40-nam-gioi-tren-15-tuoi-tai-viet-nam-hut-thuoc-10268872.html'),
+]
+NEW_RULES17.append(('n17_hutthuoc', ['hút thuốc', 'khói thuốc', 'bỏ thuốc', 'thuốc lá điện tử', 'nicotine', 'cai thuốc'], 57))
+
+
+RULES[:0] = NEW_RULES17

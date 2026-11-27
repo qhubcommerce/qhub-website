@@ -1997,3 +1997,123 @@ products: ca-gai-diep-ha-chau
 Dùng paracetamol an toàn cho gan: liều, khoảng cách và sai lầm cần tránh.
 
 [[buy:ca-gai-diep-ha-chau]]
+
++++
+slug: thuc-pham-giau-chat-chong-oxy-hoa-trong-bua
+title: Thực phẩm giàu chất chống oxy hóa trong bữa cơm Việt
+desc: Thực phẩm giàu chất chống oxy hóa có sẵn trong bữa cơm Việt: rau lá xanh, rau thơm, trái cây, đậu, hạt, cách chế biến giữ dưỡng chất và vì sao nên ăn từ thực phẩm hơn viên uống.
+cat: cam-nang
+date: 2026-11-28
+products: duong-nhan
++++
+Chất chống oxy hóa từ rau, trái cây và món ăn quen thuộc của người Việt.
+
+[[buy:duong-nhan]]
+
++++
+slug: co-nang-sang-tao-noi-dung-va-12-tieng
+title: Cô nàng sáng tạo nội dung và 12 tiếng trước màn hình
+desc: Câu chuyện một nhà sáng tạo nội dung ngồi 12 tiếng trước màn hình: mỏi mắt, ngồi lâu, thức khuya, trà sữa và cách xây lại nhịp sinh hoạt lành mạnh từng bước.
+cat: cau-chuyen
+date: 2026-11-28
+products: duong-nhan
++++
+Một ngày 12 tiếng trước màn hình và những thay đổi nhỏ để chăm sóc bản thân.
+
+[[buy:duong-nhan]]
+
++++
+slug: huong-thom-va-cam-xuc
+title: Hương thơm và cảm xúc: khoa học về mùi hoa hồng, hoa nhài
+desc: Hương thơm và cảm xúc liên quan thế nào: khứu giác nối thẳng với hệ viền, nghiên cứu về mùi hoa hồng, hoa nhài, giới hạn bằng chứng của hương liệu pháp và cách tận hưởng mùi hương an toàn.
+cat: thao-moc
+date: 2026-11-28
+products: duong-nhan
++++
+Vì sao mùi hoa hồng, hoa nhài chạm đến cảm xúc – khoa học về khứu giác.
+
+[[buy:duong-nhan]]
+
++++
+slug: ruou-va-giac-ngu-vi-sao-nhau-xong-de
+title: Rượu và giấc ngủ: vì sao nhậu xong dễ ngủ nhưng ngủ dở
+desc: Rượu và giấc ngủ: vì sao uống rượu bia dễ buồn ngủ nhưng nửa đêm tỉnh giấc, giấc REM bị cắt, ngáy nhiều hơn, và nên dừng uống trước giờ ngủ bao lâu.
+cat: cam-nang
+date: 2026-11-28
+products: xau-ho-tim-tam-sen
++++
+Vì sao rượu làm giấc ngủ nửa đêm sau chập chờn và cách hạn chế.
+
+[[buy:xau-ho-tim-tam-sen]]
+
++++
+slug: tien-man-kinh-kinh-nguyet-thay-doi-the-nao
+title: Tiền mãn kinh: kinh nguyệt thay đổi thế nào
+desc: Tiền mãn kinh kinh nguyệt thay đổi thế nào: chu kỳ ngắn dài thất thường, ra nhiều hoặc ít, bốc hỏa, mất ngủ, khi nào là bất thường cần đi khám phụ khoa.
+cat: cam-nang
+date: 2026-11-28
+products: ngay-dau-ve
++++
+Những thay đổi kinh nguyệt thường gặp giai đoạn tiền mãn kinh và dấu hiệu cần đi khám.
+
+[[buy:ngay-dau-ve]]
+
++++
+slug: tuoi-day-thi-me-noi-gi-voi-con-gai
+title: Tuổi dậy thì: mẹ nói gì với con gái về kỳ kinh đầu tiên
+desc: Tuổi dậy thì: mẹ nên nói gì với con gái về kỳ kinh đầu tiên, nói lúc nào, chuẩn bị băng vệ sinh ra sao, chu kỳ đầu thường không đều và khi nào cần đưa con đi khám.
+cat: cam-nang
+date: 2026-11-28
+products: ngay-dau-ve
++++
+Gợi ý cách mẹ trò chuyện cùng con gái về kỳ kinh nguyệt đầu tiên.
+
+[[buy:ngay-dau-ve]]
+
++++
+slug: an-cham-nhai-ky-giup-no-lau-the-nao
+title: Ăn chậm, nhai kỹ giúp no lâu thế nào
+desc: Ăn chậm, nhai kỹ giúp no lâu thế nào: tín hiệu no từ ruột lên não mất khoảng 20 phút, nghiên cứu về số lần nhai, tốc độ ăn và mẹo ăn chậm trong bữa cơm gia đình.
+cat: cam-nang
+date: 2026-11-28
+products: la-oi-mix-la-sen
++++
+Khoa học về tốc độ ăn, cảm giác no và mẹo ăn chậm mỗi bữa.
+
+[[buy:la-oi-mix-la-sen]]
+
++++
+slug: hoa-cuc-va-giac-ngu-cac-nghien-cuu-lam
+title: Hoa cúc và giấc ngủ: các nghiên cứu lâm sàng
+desc: Hoa cúc và giấc ngủ: các nghiên cứu lâm sàng về chiết xuất cúc La Mã, apigenin, kết quả còn hạn chế ra sao, ai cần thận trọng và vì sao không thay được vệ sinh giấc ngủ.
+cat: cam-nang
+date: 2026-11-28
+products: duong-tam-an
++++
+Bằng chứng khoa học về hoa cúc và giấc ngủ, đọc đúng để không kỳ vọng sai.
+
+[[buy:duong-tam-an]]
+
++++
+slug: thuc-pham-chuc-nang-bo-gan-can-tinh-tao
+title: Thực phẩm chức năng bổ gan: cần tỉnh táo trước quảng cáo
+desc: Thực phẩm chức năng bổ gan: vì sao cần tỉnh táo trước quảng cáo, tổn thương gan do thảo dược và thực phẩm bổ sung (HDS), cách đọc nhãn, kiểm tra tự công bố và khi nào phải đi khám.
+cat: cam-nang
+date: 2026-11-28
+products: ca-gai-diep-ha-chau
++++
+Cách nhìn tỉnh táo trước quảng cáo sản phẩm bổ gan.
+
+[[buy:ca-gai-diep-ha-chau]]
+
++++
+slug: hut-thuoc-la-anh-huong-suc-khoe-nam-gioi
+title: Hút thuốc lá ảnh hưởng sức khỏe nam giới thế nào
+desc: Hút thuốc lá ảnh hưởng sức khỏe nam giới thế nào: tim mạch, phổi, rối loạn cương, chất lượng tinh trùng, ung thư, tỷ lệ hút ở nam giới Việt Nam và các bước bỏ thuốc có hỗ trợ.
+cat: cam-nang
+date: 2026-11-28
+products: nam-vuong
++++
+Tác hại của thuốc lá với sức khỏe nam giới và cách bỏ thuốc.
+
+[[buy:nam-vuong]]

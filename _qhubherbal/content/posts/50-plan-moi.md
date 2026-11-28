@@ -2117,3 +2117,123 @@ products: nam-vuong
 Tác hại của thuốc lá với sức khỏe nam giới và cách bỏ thuốc.
 
 [[buy:nam-vuong]]
+
++++
+slug: cach-pha-tra-duong-nhan-ngon
+title: Cách pha Trà Dưỡng Nhan ngon: nóng, lạnh và biến tấu
+desc: Cách pha Trà Dưỡng Nhan ngon: nhiệt độ nước, thời gian hãm, pha nóng, ủ lạnh, biến tấu với trái cây và mẹo giữ hương hoa hồng, hoa nhài không bị chát.
+cat: san-pham
+date: 2026-11-29
+products: duong-nhan
++++
+Hướng dẫn pha Trà Dưỡng Nhan nóng, lạnh và các biến tấu không đường.
+
+[[buy:duong-nhan]]
+
++++
+slug: moi-kho-nut-ne
+title: Môi khô, nứt nẻ: nguyên nhân thường gặp và cách chăm sóc
+desc: Môi khô, nứt nẻ do đâu: thời tiết hanh khô, liếm môi, thiếu nước, son và thuốc; cách chăm sóc môi đúng, sai lầm thường gặp và khi nào cần đi khám da liễu.
+cat: cam-nang
+date: 2026-11-29
+products: duong-nhan
++++
+Nguyên nhân môi khô nứt nẻ và cách chăm sóc môi hằng ngày.
+
+[[buy:duong-nhan]]
+
++++
+slug: ba-noi-va-noi-che-tao-do-ky-tu
+title: Bà nội và nồi chè táo đỏ kỷ tử ngày Tết
+desc: Câu chuyện bà nội và nồi chè táo đỏ kỷ tử ngày Tết: ký ức gia đình, cách nấu chè táo đỏ kỷ tử ít ngọt, táo đỏ và kỷ tử theo quan niệm phương Đông và lưu ý an toàn.
+cat: cau-chuyen
+date: 2026-11-29
+products: duong-nhan
++++
+Ký ức Tết bên nồi chè táo đỏ kỷ tử của bà.
+
+[[buy:duong-nhan]]
+
++++
+slug: bang-ve-sinh-tampon-coc-nguyet-san-chon-loai
+title: Băng vệ sinh, tampon, cốc nguyệt san: chọn loại nào
+desc: Băng vệ sinh, tampon, cốc nguyệt san: so sánh ưu nhược điểm, chi phí, cách dùng an toàn, hội chứng sốc nhiễm độc (TSS) và cách chọn sản phẩm kinh nguyệt hợp với bạn.
+cat: cam-nang
+date: 2026-11-29
+products: ngay-dau-ve
++++
+So sánh các sản phẩm vệ sinh kinh nguyệt và cách dùng an toàn.
+
+[[buy:ngay-dau-ve]]
+
++++
+slug: di-bo-10-000-buoc-co-can-thiet-khong
+title: Đi bộ 10.000 bước có cần thiết không
+desc: Đi bộ 10.000 bước có cần thiết không? Nguồn gốc con số, nghiên cứu về số bước mỗi ngày và sức khỏe, khuyến nghị vận động của WHO và cách tăng số bước thực tế.
+cat: cam-nang
+date: 2026-11-29
+products: la-oi-mix-la-sen
++++
+Con số 10.000 bước từ đâu ra và bao nhiêu bước mỗi ngày là hợp lý.
+
+[[buy:la-oi-mix-la-sen]]
+
++++
+slug: hoi-chung-ruot-kich-thich-che-do-an
+title: Hội chứng ruột kích thích: chế độ ăn
+desc: Hội chứng ruột kích thích (IBS) nên ăn gì: chế độ ăn low FODMAP 3 giai đoạn, chất xơ hòa tan, thực phẩm hay gây khó chịu, nhật ký ăn uống và khi nào cần đi khám.
+cat: cam-nang
+date: 2026-11-29
+products: la-oi-mix-la-sen
++++
+Chế độ ăn cho người có hội chứng ruột kích thích.
+
+[[buy:la-oi-mix-la-sen]]
+
++++
+slug: l-theanine-trong-tra-xanh-va-cam-giac-thu
+title: L-theanine trong trà xanh và cảm giác thư thái
+desc: L-theanine trong trà xanh là gì, có bao nhiêu trong một tách trà, nghiên cứu về L-theanine, caffeine và cảm giác thư thái, tỉnh táo; lưu ý khi dùng viên bổ sung.
+cat: cam-nang
+date: 2026-11-29
+products: duong-tam-an
++++
+L-theanine trong trà xanh: bằng chứng khoa học và cách hiểu đúng.
+
+[[buy:duong-tam-an]]
+
++++
+slug: an-gi-khi-men-gan-cao-thuc-don-7
+title: Ăn gì khi men gan cao: thực đơn 7 ngày
+desc: Ăn gì khi men gan cao: nguyên tắc ăn uống, thực đơn 7 ngày kiểu Việt, thực phẩm nên hạn chế, rượu bia, đồ ngọt và vì sao vẫn cần đi khám tìm nguyên nhân men gan cao.
+cat: cam-nang
+date: 2026-11-29
+products: ca-gai-diep-ha-chau
++++
+Thực đơn 7 ngày tham khảo cho người có men gan cao.
+
+[[buy:ca-gai-diep-ha-chau]]
+
++++
+slug: stress-cong-viec-va-suc-khoe-tinh-duc-goc
+title: Stress công việc và sức khỏe tình dục: góc nhìn khoa học
+desc: Stress công việc ảnh hưởng sức khỏe tình dục nam giới thế nào: cortisol, giấc ngủ, ham muốn, rối loạn cương, kiệt sức nghề nghiệp, cách giảm căng thẳng và khi nào cần đi khám.
+cat: cam-nang
+date: 2026-11-29
+products: nam-vuong
++++
+Mối liên hệ giữa căng thẳng công việc và sức khỏe tình dục.
+
+[[buy:nam-vuong]]
+
++++
+slug: tap-the-duc-buoi-toi-co-lam-kho-ngu
+title: Tập thể dục buổi tối có làm khó ngủ không
+desc: Tập thể dục buổi tối có làm khó ngủ không? Nghiên cứu về tập luyện buổi tối và giấc ngủ, cường độ, thời điểm kết thúc trước giờ ngủ và gợi ý lịch tập cho người bận rộn.
+cat: cam-nang
+date: 2026-11-29
+products: xau-ho-tim-tam-sen
++++
+Tập thể dục buổi tối và giấc ngủ: nghiên cứu nói gì.
+
+[[buy:xau-ho-tim-tam-sen]]

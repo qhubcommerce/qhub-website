@@ -2802,3 +2802,213 @@ NEW_RULES17.append(('n17_hutthuoc', ['hút thuốc', 'khói thuốc', 'bỏ thu�
 
 
 RULES[:0] = NEW_RULES17
+
+
+# Đêm 18 (29/11/2026): cụm đặc thù đặt lên đầu RULES (URL lấy từ kết quả WebSearch)
+NEW_RULES18 = []
+
+# ===== duong-nhan =====
+# Đêm 18 (29/11/2026) – Trà Dưỡng Nhan (prefix n18_). Mọi URL lấy từ kết quả WebSearch (không mở bằng WebFetch/curl).
+
+# --- cach-pha-tra-duong-nhan-ngon ---
+SRC['n18_phaduongnhan'] = [
+    ('BfR (Viện Đánh giá Rủi ro Liên bang Đức) (2005) – Boiling water a must for herbal teas (Khuyến cáo pha trà thảo mộc bằng nước sôi để hạn chế rủi ro vi khuẩn)', 'https://www.bfr.bund.de/en/press-release/boiling-water-a-must-for-herbal-teas/'),
+    ('BfR – Temperierte Heißwasserspender für Kräuterteeaufgüsse nicht geeignet (Máy cấp nước nóng đã hạ nhiệt không phù hợp để pha trà thảo mộc)', 'https://www.bfr.bund.de/cm/343/temperierte_heisswasserspender_fuer_kraeuterteeaufguesse_nicht_geeignet.pdf'),
+    ('Koch J. và cộng sự (2005) – Salmonella Agona Outbreak from Contaminated Aniseed, Germany (Đợt nhiễm Salmonella Agona liên quan trà thảo mộc có hạt hồi, chủ yếu ở trẻ nhỏ), Emerging Infectious Diseases – CDC', 'https://wwwnc.cdc.gov/eid/article/11/7/04-1022_article'),
+    ('SDSU Extension (Đại học Bang South Dakota) – How to Make Cold-Brewed Teas Safely (Cách ủ trà lạnh an toàn: ủ trong tủ lạnh, dụng cụ sạch)', 'https://extension.sdstate.edu/how-make-cold-brewed-teas-safely'),
+    ('University of Illinois Extension (2018) – Dangers of sun tea (Rủi ro vi khuẩn của trà phơi nắng)', 'https://extension.illinois.edu/blogs/simply-nutritious-quick-and-delicious/2018-07-05-dangers-sun-tea'),
+    ('WHO – Five Keys to Safer Food (Năm chìa khóa an toàn thực phẩm: không để đồ đã chế biến quá 2 giờ ở nhiệt độ phòng, bảo quản dưới 5 °C), Tổ chức Y tế Thế giới', 'https://www.afro.who.int/sites/default/files/2017-06/fan_5keys_en%20%282%29.pdf'),
+]
+NEW_RULES18.append(('n18_phaduongnhan', ['ủ lạnh', 'đánh thức', 'sun tea', 'phơi nắng', 'cây nước', 'sdsu', 'agona'], 14))   # bài này 32, bài khác 0
+
+# --- moi-kho-nut-ne ---
+SRC['n18_moikho'] = [
+    ('AAD (Viện Hàn lâm Da liễu Hoa Kỳ) – 7 dermatologists\' tips for healing dry, chapped lips (Mẹo chăm môi khô nứt nẻ: son dưỡng nên chọn, thành phần nên tránh, SPF 30)', 'https://www.aad.org/public/everyday-care/skin-care-basics/dry/heal-dry-chapped-lips'),
+    ('NHS (Hệ thống Y tế Quốc gia Anh) – Sore or dry lips (Môi khô, đau rát: tự chăm sóc, việc nên và không nên làm, khi nào cần đi khám)', 'https://www.nhs.uk/conditions/sore-or-dry-lips/'),
+    ('DermNet – Lip licker\'s dermatitis (Viêm da do liếm môi)', 'https://dermnetnz.org/topics/lip-lickers-dermatitis'),
+    ('DermNet – Contact reactions to toothpaste and other oral hygiene products (Phản ứng tiếp xúc với kem đánh răng và sản phẩm vệ sinh răng miệng)', 'https://dermnetnz.org/topics/contact-reactions-to-toothpaste-and-other-oral-hygiene-products'),
+    ('StatPearls (NCBI Bookshelf) – Angular Cheilitis (Viêm môi góc: nguyên nhân nấm Candida, tụ cầu, thiếu vi chất, răng giả)', 'https://www.ncbi.nlm.nih.gov/books/NBK536929/'),
+    ('StatPearls (NCBI Bookshelf) – Actinic Cheilitis (Viêm môi ánh nắng: tổn thương tiền ung thư ở môi dưới do tia cực tím)', 'https://www.ncbi.nlm.nih.gov/books/NBK551553/'),
+]
+NEW_RULES18.append(('n18_moikho', ['son dưỡng', 'liếm môi', 'viêm môi', 'khóe miệng', 'môi khô', 'isotretinoin'], 40))   # bài này 104, bài khác 0
+
+# --- ba-noi-va-noi-che-tao-do-ky-tu ---
+SRC['n18_chetaodo'] = [
+    ('Cai W. và cộng sự (2024) – Functional Nutrients and Jujube-Based Processed Products in Ziziphus jujuba (Đường 23–32% ở quả táo tàu tươi, 63–76% ở quả khô; vitamin C giảm khi sấy), Molecules', 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11279998/'),
+    ('Memorial Sloan Kettering Cancer Center – Lycium (Kỷ tử: bằng chứng, tương tác với warfarin, chống chỉ định)', 'https://www.mskcc.org/cancer-care/integrative-medicine/herbs/lycium'),
+    ('Larramendi C.H. và cộng sự (2012) – Goji berries (Lycium barbarum): risk of allergic reactions in individuals with food allergy (Nguy cơ dị ứng kỷ tử ở người dị ứng thức ăn)', 'https://pubmed.ncbi.nlm.nih.gov/23101309/'),
+    ('American Diabetes Association – Diabetes Food Hub: 7 Holiday Cooking Tips for People with Diabetes (Gợi ý nấu ăn dịp lễ cho người tiểu đường)', 'https://diabetesfoodhub.org/blog/7-holiday-cooking-tips-people-diabetes'),
+    ('WHO – Five Keys to Safer Food (Năm chìa khóa an toàn thực phẩm: không để đồ chín quá 2 giờ ở nhiệt độ phòng, bảo quản dưới 5 °C), Tổ chức Y tế Thế giới', 'https://www.afro.who.int/sites/default/files/2017-06/fan_5keys_en%20%282%29.pdf'),
+]
+NEW_RULES18.append(('n18_chetaodo', ['bà nội', 'chè táo đỏ', 'nồi chè', 'chén chè', 'hạt táo', 'bà ngồi'], 25))   # bài này 41, bài khác 0
+
+# ===== ngay-dau-ve =====
+# --- cam-thao-co-tac-dung-gi ---
+SRC['n18_camthaotacdung'] = [
+    ('NCCIH (Hoa Kỳ) – Licorice Root (Rễ cam thảo: bằng chứng và an toàn)', 'https://www.nccih.nih.gov/health/licoriceroot'),
+    ('WHO/JECFA – Glycyrrhizinic acid (Đánh giá glycyrrhizic acid của Ủy ban Chuyên gia FAO/WHO về Phụ gia Thực phẩm)', 'https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/4366'),
+    ('Ủy ban châu Âu (2004) – Commission Directive 2004/77/EC (Quy định ghi nhãn thực phẩm chứa glycyrrhizinic acid)', 'https://eur-lex.europa.eu/eli/dir/2004/77/oj/eng'),
+    ('van Gelderen và cộng sự (2000), Human & Experimental Toxicology – Glycyrrhizic acid: the assessment of a no effect level (Xác định mức không gây tác dụng của glycyrrhizic acid)', 'https://journals.sagepub.com/doi/reader/10.1191/096032700682694251'),
+    ('Cẩm nang MSD – Licorice (Cam thảo: tác dụng phụ và tương tác thuốc)', 'https://www.msdmanuals.com/home/special-subjects/dietary-supplements-and-vitamins/licorice'),
+    ('Đại học Helsinki (2017) – A new study confirms: pregnant women should avoid liquorice (Phụ nữ mang thai nên tránh cam thảo)', 'https://www.helsinki.fi/en/news/healthier-world/new-study-confirms-pregnant-women-should-avoid-liquorice'),
+]
+NEW_RULES18.append(('n18_camthaotacdung', ['ngậm', 'gutgard', 'van gelderen', 'súc họng', '0,2 mg'], 10))
+
+# --- bang-ve-sinh-tampon-coc-nguyet-san-chon-loai ---
+SRC['n18_sanphamkinhnguyet'] = [
+    ('FDA (Hoa Kỳ) – Tampons (Tampon: thông tin và cách dùng an toàn)', 'https://www.fda.gov/medical-devices/menstrual-product-options-facts-and-safe-use/tampons'),
+    ('FDA (Hoa Kỳ) – Menstrual Cups (Cốc nguyệt san: thông tin và cách dùng an toàn)', 'https://www.fda.gov/medical-devices/menstrual-product-options-facts-and-safe-use/menstrual-cups'),
+    ('NHS (Anh) – Toxic shock syndrome (Hội chứng sốc nhiễm độc)', 'https://www.nhs.uk/conditions/toxic-shock-syndrome/'),
+    ('van Eijk và cộng sự (2019), The Lancet Public Health – Menstrual cup use, leakage, acceptability, safety, and availability: a systematic review and meta-analysis (Tổng quan về cốc nguyệt san)', 'https://pubmed.ncbi.nlm.nih.gov/31324419/'),
+    ('Contraception and Reproductive Medicine (2023) – Menstrual cup and risk of IUD expulsion: a systematic review (Cốc nguyệt san và nguy cơ tuột vòng tránh thai)', 'https://pubmed.ncbi.nlm.nih.gov/36670496/'),
+    ('NIEHS (Hoa Kỳ) (2024) – Metals in tampons (Nghiên cứu kim loại trong tampon)', 'https://factor.niehs.nih.gov/2024/8/feature/3-feature-metals-in-tampons'),
+]
+NEW_RULES18.append(('n18_sanphamkinhnguyet', ['quần lót kinh nguyệt', 'đĩa nguyệt san', 'pfas', 'environment international', 'tampon'], 40))
+
+# --- thao-moc-am-cho-phu-nu ---
+SRC['n18_thaomocam'] = [
+    ('NCCIH (Hoa Kỳ) – Ginger (Gừng: bằng chứng và an toàn)', 'https://www.nccih.nih.gov/health/ginger'),
+    ('NCCIH (Hoa Kỳ) – Mugwort (Ngải cứu: bằng chứng và an toàn)', 'https://www.nccih.nih.gov/health/mugwort'),
+    ('Daily và cộng sự (2015), Pain Medicine – Efficacy of ginger for alleviating the symptoms of primary dysmenorrhea: a systematic review and meta-analysis (Gừng và đau bụng kinh nguyên phát)', 'https://pubmed.ncbi.nlm.nih.gov/26177393/'),
+    ('BfR (Đức) – FAQ on coumarin in cinnamon and other foods (Hỏi đáp về coumarin trong quế)', 'https://www.bfr.bund.de/cm/349/faq-on-coumarin-in-cinnamon-and-other-foods.pdf'),
+    ('Experimental and Clinical Pharmacology of Ziziphus jujuba Mills (Tổng quan dược lý của táo đỏ)', 'https://pubmed.ncbi.nlm.nih.gov/28084039/'),
+    ('Frontiers in Nutrition (2022) – Tổng quan về thành phần và hoạt tính của nhãn (Dimocarpus longan)', 'https://www.frontiersin.org/articles/10.3389/fnut.2022.914679/full'),
+]
+NEW_RULES18.append(('n18_thaomocam', ['quế', 'long nhãn', 'coumarin', 'thảo mộc ấm'], 40))
+
+# ===== la-oi-mix-la-sen =====
+# --- di-bo-10-000-buoc-co-can-thiet-khong ---
+SRC['n18_dibo10k'] = [
+    ('Lee IM và cộng sự (2019), JAMA Internal Medicine – Association of Step Volume and Intensity With All-Cause Mortality in Older Women (Số bước, cường độ và tử vong ở phụ nữ lớn tuổi)', 'https://pubmed.ncbi.nlm.nih.gov/31141585/'),
+    ('Paluch AE và cộng sự (2022), The Lancet Public Health – Daily steps and all-cause mortality: a meta-analysis of 15 international cohorts (Số bước mỗi ngày và tử vong: phân tích gộp 15 nhóm thuần tập)', 'https://pubmed.ncbi.nlm.nih.gov/35247352/'),
+    ('Ding D và cộng sự (2025), The Lancet Public Health – Daily steps and health outcomes in adults: a systematic review and dose-response meta-analysis (Số bước mỗi ngày và các kết cục sức khỏe)', 'https://pubmed.ncbi.nlm.nih.gov/40713949/'),
+    ('WHO (2020) – WHO guidelines on physical activity and sedentary behaviour: at a glance (Hướng dẫn của WHO về hoạt động thể lực và hành vi tĩnh tại)', 'https://www.who.int/europe/publications/i/item/9789240014886'),
+    ('Buffey AJ và cộng sự (2022), Sports Medicine – Đứng và đi bộ nhẹ xen kẽ thời gian ngồi: tác động cấp lên chỉ số chuyển hóa (phân tích gộp)', 'https://link.springer.com/content/pdf/10.1007/s40279-022-01649-4.pdf?pdf=button'),
+    ('News-Medical – Where Did 10,000 Steps a Day Come From? (Nguồn gốc con số 10.000 bước)', 'https://www.news-medical.net/health/Where-did-10000-steps-a-day-come-from.aspx'),
+]
+NEW_RULES18.append(('n18_dibo10k', ['10.000 bước', 'manpo-kei', 'paluch', 'số bước', 'vòng tròn'], 12))
+
+# --- cach-pha-tra-la-sen-kho ---
+SRC['n18_phalasen'] = [
+    ('Mukherjee PK và cộng sự (2009), Journal of Ethnopharmacology – The sacred lotus (Nelumbo nucifera): phytochemical and therapeutic profile (Tổng quan thành phần hóa học cây sen)', 'https://pubmed.ncbi.nlm.nih.gov/19298686/'),
+    ('Frontiers in Pharmacology (2018) – Pharmacokinetics of Nuciferine and N-Nornuciferine, Two Major Alkaloids From Nelumbo nucifera Leaves, in Rat Plasma and the Brain (Dược động học nuciferine trên chuột)', 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6123365/'),
+    ('FDA (2019) – GoLean Detox USA thu hồi tự nguyện viên Golean Detox do chứa chất không khai báo', 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/golean-detox-usa-issues-voluntary-nationwide-recall-golean-detox-capsules-due-presence-undeclared'),
+    ('FDA – Public Notification: Vy Tea contains hidden drug ingredient (Cảnh báo trà Vy Tea chứa hoạt chất thuốc ẩn)', 'https://www.fda.gov/drugs/medication-health-fraud/public-notification-vy-tea-contains-hidden-drug-ingredient'),
+    ('Swissmedic – Warning regarding HAVYCO-Vy&Tea slimmers\' tea (Cảnh báo trà ép cân Vy&Tea)', 'https://www.swissmedic.ch/swissmedic/en/home/news/mitteilungen/warnung-abmagerungstee-havyco-vy-tea.html'),
+    ('VnExpress – Sản phẩm ép cân chứa chất cấm', 'https://vnexpress.net/san-pham-giam-can-chua-chat-cam-4521363.html'),
+]
+NEW_RULES18.append(('n18_phalasen', ['lá sen khô', 'tráng lá', 'sao lá', 'pha lạnh', 'bị đắng', 'hãm 3–5 phút'], 12))
+
+# --- hoi-chung-ruot-kich-thich-che-do-an ---
+SRC['n18_ibsdiet'] = [
+    ('Rome Foundation – Rome IV Criteria (Tiêu chuẩn chẩn đoán Rome IV cho rối loạn tiêu hóa chức năng)', 'https://www.theromefoundation.org/rome-iv/rome-iv-criteria/'),
+    ('Sperber AD và cộng sự (2021), Gastroenterology – Worldwide Prevalence and Burden of Functional Gastrointestinal Disorders, Results of Rome Foundation Global Study (Tỷ lệ rối loạn tiêu hóa chức năng toàn cầu)', 'https://scientiasalut.gencat.cat/handle/11351/7651'),
+    ('Lacy BE và cộng sự (2021), American Journal of Gastroenterology – ACG Clinical Guideline: Management of Irritable Bowel Syndrome (Hướng dẫn lâm sàng ACG về IBS)', 'https://pubmed.ncbi.nlm.nih.gov/33315591/'),
+    ('NICE CG61 – Irritable bowel syndrome in adults: diagnosis and management, Recommendations (Khuyến nghị về IBS ở người trưởng thành)', 'https://www.nice.org.uk/guidance/cg61/chapter/1-Recommendations'),
+    ('Monash University FODMAP – The 3 steps of the FODMAP diet (Ba giai đoạn của chế độ ăn low FODMAP)', 'https://monashfodmap.com/blog/3-phases-low-fodmap-diet/'),
+    ('NHS – Irritable bowel syndrome (IBS): Symptoms (Triệu chứng IBS và khi nào cần đi khám)', 'https://www.nhs.uk/conditions/irritable-bowel-syndrome-ibs/symptoms/'),
+]
+NEW_RULES18.append(('n18_ibsdiet', ['ruột kích thích', 'rome iv', 'low fodmap', 'psyllium', 'nhật ký ăn uống', 'monash'], 15))
+
+# ===== duong-tam-an =====
+# --- hoi-hop-tim-dap-nhanh-khi-lo ---
+SRC['n18_hoihoptim'] = [
+    ('NHS – Heart palpitations (Hồi hộp, tim đập nhanh: nguyên nhân thường gặp và khi nào cần cấp cứu)', 'https://www.nhs.uk/conditions/Heart-palpitations'),
+    ('American Heart Association (2026) – How serious are heart palpitations? Causes, symptoms and when to worry (Hồi hộp nguy hiểm đến đâu, nguyên nhân và khi nào cần lo)', 'https://heart.org/en/news/2026/02/09/how-serious-are-heart-palpitations-causes-symptoms-and-when-to-worry'),
+    ('Harvard Health Publishing – Understanding the stress response (Cơ chế phản ứng căng thẳng "chiến đấu hay bỏ chạy", adrenaline và cortisol)', 'https://www.health.harvard.edu/staying-healthy/understanding-the-stress-response'),
+    ('NIMH – Panic Disorder: When Fear Overwhelms (Rối loạn hoảng sợ: triệu chứng tim đập thình thịch, khó thở và các hướng hỗ trợ)', 'https://www.nimh.nih.gov/health/publications/panic-disorder-when-fear-overwhelms'),
+    ('NHS – Breathing exercises for stress (Bài tập thở chậm khi căng thẳng)', 'https://nhs.uk/mental-health/self-help/guides-tools-and-activities/breathing-exercises-for-stress'),
+    ('FDA – Spilling the Beans: How Much Caffeine is Too Much? (Bao nhiêu caffeine là quá nhiều – mức 400 mg/ngày ở người trưởng thành khỏe mạnh)', 'https://www.fda.gov/consumers/consumer-updates/spilling-beans-how-much-caffeine-too-much'),
+]
+NEW_RULES18.append(('n18_hoihoptim', ['hồi hộp', 'tim đập nhanh', 'chiến đấu hay bỏ chạy', 'holter', 'rối loạn nhịp', 'nhịp nhanh'], 40))   # bài này 67, bài khác 0
+
+# --- l-theanine-trong-tra-xanh-va-cam-giac-thu ---
+SRC['n18_ltheanine'] = [
+    ('Mayo Clinic – Caffeine content for coffee, tea, soda and more (Lượng caffeine trong cà phê, trà đen, trà xanh và đồ uống khác)', 'https://mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/caffeine/art-20049372'),
+    ('Camfield và cộng sự (2014) – Acute effects of tea constituents L-theanine, caffeine, and epigallocatechin gallate on cognitive function and mood: a systematic review and meta-analysis (Tổng quan hệ thống – phân tích gộp tác dụng cấp của L-theanine, caffeine, EGCG), Nutrition Reviews', 'https://pubmed.ncbi.nlm.nih.gov/24946991/'),
+    ('Owen và cộng sự (2008) – The combined effects of L-theanine and caffeine on cognitive performance and mood (L-theanine kết hợp caffeine với hiệu suất nhận thức và tâm trạng), Nutritional Neuroscience', 'https://pubmed.ncbi.nlm.nih.gov/18641209/'),
+    ('Nobre, Rao, Owen (2008) – L-theanine, a natural constituent in tea, and its effect on mental state (L-theanine trong trà và sóng alpha não bộ), Asia Pacific Journal of Clinical Nutrition', 'https://pubmed.ncbi.nlm.nih.gov/18296328/'),
+    ('Hidese và cộng sự (2019) – Effects of L-Theanine Administration on Stress-Related Symptoms and Cognitive Functions in Healthy Adults: A Randomized Controlled Trial (Thử nghiệm 200 mg L-theanine/ngày trong 4 tuần), Nutrients', 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6836118/'),
+    ('Tổng quan hệ thống (2025) – Examining the effect of L-theanine on sleep: a systematic review of dietary supplementation trials (L-theanine và giấc ngủ: tổng quan các thử nghiệm bổ sung)', 'https://pubmed.ncbi.nlm.nih.gov/41176609/'),
+]
+NEW_RULES18.append(('n18_ltheanine', ['theanine', 'sóng alpha', 'matcha', 'trà xanh'], 50))   # bài này 103, bài khác cao nhất 32 (tra-va-nghi-thuc-thu-gian-cua-nguoi-nhat)
+
+# --- hoa-cuc-co-tac-dung-gi ---
+SRC['n18_hoacuctacdung'] = [
+    ('NCCIH (NIH) – Chamomile: Usefulness and Safety (Cúc La Mã: bằng chứng, dị ứng họ Cúc và an toàn)', 'https://www.nccih.nih.gov/health/chamomile?form=MG0AV3'),
+    ('Amsterdam JD và cộng sự (2009) – A randomized, double-blind, placebo-controlled trial of oral Matricaria recutita (chamomile) extract therapy for generalized anxiety disorder (Viên chiết xuất cúc La Mã ở lo âu lan tỏa nhẹ–vừa), Journal of Clinical Psychopharmacology', 'https://pubmed.ncbi.nlm.nih.gov/19593179/'),
+    ('Segal R, Pilote L (2006) – Warfarin interaction with Matricaria chamomilla (Tương tác warfarin – cúc La Mã, báo cáo ca), CMAJ', 'https://pmc.ncbi.nlm.nih.gov/articles/PMC1435958'),
+    ('Shao Y và cộng sự (2020) – Chrysanthemum indicum L.: A Comprehensive Review of its Botany, Phytochemistry and Pharmacology (Tổng quan thực vật, hóa học, dược lý cúc hoa vàng), The American Journal of Chinese Medicine', 'https://pubmed.ncbi.nlm.nih.gov/32431180/'),
+    ('Liang và cộng sự (2025) – Exploring the antimicrobial, anti-inflammatory, antioxidant, and immunomodulatory properties of Chrysanthemum morifolium and Chrysanthemum indicum (So sánh cúc hoa trắng và cúc hoa vàng – dữ liệu chủ yếu tiền lâm sàng), Frontiers in Pharmacology', 'https://frontiersin.org/articles/10.3389/fphar.2025.1538311/full'),
+]
+NEW_RULES18.append(('n18_hoacuctacdung', ['lời đồn', 'amsterdam', 'hoa cúc có tác dụng', 'sai lầm', 'cúc hoa vàng', 'segal'], 20))   # bài này 33, bài khác 0 (kể cả ở n=10)
+
+# ===== ca-gai-diep-ha-chau =====
+# --- an-gi-khi-men-gan-cao-thuc-don-7 ---
+SRC['n18_mengan_thucdon'] = [
+    ('Mayo Clinic – Elevated liver enzymes: Causes (Men gan tăng: các nguyên nhân)', 'https://www.mayoclinic.org/symptoms/elevated-liver-enzymes/basics/causes/sym-20050830'),
+    ('EASL–EASD–EASO (2024) – Clinical Practice Guidelines on the management of MASLD, Journal of Hepatology (Hướng dẫn thực hành lâm sàng quản lý gan nhiễm mỡ liên quan rối loạn chuyển hóa)', 'https://www.journal-of-hepatology.eu/article/S0168-8278(24)00329-5/fulltext'),
+    ('NIDDK/NIH – Eating, Diet, & Nutrition for NAFLD & NASH (Ăn uống, dinh dưỡng cho người gan nhiễm mỡ)', 'https://www.niddk.nih.gov/health-information/liver-disease/nafld-nash/eating-diet-nutrition'),
+    ('Ryan và cộng sự (2013), Journal of Hepatology – The Mediterranean diet improves hepatic steatosis and insulin sensitivity in individuals with NAFLD (Chế độ ăn Địa Trung Hải và gan nhiễm mỡ)', 'https://pubmed.ncbi.nlm.nih.gov/23485520/'),
+    ('Tổng quan hệ thống và phân tích gộp (2019) – Consumption of Sugar-Sweetened Beverages Has a Dose-Dependent Effect on the Risk of NAFLD (Đồ uống có đường và nguy cơ gan nhiễm mỡ)', 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6617076/'),
+    ('Kennedy và cộng sự (2021), BMC Public Health – All coffee types decrease the risk of adverse clinical outcomes in chronic liver disease: a UK Biobank study (Cà phê và bệnh gan mạn tính)', 'https://bmcpublichealth.biomedcentral.com/articles/10.1186/s12889-021-10991-7'),
+]
+NEW_RULES18.append(('n18_mengan_thucdon', ['men gan cao', 'thực đơn', 'địa trung hải', 'fructose', 'uk biobank', 'đồ uống có đường'], 24))
+
+# --- mua-tra-ca-gai-leo-o-dau ---
+SRC['n18_muatracgl'] = [
+    ('Chính phủ (2017) – Nghị định 43/2017/NĐ-CP về nhãn hàng hóa', 'https://caselaw.vn/van-ban-phap-luat/316295-nghi-dinh-so-43-2017-nd-cp-ngay-14-04-2017-cua-chinh-phu-ve-nhan-hang-hoa?en=true'),
+    ('Chính phủ (2021) – Nghị định 111/2021/NĐ-CP sửa đổi, bổ sung Nghị định 43/2017/NĐ-CP về nhãn hàng hóa', 'https://thuvienphapluat.vn/van-ban/thuong-mai/Nghi-dinh-111-2021-ND-CP-sua-doi-Nghi-dinh-43-2017-ND-CP-497099.aspx'),
+    ('Chính phủ (2018) – Nghị định 15/2018/NĐ-CP hướng dẫn Luật An toàn thực phẩm (quy định tự công bố sản phẩm)', 'https://thuvienphapluat.vn/van-ban/The-thao-Y-te/Nghi-dinh-15-2018-ND-CP-huong-dan-Luat-an-toan-thuc-pham-341254.aspx'),
+    ('Bộ Công Thương – Luật Bảo vệ quyền lợi người tiêu dùng năm 2023 chính thức có hiệu lực từ ngày 1/7/2024', 'https://moit.gov.vn/tin-tuc/thong-bao/luat-bao-ve-quyen-loi-nguoi-tieu-dung-nam-2023-chinh-thuc-co-hieu-luc-tu-ngay-1-7-2024.html'),
+    ('Quốc hội (2025) – Luật Thương mại điện tử số 122/2025/QH15', 'https://thuvienphapluat.vn/van-ban/Thuong-mai/Luat-Thuong-mai-dien-tu-2025-so-122-2025-QH15-662035.aspx?tab=3'),
+    ('Bộ Công Thương – Chính thức đưa vào hoạt động số điện thoại 1800.6838 hỗ trợ người tiêu dùng', 'https://moit.gov.vn/thong-bao-moi/chinh-thuc-dua-vao-hoat-dong-so-dien-thoai-1800.6838-de-ho-t.html'),
+]
+NEW_RULES18.append(('n18_muatracgl', ['nơi bán', 'gian hàng', 'trôi nổi', 'người bán', '1800 6838', 'kênh mua'], 26))
+
+# ===== nam-vuong =====
+# --- gia-tra-nam-vuong ---
+SRC['n18_gianamvuong'] = [
+    ('FDA – Tainted Sexual Enhancement Products (Danh sách cảnh báo sản phẩm "tăng cường tình dục" trộn lén hoạt chất thuốc kê đơn)', 'https://www.fda.gov/drugs/medication-health-fraud/tainted-sexual-enhancement-products'),
+    ('FDA – Avoiding products contaminated with hidden ingredients (Cách tránh sản phẩm chứa hoạt chất ẩn không ghi trên nhãn)', 'https://www.fda.gov/drugs/medication-health-fraud/avoiding-products-contaminated-hidden-ingredients'),
+    ('Tuổi Trẻ (12/2023) – Bộ Y tế cảnh báo hàng loạt thực phẩm bảo vệ sức khỏe quảng cáo như thuốc chữa bệnh', 'https://tuoitre.vn/bo-y-te-canh-bao-hang-loat-thuc-pham-bao-ve-suc-khoe-quang-cao-nhu-thuoc-chua-benh-2023120808520505.htm'),
+    ('VOH – Thu hồi hàng loạt sản phẩm "tăng sinh lực" cho nam giới do vi phạm an toàn thực phẩm', 'https://voh.com.vn/suc-khoe/thu-hoi-hang-loat-san-pham-tang-cuong-sinh-ly-do-vi-pham-an-toan-thuc-pham-585170.html'),
+]
+NEW_RULES18.append(('n18_gianamvuong', ['2.333đ', '2.625đ', '3.500đ', 'sildenafil', 'tainted', 'phái mạnh'], 10))
+
+# --- stress-cong-viec-va-suc-khoe-tinh-duc-goc ---
+SRC['n18_stresstinhduc'] = [
+    ('WHO (2019) – Burn-out an "occupational phenomenon": International Classification of Diseases (Kiệt sức nghề nghiệp là "hiện tượng nghề nghiệp" trong ICD-11)', 'https://www.who.int/news-room/detail/28-05-2019-burn-out-an-occupational-phenomenon-international-classification-of-diseases'),
+    ('WHO (2020) – Doing What Matters in Times of Stress: An Illustrated Guide (Cẩm nang minh họa ứng phó căng thẳng)', 'https://www.who.int/publications/i/item/9789240003927'),
+    ('Leproult R, Van Cauter E (2011) – Effect of 1 week of sleep restriction on testosterone levels in young healthy men (Ngủ 5 tiếng/đêm trong 1 tuần làm giảm testosterone ở nam giới trẻ), JAMA (PubMed)', 'https://pubmed.ncbi.nlm.nih.gov/21632481/'),
+    ('Thompson IM và cộng sự (2005) – Erectile dysfunction and subsequent cardiovascular disease (Rối loạn cương và bệnh tim mạch về sau), JAMA', 'https://jamanetwork.com/journals/jama/article-abstract/202047'),
+    ('American College of Cardiology (2011) – Erectile Dysfunction and Risk of Cardiovascular Disease: A Meta-Analysis (Dong và cộng sự, J Am Coll Cardiol – tóm tắt của ACC)', 'https://www.acc.org/Latest-in-Cardiology/Journal-Scans/2011/09/12/16/59/Erectile-Dysfunction-and-Risk-of-CV-Disease-A-Meta-Analysis'),
+    ('NIDDK – Symptoms & Causes of Erectile Dysfunction (Triệu chứng và nguyên nhân rối loạn cương, gồm yếu tố tâm lý như căng thẳng, lo âu)', 'https://www.niddk.nih.gov/health-information/urologic-diseases/erectile-dysfunction/symptoms-causes'),
+]
+NEW_RULES18.append(('n18_stresstinhduc', ['rối loạn cương', 'lo âu hiệu suất', 'spectatoring', 'sensate', 'chăn gối', 'trục hpa'], 12))
+
+# ===== xau-ho-tim-tam-sen =====
+# --- tap-the-duc-buoi-toi-co-lam-kho-ngu ---
+SRC['n18_tapdemngu'] = [
+    ('Stutz và cộng sự (2019), Sports Medicine – Effects of Evening Exercise on Sleep in Healthy Participants: A Systematic Review and Meta-Analysis (tổng quan 23 nghiên cứu về tập buổi tối và giấc ngủ)', 'https://pubmed.ncbi.nlm.nih.gov/30374942/'),
+    ('Sleep Medicine Reviews (2021) – The effects of evening high-intensity exercise on sleep in healthy adults: A systematic review and meta-analysis (tập cường độ cao buổi tối và giấc ngủ)', 'https://pubmed.ncbi.nlm.nih.gov/34416428/'),
+    ('Monash University (2025) – Exercise before bed is linked with disrupted sleep (nghiên cứu Leota và cộng sự, Nature Communications, 14.689 người dùng thiết bị đeo)', 'https://www.monash.edu/news/articles/exercise-before-bed-is-linked-with-disrupted-sleep-study'),
+    ('Drake và cộng sự (2013), Journal of Clinical Sleep Medicine – Caffeine effects on sleep taken 0, 3, or 6 hours before going to bed (caffeine trước giờ ngủ)', 'https://pmc.ncbi.nlm.nih.gov/articles/PMC3805807'),
+    ('FDA – Spilling the Beans: How Much Caffeine is Too Much? (lượng caffeine mỗi ngày)', 'https://www.fda.gov/consumers/consumer-updates/spilling-beans-how-much-caffeine-too-much'),
+    ('WHO – Physical activity, fact sheet (khuyến nghị vận động thể lực)', 'https://www.who.int/europe/news-room/fact-sheets/item/physical-activity'),
+]
+NEW_RULES18.append(('n18_tapdemngu', ['tập tối', 'pre-workout', 'tập nặng', 'stutz', 'leota'], 12))
+
+# --- ai-khong-nen-uong-tra-xau-ho-tim-tam-sen ---
+SRC['n18_aikhongxht'] = [
+    ('Yen và cộng sự (2020), Nutrients – Potential Risk of Higenamine Misuse in Sports: Evaluation of Lotus Plumule Extract Products and a Human Study (higenamine trong tâm sen và doping)', 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7070534/'),
+    ('NCCIH – Passionflower (lạc tiên/passionflower: an toàn, thai kỳ)', 'https://nccih.nih.gov/health/passionflower?nav=govd'),
+    ('Biomolecules (2025) – Pharmacological Potential and Mechanisms of Bisbenzylisoquinoline Alkaloids from Lotus Seed Embryos (alkaloid tâm sen: neferine, liensinine)', 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12562030/'),
+    ('International Journal of Molecular Sciences (2021) – A Comprehensive Review of the Ethnotraditional Uses and Biological and Pharmacological Potential of the Genus Mimosa (chi Mimosa, mimosine)', 'https://mdpi.com/1422-0067/22/14/7463'),
+    ('Molecules (2025) – Advancing the Potential of Polyscias fruticosa as a Source of Bioactive Compounds (đinh lăng, saponin)', 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12430459/'),
+    ('DermNet – Compositae allergy (dị ứng cây họ Cúc)', 'https://www.dermnetnz.org/topics/compositae-allergy/'),
+]
+NEW_RULES18.append(('n18_aikhongxht', ['không nên uống trà xấu hổ', 'sesquiterpene', 'dermnet', 'gây mê hoa kỳ', 'vận động viên thi đấu'], 6))
+
+
+RULES[:0] = NEW_RULES18
